@@ -1,5 +1,4 @@
-# Collection - golang
-
+# Collection - java
 这个仓库用作保存有志于加入west2-online的同学的代码/笔记, 这里记录了他们学习过程中的点点滴滴
 
 ## 作业仓库
