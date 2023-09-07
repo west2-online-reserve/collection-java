@@ -55,6 +55,7 @@
         if (num<=0|| shangjia.getIsclosed() == true||num> shangjia.getTota()){
             System.out.println("你买不了,购买失败");
         }else {
+            shangjia.setTota(shangjia.getTota()-num);
             System.out.println("购买成功");
         }
     }
