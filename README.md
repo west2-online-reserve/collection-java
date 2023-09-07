@@ -13,7 +13,9 @@
 
 ## Github入门使用
 
-请访问: [飞书 - Git与Github超容易入门](https://west2-online.feishu.cn/wiki/Lsz9w3CiGinXzgkevtmceHZknrf)
+请访问: [飞书 - Git与Github超容易入门](https://west2-online.feishu.cn/wiki/Lsz9w3CiGinXzgkevtmceHZknrf) 
+
+关于IDEA中使用Git 请访问: [IntelliJ IDEA 中集成并使用 Git 图文教程 (转载自村雨遥)](https://cloud.tencent.com/developer/article/1936860)
 
 ## 提交作业
 
