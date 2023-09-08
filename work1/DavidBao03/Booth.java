@@ -64,6 +64,32 @@ public class Booth {
             return;
         }
 
+        total  += num;
         System.out.println("进货成功。");
     }
+
+    public void purchase(int num){
+        if(!isClosed()){
+            System.out.println("商家已打烊，购买失败。");
+            return;
+        }
+
+        if(num < 0){
+            System.out.println("购买数必须大于0，购买失败。");
+            return;
+        }
+
+        if(num > total){
+            System.out.println("购买数不能超过商家所持有的西瓜数，购买失败。");
+            return;
+        }
+
+        total -= num;
+        System.out.println("购买成功。");
+    }
+
+    public void closeBooths(Booth booth){
+        booth.isClosed = true;
+    }
 }
+
