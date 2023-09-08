@@ -1,4 +1,4 @@
-        public class Booth {
+public class Booth {
     private long id;
     private String name;
     private int tota;
