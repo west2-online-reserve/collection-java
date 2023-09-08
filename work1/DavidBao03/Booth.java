@@ -1,7 +1,7 @@
 public class Booth {
     private long id;
     private String name;
-    private int tota;
+    private int total;
     private boolean isClosed;
 
     public long getId() {
@@ -20,12 +20,12 @@ public class Booth {
         this.name = name;
     }
 
-    public int getTota() {
-        return tota;
+    public int getTotal() {
+        return total;
     }
 
-    public void setTota(int tota) {
-        this.tota = tota;
+    public void setTotal(int total) {
+        this.total = total;
     }
 
     public boolean isClosed() {
@@ -41,15 +41,15 @@ public class Booth {
         return "WaterMelonStall{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", tota=" + tota +
+                ", total=" + total +
                 ", isClosed=" + isClosed +
                 '}';
     }
 
-    public Booth(long id, String name, int tota, boolean isClosed) {
+    public Booth(long id, String name, int total, boolean isClosed) {
         this.id = id;
         this.name = name;
-        this.tota = tota;
+        this.total = total;
         this.isClosed = isClosed;
     }
 
