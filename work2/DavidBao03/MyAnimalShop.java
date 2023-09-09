@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -70,6 +71,7 @@ public class MyAnimalShop implements AnimalShop{
                 profit += animal instanceof Cat ? 300 : 200;
                 System.out.println(animal);
                 customer.times++;
+                customer.latestArrivedTime = LocalDate.now();
             } else {
                 throw new AnimalNotFoundException("抱歉，当前没有可以宠物可以购买");
             }
