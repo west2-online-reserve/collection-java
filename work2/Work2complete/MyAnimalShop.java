@@ -52,11 +52,11 @@ public class MyAnimalShop implements AnimalShop {
         }
     }
     //以下函数用于顾客购买宠物
-    public void shopping(int i,double price){
+    public void shopping(int i,Customer c){
         System.out.println("买第"+i+"只宠物");
         System.out.println(animal.get(i-1));
         animal.remove(i-1);
-        money += price;
+        money += c.price;
     }
 
     public void close() {
