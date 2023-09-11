@@ -1,4 +1,4 @@
-package Work2complete;
+package shaoxiawjc;
 
 public abstract class Animal {
     protected String name;

@@ -1,4 +1,4 @@
-package Work2complete;
+package shaoxiawjc;
 
 public class Dog extends Animal{
    boolean isVaccineInjected = true;

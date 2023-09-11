@@ -1,8 +1,7 @@
-package Work2complete;
+package shaoxiawjc;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Locale;
 
 public class MyAnimalShop implements AnimalShop {
     //余额
@@ -20,7 +19,8 @@ public class MyAnimalShop implements AnimalShop {
         this.money = m;
     }
 
-    //这里的test1用于add函数，判断是否错误
+   /*
+   //这里的test1用于add函数，判断是否错误
     public void detectExceptionForAdd(Animal a, double price) throws InsufficientBalanceException {
         if (price > money) {
             throw new InsufficientBalanceException(a.name, money);
@@ -28,10 +28,17 @@ public class MyAnimalShop implements AnimalShop {
         money -= price;
         animal.add(a);
     }
+    */
 
     public void add(Animal a) {
         try {
-            detectExceptionForAdd(a, a.price);
+            if (a.price > money){
+                throw new InsufficientBalanceException(a.name,money);
+            }else{
+                money -= a.price;
+                animal.add(a);
+            }
+
         } catch (InsufficientBalanceException e) {
             System.out.println(e);
         }

@@ -1,4 +1,4 @@
-package Work2complete;
+package shaoxiawjc;
 
 import java.time.LocalDate;
 
@@ -23,6 +23,14 @@ public class Customer {
 
     public void setTimes(int times) {
         this.times = times;
+    }
+
+    public LocalDate getNow() {
+        return now;
+    }
+
+    public void setNow(LocalDate now) {
+        this.now = now;
     }
 
     public String toString(){
