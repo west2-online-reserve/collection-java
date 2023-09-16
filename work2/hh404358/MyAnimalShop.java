@@ -26,7 +26,8 @@ class MyAnimalShop implements  AnimalShop{
 
     //介于不可能买只小动物的，设置此函数~~~
     public void Buy(Animal x,int num){
-        if(res-num*x.price<0)throw new InsufficientBalanceException();
+        if(res-num*x.price<0)
+            throw new InsufficientBalanceException();
         res-=num*x.price;
         animals.add(x);
 
@@ -93,6 +94,9 @@ class MyAnimalShop implements  AnimalShop{
             throw new AnimalNotFoundException();
         }
         customers.add(c);
+        c.time++;//用户到店次数加1，顾客到店时间为输入值，在获取用户信息时已确定
+        
+        
 
         boolean flag=false;
         for (Iterator<Animal> it=animals.iterator();it.hasNext();) {
