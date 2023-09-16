@@ -11,7 +11,7 @@ class Bonus{
         new Thread(()->{
             synchronized (obj){
                 for (int num:arr1) {
-                    System.out.println(num+" ");
+                    System.out.print(num+" ");
                     try{
                         obj.notify();
                         obj.wait();
@@ -22,10 +22,11 @@ class Bonus{
                 obj.notify();
             }
         }).start();
+        System.out.print('\');
         new Thread(()->{
             synchronized (obj){
                 for (int num:arr2) {
-                    System.out.println(num+" ");
+                    System.out.print(num+" ");
                     try{
                         obj.notify();
                         obj.wait();
