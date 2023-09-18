@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/DavidBao03" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/StepthenJun" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/XWBN" isTestSource="false" packagePrefix="XWB" />
       <sourceFolder url="file://$MODULE_DIR$/baieleven" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/qsADXS" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/shaoxiawjc" isTestSource="false" />
