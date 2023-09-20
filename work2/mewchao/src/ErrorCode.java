@@ -1,26 +1,13 @@
+/**
+ * @projectName（项目名称）: west2online_work2
+ * @className（类名称）: ErrorCode
+ * @description（类描述）: 异常枚举类定义 封装错误信息和错误码
+ * @author（创建人）: mewchao
+ * @createDate（创建时间）: 2023-09-20
+ */
 public enum ErrorCode {
-    /**
-     * 错误码类
-     */
-    NOT_LOGIN(300, "用户未登录"),
-    TOKEN_ERROR(301, "无效的TOKEN"),
-    AUTH_ERROR(302, "没有权限"),
-    PARAM_ERROR(400, "参数错误"),
-    BIZ_ERROR(500, "业务异常"),
-    BIZ_ERROR_OTHER(501, "业务异常:%s"),
-    UNKNOWN_ERROR(600, "未知错误"),
-
-    /**
-     * 用户中心业务异常
-     */
-    USER_NOT_EXIST(1000, "用户不存在"),
-    PASSWORD_ERROR(1001, "密码错误"),
-
-    /**
-     * 博客中心业务异常
-     */
-    ARTICLE_NOT_EXIST(2000, "文章不存在"),
-    ;
+    INSUFFICIENT_BALANCE(400, "宠物店的余额不足!"),
+    NOTFOUND_ANIMAL(501, "找不到动物!");
 
     private final int code;
     private final String message;

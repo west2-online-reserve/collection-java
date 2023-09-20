@@ -11,4 +11,16 @@ public class AnimalNotFountException extends BaseException{
     public AnimalNotFountException(){
 
     }
+
+    public AnimalNotFountException(Animal animal){
+        super(ErrorCode.NOTFOUND_ANIMAL);
+
+    }
+    /**
+     * 输出详细的错误信息
+     */
+    public void printDetailedError(){
+        this.printError();
+        System.out.println("找不到的动物类型为:"+animal.toString());
+    }
 }

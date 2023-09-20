@@ -6,8 +6,8 @@
  * @createDate（创建时间）: 2023-09-18
  */
 public class BaseException extends RuntimeException {
-    private int code;
-    private String message;
+    protected int code;
+    protected String message;
 
     public BaseException() {
     }
@@ -17,24 +17,22 @@ public class BaseException extends RuntimeException {
     }
 
     /**
-     * 可以直接抛出的异常
+     * 构造方法传入异常错误枚举类型 方便统一维护
      * @param errorCode
      */
     public BaseException(ErrorCode errorCode) {
         super(errorCode.getMessage());
-        this.code = errorCode.getCode();
-        this.message = errorCode.getMessage();
+        this.code=errorCode.getCode();
+        this.message=errorCode.getMessage();
+    }
+    /**
+     * 输出错误类型
+     * @param
+     */
+    public void printError(){
+         System.out.println("错误码:"+code);
+         System.out.println("错误信息:"+message);
     }
 
-    /**
-     * 可以对message进行扩展
-     * @param errorCode
-     * @param message
-     */
-    public BaseException(ErrorCode errorCode, String message) {
-        super(message);
-        this.code = errorCode.getCode();
-        this.message = String.format(errorCode.getMessage(), message);
-    }
 }
 
