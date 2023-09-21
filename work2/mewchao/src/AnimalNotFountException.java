@@ -5,22 +5,20 @@
  * @author（创建人）: mewchao
  * @createDate（创建时间）: 2023-09-18
  */
-public class AnimalNotFountException extends BaseException{
-    /**找不到的动物**/
-    private Animal animal;
-    public AnimalNotFountException(){
-
+public class AnimalNotFountException extends BaseException {
+    public AnimalNotFountException(String s) {
+        super(s);
     }
 
-    public AnimalNotFountException(Animal animal){
+    public AnimalNotFountException() {
         super(ErrorCode.NOTFOUND_ANIMAL);
-
     }
+
     /**
-     * 输出详细的错误信息
+     * @description输出详细的错误信息
      */
-    public void printDetailedError(){
+    public void printDetailedError() {
         this.printError();
-        System.out.println("找不到的动物类型为:"+animal.toString());
+        System.out.println("找不到的动物");
     }
 }

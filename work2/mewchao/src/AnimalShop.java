@@ -1,9 +1,11 @@
 public interface AnimalShop {
-    //public abstract
+    /**
+     * public abstract
+     **/
     void addAnimal(Animal animal);
 
-    void entertainCustomers(Customer customer, Animal animal);
+    void entertainCustomers(Customer customer);
 
-    boolean isOpened = true;
+    void setnotOpened();
 }
 

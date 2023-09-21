@@ -1,4 +1,4 @@
-public class Main {
+public class Test {
     public static void main(String[] args) {
         Booth booth=new Booth(222200231,"youjunchao",100,false);
         System.out.printf(booth.toString());
