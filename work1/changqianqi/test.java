@@ -5,6 +5,8 @@ public class test {
         System.out.println("初始状态：");
         System.out.println(booth1.toString());
         System.out.println(booth2.toString());
+        Booth.purchase(booth1, 30);
+        Booth.purchase(booth2, 60);
         System.out.println("购买后状态：");
         System.out.println(booth1.toString());
         System.out.println(booth2.toString());

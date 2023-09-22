@@ -47,9 +47,9 @@ public class Booth {
                 "\n在售西瓜数：" + total +
                 "\n是否休摊整改：" + isClosed;
     }
-    public static void purchase(Booth a,int pq)
+    public static void purchase(Booth a,int restockQuantity)
     {
-        if(pq<=0)
+        if(restockQuantity<=0)
         {
             System.out.println("购买数量必须为正数");
             return;
@@ -59,22 +59,22 @@ public class Booth {
             System.out.println("摊主休摊整改中，无法购买");
             return;
         }
-        if(pq>a.getTotal())
+        if(restockQuantity>a.getTotal())
         {
             System.out.println("购买数量大于在售西瓜数，购买失败");
             return;
         }
-        a.setTotal(a.getTotal() - pq);
-        System.out.println("成功购买 " +pq + " 个西瓜");
+        a.setTotal(a.getTotal() - restockQuantity);
+        System.out.println("成功购买 " +restockQuantity + " 个西瓜");
     }
-    public void restock(int rq) {
-        if (rq <= 0 || rq > 200) {
+    public void restock(int restockQuantity) {
+        if (restockQuantity <= 0 || restockQuantity > 200) {
             System.out.println("进货数量必须为正数且不超过200");
             return;
         }
 
-        this.total += rq;
-        System.out.println("成功进货 " + rq + " 个西瓜");
+        this.total += restockQuantity;
+        System.out.println("成功进货 " + restockQuantity + " 个西瓜");
     }
     public static void closeBooths(Booth[] booths) {
         for (Booth booth : booths) {
