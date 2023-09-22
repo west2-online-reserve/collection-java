@@ -5,6 +5,7 @@ public class Booth {
    private boolean isClosed;
 
 
+
     public long getId() {
         return this.id;
     }
@@ -29,14 +30,20 @@ public class Booth {
     public void setClosed(boolean isClosed){
     this.isClosed=isClosed;
     }
-    public String toString(){
-        return "id="+this.id+
-                "business's name="+this.name+
-                "total="+this.total+
-                "isClosed="+getisClosed();
+
+    @Override
+    public String toString() {
+        return "Booth{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", total=" + total +
+                ", isClosed=" + isClosed +
+                '}';
     }
 
-    public void Booth (long id,String name,int total,boolean isClosed){
+
+
+    public  Booth (long id,String name,int total,boolean isClosed){
         this.id = id;
         this.name = name;
         this.total = total;
@@ -53,9 +60,10 @@ public class Booth {
         System.out.println("商家处于休摊整改状态");
     }
     if(need > business.total){
-        System.out.println("购买西瓜数不能大于在售西 瓜数");
+        pass = false;
+        System.out.println("购买西瓜数不能大于在售西瓜数");
     }
-    if (pass){
+    if (pass==true){
         business.total=business.total-need;
         System.out.println("购买成功！");
     }
