@@ -59,11 +59,11 @@ public class Booth {
 
     //进货
     public void restock(int ResNums){
-        if(ResNums<=200){
+        if(ResNums<=200&&ResNum>=0){
             this.total+=ResNums;
             System.out.println("进货成功");
         }else{
-            System.out.println("进货失败，单次进货量不能超过 200");
+            System.out.println("进货失败，单次进货量要在[0，200]间");
         }
     }
 
