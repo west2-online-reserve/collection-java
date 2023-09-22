@@ -6,7 +6,7 @@ public  class ChineseRuralDog extends Animal{
         super(name, age, sex, price);
     }
     public String toString() {
-        String result="name:"+name+"age"+age+"sex:"+sex+"price:"+price;
+        String result="name:"+name+" "+"age"+age+" "+"sex:"+sex+" "+"price:"+price;
         return result;
     }
 }

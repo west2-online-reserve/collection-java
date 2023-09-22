@@ -8,7 +8,7 @@ public class Customer {
     private LocalDate arriveDay;
     @Override
     public String toString(){
-        String result="name:"+name+"count:"+count+"arriveTime:"+ arriveDay.toString();
+        String result="name:"+name+" "+"count:"+count+" "+"arriveTime:"+ arriveDay.toString();
         return result;
     }
 
