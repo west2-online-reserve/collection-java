@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--        映射配置文件 WeatherMapper.xml-->
+<!--namespace名称空间，该命名空间和对应mapper接口的全限定名一致-->
+<mapper namespace="org.example.mapper.WeatherMapper">
+    <insert id="add"  useGeneratedKeys="true" keyProperty="id">
+
+        insert into weather
+        values(#{id},#{fxDate},#{tempMax},#{tempMin},#{textDay});
+    </insert>
+    
+    <delete id="deleteByIds">
+        delete from weather
+        where id
+        in
+        <foreach collection="ids" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+    <select id="selectAll" resultType="org.example.pojo.Weather">
+        select * from Weather;
+    </select>
+    <select id="selectByIds" resultType="org.example.pojo.Weather">
+        select *from Weather
+        where id
+        in
+        <foreach collection="ids" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+    </select>
+    <update id="update">
+        update weather
+
+        <set>
+            <if test="tempMax!=null and tempMax!=''">
+                tempMax=#{tempMax},
+            </if>
+            <if test="tempMin!=null and tempMin!=''">
+                tempMin=#{tempMin},
+            </if>
+            <if test="textDay!=null and textDay !=''">
+                textDay=#{textDay},
+            </if>
+            <if test="textDay!=null and textDay !=''">
+                textDay=#{textDay},
+            </if>
+        </set>
+        where id=#{id} and fxDate=#{fxDate};
+    </update>
+    
+
+</mapper>
