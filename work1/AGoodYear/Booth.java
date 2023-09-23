@@ -79,8 +79,13 @@ public class Booth {
     }
 
     public static void closeBooths(Booth[] booths) {
+        boolean titlePrinted = false;
         for (int i = 0; i < booths.length; i++) {
             if (booths[i].ifClosed() == true) {
+                if (titlePrinted == false) {
+                    System.out.println("以下为休摊整改的摊位信息：\n");
+                    titlePrinted = true;
+                }
                 System.out.println(booths[i].toString());
             } else {
                 booths[i].setClosed(true);

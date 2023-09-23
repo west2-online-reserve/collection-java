@@ -18,5 +18,6 @@ public class Main {
         Booth b2 = new Booth(1919810, "otto", 233, false);
         array[1] = b2;
         Booth.closeBooths(array);
+        Booth.closeBooths(array);
     }
 }
