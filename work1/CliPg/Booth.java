@@ -67,5 +67,29 @@ public class Booth {
         }
     }
 
+               //向目标摊位购买指定数量西瓜
+    public static void purchase(Booth booth,int PurNums) {
+            if (PurNums > 0 && !booth.isIsClosed() && PurNums <= booth.getTotal()) {
+                int remain = booth.getTotal() - PurNums;
+                booth.setTotal(remain);
+                System.out.println("购买成功");
+            } else {
+                System.out.println("购买失败");
+            }
+        }
+
+        //让booths中所有未被休业整改的摊位歇业，并输出已在休业整改的摊位信息
+    public static void closeBooths(Booth []booths) {
+            for (int i = 0; i < booths.length; i++) {
+                if (!booths[i].isIsClosed()) {
+                    booths[i].setIsClosed(true);
+                } else {
+                    System.out.println(booths[i].toString());
+                }
+            }
+
+        
+    }
+
 
 }
