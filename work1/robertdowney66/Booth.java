@@ -63,9 +63,9 @@ public class Booth {
 
     }
     public void restock(int b){
-        if (b>200){
+        if (b>200||b<0){
             System.out.println("进货失败");
-        }else{
+        }else {
             total+=b;
             System.out.println("进货成功");
         }
