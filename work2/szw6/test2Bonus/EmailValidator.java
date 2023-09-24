@@ -1,11 +1,14 @@
 package szw.test2Bonus;
-
+import java.util.regex.Pattern;
 public class EmailValidator {
+
     public static boolean isValidEmail(String email) {
-        // 使用正则表达式验证邮箱格式
-      String regex ="[a-zA-Z0-9]+@[a-zA-Z0-9]+\\.[a-zA-Z0-9]+";
-        return email.matches(regex);
+        if ((email != null) && (!email.isEmpty())) {
+            return Pattern.matches("^(\\w+([-.][A-Za-z0-9]+)*){3,18}@\\w+([-.][A-Za-z0-9]+)*\\.\\w+([-.][A-Za-z0-9]+)*$", email);
+        }
+        return false;
     }
+
     public static void main(String[] args) {
         String email1 = "test@example.com";
         String email2 = "invalid_email";
