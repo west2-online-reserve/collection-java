@@ -2,9 +2,17 @@
 
 ## 参考资料
 
+### 参考视频（建议刚接触编程语言的跟着视频走）
+
+* [狂神说Java]( https://www.bilibili.com/video/BV12J41137hu?share_source=copy_web&vd_source=7d2fd3963c594f890889ebd454ef8d1c)	(通俗易懂，学习方法也讲的不错，后面也有一些内容是推荐狂神老师的视频教程)
+* [动力节点](https://www.bilibili.com/video/BV1Rx411876f?share_source=copy_web&vd_source=7d2fd3963c594f890889ebd454ef8d1c)
+* Android Kotlin：
+  * [Kotlin 基础视频+文章 by 扔物线](https://rengwuxian.com/kotlin-basic-1/)
+  * [Kotlin 从入门到实战](https://www.bilibili.com/video/BV1bZ4y1N7my)
+
 ### 基础参考教程
 
-* [廖雪峰Java入门教程 (liaoxuefeng.com)](https://www.liaoxuefeng.com/wiki/1252599548343744)
+* [廖雪峰Java入门教程 (liaoxuefeng.com)](https://www.liaoxuefeng.com/wiki/1252599548343744) **不建议跟着用Eclipse，关于IDE的推荐具体看下面的提示**
 * [编程狮](https://www.w3cschool.cn/java/)
 
 ### 推荐书籍
@@ -18,13 +26,6 @@
   * [Kotlin 官方指南](https://www.kotlincn.net/docs/reference/basic-syntax.html)
 
 
-### 参考视频
-
-* [狂神说Java]( https://www.bilibili.com/video/BV12J41137hu?share_source=copy_web&vd_source=7d2fd3963c594f890889ebd454ef8d1c)	(通俗易懂，学习方法也讲的不错，后面也有一些内容是推荐狂神老师的视频教程)
-* [动力节点](https://www.bilibili.com/video/BV1Rx411876f?share_source=copy_web&vd_source=7d2fd3963c594f890889ebd454ef8d1c)
-* Android Kotlin：
-  * [Kotlin 基础视频+文章 by 扔物线](https://rengwuxian.com/kotlin-basic-1/)
-  * [Kotlin 从入门到实战](https://www.bilibili.com/video/BV1bZ4y1N7my)
 
 ## 知识点
 
@@ -45,7 +46,7 @@
   * 私有变量： 
     * 摊号 long id
     * 摊主姓名 String name
-    * 在售西瓜数 int tota
+    * 在售西瓜数 int total
     * 是否休摊整改 boolean isClosed
   * 方法：
     * 上述变量对应的 get 和 set 方法
