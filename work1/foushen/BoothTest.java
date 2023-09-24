@@ -10,6 +10,7 @@ public class BoothTest {
         myBooth.restore(20);
         yourBooth.restore(20);
         myBooth.restore(300);
+        myBooth.restore(-1);
         System.out.println("------------------------------------");
         //测试puchase函数
         Booth.purchase(myBooth, 10);
