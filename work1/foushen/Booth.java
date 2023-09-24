@@ -67,7 +67,7 @@ public class Booth {
     }
 
     public void restore(int restoreNum) {
-        if (restoreNum > 200||restoreNum<200) {
+        if (restoreNum > 200|| restoreNum<200) {
             System.out.println("单次进货量需为正且不能不能超过200");
             return;
         } else if(isClosed){
