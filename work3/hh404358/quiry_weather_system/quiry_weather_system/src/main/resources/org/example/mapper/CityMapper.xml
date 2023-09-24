@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--        映射配置文件 CityMapper.xml-->
+<!--namespace名称空间，该命名空间和对应mapper接口的全限定名一致-->
+<mapper namespace="org.example.mapper.CityMapper">
+    <insert id="add"  useGeneratedKeys="true" keyProperty="id">
+        insert into cities
+        values(#{name},#{id},#{lat},#{lon},#{adm2},#{adm1},#{country},#{citytype},#{dengji});
+    </insert>
+    <delete id="deleteById">
+        delete  from cities where id=#{id}
+    </delete>
+    <!--默认：array = 数组
+        @param改变为ids
+    -->
+    <delete id="deleteByIds">
+        delete from cities
+        where id
+        in
+        <foreach collection="ids" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+
+    </delete>
+    <delete id="deleteByNames" >
+        delete from cities
+        where name
+        in
+        <foreach collection="names" item="name" separator="," open="(" close=")">
+            #{name}
+        </foreach>
+
+    </delete>
+    <update id="update" >
+        update cities
+        <set>
+           <if test="name!=null and name!=''">
+                name=#{name},
+           </if>
+            <if test="lat!=null and lat!=''">
+                lat=#{lat},
+            </if>
+            <if test="lon!=null and lon !=''">
+                lon=#{lon},
+            </if>
+            <if test="adm2!=null and adm2 !=''">
+                adm2=#{adm2},
+            </if>
+            <if test="adm1!=null and adm1!=''">
+                adm1=#{adm1},
+            </if>
+            <if test="country!=null and country!=''">
+                country=#{country},
+            </if>
+            <if test="citytype!=null and citytype !=''">
+                citytype=#{citytype},
+            </if>
+            <if test="dengji!=null and dengji !=''">
+                dengji=#{dengji}
+            </if>
+
+
+        </set>
+        where id=#{id};
+    </update>
+
+    <select id="selectAll" resultType="org.example.pojo.City">
+        select * from cities;
+    </select>
+    <select id="selectByIds" resultType="org.example.pojo.City">
+        select *from cities
+        where id
+        in
+        <foreach collection="ids" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+    </select>
+    <select id="selectByNames" resultType="org.example.pojo.City">
+        select *from cities
+        where name
+        in
+        <foreach collection="names" item="name" separator="," open="(" close=")">
+            #{name}
+        </foreach>
+    </select>
+    <select id="selectByCondition" resultType="org.example.pojo.City">
+        select *from cities
+        <where>
+             <choose>
+                 <when test="lat != null">
+                     lat=#{lat}
+                 </when>
+                <when test ="lon!=null">
+                    lon=#{lon}
+                </when>
+                <otherwise>
+                    1=1
+                </otherwise>
+             </choose>
+    </where>
+    </select>
+    <select id="selectByName" resultType="org.example.pojo.City">
+        select * from cities
+        where name=#{name}
+    </select>
+
+</mapper>
