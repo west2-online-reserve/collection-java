@@ -69,6 +69,7 @@ public class Booth {
             System.out.println("单次进货量应为正数!");
             return;
         }
+        System.out.println("进货成功!");
         tota+=num;
     }
 
@@ -77,9 +78,11 @@ public class Booth {
         for(int i=0;i<n;i++){
             if(!booths[i].isClosed){
                 booths[i].isClosed=true;
+                System.out.println("已成功关闭摊位:");
+                System.out.println(booths[i].toString());
             }
             else{
-                System.out.println("该摊位已在休业整改:\n");
+                System.out.println("该摊位已在休业整改:");
                 System.out.println(booths[i].toString());
             }
         }
