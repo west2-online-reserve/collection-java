@@ -54,15 +54,15 @@ public class Booth {
     }
 
     public static void purchase(Booth booth, int num) {
-        if (booth.getTotal() >= num && booth.ifClosed() != true && num > 0) {
+        if (booth.getTotal() >= num && booth.ifClosed() != true && num >= 0) {
             booth.setTotal(booth.getTotal() - num);
-            System.out.println("交易成功！");
+            System.out.println("交易成功！\n");
         } else {
             System.out.print("交易失败！");
-            if (num <= 0) {
-                System.out.print("参数非法\n");
-            } else if (booth.isClosed == true){
+            if (booth.isClosed == true) {
                 System.out.print("休摊整改中\n");
+            } else if (num < 0) {
+                System.out.print("不能买入负数\n");
             } else if (booth.getTotal() < num) {
                 System.out.print("西瓜数量不足\n");
             }
@@ -72,9 +72,9 @@ public class Booth {
     public void restock(int num) {
         if (num <= 200 && num >= 0) {
             total += num;
-            System.out.println("进货成功！");
+            System.out.printf("进货成功！现在有%d个西瓜\n", num);
         } else {
-            System.out.println("进货失败！数量不合法");
+            System.out.println("进货失败！数量不合法\n");
         }
     }
 

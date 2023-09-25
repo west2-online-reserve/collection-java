@@ -4,12 +4,14 @@ public class Main {
         String s = b.toString();
         System.out.print(s);
         Booth.purchase(b, 10);
-        Booth.purchase(b, 10);
+        Booth.purchase(b, 10);//库存不足测试
+        Booth.purchase(b, -10);//买入负数测试
         b.setClosed(true);
-        Booth.purchase(b, 10);
+        Booth.purchase(b, 10);//休摊买入测试
         b.setClosed(false);
-        b.restock(201);
+        b.restock(201);//进货超出200
         b.restock(200);
+        b.restock(-10);//进货负数
         Booth.purchase(b,2000);
         System.out.println(b.toString());
         b.setClosed(true);
