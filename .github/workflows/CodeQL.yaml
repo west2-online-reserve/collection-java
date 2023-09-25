@@ -35,10 +35,7 @@ jobs:
       uses: github/codeql-action/init@v2
       with:
         languages: ${{ matrix.language }}
-
-    - name: Autobuild
-      uses: github/codeql-action/autobuild@v2
-
+  
     - name: Build with Maven
       run: mvn clean install  # 使用Maven构建项目
 
