@@ -30,7 +30,7 @@ public class Booth {
         this.total = total;
     }
 
-    public boolean getClosed(){
+    public boolean getClosed(){   
         return isClosed;
     }
 
