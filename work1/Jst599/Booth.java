@@ -2,7 +2,7 @@ package west_2_work_JST;
 
 public class Booth {
     private long id;
-    private String name;
+    private String name;  
     private int total;
     private boolean isClosed;
 
