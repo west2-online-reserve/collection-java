@@ -59,7 +59,7 @@ public class Booth {
     }
 
     public void restock(Booth booth,int input){
-        if (input > 200){
+        if (input > 200||input <0){
             System.out.println("进货失败");
         }else {
             booth.total += input;
@@ -69,9 +69,9 @@ public class Booth {
     public static void closeBooths(Booth[] booths){
 
         for (int i = 0;i<booths.length;i++){
-            boolean flag = true;
+            //boolean flag = true;
             if (booths[i].isClosed == false){
-                booths[i].isClosed = flag;
+                booths[i].isClosed = true;
             }else {
                 System.out.println(booths[i].toString());
             }
