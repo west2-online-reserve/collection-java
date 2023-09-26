@@ -1,7 +1,7 @@
 package west_2_work_JST;
 
-public class Booth {   
-    private long id;  
+public class Booth {
+    private long id;
     private String name;
     private int total;
     private boolean isClosed;
@@ -29,7 +29,7 @@ public class Booth {
     public void setTotal(int total){
         this.total = total;
     }
-    
+
     public boolean getClosed(){
         return isClosed;
     }
@@ -52,19 +52,29 @@ public class Booth {
     public static void purchase(Booth booth,int num){
         if (num>0&&booth.isClosed==false&&num< booth.total){
             System.out.println("交易成功");
+            booth.total -= num;
         }else {
             System.out.println("交易失败");
         }
     }
 
-    public void restock(int input){
+    public void restock(Booth booth,int input){
         if (input > 200){
             System.out.println("进货失败");
+        }else {
+            booth.total += input;
         }
     }
 
-    public static void closeBooths(Booth booths){
-        booths.isClosed = true;
-        System.out.println(booths.toString());
+    public static void closeBooths(Booth[] booths){
+
+        for (int i = 0;i<booths.length;i++){
+            boolean flag = true;
+            if (booths[i].isClosed == false){
+                booths[i].isClosed = flag;
+            }else {
+                System.out.println(booths[i].toString());
+            }
+        }
     }
-}        
+}
