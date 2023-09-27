@@ -36,6 +36,7 @@ jobs:
       with:
         pattern: '^\d{9} - work\d+$'
       id: pr-title-check
+      continue-on-error: true
 
     - name: Check PR Title
       run: |
@@ -43,7 +44,7 @@ jobs:
         echo "Error: PR title does not match the required format."
         exit 1
         fi
-        continue-on-error: true
+
 
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v2
