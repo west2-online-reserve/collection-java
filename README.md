@@ -12,7 +12,7 @@
 但是资料请访问上述仓库, 资料是随时都会更新的, 不过我们还是希望你可以养成一个**自我学习查找**的好习惯, 不要过度依赖他人
 
 ## Github入门使用
-
+1
 请访问: [飞书 - Git与Github超容易入门](https://west2-online.feishu.cn/wiki/Lsz9w3CiGinXzgkevtmceHZknrf) 
 
 关于IDEA中使用Git 请访问: [IntelliJ IDEA 中集成并使用 Git 图文教程](https://cloud.tencent.com/developer/article/1936860) (转载自村雨遥)
