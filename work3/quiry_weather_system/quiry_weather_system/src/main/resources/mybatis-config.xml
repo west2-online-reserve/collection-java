@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--根标签configuration-->
+<configuration>
+    <!--    typeAliases类型别名-->
+    <!--    指定一个包名，MyBatis 会在包名下面搜索需要的 Java Bean-->
+    <typeAliases>
+        <package name="org.example"/>
+    </typeAliases>
+
+    <!--
+    environments：配置数据库连接环境信息。可以配置多个environment，通过default属性切换不同的environment
+    尽管可以配置多个环境，但每个 SqlSessionFactory 实例只能选择一种环境。
+    -->
+    <!--    default是每个environment默认使用的环境 ID-->
+    <environments default="development">
+        <!--        指定每个 environment 元素定义的环境 ID-->
+        <!--        注意：环境可以随意命名，但务必保证默认的环境 ID 要匹配其中一个环境 ID。-->
+        <environment id="development">
+            <!--            事务管理器transactionManager的配置-->
+            <!--            在 MyBatis 中有两种类型的事务管理器（也就是 type="[JDBC|MANAGED]"）：-->
+
+            <!--            JDBC – 这个配置直接使用了 JDBC 的提交和回滚设施，它依赖从数据源获得的连接来管理事务作用域。-->
+            <!--            MANAGED – 这个配置几乎没做什么。它从不提交或回滚一个连接，而是让容器来管理事务的整个生命周期（比如 JEE 应用服务器的上下文）。 默认情况下它会关闭连接。然而一些容器并不希望连接被关闭，因此需要将 closeConnection 属性设置为 false 来阻止默认的关闭行为。-->
+            <transactionManager type="JDBC"/>
+            <!--            数据源dataSource 元素使用标准的 JDBC 数据源接口来配置 JDBC 连接对象的资源。-->
+
+            <!--            大多数 MyBatis 应用程序会按示例中的例子来配置数据源。虽然数据源配置是可选的，但如果要启用延迟加载特性，就必须配置数据源。-->
+            <!--            有三种内建的数据源类型（也就是 type="[UNPOOLED|POOLED|JNDI]"）：-->
+            <!--            POOLED– 这种数据源的实现利用“池”的概念将 JDBC 连接对象组织起来，避免了创建新的连接实例时所必需的初始化和认证时间。-->
+            <!--            UNPOOLED– 这个数据源的实现会每次请求时打开和关闭连接。-->
+            <!--            JNDI – 这个数据源实现是为了能在如 EJB 或应用服务器这类容器中使用，容器可以集中或在外部配置数据源，然后放置一个 JNDI 上下文的数据源引用。-->
+            <dataSource type="POOLED">
+                <!--数据库连接信息-->
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql:///mybatis?allowPublicKeyRetrieval=true&amp;useSSL=false"/>
+                <property name="username" value="root"/>
+                <property name="password" value="liujiarong"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!--加载sql映射文件，告诉MyBatis 去哪寻找映射SQL 的语句。-->
+        <!--        Maven项目编译后，java和resources下的目录和文件都在同一个跟目录下，所以路径是这样的-->
+        <mapper class="org.example.mapper.CityMapper"/>
+        <!--加载sql映射文件，告诉MyBatis 去哪寻找映射SQL 的语句。-->
+        <!--        Maven项目编译后，java和resources下的目录和文件都在同一个跟目录下，所以路径是这样的-->
+        <mapper class="org.example.mapper.WeatherMapper"/>
+    </mappers>
+
+</configuration>
