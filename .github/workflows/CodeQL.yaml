@@ -34,16 +34,10 @@ jobs:
     - name: PR Title Verify
       uses: satvik-s/pr-title-check@1.2.1
       with:
-        pattern: '^\d{9} - work\d+$'
-      id: pr-title-check
-      continue-on-error: true
-
-    - name: Check PR Title
-      run: |
-        if [ "${{ steps.pr-title-check.outputs.valid }}" == "false" ]; then
-        echo "Error: PR title does not match the required format."
-        exit 1
-        fi
+    # regex pattern to match against
+        pattern: ^\d{9} - work\d+$
+    # flags for the regex input
+        flags: i
 
 
     - name: Initialize CodeQL
