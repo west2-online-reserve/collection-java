@@ -1,7 +1,7 @@
 # Java & Andoird第一轮考核
 
 ## 参考资料
-
+test
 ### 参考视频（建议刚接触编程语言的跟着视频走）
 
 * [狂神说Java]( https://www.bilibili.com/video/BV12J41137hu?share_source=copy_web&vd_source=7d2fd3963c594f890889ebd454ef8d1c)	(通俗易懂，学习方法也讲的不错，后面也有一些内容是推荐狂神老师的视频教程)
