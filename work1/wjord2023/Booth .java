@@ -68,7 +68,7 @@ public class Booth {
         }else{
             int i = booth.getTotal() +input;
             booth.setTotal(i);
-            System.out.println("进货后该商家的数据为："+ booth);
+            System.out.println("进货后该商家的数据为："+ booth.toString());
         }
     }
     //进货西瓜
