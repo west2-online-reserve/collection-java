@@ -30,20 +30,14 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-      
-    - name: PR Title Check
-      run: |
-        pr_title="${{ github.event.pull_request.title }}"
-        # 定义标题规范，例如标题应以 "9位数字 - work数字" 的格式
-        title_pattern="^\d{9} - work\d+$"
-        
-        if [[ ! "$pr_title" =~ $title_pattern ]]; then
-          echo "Invalid PR title. PR titles must be in the format '学号 - work数字'."
-          echo "Please update the PR title and try again."
-          exit 1
-        fi
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: PR Title Verify
+      uses: satvik-s/pr-title-check@1.2.1
+      with:
+    # regex pattern to match against
+        pattern: ^\d{9} - work\d+$
+    # flags for the regex input
+        flags: i
 
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v2
