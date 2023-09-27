@@ -14,7 +14,7 @@ public class Booth {
         this.total = total;
         this.isClosed = isClosed;
     }
-    //ÉÏÊö±äÁ¿¶ÔÓ¦µÄ get ºÍ set ·½·¨
+    //ä¸Šè¿°å˜é‡å¯¹åº”çš„ get å’Œ set æ–¹æ³•
 
     public long getId(){
         return id;
@@ -41,19 +41,19 @@ public class Booth {
         this.isClosed = isClosed;
     }
 
-    //Ò»¸öÖØĞ´µÄ toString()·½·¨À´Êä³ö ¸ÃÎ÷¹ÏÌ¯µÄËùÓĞĞÅÏ¢£¨ÒªÓĞÒ»¶¨µÄ¸ñÊ½\
+    //ä¸€ä¸ªé‡å†™çš„ toString()æ–¹æ³•æ¥è¾“å‡º è¯¥è¥¿ç“œæ‘Šçš„æ‰€æœ‰ä¿¡æ¯ï¼ˆè¦æœ‰ä¸€å®šçš„æ ¼å¼\
     public  String toString(){
         return "The booth id: "+getId()+"\n"+"the name of booth owner: "+getName()+"\n"+"the number of watermelons on sale: "+getTotal()+"\n"+"Whether to stop amortization rectification:  "+getIsClosed();
     }
 
-    //Ò»¸ö¾²Ì¬(static)·½·¨ purchase£¨Booth ÉÌ¼Ò, int ¹ºÂòÊıÁ¿£©, ÏòÄ¿±êÌ¯Î»Âô¼Ò ¹ºÂòÖ¸¶¨ÊıÁ¿µÄÎ÷¹Ï¡£ ¹ºÂòµÄÎ÷¹ÏÊı±ØĞëÎªÕıÊı£»ÉÌ¼Ò²»ÄÜ´¦ÓÚĞİÌ¯Õû¸Ä×´Ì¬£»¹ºÂòÎ÷¹ÏÊı²»ÄÜ´óÓÚÔÚÊÛÎ÷ ¹ÏÊı¡£³öÏÖÒÔÉÏÇé¿öÊÓÎª¹ºÂòÊ§°Ü£¬Ì¯Ö÷ÔÚÊÛÎ÷¹ÏÊı²»ÄÜÓĞËù±ä»¯¡£ ÎŞÂÛ½»Ò×³É¹¦Óë·ñ£¬¶¼ÒªÊä³öÒ»¶¨µÄÌáÊ¾ĞÅÏ¢
+    //ä¸€ä¸ªé™æ€(static)æ–¹æ³• purchaseï¼ˆBooth å•†å®¶, int è´­ä¹°æ•°é‡ï¼‰, å‘ç›®æ ‡æ‘Šä½å–å®¶ è´­ä¹°æŒ‡å®šæ•°é‡çš„è¥¿ç“œã€‚ è´­ä¹°çš„è¥¿ç“œæ•°å¿…é¡»ä¸ºæ­£æ•°ï¼›å•†å®¶ä¸èƒ½å¤„äºä¼‘æ‘Šæ•´æ”¹çŠ¶æ€ï¼›è´­ä¹°è¥¿ç“œæ•°ä¸èƒ½å¤§äºåœ¨å”®è¥¿ ç“œæ•°ã€‚å‡ºç°ä»¥ä¸Šæƒ…å†µè§†ä¸ºè´­ä¹°å¤±è´¥ï¼Œæ‘Šä¸»åœ¨å”®è¥¿ç“œæ•°ä¸èƒ½æœ‰æ‰€å˜åŒ–ã€‚ æ— è®ºäº¤æ˜“æˆåŠŸä¸å¦ï¼Œéƒ½è¦è¾“å‡ºä¸€å®šçš„æç¤ºä¿¡æ¯
     public static  void purchase(Booth booth, int buy){
         long id = booth.getId();
         String name = booth.getName();
         int total = booth.getTotal();
         boolean isClosed = booth.getIsClosed();
         if(!isClosed){
-            System.out.println("The business cannot be in a state of rectification");
+            System.out.println("The booth should be open" );
         }else if(total<=0){
             System.out.println("The number of watermelons purchased must be positive");
         }else if(buy>total){
@@ -64,9 +64,9 @@ public class Booth {
         }
     }
 
-    //Ò»¸öÊµÀı·½·¨ restock(int ½ø»õÎ÷¹ÏÊı),Îª¶ÔÓ¦Ì¯Î»½ø»õ£¬µ¥´Î½ø»õÁ¿²»ÄÜ³¬¹ı 200£¬½ø»õÊ§°ÜÔòÊä³öÏàÓ¦µÄÌáÊ¾ĞÅÏ¢¡£
+    //ä¸€ä¸ªå®ä¾‹æ–¹æ³• restock(int è¿›è´§è¥¿ç“œæ•°),ä¸ºå¯¹åº”æ‘Šä½è¿›è´§ï¼Œå•æ¬¡è¿›è´§é‡ä¸èƒ½è¶…è¿‡ 200ï¼Œè¿›è´§å¤±è´¥åˆ™è¾“å‡ºç›¸åº”çš„æç¤ºä¿¡æ¯ã€‚
     public void restock(int stock){
-        if(stock>200){
+        if(stock>200||stock<=0){
             System.out.println("Failed to stock");
         }else{
             System.out.println("Successful stock");
