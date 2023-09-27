@@ -31,7 +31,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: PR Title Verify
+    - name: PR标题的正确格式 学号 - work1
       uses: satvik-s/pr-title-check@1.2.1
       with:
     # regex pattern to match against
