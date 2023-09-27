@@ -1,6 +1,6 @@
 # Collection - java
 这个仓库用作保存有志于加入west2-online的同学的代码/笔记, 这里记录了他们学习过程中的点点滴滴
-
+1
 ## 作业仓库
 
 请访问: [Java作业与帮助资料](https://github.com/west2-online/learn-java)
