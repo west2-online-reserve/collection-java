@@ -81,7 +81,6 @@ public class Booth {
                 System.out.println(booths[i].toString());
             }
         }
-
     }
     //休业整改
 }
