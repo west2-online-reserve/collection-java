@@ -38,10 +38,12 @@ jobs:
         title_pattern="^\d{9} - work\d+$"
         
         if [[ ! "$pr_title" =~ $title_pattern ]]; then
-          echo "pr标题格式错误，正确格式应该如 '学号 - work1'."
+          echo "Invalid PR title. PR titles must be in the format '学号 - work数字'."
           echo "Please update the PR title and try again."
           exit 1
         fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v2
