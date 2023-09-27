@@ -63,12 +63,12 @@ public class Booth {
     }
     //构造器
     public void restock(Booth booth,int input){
-        if(input >200 || input <=0){
+        if(input >200 || input<=0){
             System.out.println("进货失败");
         }else{
             int i = booth.getTotal() +input;
             booth.setTotal(i);
-            System.out.println("进货后该商家的数据为："+booth.toString());
+            System.out.println("进货后该商家的数据为："+ booth);
         }
     }
     //进货西瓜

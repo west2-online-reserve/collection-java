@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         Booth booth1 = new Booth(1, "xiaohon", 100, false);
@@ -11,5 +13,4 @@ public class Main {
 
 
     }
-
 }
