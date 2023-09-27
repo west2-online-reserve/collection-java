@@ -30,6 +30,18 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+      
+    - name: PR Title Check
+      run: |
+        pr_title="${{ github.event.pull_request.title }}"
+        # 定义标题规范，例如标题应以 "9位数字 - work数字" 的格式
+        title_pattern="^\d{9} - work\d+$"
+        
+        if [[ ! "$pr_title" =~ $title_pattern ]]; then
+          echo "pr标题格式错误，正确格式应该如 '学号 - work1'."
+          echo "Please update the PR title and try again."
+          exit 1
+        fi
 
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v2
