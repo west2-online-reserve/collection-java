@@ -1,4 +1,4 @@
-public class watermalontest {
+public class Standtest {
     public static void main(String[] args) {
         Stand x= new Stand(1,"张三",200,false);
         Stand y= new Stand(2,"李四",300,true);
@@ -10,6 +10,6 @@ public class watermalontest {
         x.restock(200);//成功进货
         x.restock(-20);//进货量为负
         System.out.println(x);
-        Stand.closeStands(new Stand[]{x,y});//歇业整顿
+        x.closeStands(new Stand[]{x,y});//歇业整顿
     }
 }

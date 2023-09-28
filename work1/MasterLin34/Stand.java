@@ -73,5 +73,3 @@ class Stand{
         return "摊号 :"+ID+" |摊主姓名:"+name+" |剩余西瓜数 :"+quantity;
     }//重写的toString()方法输出摊位的所有内容
 }
-
-
