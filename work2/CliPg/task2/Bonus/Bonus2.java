@@ -7,7 +7,7 @@ public class Bonus2 {
 
     public static boolean Check(String s){
 
-        String ret="\\d{0,9}@(qq|gmail|icloud).com";
+        String ret="\\d{0,9}@(qq|tom|gmail|hotmail|icloud).com";
         return s.matches(ret);
     }
 
