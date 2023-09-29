@@ -75,10 +75,9 @@ public class Booth {
     public static void closeBooths(Booth[] booths){
         for (int i = 0; i < booths.length; i++) {
             if(booths[i].isClosed){
-                continue;
+                System.out.println(booths[i].toString());
             }else{
                 booths[i].setIsClosed(true);
-                System.out.println(booths[i].toString());
             }
         }
     }
