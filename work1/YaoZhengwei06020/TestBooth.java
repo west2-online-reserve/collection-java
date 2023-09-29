@@ -25,6 +25,7 @@ public class TestBooth {
         System.out.println("");
         a.restock(300);
         a.restock(100);
+        a.restock(-1);
         System.out.println(a.getTotal());
         System.out.println("");
         Booth[] booths=new Booth[3];
