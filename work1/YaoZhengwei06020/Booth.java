@@ -55,6 +55,7 @@ public class Booth {
             System.out.println("购买失败。");
         }else{
             System.out.println("购买成功。");
+            booth.setTotal(booth.getTotal()-numsOfpurchases);
         }
     }
     public void restock(int numsOfpurchases){
