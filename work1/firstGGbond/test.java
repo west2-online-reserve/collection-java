@@ -11,11 +11,16 @@ public class test {
 		B1.restock(300);
 		B1.restock(100);
 		System.out.println(B1.toString());
+		closeBooths(booths);
 	}public static void closeBooths(Booth[] booths){
-		 for(int i =0;i<booths.length;i++) {
-			 booths[i].setClosed(true);
+		for(int i =0;i<booths.length;i++) {
+			 if(!booths[i].isClosed()) {
+				 booths[i].setClosed(true);
+			 }
+			 if(booths[i].isClosed()) {
 			 System.out.println(booths[i].toString());
-		 }
-	 }
+			 }
+		}
+	}
 
 }
