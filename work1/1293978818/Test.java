@@ -17,6 +17,7 @@ public class Test {
         //进货测试
         Booth booth2 = new Booth(123457,"李四", 500, false);
         booth2.restock(booth2, 500); // 进货失败,数量超过上限
+        booth2.restock(booth2, -100); //进货数量不能小于0，进货失败
         booth2.restock(booth2, 100); // 进货成功
         System.out.println(booth2.gettota()); //600
 
@@ -31,7 +32,8 @@ public class Test {
             //booth2为false
             
         }
-        booth1.closeBooth(booths); //休摊状态应均为true
+        booth1.closeBooth(booths); //仅打印booth1的相关信息
+        System.out.println(booth2.getisClosed()); //true
 
     }
 }

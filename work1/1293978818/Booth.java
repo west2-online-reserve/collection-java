@@ -65,6 +65,8 @@ public class Booth{
     public void restock(Booth booth,int restocknum){
         if (restocknum > 200){
                 System.out.println("进货失败,数量超过上限");
+        }else if(restocknum < 0){
+            System.out.println("进货数量不能小于0，进货失败");
         }else{
             booth.settota(booth.gettota() + restocknum);
             System.out.println("进货成功");
@@ -76,8 +78,10 @@ public class Booth{
         for (int i = 0; i < booths.length; i++) {
             if (!booths[i].getisClosed()){
                 booths[i].setisClosed(true); 
+            }else{
+                System.out.println(booth[i].toString());
             }
-            System.out.println(booths[i].toString());
+            
         }
             
     }
