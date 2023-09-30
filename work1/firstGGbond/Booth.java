@@ -42,33 +42,33 @@ public class Booth {
 	 }
 	 public static void purchase(Booth marchant, int shop ) {
 		 if(shop>marchant.getTotal()) {
-			 System.out.println("购买失败");
+			 System.out.println("供应不足，麻烦少买一点");
 		 }
 		 if(shop<marchant.getTotal()) {
 			 marchant.setTotal(marchant.getTotal()-shop);
-			 System.out.println("购买成功");
+			 System.out.println("购买成功，欢迎下次光临");
 		 }
 	 }
 	 public  void restock(int num) {
 		 if(num>200) {
-			 System.out.println("进货失败");
+			 System.out.println("进货量过大");
 		 }
-		 if(num<200&&num>0) {
+		 else if(num<0) {
+			 System.out.println("无效数据");
+		 }
+		 else {
 			 System.out.println("进货成功");
 			 this.total = total + num;
-		 }
-		 if(num<0) {
-			 System.out.println("无效数据");
 		 }
 	 }
 	 public static void closeBooths(Booth[] booths){
 		 for(int i =0;i<booths.length;i++) {
-			 if(!booths[i].isClosed()) {
+			 if(booths[i].isClosed()) {
+				 System.out.println(booths[i].toString());
+			 }
+			 else if(!booths[i].isClosed()) {
 				 booths[i].setClosed(true);
 			 }
-			 if(booths[i].isClosed()) {
-			 System.out.println(booths[i].toString());
-		 }
 		 }
 	 }
 }
