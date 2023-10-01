@@ -31,6 +31,15 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
+    - name: PR标题的正确格式 学号 - work1
+      uses: satvik-s/pr-title-check@1.2.1
+      with:
+    # regex pattern to match against
+        pattern: ^\d{9} - work\d+$
+    # flags for the regex input
+        flags: i
+
+
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v2
       with:
