@@ -30,6 +30,5 @@ public class Test {
 
 
         Booth.closeBooths(booths);
-
     }
 }

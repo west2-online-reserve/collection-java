@@ -81,5 +81,4 @@ public class Booth {
             else {Booths[i].setisClosed(true);}
         }
     }
-
 }
