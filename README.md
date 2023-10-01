@@ -18,5 +18,5 @@
 关于IDEA中使用Git 请访问: [IntelliJ IDEA 中集成并使用 Git 图文教程](https://cloud.tencent.com/developer/article/1936860) (转载自村雨遥)
 
 ## 提交作业
-12121212
+1212121212
 请访问: [飞书 - 如何提交我的作业](https://west2-online.feishu.cn/wiki/Zvqow0CUxig3iWkWQgBcHp4AnHe)

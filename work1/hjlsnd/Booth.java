@@ -59,7 +59,7 @@ public class Booth {
         if(b.isClosed()){
             return "isClosed";
         }else {
-            if(buy<=0){
+            if(buy<0){
                 return "交易失败-购买数量小于0";
             }else{
                 if(x<buy){
@@ -70,10 +70,11 @@ public class Booth {
             }
         }
     }
-    public String restock(int in){
-        if (in >= 200) {
+    public String restock(Booth b,int in){
+        if (in > 200||in<0) {
             return "进货失败";
         }else {
+           System.out.println(b.getName()+" total: " b.setTota(b.getTota()+in);
             return "进货成功";
         }
     }
@@ -83,13 +84,12 @@ public class Booth {
             if(booths[i].isClosed==true){
                 System.out.println(booths[i].toString());
             }
-        }
-        //再将未休业的改为休业
-        for(int i=0;i<booths.length;i++){
+            //再将未休业的改为休业
             if(booths[i].isClosed!=true){
                 booths[i].setClosed(true);
             }
         }
+
 
     }
 
