@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public interface buyAnimal {
 //这里就是按照任务定义的一个接口
-    public abstract void buyCat();
+    public abstract void buyCat(Cat c);
 
     public abstract void buyDog(Dog d);
 

@@ -61,6 +61,7 @@ public class test {
 
 //然后下面就是按照任务走的自定义异常，然后把它红体字打印出来
         // try {
+        //mine.setMoney(0);
          //mine.buyDog(d3);
         //}catch (InsufficientBalanceException e){
          //e.printStackTrace();
@@ -69,20 +70,44 @@ public class test {
 
 //这里测试我的异常能否运行，这个是顾客买宠物
         //try{
+        //mine.list1.clear()
 
          //   mine.treatCustomer(cu1);
         //}catch(AnimalNotFoundException e){
           //  e.printStackTrace();
         //}
 //下面就是为了测试offDuty 方法
-        mine.treatCustomer(cu1);
-        mine.treatCustomer(cu2);
-        mine.treatCustomer(cu3);
+        //mine.treatCustomer(cu1);
+        //mine.treatCustomer(cu2);
+        //mine.treatCustomer(cu3);
 
 
-        mine.offDuty(today);
+        //mine.offDuty(today);
 
-        System.out.println("今天是"+today);
+
+
+   //下面是为了测试  buyDog   buyCat方法
+        //mine.setMoney(0);
+        //mine.setMoney(300);
+        //mine.buyDog(d3);
+        //mine.buyCat(c3);
+        //System.out.println(list1.get(4));
+        //System.out.println(list1.get(5));
+        //System.out.println("余额为"+mine.getMoney());
+
+        //下面测试treatCustomer方法
+
+        //mine.setMoney(0);
+        //mine.treatCustomer(cu1);
+        //mine.treatCustomer(cu2);
+        //for(Customer customer: mine.list2)
+        //{
+        //    System.out.println(customer.toString());
+
+        //}
+        //System.out.println(mine.getMoney());
+
+
 
 
 

@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public  abstract class ComeTrue implements buyAnimal{
 
     @Override
-    public void buyCat() {
+    public void buyCat(Cat c) {
 
     }
 

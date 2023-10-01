@@ -2,9 +2,12 @@ package hh;
 
 public class Booth {
 
-    long id;String name;int total;boolean isClosed;
+    long id;
+    String name;
+    int total;
+    boolean isClosed;
 
-    public Booth(long id,String name,int total,boolean isClosed) {
+    public Booth(long id, String name, int total, boolean isClosed) {
 
         this.id = id;
         this.name = name;
@@ -35,13 +38,10 @@ public class Booth {
     }
 
 
-    public void restock(int i)
-    {
-        if(i>=0&&i<=200)
-        {
-            this.total+=i;
-        }
-            else {
+    public void restock(int i) {
+        if (i >= 0 && i <= 200) {
+            this.total += i;
+        } else {
 
             System.out.println("进货失败");
         }
@@ -70,7 +70,35 @@ public class Booth {
     public void setClosed(boolean closed) {
         isClosed = closed;
     }
-}
 
+
+    public static void closeBooths(Booth[] booths) {
+
+        for (Booth i : booths) {
+            if (i.isClosed()) {
+                System.out.println(i.toString());
+            } else {
+                i.setClosed(true);
+            }
+
+        }
+
+    }
+
+    public  void purchase(int i) {
+        if(this.isClosed()==true)
+        {
+            System.out.println("门店已打样");
+
+        }
+        else{
+            this.setTotal(this.getTotal()-i);
+
+        }
+
+
+
+    }
+}
 
 

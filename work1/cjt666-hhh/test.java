@@ -11,43 +11,35 @@ public class test {
         booths[1]=b;
         booths[2]=c;
 
-        closeBooths(booths);
-
-        a.restock(2);
-
-        System.out.println(a.total);
 
 
-    }
-    public static void purchase(Booth b, int i) {
-        if (i >= 0 && b.isClosed() == false && i <= b.getTotal()) {
-            b.setTotal(b.getTotal() - i);
 
-        } else {
-            System.out.println("不符合条件，购买失败");
+        //测试进货restock
 
-        }
+        //System.out.println(a.getTotal());
+        //a.restock(11);
+        //System.out.println(a.getTotal());
 
-    }
 
-    public static void closeBooths(Booth[] booths)
-    {
+        //测试华强买瓜
+        //b店没关门可以买瓜，a店关门了无法买瓜
+        //System.out.println(b.getTotal());
+        //b.purchase(20);
+        //System.out.println(b.getTotal());
+        //System.out.println(a.getTotal());
+        //a.purchase(1);
 
-        for (Booth i:booths) {
-            if(i.isClosed())
-            {
-                System.out.println(i.toString());
-            }
-
-            else{
-                i.setClosed(true);
-            }
-
-        }
 
 
     }
-}
+
+
+    }
+
+
+
+
+
 
 
 

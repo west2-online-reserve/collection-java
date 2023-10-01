@@ -58,15 +58,17 @@ public class MyAnimalShop extends ComeTrue {
     }
 
     @Override
-    public void buyCat() {
-        super.buyCat();
+    public void buyCat(Cat c) {
+        super.buyCat(c);
 
-        if (money < 200) {
+        if (money < c.cost) {
             throw new InsufficientBalanceException("商店余额为" + this.money + "超出范围");
 
 
         } else {
-            this.setMoney(this.getMoney() - 200);
+            this.setMoney(this.getMoney() - c.cost);
+
+            this.list1.add(c);
 
         }
     }
@@ -79,6 +81,7 @@ public class MyAnimalShop extends ComeTrue {
             throw new InsufficientBalanceException("商店余额为" + this.money + "超出范围");
         } else {
             this.setMoney(this.getMoney() - d.cost);
+            this.list1.add(d);
 
         }
 
