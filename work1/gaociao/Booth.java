@@ -74,8 +74,12 @@ public class Booth {
             System.out.println("进货过多,进货失败");
             return;
         }
+        if(getmelon<0){
+            System.out.println("进货书不可小于0");
+            return;
+        }
         this.total+=getmelon;
-        System.out.println("jhcg");
+        System.out.println("进货成功");
     }
     public static void closeBooth(Booth[] booths){
         for(int i=0;i< booths.length;i++){
@@ -83,7 +87,7 @@ public class Booth {
                 booths[i].setClosed(true);
             }
             else{
-
+                System.out.println(booths[i].toString());
             }
         }
     }
