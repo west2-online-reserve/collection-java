@@ -1,16 +1,10 @@
 package Homework;
 
 public class Booth {
-    public static void main(String[] args) {
-
-
-    }
-
-
-    long id;
-    int total;
-    String name;
-    boolean isClosed;
+    private long id;
+    private int total;
+    private String name;
+    private boolean isClosed;
     //toString
     public String toString(){
         if (this.isClosed==true){
@@ -49,13 +43,18 @@ public class Booth {
     public void setName(String name) {
         this.name = name;
     }
+    public boolean getIsClosed(){
+        return isClosed;
+    }
+    public void setClosed(boolean isClosed){
+        this.isClosed = isClosed;
+    }
     //---------------------------------------------------------------------------------------
     //购买方法
     //-----------------------------------------------------------------------------------
-    public static int purchase(Booth id,int buy){
-        Booth booth = new Booth();
-        int num = booth.total;
-        boolean is_closed = booth.isClosed;
+    public static int purchase(Booth a,int buy){
+        int num = a.total;
+        boolean is_closed = a.isClosed;
         if(is_closed==false && buy<=num&& num >0){
             num-=buy;
             System.out.println("成功购买"+buy+"个西瓜");
@@ -68,8 +67,7 @@ public class Booth {
     //----------------------------------------------------------
     //进货
     public int stock(int add){
-        Booth booth = new Booth();
-        int t = booth.total;
+        int t = this.total;
         if(add>0&&add<=200){
             t+=add;
 
@@ -81,14 +79,12 @@ public class Booth {
     //----------------------------------------------------------------------------
     //歇业--------------------------------------
     public static  void closeBooth(Booth[] booths){
-        for (int i = 0; i < booths.length-1; i++) {
+        for (int i = 0; i < booths.length; i++) {
             if(booths[i].isClosed==false){
                 booths[i].isClosed = true;
             }else {
-                System.out.println(booths[i].id);
-                System.out.println(booths[i].name);
-                System.out.println(booths[i].isClosed);
-                System.out.println(booths[i].total);
+                System.out.println(booths[i].toString());
+
             }
 
         }
