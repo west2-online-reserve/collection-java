@@ -14,15 +14,10 @@
 // 4.一个实例方法 restock(int 进货西瓜数),为对应摊位进货，单次进货量不能超过 200，进货失败则输出相应的提示信息。
 // 5,一个静态(static)方法 closeBooths（Booth[] booths）让 booths 中所有未被休
 //        业整改的摊位歇业(将 false 变为 true)，输出已在休业整改的摊位信息（调用实例的 toString()方法）
+
 public class WaterMelon {
     public static void main(String[] args) {
-        stall booth01 = new stall(7, "老王", 100, false);
-        System.out.println(booth01);
-        booth01.restock(150);
-        stall.purchase(booth01, 50);
-        stall[] booths={booth01};
-        stall.closeBooths(booths);
-        System.out.println(booth01);
+
     }
 }
 
