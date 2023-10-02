@@ -12,14 +12,30 @@ public class Booth {
         this.isClosed=isClosed;
     }
     //上述变量对应的 get 和 set 方法
-    public long getId() {return id;}
-    public void setId(long id) {this.id = id;}
-    public String getName() {return name;}
-    public void setName(String name){this.name = name;}
-    public int getTotal() {return total;}
-    public void setTotal(int total) {this.total = total;}
-    public boolean isClosed() {return isClosed;}
-    public void setClosed(boolean closed) {isClosed = closed;}
+    public long getId() {
+        return id;
+    }
+    public void setId(long id) {
+        this.id = id;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+    public int getTotal() {
+        return total;
+    }
+    public void setTotal(int total) {
+        this.total = total;
+    }
+    public boolean isClosed() {
+        return isClosed;
+    }
+    public void setClosed(boolean closed) {
+        isClosed = closed;
+    }
 
     //一个重写的 toString()方法来输出 该西瓜摊的所有信息（要有一定的格式
     @Override
@@ -54,8 +70,12 @@ public class Booth {
     // 输出已在休业整改的摊位信息（调用实例的 toString()方法）。
     public void closeBooths(Booth[] booths){
         for(Booth booth: booths){
-            if(!booth.isClosed){
+            if(!booth.isClosed) {
                 booth.setClosed(true);
+            }
+        }
+        for(Booth booth: booths){
+            if(booth.isClosed){
                 System.out.println(booth.toString());
             }
         }
