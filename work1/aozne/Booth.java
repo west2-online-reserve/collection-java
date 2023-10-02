@@ -47,23 +47,23 @@ public class Booth{
     }
     //购买西瓜情况
     public static void purchase(Booth id,int num){
-        int numafter=id.getTotal()-num;
+        int numafter1=id.getTotal()-num;
         if(num<=0|num>id.getTotal()){
             System.out.println("购买数量不合法，购买失败");
         } else if (id.isClosed()==true) {
             System.out.println("休摊中，无法购买");
         }else{
-            System.out.println("\n购买成功，剩余西瓜数："+numafter);
+            System.out.println("\n购买成功，剩余西瓜数："+numafter1);
         }
 
     }
     //进货情况
     public void restock(Booth id,int plusnum){
-        int numafter=id.getTotal()+plusnum;
+        int numafter2=id.getTotal()+plusnum;
         if(plusnum<=0|plusnum>200){
             System.out.println("进货不合法,进货数量应在0到200之间");
         }else {
-            System.out.println("进货成功，现在西瓜数量为："+numafter);
+            System.out.println("进货成功，现在西瓜数量为："+numafter2);
         }
     }
     public static void closeBooth(Booth[] booths){
