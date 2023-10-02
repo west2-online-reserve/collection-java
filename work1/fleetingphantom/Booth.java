@@ -1,3 +1,5 @@
+package kaohe;
+
 public class Booth {
 	//西瓜摊
     public Booth(long id, String name, int total, boolean isClosed) {
@@ -51,10 +53,11 @@ public class Booth {
             if (purchaseNumber < 0) {
                 System.out.println("购买失败，购买西瓜的数量不能低于0．");
             }
-            if (purchaseNumber > booth.total) {
+            else if (purchaseNumber > booth.total) {
                 System.out.println("购买失败，摊位西瓜数不足．");
-            } else if(purchaseNumber>=0&&purchaseNumber<=booth.total){
+            } else {
                 System.out.println("购买成功，购买了" + purchaseNumber + "个西瓜．");
+                booth.setTotal(booth.getTotal()-purchaseNumber);
             }
         }
     }
@@ -62,19 +65,20 @@ public class Booth {
         if(restockNumber>200){
             System.out.println("进货失败，进货数不能大于200．");
         }
-        if(restockNumber<0){
+        else if(restockNumber<0){
             System.out.println("进货失败，进货数不能小于0．");
-        }else if(restockNumber<200&&restockNumber>0) {
+        }else {
             System.out.println("进货成功，进了"+ restockNumber +"个西瓜．");
+            setTotal(getTotal()+restockNumber);
         }
     }
     public static void closeBooths(Booth[]booths){
         for (int i =0;i <booths.length;i++) {
             if (!booths[i].isClosed) {
                 booths[i].isClosed = true;
-            } else {
-                System.out.println(booths[i].toString());
             }
+                System.out.println(booths[i].toString());
+
         }
         
     }
