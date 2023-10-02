@@ -1,4 +1,3 @@
-package kaohe;
 
 public class Booth {
 	//西瓜摊
@@ -76,8 +75,8 @@ public class Booth {
         for (int i =0;i <booths.length;i++) {
             if (!booths[i].isClosed) {
                 booths[i].isClosed = true;
-            }
-                System.out.println(booths[i].toString());
+            } else {
+                System.out.println(booths[i].toString());}
 
         }
         
