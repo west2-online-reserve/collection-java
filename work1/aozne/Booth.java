@@ -36,7 +36,7 @@ public class Booth{
     }
     //展示西瓜摊信息
     public String toString(){
-        return ("摊号：" + id + "\n摊主姓名：" + name + "\n在售西瓜数：" + total + "\n是否休摊整改:"+isClosed);
+        return ("摊号："+id+"\n摊主姓名："+name+"\n西瓜总数："+total+"\n是否休摊整改："+isClosed);
     }
     //构造方法
     public Booth(long id,String name,int total,boolean isClosed){
@@ -46,24 +46,24 @@ public class Booth{
         this.isClosed=isClosed;
     }
     //购买西瓜情况
-    public static void purchase(Booth id,int num){
-        int numafter1=id.getTotal()-num;
+    public static void purchase(Booth id, int num){
         if(num<=0|num>id.getTotal()){
             System.out.println("购买数量不合法，购买失败");
         } else if (id.isClosed()==true) {
             System.out.println("休摊中，无法购买");
         }else{
-            System.out.println("\n购买成功，剩余西瓜数："+numafter1);
+            id.setTotal(id.getTotal()-num);
+            System.out.println("\n购买成功，剩余西瓜数："+id.getTotal());
         }
 
     }
     //进货情况
-    public void restock(Booth id,int plusnum){
-        int numafter2=id.getTotal()+plusnum;
+    public void restock(Booth id, int plusnum){
         if(plusnum<=0|plusnum>200){
             System.out.println("进货不合法,进货数量应在0到200之间");
         }else {
-            System.out.println("进货成功，现在西瓜数量为："+numafter2);
+            id.setTotal(id.getTotal()+plusnum);
+            System.out.println("进货成功，现在西瓜数量为："+id.getTotal());
         }
     }
     public static void closeBooth(Booth[] booths){
@@ -71,9 +71,9 @@ public class Booth{
         for(int i=0;i<booths.length;i++){
             if(booths[i].isClosed==false){
                 booths[i].setClosed(true);
-                System.out.println(booths[i].toString());
+                System.out.println(booths.toString());
             }else {
-                System.out.println(booths[i].toString());
+                System.out.println(booths.toString());
             }
         }
     }
