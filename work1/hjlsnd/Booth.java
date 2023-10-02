@@ -65,6 +65,7 @@ public class Booth {
                 if(x<buy){
                     return "交易失败 该摊库存不足";
                 }else{
+                   b.tota=b.tota-buy;
                     return "交易成功";
                 }
             }
