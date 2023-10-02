@@ -18,6 +18,7 @@ public class Booth {
 
     /**
      * 获取
+     *
      * @return id
      */
     public long getId() {
@@ -26,6 +27,7 @@ public class Booth {
 
     /**
      * 设置
+     *
      * @param id
      */
     public void setId(long id) {
@@ -34,6 +36,7 @@ public class Booth {
 
     /**
      * 获取
+     *
      * @return name
      */
     public String getName() {
@@ -42,6 +45,7 @@ public class Booth {
 
     /**
      * 设置
+     *
      * @param name
      */
     public void setName(String name) {
@@ -50,6 +54,7 @@ public class Booth {
 
     /**
      * 获取
+     *
      * @return total
      */
     public int getTotal() {
@@ -58,6 +63,7 @@ public class Booth {
 
     /**
      * 设置
+     *
      * @param total
      */
     public void setTotal(int total) {
@@ -66,6 +72,7 @@ public class Booth {
 
     /**
      * 获取
+     *
      * @return isClosed
      */
     public boolean isClosed() {
@@ -74,6 +81,7 @@ public class Booth {
 
     /**
      * 设置
+     *
      * @param isClosed
      */
     public void setClosed(boolean isClosed) {
@@ -81,8 +89,11 @@ public class Booth {
     }
 
     public String toString() {
-        if(isClosed ){return "Booth{摊号" + id + ", 摊主姓名是 " + name + ", 在售西瓜数为" + total + ", 关门了"+ "}";}
-        else{return "Booth{摊号" + id + ", 摊主姓名是 " + name + ", 在售西瓜数为" + total + " 开门" + "}";}
+        if (isClosed) {
+            return "Booth{摊号" + id + ", 摊主姓名是 " + name + ", 在售西瓜数为" + total + ", 关门了" + "}";
+        } else {
+            return "Booth{摊号" + id + ", 摊主姓名是 " + name + ", 在售西瓜数为" + total + " 开门" + "}";
+        }
     }
 
     public static void purchase(Booth booth, int quantity) {
@@ -103,18 +114,21 @@ public class Booth {
         System.out.println("购买成功,摊主是：" + booth.getName() + "，剩余在售西瓜数：" + booth.getTotal());
 
     }
-    public void restock(int quantity){
-        if (quantity>200){
-            System.out.println("进货失败，单次进货量不能超过 200");
-        }else {
-            this.total+=quantity;
-            System.out.println("摊位" + this.id + "进货了" + quantity + "个西瓜。");
 
+    public void restock(int quantity) {
+        if (quantity > 200) {
+            System.out.println("摊位" + this.id + "进货失败，单次进货量不能超过 200");
+        } else if (quantity < 0) {
+            System.out.println("摊位" + this.id + "进货失败，单次进货量不能小于0");
+        } else {
+            this.total += quantity;
+            System.out.println("摊位" + this.id + "进货了" + quantity + "个西瓜。");
 
         }
     }
-    public static void closeBooths(Booth[] booths){
-        for (Booth booth:booths){
+
+    public static void closeBooths(Booth[] booths) {
+        for (Booth booth : booths) {
             if (!booth.isClosed()) {
                 booth.setClosed(true);
                 booth.toString();
