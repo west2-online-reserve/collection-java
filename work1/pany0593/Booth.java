@@ -1,12 +1,8 @@
-import javax.lang.model.element.Name;
-
 public class Booth {
     private long id;
     private String name;
     private int total;
     private boolean isClosed;
-    public Booth() {
-    }
 
     public String getName() {
         return name;
@@ -40,47 +36,48 @@ public class Booth {
         this.isClosed = isClosed;
     }
 
-    public Booth(long id,String name,int total,boolean isClosed)
-    {
-        this.id=id;
-        this.name=name;
-        this.total=total;
-        this.isClosed=isClosed;
+    public Booth(long id, String name, int total, boolean isClosed) {
+        this.id = id;
+        this.name = name;
+        this.total = total;
+        this.isClosed = isClosed;
     }
-    public String toString()
-    {
-        String tmp="摊主姓名："+this.name+"\n"+"摊号："
-                +this.id+"\n"+"在售西瓜数："+this.total+"\n"+"是否休摊整改：";
-        if(this.isClosed)
-            tmp+="是";
+
+    public String toString() {
+        String tmp = "摊主姓名：" + this.getName() + "\n" + "摊号："
+                + this.getId() + "\n" + "在售西瓜数：" + this.getTotal() + "\n" + "是否休摊整改：";
+        if (this.getisClosed())
+            tmp += "是";
         else
-            tmp+="否";
+            tmp += "否";
         return tmp;
     }
-    public static void purchase(Booth booth,int num)
-    {
-        if(num<0||booth.isClosed||num>booth.total)
+
+    public static void purchase(Booth booth, int num) {
+        if (num < 0 || booth.getisClosed() || num > booth.getTotal())
             System.out.println("购买失败");
-        else{
-            booth.total-=num;
+        else {
+//            booth.total -= num;
+            booth.setTotal(booth.getTotal() - num);
             System.out.println("购买成功");
         }
     }
-    public void restock(int num)
-    {
-        if(num>200||num<0)
+
+    public void restock(int num) {
+        if (num > 200 || num < 0)
             System.out.println("进货失败");
         else {
-            this.total+=num;
+//            this.total += num;
+            this.setTotal(this.total + num);
             System.out.println("进货成功");
         }
     }
-    public static void closeBooths(Booth...booths)
-    {
-        for (Booth ele:booths)
-        {
-            ele.isClosed=true;
-            System.out.println(ele.toString());
+
+    public static void closeBooths(Booth... booths) {
+        for (Booth ele : booths) {
+//            ele.isClosed = true;
+            ele.setisClosed(true);
+            System.out.println(ele);
         }
     }
 }
