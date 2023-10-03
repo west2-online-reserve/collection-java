@@ -1,4 +1,4 @@
-# Collection - java1
+# Collection - java
 这个仓库用作保存有志于加入west2-online的同学的代码/笔记, 这里记录了他们学习过程中的点点滴滴
 
 ## 作业仓库
@@ -18,5 +18,4 @@
 关于IDEA中使用Git 请访问: [IntelliJ IDEA 中集成并使用 Git 图文教程](https://cloud.tencent.com/developer/article/1936860) (转载自村雨遥)
 
 ## 提交作业
-1212121212
 请访问: [飞书 - 如何提交我的作业](https://west2-online.feishu.cn/wiki/Zvqow0CUxig3iWkWQgBcHp4AnHe)

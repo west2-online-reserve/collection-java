@@ -75,7 +75,8 @@ public class Booth {
         if (in > 200||in<0) {
             return "进货失败";
         }else {
-           System.out.println(b.getName()+" total: " b.setTota(b.getTota()+in);
+            b.tota=b.tota+in;
+            System.out.println(b.getName()+" total: "+b.getTota());
             return "进货成功";
         }
     }
