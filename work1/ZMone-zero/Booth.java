@@ -1,3 +1,4 @@
+import java.util.EnumSet;
 import java.util.MissingFormatArgumentException;
 
 public class Booth {       //私有变量
@@ -44,7 +45,7 @@ public class Booth {       //私有变量
         return ( "欢迎来到"+name+"的西瓜摊！"+ " "+
                 "Id:"+id+" "+
                 "在售的西瓜数:"+tota+" "+
-                "店铺营业情况"+isClosed);
+                "店铺营业情况:"+isClosed);
     }
     //一个接受摊号(long)、摊主姓名(name) 、// 在售西瓜数(int)、是否休摊整改 (boolean)作为参数的构造方法
     public Booth(long id, String name, int tota, boolean isClosed){
@@ -61,8 +62,8 @@ public class Booth {       //私有变量
         } else  if (business.isClosed){
             System.out.println("摊主已收摊！");
         } else {
-            business.tota -= nums;
-            System.out.println("购买成功，剩余"+business.tota+"个西瓜！");
+            business.setTota(business.getTota()-nums);
+            System.out.println("购买成功，剩余"+business.getTota()+"个西瓜！");
         }
 
 
@@ -72,7 +73,7 @@ public class Booth {       //私有变量
         if (stock<0 || stock>200 ){
             System.out.println("进货数目不可为负数或是大于200！");
         }else{
-            tota += stock ;
+            setTota(getTota()+ stock) ;
         }
 
     }
