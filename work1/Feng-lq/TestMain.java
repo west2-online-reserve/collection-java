@@ -12,21 +12,16 @@ public class TestMain {
         Booth booth6= new Booth(1006,"小光",500,false);
         Booth[] booths = {booth1,booth2,booth3,booth4,booth5,booth6};
 
-        Operation restock = new Operation();
+        Booth.purchase(booth1,400);
+        Booth.purchase(booth6,600);
+        Booth.purchase(booth2,400);
+        Booth.purchase(booth4,-90);
 
-        Operation.purchase(booth1,400);
-        Operation.purchase(booth6,600);
-        Operation.purchase(booth2,400);
-        Operation.purchase(booth4,-90);
+        booth3.restock(booth3,-10);
+        booth5.restock(booth5,100);
+        booth5.restock(booth5,600);
 
-        restock.restock(booth3,-10);
-        restock.restock(booth5,200);
-
-        Operation.closeBooths(booths);
-
-
-
-
+        Booth.closeBooths(booths);
 
     }
 }
