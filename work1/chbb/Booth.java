@@ -80,12 +80,12 @@ public class Booth {
     //一个实例方法 restock(int 进货西瓜数),为对应摊位进货，单次进货量不能超过 200，进货失败则输出相应的提示信息。
     public int restock(int restockNumber){
 
-        if (restockNumber<=200){
+        if (restockNumber<=200&&restockNumber>0){
 
             total+=restockNumber;
         }else{
 
-            System.out.println("单次进货量超过200，进货失败！");
+            System.out.println("进货失败！");
         }
 
         return total;
