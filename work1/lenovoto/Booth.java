@@ -1,4 +1,4 @@
-package yuhuanyin;
+package homework;
 
 public class Booth {
     public Booth() {
@@ -90,7 +90,7 @@ public class Booth {
 
 
 }
-/*package yuhuanyin;
+/*package homework;
 
 public class Application {
     public static void main(String[] args) {
