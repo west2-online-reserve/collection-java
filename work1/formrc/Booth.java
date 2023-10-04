@@ -47,16 +47,16 @@ public class Booth {
     }
 
     public static void purchase(Booth stand, int num) {
-        if (num == 0) {
+        if (num <= 0) {
             System.out.println("购买的西瓜数必须为正数");
             return;
         }
-        if (stand.getClosed()) {
+        else if (stand.getClosed()) {
             System.out.println("商家处于休摊整改状态,无法购买");
             return;
         }
-        if (num > stand.getTotal()) {
-            System.out.println("购买西瓜数不能大于在售西瓜数");
+        else if (num > stand.getTotal()) {
+            System.out.println("购买的西瓜数不能大于在售西瓜数");
             return;
         }
         stand.setTotal(stand.getTotal() - num);

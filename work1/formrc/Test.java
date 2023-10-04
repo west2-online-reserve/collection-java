@@ -10,11 +10,14 @@ public class Test {
         System.out.println(booth2.toString());
 
 
-        Booth.purchase(booth1, 70);
+        Booth.purchase(booth1,50);
+        Booth.purchase(booth1,-10);
+        Booth.purchase(booth1, 150);
         Booth.purchase(booth2, 250);
 
-        booth1.restock(50);
+        booth1.restock(-20);
         booth1.restock(250);
+        booth1.restock(50);
 
         Booth[] booths = {booth1, booth2};
         Booth.closeBooths(booths);
