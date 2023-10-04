@@ -6,23 +6,6 @@ public class Booth {
     private int total;//在售西瓜数
     private boolean isClosed; //是否休摊整改
 
-    public static void main(String[] args) {
-        Booth booth1 = new Booth(123, "mark", 23, false);
-        booth1.toString();
-
-        Booth booth2 = new Booth();
-        booth2.setId(124);
-        booth2.setName("jack");
-        booth2.setTotal(201);
-        booth2.setIsClosed(true);
-
-        purchase(booth1,40);
-
-        booth2.restock(300);
-
-        closeBooths(new Booth[]{booth1, booth2});
-
-    }
 
     public Booth(long id, String name, int total, boolean isClosed) {
         this.id = id;
@@ -92,16 +75,14 @@ public class Booth {
     public static void closeBooths(Booth[] booths){
         int length = booths.length;
         System.out.println("已休业整改:");
-        for(int time1=0;time1<length;time1++){
-            if(booths[time1].getIsClosed()==true){
-                booths[time1].toString();
+        for(int time=0;time<length;time++){
+            if(booths[time].getIsClosed()==true){
+                booths[time].toString();
+            }else{
+                booths[time].setIsClosed(true);
             }
         }
-        for( int time2=0;time2<length;time2++){
-            if(booths[time2].getIsClosed()==false){
-                booths[time2].setIsClosed(true);
-            }
-        }
+
     }
 
     public Booth() {
