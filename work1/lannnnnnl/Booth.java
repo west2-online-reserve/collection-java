@@ -40,20 +40,20 @@ public class Booth {
 	                "Closed ? "+ isClosed +"\n";
 	 }
 	 public static void purchase (Booth marchant, int shop ) {
-        if(marchant.isClosed()) {
-        if(shop>marchant.getTotal()){
-          System.out.printIn("供应不足，麻烦少买一点")；
+             if(！marchant.isClosed()) {
+                 if(shop>marchant.getTotal()){
+                 System.out.printIn("供应不足，麻烦少买一点")；
+                 }
+                 else if (shop<0){
+                 system.out.print1n("无效数据")；
+                 }
+                 else {
+                 marchant.setTotal(marchant.getTotal()-shop);
+                 system.out.print1n("购买成功，欢迎下次光临")；
+                 }
          }
-        else if (shop<0){
-        system.out.print1n("无效数据")；
-       }
-       else {
-        marchant.setTotal(marchant.getTotal()-shop);
-       system.out.print1n("购买成功，欢迎下次光临")；
-}
-}
-    else {
-System.out.printIn("商店己经关门，请下次再来");
+         else {
+         System.out.printIn("商店己经关门，请下次再来");
     }
 	 }
 		
