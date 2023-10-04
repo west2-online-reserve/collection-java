@@ -6,17 +6,17 @@ public class WatermelonBooth {
 
     //set
 
-    public void setId(long a){
-        this.id=a;
+    public void setId(long id){
+        this.id=id;
     }
-    public void setName(String a){
-        this.name=a;
+    public void setName(String name){
+        this.name=name;
     }
-    public void setTotal(int a){
-        this.total=a;
+    public void setTotal(int total){
+        this.total=total;
     }
-    public void setClosed(boolean a){
-        this.isClosed=a;
+    public void setClosed(boolean isClosed){
+        this.isClosed=isClosed;
     }
 
     //get
@@ -37,7 +37,7 @@ public class WatermelonBooth {
     //重写toString输出
 
     public String toString(){
-        return "摊号为："+id+"/n"+"摊主名字："+name+"/n"+"西瓜存货："+total+"/n"+"是否营业："+isClosed;
+        return "摊号为："+id+"\n"+"摊主名字："+name+"\n"+"西瓜存货："+total+"\n"+"是否营业："+isClosed;
     }
 
     //构造方法
@@ -75,12 +75,11 @@ public class WatermelonBooth {
     //停业
 
     public static void closeBooths(WatermelonBooth[] a){
-        for(WatermelonBooth b:a){
-            if (!b.isClosed){
-                b.setClosed(true);
-            }
-            else {
-                System.out.println(b.toString());
+        for (WatermelonBooth watermelonBooth : a) {
+            if (!watermelonBooth.isClosed) {
+                watermelonBooth.setClosed(true);
+            } else {
+                System.out.println(watermelonBooth.toString());
             }
         }
     }
