@@ -85,19 +85,5 @@ public class WatermelonBooth {
                 "\n在售西瓜数: " + total +
                 "\n是否休摊整改: " + isClosed;
     }
-    public static void main(String[] args) {
-        WatermelonBooth booth1 = new WatermelonBooth(1, "张三", 100, false);
-        WatermelonBooth booth2 = new WatermelonBooth(2, "李四", 50, false);
 
-        System.out.println(booth1.toString());
-        System.out.println(booth2.toString());
-
-        WatermelonBooth.purchase(booth1, 30);
-        WatermelonBooth.purchase(booth2, 60); // 这次购买将失败
-
-        booth1.restock(50);
-        booth2.restock(300); // 这次进货将失败
-
-        WatermelonBooth.closeBooths(new WatermelonBooth[]{booth1, booth2});
-    }
 }
