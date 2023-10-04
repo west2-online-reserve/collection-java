@@ -15,7 +15,7 @@ public class Example {
             // 输出摊位信息
             for (Booth b:booths){
                 System.out.println(b);
-            }
+
 
             // 购买西瓜
             Booth.purchase(booth1, 20);
