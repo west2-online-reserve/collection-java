@@ -57,6 +57,7 @@ public class booth {
 
     public static void purchase(int num, int total, boolean isClosed) {
         if (num > 0 && num <= total && !isClosed) {
+            total-=num;
             System.out.println("购买成功");
         } else {
             System.out.println("购买失败");
@@ -67,6 +68,7 @@ public class booth {
         if (getQuantity > 200) {
             System.out.println("进货失败");
         } else {
+            total+=getQuantity;
             System.out.println("进货成功");
         }
     }
@@ -77,7 +79,7 @@ public class booth {
                 booth.setIsClosed(true);
                 System.out.println("已关闭");
             } else {
-                System.out.println("已在休业整改");
+                System.out.println(booth.toSpring()+"已在休业整改");
             }
         }
     }
