@@ -55,6 +55,10 @@ public class Booth {
     }
 
     public void restock(int quantity) {
+        if (quantity <= 0) {
+            System.out.println("进货数量必须为正数");
+            return;
+        }
         if (quantity > 200) {
             System.out.println("进货失败,单次进货量不能超过200");
             return;
