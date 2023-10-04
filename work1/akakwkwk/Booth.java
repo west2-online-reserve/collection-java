@@ -55,8 +55,8 @@ public class Booth {
     public static void purchase(Booth booth, int num) {
         if (num <= 0 || num > booth.total || booth.isClosed) {
             System.out.println("购买失败");
-        } else booth.total -= num;
-        System.out.println("购买成功");
+        } else {booth.total -= num;
+        System.out.println("购买成功");}
         return;
     }
 
