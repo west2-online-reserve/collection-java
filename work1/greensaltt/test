@@ -1,0 +1,34 @@
+public class Application {
+    public static void main(String[] args) {
+        Booth booth=new Booth();
+        booth.setId(100);
+        booth.setClosed(false);
+        booth.setName("西瓜摊1");
+        booth.setTotal(666);
+        booth.getId();
+        booth.getName();
+        booth.getTotal();
+        booth.isClosed();
+        //=======================
+        booth.toString();
+        int buy=50;
+        booth.purchase(booth,buy);
+        booth.restock(buy);
+        Booth[] booths={booth};
+        booth.closeBooths(booths);
+
+    }
+}
+//测试结果
+/*
+该摊位的编号为：100
+该摊位的名字为：西瓜摊1
+该摊位的在售西瓜数为：666
+是否休摊整改：false
+成功购买50个西瓜
+成功进货50个西瓜
+该摊位的编号为：100
+该摊位的名字为：西瓜摊1
+该摊位的在售西瓜数为：666
+是否休摊整改：true
+*/
