@@ -75,18 +75,17 @@ public class Booth {
 //======================================
     //静态方法purchase
    public static int purchase(Booth booth, int buy) {
-        if (buy > 0 && booth.isClosed == false) {
-            //购买数大于0且西瓜摊未收摊
-            if (buy < booth.getTotal()) {
-                System.out.println("交易成功");
-            } else {
-                //购买数大于出售量报错
-                System.out.println("交易失败");
-            }
-        } else {
-            System.out.println("交易失败");
+       if (buy<=0){
+            System.out.println("购买量必须为正数");
+        }else if(buy> booth.total){
+            System.out.println("购买量不能大于在售量");
+        }else if(booth.isClosed){
+            System.out.println("该摊位在休摊整改中");
+        }else{
+            booth.total=booth.total-buy;
+            System.out.println("成功购买"+buy+"个西瓜");
         }
-        return booth.getTotal();
+        return booth.total;
     }
 //======================================
     //实例方法
@@ -96,7 +95,8 @@ public class Booth {
             //单次进货量不能超过200
             System.out.println("进货失败");
         }else{
-            System.out.println("进货成功")
+            System.out.println("成功进货"+num+"个西瓜");
+            this.total=this.total+num;
         }
     }
 //======================================
