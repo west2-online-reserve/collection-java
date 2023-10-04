@@ -19,7 +19,7 @@ public class Test {
         C.setTotal(400);
         C.setIsclosed(true);
 //        测试purchase方法
-       Booth.purchase(A,10);
+       Booth.purchase(A,-10);
        Booth.purchase(B,500);
        Booth.purchase(C,12);
        //测试进货
