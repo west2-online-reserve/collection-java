@@ -1,5 +1,4 @@
 class Booth {
-
     private long id;
     private String name;
     private int total;
@@ -49,23 +48,22 @@ class Booth {
         return "摊号:" + id + ", 摊主:" + name + ", 在售西瓜数:" + total + ", 休摊状态:" + isClosed;
     }
 
-    public void purchase(int amount) {
-        if (amount <= 0 || isClosed() || amount > getTotal()) {
+    public static void purchase(Booth booth, int amount) {
+        if (amount <= 0 || booth.isClosed() || amount > booth.getTotal()) {
             System.out.println("购买西瓜失败");
         } else {
-            setTotal(getTotal() - amount);
+            booth.setTotal(booth.getTotal() - amount);
             System.out.println("购买西瓜" + amount + "成功");
         }
     }
 
     public void restock(int amount) {
-        if (amount > 200) {
-            System.out.println("进货量超过200,进货失败");
-            return;
+        if (amount <= 0 || amount > 200) {
+            System.out.println("进货失败,进货量必须大于0且在200内");
+        } else {
+            setTotal(getTotal() + amount);
+            System.out.println("进货" + amount + "成功");
         }
-
-        total += amount;
-        System.out.println("进货" + amount + "成功");
     }
 
     public static void closeBooths(Booth[] booths) {
@@ -76,5 +74,5 @@ class Booth {
             }
         }
     }
-
 }
+
