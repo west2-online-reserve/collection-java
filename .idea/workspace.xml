@@ -10,6 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+<<<<<<< HEAD
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="revert-131-main" />
@@ -21,6 +22,14 @@
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
 }</component>
+=======
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+>>>>>>> origin/main
   <component name="ProjectId" id="2WJBt3Q8dWsjrqRozxOzTC7gabD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,7 +41,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+<<<<<<< HEAD
     "settings.editor.selected.configurable": "preferences.pluginManager",
+=======
+>>>>>>> origin/main
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -45,13 +57,17 @@
       <option name="presentableId" value="Default" />
       <updated>1696441015559</updated>
       <workItem from="1696441017229" duration="253000" />
+<<<<<<< HEAD
       <workItem from="1696442264089" duration="76000" />
+=======
+>>>>>>> origin/main
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+<<<<<<< HEAD
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -63,4 +79,6 @@
       </map>
     </option>
   </component>
+=======
+>>>>>>> origin/main
 </project>
