@@ -59,7 +59,7 @@ class Booth{
         if(num>200){
             System.out.println("进货数量过多导致进货失败");
         }else {
-            System.out.println("进货成功！！！");
+            System.out.println("成功进货 "+ num+ "西瓜");
         }
     }
     public static void closeBooths(Booth[] booths){
