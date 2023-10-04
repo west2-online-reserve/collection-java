@@ -62,12 +62,14 @@ public class Booth {
         if (outnum > 0 && booth.isClosed == false && outnum <= booth.total){
             System.out.println("西瓜数量足够，购买" + outnum +"个西瓜成功");
             booth.total -= outnum;
-        }else if (outnum < 0){
+        } else if (outnum < 0){
             System.out.println("购买量不可以为负数，购买失败");
         } else if (outnum > booth.total ) {
             System.out.println("购买量大于西瓜总数，购买失败");
         } else if (booth.isClosed()) {
             System.out.println("该西瓜摊已休摊整改，购买失败");
+        } else {
+            System.out.println("购买西瓜失败");
         }
 
     }
