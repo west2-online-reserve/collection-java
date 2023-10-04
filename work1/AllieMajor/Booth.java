@@ -54,14 +54,16 @@ public class Booth {
         //交易成功与否
 
     }
-    
-        if(b.isClosed()){
+    public static void purchase(Booth b, int purchase){
+
+
+            if(b.isClosed()){
             return "isClosed";
         }else {
             if(purchase<0){
                 return "交易失败，购买数量小于0";
             }else{
-                if(x<purchase){
+                if(b.tota<purchase){
                     return "交易失败 西瓜不够";
                 }else{
                     b.tota=b.tota-purchase;
