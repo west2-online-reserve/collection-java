@@ -13,7 +13,6 @@ public class Booth {
         this.isClosed = isClosed;
     }
 
-
     public long getId() {
         return id;
     }
@@ -73,8 +72,11 @@ public class Booth {
     //让所有未被休摊整改的西瓜摊休业
     public static void closeBooths(Booth[] booths) {
         for (Booth booth : booths) {
-            if (!booth.isClosed) {
+            if (booth.isClosed) {
+                System.out.println(booth.toString());
+            } else {
                 booth.isClosed = true;
+                System.out.println(booth.toString());
             }
         }
     }

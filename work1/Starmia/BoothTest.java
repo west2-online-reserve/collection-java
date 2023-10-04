@@ -22,9 +22,7 @@ public class BoothTest {
         Booth[] booths = {booth1,booth2};
 
         //整改后
-        for (Booth booth : booths) {
-            Booth.closeBooths(booths);
-            System.out.println(booth);
-        }
+        Booth.closeBooths(booths);
+
     }
 }
