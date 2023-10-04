@@ -47,7 +47,7 @@ public class Booth {
 
     public static void purchase(Booth seller, int quantity) {
         if (quantity <= 0 || seller.isClosed() || quantity > seller.getTotal()) {
-            System.out.println("购买的西瓜数必须为正数");
+            System.out.println("购买的西瓜数必须为正数!");
             return;
         }
         seller.setTotal(seller.getTotal() - quantity);
