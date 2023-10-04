@@ -73,6 +73,8 @@ public class Booth {
                 {
                         System.out.println("进货超量");
                 }
+                else if(buyIn<0)
+                        System.out.println("数量错误");
                 else
                         this.total+=buyIn;
         }
