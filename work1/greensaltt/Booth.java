@@ -74,10 +74,10 @@ public class Booth {
 
 //======================================
     //静态方法purchase
-   public static int purchase(Booth id, int buy) {
-        if (buy > 0 && id.isClosed == false) {
+   public static int purchase(Booth booth, int buy) {
+        if (buy > 0 && booth.isClosed == false) {
             //购买数大于0且西瓜摊未收摊
-            if (buy < id.getTotal()) {
+            if (buy < booth.getTotal()) {
                 System.out.println("交易成功");
             } else {
                 //购买数大于出售量报错
@@ -86,7 +86,7 @@ public class Booth {
         } else {
             System.out.println("交易失败");
         }
-        return id.getTotal();
+        return booth.getTotal();
     }
 //======================================
     //实例方法
