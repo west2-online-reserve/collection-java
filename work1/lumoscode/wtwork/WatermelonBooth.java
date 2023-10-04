@@ -100,10 +100,10 @@ public class WatermelonBooth {
             System.out.println("购买数大于在售西瓜数，购买失败");
             return;
         }
-        else{booth.setTotal(booth.getTotal()-quantity);
+        else{
+            booth.setTotal(booth.getTotal()-quantity);
             System.out.println("购买成功"+quantity+"斤西瓜");
-
-        }
+            }
     }
     public void restock(int quantity){
         if(quantity<=0){
