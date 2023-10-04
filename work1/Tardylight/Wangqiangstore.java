@@ -53,6 +53,7 @@ class Booth{
             System.out.println("该西瓜摊位在休摊整改");
         }else{
             System.out.println("恭喜你成功购买了 " + n +"个西瓜");
+            name.total-=n;
         }
     }
     public void restock(int num){
@@ -60,6 +61,7 @@ class Booth{
             System.out.println("进货数量过多导致进货失败");
         }else {
             System.out.println("成功进货 "+ num+ "西瓜");
+            total +=num;
         }
     }
     public static void closeBooths(Booth[] booths){
