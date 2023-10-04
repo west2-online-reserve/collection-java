@@ -65,6 +65,7 @@ public class Booth {
         if(num>200){
             System.out.println("进货失败,数量过多");
         } else if(num>=0&&num<=200) {
+            booth.setTotal(booth.getTotal()+num);
             System.out.println("进货成功");
         } else if (num<0) {
             System.out.println("进货失败，进货数量不能为负数");
