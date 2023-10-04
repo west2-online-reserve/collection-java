@@ -13,6 +13,7 @@ public class BoothTest {
         Booth.purchase(booth1, 50);
 
         booth1.restock(150);
+        booth1.restock(-20);
         booth1.restock(250);
 
         Booth[] booths = {booth1, booth2};
