@@ -1,34 +1,48 @@
 public class Application {
     public static void main(String[] args) {
-        Booth booth=new Booth();
-        booth.setId(100);
-        booth.setClosed(false);
-        booth.setName("西瓜摊1");
-        booth.setTotal(666);
-        booth.getId();
-        booth.getName();
-        booth.getTotal();
-        booth.isClosed();
-        //=======================
-        booth.toString();
-        int buy=50;
-        booth.purchase(booth,buy);
-        booth.restock(buy);
-        Booth[] booths={booth};
-        booth.closeBooths(booths);
+        Booth booth1=new Booth();
+        booth1.setId(200);
+        booth1.setClosed(false);
+        booth1.setName("西瓜摊2");
+        booth1.setTotal(666);
+        booth1.getId();
+        booth1.getName();
+        booth1.getTotal();
+        booth1.isClosed();
+        booth1.toString();
+        int buy1=booth1.getTotal()+20;
+        booth1.purchase(booth1,buy1);
+        int buy2=-90;
+        booth1.purchase(booth1,buy2);
+        int buy3=50;
+        booth1.purchase(booth1,buy3);
+
+        int num1=-20;
+        booth1.restock(num1);
+        int num2=205;
+        booth1.restock(num1);
+        int num3=150;
+        booth1.restock(num3);
+        Booth[] booths={booth1};
+        booth1.closeBooths(booths);
 
     }
 }
 //测试结果
 /*
-该摊位的编号为：100
-该摊位的名字为：西瓜摊1
+该摊位的编号为：200
+该摊位的名字为：西瓜摊2
 该摊位的在售西瓜数为：666
 是否休摊整改：false
+购买量不能大于在售量
+购买量必须为正数
 成功购买50个西瓜
-成功进货50个西瓜
-该摊位的编号为：100
-该摊位的名字为：西瓜摊1
-该摊位的在售西瓜数为：666
+进货失败
+进货失败
+成功进货150个西瓜
+该摊位的编号为：200
+该摊位的名字为：西瓜摊2
+该摊位的在售西瓜数为：766
 是否休摊整改：true
 */
+//我尽力想了几个异常方法了
