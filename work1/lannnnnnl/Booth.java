@@ -29,7 +29,7 @@ public class Booth {
 	}
 	public Booth(long id, String name, int total, boolean isClosed) {
         this.id = id;
-		this.name = name;
+	this.name = name;
         this.total = total;
         this.isClosed = isClosed;
 	}
@@ -57,7 +57,7 @@ public class Booth {
 		 }
 		 else {
 			 System.out.println("进货成功");
-			 this.total = total + num;
+			 setTotal(getTotal()+num);
 		 }
 	 }
 	 public static void closeBooths(Booth[] booths){
@@ -65,7 +65,7 @@ public class Booth {
 			 if(booths[i].isClosed()) {
 				 System.out.println(booths[i].toString());
 			 }
-			 else if(!booths[i].isClosed()) {
+			 else (!booths[i].isClosed()) {
 				 booths[i].setClosed(true);
 			 }
 		 }
