@@ -59,7 +59,11 @@ class Booth{
     public void restock(int num){
         if(num>200){
             System.out.println("进货数量过多导致进货失败");
-        }else {
+        }
+        else if(num<=0){
+            System.out,println("进货数量异常")
+        }
+        else {
             System.out.println("成功进货 "+ num+ "西瓜");
             total +=num;
         }
