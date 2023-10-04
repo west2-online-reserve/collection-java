@@ -1,0 +1,60 @@
+name: "CodeQL"
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+  pull_request:
+    branches:
+      - main
+      - dev
+  schedule:
+    - cron: '43 1 * * 0'
+
+jobs:
+  analyze:
+    name: Analyze
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
+
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [ 'java' ]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: PR标题的正确格式 学号 - work1
+      uses: satvik-s/pr-title-check@1.2.1
+      with:
+    # regex pattern to match against
+        pattern: ^\d{9} - work\d+$
+    # flags for the regex input
+        flags: i
+
+
+    - name: Initialize CodeQL
+      uses: github/codeql-action/init@v2
+      with:
+        languages: ${{ matrix.language }}
+        
+ #   - name: Compile Java
+ #     run: javac -d ./target ./src/*.java
+  
+ #   - name: Build with Maven
+ #     run: mvn clean install  # 使用Maven构建项目
+
+ #   - name: Build with Gradle
+ #     run: ./gradlew build
+
+ #   - name: Perform CodeQL Analysis
+ #     uses: github/codeql-action/analyze@v2
+ #     with:
+ #       category: "/language:${{matrix.language}}"
