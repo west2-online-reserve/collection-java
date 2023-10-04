@@ -68,9 +68,12 @@ public class Booth {
             System.out.println("进货量不能超过200。进货失败。");
             return;
         }
-
+    if(restockQuantity<0) {
+            System.out.println("进货量不能为负数，进货失败。")；}
+                else if(0<restockQuantity<200){
         System.out.println("成功进货了" + restockQuantity + "个西瓜。");
         total += restockQuantity;
+        
     }
 
     public static void closeBooths(Booth[] booths) {
