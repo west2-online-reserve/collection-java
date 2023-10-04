@@ -71,8 +71,8 @@ public class Booth {
         total += num;
         System.out.println(name + "成功进货了 " + num + " 个西瓜.");
     }
-    public static void closeBooths(WatermelonBooth[] booths) {
-        for (WatermelonBooth booth : booths) {
+    public static void closeBooths(Booth[] booths) {
+        for (Booth booth : booths) {
             if (!booth.isClosed()) {
                 booth.setClosed(true);
                 System.out.println(booth.toString());
