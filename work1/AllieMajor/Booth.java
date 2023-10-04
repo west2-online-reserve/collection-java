@@ -54,8 +54,7 @@ public class Booth {
         //交易成功与否
 
     }
-    public static   String purchase(Booth b, int purchase){
-        int x=b.tota;
+    
         if(b.isClosed()){
             return "isClosed";
         }else {
@@ -85,7 +84,7 @@ public class Booth {
             if(booths[i].isClosed==true){
                 System.out.println(booths[i].toString());
             }
-            if(booths[i].isClosed!=true){
+            else{
                 booths[i].setClosed(true);
             }
         }
