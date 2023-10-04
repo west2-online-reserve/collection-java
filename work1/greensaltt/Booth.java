@@ -69,7 +69,7 @@ public class Booth {
         System.out.println("该摊位的名字为："+name);
         System.out.println("该摊位的在售西瓜数为："+total);
         System.out.println("是否休摊整改："+isClosed);
-        return super.toString();
+        return "摊位"+id+"名字"+name+"总量"+total+"休整"+isClosed;
     }
 
 //======================================
@@ -109,5 +109,30 @@ public class Booth {
                 booth.toString();
             }
         }
+    }
+}
+
+//====================================
+//测试类
+
+public class Application {
+    public static void main(String[] args) {
+        Booth booth=new Booth();
+        booth.setId(100);
+        booth.setClosed(false);
+        booth.setName("西瓜摊1");
+        booth.setTotal(666);
+        booth.getId();
+        booth.getName();
+        booth.getTotal();
+        booth.isClosed();
+        //=======================
+        booth.toString();
+        int buy=50;
+        booth.purchase(booth,buy);
+        booth.restock(buy);
+        Booth[] booths={booth};
+        booth.closeBooths(booths);
+
     }
 }
