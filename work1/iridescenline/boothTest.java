@@ -13,7 +13,7 @@ public class boothTest {
         boothB.setName("bin");
         boothB.setTotal(60);
         boothB.setIsClosed(false);
-        boothC.setId(123);
+        boothC.setId(789);
         boothC.setName("nin");
         boothC.setTotal(55);
         boothC.setIsClosed(false);
