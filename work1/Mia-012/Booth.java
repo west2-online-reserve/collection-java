@@ -82,8 +82,7 @@ public class Booth {
         {
             for (Booth booth : booths) {
                 if (booth.isClosed) {
-                    String s = booth.toString();
-                        System.out.println(s);
+                        System.out.println(booth);
                 } else booth.isClosed = true;
             }
         }
