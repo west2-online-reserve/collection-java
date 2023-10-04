@@ -79,7 +79,7 @@ public class booth {
                 booth.setIsClosed(true);
                 System.out.println("已关闭");
             } else {
-                System.out.println(booth.toSpring()+"已在休业整改");
+                System.out.println(booth.toString()+"已在休业整改");
             }
         }
     }
