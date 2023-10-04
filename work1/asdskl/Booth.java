@@ -61,13 +61,13 @@ public class Booth {
         /*进货方法 */
         public  void restock(Booth booth, int nums2){
             if(nums2<=0||nums2>200){
-                System.out.println("进货失败，无法交易");
-            }
-            else{
-                booth.setTotal(booth.getTotal()+nums2);
-                System.out.println("进货成功");
-            }
-        }
+            System.out.println("进货失败");
+            }	            
+            else{	
+            booth.setTotal(booth.getTotal()+nums2);
+            System.out.println("进货成功");
+
+        }}
         /*歇业方法 */
         public static void closeBooths(Booth[]booths){
             int i=0;
