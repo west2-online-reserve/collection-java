@@ -66,14 +66,16 @@ public class Booth {
         if(amount<0){
             System.out.println("进货失败，进货量应大于等于0");
         }
-        total+=amount;
+        setTotal(total+amount);
         System.out.println("进货成功！");
     }
     public static void closeBooths(Booth []booths){
         for (Booth booth : booths) {
             if (booth.isClosed) {
                 System.out.println(booth.toString());
-            } else booth.setClosed(true);
+            } else {
+                booth.setClosed(true);
+            }
         }
     }
 }
