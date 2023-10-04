@@ -45,16 +45,16 @@ public class Booth {
     public static void purchase(Booth booth ,int nums){
         if (nums<=0||nums>booth.total||booth.isClosed) {
             System.out.println("交易失败");
-        } else booth.total -= nums;
-        System.out.println("交易成功");
+        } else {booth.total -= nums;
+        System.out.println("交易成功");}
         return;
     }
     public void restock(int quantity) {
         if (quantity<=0||quantity>200) {
             System.out.println("进货失败");
             return;
-        } else total += quantity;
-        System.out.println("现有" + quantity + "个西瓜");
+        } else {total += quantity;
+        System.out.println("现有" + quantity + "个西瓜");}
     }
     public static void closeBooths(Booth[] Booths) {
         for(int i=0;i<Booths.length;i++) {
