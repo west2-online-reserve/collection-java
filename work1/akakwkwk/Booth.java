@@ -55,15 +55,19 @@ public class Booth {
     public static void purchase(Booth booth, int num) {
         if (num <= 0 || num > booth.total || booth.isClosed) {
             System.out.println("购买失败");
-        } else {booth.total -= num;
-        System.out.println("购买成功");}
+        } else {
+            booth.total -= num;
+        System.out.println("购买成功");
+        }
         return;
     }
 
     public int restock(int restockNumber) {
         if (restockNumber > 200 || restockNumber < 0) {
             System.out.println("进货失败");
-        } else total += restockNumber;
+        } else {
+            total += restockNumber;
+        }
         return total;
     }
 
