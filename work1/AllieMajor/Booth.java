@@ -54,9 +54,7 @@ public class Booth {
         //交易成功与否
 
     }
-    public static void purchase(Booth b, int purchase){
-
-
+    public static String purchase(Booth b, int purchase){
             if(b.isClosed()){
             return "isClosed";
         }else {
