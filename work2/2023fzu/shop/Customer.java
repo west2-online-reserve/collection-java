@@ -36,7 +36,9 @@ public class Customer {
 
     @Override
     public boolean equals(Object customer){
-        if (customer == null)return false;
+        if (customer == null){
+            return false;
+        }
         return customer instanceof Customer
                 && ((Customer) customer).getCustomerName().equals(this.customerName);
     }
