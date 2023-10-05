@@ -9,6 +9,7 @@ import java.util.*;
  * @author HarveyBlocks
  * @date 2023/08/15 13:38
  **/
+
 public class MyAnimalShop implements AnimalShop{
 
     private double balance;//店的余额
@@ -101,13 +102,11 @@ class ShopAction {
     //遍历animal,返回一类动物的信息供人选择
     public static boolean printList(MyAnimalShop myAnimalShop,Class variety){
         boolean flag = false;
-        for (Animal everyAnimal:
-                myAnimalShop.getAnimals()) {
+        for (Animal everyAnimal:myAnimalShop.getAnimals()) {
             if(everyAnimal.getClass().equals(variety)){
                 System.out.println(everyAnimal);
                 flag  = true;
             }
-
         }
         if(! flag){
             System.out.println("店家还没有该钟动物,请等待店家进货");
@@ -154,7 +153,6 @@ class ShopAction {
                 System.out.print("输入不合法,请重新输入");
                 continue;
             }
-
             boolean isFind = false;
             switch (choose) {
                 case 1 -> {

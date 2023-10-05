@@ -6,6 +6,7 @@ import static shop.ShopAction.getRandom;
  * @author HarveyBlocks
  * @date 2023/08/15 13:17
  **/
+
 public class ChineseDog extends Animal{
     protected static final int AGE_RANDOM = 20;
     protected static int count;//动物的个数

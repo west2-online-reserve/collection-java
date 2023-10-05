@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+//正则表达式
 public class MailJudge {
     public static void main(String[] args) {
         String mail = "2797077601@qq.com";
