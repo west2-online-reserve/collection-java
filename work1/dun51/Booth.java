@@ -43,7 +43,7 @@ public class Booth {
         System.out.println("摊主姓名："+this.name);
         System.out.println("剩余西瓜数："+this.total);
         System.out.println("是否在修改："+this.isClosed);
-        return "";
+        return "摊号："+this.id+",  摊主姓名:"+this.name+",  剩余西瓜数量："+this.total+",  摊位是否在修改："+this.isClosed;
     }
     public void Booth(long id,String name,int total,boolean isClosed){
         this.isClosed=isClosed;
@@ -55,17 +55,17 @@ public class Booth {
         if (amount<0){
             System.out.println("购买失败,无法出售负数西瓜");
         }else
-        if (name.isClosed){
-            System.out.println("商家正在修正，无法出售");
+            if (name.isClosed){
+                 System.out.println("商家正在修正，无法出售");
 
-        }else
-        if (amount>name.total){
-            System.out.println("商家剩余西瓜数不足，购买失败");
+            }else
+                 if (amount>name.total){
+                     System.out.println("商家剩余西瓜数不足，购买失败");
 
-        }else {
-            name.total-=amount;
-           System.out.println("购买成功");
-        }
+                }else {
+                     name.total-=amount;
+                     System.out.println("购买成功");
+                    }
     }
     public void restock(Booth name,int comeAmount){
         if (comeAmount<=200&&comeAmount>0){
