@@ -39,6 +39,7 @@ public class Booth {
         isClosed = closed;
     }
     public  String toString(){
+
         return "摊号："+this.id+",  摊主姓名:"+this.name+",  剩余西瓜数量："+this.total+",  摊位是否在修改："+this.isClosed;
     }
     public void Booth(long id,String name,int total,boolean isClosed){
