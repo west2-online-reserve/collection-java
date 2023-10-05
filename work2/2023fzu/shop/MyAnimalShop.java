@@ -134,13 +134,12 @@ class ShopAction {
 
 
         System.out.print(
-                """
-                        顾客可以选择下列动物:
-                        1.兔子:50元
-                        2.猫:200元
-                        3.中华田园犬:100元
-                        4.放弃购买
-                        请输入你的选择:"""
+                "顾客可以选择下列动物:\n" +
+                        "1.兔子:50元\n" +
+                        "2.猫:200元\n" +
+                        "3.中华田园犬:100元\n" +
+                        "4.放弃购买\n" +
+                        "请输入你的选择:"
         );
 
         //选择模块,可以写成方法,不过都复制粘贴好了就算了
@@ -155,24 +154,25 @@ class ShopAction {
             }
             boolean isFind = false;
             switch (choose) {
-                case 1 -> {
+                case 1 : {
                     isFind = printList(myAnimalShop, Rabbit.class);
                     flag = false;
                 }
-                case 2 -> {
+                case 2 : {
                     isFind = printList(myAnimalShop, Cat.class);
                     flag = false;
                 }
-                case 3 -> {
+                case 3 : {
                     isFind = printList(myAnimalShop, ChineseDog.class);
                     flag = false;
                 }
-                case 4 -> {
+                case 4 : {
                     System.out.println("已放弃");
                     flag = false;
                     return;
                 }
-                default -> System.out.print("输入超范围请重新输入:");
+                default :
+                    System.out.print("输入超范围请重新输入:");
             }
             if (!isFind){
                 System.out.println("您的余额是:"+ myAnimalShop.getBalance());
@@ -236,13 +236,12 @@ class ShopAction {
     public static void purchaseAction(MyAnimalShop myAnimalShop,Scanner scanner){
         System.out.println("您的余额是:"+ myAnimalShop.getBalance());
         System.out.print(
-                """
-                        您可以选择下列动物:
-                        1.兔子:40元
-                        2.猫:160元
-                        3.中华田园犬:80元
-                        4.放弃购买
-                        请输入你的选择:"""
+                "您可以选择下列动物:\n" +
+                        "1.兔子:40元\n" +
+                        "2.猫:160元\n" +
+                        "3.中华田园犬:80元\n" +
+                        "4.放弃购买\n" +
+                        "请输入你的选择:"
         );
 
         //选择模块,可以写成方法,不过都复制粘贴好了就算了
@@ -257,7 +256,7 @@ class ShopAction {
             }
 
             switch (choose) {
-                case 1 -> {
+                case 1 : {
                     try {
                         ShopAction.purchaseAnimal(myAnimalShop, Rabbit.class);
                     } catch (Exception e) {
@@ -265,7 +264,7 @@ class ShopAction {
                     }
                     flag = false;
                 }
-                case 2 -> {
+                case 2 : {
                     try {
                         ShopAction.purchaseAnimal(myAnimalShop, Cat.class);
                     } catch (Exception e) {
@@ -273,7 +272,7 @@ class ShopAction {
                     }
                     flag = false;
                 }
-                case 3 -> {
+                case 3 : {
                     try {
                         ShopAction.purchaseAnimal(myAnimalShop, ChineseDog.class);
                     } catch (Exception e) {
@@ -281,11 +280,12 @@ class ShopAction {
                     }
                     flag = false;
                 }
-                case 4 -> {
+                case 4 : {
                     System.out.println("已放弃");
                     flag = false;
                 }
-                default -> System.out.print("输入超范围请重新输入:");
+                default :
+                    System.out.print("输入超范围请重新输入:");
             }
         }
 

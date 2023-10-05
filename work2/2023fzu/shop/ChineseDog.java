@@ -16,8 +16,8 @@ public class ChineseDog extends Animal{
     public ChineseDog(String name, int age, int sex) {
         super(name, age, sex, 100,80);
         switch (getRandom(1)) {
-            case 1 -> isVaccineInjected = true;
-            case 2 -> isVaccineInjected = false;
+            case 1 : isVaccineInjected = true;
+            case 2 : isVaccineInjected = false;
         }
     }
 
