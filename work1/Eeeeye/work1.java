@@ -64,7 +64,7 @@ public static void purchase(Booth booth, int purchaseQuantity) {
     }
 }
 
-public void restock(int restockQuantity) {
+public static void restock(int restockQuantity) {
     if (restockQuantity > 0 && restockQuantity <= 200) {
         total += restockQuantity;
         System.out.println("进货成功！，进货了" + restockQuantity + "个西瓜。");
