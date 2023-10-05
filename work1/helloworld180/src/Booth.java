@@ -61,7 +61,7 @@ public class Booth {
             if(booth.isClosed == false){
                 booth.isClosed = true;
             }
-            booth.toString();
+            System.out.println(booth.toString());
         }
     }
 }

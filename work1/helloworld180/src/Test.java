@@ -19,6 +19,7 @@ public class Test {
         Booth.purchase(booths[0],190);
         booths[0].restock(201);
 
-        Booth.closeBooths(booths);
+        Booth.closeBooths(new Booth[]{booths[0],booths[1],booths[2]});
+
     }
 }
