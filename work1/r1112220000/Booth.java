@@ -63,7 +63,7 @@ public class Booth {
     }
 
     public void restock(int quantity) {
-        if (quantity > 200) {
+        if (quantity > 200 && quantity < 0) {
             System.out.println("进货失败,单次进货量不能超过200个西瓜。");
             return;
         }
