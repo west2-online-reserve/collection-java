@@ -39,10 +39,6 @@ public class Booth {
         isClosed = closed;
     }
     public  String toString(){
-        System.out.println("摊号："+this.id);
-        System.out.println("摊主姓名："+this.name);
-        System.out.println("剩余西瓜数："+this.total);
-        System.out.println("是否在修改："+this.isClosed);
         return "摊号："+this.id+",  摊主姓名:"+this.name+",  剩余西瓜数量："+this.total+",  摊位是否在修改："+this.isClosed;
     }
     public void Booth(long id,String name,int total,boolean isClosed){
