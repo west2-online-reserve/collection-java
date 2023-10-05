@@ -16,7 +16,7 @@ public class MailJudge {
         //matche(匹配)
     }
 
-    public static ArrayList findSomething(String text){
+    public static ArrayList<String> findSomething(String text){
         ArrayList<String> strings = new ArrayList<>();
         //regex
         String regex = "\\d";

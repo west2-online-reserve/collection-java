@@ -6,6 +6,7 @@ package shop;
  **/
 public class Rabbit extends Animal{
     protected static int count;//动物的个数
+    protected static final int AGE_RANDOM = 10;
     public Rabbit(){};
     public Rabbit(String name, int age, int sex) {
         super(name, age, sex, 50,40);

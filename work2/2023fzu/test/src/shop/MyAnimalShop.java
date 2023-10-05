@@ -1,8 +1,9 @@
 package shop;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
 import java.time.LocalTime;
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * @author HarveyBlocks
@@ -11,7 +12,7 @@ import java.util.stream.Collectors;
 public class MyAnimalShop implements AnimalShop{
 
     private double balance;//店的余额
-    private ArrayList<Animal> animal = new ArrayList<>();//一个存放动物的列表
+    private ArrayList<Animal> animals = new ArrayList<>();//一个存放动物的列表
     private ArrayList<Customer> customer = new ArrayList<>();//一个顾客列表留作纪念
     private boolean isOpen;//是否正在营业
     public MyAnimalShop(){
@@ -28,6 +29,8 @@ public class MyAnimalShop implements AnimalShop{
         return random.nextInt(high+1);
     }
 
+
+    private static final int SEX_RANDOM = 1;
 
     //买入新动物,花钱,买了新动物之后才能知道
     @Override
@@ -55,42 +58,26 @@ public class MyAnimalShop implements AnimalShop{
 
             switch (choose){
                 case 1:
-                    Rabbit rabbit = new Rabbit(
-                            "rabbit"+(Rabbit.count+1),getRandom(10),getRandom(1)
-                    );
-                    animal.add(rabbit);
-                    if (this.balance>40){
-                        this.balance -= 40 ;
-                        System.out.println("购买成功");
-                    }else {
-                        throw new InsufficientBalanceException("余额不足");
+                    try {
+                        purchaseAnimal(Rabbit.class);
+                    } catch (Exception e) {
+                        System.out.println("ChinesePurchaseException");
                     }
                     flag =false;
                     break;
                 case 2:
-                    Cat cat = new Cat(
-                            "cat"+(Cat.count+1),getRandom(15),getRandom(1)
-                    );
-                    animal.add(cat);
-                    if (this.balance>160){
-                        this.balance -= 160 ;
-                        System.out.println("购买成功");
-                    }else {
-                        throw new InsufficientBalanceException("余额不足");
+                    try {
+                        purchaseAnimal(Cat.class);
+                    } catch (Exception e) {
+                        System.out.println("ChinesePurchaseException");
                     }
                     flag =false;
                     break;
                 case 3:
-                    ChineseDog chineseDog = new ChineseDog(
-                            "dog"+(ChineseDog.count+1),getRandom(20),getRandom(1)
-                    );//其实可以在Dog类里写一个无参构造,在无参构造里随机这个性别啥的,
-                        // 主要是一开始想着用户能够指定性别,后来又觉得让用户指定性别啥的没啥必要,真的有人在意要养母狗还是公狗吗?
-                    animal.add(chineseDog);
-                    if (this.balance>80){
-                        this.balance -= 80 ;
-                        System.out.println("购买成功");
-                    }else {
-                        throw new InsufficientBalanceException("余额不足");
+                    try {
+                        purchaseAnimal(ChineseDog.class);
+                    } catch (Exception e) {
+                        System.out.println("ChinesePurchaseException");
                     }
                     flag =false;
                     break;
@@ -106,10 +93,27 @@ public class MyAnimalShop implements AnimalShop{
         System.out.println("您的余额是:"+ this.balance);
     }
 
+    public void purchaseAnimal(Class animalClass)
+            throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
+
+        Constructor animalConstructor = animalClass.getDeclaredConstructor(String.class, int.class, int.class);
+        Animal purAnimal = (Animal) animalConstructor.newInstance(
+                "dog" + (ChineseDog.count + 1), getRandom(ChineseDog.AGE_RANDOM), getRandom(SEX_RANDOM)
+        );
+        animals.add(purAnimal);
+        if (this.balance > purAnimal.getPrice()) {
+            this.balance -= purAnimal.getPrice();
+            System.out.println("购买成功");
+        } else {
+            throw new InsufficientBalanceException("余额不足");
+        }
+    }
+
     //招待客户,要求卖出动物,获得钱
+    private static final int EMPTY_SIZE = 0;
     @Override
     public void serve(Scanner scanner) {
-        if(animal.size() == 0){
+        if(animals.size() == EMPTY_SIZE){
             System.out.println("你还没有pet可售卖,快去进货吧");
             return;
         }
@@ -187,13 +191,13 @@ public class MyAnimalShop implements AnimalShop{
 
             String chooseName = scanner.nextLine();
             System.out.println("顾客要购买的pet名字是:"+chooseName);
-            for (Animal everyAnimal:animal) {
+            for (Animal everyAnimal: animals) {
                 if (everyAnimal.getName().equals(chooseName)) {
-                    animal.remove(everyAnimal);
+                    animals.remove(everyAnimal);
                     isFound = true;
                     this.balance += everyAnimal.getPrice();
                     System.out.println("售卖成功");
-                    animal.remove(everyAnimal);
+                    animals.remove(everyAnimal);
                     break;
                 }
             }
@@ -212,7 +216,7 @@ public class MyAnimalShop implements AnimalShop{
     public boolean printAnimalList(Class variety){
         boolean flag = false;
         for (Animal everyAnimal:
-             animal) {
+                animals) {
             if(everyAnimal.getClass().equals(variety)){
                 System.out.println(everyAnimal);
                 flag  = true;
@@ -229,23 +233,25 @@ public class MyAnimalShop implements AnimalShop{
     public String toString() {
         return "MyAnimalShop{" +
                 "\nbalance=" + balance +
-                "\n, animal=" + animal +
+                "\n, animal=" + animals +
                 "\n, customer=" + customer +
                 "\n, isOpen=" + isOpen +
                 "\n}";
     }
 
+    private static final int OPEN_TIME = 9;
+    private static final int CLOSE_TIME = 17;
     //歇业
     @Override
     public void shutDown() {
         LocalTime time = LocalTime.now();
 
-        if(time.getHour()>20 || time.getHour() <9){//朝九晚五的乌托邦作息
+        if (time.getHour() > CLOSE_TIME || time.getHour() < OPEN_TIME) {//朝九晚五的乌托邦作息
             this.isOpen = false;
             System.out.println("店关门啦");
             System.out.println("现在店内信息为:");
             System.out.println(this.toString());
-        }else {
+        } else {
             this.isOpen = true;
         }
 
@@ -259,12 +265,12 @@ public class MyAnimalShop implements AnimalShop{
         this.balance = balance;
     }
 
-    public ArrayList getAnimal() {
-        return animal;
+    public ArrayList getAnimals() {
+        return animals;
     }
 
-    public void setAnimal(ArrayList animal) {
-        this.animal = animal;
+    public void setAnimals(ArrayList animals) {
+        this.animals = animals;
     }
 
     public ArrayList getCustomer() {
