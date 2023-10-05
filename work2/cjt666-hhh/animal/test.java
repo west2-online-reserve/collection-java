@@ -3,7 +3,7 @@ package animal;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-public class test {
+public class Test {
     public static void main(String[] args) {
 
 
@@ -48,11 +48,11 @@ public class test {
 
 
 //这里初始化一个集合，等一下会导入宠物店
-        ArrayList list1=new ArrayList<Animal >();
-        list1.add(c1); list1.add(c2);list1.add(d1);list1.add(d2);
+        ArrayList animalForSell=new ArrayList<Animal >();
+        animalForSell.add(c1); animalForSell.add(c2);animalForSell.add(d1);animalForSell.add(d2);
 
 //把上面的集合导入宠物店，作为宠物店在卖的宠物列表
-        mine.setList1(list1);
+        mine.setList1(animalForSell);
 
 
 

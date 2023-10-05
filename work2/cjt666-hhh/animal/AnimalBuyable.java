@@ -1,9 +1,8 @@
 package animal;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
 
-public interface buyAnimal {
+public interface AnimalBuyable {
 //这里就是按照任务定义的一个接口
     public abstract void buyCat(Cat c);
 
