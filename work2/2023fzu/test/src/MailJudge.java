@@ -13,7 +13,7 @@ public class MailJudge {
     public static boolean checkEmail(String email){
         return email.matches( "\\w{2,}"+ "@" +"\\w{2,20}(\\.\\w{2,20})+");//注意\.代表任意字符
         //------------------------------------------------------------+表示出现一次或多次
-        //matche(匹配)
+        //match(匹配)
     }
 
     public static ArrayList<String> findSomething(String text){

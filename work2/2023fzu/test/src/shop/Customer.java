@@ -1,12 +1,7 @@
 package shop;
 
-import sun.util.resources.LocaleData;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Locale;
-import java.util.Objects;
 
 /**
  * @author HarveyBlocks
@@ -19,7 +14,7 @@ public class Customer {
 
     public Customer(String customerName) {
         if (customerName == null){
-            new NullPointerException();
+            throw new NullPointerException();
         }
         if(this.count == 0) {
             this.customerName = customerName;
@@ -32,7 +27,7 @@ public class Customer {
     @Override
     public String toString() {
         return "Customer{" +
-                "customerName='" + customerName + "\'\t" +
+                "customerName='" + customerName + "'\t" +
                 ", count=" + count +"\t"+
                 ", time=" + time +"\t"+
                 "}\n";
@@ -41,14 +36,10 @@ public class Customer {
     @Override
     public boolean equals(Object customer){
         if (customer == null)return false;
-        if(customer instanceof Customer
-                        &&((Customer) customer).getCustomerName().equals(this.customerName)
-        )return true;
-        return false;
+        return customer instanceof Customer
+                && ((Customer) customer).getCustomerName().equals(this.customerName);
     }
-    public LocalDate getTime() {
-        return time;
-    }
+
     public void setTime() {
         this.time = LocalDate.now();
     }
@@ -57,17 +48,6 @@ public class Customer {
         return customerName;
     }
 
-    public void setCustomerName(String customerName) {
-        customerName = customerName;
-    }
-
-    public int getCount() {
-        return count;
-    }
-
-    public void setCount(int count) {
-        this.count = count;
-    }
     public void plusCount() {
         this.count++;
     }

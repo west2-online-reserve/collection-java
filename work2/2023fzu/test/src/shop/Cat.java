@@ -11,7 +11,7 @@ public class Cat extends Animal{
         super(name, age, sex, 200,160);
     }
 
-    public Cat(){};
+    public Cat(){}
 
 
     @Override
