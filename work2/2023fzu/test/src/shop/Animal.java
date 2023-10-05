@@ -30,14 +30,11 @@ public  abstract class Animal {
     //一个抽象的toString() 方法
     public abstract String toString() ;
     public String sexChange(int sex) {
-        switch (sex){
-            case 0:
-                return "femal";
-            case 1:
-                return "male";
-            default:
-                return "unknow";
-        }
+        return switch (sex) {
+            case 0 -> "female";
+            case 1 -> "male";
+            default -> "un know";
+        };
     }
 
     public abstract String getName() ;
