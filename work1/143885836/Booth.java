@@ -1,5 +1,5 @@
 
-public class Booth {
+    public class Booth {
         private long id;
         private String name;
         private int total;
@@ -47,19 +47,18 @@ public class Booth {
             }else if(buyNum>name.total){
                 System.out.println("购买失败，因为购买西瓜数大于在售西瓜数");
             }else {
+                name.setTotal(name.getTotal()-buyNum);
                 System.out.println("购买成功");
             }
         }
-        public void restock(int stockNum){
+        public void restock(Booth name,int stockNum){
             if (stockNum>200 || stockNum<0){
                 System.out.println("进货失败");
             }else {
+                name.setTotal(name.getTotal()+stockNum);
                 System.out.println("进货成功");
             }
         }
-
-
-
         public static void closeBooths(Booth[] booths){
             for (int i = 0; i < booths.length; i++) {
                 if (!booths[i].getIsClosed()){
@@ -76,4 +75,7 @@ public class Booth {
 
 
     }
+
+
+
 
