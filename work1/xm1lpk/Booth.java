@@ -68,7 +68,7 @@ public class Booth {
             System.out.println("false：单次进货量必须为正数且不超过200。");
             return;
         }
-        total += num;
+        this.total += num;
         System.out.println(name + "成功进货了 " + num + " 个西瓜.");
     }
     public static void closeBooths(Booth[] booths) {
