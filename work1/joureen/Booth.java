@@ -52,10 +52,10 @@ class Booth {
 
     public void restock(int n) {
         if (n > 200 || n <= 0) {
-            System.out.println("进货失败");
+            System.out.println("进货失败,该进货量超出200或为负数");
         } else {
-            total += 200;
-            System.out.println("此时总量为"+total);
+            total += n;
+            System.out.println("进货成功，此时在售西瓜数为"+total);
         }
     }
 
@@ -63,20 +63,18 @@ class Booth {
         if (n <= 0 || a.isClosed || n > a.total) {
             System.out.println("购买失败");
         } else {
-            System.out.println("购买成功");
             a.total -= n;
-            System.out.println("此时总量为"+a.total);
+            System.out.println("购买成功，此时在售西瓜数为"+a.total);
         }
     }
 
     public static void closeBooths(Booth[] booths) {
         int n = booths.length;
         for (int i = 0; i < n; i++) {
-            if(booths[i].isClosed)
-                System.out.println(booths[i].toString());
             if (!booths[i].isClosed) {
                 booths[i].isClosed = true;
             }
+            System.out.println(booths[i].toString());
         }
     }
 }
