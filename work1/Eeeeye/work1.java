@@ -64,7 +64,7 @@ public static void purchase(Booth booth, int purchaseQuantity) {
     }
 }
 
-public void restock(int restockQuantity) {
+public static void restock(int restockQuantity) {
     if (restockQuantity > 0 && restockQuantity <= 200) {
         total += restockQuantity;
         System.out.println("进货成功！，进货了" + restockQuantity + "个西瓜。");
@@ -82,3 +82,16 @@ public static void closeBooths(Booth[] booths) {
         }
     }
 }
+public class BoothTest{     
+Booth booth1 = new Booth(1, "张三", 100, false);      
+Booth booth2 = new Booth(2, "李四", 50, true);      
+Booth[] booths = new Booth[2];      
+booths[0] = booth1;      booths[1] = booth2;     
+System.out.println("===初始摊位状态===");     
+for (int i=0; i<booths.length; i++) {         
+System.out.println(booths[i].toString());          
+System.out.println("============");      
+}
+purchase(booth1, 20);      restock(booth2, 30);      closeBooths(booths);   
+}
+} 
