@@ -55,6 +55,7 @@ public class MyAnimalShop implements AnimalShop {
         for (int i = 0; i < pets.size(); i++) {
             System.out.println(i + ":" + pets.get(i).toString());
         }
+        System.out.println();
     }
 
     @Override
@@ -68,24 +69,35 @@ public class MyAnimalShop implements AnimalShop {
         }
     }
 
+
     @Override
     public void entertainCustomers(Customer c) {
+        if (!this.isBusiness) {
+            throw new ShopClosed(LocalDate.now());
+        }
         //将顾客加入顾客列表
         customers.add(c);
         //更新顾客到店次数
         c.setCnt(c.getCnt() + 1);
-
+        //更新顾客到店时间
+        c.setTime(LocalDate.now());
         Scanner sc = new Scanner(System.in);
-        System.out.println("购买宠物输入true，否则输入false：");
+        System.out.println("尊敬的顾客您好，购买宠物输入true，否则输入false：");
         boolean choice = sc.nextBoolean();
 
-        if (choice) {
+        if (!choice) {
+            System.out.println("希望下次会有您喜欢的宠物！");
+            return;
+        }
+
+        while (choice) {
             if (pets.isEmpty()) {
                 throw new AnimalNotFoundException("宠物店没有宠物");
             } else {
-                showAnimalMenu();
-                System.out.println("请输入您想要购买的宠物下标：");
-                int index = sc.nextInt();
+                int index;
+                showAnimalMenu();//显示菜单
+                System.out.print("请输入您想要购买的宠物下标：");
+                index = sc.nextInt();
                 if (index < 0 && index >= pets.size()) {
                     throw new AnimalNotFoundException("下标错误，找不到动物！");
                 } else {
@@ -95,11 +107,11 @@ public class MyAnimalShop implements AnimalShop {
                     pets.remove(index);
                     System.out.println("谢谢惠顾");
                 }
+                System.out.println("如果您还想购买宠物请输入true,否则false:");
+                choice = sc.nextBoolean();
             }
-        } else {
-            System.out.println("希望下次会有您喜欢的宠物！");
         }
-
+        System.out.println("谢谢惠顾");
     }
 
     @Override
@@ -113,5 +125,11 @@ public class MyAnimalShop implements AnimalShop {
             }
         }
         System.out.println("今日总利润：" + profit);
+    }
+
+    @Override
+    public void setUp() {
+        this.isBusiness = true;
+        System.out.println("宠物店开店了！");
     }
 }

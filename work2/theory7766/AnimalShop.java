@@ -7,4 +7,6 @@ public interface AnimalShop {
 
     public abstract void Shutdown();
 
+    public abstract void setUp();
+
 }

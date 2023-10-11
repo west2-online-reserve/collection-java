@@ -8,7 +8,6 @@ public class Pigs extends Animal {
 
     @Override
     public String toString() {
-        return "品种:呆萌小猪,名字:" + this.name + ",年龄:" + this.old
-                + ",性别:" + this.gender + ",价格:" + this.price;
+        return "品种:呆萌小猪,名字:" + this.name + ",年龄:" + this.old + ",性别:" + this.gender + ",价格:" + this.price;
     }
 }
