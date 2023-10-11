@@ -18,6 +18,6 @@ public class InsufficientBalanceException extends RuntimeException {
     }
 
     public String toString() {
-        return "余额为" + balance + ",而宠物" + animal.getName() + "售价为" + animal.getPrice() + "购买失败！";
+        return "余额为" + balance + ",而宠物" + animal.getName() + "售价为" + animal.getPrice() + ",购买失败！";
     }
 }
