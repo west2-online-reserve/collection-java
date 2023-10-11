@@ -24,6 +24,8 @@ public class Main {
 
         animalShop2.buyAnimal(dog);
         animalShop2.serveCustomer(p1);//第二个店铺已经关门
+        animalShop2.setOpen(true);
+        animalShop2.serveCustomer(p1);//第二个店铺已经开门
 
     }
 }

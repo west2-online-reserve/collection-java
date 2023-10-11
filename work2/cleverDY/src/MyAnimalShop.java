@@ -27,6 +27,10 @@ public class MyAnimalShop implements AnimalShop {
         this.isOpen = isOpen;
     }
 
+    public void setOpen(boolean open) {
+        isOpen = open;
+    }
+
     // 实现接口中的方法
     public void buyAnimal(Animal a) {
         try {
