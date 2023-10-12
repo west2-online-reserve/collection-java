@@ -15,26 +15,41 @@ public class MyAnimalShop implements AnimalShop{
 
     @Override
     public void purchase(Animal animal) throws InsufficientBalanceException {
-        animalList.add(animal);
+
         if((this.money-animal.getPrice())<0){
             throw new InsufficientBalanceException(money);
         }else {
             this.money-=animal.getPrice();
+            animalList.add(animal);
         }
-
-
     }
 
     @Override
     public void treatCustomer (Customer customer) throws AnimalNotFountException {
-        customers.add(customer);
-        if(animalList.size()==0){
-            throw new AnimalNotFountException(animalList.size());
-        }else {
-            animalList.remove(customer.getBuyAnimal());
-            money+=customer.getBuyAnimal().getPrice();
-            customer.setTime(customer.getTime()+1);
-            System.out.println(customer.getBuyAnimal().toString());
+        if(this.isOpened==true){
+            customers.add(customer);
+            ArrayList<Animal> buying = new ArrayList<Animal>();
+            int a = buying.size();
+            for (int i = 0; i < customer.getBuyAnimal().size(); i++) {
+                for (int j = 0; j < animalList.size(); j++) {
+                    if(animalList.get(j).equals(customer.getBuyAnimal().get(i))){
+                        buying.add(customer.getBuyAnimal().get(i));
+                    }
+                }
+            }
+            if(buying.size()==a){
+                throw new AnimalNotFountException(customer.getBuyAnimal().size());
+            }else {
+                for (int i = 0; i < customer.getBuyAnimal().size(); i++) {
+                    money+=buying.get(i).getPrice();
+                }
+                for (int i = 0; i < buying.size(); i++) {
+                    animalList.remove(buying.get(i));
+                }
+                customer.setTime(customer.getTime()+1);
+                customer.setLatestTime(LocalDate.now());
+                System.out.println(customer.getBuyAnimal().toString());
+            }
         }
 
     }
@@ -48,14 +63,16 @@ public class MyAnimalShop implements AnimalShop{
         for (int i = 0; i < this.customers.size(); i++) {
 
             if(localDate.equals(this.customers.get(i).getLatestTime())){
-                this.dayEarning+=this.customers.get(i).getBuyAnimal().getPrice();
+                for (int j = 0; j < this.customers.get(i).getBuyAnimal().size(); j++) {
+                    this.dayEarning+=this.customers.get(i).getBuyAnimal().get(j).getPrice();
+
+                }
             }
         }
         System.out.println("今天的利润为"+this.dayEarning);
-         }
-
-        
-
-
     }
+    public void open(){
+        this.isOpened=true;
+    }
+}
 

@@ -1,11 +1,12 @@
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.Locale;
 
 public class Customer {
     private String name;
     private int time;
     private LocalDate latestTime;
-    private Animal buyAnimal;
+    private ArrayList<Animal> buyAnimal = new ArrayList<Animal>();
     public String toString(){
         return "顾客姓名："+name+"\n"+"到店次数："+time+"\n"+"最新到店时间："+latestTime;
     }
@@ -22,7 +23,7 @@ public class Customer {
         return latestTime;
     }
 
-    public Animal getBuyAnimal() {
+    public ArrayList<Animal> getBuyAnimal() {
         return buyAnimal;
     }
 
@@ -38,7 +39,7 @@ public class Customer {
         this.latestTime = latestTime;
     }
 
-    public void setBuyAnimal(Animal buyAnimal) {
+    public void setBuyAnimal(ArrayList<Animal> buyAnimal) {
         this.buyAnimal = buyAnimal;
     }
 }

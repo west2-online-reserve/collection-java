@@ -3,8 +3,6 @@ public class AnimalNotFountException extends RuntimeException{
 
     public AnimalNotFountException(int num){
          this.num = num;
-
-
     }
 
 
