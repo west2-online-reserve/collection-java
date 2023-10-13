@@ -1,6 +1,7 @@
 package Animal;
 
 public abstract class Animals {
+
     protected String name;
     protected int age;
     protected String gender;
