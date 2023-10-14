@@ -1,13 +1,19 @@
 package com.huayu.work02;
 
+/**
+ * Text类是系统的测试类
+ *
+ *该类包含所有的代码的具体实现
+ * @author yusiheng
+ * date 2023/10/04
+ */
 import java.time.LocalDate;
 
 public class Test {
-    /*这就是最终的测试类了，他能验证我代码的可行性，在我的宠物店.md文件中有这个测试的执行方法，和解释，把注解删了就可以进行下一项
-     测试，更多细节，优点缺点在该文件中以补充*/
     public static void main(String[] args) {
         MyAnimalShop myAnimalShop = new MyAnimalShop();
         myAnimalShop.closingTime = LocalDate.of(2023, 9, 27);
+        // 设置初始金额
         myAnimalShop.storeBalance = 500;
         Dog charlie = new Dog("charlie", 1, "male", 120, 80, true);
         Cat blue = new Cat("blue", 1, "female", 200, 160);
@@ -18,8 +24,11 @@ public class Test {
         myAnimalShop.animalsList.add(charlie);
         myAnimalShop.animalsList.add(blue);
         Customer alice = new Customer();
+        // 设置顾客名字
         alice.customerName = "alice";
+        // 设置到店次数
         alice.arrivalTime = 2;
+        // 设置离店时间
         alice.latestArrivalTime = LocalDate.of(2023, 9, 27);
         Customer landon = new Customer();
         landon.customerName = "landon";

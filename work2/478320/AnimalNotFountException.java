@@ -1,7 +1,14 @@
 package com.huayu.work02;
 
+/**
+ * AnimalNotFountException类表示宠物店没有宠物异常
+ *
+ * 该自定义异常在宠物店无宠物时会抛出
+ * @author yusiheng
+ * @date 2023/10/04
+ */
 public class AnimalNotFountException extends RuntimeException {
-//这是找不到动物的运行时异常，在没有动物时会抛出return的内容，我在text中也注释了它检验的代码
+
     public AnimalNotFountException() {
 
     }

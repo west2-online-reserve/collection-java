@@ -1,8 +1,14 @@
 package com.huayu.work02;
 
+/**
+ * InsufficientBalanceException类表示余额不足自定义异常
+ *
+ * 该自定义异常在余额不足时将被抛出
+ * @author yusiheng
+ * @date 2023/10/04
+ */
 public class InsufficientBalanceException extends RuntimeException {
 
-//这是购买时钱不够的异常，我在test方法中注释了一个价格很大的宠物来专门检验这个异常
     public InsufficientBalanceException() {
 
     }
