@@ -1,6 +1,7 @@
 package com.huayu.work02;
 
 public class Dog extends Animal {
+    //这是狗狗类;和猫猫类相同，就是多了个疫苗
     boolean isVaccineInjected;
 
     public Dog(String animalName, int animalAge, String animalSex, double animalPrice, double animalImportPrice, boolean isVaccineInjected) {

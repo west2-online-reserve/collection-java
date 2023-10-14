@@ -3,6 +3,8 @@ package com.huayu.work02;
 import java.time.LocalDate;
 
 public class Test {
+    /*这就是最终的测试类了，他能验证我代码的可行性，在我的宠物店.md文件中有这个测试的执行方法，和解释，把注解删了就可以进行下一项
+     测试，更多细节，优点缺点在该文件中以补充*/
     public static void main(String[] args) {
         MyAnimalShop myAnimalShop = new MyAnimalShop();
         myAnimalShop.closingTime = LocalDate.of(2023, 9, 27);
@@ -27,15 +29,15 @@ public class Test {
         aron.customerName = "aron";
         aron.arrivalTime = 2;
         aron.latestArrivalTime = LocalDate.of(2023, 9, 26);
+        myAnimalShop.purchaseNewAnimal(smowball, LocalDate.of(2023, 9, 26));
         myAnimalShop.purchaseNewAnimal(tesla, LocalDate.of(2023, 9, 27));
         myAnimalShop.purchaseNewAnimal(max, LocalDate.of(2023, 9, 27));
-        myAnimalShop.purchaseNewAnimal(smowball, LocalDate.of(2023, 9, 26));
         //myAnimalShop.purchaseNewAnimal(kimi, LocalDate.of(2023,9,27));//用于测试余额不足的情况
         try {
+            myAnimalShop.hospitalizingCustomers(aron, 1, blue);
             myAnimalShop.hospitalizingCustomers(alice, 1, charlie);
             myAnimalShop.hospitalizingCustomers(landon, 3, max);
-            myAnimalShop.hospitalizingCustomers(aron, 1, blue);
-            myAnimalShop.closureOfBusiness(alice, landon, aron);
+            myAnimalShop.closureOfBusiness(aron,alice, landon);
         } catch (IndexOutOfBoundsException e) {
             System.out.println();
         }
@@ -53,12 +55,12 @@ public class Test {
         chen.arrivalTime = 2;
         chen.latestArrivalTime = LocalDate.of(2023, 9, 27);
         try {
+            myAnimalShop.hospitalizingCustomers(aron,1,blue);
             myAnimalShop.hospitalizingCustomers(alice,1,charlie);
             myAnimalShop.hospitalizingCustomers(landon,3,max);
-            myAnimalShop.hospitalizingCustomers(aron,1,blue);
+            myAnimalShop.hospitalizingCustomers(chen,1,kimi);
             myAnimalShop.hospitalizingCustomers(lan,1,tesla);
             myAnimalShop.hospitalizingCustomers(yu,1,smowball);
-            myAnimalShop.hospitalizingCustomers(chen,1,kimi);
         } catch (IndexOutOfBoundsException e) {
             System.out.println();
 
