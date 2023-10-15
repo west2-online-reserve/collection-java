@@ -16,16 +16,17 @@ public class Main {
         Customer  p3=new Customer("wangwu",1,LocalDate.now());
 
         animalShop.buyAnimal(cat1);
+        animalShop.buyAnimal(cat2);
         animalShop.buyAnimal(dog);
-        animalShop.serveCustomer(p1);
-        animalShop.serveCustomer(p2);
-        animalShop.serveCustomer(p3);
+        animalShop.serveCustomer(p1,2);//此时数组顺序为kebi，laoda,Tommy
+        animalShop.serveCustomer(p2,1);//第二个动物被买了，数组顺序为kebi,TOmmay
+        animalShop.serveCustomer(p3,1);//数组里面只有Tommy一只动物
         animalShop.closeShop();
 
         animalShop2.buyAnimal(dog);
-        animalShop2.serveCustomer(p1);//第二个店铺已经关门
+        animalShop2.serveCustomer(p1,1);//第二个店铺已经关门
         animalShop2.setOpen(true);
-        animalShop2.serveCustomer(p1);//第二个店铺已经开门
+        animalShop2.serveCustomer(p1,1);//第二个店铺已经开门
 
     }
 }

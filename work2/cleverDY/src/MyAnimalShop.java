@@ -3,12 +3,14 @@ import jdk.internal.icu.text.UnicodeSet;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class MyAnimalShop implements AnimalShop {
     // 成员变量
     protected double balance;
-    protected List<Animal> animalList;
-    protected List<Customer> customerList;
+    ArrayList<Animal> animalList = new ArrayList<Animal>();
+    //顾客的列表
+    ArrayList<Customer> customerList = new ArrayList<Customer>();
     protected boolean isOpen;
 
     public double profit = 0;
@@ -48,7 +50,7 @@ public class MyAnimalShop implements AnimalShop {
 
 
 
-    public void serveCustomer(Customer customer) {
+    public void serveCustomer(Customer customer,int i) {
         if (!isOpen) {
             System.out.println("宠物店已歇业，无法招待客户。");
             return;
@@ -62,14 +64,20 @@ public class MyAnimalShop implements AnimalShop {
         }
 
         // 出售动物给客户
-        Animal soldAnimal = animalList.remove(0);
-        System.out.println("成功出售动物：[" + soldAnimal.toString() + "] ,  购买者：" + customer.name);
+        try {
+            if (i > animalList.size() || i <= 0) {
+                throw new IndexOutOfBoundsException("购买失败，请输入正确的序号");
+            }
+            if (animalList.size() != 0) {
+                System.out.println("买第" + i + "只宠物");
+                System.out.println(animalList.get(i - 1));
+                profit += animalList.get(i - 1).price;//利润是卖宠物的钱
+                animalList.remove(i - 1);
 
-
-        // 将动物的价格入账
-        balance += soldAnimal.getPrice();
-        profit=profit+ soldAnimal.getPrice();//利润是卖宠物的钱
-
+            }
+        } catch (AnimalNotFoundException e) {
+            System.out.println(e);
+        }
     }
 
     public void closeShop() {
@@ -78,7 +86,6 @@ public class MyAnimalShop implements AnimalShop {
             System.out.println("Today's customers:");
             customerList.forEach(System.out::println);
             System.out.println("Profit for today: " + getProfit());
-
         }
     }
 }

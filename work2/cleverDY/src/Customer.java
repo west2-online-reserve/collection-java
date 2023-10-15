@@ -3,8 +3,33 @@ import java.time.LocalDate;
 class Customer {
     public int times;
     public LocalDate latestArrivedTime;
-    // 成员变量
     String name;
+    public int getTimes() {
+        return times;
+    }
+
+    public void setTimes(int times) {
+        this.times = times;
+    }
+
+    public LocalDate getLatestArrivedTime() {
+        return latestArrivedTime;
+    }
+
+    public void setLatestArrivedTime(LocalDate latestArrivedTime) {
+        this.latestArrivedTime = latestArrivedTime;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    // 成员变量
+
     private int visitCount;
     private LocalDate latestVisit;
 
