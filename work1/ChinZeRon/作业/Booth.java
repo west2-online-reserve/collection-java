@@ -1,6 +1,6 @@
 package homework;
 public class Booth {
-    //Booth类中包含private变量的命名、get/set方法、有参构造器、toString()方法重写
+    //Booth类中包含private变量的命名、get/set方法、有参构造器、toString()方法重写、restock方法
     private long id;
     private String name;
     private int total;
@@ -62,5 +62,16 @@ public class Booth {
         } else if (restockTotal < 0) {
             System.out.println("进货失败！请输入正确的进货数据！");
         } else {booth.setTotal(booth.getTotal() + restockTotal);}
+    }
+    //closebooths方法
+    public static void closebooths(Booth[] booths){
+        for (int i = 0; i < booths.length; i++) {
+            if(booths[i].getIsClosed() == false){
+                booths[i].setIsClosed(true);
+            }else {
+                String string = booths[i].toString();
+                System.out.println(string);
+            }
+        }
     }
 }
