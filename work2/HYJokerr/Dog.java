@@ -10,6 +10,6 @@ public class Dog extends Animal {
 
     @Override
     public String toString() {
-        return "种类：狗\n"+"名字："+name+"\n年龄:"+age+"\n性别:"+sex+"\n价格:"+price+"\n是否注射狂犬疫苗"+isVaccineInjected;
+        return "种类：狗\n"+"名字："+name+"\n年龄:"+age+"\n性别:"+sex+"\n价格:"+price+"\n是否注射狂犬疫苗:"+isVaccineInjected;
     }
 }

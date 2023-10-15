@@ -1,6 +1,7 @@
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Objects;
+import java.util.Scanner;
 
 public class MyAnimalShop implements AnimalShop{
     private double money;
@@ -25,9 +26,31 @@ public class MyAnimalShop implements AnimalShop{
     public void showAnimal(){
         System.out.println("宠物店现有的宠物有:\n");
         for(int i=0;i<animalArrayList.size();i++){
+            System.out.println("序号:"+i);
             System.out.println(animalArrayList.get(i).toString());
             System.out.println();
         }
+    }
+
+    public void sendAnimal(){
+        System.out.print("客户要购买的动物序号为：");
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+
+        System.out.println("卖出的动物为:\n"+animalArrayList.get(n).toString());
+        money+=animalArrayList.get(n).price;
+        earn+=animalArrayList.get(n).price;
+        animalArrayList.remove(n);
+
+    }
+
+    public void showCustomer(){
+        System.out.println("宠物店的客户有：\n");
+        for (int i=0;i<customerArrayList.size();i++){
+            System.out.println(customerArrayList.get(i).toString());
+            System.out.println();
+        }
+
     }
 
     @Override
@@ -50,26 +73,20 @@ public class MyAnimalShop implements AnimalShop{
 
     }
 
-    public void showCustomer(){
-        System.out.println("宠物店的客户有：\n");
-        for (int i=0;i<customerArrayList.size();i++){
-            System.out.println(customerArrayList.get(i).toString());
-            System.out.println();
-        }
-
-    }
-
     @Override
     public void entertainCustomer(Customer customer) {
         //添加客户信息
-        if(customerArrayList.size()==0){
+        if(customerArrayList.isEmpty()){
             customerArrayList.add(customer);
         }else {
             for (int i = 0; i < customerArrayList.size(); i++) {
                 if (customer.getName() == customerArrayList.get(i).getName()) {
                     customerArrayList.get(i).addTimes();
                     customerArrayList.get(i).setDate();
-                } else customerArrayList.add(customer);
+                } else {
+                    customerArrayList.add(customer);
+                    break;
+                };
 
             }
         }
@@ -79,13 +96,10 @@ public class MyAnimalShop implements AnimalShop{
             if(animalArrayList.isEmpty()){
                 throw new AnimalNotFoundException("店内没有动物了");
             }
-            //卖最后一个动物
+            //卖动物
             else{
-                int n=animalArrayList.size()-1;
-                System.out.println("卖出的动物为:\n"+animalArrayList.get(n).toString());
-                money+=animalArrayList.get(n).price;
-                earn+=animalArrayList.get(n).price;
-                animalArrayList.remove(n);
+                showAnimal();
+                sendAnimal();
             }
         }catch (AnimalNotFoundException exception){
             System.out.println(exception.toString());
