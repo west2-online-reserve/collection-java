@@ -1,4 +1,7 @@
 public class Cat extends Animal {
+    public Cat(){
+        super.price = 200;
+    }
 
     @Override
     public String toString() {

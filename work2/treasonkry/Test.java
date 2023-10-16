@@ -13,12 +13,10 @@ public class Test {
         Dog dog1 = new Dog();
         dog1.setName("a");
         dog1.setSex('公');
-        dog1.setPrice(100);
         dog1.setAge(2);
         Animal cat1 = new Cat();
         cat1.setName("aa");
         cat1.setAge(1);
-        cat1.setPrice(200);
         cat1.setSex('母');
 
         //测试买入
@@ -57,7 +55,7 @@ public class Test {
                 myAnimalShop.open();
             }
         }
-    }
+    }  
 
 }
 
