@@ -1,8 +1,15 @@
+/**
+ *@Date：2023/10/18
+ *@Author：XWBN
+ */
+
 package XWBN2;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+
+
 
 public class MyAnimalShop implements AnimalShop {
 
@@ -13,18 +20,24 @@ public class MyAnimalShop implements AnimalShop {
     private boolean isOnBusiness;
 
 
-    //创建宠物列表
-    List<Animal> animalArray = new ArrayList<Animal>();
+    /**
+     * 创建宠物列表
+     */
+    private List<Animal> animalArray = new ArrayList<Animal>();
 
-    //创建顾客列表
-    List<Customer> customerArray = new ArrayList<Customer>();
 
-    double getAccount() {
+    /**
+     * 创建顾客列表
+     */
+    private List<Customer> customerArray = new ArrayList<Customer>();
+
+    public double getAccount() {
         return account;
     }
 
-
-    //构造函数初始化宠物店的账户余额
+    /**
+     * 构造函数初始化宠物店的账户余额
+     */
     MyAnimalShop(String shopName, double account) {
         this.shopName = shopName;
         this.account = account;
@@ -57,7 +70,7 @@ public class MyAnimalShop implements AnimalShop {
                 System.out.printf("客户购买的宠物为：");
                 System.out.println(animal);
                 customer.setTimes(customer.getTimes() + 1);
-                customer.getLatestArrivedTime();
+                customer.setLatestArrivedTime();
                 profit += animal.animalSellPrice;
                 account += animal.animalSellPrice;
                 customerArray.add(customer);
@@ -75,8 +88,7 @@ public class MyAnimalShop implements AnimalShop {
     public void close() {
         isOnBusiness = false;
         System.out.println('\n' + shopName + "今天的顾客信息");
-        for (Customer c : customerArray) System.out.println(c.toString());
+        for (Customer c : customerArray) { System.out.println(c.toString()); }
         System.out.println(shopName + "今天的利润为：" + profit + '\n');
-
     }
 }

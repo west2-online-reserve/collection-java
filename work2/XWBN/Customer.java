@@ -1,3 +1,8 @@
+/**
+ *@Date：2023/10/18
+ *@Author：XWBN
+ */
+
 package XWBN2;
 
 import java.time.LocalDate;
@@ -37,6 +42,9 @@ public class Customer {
     public LocalDate getLatestArrivedTime() {
         return latestArrivedTime;
     }
+
+
+    public void setLatestArrivedTime() { latestArrivedTime = LocalDate.now(); }
 
     public String toString() {
         return "[顾客姓名:" + getName() + "]" + '\n' + "[顾客到店次数:" + getTimes() + "]" + '\n' + "[顾客最新到店时间:" + getLatestArrivedTime() + "]" + '\n';

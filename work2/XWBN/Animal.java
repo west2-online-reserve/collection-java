@@ -1,3 +1,8 @@
+/**
+ *@Date：2023/10/18
+ *@Author：XWBN
+ */
+
 package XWBN2;
 
 public abstract class Animal {
@@ -15,22 +20,34 @@ public abstract class Animal {
         this.animalPurPrice = purPrice;
     }
 
-    //获取动物的名字
+    /**
+     * 获取动物的名字
+     */
+
     public String getAnimalName() {
         return this.animalName;
     }
 
-    //获取动物的年龄
+    /**
+     * 获取动物的年龄
+     */
+
     public int getAnimalAge() {
         return this.animalAge;
     }
 
-    //获取动物的性别
+    /**
+     * 获取动物的性别
+     */
+
     public String getAnimalSex() {
         return this.animalSex;
     }
 
-    //获取动物的售价
+    /**
+     * 获取动物的售价
+     */
+
     public double getAnimalSellPrice() {
         return this.animalSellPrice;
     }
@@ -39,7 +56,10 @@ public abstract class Animal {
         this.animalSellPrice = price;
     }
 
-    //获取动物的进价
+    /**
+     * 获取动物的进价
+     */
+
     public double getAnimalPurPrice() {
         return this.animalPurPrice;
     }

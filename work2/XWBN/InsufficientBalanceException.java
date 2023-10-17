@@ -1,8 +1,13 @@
+/**
+ *@Date：2023/10/18
+ *@Author：XWBN
+ */
+
 package XWBN2;
 
 public class InsufficientBalanceException extends RuntimeException {
-    public String animalName;
-    public double account;
+    private String animalName;
+    private double account;
 
     public InsufficientBalanceException(String aniName, double account) {
         this.animalName = aniName;

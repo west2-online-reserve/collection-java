@@ -1,10 +1,16 @@
+/**
+ *@Date：2023/10/18
+ *@Author：XWBN
+ */
+
 package XWBN2;
 
-import XWBN2.Animal;
 
+
+import XWBN2.Animal;
 public class Beer extends Animal {
 
-    boolean isHealthy;
+    private boolean isHealthy;
 
     public Beer(String name, int age, String sex, double aniPurPrice) {
         super(name, age, sex, 500, aniPurPrice);
