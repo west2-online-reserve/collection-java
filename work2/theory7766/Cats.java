@@ -2,6 +2,13 @@ package com.west2.work2;
 
 public class Cats extends Animal {
 
+    /**
+     * 猫猫类构造函数
+     *
+     * @param name   名字
+     * @param old    年龄
+     * @param gender 性别
+     */
     public Cats(String name, int old, char gender) {
         super(name, old, gender, 200.0);
     }
