@@ -4,14 +4,14 @@ import java.time.LocalDate;
  * @author pengyuezhe
  */
 public class Customer {
-private String name;
-private int frequency;
-private LocalDate newestDate;
+    private String name;
+    private int frequency;
+    private LocalDate newestDate;
 
-    public Customer(String name, int frequency,int year,int month,int day) {
+    public Customer(String name, int frequency, int year, int month, int day) {
         this.name = name;
         this.frequency = frequency;
-        this.newestDate = LocalDate.of(year,month,day);
+        this.newestDate = LocalDate.of(year, month, day);
     }
 
     public String getName() {
@@ -36,8 +36,9 @@ private LocalDate newestDate;
 
 
     @Override
-    public String toString(){
-        return( "顾客名字"+name+
-                "\n到店次数"+frequency+
-                "\n最新到店时间"+newestDate);}
+    public String toString() {
+        return ("顾客名字" + name +
+                "\n到店次数" + frequency +
+                "\n最新到店时间" + newestDate);
+    }
 }

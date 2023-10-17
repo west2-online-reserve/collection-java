@@ -16,8 +16,9 @@ public abstract class Animal {
 
     /**
      * 抽象方法
+     *
      * @return 返回动物信息
      */
     @Override
-    public abstract String toString( );
+    public abstract String toString();
 }

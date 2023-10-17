@@ -6,27 +6,27 @@ public class Test {
         /*
           new两只猫猫（test里会悬空所以该部分注释使用块注释）
          */
-        Cat lala = new Cat("lala",1,"female");
-        Cat mimi = new Cat("mimi",1,"female");
+        Cat lala = new Cat("lala", 1, "female");
+        Cat mimi = new Cat("mimi", 1, "female");
         /*
           new两只狗狗
          */
-        ChineseRuralDog puppy = new ChineseRuralDog("puppy",1,"male",true);
-        ChineseRuralDog lucky = new ChineseRuralDog("lucky",1,"female",true);
+        ChineseRuralDog puppy = new ChineseRuralDog("puppy", 1, "male", true);
+        ChineseRuralDog lucky = new ChineseRuralDog("lucky", 1, "female", true);
         /*
           new我的宠物店和对手的宠物店
          */
-        MyAnimalShop myShop = new MyAnimalShop(0,false);
-        MyAnimalShop hisShop = new MyAnimalShop(0,false);
+        MyAnimalShop myShop = new MyAnimalShop(0, false);
+        MyAnimalShop hisShop = new MyAnimalShop(0, false);
         /*
           new三位顾客
           mike常客
           marry以前来过一次，今天没来
           lorry从没来过,按默认假定上一次前来日期
          */
-        Customer mike = new Customer("mike",2,2023,7,13);
-        Customer marry = new Customer("marry",1,2022,10,8);
-        Customer lorry = new Customer("lorry",0,0,1,1);
+        Customer mike = new Customer("mike", 2, 2023, 7, 13);
+        Customer marry = new Customer("marry", 1, 2022, 10, 8);
+        Customer lorry = new Customer("lorry", 0, 0, 1, 1);
         /*
         宠物店启动资金为300元
          */
@@ -39,15 +39,15 @@ public class Test {
         /*
         顾客mike第一次来想要绕过宠物店购买小狗puppy（失败）
          */
-        myShop.service(mike,puppy);
+        myShop.service(mike, puppy);
         /*
         mike第二次最终购买了mimi同时到店的所有信息更新
          */
-        myShop.service(mike,mimi);
+        myShop.service(mike, mimi);
         /*
         新顾客lorry来购买lucky
          */
-        myShop.service(lorry,lucky);
+        myShop.service(lorry, lucky);
         /*
         假设店铺今天打烊
         输出相应信息（测试关店）
