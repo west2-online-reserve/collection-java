@@ -17,11 +17,12 @@ public class Thread1 extends Thread {
                 Lock.object.notify();
 
                 try {
-                    //如果i是最后一个元素，则不进入等待
+                    Lock.object.wait();
+                    //如果i是最后一个元素,通过wait释放锁后退出函数
                     if (i == arr.length - 1) {
                         return;
                     }
-                    Lock.object.wait();
+
 
                 } catch (Exception exception) {
                     exception.printStackTrace();

@@ -1,36 +1,38 @@
 public class AnimalShopTest {
     public static void main(String[] args) {
-        MyAnimalShop shop = new MyAnimalShop(100);
-        shop.closeShop();
-        shop.openShop();
-        Animal cat = new Cat("泡泡", 2, false, 150);
-        Animal chinaDog = new ChinaDog("小黑", 1, true, true, 80);
-        Customer Lily = new Customer("李丽", 10, false);
-        shop.addCustomer(Lily);
-        //测试余额不足异常
-        try {
-            shop.buyNewAnimal(cat);
-        } catch (InsufficientBalanceException insufficientBalanceException) {
-            double restMoney = insufficientBalanceException.getRestMoney();
-            System.out.println(insufficientBalanceException.getMessage() + restMoney);
-        }
-        //测试成功购买动物
-        shop.buyNewAnimal(chinaDog);
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-        //测试找不到动物异常
-        Customer Mike = new Customer("Mike", 24, true);
-        try {
-            shop.soldAnimal(cat, Mike);
+        AnimalShop myShop = new MyAnimalShop(120, true);
+        Cat huahua = new Cat("Huahua", 2, false, 150);
+        ChinaDog haha = new ChinaDog("哈哈", 5, true, true, 80);
+        Customer van = new Customer("van", 0);
+        Customer billy = new Customer("billy", 0);
+        Customer mike = new Customer("mike", 0);
 
-        } catch (AnimalNotFountException animalNotFountException) {
-            System.out.println(animalNotFountException.getMessage() + animalNotFountException.getAnimal());
+        try {
+            myShop.buyNewAnimal(haha);
+            myShop.buyNewAnimal(huahua);
+
+        } catch (InsufficientBalanceException | AnimalShopIsClosed insufficientBalanceExceptionOrAnimalShopIsClosed) {
+            System.out.println(insufficientBalanceExceptionOrAnimalShopIsClosed);
         }
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-        //测试成功售出动物
-        shop.soldAnimal(chinaDog, Mike);
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-        //测试关店并输出利润
-        shop.closeShop();
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+
+        try {
+            myShop.serveNewCustomer(van);
+            myShop.sellAnimal(billy, haha);
+            myShop.sellAnimal(billy, huahua);
+        } catch (AnimalNotFountException | AnimalShopIsClosed animalNotFountExceptionOrAnimalShopIsClosed) {
+            System.out.println(animalNotFountExceptionOrAnimalShopIsClosed);
+        }
+
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        myShop.close();
+        try {
+            myShop.buyNewAnimal(huahua);
+        } catch (AnimalShopIsClosed animalShopIsClosed) {
+            System.out.println(animalShopIsClosed);
+        }
+        myShop.open();
 
 
     }

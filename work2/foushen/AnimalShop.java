@@ -1,6 +1,11 @@
 public interface AnimalShop {
     public void buyNewAnimal(Animal animal);
-    public void addCustomer(Customer csutomer);
 
-    public void closeShop();
+    public void serveNewCustomer(Customer customer);
+
+    public void sellAnimal(Customer customer,Animal animal);
+
+    public void close();
+
+    public void open();
 }

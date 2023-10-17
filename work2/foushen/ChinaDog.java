@@ -1,20 +1,27 @@
 public class ChinaDog extends Animal {
-    protected boolean isVaccineInjected;//是否注射过疫苗
+    private boolean isVaccineInjected;
+
+    public boolean isVaccineInjected() {
+        return isVaccineInjected;
+    }
+
+    public void setVaccineInjected(boolean vaccineInjected) {
+        isVaccineInjected = vaccineInjected;
+    }
 
 
-    ChinaDog(String name, int age, boolean sex, boolean isVaccineInjected, double restorePrice) {
-        super(name, age, sex, 100.0, restorePrice);
-
-
+    public ChinaDog(String name, int age, boolean sex, boolean isVaccineInjected, double restorePrice) {
+        super(name, age, sex, 100, restorePrice);
         this.isVaccineInjected = isVaccineInjected;
     }
 
     @Override
     public String toString() {
-        return "Name:" + name
-                + "\nAge:" + age
-                + "\nsex:" + (sex ? "boy" : "girl")
-                + "\nPrice:" + price +
-                "\nisVaccineInjected" + isVaccineInjected;
+        return "ChinaDog{ name" + getName()
+                + ", age:" + getAge()
+                + ", sex:" + (getSex() ? "boy" : "girl") +
+                ",isVaccineInjected:" + isVaccineInjected() +
+                ", restorePrice:" + getRestorePrice() +
+                '}';
     }
 }

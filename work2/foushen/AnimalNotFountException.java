@@ -1,17 +1,14 @@
 public class AnimalNotFountException extends RuntimeException {
-    private String message;//存放异常信息
-    private Animal animal;//缺失的动物
+    private String message;
+    private Animal lackAnimal;
 
-    public AnimalNotFountException(String message, Animal animal) {
+    public AnimalNotFountException(String message, Animal lackAnimal) {
         this.message = message;
-        this.animal=animal;
+        this.lackAnimal = lackAnimal;
+
     }
 
-    public String getMessage() {
-        return message;
-    }
-
-    public Animal getAnimal() {
-        return animal;
+    public String toString() {
+        return message+" " + lackAnimal;
     }
 }

@@ -2,108 +2,108 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class MyAnimalShop implements AnimalShop {
-    protected double restMoney;//余额
-    protected boolean isOpen;//是否营业
-    protected ArrayList<Animal> animals;
-    protected ArrayList<Customer> customers;
-    protected double theDayProfit;//当天的利润
+    private double balance;
+    private boolean isOpen;
+    private double theDaysProfit;
+    private ArrayList<Animal> onSaleAnimals;
+    private ArrayList<Customer> customers;
 
-    public MyAnimalShop(double buildMoney) {
-        animals = new ArrayList<Animal>();
-        customers = new ArrayList<Customer>();
-        restMoney = buildMoney;
+    void setBalance(double balance) {
+        this.balance = balance;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+
+    public MyAnimalShop(double balance, boolean isOpen) {
+        this.balance = balance;
+        this.isOpen = isOpen;
+        this.customers = new ArrayList<>();
+        this.onSaleAnimals = new ArrayList<>();
     }
 
     @Override
-    public void buyNewAnimal(Animal animal) throws AnimalShopIsClosed {
-        //异常处理
+    public void buyNewAnimal(Animal animal) throws AnimalShopIsClosed, InsufficientBalanceException {
         if (!isOpen) {
             throw new AnimalShopIsClosed();
         }
-        if (animal.getRestorePrice() > restMoney) {
-            throw new InsufficientBalanceException(animal.getRestorePrice() - restMoney, "余额不足");
+        if (animal.getRestorePrice() > balance) {
+            throw new InsufficientBalanceException("余额不足，还差", animal.getRestorePrice() - balance);
         }
 
+        balance -= animal.getRestorePrice();
+        theDaysProfit -= animal.getRestorePrice();
+        onSaleAnimals.add(animal);
 
-        animals.add(animal);
-        restMoney -= animal.getRestorePrice();
-        theDayProfit -= animal.getRestorePrice();
-        System.out.println("已购买动物\n" + animal);
+        System.out.println("进货成功");
+
+
     }
 
     @Override
-    public void addCustomer(Customer customer) {
-        //判断该顾客是否在列表里
+    public void sellAnimal(Customer customer, Animal animal) throws AnimalShopIsClosed, AnimalNotFountException {
+        if (!isOpen) {
+            throw new AnimalShopIsClosed();
+        }
+        if (!onSaleAnimals.contains(animal)) {
+            throw new AnimalNotFountException("缺少动物", animal);
+        }
+        balance += animal.getPrice();
+        theDaysProfit += animal.getPrice();
+        onSaleAnimals.remove(animal);
+
         if (!customers.contains(customer)) {
-            //添加顾客并设置顾客最后一次到店时间
+            customer.setLatestVisitShopTime(LocalDate.now());
+            customer.setVisitShopTimes(customer.getVisitShopTimes() + 1);
             customers.add(customer);
-            customer.latestComeShopTime = LocalDate.now();
-            System.out.println("成功添加顾客\n" + customer);
         }
-    }
+        System.out.println("卖出成功");
 
-    public void soldAnimal(Animal animal, Customer customer) throws AnimalShopIsClosed, InsufficientBalanceException {
-        //异常处理
-        if (!isOpen) {
-            throw new AnimalShopIsClosed();
-        }
-        if (!animals.contains(animal)) {
-            throw new AnimalNotFountException("未在在售列表中找到", animal);
-        }
-
-        //顾客购买动物，在顾客拥有的动物列表中添加该animal
-        customer.buyAnimal(animal);
-        restMoney += animal.getPrice();
-        theDayProfit += animal.getPrice();//利润为购买的钱减去进货的钱
-
-        //如果不在顾客列表，加入顾客列表
-        if (!customers.contains(customer)) {
-            addCustomer(customer);//addCustomer中已经设置的到店时间，故不用修改时间
-        }
-        //否则直接改变顾客最新到店的时间
-        else {
-            customer.latestComeShopTime = LocalDate.now();
-
-        }
-        //使顾客的shopTimes加1
-        customer.increaseShopTimes();
-
-        //从在售动物列表里移除该动物
-        animals.remove(animal);
-        System.out.println("购买成功");
     }
 
     @Override
-    public void closeShop() {
+    public void serveNewCustomer(Customer customer) throws AnimalShopIsClosed {
         if (!isOpen) {
-            System.out.println("已关闭，无需重复执行关闭操作");
+            throw new AnimalShopIsClosed();
+        }
+        if (!customers.contains(customer)) {
+            customer.setVisitShopTimes(customer.getVisitShopTimes() + 1);
+            customer.setLatestVisitShopTime(LocalDate.now());
+            System.out.println("成功招待一名顾客");
             return;
         }
+        System.out.println("该顾客已存在");
+
+    }
+
+    @Override
+    public void close() {
+        if (!isOpen) {
+            System.out.println("商店已经关闭");
+            return;
+        }
+
+        System.out.println("今天的利润为：" + theDaysProfit);
+        //清零当天利润
+        theDaysProfit = 0;
+
+        for (Customer customer : customers) {
+            if (customer.getLatestVisitShopTime().isEqual(LocalDate.now())) {
+                System.out.println(customer);
+            }
+        }
+
         isOpen = false;
 
-        System.out.println("今天的利润为:" + theDayProfit);
-
-        System.out.println("今天到店的顾客如下");
-        for (Customer theCustomer : customers) {
-            if (theCustomer.latestComeShopTime.isEqual(LocalDate.now())) {
-                System.out.println(theCustomer + "\n");
-            }
-
-        }
-
-        System.out.println("关店成功");
-
+        System.out.println("商店已经关闭");
     }
 
-    public void openShop() {
-        if (isOpen) {
-            System.out.println("已开启，无需重复执行开启操作");
-            return;
-        }
-        //清空前一天的利润
-        theDayProfit = 0;
+    @Override
+    public void open() {
         isOpen = true;
-        System.out.println("已开启");
+        System.out.println("商店已开启");
     }
-}
 
+}

@@ -1,16 +1,16 @@
 public class InsufficientBalanceException extends RuntimeException {
-    double rest;//记录还差多少钱
-    String message;//异常信息
+    private double restMoney;
 
-    InsufficientBalanceException(double rest, String message) {
-        this.rest = rest;
-        this.message = message;
-    }
-    public String getMessage(){
-        return message;
+    public InsufficientBalanceException(String message, double restMoney) {
+        super(message);
+        this.restMoney = restMoney;
     }
 
-    public double getRestMoney() {
-        return rest;
+    public InsufficientBalanceException(String message) {
+        super(message);
+    }
+
+    public String toString() {
+        return getMessage() + " " + restMoney;
     }
 }
