@@ -1,7 +1,6 @@
 package Animal;
 
 public abstract class Animals {
-
     protected String name;
     protected int age;
     protected String gender;
@@ -19,6 +18,7 @@ public abstract class Animals {
         this.distinctiveFeatures = distinctiveFeatures;
     }
 
+    // 构造器
     public String getName() {
         return name;
     }
@@ -50,7 +50,7 @@ public abstract class Animals {
     public void setPrice(double price) {
         this.price = price;
     }
-    //声明和get，set
+
 
     public String getDistinctiveFeatures() {
         return distinctiveFeatures;
@@ -59,7 +59,8 @@ public abstract class Animals {
     public void setDistinctiveFeatures(String distinctiveFeatures) {
         this.distinctiveFeatures = distinctiveFeatures;
     }
-    //构造器
+    // 声明和get，set
 
     public abstract String toString();
+    // 重写方法
 }

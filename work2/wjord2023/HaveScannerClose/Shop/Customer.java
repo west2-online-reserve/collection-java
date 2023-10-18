@@ -15,6 +15,7 @@ public class Customer {
 
     public Customer() {
     }
+    // 构造器
 
     public String getName() {
         return name;
@@ -31,7 +32,6 @@ public class Customer {
     public void setNumberOfTimeVisit(int numberOfTimeVisit) {
         this.numberOfTimeVisit = numberOfTimeVisit;
     }
-    //声明和get，set
 
     public LocalDateTime getLatestArrivalTime() {
         return latestArrivalTime;
@@ -40,11 +40,14 @@ public class Customer {
     public void setLatestArrivalTime(LocalDateTime latestArrivalTime) {
         this.latestArrivalTime = latestArrivalTime;
     }
+    // 声明和get，set
 
     @Override
     public String toString() {
         return "客户名称：" + getName() +
                 "\n到店次数：" + getNumberOfTimeVisit() +
-                "\n最新到店时间：" + getLatestArrivalTime();
+                "\n最新到店时间：" + getLatestArrivalTime() +
+                "\n";
     }
+    // 重写的toString
 }

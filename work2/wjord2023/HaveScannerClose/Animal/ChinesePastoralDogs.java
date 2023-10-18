@@ -10,7 +10,7 @@ public class ChinesePastoralDogs extends Animals {
                                String distinctiveFeatures) {
         super(name, age, gender, 100, distinctiveFeatures);
         this.isVaccineInjected = false;
-        //我想先让狗固定没打疫苗到时候如果客户要求要打疫苗再涨价
+        // 我想先让狗固定没打疫苗到时候如果客户要求要打疫苗再涨价
     }
 
     public boolean getIsVaccineInjected() {
