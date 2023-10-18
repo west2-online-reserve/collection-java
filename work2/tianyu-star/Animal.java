@@ -14,44 +14,21 @@ public abstract class Animal{
     }
     public abstract String toString();
 
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
     public String getName() {
         return name;
     }
+//    public boolean equals(Object obj) {
+//        if (this == obj) {return true;}
+//        if (obj == null || getClass() != obj.getClass()) {return false;}
+//        Animal animal = (Animal) obj;
+//        return age == animal.age && Object.equals(name, animal.name);
+//    }
+//    @Override
+//    public int hashCode() {
+//        return Object.hashCode(name, age);
+   //]
 
-    public void setName(String name) {
-        this.name = name;
-    }
 
-    public String getSex() {
-        return sex;
-    }
 
-    public void setSex(String sex) {
-        this.sex = sex;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
-    public String getSpecies() {
-        return species;
-    }
-
-    public void setSpecies(String species) {
-        this.species = species;
-    }
 }
 

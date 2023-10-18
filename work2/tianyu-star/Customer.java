@@ -1,40 +1,42 @@
 import java.time.LocalDate;
 
 public class Customer{
-    protected String Customername;
-    protected int Frequency;
-    protected LocalDate ArrivingTime;
-    public String toString(){
-        return "\nCustomername:"+Customername+" Frequency:"+Frequency+" ArrivingTime:"+ArrivingTime;
+    protected String customerName;
+    protected int frequency;
+    protected LocalDate arrivingTime;
+
+@Override
+        public String toString(){
+        return "\ncustomerName:"+ customerName +" Frequency:"+ frequency +" ArrivingTime:"+ arrivingTime;
     }
 
     public Customer(String customername, int frequency, LocalDate arrivingTime) {
-        this.Customername = customername;
-        this.Frequency = frequency;
-        this.ArrivingTime = arrivingTime;
+        this.customerName = customername;
+        this.frequency = frequency;
+        this.arrivingTime = arrivingTime;
     }
 
-    public String getCustomername() {
-        return Customername;
+    public String getCustomerName() {
+        return customerName;
     }
 
-    public void setCustomername(String customername) {
-        Customername = customername;
+    public void setCustomerName(String customerName) {
+        this.customerName = customerName;
     }
 
     public int getFrequency() {
-        return Frequency;
+        return frequency;
     }
 
-    public void setFrequency(int Frequency) {
-        this.Frequency = Frequency;
+    public void setFrequency(int frequency) {
+        this.frequency = frequency;
     }
 
     public LocalDate getArrivingTime() {
-        return ArrivingTime;
+        return arrivingTime;
     }
 
     public void setArrivingTime(LocalDate ArrivingTime) {
-        this.ArrivingTime = ArrivingTime;
+        this.arrivingTime = ArrivingTime;
     }
 }
