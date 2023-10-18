@@ -1,4 +1,4 @@
-package Animal;
+package modification;
 
 public class AnimalNotFountException extends RuntimeException{
 

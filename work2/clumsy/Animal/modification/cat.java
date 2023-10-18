@@ -1,4 +1,4 @@
-package Animal;
+package modification;
 
 public class cat extends Animal {
     public cat(String name, int age, String gender){

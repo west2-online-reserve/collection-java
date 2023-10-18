@@ -1,6 +1,4 @@
-package Animal;
-
-import java.time.LocalDate;
+package modification;
 
 public interface AnimalShopinterface {
     void purchase(Animal d, int num);

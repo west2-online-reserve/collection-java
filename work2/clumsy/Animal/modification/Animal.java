@@ -1,4 +1,6 @@
-package Animal;
+package modification;
+
+import java.util.Objects;
 
 public abstract class Animal {
      protected String name;
@@ -14,6 +16,19 @@ public abstract class Animal {
      }
 
     public Animal() {}
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        Animal animal = (Animal) obj;
+        return true;
+
+    }
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age,gender,price);
+    }
 
     public double getPrice() {
         return price;
@@ -48,6 +63,6 @@ public abstract class Animal {
     }
 
     //抽象方法
-    public abstract String toString();
-    public abstract String toString(String mi);//输入相关
+    public abstract String toString();//这个是输出价格给顾客看
+    public abstract String toString(String mi);//toString 方法重载用来输出进价给店长看
 }

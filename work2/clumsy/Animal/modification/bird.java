@@ -1,4 +1,4 @@
-package Animal;
+package modification;
 
 public class bird extends Animal {
     public bird() {}

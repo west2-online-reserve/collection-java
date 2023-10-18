@@ -1,11 +1,19 @@
-package Animal;
+package modification;
 
 public class ChineseDog extends Animal {
-    public ChineseDog(String name, int age, String gender,boolean isVaccineInjected){
+    public ChineseDog(String name, int age, String gender){
         super(name, age, gender,100);
     }
-    boolean isVaccineInjected=true;
+    protected boolean isVaccineInjected;
     public ChineseDog() {}
+
+    public boolean isVaccineInjected() {
+        return isVaccineInjected;
+    }
+
+    public void setVaccineInjected(boolean vaccineInjected) {
+        isVaccineInjected = vaccineInjected;
+    }
 
     @Override
     public String toString() {
