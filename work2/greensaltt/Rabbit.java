@@ -15,24 +15,35 @@ public class Rabbit extends Animal{
      * @param sex 宠物性别
      */
     public Rabbit(String animalName, int age, char sex) {
+        super(animalName, age, sex, 150, 600);
+    }
 
-        /**
-         * 兔兔的进价为300元
-         */
-        super.price = 300;
+    /**
+     * 重写get
+     */
+    @Override
+    public String getAnimalName() {
+        return super.getAnimalName();
+    }
 
-        /**
-         * 兔兔的售价为500元
-         */
-        super.sell = 500;
+    @Override
+    public int getAge() {
+        return super.getAge();
+    }
 
-        /**
-         * 动物名称、性别、年龄属性
-         */
-        super.animalName = animalName;
-        super.age = age;
-        super.sex = sex;
+    @Override
+    public char getSex() {
+        return super.getSex();
+    }
 
+    @Override
+    public double getPrice() {
+        return super.getPrice();
+    }
+
+    @Override
+    public double getSell() {
+        return super.getSell();
     }
 
     /**
@@ -42,10 +53,10 @@ public class Rabbit extends Animal{
      */
     @Override
     public String toString() {
-        System.out.println("兔兔的名字为："+this.animalName);
-        System.out.println("兔兔的年龄为："+this.age);
-        System.out.println("兔兔的性别为："+this.sex);
-        System.out.println("兔兔的价格为："+this.price);
-        return "name"+animalName+"age"+age+"sex"+sex+"price"+price;
+        return "兔兔的名字为："+this.getAnimalName()
+                +"\n兔兔的年龄为："+this.getAge()
+                +"\n兔兔的性别为："+this.getSex()
+                +"\n兔兔的价格为："+this.getPrice()
+                +"\n兔兔的售价为："+this.getSell();
     }
 }

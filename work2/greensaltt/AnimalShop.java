@@ -2,10 +2,8 @@ package animalshop;
 
 public interface  AnimalShop {
 
-    void buyNewAnimal(Cat cat);
-    void buyNewAnimal(ChineseRuralDog dog);
-    void buyNewAnimal(Rabbit rabbit);
-    void treatCustomer(Customer customer);
+    void buyNewAnimal(Animal animal);
+    void treatCustomer(Customer customer,Animal animal);
     void Closed();
 
 }
