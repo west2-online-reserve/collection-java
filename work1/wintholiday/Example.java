@@ -36,6 +36,5 @@ public class Example {
             for (Booth b:booths){
                 System.out.println(b);
             }
-    }
 
 }
