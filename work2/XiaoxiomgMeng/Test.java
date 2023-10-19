@@ -14,8 +14,8 @@ public class Test {
         Customer customer3 = new Customer("王五");
         CuteCats cat1 = new CuteCats("Dio an", 16, 0);
         CuteCats cat2 = new CuteCats("Lynette", 18, 0);
-        ChineseFieldDog d1 = new ChineseFieldDog("WuLang", 19, 1);
-        ChineseFieldDog d2 = new ChineseFieldDog("WangChai", 4, 1);
+        ChineseFieldDog d1 = new ChineseFieldDog("WuLang", 19, 1, true);
+        ChineseFieldDog d2 = new ChineseFieldDog("WangChai", 4, 1,true);
         Panda panda1 = new Panda("MengLan", 8, 1);
         shop.buy(panda1);
         shop.buy(cat1);
