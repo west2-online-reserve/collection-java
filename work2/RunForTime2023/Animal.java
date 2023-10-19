@@ -14,5 +14,6 @@ public abstract class Animal {
     Animal() {
     }
 
+    @Override
     public abstract String toString();
 }
