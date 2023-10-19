@@ -9,10 +9,6 @@ public class Panda extends BaseAnimal{
 
     @Override
     public String toString() {
-        return "无价之国宝大熊猫！\n" +
-                "姓名：" + name +
-                "\n年龄：" + age +
-                "\n性别：" + (sex == 0 ? "雌性" : "雄性") +
-                "\n价格：" + price;
+        return "无价之国宝大熊猫！\n" + super.toString();
     }
 }
