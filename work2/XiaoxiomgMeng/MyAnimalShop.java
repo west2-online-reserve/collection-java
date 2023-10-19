@@ -4,37 +4,39 @@ import java.util.Objects;
 import java.util.Scanner;
 
 class MyAnimalShop implements AnimalShop{
-    boolean open = true;
-
     final static double PURCHASE_PRICE_MULTIPLIER = 0.5;
-    ArrayList<BaseAnimal> animalsList = new ArrayList<BaseAnimal>();
 
-    ArrayList<Customer> customersList = new ArrayList<Customer>();
+    ArrayList<BaseAnimal> animalsList = new ArrayList<>();
 
-    double balance = 9999;
+    ArrayList<Customer> customersList = new ArrayList<>();
 
-    int turnover = 0;
+    private double balance = 9999;
+
+    private int turnover = 0;
+
+    private final Scanner sc = new Scanner(System.in);
 
     @Override
     public void buy(BaseAnimal animal) {
         try {
             checkBalance(animal);
         } catch (InsufficientBalanceException e) {
-            System.err.println("An error occurred: " + e.getMessage());;
+            System.err.println("An error occurred: " + e.getMessage());
         }
     }
 
     @Override
     public void close() {
-        open = false;
         System.out.println("\n今日到店顾客：");
-        int n = customersList.size();
         for (Customer customer : customersList) {
-            if (Objects.equals(customer.latest, LocalDate.now())) {
+            if (Objects.equals(customer.getLatest(), LocalDate.now())) {
                 System.out.println();
                 System.out.println(customer);
             }
         }
+        System.out.println();
+        System.out.println("今日营业额为："+turnover);
+        sc.close();
     }
 
     @Override
@@ -47,7 +49,6 @@ class MyAnimalShop implements AnimalShop{
         customer.comeStore();
         while(true){
             System.out.println("请选择要进行的操作：\n1.购买宠物\t2.离店");
-            Scanner sc = new Scanner(System.in);
             operation = sc.nextInt();
             if (operation == 2){
                 break;
@@ -61,11 +62,11 @@ class MyAnimalShop implements AnimalShop{
                 try {
                     checkAnimal(buyId);
                 } catch (AnimalNotFoundException e) {
-                    System.err.println("An error occurred: " + e.getMessage());;
+                    System.err.println("An error occurred: " + e.getMessage());
                 }
             }
-            sc = null;
         }
+
     }
 
     class InsufficientBalanceException extends RuntimeException {
@@ -75,10 +76,10 @@ class MyAnimalShop implements AnimalShop{
     }
 
     void checkBalance(BaseAnimal animal) throws InsufficientBalanceException {
-        if (animal.price*PURCHASE_PRICE_MULTIPLIER>balance){
+        if (animal.getPrice()*PURCHASE_PRICE_MULTIPLIER>balance){
             throw new InsufficientBalanceException();
         } else {
-            balance -= animal.price*PURCHASE_PRICE_MULTIPLIER;
+            balance -= animal.getPrice()*PURCHASE_PRICE_MULTIPLIER;
             animalsList.add(animal);
             System.out.println("成功买入："+ animal +"\n");
             System.out.println("现在共有："+animalsList.size()+"只动物");
@@ -95,8 +96,8 @@ class MyAnimalShop implements AnimalShop{
         if (id >= animalsList.size()){
             throw new AnimalNotFoundException();
         } else {
-            balance += animalsList.get(id).price;
-            turnover += animalsList.get(id).price;
+            balance += animalsList.get(id).getPrice();
+            turnover += animalsList.get(id).getPrice();
             animalsList.remove(id);
             System.out.println("购买成功！欢迎下次光临");
         }
