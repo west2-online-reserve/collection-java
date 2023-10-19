@@ -9,7 +9,7 @@ public class Customer {
     private int times;
     // 到店次数
 
-    public LocalDate latest;
+    private LocalDate latest;
     // 最近到店时间
 
     public Customer(String name){
@@ -22,6 +22,10 @@ public class Customer {
         this.times++;
         this.latest = LocalDate.now();
         System.out.println("顾客"+ name +"光临商店！");
+    }
+
+    public LocalDate getLatest() {
+        return latest;
     }
 
     @Override
