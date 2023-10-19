@@ -20,6 +20,7 @@ public class Customer {
         latestReachTime = arrivalTime;
     }
 
+    @Override
     public String toString() {
         String x = "Customer Name:\t\t\t" + name + "\nArrival Times:\t\t\t" + String.valueOf(arrival) + "\nLatest Arrival Time:\t" + String.valueOf(latestReachTime) + "\n";
         return x;

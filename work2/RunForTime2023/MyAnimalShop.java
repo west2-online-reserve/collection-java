@@ -15,11 +15,13 @@ class MyAnimalShop implements AnimalShop {
         this.openDate = openDate;
     }
 
+    @Override
     public void openShop(LocalDate openDate) {
         isClosed = false;
         this.openDate = openDate;
     }
 
+    @Override
     public void buyAnimals(Animal animal) {
         if (balance < animal.price) {
             throw new InsufficientBalanceException();
@@ -30,6 +32,7 @@ class MyAnimalShop implements AnimalShop {
         }
     }
 
+    @Override
     public void receiveCustomers(Customer customer, Animal animal) {
         boolean come = false;
         for (Customer x : customers) { //是否是老顾客
@@ -48,7 +51,7 @@ class MyAnimalShop implements AnimalShop {
             if (x.name.equals(animal.name)) {
                 balance += animal.price;
                 profit += animal.price;
-                System.out.println(animal);
+                System.out.println(animal.toString());
                 animals.remove(animal);
                 isHere = true;
                 break;
@@ -59,6 +62,7 @@ class MyAnimalShop implements AnimalShop {
         }
     }
 
+    @Override
     public void closeShop() {
         //我不知道所谓的"LocalDate判断"是什么意思，所以这里并没有判断打烊时间
         isClosed = true;

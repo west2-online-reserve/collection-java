@@ -9,12 +9,13 @@ public class Multithreading {
                         lock.wait();
                         lock.notifyAll();
                     } catch (InterruptedException e) {
+
                     }
                 }
             }
-            try{
+            try {
                 lock.notifyAll();
-            } catch (IllegalMonitorStateException e){
+            } catch (IllegalMonitorStateException e) {
 
             }
         }
@@ -22,7 +23,7 @@ public class Multithreading {
         Thread b = new Thread(() -> {
             try {
                 Thread.sleep(9);
-            } catch (InterruptedException e){
+            } catch (InterruptedException e) {
             }
             for (int x : array2) {
                 synchronized (lock) {
