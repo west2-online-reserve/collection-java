@@ -5,12 +5,22 @@
  *
  */
 public interface AnimalShop {
-    /**买入动物新动物*/
+    /**
+     * @param  animal
+
+     * 买入动物新动物*/
+
 
      void perchas(Animal animal);
-    /**招待顾客*/
+
+    /**
+     * @param customer
+     * 招待顾客*/
      void entertaining(Customer customer);
-    /**歇业*/
+
+    /**
+     * 歇业
+     * 返回顾客列表，剩余动物，利润*/
      void close();
 
 

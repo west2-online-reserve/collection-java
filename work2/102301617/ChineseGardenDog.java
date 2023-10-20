@@ -1,3 +1,9 @@
+/***
+ * @author 102301617
+ *
+  */
+
+
 public class ChineseGardenDog extends Animal {
     Boolean isVaccinated;
 

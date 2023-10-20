@@ -1,3 +1,12 @@
+
+/***
+ * @author 102301617
+ *
+ *
+ * */
+
+
+
 public abstract  class Animal {
     protected String name;
     protected int age;

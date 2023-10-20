@@ -7,13 +7,10 @@ import java.time.LocalDate;
 public class Customer {
 
    protected String name;
+    /**
+     * visit:到店次数
+     * */
   protected int visit;
-
-    public String getName() {
-        return name;
-    }
-
-
 
     protected LocalDate time;
     @Override

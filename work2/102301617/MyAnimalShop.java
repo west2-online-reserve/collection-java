@@ -3,19 +3,26 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * @author 22284
+ * @author 102301617
  */
+@SuppressWarnings("ALL")
 public class MyAnimalShop implements AnimalShop {
 
+
+/**动物列表*/
     ArrayList list = new ArrayList();
+    /**顾客列表*/
     ArrayList costom=new ArrayList();
+    /**是否营业*/
     Boolean run=false;
     double profits;
    final double assets=1500;
+   /**用于规范输入*/
     static String male = "公";
     static String female = "母";
 
-Animal animal;
+
+    public Animal animal;
      double balance = 1500;
 
     @Override
