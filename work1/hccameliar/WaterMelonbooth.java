@@ -7,21 +7,20 @@ public class WaterMelonbooth {
     private boolean isClosed;
 
 
-    public long getId()    {return id;}
-
-    public void setId(long id)    {this.id = id;}
-
-    public String getName()     {return name;}
-
-    public void setName(String name)    {this.name = name;}
-
-    public  int getTotal()      {return total;}
-
-    public  boolean isClosed() {return isClosed;}
-
-    public void setClosed(boolean closed) {
-        isClosed = closed;
-    }
+    public long getId()
+    {return id;}
+    public void setId(long id)
+    {this.id = id;}
+    public String getName()
+    {return name;}
+    public void setName(String name)
+    {this.name = name;}
+    public  int getTotal()
+    {return total;}
+    public  boolean isClosed()
+    {return isClosed;}
+    public void setClosed(boolean closed)
+    {isClosed = closed;}
 
 
     @Override
@@ -59,7 +58,8 @@ public class WaterMelonbooth {
             System.out.println("进货失败：进货量不能超过200！");
             return;}
         this.total += RestockQuantity;
-        System.out.println("进货了 " + RestockQuantity + "个西瓜! ");}
+        System.out.println("进货了 " + RestockQuantity + "个西瓜! ");
+    }
 
 //休业整改
     public static void closeBooths(WaterMelonbooth[] booths) {
@@ -70,7 +70,8 @@ public class WaterMelonbooth {
                 booths[i].setClosed(true);
             }
         }
-    }}
+    }
+}
 
 
 

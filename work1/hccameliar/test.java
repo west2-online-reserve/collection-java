@@ -16,12 +16,13 @@ public class test {
         booth1.purchase(50);
         booth2.purchase(200);
         booth3.purchase(10);
+        booth1.purchase(-10);//购买失败：摊位1，购买数量不能为负数
 
         // 进行进货
         booth1.restock(50);
         booth2.restock(100);
         booth3.restock(20);
-
+        booth1.restock(-10);//购买失败：摊位1，进货数量不能为负数
         // 休业整改
         WaterMelonbooth.closeBooths(new WaterMelonbooth[]{booth1, booth2, booth3});
     }
