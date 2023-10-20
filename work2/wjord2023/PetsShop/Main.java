@@ -10,6 +10,9 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * @author  wjord
+ */
 
 public class Main {
     public static void main(String[] args) {
@@ -21,12 +24,15 @@ public class Main {
         listOfAnimal.add(dog2);
         listOfAnimal.add(cat1);
 
+        // 初始化商店
         HashMap<String, ThreeInfo> listOfCustomer = new HashMap<>();
         MyAnimalShop myAnimalShop = new MyAnimalShop(300, listOfAnimal, listOfCustomer, true);
-        // 初始化商店
 
-        // 以下是我在chatGPT上学会的操作，并与我要完成的任务相结合写出的代码
-        // 这个操作非常牛逼，可以一边进行顾客到店的倒计时操作，一边访问basicPage
+
+        /* 以下是我在chatGPT上学会的操作，并与我要完成的任务相结合写出的代码
+         这个操作非常牛逼，可以一边进行顾客到店的倒计时操作，一边访问basicPage
+         */
+
         // 创建一个ScheduledExecutorService，用于周期性地执行任务
         ScheduledExecutorService executorService = Executors.newScheduledThreadPool(2);
 

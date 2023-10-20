@@ -2,6 +2,9 @@ package Shop;
 
 import java.time.LocalDateTime;
 
+/**
+ * @author  wjord
+ */
 public class Customer {
     private String name;
     private int numberOfTimeVisit;

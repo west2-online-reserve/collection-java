@@ -2,8 +2,14 @@ package Shop;
 
 import java.time.LocalDateTime;
 
+/**
+ * @author  wjord
+ */
+
+// 这个包提供一个public的方法以储存3个变量使得字典可以储存3个value
 public class ThreeInfo {
-    // 这个包提供一个public的方法以储存3个变量使得字典可以储存3个value
+
+
     private final String infoName;
     private final int infoTimeArrival;
     private final LocalDateTime infoLatestTime;

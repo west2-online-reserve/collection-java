@@ -1,5 +1,8 @@
 package Animal;
 
+/**
+ * @author  wjord
+ */
 public class ChinesePastoralDogs extends Animals {
     protected boolean isVaccineInjected;
 

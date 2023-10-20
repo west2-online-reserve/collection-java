@@ -1,5 +1,9 @@
 package Animal;
 
+/**
+ * @author  wjord
+ */
+
 public abstract class Animals {
     protected String name;
     protected int age;
@@ -61,6 +65,9 @@ public abstract class Animals {
     }
     // 声明和get，set
 
+    /**
+     * 使得宠物信息可以按照一定顺序输出
+     * @return
+     */
     public abstract String toString();
-    // 重写方法
 }

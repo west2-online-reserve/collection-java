@@ -1,5 +1,8 @@
 package Animal;
 
+/**
+ * @author  wjord
+ */
 public class Parrot extends Animals {
     public Parrot() {
     }
