@@ -31,6 +31,7 @@ public class MyAnimalShop implements AnimalShop {
      */
     private List<Customer> customerArray = new ArrayList<Customer>();
 
+
     public double getAccount() {
         return account;
     }
@@ -43,7 +44,7 @@ public class MyAnimalShop implements AnimalShop {
         this.account = account;
     }
 
-
+    @Override
     public void buyNewAnimal(Animal animal) {
         try {
             if (animal.animalPurPrice > account) {
@@ -58,6 +59,7 @@ public class MyAnimalShop implements AnimalShop {
         }
     }
 
+    @Override
     public void entertainCustomer(Customer customer, Animal animal) {
         try {
             int index = animalArray.indexOf(animal);
@@ -81,10 +83,12 @@ public class MyAnimalShop implements AnimalShop {
         }
     }
 
+    @Override
     public void start() {
         isOnBusiness = true;
     }
 
+    @Override
     public void close() {
         isOnBusiness = false;
         System.out.println('\n' + shopName + "今天的顾客信息");

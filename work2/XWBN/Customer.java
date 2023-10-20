@@ -46,6 +46,7 @@ public class Customer {
 
     public void setLatestArrivedTime() { latestArrivedTime = LocalDate.now(); }
 
+    @Override
     public String toString() {
         return "[顾客姓名:" + getName() + "]" + '\n' + "[顾客到店次数:" + getTimes() + "]" + '\n' + "[顾客最新到店时间:" + getLatestArrivedTime() + "]" + '\n';
     }

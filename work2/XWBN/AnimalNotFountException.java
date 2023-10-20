@@ -8,7 +8,7 @@ package XWBN2;
 public class AnimalNotFountException extends RuntimeException {
     private String animalName;
 
-    AnimalNotFountException(String animalName) {
+    public AnimalNotFountException(String animalName) {
         this.animalName = animalName;
     }
 

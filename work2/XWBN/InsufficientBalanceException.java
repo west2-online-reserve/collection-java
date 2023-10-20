@@ -14,6 +14,7 @@ public class InsufficientBalanceException extends RuntimeException {
         this.account = account;
     }
 
+    @Override
     public String toString() {
         return "账户余额不足无法购买" + animalName + '\n';
     }
