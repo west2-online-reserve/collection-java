@@ -16,4 +16,7 @@ public interface AnimalShop {
 
     void closureOfBusiness(Customer... customer);
 
+
+    void opening();
+
 }

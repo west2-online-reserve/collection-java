@@ -2,9 +2,10 @@ package com.huayu.work02;
 
 /**
  * Customer类代表顾客的基本信息
- *
+ * <p>
  * 该类包含顾客的基本信息和重写的toString方法
  */
+
 import java.time.LocalDate;
 
 public class Customer {
@@ -25,7 +26,11 @@ public class Customer {
     }
 
     public void setArrivalTime(int arrivalTime) {
-        this.arrivalTime = arrivalTime;
+        if (arrivalTime >= 1) {
+            this.arrivalTime = arrivalTime;
+        } else {
+            System.out.println("到店次数有误");
+        }
     }
 
     public LocalDate getLatestArrivalTime() {
@@ -39,9 +44,9 @@ public class Customer {
     @Override
     public String toString() {
         return "Customer{" +
-                "customerName='" + customerName + '\'' +
-                ", arrivalTime=" + arrivalTime +
-                ", latestArrivalTime=" + latestArrivalTime +
+                "customerName=" + getCustomerName() +
+                ", arrivalTime=" + getArrivalTime() +
+                ", latestArrivalTime=" + getLatestArrivalTime() +
                 '}';
     }
 }

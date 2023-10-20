@@ -15,6 +15,8 @@ public class Test {
         myAnimalShop.setClosingTime(LocalDate.of(2023, 9, 27));
         // 设置初始金额
         myAnimalShop.setStoreBalance(500);
+        // 设置正在营业
+        myAnimalShop.setBusinessInProgress(true);
         Dog charlie = new Dog("charlie", 1, "male", 120, 80, true);
         Cat blue = new Cat("blue", 1, "female", 200, 160);
         Cat tesla = new Cat("tesla", 1, "female", 190, 20);
@@ -79,5 +81,6 @@ public class Test {
         myAnimalShop.closureOfBusiness(alice, landon, aron, lan, yu, chen);*/
         // 用于验证余额的变化，防止余额变化出错导致购买报错信息出错
         // System.out.println(myAnimalShop.storeBalance);
+        myAnimalShop.opening();
     }
 }

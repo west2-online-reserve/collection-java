@@ -2,23 +2,24 @@ package com.huayu.work02;
 
 /**
  * Animal类表示系统中的动物信息
- *
+ * <p>
  * 该类包含动物的基本信息
+ *
  * @aurhor yusiheng
  * @date 2023/10/04
  */
 public abstract class Animal {
-    private String animalName;
-    private int animalAge;
-    private String animalSex;
+    protected String animalName;
+    protected int animalAge;
+    protected String animalSex;
     /**
      * 动物的出售价格
      */
-    private double animalPrice;
+    protected double animalPrice;
     /**
      * 动物的进口价格
      */
-    private double animalImportPrice;
+    protected double animalImportPrice;
 
     public String getAnimalName() {
         return animalName;
@@ -33,7 +34,9 @@ public abstract class Animal {
     }
 
     public void setAnimalAge(int animalAge) {
-        this.animalAge = animalAge;
+        if (animalAge >= 0) {
+            this.animalAge = animalAge;
+        } else System.out.println("动物的年龄有误");
     }
 
     public String getAnimalSex() {
@@ -41,7 +44,11 @@ public abstract class Animal {
     }
 
     public void setAnimalSex(String animalSex) {
-        this.animalSex = animalSex;
+        if (animalSex.equals("male") || animalSex.equals("female")) {
+            this.animalSex = animalSex;
+        } else {
+            System.out.println("动物的性别有误");
+        }
     }
 
     public double getAnimalPrice() {
@@ -49,7 +56,11 @@ public abstract class Animal {
     }
 
     public void setAnimalPrice(double animalPrice) {
-        this.animalPrice = animalPrice;
+        if (animalPrice >= 0) {
+            this.animalPrice = animalPrice;
+        } else {
+            System.out.println("动物价格有误");
+        }
     }
 
     public double getAnimalImportPrice() {
@@ -57,7 +68,11 @@ public abstract class Animal {
     }
 
     public void setAnimalImportPrice(double animalImportPrice) {
-        this.animalImportPrice = animalImportPrice;
+        if (animalImportPrice >= 0) {
+            this.animalImportPrice = animalImportPrice;
+        } else {
+            System.out.println("动物进价有误");
+        }
     }
 
     public Animal(String animalName, int animalAge, String animalSex, double animalPrice, double animalImportPrice) {

@@ -8,7 +8,7 @@ package com.huayu.work02;
  * @date 2023/10/04
  */
 public class Dog extends Animal {
-    private boolean isVaccineInjected;
+    protected boolean isVaccineInjected;
 
     public Dog(String animalName, int animalAge, String animalSex, double animalPrice, double animalImportPrice, boolean isVaccineInjected) {
         super(animalName, animalAge, animalSex, animalPrice, animalImportPrice);
@@ -63,6 +63,14 @@ public class Dog extends Animal {
     @Override
     public void setAnimalImportPrice(double animalImportPrice) {
         super.setAnimalImportPrice(animalImportPrice);
+    }
+
+    public boolean isVaccineInjected() {
+        return isVaccineInjected;
+    }
+
+    public void setVaccineInjected(boolean vaccineInjected) {
+        isVaccineInjected = vaccineInjected;
     }
 
     public Dog(String animalName, int animalAge, String animalSex, double animalPrice, double animalImportPrice) {
