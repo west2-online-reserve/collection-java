@@ -1,0 +1,14 @@
+hashCode
+由对象的属性生成的，
+用于判断两个同类对象属性（内容）是否一致的
+值
+
+==  equal() A instanceof B
+三者辨析
+对于对象而言，
+==比较地址，
+
+equal()可能被重写，
+
+instanceof判断A是否能被转化为B，
+即(B.getClass().getSimpleName()) A会抛出异常，则返回false
