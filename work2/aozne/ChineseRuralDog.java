@@ -1,3 +1,7 @@
+/**
+ * @author aozne
+ * @date 2023/10/23 21:12
+ **/
 class ChineseRuralDog extends Animal{
     // 是否注射狂犬疫苗
     private boolean isVaccineInjected;
@@ -17,7 +21,7 @@ class ChineseRuralDog extends Animal{
                 "动物价格："+animalPrice+
                 "动物成本："+animalCost);
     }
-    public ChineseRuralDog(String animalName,int animalAge,String animalGender,double animalPrice,double animalCost,String animalspecies){
-        super(animalName,animalAge,animalGender,animalPrice,animalCost,animalspecies);
+    public ChineseRuralDog(String animalName,int animalAge,String animalGender,double animalPrice,double animalCost){
+        super(animalName,animalAge,animalGender,animalPrice,animalCost);
     }
 }

@@ -1,3 +1,7 @@
+/**
+ * @author aozne
+ * @date 2023/10/23 21:12
+ **/
 class Cat extends Animal{
     @Override
     public double getAnimalPrice() {
@@ -15,7 +19,7 @@ class Cat extends Animal{
                 "动物价格："+animalPrice+
                 "动物成本："+animalCost);
     }
-    public Cat(String animalName,int animalAge,String animalGender,double animalPrice,double animalCost,String animalspecies){
-        super(animalName,animalAge,animalGender,animalPrice,animalCost,animalspecies);
+    public Cat(String animalName,int animalAge,String animalGender,double animalPrice,double animalCost){
+        super(animalName,animalAge,animalGender,animalPrice,animalCost);
     }
 }

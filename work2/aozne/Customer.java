@@ -1,9 +1,30 @@
+/**
+ * @author aozne
+ * @date 2023/10/23 21:12
+ **/
 import java.time.LocalDate;
 
 class Customer{
     public String customerName;
-    public int arrivalTimes;
-    LocalDate localDate=LocalDate.now();
+    private int arrivalTimes=0;
+    private LocalDate localDate;
+
+    public void setArrivalTimes(int arrivalTimes) {
+        this.arrivalTimes = arrivalTimes;
+    }
+
+    public void setLocalDate(LocalDate localDate){
+        this.localDate=localDate;
+    }
+    public LocalDate localDate(){
+        return localDate;
+    }
+    public void setArrivalTimes(){
+        this.arrivalTimes=arrivalTimes;
+    }
+    public int getArrivalTimes(){
+        return arrivalTimes;
+    }
     public Customer(String customerName,int arrivalTimes){
         this.customerName=customerName;
         this.arrivalTimes=arrivalTimes;
