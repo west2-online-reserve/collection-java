@@ -93,12 +93,8 @@ public class MyAnimalShop implements AnimalShop {
      */
     @Override
     public void purchaseNewAnimal(Animal animal, LocalDate importTime) {
-        if (businessInProgress == false) {
-            System.out.println("宠物店未在营业");
-            return;
-        }
         try {
-            if (storeBalance >= animal.getAnimalImportPrice()) {
+            if (storeBalance >= animal.animalImportPrice) {
                 System.out.println("宠物店购进宠物成功");
             } else {
                 throw new InsufficientBalanceException();
@@ -107,12 +103,12 @@ public class MyAnimalShop implements AnimalShop {
             System.out.println(e);
         }
         // 计算利润
-        storeBalance = storeBalance - animal.getAnimalImportPrice();
+        storeBalance = storeBalance - animal.animalImportPrice;
         // 动物列表添加动物
         animalsList.add(animal);
         // 如果购买宠物时间和当天时间相同，花销列表增这个宠物的进口价
         if (importTime.equals(closingTime)) {
-            importOnClosedDays.add(animal.getAnimalImportPrice());
+            importOnClosedDays.add(animal.animalImportPrice);
         }
     }
 
@@ -141,15 +137,15 @@ public class MyAnimalShop implements AnimalShop {
             return;
         }
         // 输出顾客购买的宠物信息
-        System.out.println("售出的宠物为："+animal.toString());
-        storeBalance = storeBalance + animal.getAnimalPrice();
+        System.out.println("售出的宠物为：" + animal.toString());
+        storeBalance = storeBalance + animal.animalPrice;
         // 从动物列表移除动物
         animalsList.remove(whichOneToPurchase - 1);
         // 顾客列表增加顾客
         customersList.add(customer);
         // 如果购买顾客光临时间和当天时间相同，售出列表增这个宠物的出口价
-        if (customer.getLatestArrivalTime().equals(closingTime) && animalsList.size() > 0) {
-            soldOnClosedDays.add(animal.getAnimalPrice());
+        if (customer.latestArrivalTime.equals(closingTime) && animalsList.size() > 0) {
+            soldOnClosedDays.add(animal.animalPrice);
         }
     }
 
@@ -173,8 +169,8 @@ public class MyAnimalShop implements AnimalShop {
             return;
         }
         for (int i = 0; i < customer.length; i++) {
-            if (customer[i].getLatestArrivalTime().equals(closingTime)) {
-                System.out.println("今日光临的顾客："+customer[i].toString());
+            if (customer[i].latestArrivalTime.equals(closingTime)) {
+                System.out.println("今日光临的顾客：" + customer[i].toString());
             }
         }
         double revenue = 0;
@@ -189,7 +185,7 @@ public class MyAnimalShop implements AnimalShop {
         }
         // 计算利润
         double profit = expenditure - revenue;
-        System.out.println("今日的利润为："+profit);
+        System.out.println("今日的利润为：" + profit);
         this.setBusinessInProgress(false);
 
     }

@@ -13,61 +13,11 @@ public class Cat extends Animal {
     }
 
     @Override
-    public String getAnimalName() {
-        return super.getAnimalName();
-    }
-
-    @Override
-    public void setAnimalName(String animalName) {
-        super.setAnimalName(animalName);
-    }
-
-    @Override
-    public int getAnimalAge() {
-        return super.getAnimalAge();
-    }
-
-    @Override
-    public void setAnimalAge(int animalAge) {
-        super.setAnimalAge(animalAge);
-    }
-
-    @Override
-    public String getAnimalSex() {
-        return super.getAnimalSex();
-    }
-
-    @Override
-    public void setAnimalSex(String animalSex) {
-        super.setAnimalSex(animalSex);
-    }
-
-    @Override
-    public double getAnimalPrice() {
-        return super.getAnimalPrice();
-    }
-
-    @Override
-    public void setAnimalPrice(double animalPrice) {
-        super.setAnimalPrice(animalPrice);
-    }
-
-    @Override
-    public double getAnimalImportPrice() {
-        return super.getAnimalImportPrice();
-    }
-
-    @Override
-    public void setAnimalImportPrice(double animalImportPrice) {
-        super.setAnimalImportPrice(animalImportPrice);
-    }
-
-    @Override
     public String toString() {
-        return "[name: " + getAnimalName() +
-                " ;age: " + getAnimalAge() +
-                " ;sex: " + getAnimalSex() +
-                " ;price: " + getAnimalPrice() +
-                " ;importprice " + getAnimalImportPrice() + "]";
+        return "[name: " + animalName +
+                " ;age: " + animalAge +
+                " ;sex: " + animalSex +
+                " ;price: " + animalPrice +
+                " ;importprice " + animalImportPrice + "]";
     }
 }

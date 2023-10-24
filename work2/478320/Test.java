@@ -27,19 +27,19 @@ public class Test {
         myAnimalShop.getAnimalsList().add(blue);
         Customer alice = new Customer();
         // 设置顾客名字
-        alice.setCustomerName("alice");
+        alice.customerName="alice";
         // 设置到店次数
         alice.setArrivalTime(2);
         // 设置离店时间
-        alice.setLatestArrivalTime(LocalDate.of(2023, 9, 27));
+        alice.latestArrivalTime=(LocalDate.of(2023, 9, 27));
         Customer landon = new Customer();
-        landon.setCustomerName("landon");
+        landon.customerName="landon";
         landon.setArrivalTime(2);
-        landon.setLatestArrivalTime(LocalDate.of(2023, 9, 27));
+        landon.latestArrivalTime=LocalDate.of(2023, 9, 27);
         Customer aron = new Customer();
-        aron.setCustomerName("aron");
+        aron.customerName="aron";
         aron.setArrivalTime(2);
-        aron.setLatestArrivalTime(LocalDate.of(2023, 9, 26));
+        aron.latestArrivalTime=LocalDate.of(2023, 9, 26);
         myAnimalShop.purchaseNewAnimal(smowball, LocalDate.of(2023, 9, 26));
         myAnimalShop.purchaseNewAnimal(tesla, LocalDate.of(2023, 9, 27));
         myAnimalShop.purchaseNewAnimal(max, LocalDate.of(2023, 9, 27));
@@ -56,17 +56,17 @@ public class Test {
         }
         // 验证宠物不足的情况
         /*Customer lan = new Customer();
-        lan.setCustomerName("lan");
+        lan.customerName="lan";
         lan.setArrivalTime(2);
-        lan.setLatestArrivalTime(LocalDate.of(2023, 9, 28));
+        lan.latestArrivalTime=LocalDate.of(2023, 9, 28);
         Customer yu = new Customer();
-        yu.setCustomerName("yu");
+        yu.customerName="yu";
         yu.setArrivalTime(2);
-        yu.setLatestArrivalTime(LocalDate.of(2023, 9, 28));
+        yu.latestArrivalTime=LocalDate.of(2023, 9, 28);
         Customer chen = new Customer();
-        chen.setCustomerName("chen");
+        chen.customerName="chen";
         chen.setArrivalTime(2);
-        chen.setLatestArrivalTime(LocalDate.of(2023, 9, 27));
+        chen.latestArrivalTime=LocalDate.of(2023, 9, 27);
         try {
             myAnimalShop.hospitalizingCustomers(alice, 1, charlie);
             myAnimalShop.hospitalizingCustomers(landon, 3, max);

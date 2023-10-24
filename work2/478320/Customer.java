@@ -9,17 +9,9 @@ package com.huayu.work02;
 import java.time.LocalDate;
 
 public class Customer {
-    private String customerName;
+    protected String customerName;
     private int arrivalTime;
-    private LocalDate latestArrivalTime;
-
-    public String getCustomerName() {
-        return customerName;
-    }
-
-    public void setCustomerName(String customerName) {
-        this.customerName = customerName;
-    }
+    protected LocalDate latestArrivalTime;
 
     public int getArrivalTime() {
         return arrivalTime;
@@ -33,20 +25,12 @@ public class Customer {
         }
     }
 
-    public LocalDate getLatestArrivalTime() {
-        return latestArrivalTime;
-    }
-
-    public void setLatestArrivalTime(LocalDate latestArrivalTime) {
-        this.latestArrivalTime = latestArrivalTime;
-    }
-
     @Override
     public String toString() {
         return "Customer{" +
-                "customerName=" + getCustomerName() +
+                "customerName=" + customerName +
                 ", arrivalTime=" + getArrivalTime() +
-                ", latestArrivalTime=" + getLatestArrivalTime() +
+                ", latestArrivalTime=" + latestArrivalTime +
                 '}';
     }
 }
