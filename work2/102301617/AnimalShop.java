@@ -11,7 +11,7 @@ public interface AnimalShop {
      * 买入动物新动物*/
 
 
-     void perchas(Animal animal);
+     void perchase(Animal animal);
 
     /**
      * @param customer
