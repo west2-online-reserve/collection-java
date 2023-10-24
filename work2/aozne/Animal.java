@@ -21,6 +21,11 @@ abstract class Animal{
     // 抽象的tostring()方法
     @Override
     public abstract String toString();
+
+    public void setAnimalPrice(double animalPrice) {
+        this.animalPrice = animalPrice;
+    }
+
     public abstract double getAnimalPrice();
     protected abstract double getAnimalCost();
 

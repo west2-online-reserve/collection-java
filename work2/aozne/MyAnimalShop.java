@@ -116,8 +116,6 @@ class MyAnimalShop implements AnimalShop{
                     if (num0 > count1) {
                         System.out.println("购买数量超过本店所有中华田园犬数，请在考虑一下吧");
                     } else {
-                        // 顾客最新到店时间和到店次数
-
                         profit =profit+ num0 * 100;
                         int count2=0;
                         // 判断列表中的动物是否来自中华田园犬类，是则移除，当移除足够数量是停止循环

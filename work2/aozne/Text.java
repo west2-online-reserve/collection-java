@@ -1,12 +1,12 @@
 public class Text {
     public static void main(String[] args){
         Animal dog1=new ChineseRuralDog("dog1",2,"male",200,100);
-        Animal dog2=new ChineseRuralDog("dog2",3,"female",200,100);
+        Animal dog2=new ChineseRuralDog("dog2",3,"female",300,150);
         Animal dog3=new ChineseRuralDog("dog3",2,"male",200,100);
         Animal cat1=new Cat("CAT1",3,"female",100,50);
         Animal cat2=new Cat("CAT2",1,"female",100,50);
         Animal cat3=new Cat("CAT3",2,"female",100,50);
-        AnimalShop animalShop=new MyAnimalShop(1008,false);
+        AnimalShop animalShop=new MyAnimalShop(2000,false);
         animalShop.purchase(dog1,1);
         animalShop.purchase(dog2,2);
         animalShop.purchase(cat1,1);

@@ -4,12 +4,20 @@
  **/
 class Cat extends Animal{
     @Override
+    public void setAnimalPrice(double animalPrice) {
+        this.animalPrice=animalPrice;
+    }
+    public void setAnimalCost(double animalCost){
+        this.animalCost=animalCost;
+    }
+
+    @Override
     public double getAnimalPrice() {
-        return 200;
+        return animalPrice;
     }
     @Override
     public double getAnimalCost(){
-        return 100;
+        return animalCost;
     }
     @Override
     public String toString() {

@@ -5,6 +5,15 @@
 class ChineseRuralDog extends Animal{
     // 是否注射狂犬疫苗
     private boolean isVaccineInjected;
+
+    @Override
+    public void setAnimalPrice(double animalPrice) {
+        this.animalPrice=animalPrice;
+    }
+    public void setAnimalCost(double animalCost){
+        this.animalCost=animalCost;
+    }
+
     @Override
     public double getAnimalPrice() {
         return 100;
