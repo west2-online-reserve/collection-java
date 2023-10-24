@@ -4,7 +4,7 @@ package bonus1;
 public class ThreadTest {
     static public void printTwoArrays(int[] lhs,int[] rhs){
         Thread1 thread1 = new Thread1(lhs);
-        Thread1 thread2 = new Thread1(rhs);
+        Thread2 thread2 = new Thread2(rhs);
         thread1.start();
         thread2.start();
     }

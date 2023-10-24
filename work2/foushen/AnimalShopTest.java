@@ -7,32 +7,36 @@ public class AnimalShopTest {
         Customer billy = new Customer("billy", 0);
         Customer mike = new Customer("mike", 0);
 
-        try {
-            myShop.buyNewAnimal(haha);
-            myShop.buyNewAnimal(huahua);
 
-        } catch (InsufficientBalanceException | AnimalShopIsClosed insufficientBalanceExceptionOrAnimalShopIsClosed) {
-            System.out.println(insufficientBalanceExceptionOrAnimalShopIsClosed);
-        }
+        // 测试buyNewAnimal方法
+        myShop.buyNewAnimal(haha);
+        // 测试InsInsufficientBalanceException异常
+        myShop.buyNewAnimal(huahua);
+
+
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
+        // 测试招待新顾客
+        myShop.serveNewCustomer(van);
+        // 测试同时招待同一名顾客
+        myShop.serveNewCustomer(van);
 
-        try {
-            myShop.serveNewCustomer(van);
-            myShop.sellAnimal(billy, haha);
-            myShop.sellAnimal(billy, huahua);
-        } catch (AnimalNotFountException | AnimalShopIsClosed animalNotFountExceptionOrAnimalShopIsClosed) {
-            System.out.println(animalNotFountExceptionOrAnimalShopIsClosed);
-        }
+        //测试售出动物
+        myShop.sellAnimal(billy, haha);
+        myShop.sellAnimal(billy, huahua);
+
 
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+        //关店
         myShop.close();
-        try {
-            myShop.buyNewAnimal(huahua);
-        } catch (AnimalShopIsClosed animalShopIsClosed) {
-            System.out.println(animalShopIsClosed);
-        }
+        //在关店时出售动物会怎么样
+        myShop.buyNewAnimal(huahua);
+        //重新开业
         myShop.open();
+
+        //测试是否开业成功
+        myShop.buyNewAnimal(huahua);
 
 
     }

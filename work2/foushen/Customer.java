@@ -1,14 +1,16 @@
 import java.time.LocalDate;
+import java.util.PriorityQueue;
 
 public class Customer {
     private String name;
     private int visitShopTimes;
     LocalDate latestVisitShopTime;
 
+
     public Customer(String name, int visitShopTimes) {
         this.name = name;
         this.visitShopTimes = visitShopTimes;
-        //无法确定顾客是否到店，故不构造latestVisitShopTime
+        //无法确定顾客是否到店，故暂时不构造latestVisitShopTime
     }
 
     public String getName() {
