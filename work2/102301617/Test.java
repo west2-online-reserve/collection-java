@@ -27,7 +27,7 @@ public class Test {
                  String type1 = scanner.next();
                     if (type1.equals(MyAnimalShop.male) || type1.equals(MyAnimalShop.female)) {
                         Cat cat = new Cat("一只咪", 0, 200, type1);
-                        animalShop.perchas(cat);
+                        animalShop.perchase(cat);
                         define = true;
                     } else {
                         System.out.println("请输入公或者母");
@@ -42,7 +42,7 @@ public class Test {
                     String type2 = scanner.next();
                     if (type2.equals(MyAnimalShop.male) || type2.equals(MyAnimalShop.female)) {
                         ChineseGardenDog chineseGardenDog = new ChineseGardenDog("修勾", 0, 100, type2);
-                        animalShop.perchas(chineseGardenDog);
+                        animalShop.perchase(chineseGardenDog);
                         define = true;
                     } else {
                         System.out.println("请输入公或者母");
