@@ -14,7 +14,7 @@ public class MyAnimalShop implements AnimalShop {
     /**顾客列表*/
     ArrayList costom=new ArrayList();
     /**是否营业*/
-    Boolean run=false;
+    Boolean run=true;
     double profits;
    final double assets=1500;
    /**用于规范输入*/
@@ -89,6 +89,6 @@ public class MyAnimalShop implements AnimalShop {
         System.out.println(costom);
         System.out.println("以下是宠物店剩余动物");
         System.out.println(list);
-
+        run=false;
     }
 }
