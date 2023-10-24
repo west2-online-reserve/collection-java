@@ -2,9 +2,12 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 
 public class Customer {
-    private String name;// 客户名字
-    private int times;// 访问次数
-    private LocalDate date;// 最新到店时间
+    // 客户名字
+    private String name;
+    // 访问次数
+    private int times;
+    // 最新到店时间
+    private LocalDate date;
 
 
     Customer(String name){

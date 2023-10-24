@@ -95,9 +95,8 @@ public class MyAnimalShop implements AnimalShop{
             //没动物报错
             if(animalArrayList.isEmpty()){
                 throw new AnimalNotFoundException("店内没有动物了");
-            }
-            //卖动物
-            else{
+            } else{
+
                 showAnimal();
                 sendAnimal();
             }
