@@ -12,7 +12,6 @@ package com.huayu.work02;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-
 public class MyAnimalShop implements AnimalShop {
 
     protected double storeBalance;
@@ -22,66 +21,6 @@ public class MyAnimalShop implements AnimalShop {
     protected ArrayList<Double> importOnClosedDays = new ArrayList<>();
     protected LocalDate closingTime;
     protected boolean businessInProgress;
-
-    public double getStoreBalance() {
-        return storeBalance;
-    }
-
-    public void setStoreBalance(double storeBalance) {
-        if (storeBalance >= 0) {
-            this.storeBalance = storeBalance;
-        } else {
-            System.out.println("初始余额有误");
-        }
-    }
-
-    public ArrayList<Animal> getAnimalsList() {
-        return animalsList;
-    }
-
-    public void setAnimalsList(ArrayList<Animal> animalsList) {
-        this.animalsList = animalsList;
-    }
-
-    public ArrayList<Customer> getCustomersList() {
-        return customersList;
-    }
-
-    public void setCustomersList(ArrayList<Customer> customersList) {
-        this.customersList = customersList;
-    }
-
-    public ArrayList<Double> getSoldOnClosedDays() {
-        return soldOnClosedDays;
-    }
-
-    public void setSoldOnClosedDays(ArrayList<Double> soldOnClosedDays) {
-        this.soldOnClosedDays = soldOnClosedDays;
-    }
-
-    public ArrayList<Double> getImportOnClosedDays() {
-        return importOnClosedDays;
-    }
-
-    public void setImportOnClosedDays(ArrayList<Double> importOnClosedDays) {
-        this.importOnClosedDays = importOnClosedDays;
-    }
-
-    public LocalDate getClosingTime() {
-        return closingTime;
-    }
-
-    public void setClosingTime(LocalDate closingTime) {
-        this.closingTime = closingTime;
-    }
-
-    public boolean isBusinessInProgress() {
-        return businessInProgress;
-    }
-
-    public void setBusinessInProgress(boolean businessInProgress) {
-        this.businessInProgress = businessInProgress;
-    }
 
     /**
      * 这是购买动物方法，可以购买动物，购买后会把该动物加入我的动物列表，并消耗一部分我原有的钱，如果购买的时间是歇业计算利润的时间，这个动物的购买价格就会进入利润计算用的进口列表，如果已经没钱就会抛出钱不够的异常并捕获，输出异常信息
@@ -154,7 +93,7 @@ public class MyAnimalShop implements AnimalShop {
      */
     @Override
     public void opening() {
-        this.setBusinessInProgress(true);
+        this.businessInProgress = true;
     }
 
     /**
@@ -186,7 +125,6 @@ public class MyAnimalShop implements AnimalShop {
         // 计算利润
         double profit = expenditure - revenue;
         System.out.println("今日的利润为：" + profit);
-        this.setBusinessInProgress(false);
-
+        this.businessInProgress = false;
     }
 }
