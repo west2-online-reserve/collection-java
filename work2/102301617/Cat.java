@@ -6,8 +6,8 @@
 
 
 public class Cat extends Animal{
-    public Cat(String name, int age, double price, String sex) {
-        super(name, age, 200,sex,100);
+    public Cat(String name, int age, double price, String sex,Boolean isVaccinated) {
+        super(name, age, 200,sex,100,isVaccinated,true);
     }
 
     @Override
