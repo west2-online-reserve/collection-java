@@ -15,6 +15,8 @@ class MyAnimalShop implements AnimalShop{
     private ArrayList<Animal> animals=new ArrayList<>();
     private ArrayList<Customer> customers=new ArrayList<>();
     LocalDate localDate=LocalDate.now();
+    // 关闭在closeAnimalShop方法中
+    Scanner sc=new Scanner(System.in);
 // 构造方法！
     public MyAnimalShop(double money,boolean isClosed){
         this.money=money;
@@ -82,7 +84,6 @@ class MyAnimalShop implements AnimalShop{
     public void hello(Customer customer) {
         customers.add(customer);
         System.out.println(localDate);
-        Scanner sc=new Scanner(System.in);
         if (isClosed == true) {
             System.out.println("不好意思本店已打烊");
         }
@@ -106,7 +107,7 @@ class MyAnimalShop implements AnimalShop{
                     System.out.println("请输入你要买的数量");
                     int num0 = sc.nextInt();
                     int count1=0;
-                    // 运用instanceof方法判断列表中的动物是否来自中华田园犬类 ，并记数
+                    // 运用instanceof方法判断列表中的动物是否来自中华田园犬类 ，并记数列表中来自中华田园犬类的元素有多少，方便后面的判断
                     for(int i=0;i<animals.size();i++){
                         if(animals.get(i)instanceof ChineseRuralDog){
                             count1++;
@@ -187,6 +188,7 @@ class MyAnimalShop implements AnimalShop{
 //关店 顾客信息 利息！
     @Override
     public void closeAnimalShop(AnimalShop animalShop) {
+        sc.close();
         this.isClosed=true;
         for(int i=0;i<customers.size();i++){
             int count=i+1;

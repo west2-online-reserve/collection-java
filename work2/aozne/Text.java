@@ -18,6 +18,14 @@ public class Text {
         animalShop.hello(c1);
         animalShop.hello(c2);
         animalShop.closeAnimalShop(animalShop);
+        animalShop.hello(c2);
+        System.out.println("*********这是一条分界线**********" );
+        AnimalShop animalShop1=new MyAnimalShop(1000,false);
+        animalShop1.purchase(dog1,5);
+        animalShop1.purchase(cat1,1);
+        animalShop1.closeAnimalShop(animalShop1);
+
+
 
 
 
