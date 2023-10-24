@@ -8,8 +8,8 @@ public class ChineseGardenDog extends Animal {
     Boolean isVaccinated;
 
 
-    public ChineseGardenDog(String name, int age, double price,String sex) {
-        super(name, age, 100,sex,50);
+    public ChineseGardenDog(String name, int age, double price,String sex,Boolean isVaccinated) {
+        super(name, age, 100,sex,50,isVaccinated,true);
 
     }
 
