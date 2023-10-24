@@ -26,7 +26,7 @@ public class MyAnimalShop implements AnimalShop {
      double balance = 1500;
 
     @Override
-    public void perchas (Animal animal) {
+    public void perchase (Animal animal) {
 
         try {
             if (run) {
