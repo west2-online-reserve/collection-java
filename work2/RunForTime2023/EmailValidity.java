@@ -8,10 +8,7 @@ public class EmailValidity {
          * 域名是否仅包含小写字母或数字
          * 域名是否以“.com”结尾（教育邮箱等其他类型邮箱将被视为非法）
          */
-        if(mailAddress.matches("\\w{6,16}@[a-z0-9]+\\.com")) {
-            return true;
-        }
-        return false;
+        return mailAddress.matches("\\w{6,16}@[a-z0-9]+\\.com");
     }
     public static void main(String[] argv) {
         Scanner scanner=new Scanner(System.in);
@@ -22,5 +19,6 @@ public class EmailValidity {
         else {
             System.out.println("Invalid email address!");
         }
+        scanner.close();
     }
 }
