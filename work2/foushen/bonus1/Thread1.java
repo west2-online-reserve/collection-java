@@ -4,7 +4,7 @@ public class Thread1 extends Thread {
     private Thread thread1;
     private int[] arr;
 
-    Thread1(int[] arr) {
+    public Thread1(int[] arr) {
         this.arr = arr;
 
     }
