@@ -9,7 +9,7 @@ public interface AnimalShop {
 
     void treatCustomer(Customer customer, String petName);
 
-    public abstract void close();
+    void close();
 
 }
 

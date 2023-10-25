@@ -1,29 +1,30 @@
 package animalshop;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * MyAnimalShop类表示自己的宠物店
- *
+ * <p>
  * 该类包含宠物店的基本信息和操作
+ *
  * @author 102301412
  */
 
 public class MyAnimalShop implements AnimalShop {
-    private double balance;
-    private boolean isOpen;
     private final List<BaseAnimal> animalList;
     private final List<Customer> customerList;
-    ArrayList<BaseAnimal> todayExpense = new ArrayList<>();
-    ArrayList<BaseAnimal> todayIncome = new ArrayList<>();
+    private final ArrayList<BaseAnimal> todayExpense = new ArrayList<>();
+    private final ArrayList<BaseAnimal> todayIncome = new ArrayList<>();
+    private double balance;
+    private boolean isOpen;
 
     public MyAnimalShop(double balance) {
         this.balance = balance;
         this.animalList = new ArrayList<>();
         this.customerList = new ArrayList<>();
+        isOpen = true;
     }
 
 
@@ -43,8 +44,7 @@ public class MyAnimalShop implements AnimalShop {
     public void purchase(BaseAnimal animal) {
         if (balance < animal.getPrice()) {
             throw new InsufficientBalanceException("余额不足，无法买入动物");
-        }
-        else {
+        } else {
             balance -= animal.getPrice();
             animalList.add(animal);
             System.out.println("购买成功，新宠物是：" + animal);
@@ -58,10 +58,12 @@ public class MyAnimalShop implements AnimalShop {
      */
     @Override
     public void treatCustomer(Customer customer, String petName) {
-        if (isOpen) {
+        if (!isOpen) {
             System.out.println("不好意思，本店休息中");
         } else {
             customerList.add(customer);
+            customer.visitTimes++;
+            customer.setVisitDate(LocalDate.now());
             if (animalList.isEmpty()) {
                 throw new AnimalNotFountException("不好意思，动物已售空乀(ˉεˉ乀)");
             } else {
@@ -87,54 +89,48 @@ public class MyAnimalShop implements AnimalShop {
                 todayIncome.add(theAnimal);
                 animalList.remove(theAnimal);
                 balance += theAnimal.getPrice();
-                customer.visitTimes++;
                 System.out.println("顾客：" + customer.getCustomerName() + " 已成功购买:" + theAnimal.getPetName());
-
             }
         }
     }
 
 
-     /**
+    /**
      * 歇业方法
      */
     @Override
     public void close() {
-    // 关门
-        LocalDateTime currentDay = LocalDateTime.now();
-        int currentHour = LocalDateTime.MAX.getHour();
-        if (currentHour >= 21 || currentHour < 6) {
-            isOpen = false;
-            System.out.println("本店暂停营业！");
-    // 输出今天客户信息
-            System.out.println("今天关顾的客户：");
-            ArrayList<Customer> s = new ArrayList<>();
-            for (Customer customer : customerList) {
-                if (customer.getVisitDate().isEqual(LocalDate.now())) {
-                    s.add(customer);
-                    System.out.println(s);
-                }
+        // 关门
+        isOpen = false;
+        System.out.println("本店暂停营业！");
+        // 输出今天客户信息
+        System.out.println("今天关顾的客户：");
+        ArrayList<Customer> s = new ArrayList<>();
+        for (Customer customer : customerList) {
+            if (customer.getVisitDate().isEqual(LocalDate.now())) {
+                s.add(customer);
             }
-            if(s.isEmpty()){
-                System.out.println("无");
-            }
-    // 计算利润
-            double profit = 0;
-            double expense = 0;
-            double income = 0;
-            for (BaseAnimal animal : todayExpense) {
-                expense += animal.getPrice();
-            }
-            for (BaseAnimal animal : todayIncome) {
-                income += animal.getPrice();
-            }
-            profit = income - expense;
-            System.out.println("今天的利润：" + profit);
-            todayExpense.clear();
-            todayIncome.clear();
-        } else {
-            System.out.println("还没到时间，不能下班哟ㄟ(▔▽▔)ㄏ");
         }
+        if (s.isEmpty()) {
+            System.out.println("无");
+        } else {
+            System.out.println(s);
+        }
+        // 计算利润
+        double profit = 0;
+        double expense = 0;
+        double income = 0;
+        for (BaseAnimal animal : todayExpense) {
+            expense += animal.getPurchasePrice();
+        }
+        for (BaseAnimal animal : todayIncome) {
+            income += animal.getPrice();
+        }
+        profit = income - expense;
+        System.out.println("今天的利润：" + profit);
+        todayExpense.clear();
+        todayIncome.clear();
     }
-
 }
+
+

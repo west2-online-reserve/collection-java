@@ -8,15 +8,17 @@ abstract public class BaseAnimal {
     protected int age;
     protected char gender;
     protected double price;
+    protected double purchasePrice;
 
     public BaseAnimal() {
     }
 
-    public BaseAnimal(String petName, int age, char gender, double price) {
+    public BaseAnimal(String petName, int age, char gender, double price, double purchasePrice) {
         this.petName = petName;
         this.age = age;
         this.gender = gender;
         this.price = price;
+        this.purchasePrice = purchasePrice;
     }
 
     public String getPetName() {
@@ -51,6 +53,13 @@ abstract public class BaseAnimal {
         this.price = price;
     }
 
+    public double getPurchasePrice() {
+        return purchasePrice;
+    }
+
+    public void setPurchasePrice(double purchasePrice) {
+        this.purchasePrice = purchasePrice;
+    }
 
     /**
      * 输出动物信息

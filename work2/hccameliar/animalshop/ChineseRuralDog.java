@@ -6,12 +6,13 @@ package animalshop;
 public class ChineseRuralDog extends BaseAnimal {
     private boolean isVaccineInjected;
     private static final double price = 100;
+    private static final double purchasePrice = 50;
 
     public ChineseRuralDog() {
     }
 
     public ChineseRuralDog(String petName, int age, char gender, boolean isVaccineInjected) {
-        super(petName, age, gender, price);
+        super(petName, age, gender, price, purchasePrice);
         this.isVaccineInjected = isVaccineInjected;
     }
 

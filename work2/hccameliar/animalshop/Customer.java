@@ -10,9 +10,8 @@ public class Customer {
     int visitTimes;
     private LocalDate visitDate;
 
-    public Customer(String customerName,  LocalDate visitDate) {
+    public Customer(String customerName) {
         this.customerName = customerName;
-        this.visitDate = visitDate;
     }
 
     public String getCustomerName() {

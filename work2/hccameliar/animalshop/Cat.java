@@ -5,12 +5,13 @@ package animalshop;
  */
 public class Cat extends BaseAnimal {
     private static final double price = 200.0;
+    private static final double purchasePrice = 100;
 
     public Cat() {
     }
 
     public Cat(String petName, int age, char gender) {
-        super(petName, age, gender,price);
+        super(petName, age, gender, price, purchasePrice);
     }
 
     @Override

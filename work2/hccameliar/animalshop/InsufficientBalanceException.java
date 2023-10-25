@@ -1,6 +1,6 @@
 package animalshop;
 
-public class InsufficientBalanceException extends RuntimeException{
+public class InsufficientBalanceException extends RuntimeException {
     public InsufficientBalanceException() {
     }
 
