@@ -17,7 +17,7 @@ public class Thread1 extends Thread {
                 Lock.object.notify();
                 try {
                     System.out.println(arr[i] + " ");
-                    if (i == arr.length) {
+                    if (i == arr.length - 1) {
                         Lock.object.notifyAll();
                         return;
                     }
