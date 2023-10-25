@@ -4,7 +4,7 @@ import java.util.PriorityQueue;
 public class Customer {
     private String name;
     private int visitShopTimes;
-    LocalDate latestVisitShopTime;
+    private LocalDate latestVisitShopTime;
 
 
     public Customer(String name, int visitShopTimes) {
