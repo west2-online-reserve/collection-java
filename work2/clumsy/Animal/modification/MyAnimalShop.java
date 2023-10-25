@@ -17,7 +17,7 @@ public class MyAnimalShop implements AnimalShopinterface {
     private double balance;//初始费用
     private ArrayList<Animal> AnimalList=new ArrayList<Animal>();
     private LinkedList<Customer> CustomerList=new LinkedList<Customer>();
-    Boolean isClosed;
+    private Boolean isClosed;
     private LocalDate time;
     private static DateFormat df=DateFormat.getDateTimeInstance();//DateFormat 用来输出标准时间。
     private final double profit=0;

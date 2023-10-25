@@ -22,7 +22,7 @@ public abstract class Animal {
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
         Animal animal = (Animal) obj;
-        return true;
+        return age == animal.age && Objects.equals(name, animal.name);
 
     }
     @Override
