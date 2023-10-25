@@ -4,11 +4,11 @@ import java.util.Objects;
 import java.util.Scanner;
 
 class MyAnimalShop implements AnimalShop{
-    final static double PURCHASE_PRICE_MULTIPLIER = 0.5;
+    private final static double PURCHASE_PRICE_MULTIPLIER = 0.5;  // 利润率
 
-    ArrayList<BaseAnimal> animalsList = new ArrayList<>();
+    private ArrayList<BaseAnimal> animalsList = new ArrayList<>();
 
-    ArrayList<Customer> customersList = new ArrayList<>();
+    private ArrayList<Customer> customersList = new ArrayList<>();
 
     private double balance = 9999;
 
