@@ -7,10 +7,10 @@ import java.util.List;
 
 public class MyAnimalShop implements AnimalShop {
 
-    protected double balance;
-    protected List<Animal> animalList = new ArrayList<>();
-    protected List<Customer> customerList = new ArrayList<>();
-    protected boolean isRest;
+    private double balance;
+    private List<Animal> animalList = new ArrayList<>();
+    private List<Customer> customerList = new ArrayList<>();
+    private boolean isRest;
     private double profit = 0;
 
     public MyAnimalShop(boolean isRest, double balance) {
@@ -51,8 +51,8 @@ public class MyAnimalShop implements AnimalShop {
                 animalList.remove(num);
                 profit += animal instanceof ChineseFieldDog ? 100 : (animal instanceof Cat ? 200 : 300);
                 System.out.println(animal);
-                customer.times++;
-                customer.lastestTimeArrived = LocalDate.now();
+                customer.setTimes(customer.getTimes() + 1);
+                customer.setLastestTimeArrived(LocalDate.now());
             }
         } catch (AnimalNotFoundException e) {
             System.out.println(e);

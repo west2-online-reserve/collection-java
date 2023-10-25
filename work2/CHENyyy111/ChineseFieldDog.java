@@ -2,7 +2,7 @@ package AnimalShop;
 
 public class ChineseFieldDog extends Animal {
 
-    protected boolean isVaccineInjected;
+    private boolean isVaccineInjected;
 
     public ChineseFieldDog(String name, int age, String gender, boolean isVaccineInjected) {
         super(name, age, gender, 100);

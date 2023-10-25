@@ -2,7 +2,7 @@ package AnimalShop;
 
 public class GoldenRetriever extends Animal {
 
-    protected boolean isFat;
+    private boolean isFat;
 
     public GoldenRetriever(String name, int age, String gender, boolean isFat) {
         super(name, age, gender, 300);
