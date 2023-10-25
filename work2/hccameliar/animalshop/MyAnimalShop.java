@@ -62,7 +62,8 @@ public class MyAnimalShop implements AnimalShop {
             System.out.println("不好意思，本店休息中");
         } else {
             customerList.add(customer);
-            customer.visitTimes++;
+            int times1 = customer.getVisitTimes() + 1;
+            customer.setVisitTimes(times1);
             customer.setVisitDate(LocalDate.now());
             if (animalList.isEmpty()) {
                 throw new AnimalNotFountException("不好意思，动物已售空乀(ˉεˉ乀)");
@@ -81,7 +82,8 @@ public class MyAnimalShop implements AnimalShop {
                     }
                     //如果没有该动物直接抛出异常
                     if (theAnimal == null) {
-                        customer.visitTimes++;
+                        int times2 = customer.getVisitTimes() + 1;
+                        customer.setVisitTimes(times2);
                         throw new AnimalNotFountException("没有找到该动物╮(╯Д╰)╭");
                     }
                 }

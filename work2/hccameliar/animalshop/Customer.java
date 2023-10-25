@@ -7,7 +7,7 @@ import java.time.LocalDate;
  */
 public class Customer {
     private String customerName;
-    int visitTimes;
+    private int visitTimes = 0;
     private LocalDate visitDate;
 
     public Customer(String customerName) {
