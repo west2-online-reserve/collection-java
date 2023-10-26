@@ -19,7 +19,8 @@ public class Dog extends Animal {
     }
 
     public Dog(String name, int age, String sex, double price, boolean isVaccineInjected) {
-        super(name, age, sex, 100);
+        //fix_bug: price constantly equals 100
+        super(name, age, sex, price);
         this.isVaccineInjected = isVaccineInjected;
     }
 

@@ -1,0 +1,3353 @@
+[33mcommit e054e5ab32f9b5af5910bb1c91da0e350dbe7769[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Kkkrran <kkkrran@foxmail.com>
+Date:   Sun Oct 22 21:55:16 2023 +0800
+
+    add:complete work2
+
+[33mcommit 7e1c8c608d65ea61ff9a82f14c4215fd8aaeabce[m
+Author: Kkkrran <kkkrran@foxmail.com>
+Date:   Sun Oct 22 21:40:02 2023 +0800
+
+    feat:finish the main function
+
+[33mcommit ff1bb256f1aa0405ec861591ffa565f63c007dca[m
+Merge: 54e28bb 507b5f8
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Tue Oct 17 23:29:50 2023 +0800
+
+    Merge pull request #143 from theory7766/main
+    
+    222200305 - work2
+
+[33mcommit 507b5f8abe3501eca30ba6ede451e0b5b4ff2bd9[m
+Author: theory7766 <2180304252@qq.com>
+Date:   Tue Oct 17 23:18:41 2023 +0800
+
+    add: 已修改b已知bug
+
+[33mcommit 54e28bb75b20b88c3b835c923aa4a32c563e521a[m
+Merge: ed6a9e7 75ed204
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Tue Oct 17 17:58:51 2023 +0800
+
+    Merge pull request #151 from ChinZeRon/main
+    
+    102301438 - work1
+
+[33mcommit 75ed204ffd9f319e665407a2c71b3a21a8ce2640[m
+Author: ChinZeRon <2576883361@qq.com>
+Date:   Sun Oct 15 23:40:51 2023 +0800
+
+    add: complete work1
+
+[33mcommit 75aa7510353828302ede1f15966401fda13245fe[m
+Author: ChinZeRon <2576883361@qq.com>
+Date:   Sun Oct 15 22:03:43 2023 +0800
+
+    add: complete work1
+
+[33mcommit ed6a9e7e64657d196255d6a660df433a8620d915[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Sun Oct 15 15:53:14 2023 +0800
+
+    fix：README.md
+
+[33mcommit 0539295cb48d628d44840c60623479584f2cf026[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Sun Oct 15 15:49:23 2023 +0800
+
+    fix: README.md
+
+[33mcommit e444ec6651094746ef39b6ae6f64790520f2a2f6[m
+Author: ChinZeRon <2576883361@qq.com>
+Date:   Sun Oct 15 14:55:37 2023 +0800
+
+    add: complete work1
+
+[33mcommit 651b71be95b16bc5c89758d600437c77b80767fe[m
+Merge: f3101e7 42fe2ee
+Author: 叶宇滟 <2313810210@qq.com>
+Date:   Sun Oct 15 01:04:16 2023 +0800
+
+    Merge pull request #149 from robertdowney66/main
+    
+    102301429 - work2
+
+[33mcommit 42fe2ee10165c2da22c4d42a4e3c815a28ca3f19[m
+Author: xiaopan <666@qq.com>
+Date:   Sat Oct 14 23:13:15 2023 +0800
+
+    add: complete work2
+
+[33mcommit 84d4b6a5e4aa40cc09869490f26cbd5d7a7259d2[m
+Author: theory7766 <2180304252@qq.com>
+Date:   Wed Oct 11 23:25:28 2023 +0800
+
+    add:添加异常ShopClosed类
+
+[33mcommit f3101e746276d35b0747e00de51d49d53a0c9ecb[m
+Merge: 9937c53 1670060
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Wed Oct 11 00:40:58 2023 +0800
+
+    Merge pull request #145 from Neptrue-Lin/main
+    
+    102301328 - work2
+
+[33mcommit 9937c53719df6235383757a7f30270199655588a[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Mon Oct 9 22:24:24 2023 +0800
+
+    fix: README.md
+
+[33mcommit 16700602f39a15ebe0b69baea2d8f9541a5d4e0d[m
+Author: Neptrue Lin <neptrue_lin@outlook.com>
+Date:   Sun Oct 8 18:12:38 2023 +0800
+
+    add: complete work2
+
+[33mcommit da31c6deecf9767ced9e7ccead6b0706ffa0202c[m
+Merge: b5d847e a49179b
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Sun Oct 8 16:30:22 2023 +0800
+
+    Merge pull request #88 from 2023fzu/main
+    
+    102300323 - work1 and work2
+
+[33mcommit cc3b22c314c6b6e8678c9ef9cf01f75811ac431f[m
+Author: theory7766 <2180304252@qq.com>
+Date:   Sat Oct 7 21:11:01 2023 +0800
+
+    add: complete myAnimalShop
+
+[33mcommit b5d847e537debb22f476a257097757b1e4081770[m
+Merge: ece97f0 09656c4
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Fri Oct 6 11:27:33 2023 +0800
+
+    Merge pull request #126 from kyq123nzb/main
+    
+    102301605 - work1
+
+[33mcommit 09656c4b3c4dcf8072e576fe6dca0edb58a4510f[m
+Author: KYQ <1457281710@qq.com>
+Date:   Fri Oct 6 08:32:54 2023 +0800
+
+    add: complete work1
+
+[33mcommit ece97f0ae5cc2add62c32096ebd8f25dd85c27ca[m
+Merge: 075cd17 7b686aa
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 22:59:19 2023 +0800
+
+    Merge pull request #122 from xm1lpk/main
+    
+    022201107 - work1
+
+[33mcommit 7b686aadc3ebe80e88007cc40b995968befb899a[m
+Author: 翁鹏 <engroc@foxmail.com>
+Date:   Thu Oct 5 22:58:03 2023 +0800
+
+    fix：Example.java
+
+[33mcommit a49179bec3bf7ec81a1f8cc98eb71bbcd1df0d27[m
+Author: 2023fzu <2797077601@qq.com>
+Date:   Thu Oct 5 22:05:21 2023 +0800
+
+    fix:alibaba规范扫描没问题
+
+[33mcommit 413deda1a21181548a404f45923dbd624bcd3b7d[m
+Author: 2023fzu <2797077601@qq.com>
+Date:   Thu Oct 5 21:57:00 2023 +0800
+
+    fix:重新再交一次,没什么变化
+
+[33mcommit 075cd174e661de43ad0a2c5ce4ec927fe812f952[m
+Merge: 3404312 8930d94
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 21:06:56 2023 +0800
+
+    Merge pull request #137 from Eeeeye/main
+    
+    832303309 - work1
+
+[33mcommit 5e2184081443fc163d0b7225c6212043d868fc92[m
+Author: peikailv <peikailv@qq.com>
+Date:   Thu Oct 5 20:55:58 2023 +0800
+
+    add:修改test
+
+[33mcommit 8930d947b84a031a2f13f10eeb7ae0d35ea66d33[m
+Merge: 3950017 7fe1913
+Author: Eeeeye <2154339681@qq.com>
+Date:   Thu Oct 5 20:49:37 2023 +0800
+
+    Merge branch 'main' of https://github.com/Eeeeye/collection-java
+
+[33mcommit deaef5357e2334067192a7fed83cb840e58806af[m
+Author: peikailv <peikailv@qq.com>
+Date:   Thu Oct 5 20:45:12 2023 +0800
+
+    add:complete work1
+
+[33mcommit 3950017cd153e12f5f6c92950504baee0a7a16c3[m
+Author: Eeeeye <2154339681@qq.com>
+Date:   Thu Oct 5 20:39:01 2023 +0800
+
+    add: complete work1
+
+[33mcommit 7813831fdd82887e7ace80794dcc77781229ee6b[m
+Author: peikailv <peikailv@qq.com>
+Date:   Thu Oct 5 20:33:24 2023 +0800
+
+    add:complete work1
+
+[33mcommit 3404312b8895a358b40254e7a1c242212e2cc076[m
+Merge: d6f8add dbbdc19
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 20:13:17 2023 +0800
+
+    Merge pull request #104 from 102301617/main
+    
+    102301617 - work1
+
+[33mcommit dbbdc19ae0e26efb1ed6e12eaa7da4ee1e087a63[m
+Author: 102301617 <143883142+102301617@users.noreply.github.com>
+Date:   Thu Oct 5 20:11:06 2023 +0800
+
+    Update Booth.java
+
+[33mcommit 41447a97c74ecec9bd2230cab819eb660e97d8ec[m
+Author: 2023fzu <2797077601@qq.com>
+Date:   Thu Oct 5 20:01:39 2023 +0800
+
+    fix:work2 4th commit
+
+[33mcommit 7fe1913c0dd504224bc37f10d0ad8df4a59c9ddf[m
+Author: Eeeeye <145125620+Eeeeye@users.noreply.github.com>
+Date:   Thu Oct 5 19:48:51 2023 +0800
+
+    Update work1.java
+
+[33mcommit d192a118adbcc11f694f8747ae3cff4df94f1caa[m
+Merge: 5e42c86 e44f498
+Author: 2023fzu <2797077601@qq.com>
+Date:   Thu Oct 5 19:45:40 2023 +0800
+
+    Merge remote-tracking branch 'origin/main'
+    
+    # Conflicts:
+    #       work2/2023fzu/test/src/MailJudge.java
+    #       work2/2023fzu/test/src/shop/Animal.java
+    #       work2/2023fzu/test/src/shop/AnimalShop.java
+    #       work2/2023fzu/test/src/shop/Cat.java
+    #       work2/2023fzu/test/src/shop/ChineseDog.java
+    #       work2/2023fzu/test/src/shop/Customer.java
+    #       work2/2023fzu/test/src/shop/MyAnimalShop.java
+
+[33mcommit 5e42c86e9dda8db691620e8126e42cfcfc2c7589[m
+Author: 2023fzu <2797077601@qq.com>
+Date:   Thu Oct 5 19:43:19 2023 +0800
+
+    fix:work2 Third commit
+
+[33mcommit 8674f345afca9771f2c616b4673d4b3572f98b89[m
+Author: Eeeeye <145125620+Eeeeye@users.noreply.github.com>
+Date:   Thu Oct 5 19:41:19 2023 +0800
+
+    Update work1.java
+    
+    有点不懂
+
+[33mcommit b550f650db74466ea3e85c8bc8a06c26b53448b6[m
+Author: 2023fzu <2797077601@qq.com>
+Date:   Thu Oct 5 15:08:59 2023 +0800
+
+    fix:work2 second commit,将myAnimalShop里的一些方法提出来,放到了另一个类里,我不知道菜单类是啥.
+
+[33mcommit d6f8add2a86afdd3070c7793677ada0d9ae6829e[m
+Merge: 27e0cdb 13a36d8
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 18:56:58 2023 +0800
+
+    102303128 - work1
+    
+    Fix：更改了规范问题和string返回值问题
+
+[33mcommit 13a36d8d1d053d47d0ea329c7310d9ef980f69f9[m
+Author: dun51 <2953232527@qq.com>
+Date:   Thu Oct 5 18:28:47 2023 +0800
+
+    更改了规范问题和toString的返回问题
+
+[33mcommit 08f25470eb305638bcc895bdde83c09c27a5b1f1[m
+Author: dun51 <2953232527@qq.com>
+Date:   Thu Oct 5 18:24:26 2023 +0800
+
+    更改了规范问题和toString的返回问题
+
+[33mcommit 6d6aedaa1ad16f7b4a73f8a55ea7cda945854384[m
+Author: dun51 <2953232527@qq.com>
+Date:   Thu Oct 5 18:21:46 2023 +0800
+
+    更改了规范问题和toString的返回问题
+
+[33mcommit 27e0cdb9f332e4e2c098a9a430f34f0aad2d6b99[m
+Merge: a5a8858 75c6f0a
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 18:07:12 2023 +0800
+
+    Merge pull request #139 from yolotsuki/main
+    
+    102300403 - work1
+
+[33mcommit 75c6f0a903cadff1febc0a14f9942b51dc606817[m
+Author: yolotsuki <2434136592@qq.com>
+Date:   Thu Oct 5 17:23:51 2023 +0800
+
+    add: complete work1
+
+[33mcommit ed81291f2eb986216532ecc6a849b638f29e4f4f[m
+Author: dun51 <2953232527@qq.com>
+Date:   Thu Oct 5 16:10:48 2023 +0800
+
+    add: complete work1
+
+[33mcommit a5a88581873034c2507b3a3d4da756398fcddf17[m
+Merge: 1eed765 7e1ca49
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 16:10:20 2023 +0800
+
+    Merge pull request #134 from r1112220000/main
+    
+    102300430 - work1
+
+[33mcommit 1eed765131c2175e769b0660f333fc7561029544[m
+Merge: 6a21fa7 eff0f38
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 16:09:34 2023 +0800
+
+    Merge pull request #117 from Kkkrran/main
+    
+    102301243 - work1
+
+[33mcommit 6a21fa7be4504078cc091b8c6c3f2cd24e07230e[m
+Merge: d0954fc baa28b6
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 16:08:31 2023 +0800
+
+    Merge pull request #136 from joureen/main
+    
+    102201504 - work1
+
+[33mcommit d0954fc635aac36ae86a5ff3b701d4fae7402009[m
+Merge: f9b6288 4da0f3c
+Author: 叶宇滟 <2313810210@qq.com>
+Date:   Thu Oct 5 15:19:31 2023 +0800
+
+    Merge pull request #135 from helloworld180/main
+    
+    102201338 - work1
+
+[33mcommit e44f49872ff1b40bb1829e5b1f030117f1705ad3[m
+Author: 2023fzu <2797077601@qq.com>
+Date:   Thu Oct 5 15:08:59 2023 +0800
+
+    fix:work2 second commit,将myAnimalShop里的一些方法提出来,放到了另一个类里,我不知道菜单类是啥.
+
+[33mcommit 4da0f3c9a9a173b312023b121b293aa8ce0f29c1[m
+Author: helloworld180 <1678854362@qq.com>
+Date:   Thu Oct 5 14:46:05 2023 +0800
+
+    repair finish
+
+[33mcommit baa28b68e8825cc5e3aa3e5ee168cfba6df42372[m
+Author: joureen <1092118413@qq.com>
+Date:   Thu Oct 5 14:23:56 2023 +0800
+
+    fix:增加测试
+
+[33mcommit 141f9d2fd2e9aeb82c2093e41db9c25d32c57410[m
+Author: joureen <1092118413@qq.com>
+Date:   Thu Oct 5 14:23:43 2023 +0800
+
+    fix:修改部分代码
+
+[33mcommit 477adb8ab96c461ee9903e9ca2c08b931054e18c[m
+Merge: ae30dee 079c70d
+Author: 2023fzu <2797077601@qq.com>
+Date:   Thu Oct 5 14:18:46 2023 +0800
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit ae30dee558015ece43f93475bb04b0ef13713632[m
+Author: 2023fzu <2797077601@qq.com>
+Date:   Thu Oct 5 14:18:02 2023 +0800
+
+    fix:work2 first commit
+
+[33mcommit fe85f00b78d2aa8a00fd9ea9c5ce7009f3e9a12c[m
+Author: yolotsuki <2434136592@qq.com>
+Date:   Thu Oct 5 14:07:39 2023 +0800
+
+    add: complete work1
+
+[33mcommit 86316676383331906d33149471bce28322bbffdf[m
+Author: joureen <1092118413@qq.com>
+Date:   Thu Oct 5 12:52:29 2023 +0800
+
+    test:增加测试
+
+[33mcommit b191e99be77ef64fac11f95e5721418de4c186b6[m
+Author: joureen <1092118413@qq.com>
+Date:   Thu Oct 5 12:38:07 2023 +0800
+
+    fix:修改closeBooth
+
+[33mcommit 7e1ca49300dd480210791a82c37b44336238f3ab[m
+Author: r1112220000 <251127201@qq.com>
+Date:   Thu Oct 5 12:02:15 2023 +0800
+
+    commit
+
+[33mcommit 52ae5a4d2841784bc14f1bb9e26dd54b65da0dff[m
+Author: helloworld180 <1678854362@qq.com>
+Date:   Thu Oct 5 11:58:14 2023 +0800
+
+    add: complete work1
+
+[33mcommit f9b628829491246fa0147491e8a02305b72976f4[m
+Merge: 2893dd1 73fbb3f
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 11:37:13 2023 +0800
+
+    Merge pull request #138 from Xuxiiii/main
+    
+    102301612 - work1
+
+[33mcommit 73fbb3fa200ff68af69fe1864af94e0051be3817[m
+Author: Xuxiiii <780934910@qq.com>
+Date:   Thu Oct 5 09:56:20 2023 +0800
+
+    add: complete work1
+
+[33mcommit c38d9d744d038813591bef638a74860efc3a7675[m
+Author: yolotsuki <2434136592@qq.com>
+Date:   Thu Oct 5 09:56:12 2023 +0800
+
+    add: complete work1
+
+[33mcommit 37297bc86f0e320fc388fc146c9715b9ee0ae67b[m
+Author: Eeeeye <2154339681@qq.com>
+Date:   Thu Oct 5 02:31:03 2023 +0800
+
+    add: complete work1
+
+[33mcommit 62c63c55828d2e4831399e4e5411c9239ff8377c[m
+Author: helloworld180 <1678854362@qq.com>
+Date:   Thu Oct 5 02:17:10 2023 +0800
+
+    add: complete work1
+
+[33mcommit 2893dd11181a7a74064fd2fc71beaa30e3579079[m
+Merge: 71a965d 9933e87
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 02:17:06 2023 +0800
+
+    Merge pull request #130 from Kleaine/main
+    
+    072308105 - work1
+
+[33mcommit a4dc0a17685150e052fc0a2b84319567d2b096b4[m
+Author: joureen <1092118413@qq.com>
+Date:   Thu Oct 5 02:16:41 2023 +0800
+
+    add: complete work1
+
+[33mcommit 9933e870626bcd71904847c3f2dc5a2c9ff76583[m
+Author: Kleaine <144551389+Kleaine@users.noreply.github.com>
+Date:   Thu Oct 5 02:15:56 2023 +0800
+
+    Update Booth.java
+
+[33mcommit 71a965d638e51f36cf9f3b687b28a201eba0acdf[m
+Merge: 494ccdc 13d7262
+Author: Poldroc <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 02:08:44 2023 +0800
+
+    fix: error merge
+
+[33mcommit 494ccdc9503663c3f94d33b4cc3b6a6f28d1d3c6[m
+Merge: 478efe8 b100032
+Author: Poldroc <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 02:04:37 2023 +0800
+
+    Merge remote-tracking branch 'origin/main'
+    
+    # Conflicts:
+    #       .idea/workspace.xml
+
+[33mcommit 478efe8c7a527e749950a3d3873f046ea47d8732[m
+Author: Poldroc <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 02:04:12 2023 +0800
+
+    fix: error merge
+
+[33mcommit f430fff8f2ceb77c0bd679a8719acf9abdfa0d0b[m
+Author: Poldroc <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 02:02:36 2023 +0800
+
+    fix: error merge
+
+[33mcommit 98b3969fe91e0b0bc739e094f6b1b220874a2ef9[m
+Author: helloworld180 <1678854362@qq.com>
+Date:   Thu Oct 5 01:52:57 2023 +0800
+
+    add: complete work1
+
+[33mcommit 4efda8f2d7a63ea125e0dd46748a0b0bcf824457[m
+Author: r1112220000 <251127201@qq.com>
+Date:   Thu Oct 5 01:51:55 2023 +0800
+
+    commit
+
+[33mcommit 13d7262c91c2898c17ad7c6da0176c0fc605023d[m
+Author: 叶宇滟 <2313810210@qq.com>
+Date:   Thu Oct 5 01:44:03 2023 +0800
+
+    Revert "102301612 - work1"
+
+[33mcommit b100032abc666295c673b3b4d821a00a21c063d1[m
+Merge: 628e742 09265c9
+Author: 叶宇滟 <2313810210@qq.com>
+Date:   Thu Oct 5 01:43:41 2023 +0800
+
+    Merge pull request #131 from Xuxiiii/main
+    
+    102301612 - work1
+
+[33mcommit 09265c9fc6243edc821aa966128186feb103e017[m
+Author: Xuxiiii <780934910@qq.com>
+Date:   Thu Oct 5 01:41:56 2023 +0800
+
+    add: complete work1
+
+[33mcommit 628e742bf2ddb64d1b2697a55c7abfa6ad51af29[m
+Merge: a691fd5 c9e3a39
+Author: 叶宇滟 <2313810210@qq.com>
+Date:   Thu Oct 5 01:40:22 2023 +0800
+
+    Merge pull request #105 from greensaltt/main
+    
+    102301302 - work1
+
+[33mcommit c9e3a39c2eba4a29946b355470ae37bc174c6609[m
+Author: greensaltt <143678524+greensaltt@users.noreply.github.com>
+Date:   Thu Oct 5 01:39:06 2023 +0800
+
+    测试类修改2.0
+
+[33mcommit abf9ec6117dd9f52b073a2ae9ba9a3b1d6b4ddd3[m
+Author: Kleaine <144551389+Kleaine@users.noreply.github.com>
+Date:   Thu Oct 5 01:35:48 2023 +0800
+
+    Update BoothTest.java
+
+[33mcommit a00519feb5c86f20f59b2214c85f98e09e92f445[m
+Author: Kleaine <144551389+Kleaine@users.noreply.github.com>
+Date:   Thu Oct 5 01:34:26 2023 +0800
+
+    Update BoothTest.java
+
+[33mcommit 956430c56a8687e3c0e53fc7794db43a45a86aba[m
+Author: Xuxiiii <780934910@qq.com>
+Date:   Thu Oct 5 01:34:02 2023 +0800
+
+    add：complete work1
+
+[33mcommit 6676fdb4d1171047d93b66fdaea1c85f82cc5fcf[m
+Author: Kleaine <144551389+Kleaine@users.noreply.github.com>
+Date:   Thu Oct 5 01:29:15 2023 +0800
+
+    Update BoothTest.java
+
+[33mcommit e1bba46bcf212e38219c1740b59585507265df99[m
+Author: Xuxiiii <780934910@qq.com>
+Date:   Thu Oct 5 01:27:06 2023 +0800
+
+    add: complete work1
+
+[33mcommit 9102c66e61828d299aaa738969afdf618c002c4c[m
+Author: greensaltt <143678524+greensaltt@users.noreply.github.com>
+Date:   Thu Oct 5 01:24:49 2023 +0800
+
+    <fix>:<补充测试类>
+
+[33mcommit e446329ad0b9f988f822f384ce89974b94db29dc[m
+Author: greensaltt <143678524+greensaltt@users.noreply.github.com>
+Date:   Thu Oct 5 01:17:41 2023 +0800
+
+    <fix>:<根据comments修改2.0>
+
+[33mcommit a691fd55f6cd3b5ae3e1aa9aa26ac3d536568c7e[m
+Merge: 3507f99 e6bf572
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 01:06:37 2023 +0800
+
+    Merge pull request #115 from TinAdFlamma/main
+    
+    102300416 - work1
+
+[33mcommit fa7c8d373dc7679c8487b0f9e1dc38f5d1e34519[m
+Author: Kleaine <144551389+Kleaine@users.noreply.github.com>
+Date:   Thu Oct 5 01:05:57 2023 +0800
+
+    Update Booth.java
+
+[33mcommit 3507f99dc9737de5cfdddd4aa47083ede1ce78bd[m
+Merge: 1ee139a 74437f9
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 01:05:49 2023 +0800
+
+    Merge pull request #116 from flying-pig-z/main
+    
+    102201604 - work1
+
+[33mcommit 1ee139a3f3014435fc9ef9e690893ec0ca872309[m
+Merge: f11dbd2 78d73b6
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 01:04:57 2023 +0800
+
+    Merge pull request #114 from hccameliar/main
+    
+    102301412 - work1
+
+[33mcommit f11dbd2baaa2eec4c40edb8b92444753a170e783[m
+Merge: 9724ebb 9b80147
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 01:04:12 2023 +0800
+
+    Merge pull request #113 from AllieMajor/main
+    
+    102301611 - work1
+
+[33mcommit 9724ebbf937a01a8b481d66d6a918b3f0bbb3c4e[m
+Merge: dcd1480 4db98b2
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 01:02:48 2023 +0800
+
+    Merge pull request #120 from MOYU111/main
+    
+    112201332 - work1
+
+[33mcommit dcd14807b9c89a630e629196157515f9c575e4ec[m
+Merge: e313f17 63f4ebd
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 01:01:50 2023 +0800
+
+    Merge pull request #110 from Catovokaty/main
+    
+    832303212 - work1
+
+[33mcommit e313f17e7a18455486a81da26249036a23220a4e[m
+Merge: baf8171 357ccf6
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 00:59:17 2023 +0800
+
+    Merge pull request #99 from Tardylight/main
+    
+    102300411 - work1
+
+[33mcommit baf8171b2454297a9207f6e7378ee211b13a29e5[m
+Merge: 85bbbc5 429b6c1
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 00:58:31 2023 +0800
+
+    Merge pull request #95 from iridescenline/main
+    
+    102301606 - work1
+
+[33mcommit 85bbbc58593060b6601bdc4bfa0720aa61d8b8b7[m
+Merge: 28b16ea f8b5401
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 00:57:14 2023 +0800
+
+    Merge pull request #112 from akakwkwk/main
+    
+    102301531 - work1
+
+[33mcommit 28b16eae5f936d5a8376152cbb69b77813fda430[m
+Merge: 83f436d ede0c38
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 00:56:31 2023 +0800
+
+    Merge pull request #129 from asdskl/main
+    
+    102300413 - work1
+
+[33mcommit 83f436d4173e17cac574cec3133b7711824e508b[m
+Merge: 0fef49e d988af1
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 00:53:51 2023 +0800
+
+    Merge pull request #89 from lannnnnnl/main
+    
+    832202206 - work1
+
+[33mcommit 63f4ebd046264d0e7afba9e495bd2b785656176e[m
+Author: Catovokaty <144346366+Catovokaty@users.noreply.github.com>
+Date:   Thu Oct 5 00:51:51 2023 +0800
+
+    Update Booth.java
+    
+    加了负数啦
+
+[33mcommit 0fef49e82fe1832dc0125c740ea41bf5e8c63f33[m
+Merge: a1973f7 3265676
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 00:49:09 2023 +0800
+
+    Merge pull request #123 from lenovoto/main
+    
+    102301303 - work1
+
+[33mcommit f8b540113abf9b7fdee707c8e52fe4bf243c6d05[m
+Author: akakwkwk <143927051+akakwkwk@users.noreply.github.com>
+Date:   Thu Oct 5 00:48:16 2023 +0800
+
+    Update Booth.java
+
+[33mcommit 3265676e8744781b30c95e8c0b71971c2dcf283a[m
+Author: lenovoto <141740696+lenovoto@users.noreply.github.com>
+Date:   Thu Oct 5 00:46:58 2023 +0800
+
+    Update Booth.java
+
+[33mcommit 78d73b61d4863922ada8704cc961fea0ac842d7c[m
+Author: zhanghc <2090229334@qq.com>
+Date:   Thu Oct 5 00:46:51 2023 +0800
+
+    style：调整代码格式，调整括号位置
+
+[33mcommit 4db98b2de5474bb490236688fa9cac3a603042ee[m
+Author: MOYU111 <2867253689@qq.com>
+Date:   Thu Oct 5 00:46:32 2023 +0800
+
+    add:complete work1
+
+[33mcommit 9b80147bee66c3b56b520d5ba569d6d2b3a27c1e[m
+Author: Allie <1352787923@qq.com>
+Date:   Thu Oct 5 00:43:43 2023 +0800
+
+    add: complete work1
+
+[33mcommit 2fa74e63604dc5ad8bb74ba45ea694de8d25dc74[m
+Author: Jay <3359610688@qq.com>
+Date:   Thu Oct 5 00:43:27 2023 +0800
+
+    add: complete work1
+
+[33mcommit f203992c92ddd43ab51096afe7edc26d20ffbca3[m
+Author: Allie <1352787923@qq.com>
+Date:   Thu Oct 5 00:39:50 2023 +0800
+
+    add: complete work1
+
+[33mcommit a1973f74333187638c85ef1204afe5ce1f9c83c4[m
+Merge: d249167 b6e50a2
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 00:37:01 2023 +0800
+
+    Merge pull request #96 from lumosdong/main
+    
+    102301211 - work1
+
+[33mcommit bf3e86ec31633cad940e34224dcdc48b7e50ce0b[m
+Author: akakwkwk <143927051+akakwkwk@users.noreply.github.com>
+Date:   Thu Oct 5 00:36:00 2023 +0800
+
+    Update Booth.java
+
+[33mcommit 76f5c715105c4b8a54188680a0f6e64b5d075629[m
+Author: zhanghc <2090229334@qq.com>
+Date:   Thu Oct 5 00:35:36 2023 +0800
+
+    test:测试类中添加了负数情况
+
+[33mcommit 24fb98eb926ecfdf6979a4cb603015c8d2c124d9[m
+Author: MOYU111 <2867253689@qq.com>
+Date:   Thu Oct 5 00:34:53 2023 +0800
+
+    add:compelete work1
+
+[33mcommit d249167dca8d2f1a0431f919df3c89055c916204[m
+Merge: 5003fb9 6e1d135
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 00:31:43 2023 +0800
+
+    Merge pull request #118 from poppoppuppylove/main
+    
+    102201403 - work1
+
+[33mcommit 147a6b86ad11349ad8001472bd1d9d3cca53958f[m
+Author: akakwkwk <143927051+akakwkwk@users.noreply.github.com>
+Date:   Thu Oct 5 00:31:10 2023 +0800
+
+    Delete s directory
+    
+    删除了多pr的文件
+
+[33mcommit 5003fb9b4ecf31939d72daeaf79caf264429c4d1[m
+Merge: 48a1bb9 70dace2
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 00:30:26 2023 +0800
+
+    Merge pull request #121 from Victor-Bayim/main
+    
+    102202109  -  work1
+
+[33mcommit 48a1bb93ddb30763552c7506de61f749035d3a58[m
+Merge: 85ab1e9 055aa5f
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 00:28:42 2023 +0800
+
+    Merge pull request #125 from jason886886/main
+    
+    102301409 - work1
+
+[33mcommit e6bf57291281ecb89de3b426759a24545cb733da[m
+Author: TinAdFlamma <923884815@qq.com>
+Date:   Thu Oct 5 00:28:00 2023 +0800
+
+    add: work1 again
+
+[33mcommit 27b81d8fc37b6aff8089b5e231955e1b4755bf66[m
+Author: MOYU111 <2867253689@qq.com>
+Date:   Thu Oct 5 00:23:51 2023 +0800
+
+    add:complete worl1
+
+[33mcommit 8224c83c1a18f9d5c426cb837d1761d4e2648cf2[m
+Author: Allie <1352787923@qq.com>
+Date:   Thu Oct 5 00:23:03 2023 +0800
+
+    add: complete work1
+
+[33mcommit d988af1f0539112c099202900ab7257affc5c818[m
+Author: lannnnnnl <145467045+lannnnnnl@users.noreply.github.com>
+Date:   Thu Oct 5 00:20:16 2023 +0800
+
+    Update Booth.java
+
+[33mcommit 85ab1e9bea85814b925d7deb0aeaa1dc14877080[m
+Merge: e536691 0981b45
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Oct 5 00:09:23 2023 +0800
+
+    Merge pull request #124 from Vereimiou/main
+    
+    222200000 - work1
+
+[33mcommit 5c1313a6546c9e0747afc13e3ac240baa4191146[m
+Author: Catovokaty <144346366+Catovokaty@users.noreply.github.com>
+Date:   Thu Oct 5 00:09:09 2023 +0800
+
+    Update Booth.java
+
+[33mcommit 0981b45109492485f74cedbef654c06b10d316d7[m
+Author: Lin <2898698868@qq.com>
+Date:   Thu Oct 5 00:06:42 2023 +0800
+
+    style: improved the format
+
+[33mcommit 2505c29d32348b79d0fc64e76d5a90ffabde77b5[m
+Author: MOYU111 <2867253689@qq.com>
+Date:   Thu Oct 5 00:05:58 2023 +0800
+
+    add:complete work1
+
+[33mcommit a961364372bbf7b4cabe680a0cc9b8a0ef01a49c[m
+Author: Catovokaty <144346366+Catovokaty@users.noreply.github.com>
+Date:   Thu Oct 5 00:04:43 2023 +0800
+
+    Update Booth.java
+
+[33mcommit a175779aeeb21a7cf62c7cb1406a82e5aa6c98d5[m
+Author: lannnnnnl <145467045+lannnnnnl@users.noreply.github.com>
+Date:   Thu Oct 5 00:00:28 2023 +0800
+
+    Update Booth.java
+
+[33mcommit ede0c388c01be2a15e358ab756d1b42b766e20e2[m
+Author: asdskl <1510691363@qq.com>
+Date:   Wed Oct 4 23:57:50 2023 +0800
+
+    style:将Booth.java中进货方法里的if语句格式修改完善逻辑
+
+[33mcommit 6e1d135073343b193017787ad13b3f74b0d81b3f[m
+Author: poppoppuppylove <431792974@qq.com>
+Date:   Wed Oct 4 23:57:20 2023 +0800
+
+    add: complete work1
+
+[33mcommit 055aa5f34af8a030df57ef897e3d94decc3b8d9e[m
+Author: jason886886 <3598543320@qq.com>
+Date:   Wed Oct 4 23:54:46 2023 +0800
+
+    add: repair work1
+
+[33mcommit 70dace27d7533eb57f9bbb8afd40c84aa793d60f[m
+Author: Victor-Bayim <2506976721@qq.com>
+Date:   Wed Oct 4 23:50:05 2023 +0800
+
+    add: complete
+
+[33mcommit 268ed72d7e809a3c96576bee618516565a5c67ec[m
+Author: lenovoto <141740696+lenovoto@users.noreply.github.com>
+Date:   Wed Oct 4 23:45:01 2023 +0800
+
+    Booth.java
+
+[33mcommit e5366913ce92776e94289b2c06a5ebff1f904897[m
+Merge: 6d288fb 4ae26e4
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Wed Oct 4 23:42:30 2023 +0800
+
+    Merge pull request #109 from istupidhaha/main
+    
+    102301610 - work1
+
+[33mcommit 429b6c16cada9cdda9aee735efdb2de50872207a[m
+Author: iridescenline <140947078+iridescenline@users.noreply.github.com>
+Date:   Wed Oct 4 23:40:36 2023 +0800
+
+    Update booth.java
+
+[33mcommit 6bb5eaecff3c1eed3fc50aa77c5f5338f9427e1d[m
+Author: greensaltt <143678524+greensaltt@users.noreply.github.com>
+Date:   Wed Oct 4 23:39:47 2023 +0800
+
+    <fix>:<西瓜摊根据comments修改后>
+
+[33mcommit 4ae26e408329a1a127419b00b7979b3b00646e02[m
+Author: istupidhaha <2127735436@qq.com>
+Date:   Wed Oct 4 23:35:25 2023 +0800
+
+    add: revision finished work1
+
+[33mcommit 53fb156c3a082c53629064a08faf60166bdf91d0[m
+Author: asdskl <1510691363@qq.com>
+Date:   Wed Oct 4 23:35:21 2023 +0800
+
+    style:将Booth.java中进货方法里的if语句格式修改完善逻辑
+
+[33mcommit 4485489de63c84d9364862e39ea4ac41bdaca87a[m
+Author: jason886886 <3598543320@qq.com>
+Date:   Wed Oct 4 23:34:51 2023 +0800
+
+    add:complete work1
+
+[33mcommit 6d288fb2feda73c49065a01f3ac69b852311f71e[m
+Merge: 1ac40a3 6c94b8c
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Wed Oct 4 23:31:23 2023 +0800
+
+    Merge pull request #82 from pany0593/main
+    
+    062100249 - work1
+
+[33mcommit 1ac40a39e9ec4ec3ab2696e0b130e58309eb3f75[m
+Merge: 8e52d4b 29ffac7
+Author: 叶宇滟 <2313810210@qq.com>
+Date:   Wed Oct 4 23:30:39 2023 +0800
+
+    Merge pull request #93 from formrc/main
+    
+    112200627 - work1
+
+[33mcommit 74437f9ee3831ef6d666b5ca06c8d60bc87d8b99[m
+Author: flying_pig <1839976096@qq.com>
+Date:   Wed Oct 4 23:28:21 2023 +0800
+
+    add: complete work1
+
+[33mcommit 2dd6155455d582a37266ff2281f848895064e2f0[m
+Author: Lin <2898698868@qq.com>
+Date:   Wed Oct 4 23:26:18 2023 +0800
+
+    add: complete work1
+
+[33mcommit 8e52d4b229d0fef8883990e84cae2a93bfb20abd[m
+Merge: 477fb29 f637051
+Author: 叶宇滟 <2313810210@qq.com>
+Date:   Wed Oct 4 23:23:11 2023 +0800
+
+    Merge pull request #106 from 102303127/main
+    
+    102303127 - work1
+
+[33mcommit 477fb2987bfbbe220bf893feec3ca18078ac0057[m
+Merge: 950f95b 2ba71a4
+Author: 叶宇滟 <2313810210@qq.com>
+Date:   Wed Oct 4 23:22:31 2023 +0800
+
+    Merge pull request #108 from chbb/main
+    
+    102301529 - work1
+
+[33mcommit 4d7a1b611346dc5aed54f4b6e2838b50e0778f5b[m
+Author: KYQ <1457281710@qq.com>
+Date:   Wed Oct 4 23:19:03 2023 +0800
+
+    add: complete work1
+
+[33mcommit 950f95b557a979efa1aa0bfda53c1b819da30ebc[m
+Merge: 026fc56 13de69e
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Wed Oct 4 23:14:28 2023 +0800
+
+    Merge pull request #100 from Starmia/main
+    
+    102301107 - work1
+
+[33mcommit 026fc5654d510d7b2a343f1c3d1867b89940c135[m
+Merge: c9efcb0 368802a
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Wed Oct 4 23:11:47 2023 +0800
+
+    Merge pull request #92 from ZMone-zero/main
+    
+    102301530 - work1
+
+[33mcommit c2aa4cfd67c6dd89ea297e0f53a193f0504f7134[m
+Author: Lin <2898698868@qq.com>
+Date:   Wed Oct 4 23:10:42 2023 +0800
+
+    add: complete work1
+
+[33mcommit eff0f386afb77860084791ed3a73729e8bbe8197[m
+Author: 翁鹏 <engroc@foxmail.com>
+Date:   Wed Oct 4 23:04:28 2023 +0800
+
+    Delete work2/work2.iml
+
+[33mcommit 3f7ca59ac543cacbb7b0882478b57d745276ed66[m
+Author: 翁鹏 <engroc@foxmail.com>
+Date:   Wed Oct 4 23:04:09 2023 +0800
+
+    Delete work1/work1.iml
+
+[33mcommit c198b9c6ad44770796368eaea18cf19abeb51661[m
+Author: 翁鹏 <engroc@foxmail.com>
+Date:   Wed Oct 4 23:03:51 2023 +0800
+
+    fix: delete collection-java.iml
+
+[33mcommit 9983206962f42e75279b3a54e22149e83de58576[m
+Author: yinhuan <2953518024@qq.com>
+Date:   Wed Oct 4 22:35:42 2023 +0800
+
+    add: complete work1
+
+[33mcommit 6874e1b33a2acbaefe827500062d13d66f32826e[m
+Author: peikailv <peikailv@qq.com>
+Date:   Wed Oct 4 22:23:31 2023 +0800
+
+    add:complete work1
+
+[33mcommit 93605c1a40e1bb1bb382bd475c64c764326baf93[m
+Author: Victor-Bayim <2506976721@qq.com>
+Date:   Wed Oct 4 22:21:06 2023 +0800
+
+    add: complete work1
+
+[33mcommit 00ad505cd4f9b9369e34bf04b5be5eb95ed2108d[m
+Author: asdskl <1510691363@qq.com>
+Date:   Wed Oct 4 22:12:48 2023 +0800
+
+    Delete unused Link declaration
+
+[33mcommit 1804b9ca57853ad17bab429cf3a05724ffeb8d9a[m
+Author: greensaltt <143678524+greensaltt@users.noreply.github.com>
+Date:   Wed Oct 4 22:05:45 2023 +0800
+
+    <fix>.<西瓜摊类第二次修改>
+
+[33mcommit 62f353523896a3b2231d57a330192f6c3443a488[m
+Author: peikailv <peikailv@qq.com>
+Date:   Wed Oct 4 21:57:31 2023 +0800
+
+    add work
+
+[33mcommit d7991ed7f019699b7a74072105aba08437c7fa2c[m
+Author: MOYU111 <2867253689@qq.com>
+Date:   Wed Oct 4 21:56:19 2023 +0800
+
+    add:complete work2
+
+[33mcommit bb28ecf58e2035a8bd8cbf828d0327689e0f1232[m
+Author: poppoppuppylove <431792974@qq.com>
+Date:   Wed Oct 4 21:30:05 2023 +0800
+
+    add: complete work1
+
+[33mcommit bf9c1d3ddebc3dde49b56aa9167f19a377cf7b1d[m
+Author: greensaltt <143678524+greensaltt@users.noreply.github.com>
+Date:   Wed Oct 4 20:46:11 2023 +0800
+
+    <fix>:<西瓜摊修改>
+
+[33mcommit c47b1bdeddbe03af4a85d50639827311b75a2c68[m
+Author: Kkkrran <kkkrran@foxmail.com>
+Date:   Wed Oct 4 20:25:45 2023 +0800
+
+    add: complete work1
+
+[33mcommit 535aa1b8039d9dc052ecf33bbf8276bd64b2fdd9[m
+Author: lannnnnnl <145467045+lannnnnnl@users.noreply.github.com>
+Date:   Wed Oct 4 20:25:11 2023 +0800
+
+    Update Test.java
+
+[33mcommit 906211257f1178497628621843b972b07f9f1e73[m
+Author: lannnnnnl <145467045+lannnnnnl@users.noreply.github.com>
+Date:   Wed Oct 4 20:22:36 2023 +0800
+
+    Update Booth.java
+
+[33mcommit b68da3501f22ca43962f9fc0ccb1dcd2282b2cb5[m
+Author: peikailv <peikailv@qq.com>
+Date:   Wed Oct 4 20:22:02 2023 +0800
+
+    022201107吕培恺
+
+[33mcommit 7d289ceb2c0656a7085ae9586a8cb4048d8d5f09[m
+Author: flying_pig <1839976096@qq.com>
+Date:   Wed Oct 4 20:21:05 2023 +0800
+
+    add: complete work1
+
+[33mcommit 565b3297dce80a3b4389013a1f1cd7d96bcfd59f[m
+Author: TinAdFlamma <923884815@qq.com>
+Date:   Wed Oct 4 19:59:19 2023 +0800
+
+    add: complete work1
+
+[33mcommit 4a784256a78b396f956c8a63c68811eb832dc049[m
+Author: zhanghc <2090229334@qq.com>
+Date:   Wed Oct 4 19:32:34 2023 +0800
+
+    add: complete work1
+
+[33mcommit b6e50a2a5587edb7f2d88329caffd21cd03de9b6[m
+Author: lumosdong <145633689+lumosdong@users.noreply.github.com>
+Date:   Wed Oct 4 19:27:31 2023 +0800
+
+    Update WatermelonBooth.java
+    
+    修改成一行一句代码的格式
+
+[33mcommit 12ea7ff98899f6618676379aaf8dc7c547400066[m
+Author: Allie <1352787923@qq.com>
+Date:   Wed Oct 4 19:26:22 2023 +0800
+
+    add: complete work1
+
+[33mcommit e12a40a8f8b27e8eaed3e09124f809418a294889[m
+Author: lumosdong <145633689+lumosdong@users.noreply.github.com>
+Date:   Wed Oct 4 19:25:22 2023 +0800
+
+    Update shoptest.java
+    
+    增添了测试类
+
+[33mcommit 5f2424ad232c30a17c0d043e6bf931137016a14c[m
+Author: akakwkwk <1729867624@qq.com>
+Date:   Wed Oct 4 19:20:40 2023 +0800
+
+    add: complete work1
+
+[33mcommit 357ccf6a96c7f678f5c0378fea3aa06c49938dd4[m
+Author: Tardylight <143914280+Tardylight@users.noreply.github.com>
+Date:   Wed Oct 4 19:07:48 2023 +0800
+
+    Update Wangqiangstore.java
+    
+    负数情况
+
+[33mcommit 368802a969f09ada8aa1e6dd32102d98ceb66407[m
+Author: ZMone-zero <1453629319@qq.com>
+Date:   Wed Oct 4 18:24:52 2023 +0800
+
+    remove something useless
+
+[33mcommit 29ffac779ba8ed0f83222eeb1dab49baf098b1a1[m
+Author: formrc <3051088856@qq.com>
+Date:   Wed Oct 4 18:16:10 2023 +0800
+
+    test: 补充了测试类
+
+[33mcommit 2ba71a44ad4acc1d18ac32094bc35e40c27eee99[m
+Author: chbb <2837548542@qq.com>
+Date:   Wed Oct 4 17:40:52 2023 +0800
+
+    102301529 work1
+
+[33mcommit 21e5fe1614f3e57316a56a5df5014d8e4d02285a[m
+Author: Tardylight <143914280+Tardylight@users.noreply.github.com>
+Date:   Wed Oct 4 17:39:02 2023 +0800
+
+    Update Wangqiangstore.java
+    
+    变化total
+
+[33mcommit 13de69e06b4a4d0bf1205f48fe564757fcf71e43[m
+Author: Starmia <2896080704@qq.com>
+Date:   Wed Oct 4 17:32:39 2023 +0800
+
+    102301107 - work1
+
+[33mcommit 78d204eccb77cdd07720834e46fc1fdc4ce1280a[m
+Author: Catovokaty <208617093@qq.com>
+Date:   Wed Oct 4 17:32:22 2023 +0800
+
+    add: complete work1
+
+[33mcommit 3838796685113e517bfb179436c6a29c8c6d76a1[m
+Author: istupidhaha <2127735436@qq.com>
+Date:   Wed Oct 4 17:29:56 2023 +0800
+
+    add: complete work1 Student number:102301610
+
+[33mcommit c9efcb085a8e6ac4a295eab2b5ebb9af7b9d7c18[m
+Merge: 13664d0 5f7e0bf
+Author: 叶宇滟 <2313810210@qq.com>
+Date:   Wed Oct 4 17:23:29 2023 +0800
+
+    Merge pull request #101 from asdskl/main
+    
+    102300413 - work1
+
+[33mcommit 13664d08a3c8d23a8d33670ad97a10120006d9b2[m
+Merge: c078907 944bb34
+Author: 叶宇滟 <2313810210@qq.com>
+Date:   Wed Oct 4 17:13:45 2023 +0800
+
+    Merge pull request #107 from FJpsss/main
+    
+    222200133 - work1
+
+[33mcommit c078907f4cbf552fb5626c4f31af4b0a7ca06d90[m
+Merge: cbf6bf4 123e35c
+Author: 叶宇滟 <2313810210@qq.com>
+Date:   Wed Oct 4 17:12:16 2023 +0800
+
+    Merge pull request #103 from Mia-012/main
+    
+    102201601 - work1
+
+[33mcommit a80db7dacacef3a1b5279e5e498bebc9166e5160[m
+Author: chbb <2837548542@qq.com>
+Date:   Wed Oct 4 17:09:36 2023 +0800
+
+    add:102301529 work1
+
+[33mcommit 944bb34a9ef52df596c7b6ede30fde22b5f1b098[m
+Author: unknown <2389812816@qq.com>
+Date:   Wed Oct 4 16:51:47 2023 +0800
+
+    add: complete work1
+
+[33mcommit 6d16462c253b745587002abe6239e1b3ea74c33f[m
+Author: iridescenline <140947078+iridescenline@users.noreply.github.com>
+Date:   Wed Oct 4 16:49:13 2023 +0800
+
+    Update boothTest.java
+
+[33mcommit 7df10d65dd40d5b5375a241983e2bf1045e861c2[m
+Author: iridescenline <140947078+iridescenline@users.noreply.github.com>
+Date:   Wed Oct 4 16:48:32 2023 +0800
+
+    Update boothTest.java
+
+[33mcommit f637051f5f6daa45c2801e50b3d32ad5a442c24b[m
+Author: 张宇 <3144550951@qq.com>
+Date:   Wed Oct 4 16:41:45 2023 +0800
+
+    add: complete work1
+
+[33mcommit 3ccca13fb6ca7d0c4540deaa7c453f35bddf2f29[m
+Author: iridescenline <140947078+iridescenline@users.noreply.github.com>
+Date:   Wed Oct 4 16:33:47 2023 +0800
+
+    Update booth.java
+
+[33mcommit 0d5363aaed9e80d46b7806ab2d112df5e683b4d9[m
+Author: greensaltt <499467652@qq.com>
+Date:   Wed Oct 4 16:33:05 2023 +0800
+
+    add: complete work1
+
+[33mcommit 123e35cb0c4ae82c81d157f5077c01eaddaa6092[m
+Author: Mia-012 <141140015+Mia-012@users.noreply.github.com>
+Date:   Wed Oct 4 16:29:10 2023 +0800
+
+    test：增加
+
+[33mcommit 789367e9cac506084ec49259644a1cc412a8a5db[m
+Author: iridescenline <140947078+iridescenline@users.noreply.github.com>
+Date:   Wed Oct 4 16:27:26 2023 +0800
+
+    Update booth.java
+
+[33mcommit ea8b8f70ea8f3462aa647c0756b7677e2bb4bb68[m
+Author: 张宇 <3144550951@qq.com>
+Date:   Wed Oct 4 16:27:08 2023 +0800
+
+    add: complete work1
+
+[33mcommit 812cbbf7448c8226d0a9d613ddf3a6cc7326cd72[m
+Author: Mia-012 <141140015+Mia-012@users.noreply.github.com>
+Date:   Wed Oct 4 16:26:45 2023 +0800
+
+    fix：tostring输出
+
+[33mcommit ad65e47aa7a72b4c127ff740972197e1188d03b6[m
+Author: Mia-012 <141140015+Mia-012@users.noreply.github.com>
+Date:   Wed Oct 4 16:21:47 2023 +0800
+
+    fix：进货为负数
+
+[33mcommit ecfcf7063f5e2b9f5b00d9bdd7ba253fc9177de8[m
+Author: lannnnnnl <145467045+lannnnnnl@users.noreply.github.com>
+Date:   Wed Oct 4 16:20:07 2023 +0800
+
+    Update Booth.java
+
+[33mcommit 9369f91dac91e89861cf822208ff642763b71417[m
+Author: Tardylight <143914280+Tardylight@users.noreply.github.com>
+Date:   Wed Oct 4 16:19:10 2023 +0800
+
+    Update Wangqiangstore.java
+    
+    变化total值
+
+[33mcommit 079c70d26b1faeeb23c8b0756c85cdc9db6272da[m
+Author: 翁鹏 <engroc@foxmail.com>
+Date:   Wed Oct 4 16:19:05 2023 +0800
+
+    fix: delete work2/2023fzu/test/.gitignore
+
+[33mcommit 45cee33f130695fbbed833a824241a7c4eaa1173[m
+Author: Tardylight <143914280+Tardylight@users.noreply.github.com>
+Date:   Wed Oct 4 16:14:20 2023 +0800
+
+    Update Test.java
+
+[33mcommit cbf6bf4e03561a28c638f30e88a658006a6db869[m
+Merge: 8374d32 f48a367
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Wed Oct 4 16:07:27 2023 +0800
+
+    Merge pull request #77 from hjlsnd/main
+    
+    832204211 - work1
+
+[33mcommit 8374d323f795f75eb48fc6b0ae6434e8e1f7ef9f[m
+Merge: 8d8e26f 478ed3e
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Wed Oct 4 16:04:33 2023 +0800
+
+    Merge pull request #81 from fdkfhs/main
+    
+    102301635 - work1
+
+[33mcommit 9a73b84bd225cf660846eadfc91203ad571fd85d[m
+Author: ikun <2228415519@qq.com>
+Date:   Wed Oct 4 15:43:28 2023 +0800
+
+    add: complete work1
+
+[33mcommit 3fa0b7372677d037e6f1f4b01a6adc283881a7fe[m
+Author: Mia-012 <1195744232@qq.com>
+Date:   Wed Oct 4 15:31:47 2023 +0800
+
+    add: complete work1
+
+[33mcommit 5f7e0bf3c3263199fc3ed026e7e7875fafa7bf70[m
+Author: asdskl <1510691363@qq.com>
+Date:   Wed Oct 4 15:20:08 2023 +0800
+
+    add: complete work1
+
+[33mcommit 8eab379f1dae4044b1103f64ca021b57c85e8c0e[m
+Author: Starmia <2896080704@qq.com>
+Date:   Wed Oct 4 15:15:14 2023 +0800
+
+    102301107 - work1
+
+[33mcommit 1667b045c55273f0f99d20f29cd5c31a71359c41[m
+Author: light <1461388647@qq.com>
+Date:   Wed Oct 4 15:00:45 2023 +0800
+
+    add: complete work 1
+
+[33mcommit f5c34e05cca86bf46cc2b283dbdc3cc2d201052b[m
+Author: formrc <3051088856@qq.com>
+Date:   Wed Oct 4 13:42:16 2023 +0800
+
+    style: 规范了代码格式
+
+[33mcommit e44eb371b21d57880f649794de062edc821aac2f[m
+Author: Lumos <1750650798@qq.com>
+Date:   Wed Oct 4 13:08:00 2023 +0800
+
+    feat:第一次java作业
+
+[33mcommit 184bb8539512c28f2b3544135e3441ab479c29b9[m
+Author: iridescenline <2173615611@qq.com>
+Date:   Wed Oct 4 12:22:35 2023 +0800
+
+    add: complete work1
+
+[33mcommit f68c75cbca17c103ff48e7d5eb7b97c61c39601c[m
+Author: iridescenline <2173615611@qq.com>
+Date:   Wed Oct 4 12:04:24 2023 +0800
+
+    add: complete work1
+
+[33mcommit 728c1bc625e1850b7ef3d67b4a826bf2b37d8d02[m
+Author: iridescenline <2173615611@qq.com>
+Date:   Wed Oct 4 10:56:41 2023 +0800
+
+    add: complete work1
+
+[33mcommit 478ed3e766b2037067eca3cd68523e237f826710[m
+Author: fdkfhs <143924556+fdkfhs@users.noreply.github.com>
+Date:   Wed Oct 4 10:42:32 2023 +0800
+
+    Update booth.java
+    
+    已修改
+
+[33mcommit 6c94b8c81059fe234baab82a919be077aea808bc[m
+Author: pany0593 <1569987504@qq.com>
+Date:   Wed Oct 4 01:34:38 2023 +0800
+
+    refactor:改为使用set方法修改参数
+
+[33mcommit 45b64d8eee41e2ebb023bbfbcb3a8743345185b0[m
+Author: ZMone-zero <1453629319@qq.com>
+Date:   Wed Oct 4 00:42:00 2023 +0800
+
+    Modified method
+
+[33mcommit 8d8e26fe67bf1189208ca681db9199a6122f9c7a[m
+Merge: 95f13ef 14e60b1
+Author: 叶宇滟 <2313810210@qq.com>
+Date:   Wed Oct 4 00:17:00 2023 +0800
+
+    Merge pull request #90 from sjknfjk/main
+    
+    832203224 - work1
+
+[33mcommit 30dadfb1b915a64858db9ada8ad2b1e6604b84a6[m
+Author: formc <3051088856@qq.com>
+Date:   Wed Oct 4 00:01:41 2023 +0800
+
+    add: complete work1
+
+[33mcommit 44754e363c6819f08d0af1225fc35ff84ec631c5[m
+Author: lannnnnnl <145467045+lannnnnnl@users.noreply.github.com>
+Date:   Tue Oct 3 23:42:59 2023 +0800
+
+    Update Test.java
+
+[33mcommit 1298c85f4ad4f2f506912b98c8858cf130167468[m
+Author: lannnnnnl <145467045+lannnnnnl@users.noreply.github.com>
+Date:   Tue Oct 3 23:41:48 2023 +0800
+
+    Update Booth.java
+
+[33mcommit 5ce4489b0b22a9008010d4b05e1ac493bd200bfe[m
+Author: ZMone-zero <1453629319@qq.com>
+Date:   Tue Oct 3 23:27:24 2023 +0800
+
+    add:complete work1
+
+[33mcommit 95f13efe89db27358bde93ad173aab4d996589ff[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Tue Oct 3 22:56:18 2023 +0800
+
+    fix: README.md
+
+[33mcommit ae37f708582de49ca789acd8a42c96cef6285ace[m
+Merge: 7cbdb0e e1326f8
+Author: 叶宇滟 <2313810210@qq.com>
+Date:   Tue Oct 3 22:51:58 2023 +0800
+
+    Merge pull request #91 from Lumos52/main
+    
+    222200219 - work1
+
+[33mcommit c8c2f3d514b0786d8949dcc1445d3f3ba8f4eb02[m
+Author: 2023fzu <2797077601@qq.com>
+Date:   Tue Oct 3 22:43:42 2023 +0800
+
+    add:forth commit
+
+[33mcommit 1fbdb632509f5c39152fb05ae724c2027bdcc4fe[m
+Author: lannnnnnl <145467045+lannnnnnl@users.noreply.github.com>
+Date:   Tue Oct 3 22:41:22 2023 +0800
+
+    832202206 - work1
+
+[33mcommit 6e0635a1c54ead8f74faa774fdec34a176710f65[m
+Author: 2023fzu <2797077601@qq.com>
+Date:   Tue Oct 3 22:40:37 2023 +0800
+
+    add:Third Commit
+
+[33mcommit e1326f8a8bc4062e479ec2d815c6ea8ebb43edbf[m
+Author: Lumos52 <1804989436@qq.com>
+Date:   Tue Oct 3 22:36:42 2023 +0800
+
+    add: complete work1
+
+[33mcommit 14e60b1b2c1781a74df72e75398fad5674b6a961[m
+Author: sjknfijk <1215937279@qq.com>
+Date:   Tue Oct 3 22:22:30 2023 +0800
+
+    add: complete work1
+
+[33mcommit afc0b9fe8d99da060508d41381d8fc8c3b7eddc1[m
+Author: 2023fzu <2797077601@qq.com>
+Date:   Tue Oct 3 22:10:14 2023 +0800
+
+    add:second add
+
+[33mcommit 00a8c46bef677a58a097cff9b4a96ada4938f260[m
+Author: 2023fzu <2797077601@qq.com>
+Date:   Tue Oct 3 19:11:20 2023 +0800
+
+    first commit
+
+[33mcommit 7cbdb0edceefcec4b6a2d16e9ce6814a30dabb83[m
+Merge: dc2110a 24c3ac3
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Tue Oct 3 22:06:57 2023 +0800
+
+    Merge pull request #83 from Feng-lq/main
+    
+    832204121 - work1
+
+[33mcommit dc2110ace72b319f96297d7062d0d38f3aa37f87[m
+Merge: 712d3f6 bf9ec7c
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Tue Oct 3 21:49:10 2023 +0800
+
+    Merge pull request #87 from Thinkweavey/main
+    
+    102300404 - work1
+
+[33mcommit b4ce514b1528ed638638b95106b2d588b70456fc[m
+Author: unknown <email@example.com>
+Date:   Tue Oct 3 21:11:02 2023 +0800
+
+    add: complete work1
+
+[33mcommit b141704201ae90464a67e5e7b5e4e5687fb6497b[m
+Author: 2023fzu <2797077601@qq.com>
+Date:   Tue Oct 3 19:11:20 2023 +0800
+
+    add: complete work1
+
+[33mcommit bf9ec7ca5a251d5aea378e580232a69644eb843b[m
+Author: Thinkweavey <143885431+Thinkweavey@users.noreply.github.com>
+Date:   Tue Oct 3 16:30:42 2023 +0800
+
+    Update test.java
+
+[33mcommit f0d8a195ed4dfde2cb010d6e7574b107d8014631[m
+Author: Thinkweavey <143885431+Thinkweavey@users.noreply.github.com>
+Date:   Tue Oct 3 16:28:32 2023 +0800
+
+    Update Booth.java
+
+[33mcommit 618a7447fb81726a0c6d398d384557e9555fb439[m
+Author: thinkweavy <think1005@qq.com>
+Date:   Tue Oct 3 16:15:35 2023 +0800
+
+    add: complete work1
+
+[33mcommit 22a31f0c14e127e7459179238890ec429d17d85f[m
+Author: panyi <1569987504@qq.com>
+Date:   Tue Oct 3 14:14:38 2023 +0800
+
+    add: complete work1
+
+[33mcommit 24c3ac329a5ba8c07bfcaf76a390774491d97d11[m
+Author: feng-lq <657480233@qq.com>
+Date:   Tue Oct 3 14:07:37 2023 +0800
+
+    delete the Operation and change the code
+
+[33mcommit f48a3674670a77c8e282e56de70a7d8fdeaab482[m
+Author: hjl <123@qq.com>
+Date:   Tue Oct 3 13:42:39 2023 +0800
+
+    revise
+
+[33mcommit 94ad6ac8306409f57136a5213de0af486aec7858[m
+Author: hjl <123@qq.com>
+Date:   Tue Oct 3 13:39:10 2023 +0800
+
+    revise-third
+
+[33mcommit 712d3f6da5a3041b773dd7b4621037ce4597633a[m
+Merge: 3e8ecfc 172354c
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Tue Oct 3 09:28:50 2023 +0800
+
+    Merge pull request #84 from DriOgon/main
+    
+    102201312 - work1
+
+[33mcommit 3e8ecfce99d473923a2d1b8278abe8298b682cf8[m
+Merge: 15b7276 c927256
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Tue Oct 3 09:27:45 2023 +0800
+
+    Merge pull request #86 from aozne/main
+    
+    102301511 - work1
+
+[33mcommit 15b7276b5b2d65067f5e5fab2df30137cf710263[m
+Merge: 92eae4c 0a0d00a
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Tue Oct 3 09:26:49 2023 +0800
+
+    Merge pull request #85 from fleetingphantom/main
+    
+    102300409 - work1
+
+[33mcommit c9272567565caca8522d0287bafc73968128e197[m
+Author: aozne <1260516267@qq.com>
+Date:   Tue Oct 3 04:32:01 2023 +0800
+
+    add；complete work1
+
+[33mcommit 0a0d00af83445d9dd42b17f185f455f05180374a[m
+Author: fleetingphantom <317363049@qq.com>
+Date:   Tue Oct 3 04:10:15 2023 +0800
+
+    add: fix
+
+[33mcommit 58b680780d3849a7bfc02ff79c278dc6f2fab5b0[m
+Author: fleetingphantom <317363049@qq.com>
+Date:   Tue Oct 3 03:56:45 2023 +0800
+
+    add: complete work1
+
+[33mcommit c1418c463e7bdaf62355fc3fdf3fe00c51d1708a[m
+Author: aozne <1260516267@qq.com>
+Date:   Tue Oct 3 03:50:30 2023 +0800
+
+    add：complete work1
+
+[33mcommit b85d6a7ec9c2ca01eaba2b112b094499eab9578a[m
+Author: aozne <1260516267@qq.com>
+Date:   Tue Oct 3 03:14:34 2023 +0800
+
+    add：complete work1
+
+[33mcommit 1eed8ab0c7e9879360cff854d591c7a412769fc1[m
+Author: fleetingphantom <317363049@qq.com>
+Date:   Tue Oct 3 03:10:38 2023 +0800
+
+    add: complete work1
+
+[33mcommit 172354c529cab361fcf18ef0cd403cdb4fb6be95[m
+Author: DriOgon <1292269097@qq.com>
+Date:   Tue Oct 3 02:31:52 2023 +0800
+
+    fix: work1
+
+[33mcommit cb42c883168042e616501627f42d6642aa1e9e38[m
+Author: DriOgon <1292269097@qq.com>
+Date:   Tue Oct 3 01:30:47 2023 +0800
+
+    add: complete work1
+
+[33mcommit 22b4068be2e25ae07215eebad38eff6442fbdf7c[m
+Author: feng-lq <657480233@qq.com>
+Date:   Tue Oct 3 01:04:29 2023 +0800
+
+    add: complete work1
+
+[33mcommit 245dd29863c888786fa1c2c7af2e94eea7326c80[m
+Author: panyi <1569987504@qq.com>
+Date:   Tue Oct 3 00:50:31 2023 +0800
+
+    add:完成部分work1
+
+[33mcommit ad6fc1db0d607337ca6146132859622481555e9a[m
+Author: fdkfhs <fsj3581222@outlook.com>
+Date:   Mon Oct 2 23:57:58 2023 +0800
+
+    add: complete work1
+
+[33mcommit 92eae4c1c0fbaf18e106d363ab51611f7ef893b0[m
+Merge: b1aace2 8dabc57
+Author: 叶宇滟 <2313810210@qq.com>
+Date:   Mon Oct 2 23:20:40 2023 +0800
+
+    Merge pull request #79 from wandspeed/main
+    
+    832203302 - work1
+
+[33mcommit b1aace2775e625d871e7d8159d084e6db979e742[m
+Merge: e3cda0b aec1239
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Mon Oct 2 22:22:55 2023 +0800
+
+    Merge pull request #73 from dkb-power/main
+    
+    102302152 - work1
+
+[33mcommit aec1239d14d4853c4204c76cfed472172e37a8cd[m
+Author: dkb <2574078960@qq.com>
+Date:   Mon Oct 2 22:12:17 2023 +0800
+
+    update2
+
+[33mcommit 8dabc5794246060969ca747d23e159ef9cfd1ca3[m
+Author: wandspeed <2487889191@qq.com>
+Date:   Mon Oct 2 18:52:12 2023 +0800
+
+    add: complete work1
+
+[33mcommit 8e2ea88b99112c24034cfdcdbbacf20caeebb20b[m
+Author: wandspeed <2487889191@qq.com>
+Date:   Mon Oct 2 18:31:24 2023 +0800
+
+    add: complete work1
+
+[33mcommit 20f3d1009fde5a6fa43b1a3672b36776683d162a[m
+Merge: 2936f8d e3cda0b
+Author: Feng-lq <144638926+Feng-lq@users.noreply.github.com>
+Date:   Mon Oct 2 17:40:54 2023 +0800
+
+    Merge pull request #1 from west2-online-reserve/main
+    
+    更新
+
+[33mcommit e3cda0b9bb06116f5b4d2687ce3169836b163845[m
+Merge: 065f377 9495b62
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Mon Oct 2 17:23:30 2023 +0800
+
+    Merge pull request #76 from wintholiday/main
+    
+    832203228 - work1
+
+[33mcommit 065f377f542a4bc344b60116b82d36f109367531[m
+Merge: 1e20ee5 0cc7226
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Mon Oct 2 17:12:30 2023 +0800
+
+    Merge pull request #78 from RunForTime2023/main
+    
+    032201117 - work1
+
+[33mcommit 0cc72269ba3177d6cdd3ccba183d5d9ccd9d9c35[m
+Author: RunForTime2023 <144543042+RunForTime2023@users.noreply.github.com>
+Date:   Mon Oct 2 16:58:27 2023 +0800
+
+    Add files via upload
+
+[33mcommit 9495b6293fc57ec587ee5e851d96e1e6fa60fc26[m
+Author: star <18237752179@163.com>
+Date:   Mon Oct 2 16:42:59 2023 +0800
+
+    retry
+
+[33mcommit 7eda992ff6221af35050aae582b12e687f02a5b1[m
+Author: hjl <123@qq.com>
+Date:   Mon Oct 2 15:50:53 2023 +0800
+
+    revise-second
+
+[33mcommit c5987eceebff714d83c336adc9c6da2b45cbaf51[m
+Author: dkb <2574078960@qq.com>
+Date:   Mon Oct 2 12:28:56 2023 +0800
+
+    update
+
+[33mcommit 70e82742d4007f15e0abf5497f2456ab09cf10fc[m
+Author: RunForTime2023 <pipename@163.com>
+Date:   Mon Oct 2 09:34:31 2023 +0800
+
+    add: complete work1
+
+[33mcommit 1e20ee599999e323496586d28cfbfdd5605b3b12[m
+Merge: d77cd76 92834d0
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Mon Oct 2 00:25:09 2023 +0800
+
+    Merge pull request #75 from treasonkry/main
+    
+    102304221 - work1
+
+[33mcommit 92834d07abd4709f19c248fa0d428dc5e365f5e3[m
+Author: treasonkry <1161707513@qq.com>
+Date:   Mon Oct 2 00:20:40 2023 +0800
+
+    add: complete work1
+
+[33mcommit afb5293dfe4855eea9219ac184303ec91594e553[m
+Author: hjl <123@qq.com>
+Date:   Sun Oct 1 23:09:08 2023 +0800
+
+    revise-first
+
+[33mcommit 078575c99b25d05831a64faaaea989e07b6a2575[m
+Author: star <18237752179@163.com>
+Date:   Sun Oct 1 21:23:33 2023 +0800
+
+    first commit
+
+[33mcommit bb80e1565b6a7fc03484482d7b146db7c4202c9c[m
+Author: dkb <2574078960@qq.com>
+Date:   Sun Oct 1 14:46:08 2023 +0800
+
+    add: complete work1
+
+[33mcommit d77cd761da6549f449adb6129d6c1aab5121e812[m
+Merge: 5338364 1852347
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Sun Oct 1 12:16:24 2023 +0800
+
+    Merge pull request #72 from Neptrue-Lin/main
+    
+    102301328 - work1
+
+[33mcommit 5338364df7fac73feba7450aeead65245a5e07f4[m
+Merge: 67eceed fe2f457
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Sun Oct 1 12:13:07 2023 +0800
+
+    Merge pull request #67 from gaociao/main
+    
+    102301141 - work1
+
+[33mcommit 67eceede9561f7c6874a5eeaf5449d9730efe48f[m
+Merge: 64c686e 933ffc7
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Sun Oct 1 12:11:43 2023 +0800
+
+    Merge pull request #65 from verysmart11/main
+    
+    832204117 - work1
+
+[33mcommit 64c686ee3429d53687c7dde009a8e9a1a12f081c[m
+Merge: 1508669 14fa612
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Sun Oct 1 12:10:50 2023 +0800
+
+    Merge pull request #64 from YaoZhengwei06020/main
+    
+    832203322 - work1
+
+[33mcommit 150866984849b296383cc8f622336d11fc7e3100[m
+Merge: 4e63901 17e714b
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Sun Oct 1 12:08:31 2023 +0800
+
+    Merge pull request #70 from W2919/main
+    
+    102301519 - work1
+
+[33mcommit 185234725901963193a64146578fa11f20ecd823[m
+Author: Neptrue Lin <neptrue_lin@outlook.com>
+Date:   Sun Oct 1 11:21:51 2023 +0800
+
+    add: completed work1
+
+[33mcommit fe2f4579df6c722549ee963decf8a13399d13124[m
+Author: gaoxiaod <249290108@qq.com>
+Date:   Sun Oct 1 08:47:08 2023 +0800
+
+    102301141-work1
+
+[33mcommit 17e714b7131494a67b74704bb54275e101556006[m
+Author: wuhao <2232862827@qq.com>
+Date:   Sun Oct 1 08:20:26 2023 +0800
+
+    add: 102301519,work1
+
+[33mcommit dd0139434b759163cd04f035a7ad688889706d25[m
+Author: wuhao <2232862827@qq.com>
+Date:   Sun Oct 1 08:12:38 2023 +0800
+
+    add: complete work1
+
+[33mcommit 1ded31bc0ae09aee746f7dad64d442bbba2e580c[m
+Author: treasonkry <1161707513@qq.com>
+Date:   Sun Oct 1 02:31:05 2023 +0800
+
+    add: complete work1
+
+[33mcommit 88d366df1c53b790cb6620bca321dfaf43c6c65b[m
+Author: treasonkry <1161707513@qq.com>
+Date:   Sun Oct 1 02:24:07 2023 +0800
+
+    add: complete work1
+
+[33mcommit 4e63901a8c0dfe49b1337db88f29f969837ad8c0[m
+Merge: 3c42183 d003cae
+Author: 叶宇滟 <2313810210@qq.com>
+Date:   Sun Oct 1 02:16:33 2023 +0800
+
+    Merge pull request #68 from firstGGbond/main
+    
+    832202204 - work1
+
+[33mcommit d003cae6d1c272431a718996468c277295515c6c[m
+Author: firstGGbond <146355048+firstGGbond@users.noreply.github.com>
+Date:   Sun Oct 1 00:05:48 2023 +0800
+
+    已修改
+    
+    我无法对restock进行进一步化简。
+    渴望指导
+
+[33mcommit 3c42183b6d11b578ff6f3282147fb62c5f56b756[m
+Merge: ea37746 ea51924
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Sat Sep 30 23:47:17 2023 +0800
+
+    Merge pull request #66 from 1293978818/new
+    
+    102300230 - work1
+
+[33mcommit 2f6ad43994aa348e0b40112c33461f7790822133[m
+Author: wuhao <2232862827@qq.com>
+Date:   Sat Sep 30 23:45:15 2023 +0800
+
+    add: complete work1
+
+[33mcommit ea519246e1afdba6e2306dc55db26d5fcde830a9[m
+Author: “1293978818” <1293978818>
+Date:   Sat Sep 30 22:10:35 2023 +0800
+
+    fix:增加了Booth在进货中的一种情况，修改了休摊代码并在测试类中添加相关测试
+
+[33mcommit 933ffc735fa9870082652ea36565ca7ed2328f69[m
+Author: verysmart11 <1322606816@qq.com>
+Date:   Sat Sep 30 22:02:17 2023 +0800
+
+    add testForFail
+
+[33mcommit 4eeba7f85f000c625f53ff069460f7901c833280[m
+Author: firstGGbond <146355048+firstGGbond@users.noreply.github.com>
+Date:   Sat Sep 30 21:49:39 2023 +0800
+
+    我对booth class进行了修改并更新了test
+
+[33mcommit b42bae44df43f7b94cfbeab319b2c0b6a09e70da[m
+Merge: 2c0f25f ea37746
+Author: firstGGbond <146355048+firstGGbond@users.noreply.github.com>
+Date:   Sat Sep 30 21:47:23 2023 +0800
+
+    Merge branch 'west2-online-reserve:main' into main
+
+[33mcommit e3c15f4a8cbe7b325f10789d9f620c631454b341[m
+Author: verysmart11 <1322606816@qq.com>
+Date:   Sat Sep 30 21:19:09 2023 +0800
+
+    add boothtest
+
+[33mcommit ea37746338ff3dc273835523fe0379dbeb2167a7[m
+Merge: d52c157 b5ee562
+Author: 吴荣榜 <116723637+ROBINRUGAN@users.noreply.github.com>
+Date:   Sat Sep 30 20:58:49 2023 +0800
+
+    Merge pull request #69 from west2-online-reserve/ROBINRUGAN-patch-1
+    
+    docs: README.md
+
+[33mcommit b5ee5624632b6e796993c49bbbb8405a5d14460b[m
+Author: 吴荣榜 <116723637+ROBINRUGAN@users.noreply.github.com>
+Date:   Sat Sep 30 20:58:26 2023 +0800
+
+    docs: README.md
+
+[33mcommit 2c0f25f1a9f38a232277a7517321382696ca95cf[m
+Author: wangyu <2020433317@qq.com>
+Date:   Sat Sep 30 17:13:08 2023 +0800
+
+    add: complete work1
+
+[33mcommit 010eca1f781778db66d6abeead32bde6146b8ded[m
+Author: gaoxiaod <249290108@qq.com>
+Date:   Sat Sep 30 16:30:03 2023 +0800
+
+    102301141 - work1
+
+[33mcommit 2ba70165054da1ee7265d23157c0739aaec2225f[m
+Author: “1293978818” <1293978818>
+Date:   Sat Sep 30 15:18:19 2023 +0800
+
+    <fix>将文件夹y1293978818更名为1293978818
+
+[33mcommit 990da6d3d35a4c2c8e869eb7d0f2672b42e4a2fb[m
+Author: “1293978818” <1293978818>
+Date:   Sat Sep 30 15:12:47 2023 +0800
+
+    <test>:添加y1293978818的work1作业
+
+[33mcommit 879aac9483ac207be3f1c1d901ec0f6884f21437[m
+Author: verysmart11 <1322606816@qq.com>
+Date:   Sat Sep 30 15:05:16 2023 +0800
+
+    add: complete work1
+
+[33mcommit 14fa612d29490db31d75db089a48a29e9e195677[m
+Author: Yao <3422765404@qq.com>
+Date:   Sat Sep 30 14:38:41 2023 +0800
+
+    add: complete work1
+
+[33mcommit 25b5c14c984ce1b5106d9a8db7ba6cff61dc8e40[m
+Author: Yao <3422765404@qq.com>
+Date:   Sat Sep 30 01:07:15 2023 +0800
+
+    add complete work1
+
+[33mcommit 876c2c2ba2d875607631a90bb1b7be45f6f63789[m
+Author: Yao <3422765404@qq.com>
+Date:   Sat Sep 30 00:51:19 2023 +0800
+
+    add: complete work1
+
+[33mcommit d52c157058dc37a19a3ad3ae726708073f3402ef[m
+Merge: 3f25225 badff87
+Author: emptyOVO <118812562+emptyOVO@users.noreply.github.com>
+Date:   Sat Sep 30 00:42:55 2023 +0800
+
+    Merge pull request #52 from CliPg/main
+    
+    022304111 - work2
+
+[33mcommit 3f252251b9ae9ec77625d67977d22edb4019cd15[m
+Merge: 91eba96 d506f4d
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Fri Sep 29 21:33:08 2023 +0800
+
+    Merge pull request #45 from wjord2023/main
+    
+    102302125 - work1
+
+[33mcommit 91eba967f9c02557ef38218bf68460ba46cea19f[m
+Merge: fc3bebd 297472a
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Fri Sep 29 16:02:15 2023 +0800
+
+    Merge pull request #63 from theory7766/main
+    
+    222200305 - work1
+
+[33mcommit 297472a85176653629c378c50f52663d36da289c[m
+Author: theory7766 <2180304252@qq.com>
+Date:   Fri Sep 29 15:49:44 2023 +0800
+
+    add: complete work1
+
+[33mcommit d506f4dee3f0f47e9296c23237937aea12be248f[m
+Author: wjord <141616391+wjord2023@users.noreply.github.com>
+Date:   Fri Sep 29 14:35:24 2023 +0800
+
+    b
+
+[33mcommit badff8718f6aaf76ba619a3f37b515f19f1f45ed[m
+Author: CliPg <139729492+CliPg@users.noreply.github.com>
+Date:   Fri Sep 29 14:17:32 2023 +0800
+
+    Update Bonus2.java
+
+[33mcommit fc3bebdc7aff19beff708f384470e32881f76f68[m
+Author: Poldroc <222200331@fzu.edu.cn>
+Date:   Thu Sep 28 19:37:28 2023 +0800
+
+    fix: abandoned workflows
+
+[33mcommit 272f081be0e6433a7b4a2bf0e514fa202852becf[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Sep 28 19:36:12 2023 +0800
+
+    fix: abandoned workflows
+
+[33mcommit 074d6ed6e2053a0f10418d1dbe4ec7d230a1a213[m
+Author: Poldroc <222200331@fzu.edu.cn>
+Date:   Thu Sep 28 19:33:50 2023 +0800
+
+    fix: delete useless module
+
+[33mcommit 6a9876188ed0a1e9f790ecec385d188dccfb2db4[m
+Merge: 24484d5 49fc0c1
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Sep 28 19:31:20 2023 +0800
+
+    Merge pull request #40 from MasterLin34/main
+    
+    102300334 - work1
+
+[33mcommit b6a8612d806db01ad0fc9bfe5a9bb25b759e63d9[m
+Author: theory7766 <2180304252@qq.com>
+Date:   Thu Sep 28 14:33:46 2023 +0800
+
+    add: complete work1
+
+[33mcommit 49fc0c1dc7a8738b4c5193128b4d2e058c3a8997[m
+Author: MasterLin34 <926461871@qq.com>
+Date:   Thu Sep 28 08:08:45 2023 +0800
+
+    add: complete work1
+
+[33mcommit 24484d529f8152a128b1c22465e622de6f50604b[m
+Merge: 7c77efc caf8f8d
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Sep 28 01:24:35 2023 +0800
+
+    Merge pull request #49 from bowbowww/main
+    
+    832203215 - work1
+
+[33mcommit 7c77efc82cac0ca481316af5b147cdcb1ff5c76d[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Sep 28 01:01:54 2023 +0800
+
+    fix: CodeQL.yaml
+
+[33mcommit 9c865d3eddeda32861bb398b4fdd1741cc12153b[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Sep 28 00:54:06 2023 +0800
+
+    fix: CodeQL.yaml
+
+[33mcommit 3e80660ea648737ed56be1104f08ec92c227254f[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Sep 28 00:50:24 2023 +0800
+
+    fix：CodeQL.yaml
+
+[33mcommit 938cc2f23a8a2cd8fc5f1c000cb0aad8d68c010a[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Sep 28 00:47:59 2023 +0800
+
+    fix：CodeQL.yaml
+
+[33mcommit 1fa6deee4f35a83d2db42bb225ad3b3ea763f819[m
+Merge: 4b9b068 3ba5d04
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Sep 28 00:41:53 2023 +0800
+
+    Merge pull request #56 from west2-online-reserve/Poldroc-patch-4
+    
+    fix: CodeQL.yaml
+
+[33mcommit 3ba5d04e69cb438d9ed0c2efa22bd13b089d7505[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Sep 28 00:41:34 2023 +0800
+
+    fix: CodeQL.yaml
+
+[33mcommit 4b9b06852125e8b71cb8d6c9961f001404883f9b[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Sep 28 00:27:53 2023 +0800
+
+    fix: CodeQL.yaml
+
+[33mcommit 99d33f5894c27e398d414d24567f5f962645a9d1[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Sep 28 00:21:13 2023 +0800
+
+    fix: CodeQL.yaml
+
+[33mcommit 593d7f3d82840f6a9cf17c44d13ac7c950de63a9[m
+Author: MasterLin34 <926461871@qq.com>
+Date:   Wed Sep 27 23:10:54 2023 +0800
+
+    add: complete work1
+
+[33mcommit caf8f8da3fa0d1c509784e7f27ee2d1ae790e58b[m
+Author: bowbowww <118832120+bowbowww@users.noreply.github.com>
+Date:   Wed Sep 27 22:36:34 2023 +0800
+
+    Update BoothTest.java
+    
+    add test
+
+[33mcommit f47bf05421ff5290c63f200a032aa3124a6c39d5[m
+Author: bowbowww <118832120+bowbowww@users.noreply.github.com>
+Date:   Wed Sep 27 22:36:05 2023 +0800
+
+    Update Booth.java
+    
+    修改错误代码
+
+[33mcommit 868b01e9bd06603e8676989164cf9054537b26ac[m
+Author: CliPg <775075825@qq.com>
+Date:   Wed Sep 27 18:31:25 2023 +0800
+
+    add: complete work2
+
+[33mcommit 698e9500ce413f868cd0324b3c8cdfcfaff6f516[m
+Author: wjord <141616391+wjord2023@users.noreply.github.com>
+Date:   Wed Sep 27 13:13:20 2023 +0800
+
+    a
+
+[33mcommit 5b3143e765ca8397f9b4e62280afb7fbe44a1c98[m
+Author: wjord <141616391+wjord2023@users.noreply.github.com>
+Date:   Wed Sep 27 13:01:18 2023 +0800
+
+    add
+
+[33mcommit 2fa6d7d174981b6ef206d93f7085b0c89819972a[m
+Author: bowbowww <118832120+bowbowww@users.noreply.github.com>
+Date:   Wed Sep 27 09:57:44 2023 +0800
+
+    832203215-work1
+    
+    832203215-work1
+
+[33mcommit e2922e431f4071c0119c519563034477f091e435[m
+Author: wjord <141616391+wjord2023@users.noreply.github.com>
+Date:   Tue Sep 26 21:30:24 2023 +0800
+
+    add:  complete work1
+
+[33mcommit 15bb41b64484cc9598047f32e8d14421552d8862[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Tue Sep 26 20:44:02 2023 +0800
+
+    fix: README.md
+
+[33mcommit 479de9e7a4fd9f591e978fdca59f9e8bd5976d56[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Tue Sep 26 20:43:41 2023 +0800
+
+    fix:  README.md
+
+[33mcommit 4ec25f2e149365288f6688f098dd5c4f09fd4e8d[m
+Merge: 5306653 17aa0f7
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Tue Sep 26 19:41:08 2023 +0800
+
+    Merge pull request #19 from Jst599/main
+    
+    102301533 - work1
+
+[33mcommit 17aa0f7c86b445678d5050613d20caf3b0102191[m
+Merge: 89e7215 8d9d5f0
+Author: Jst599 <141469025+Jst599@users.noreply.github.com>
+Date:   Tue Sep 26 19:38:30 2023 +0800
+
+    Merge branch 'main' of https://github.com/Jst599/collection-java
+
+[33mcommit 89e721504792e57278b878168dec446a2440f65d[m
+Author: Jst599 <141469025+Jst599@users.noreply.github.com>
+Date:   Tue Sep 26 19:38:18 2023 +0800
+
+    complete work1
+
+[33mcommit f208621978207dae37421c1439e395fd4bdeab12[m
+Author: Jst599 <141469025+Jst599@users.noreply.github.com>
+Date:   Tue Sep 26 19:31:25 2023 +0800
+
+    complete work1
+
+[33mcommit ae4423a149f1451b05a26abed77c1644b10067a4[m
+Author: Jst599 <141469025+Jst599@users.noreply.github.com>
+Date:   Tue Sep 26 19:28:26 2023 +0800
+
+    complete work1
+
+[33mcommit 8d9d5f0a6ef018223a77aa295d9404d69cb22c52[m
+Author: 翁鹏 <engroc@foxmail.com>
+Date:   Tue Sep 26 19:10:17 2023 +0800
+
+    Delete work1/work1.iml
+
+[33mcommit 5c018a3e1b66991ddba8338d059d03f00a609a59[m
+Author: 翁鹏 <engroc@foxmail.com>
+Date:   Tue Sep 26 19:10:06 2023 +0800
+
+    Delete collection-java.iml
+
+[33mcommit 53066533ec72a2418bb5cb1dcb6caf4d500d9828[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Tue Sep 26 19:08:42 2023 +0800
+
+    fix: .gitignore
+
+[33mcommit 52543a9e86fa05361166ac9c8e7b99d2d2042657[m
+Author: 翁鹏 <engroc@foxmail.com>
+Date:   Tue Sep 26 19:07:24 2023 +0800
+
+    Delete work2/work2.iml
+
+[33mcommit aea6901a39e516284fbc31466a07da2059f35217[m
+Author: Jst599 <141469025+Jst599@users.noreply.github.com>
+Date:   Tue Sep 26 18:55:02 2023 +0800
+
+    complete work1
+
+[33mcommit 6c0666306c67a42f8f6f2b033e4b7be2a31f7a94[m
+Merge: aa82629 ddb218d
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Mon Sep 25 23:59:11 2023 +0800
+
+    Merge pull request #44 from 478320/main
+    
+    102301413 - work1
+
+[33mcommit ddb218df820004abf5d3dca863c2486fbf18ee2c[m
+Author: Yusiheng <2874602095@qq.com>
+Date:   Mon Sep 25 23:57:45 2023 +0800
+
+    add: complete work1
+
+[33mcommit c432feebe551713d39f9c2fcc9344f458aa68df5[m
+Author: Yusiheng <2874602095@qq.com>
+Date:   Mon Sep 25 23:43:33 2023 +0800
+
+    add: complete work1
+
+[33mcommit 3167706d9af9633e6614cf5fcaf59335e12c0e93[m
+Author: Yusiheng <2874602095@qq.com>
+Date:   Mon Sep 25 23:28:29 2023 +0800
+
+    add: complete work1
+
+[33mcommit 0eb8a5b335bd804bd2d3557e40ac8ad6beca593e[m
+Author: Yusiheng <2874602095@qq.com>
+Date:   Mon Sep 25 22:43:57 2023 +0800
+
+    add: complete work1
+
+[33mcommit aa8262906071e99bedd8d9a1f45b223f39fb7cf9[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Mon Sep 25 20:48:16 2023 +0800
+
+    fix: CodeQL.yaml
+
+[33mcommit fc581543724aa510741977f9db447f069192d16e[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Mon Sep 25 20:45:42 2023 +0800
+
+    fix: CodeQL.yaml
+
+[33mcommit 883cd0abfde326586fc3e5622996e32da2aab3d2[m
+Merge: db0b36d 09c55e4
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Mon Sep 25 20:38:54 2023 +0800
+
+    Merge pull request #43 from west2-online-reserve/Poldroc-patch-2
+    
+    fix: CodeQL.yaml
+
+[33mcommit 09c55e4f087ac857af83c55c166ade436ca19841[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Mon Sep 25 20:38:36 2023 +0800
+
+    fix: CodeQL.yaml
+
+[33mcommit db0b36dc12bf1186614760c9c5d125f8fbc9b303[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Mon Sep 25 20:34:50 2023 +0800
+
+    fix: CodeQL.yaml
+
+[33mcommit deaf013aa573f75a574ad3d93c8cdb8e9ff537b1[m
+Merge: 6151585 2da358e
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Mon Sep 25 20:25:12 2023 +0800
+
+    Merge pull request #36 from AGoodYear/main
+    
+    162204204 - work1
+
+[33mcommit 61515854e74e448d89bc90f7aaf22f9dd9e775f1[m
+Merge: 97f0f34 4991eae
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Mon Sep 25 20:21:01 2023 +0800
+
+    Merge pull request #24 from HYJokerr/main
+    
+    222200131 - work1
+
+[33mcommit 97f0f34d76fc07feecafa0a04b1b11a30e5ab284[m
+Merge: 9c59591 88eda0a
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Mon Sep 25 20:19:23 2023 +0800
+
+    Merge pull request #42 from FouGuai/main
+    
+    102301315 - work1
+
+[33mcommit 2da358ea4da8418d83516e201821047a6c5406dd[m
+Author: AGoodYear <sxdtguofh2@163.com>
+Date:   Mon Sep 25 20:08:38 2023 +0800
+
+    fix:negative number issues
+
+[33mcommit a6d60d4aefe3c7a1cbb02098f876b4a4e95bf025[m
+Author: MasterLin34 <926461871@qq.com>
+Date:   Mon Sep 25 18:21:56 2023 +0800
+
+    add: complete work1
+
+[33mcommit 9c595913fcd02661edd582295f553561a51f70e7[m
+Author: 吴荣榜 <116723637+ROBINRUGAN@users.noreply.github.com>
+Date:   Mon Sep 25 12:53:37 2023 +0800
+
+    Rename CodeQL.yaml to CodeQL.yaml
+
+[33mcommit 4991eaef6fc43ce7fe9065f3e8dc3703d4402b15[m
+Author: HYJokerr <1260150988@qq.com>
+Date:   Mon Sep 25 12:35:44 2023 +0800
+
+    添加了test类.
+
+[33mcommit 88eda0ad52d68a6377d143f81b2f88d443bb521d[m
+Author: foushen <12949563752qq.com>
+Date:   Mon Sep 25 12:10:17 2023 +0800
+
+    repair some bug
+
+[33mcommit da80168f13ccde8341889f3e8616d63f16603bf3[m
+Merge: 47a346b 5f2d982
+Author: emptyOVO <118812562+emptyOVO@users.noreply.github.com>
+Date:   Mon Sep 25 12:07:54 2023 +0800
+
+    Merge pull request #41 from pengyuezhe/main
+    
+    102301527 - work1
+
+[33mcommit 47a346bfa08f07d0bf83c1f5b23922c3bcc25f87[m
+Merge: d432ac0 070a06c
+Author: emptyOVO <118812562+emptyOVO@users.noreply.github.com>
+Date:   Mon Sep 25 11:34:24 2023 +0800
+
+    Merge pull request #39 from tianyu-star/main
+    
+    832303230 - work1
+
+[33mcommit 070a06cae318b0fe9633ae79565c915eb57b5084[m
+Author: tianyu-star <1109163419@qq.com>
+Date:   Mon Sep 25 09:24:23 2023 +0800
+
+    add: complete work1
+
+[33mcommit 5f2d982a02b3788eb16cfd9314f691ce4eec7f21[m
+Author: pengyuezhe <lypyz2014@163.com>
+Date:   Mon Sep 25 03:21:29 2023 +0800
+
+    add: complete work1
+
+[33mcommit bb2d1f86253b492e8f5b66d8108ed5955ef97855[m
+Author: MasterLin34 <926461871@qq.com>
+Date:   Sun Sep 24 23:59:48 2023 +0800
+
+    add: complete work1
+
+[33mcommit d432ac0560199d5d0095b4ddf887a4c4668047c2[m
+Merge: f9c6203 202d1c6
+Author: 吴荣榜 <116723637+ROBINRUGAN@users.noreply.github.com>
+Date:   Sun Sep 24 23:52:25 2023 +0800
+
+    Merge pull request #17 from szw6/main
+    
+    222200210 - work1 and work2
+
+[33mcommit f9c6203c202190c448dcc37885879825996bc121[m
+Merge: afd95d5 f63f1e4
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Sun Sep 24 23:36:51 2023 +0800
+
+    Merge pull request #14 from flying-pig-z/main
+    
+    102201604 - work2
+
+[33mcommit f63f1e48799d8e4a8fd4286b8d53fece0eb9a993[m
+Merge: a52ed44 afd95d5
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Sun Sep 24 23:35:44 2023 +0800
+
+    Merge branch 'main' into main
+
+[33mcommit afd95d5a28e78d8e41a0e2158b5b91937e3ef4d8[m
+Merge: 95bdf05 e416481
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Sun Sep 24 23:34:22 2023 +0800
+
+    Merge pull request #28 from cleverDY/main
+    
+    102203139 - work1
+
+[33mcommit 95bdf05a70a8cc1c672d670c949650997850afce[m
+Merge: 496d931 e6d36fd
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Sun Sep 24 23:30:51 2023 +0800
+
+    Merge pull request #27 from changganqi/main
+    
+    102302140 - work1
+
+[33mcommit 496d9315d7739ea53d316d7b4dc78a13d4985833[m
+Merge: 3b1ce7a 83dcc24
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Sun Sep 24 23:30:24 2023 +0800
+
+    Merge pull request #23 from CliPg/main
+    
+    022304111 - work1
+
+[33mcommit 3b1ce7a27ac299c98702331cc94436f00e4e5a34[m
+Merge: f443bb5 2e9b006
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Sun Sep 24 23:29:54 2023 +0800
+
+    Merge pull request #22 from robertdowney66/main
+    
+    102301429 - work1
+
+[33mcommit 202d1c66c2954ee7ad4ee1cf678f30ebd4f8ff49[m
+Author: 枭笙 <1278700966@qq.com>
+Date:   Sun Sep 24 19:19:13 2023 +0800
+
+    Update EmailValidator.java
+
+[33mcommit 9ea7b1f0702d311014e0839e5192ef76ce797bdc[m
+Author: MasterLin34 <926461871@qq.com>
+Date:   Sun Sep 24 19:04:09 2023 +0800
+
+    add: complete work1
+
+[33mcommit 1913cc6d2f4aeadf154b9bda09ac865d20b15b6d[m
+Author: MasterLin34 <926461871@qq.com>
+Date:   Sun Sep 24 19:02:10 2023 +0800
+
+    add: complete work1
+
+[33mcommit 48e8926ec975bf49df280fe6df9f23d8e9bd8a64[m
+Author: tianyu-star <1109163419@qq.com>
+Date:   Sun Sep 24 00:48:14 2023 +0800
+
+    add: complete work1
+
+[33mcommit 5aef32974340a329d3502e70d7aed750fc753295[m
+Author: tianyu-star <1109163419@qq.com>
+Date:   Sun Sep 24 00:45:23 2023 +0800
+
+    tianyu-star
+
+[33mcommit 26832e5b782b738ed15280beda6388f9452f160c[m
+Author: tianyu-star <1109163419@qq.com>
+Date:   Sun Sep 24 00:19:23 2023 +0800
+
+    add: complete work1
+
+[33mcommit 6021d4819491249219492cdf1371e34fe3d09c74[m
+Author: tianyu-star <143814775+tianyu-star@users.noreply.github.com>
+Date:   Sat Sep 23 23:47:14 2023 +0800
+
+    Create tianyu-star
+
+[33mcommit 83dcc24733f207a1fd493177f604c42207a6c2ad[m
+Author: CliPg <139729492+CliPg@users.noreply.github.com>
+Date:   Sat Sep 23 20:53:47 2023 +0800
+
+    Update BoothTest.java
+
+[33mcommit b579055e461b5f10b412a59213ee92df721d7a73[m
+Author: AGoodYear <sxdtguofh2@163.com>
+Date:   Sat Sep 23 20:47:22 2023 +0800
+
+    add:work1 completed
+
+[33mcommit e416481c86e38d37c13ecbe75cdabdf0985f4a67[m
+Author: cleverDY <3215360199@qq.com>
+Date:   Sat Sep 23 20:17:31 2023 +0800
+
+    fix work1
+
+[33mcommit f443bb592e485909d3ee9b9133be5ab56ac0b822[m
+Merge: 0a48fe2 7d8ff7b
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Sat Sep 23 19:25:22 2023 +0800
+
+    Merge pull request #25 from YanKKun/main
+    
+    102301430 - work1
+
+[33mcommit 8bb34871826e30863c78db35353d4b295e9e6f9c[m
+Author: cleverDY <3215360199@qq.com>
+Date:   Sat Sep 23 15:29:38 2023 +0800
+
+    add:complete work1
+
+[33mcommit 2e9b00629418d6d9e02b611cb1486b04d6fc29a3[m
+Author: xiaopan <666@qq.com>
+Date:   Sat Sep 23 14:50:48 2023 +0800
+
+    add: complete work1
+
+[33mcommit 8b446b7a5c1e27f2400cbc2ba1dddfafb9b4f885[m
+Author: CliPg <139729492+CliPg@users.noreply.github.com>
+Date:   Sat Sep 23 12:50:43 2023 +0800
+
+    Update BoothTest.java
+
+[33mcommit f86df94b772664bce6546bd6b030112be1b9c593[m
+Author: CliPg <139729492+CliPg@users.noreply.github.com>
+Date:   Sat Sep 23 12:49:54 2023 +0800
+
+    Update Booth.java
+
+[33mcommit 7d8ff7bd69ae39fdb83be2bd1aada0e7fe7c6fbc[m
+Author: YanKKun <1208008152@qq.com>
+Date:   Sat Sep 23 11:46:35 2023 +0800
+
+    add: complete work1
+
+[33mcommit 823cf6744407c5631852c7f917742d05630fd6fa[m
+Author: xiaopan <666@qq.com>
+Date:   Sat Sep 23 11:38:53 2023 +0800
+
+    add:complete work1
+
+[33mcommit 0a48fe267bb62bac56ab863126c79b0eb2ed7a49[m
+Merge: bd6cd6b 2147107
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Fri Sep 22 23:30:16 2023 +0800
+
+    Merge pull request #29 from nuozimiaowu/main
+    
+    832201319 - work1
+
+[33mcommit bd6cd6b5cc0d429757b6395db9ea14ea44b03b53[m
+Merge: e3c267d b74962c
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Fri Sep 22 22:01:57 2023 +0800
+
+    Merge pull request #31 from CHENyyy111/main
+    
+    832203212 - work1
+
+[33mcommit e3c267d43aef5f7ef1bce61af59822e3d3fa7cf8[m
+Merge: 97970b8 104862e
+Author: Y^3 <2313810210@qq.com>
+Date:   Fri Sep 22 22:01:18 2023 +0800
+
+    Merge pull request #30 from XiaoxiongMeng/main
+    
+    102204208 - work1
+
+[33mcommit e6d36fdb391e89ba72677bd26fa9a2e09eff50f6[m
+Author: Ben <1091122371@qq.com>
+Date:   Fri Sep 22 21:37:38 2023 +0800
+
+    add: complete work1
+
+[33mcommit 603be8fd802b1f8fd600b6eb754b1420300b22d8[m
+Author: cleverDY <3215360199@qq.com>
+Date:   Fri Sep 22 21:06:18 2023 +0800
+
+    work1 complete
+
+[33mcommit 76d233ef62671c4d5c47a5b1f27bd1b6adb212d9[m
+Author: hjisnd <1783718869@qq.com>
+Date:   Fri Sep 22 20:22:43 2023 +0800
+
+    first
+
+[33mcommit b74962c291381730f14728e6404beaceb01a3263[m
+Author: chen <1471123190@qq.com>
+Date:   Fri Sep 22 19:40:12 2023 +0800
+
+    add: complete work1
+
+[33mcommit 738e3e4d8afed0f98ded3bf77aebcb44dd039f5a[m
+Author: YanKKun <1208008152@qq.com>
+Date:   Fri Sep 22 18:33:50 2023 +0800
+
+    add: complete work1
+
+[33mcommit da106ea62ae663caf1562339d851a9d8544af9d0[m
+Author: cleverDY <124947672+cleverDY@users.noreply.github.com>
+Date:   Fri Sep 22 18:13:46 2023 +0800
+
+    Delete work1/dy directory
+
+[33mcommit 29ee973a837fb3c85034375e4ec36d7a35b81dde[m
+Author: Ben <1091122371@qq.com>
+Date:   Fri Sep 22 12:48:06 2023 +0800
+
+    add:complete work1
+
+[33mcommit 852f3b12f286c92ef7218797ca0139049f42bd1a[m
+Author: 枭笙 <1278700966@qq.com>
+Date:   Fri Sep 22 11:36:39 2023 +0800
+
+    Update EmailValidator.java
+
+[33mcommit 35286e1fe6f9ae032e4a03422c8bbb952547a822[m
+Author: CliPg <139729492+CliPg@users.noreply.github.com>
+Date:   Fri Sep 22 11:23:50 2023 +0800
+
+    Update Booth.java
+
+[33mcommit 104862e8eb37e276ba9386a3f7f9cd36256c4bbe[m
+Author: XiaoxiongMeng <117177149+XiaoxiongMeng@users.noreply.github.com>
+Date:   Fri Sep 22 09:37:32 2023 +0800
+
+    Update readme.md
+
+[33mcommit 0925817d644a8e189cba0bd4ce2660f087696934[m
+Author: XiaoxiongMeng <117177149+XiaoxiongMeng@users.noreply.github.com>
+Date:   Fri Sep 22 09:35:24 2023 +0800
+
+    Add files via upload
+
+[33mcommit 0c2daf3293af9f16d81f32e02f6e75123732f810[m
+Author: XiaoxiongMeng <117177149+XiaoxiongMeng@users.noreply.github.com>
+Date:   Fri Sep 22 09:34:58 2023 +0800
+
+    Update readme.md
+
+[33mcommit 3353009a188de1398b521706c3c5c4ed5d93d602[m
+Author: XiaoxiongMeng <117177149+XiaoxiongMeng@users.noreply.github.com>
+Date:   Fri Sep 22 09:34:21 2023 +0800
+
+    Create readme.md
+
+[33mcommit a52ed44f9f791b21d4190d29480fae7051ee45d3[m
+Author: flying_pig <1839976096@qq.com>
+Date:   Fri Sep 22 08:57:11 2023 +0800
+
+    add: complete work2
+
+[33mcommit 317666dcf18e564b9a5b83a06699cd0f697fd637[m
+Author: flying_pig <1839976096@qq.com>
+Date:   Fri Sep 22 08:48:10 2023 +0800
+
+    add: complete work2
+
+[33mcommit 2147107755fcb8457921b0489c77cf98b99af21b[m
+Author: sty <1412406820@qq.com>
+Date:   Fri Sep 22 02:57:00 2023 +0800
+
+    add: complete work1
+
+[33mcommit 97970b8eafab2c2e0d0c9410fcdc2558097a3380[m
+Author: Poldroc <222200331@fzu.edu.cn>
+Date:   Fri Sep 22 01:40:08 2023 +0800
+
+    feat: round-3 and round-4
+
+[33mcommit 52fe5a29067846040d2c640fe05a9de591993784[m
+Merge: 2936f8d 2b283b8
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Fri Sep 22 01:16:35 2023 +0800
+
+    Merge pull request #18 from mewchao/main
+    
+    222200231 - work1 and work2
+
+[33mcommit 2b283b8ae1cc4a78f1c980d4d543e76a17fc323b[m
+Author: youjunchao <2835190741@qq.com>
+Date:   Thu Sep 21 23:52:08 2023 +0800
+
+    fix Localdate还不会用 bonus未完成
+
+[33mcommit 7833c1b5031a52ffabafbcfabe26a67ce6f47843[m
+Merge: 927695a 0ee94f8
+Author: hjisnd <1783718869@qq.com>
+Date:   Thu Sep 21 23:43:31 2023 +0800
+
+    first
+
+[33mcommit 927695a1b11fcf0dcdfab16b149bca6fd83520a5[m
+Author: hjisnd <1783718869@qq.com>
+Date:   Thu Sep 21 23:37:31 2023 +0800
+
+    first
+
+[33mcommit 0ee94f86b637460cc96f56973757ca89dd22e52c[m
+Author: hjisnd <1783718869@qq.com>
+Date:   Thu Sep 21 23:22:23 2023 +0800
+
+    123
+
+[33mcommit dda7a98c4a2d2176fb18d287870e2a39741604ac[m
+Author: hjisnd <1783718869@qq.com>
+Date:   Thu Sep 21 23:14:17 2023 +0800
+
+    first
+
+[33mcommit ee4e1818508c43ccf0b305df05dc9d67b5c0263b[m
+Author: cleverDY <124947672+cleverDY@users.noreply.github.com>
+Date:   Thu Sep 21 22:14:37 2023 +0800
+
+    Create Test.java
+    
+    测试主函数
+
+[33mcommit ddf96534282c521508512641ed2bf39c17f482d9[m
+Author: cleverDY <124947672+cleverDY@users.noreply.github.com>
+Date:   Thu Sep 21 22:13:11 2023 +0800
+
+    Delete work1/dy/test
+
+[33mcommit df5dcc0cf2ec7d3dea4ecb9f4a6be2163618f3a9[m
+Author: cleverDY <124947672+cleverDY@users.noreply.github.com>
+Date:   Thu Sep 21 22:12:44 2023 +0800
+
+    Booth.java
+
+[33mcommit c9d008dbaa81f88411c9c4539f733a9d9b42b177[m
+Author: cleverDY <124947672+cleverDY@users.noreply.github.com>
+Date:   Thu Sep 21 22:09:12 2023 +0800
+
+    Add files via upload
+
+[33mcommit a77c9113aaf8048b4e5d09b62903174fdd8db124[m
+Author: cleverDY <124947672+cleverDY@users.noreply.github.com>
+Date:   Thu Sep 21 21:49:15 2023 +0800
+
+    Add files via upload
+
+[33mcommit 98ec9da2e049c27e57c162fa199ba9c89f551cf6[m
+Author: Ben <1091122371@qq.com>
+Date:   Thu Sep 21 21:13:36 2023 +0800
+
+    add:complete work1
+
+[33mcommit d33de5556f95ee50eb70261904a7c5db930f1a9c[m
+Author: HYJokerr <1260150988@qq.com>
+Date:   Thu Sep 21 16:38:55 2023 +0800
+
+    add:complete work1
+
+[33mcommit d81831445fe355a3c95d957916123b40e586157b[m
+Author: YanKKun <1208008152@qq.com>
+Date:   Thu Sep 21 15:07:59 2023 +0800
+
+    add: complete work1
+
+[33mcommit 01a2b7d67aa37aba6190d6afa241511ff3a19bad[m
+Author: YanKKun <1208008152@qq.com>
+Date:   Thu Sep 21 14:58:28 2023 +0800
+
+    add: complte work 1
+
+[33mcommit 9f4db5e99fa29be5ba7459c0ab1a3cc4dcd0b900[m
+Author: CliPg <775075825@qq.com>
+Date:   Wed Sep 20 23:40:35 2023 +0800
+
+    add: complete work1
+
+[33mcommit 628310ac98726a0debec9a9f89a677bf21e0555d[m
+Author: xiaopan <666@qq.com>
+Date:   Wed Sep 20 22:20:32 2023 +0800
+
+    add: complete work1
+
+[33mcommit 2936f8d7c9f87f487de4b5f558abd0a6f3a331d9[m
+Merge: 1abf6f3 71d36e8
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Wed Sep 20 20:53:10 2023 +0800
+
+    Merge pull request #13 from hh404358/main
+    
+    222200404 - work1 and work2
+
+[33mcommit 1abf6f3ab4f74d0c5d64288d53dbf8b9c67820d4[m
+Merge: 186b4c7 9e1dd80
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Wed Sep 20 20:48:07 2023 +0800
+
+    Merge pull request #20 from west2-online-reserve/Poldroc-patch-1
+    
+    feat: add README.md in work1
+
+[33mcommit 9e1dd80e75fc4d5f63d902fe16fd1e121d43fa18[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Wed Sep 20 20:47:41 2023 +0800
+
+    feat: add README.md in work1
+
+[33mcommit 186b4c71fc709476fa016d27f24be8895103a38f[m
+Merge: 13082ad cc2a754
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Wed Sep 20 20:46:31 2023 +0800
+
+    Merge pull request #16 from XWBN/main
+    
+    222200329 - work1
+
+[33mcommit 477367729646f271c8fb045bad745807d4089c4d[m
+Author: Jst599 <141469025+Jst599@users.noreply.github.com>
+Date:   Wed Sep 20 20:14:44 2023 +0800
+
+    feat: add work1
+
+[33mcommit e446f60ac5e4813ba21c46f75e5d7a8fb25f5acb[m
+Author: cleverDY <124947672+cleverDY@users.noreply.github.com>
+Date:   Wed Sep 20 20:12:05 2023 +0800
+
+    Create test
+
+[33mcommit acff81c0e22967c9e96dadeba684b307657da52c[m
+Author: cleverDY <124947672+cleverDY@users.noreply.github.com>
+Date:   Wed Sep 20 20:09:01 2023 +0800
+
+    Delete work1/dy
+
+[33mcommit c39df7088ae92d8ace33e2290605544d5701afea[m
+Author: cleverDY <124947672+cleverDY@users.noreply.github.com>
+Date:   Wed Sep 20 20:06:59 2023 +0800
+
+    Create dy
+    
+    java
+
+[33mcommit 1ac35c064c78147513e3d7bcb96f8da170d559bc[m
+Author: youjunchao <2835190741@qq.com>
+Date:   Wed Sep 20 19:59:48 2023 +0800
+
+    fix
+
+[33mcommit cc2a7546d74ffd4c4983465a71e97b3463f4ad68[m
+Author: XWBN <2919927699@qq.com>
+Date:   Tue Sep 19 23:37:39 2023 +0800
+
+    delete work2.iml
+
+[33mcommit b90ac8d8a8f296fa8d76e67b4af3037bd6b197aa[m
+Author: XWBN <2919927699@qq.com>
+Date:   Tue Sep 19 23:00:25 2023 +0800
+
+    delete collection.java.iml
+
+[33mcommit ad66248e0257b1ca287d4a79804657ac92cf64bb[m
+Author: XWBN <2919927699@qq.com>
+Date:   Tue Sep 19 22:57:37 2023 +0800
+
+    delete Project.iml
+
+[33mcommit 086cf90bc3c092f01086a8ff13631e86709179ee[m
+Author: youjunchao <2835190741@qq.com>
+Date:   Mon Sep 18 20:47:09 2023 +0800
+
+    second(exception) add some classes
+
+[33mcommit 97dc01b044a2477fcb735d45b06d9e21af8e58ec[m
+Author: youjunchao <2835190741@qq.com>
+Date:   Mon Sep 18 20:10:54 2023 +0800
+
+    firstcommit(*)  add some classes
+
+[33mcommit 4717868925556d7d500412b1f3dc73bf8c24c48e[m
+Author: X-WB <2919927699@qq.com>
+Date:   Mon Sep 18 19:21:22 2023 +0800
+
+    fix: work1
+
+[33mcommit 2460eb3fad03aca1e6debe5fde276b2c48cf7237[m
+Author: X-WB <2919927699@qq.com>
+Date:   Mon Sep 18 19:19:13 2023 +0800
+
+    fix: work1
+
+[33mcommit 71d36e80815c93457fbd3b4a23ed9ddb6bab49d8[m
+Author: hh404358 <122706641+hh404358@users.noreply.github.com>
+Date:   Mon Sep 18 19:11:58 2023 +0800
+
+    add: complete work2
+
+[33mcommit 9323243386a7bbadb91f959fb6e5ad90d9077a76[m
+Author: hh404358 <122706641+hh404358@users.noreply.github.com>
+Date:   Mon Sep 18 19:09:51 2023 +0800
+
+    Delete work2/hh404358 directory
+
+[33mcommit 2b00b9605d799c1aa9b3a035d1029f23f23d7927[m
+Author: X-WB <2919927699@qq.com>
+Date:   Mon Sep 18 12:30:41 2023 +0800
+
+    add: complete work1
+
+[33mcommit c1e1c2fa70e1b174237b022536e3b7d0910ae0b5[m
+Author: 枭笙 <1278700966@qq.com>
+Date:   Sun Sep 17 21:56:49 2023 +0800
+
+    add:complete work1,work2
+
+[33mcommit a2d7182fc1ae52bfc637330a297c04fb6f279901[m
+Author: youjunchao <2835190741@qq.com>
+Date:   Sun Sep 17 16:47:05 2023 +0800
+
+    first(*):add a booth class
+
+[33mcommit b74429552aef40ae01a926fff50480b7a8d40488[m
+Author: X-WB <2919927699@qq.com>
+Date:   Sun Sep 17 00:50:21 2023 +0800
+
+    fix: package name
+
+[33mcommit 318690f941ff0b728051efe53e126965c591ca1f[m
+Author: X-WB <2919927699@qq.com>
+Date:   Sun Sep 17 00:40:47 2023 +0800
+
+    add: complete work1
+
+[33mcommit 8d6893067911d39738a48ce7a1983a19e63483c8[m
+Author: hh404358 <122706641+hh404358@users.noreply.github.com>
+Date:   Sat Sep 16 20:59:53 2023 +0800
+
+    add : complete work2
+
+[33mcommit 1931642cd63d9f146a6b7fd9b1cae8a0aaa7a9f4[m
+Author: hh404358 <122706641+hh404358@users.noreply.github.com>
+Date:   Sat Sep 16 20:59:06 2023 +0800
+
+    Delete work2/hh404358 directory
+
+[33mcommit d9693c63eb1e21e48163b93ca4498631763620eb[m
+Author: hh404358 <122706641+hh404358@users.noreply.github.com>
+Date:   Sat Sep 16 20:15:43 2023 +0800
+
+    Update MyAnimalShop.java
+
+[33mcommit 5c2718995ab6aa18dfbc4d5bcd63e07fc0e343c4[m
+Author: hh404358 <122706641+hh404358@users.noreply.github.com>
+Date:   Sat Sep 16 20:02:31 2023 +0800
+
+    add: complete work1
+
+[33mcommit 54ebfca530637053a74ac4419de8a545f6a94297[m
+Author: hh404358 <122706641+hh404358@users.noreply.github.com>
+Date:   Sat Sep 16 19:55:22 2023 +0800
+
+    Delete work1/hh404358 directory
+
+[33mcommit dbba4c6520ffe04c721a4d58ec4b0a8562528111[m
+Author: hh404358 <122706641+hh404358@users.noreply.github.com>
+Date:   Sat Sep 16 19:49:31 2023 +0800
+
+    Update Bonus.java
+
+[33mcommit 13082ad74a0b90b938678bb4418b86c13ac9d61f[m
+Merge: 3d40a68 4eed78e
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Fri Sep 15 20:48:05 2023 +0800
+
+    Merge pull request #15 from qsADXS/main
+    
+    072203218 - work1
+
+[33mcommit 522f0ca9dc7e77ee67aeb90e6bb367cac9f91a9d[m
+Author: hh404358 <122706641+hh404358@users.noreply.github.com>
+Date:   Fri Sep 15 16:07:44 2023 +0800
+
+    leetcode
+
+[33mcommit 042dc147e6f11c0d53281a077437e17fe1340460[m
+Author: hh404358 <122706641+hh404358@users.noreply.github.com>
+Date:   Fri Sep 15 16:04:13 2023 +0800
+
+    pta刷题截图
+
+[33mcommit 4eed78e58fa4aab8b4dfd8de96a2d1947fa37319[m
+Author: qsADXS <936197658@qq.com>
+Date:   Fri Sep 15 12:16:19 2023 +0800
+
+    修改了部分代码，增加了测试代码
+
+[33mcommit 1bb07b5b7b4d777c3060326734062f80ecca17d3[m
+Author: flying_pig <1839976096@qq.com>
+Date:   Fri Sep 15 08:43:29 2023 +0800
+
+    add: complete work2
+
+[33mcommit e6a30423bd44be5d75a13482bc21cccdb8b845f3[m
+Author: flying_pig <1839976096@qq.com>
+Date:   Fri Sep 15 08:40:38 2023 +0800
+
+    add: complete work
+
+[33mcommit 7bed235a73cd43350f625ce0d3005cb3b50b8c91[m
+Author: qsADXS <936197658@qq.com>
+Date:   Thu Sep 14 19:46:19 2023 +0800
+
+    add: complete work1
+
+[33mcommit 585f8f2eed0bd8f087e141be9c9a2877c2d4c48a[m
+Author: flying_pig <1839976096@qq.com>
+Date:   Thu Sep 14 19:42:01 2023 +0800
+
+    add: complete work2
+
+[33mcommit d90c3d9257e3b43deeb86f2721781183fbecb90a[m
+Author: 刘2004 <2770754682@qq.com>
+Date:   Thu Sep 14 17:05:16 2023 +0800
+
+    add:complete work2
+
+[33mcommit 083116612a3c6b3c4d469160b4dfca90ed92b50e[m
+Author: 刘2004 <2770754682@qq.com>
+Date:   Thu Sep 14 16:36:00 2023 +0800
+
+    add: complete work1
+
+[33mcommit 3d40a6859cb853a4a404a3ccd17c9afc46c2165e[m
+Merge: 02f2157 b9ffb6b
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Wed Sep 13 22:01:13 2023 +0800
+
+    Merge pull request #12 from StepthenJun/branch
+    
+    832203307 - work1
+
+[33mcommit 02f21572723df2f4e6b3404790755b300f2625bf[m
+Merge: 8c39f64 7490387
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Tue Sep 12 21:25:55 2023 +0800
+
+    Merge pull request #9 from shaoxiawjc/main
+    
+    102301323 - work2
+
+[33mcommit b9ffb6be7a695df04e53a83379e8f4f38d2c7136[m
+Author: StepthenJun <119308964+StepthenJun@users.noreply.github.com>
+Date:   Tue Sep 12 09:32:40 2023 +0800
+
+    add:complete work1
+    
+    从分支再pr一次
+
+[33mcommit 8c39f64f402308f0b93545e3c67c596e382dfd31[m
+Merge: b65ecda fa855c2
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Mon Sep 11 19:51:00 2023 +0800
+
+    Merge pull request #10 from wyxbnbl555/main
+    
+    832203201 - work1
+
+[33mcommit 749038746b9dd5f75dd31b21006e212569de26ec[m
+Author: shaoxiawjc <wjc2800@163.com>
+Date:   Mon Sep 11 12:59:39 2023 +0800
+
+    add:complete work2
+
+[33mcommit fbfbf8b8c79f1497172741fe8b5e68799705bd7e[m
+Author: shaoxiawjc <wjc2800@163.com>
+Date:   Sun Sep 10 23:15:10 2023 +0800
+
+    add:complete work2
+
+[33mcommit 9917c1bf0d274b3b950bc2379c41686d387558ab[m
+Author: shaoxiawjc <wjc2800@163.com>
+Date:   Sun Sep 10 22:12:23 2023 +0800
+
+    add:complete work2
+
+[33mcommit 7caf9b442bfe432218fba4427d2b2157489427cf[m
+Author: shaoxiawjc <wjc2800@163.com>
+Date:   Sun Sep 10 22:09:49 2023 +0800
+
+    add:complete work2
+
+[33mcommit b65ecda102aa020a0aa608df7681b0b0d6983b1a[m
+Merge: 62e140c ddf56b1
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Sun Sep 10 21:34:18 2023 +0800
+
+    Merge pull request #7 from baieleven/main
+    
+    832203318 - work1
+
+[33mcommit fa855c2164a3b44356d5e22df07b485649065154[m
+Author: wyxbnbl555 <2308657472@qq.com>
+Date:   Sun Sep 10 21:28:10 2023 +0800
+
+    add: work1
+
+[33mcommit 6ce8d330fcd85eef2d6515d5827448c2f47d7fcb[m
+Author: shaoxiawjc <wjc2800@163.com>
+Date:   Sun Sep 10 18:26:00 2023 +0800
+
+    add:complete work2
+
+[33mcommit ddf56b112a7f2083c3065d7fb1a2de828a8dd3cd[m
+Author: baieleven <624941850@qq.com>
+Date:   Sun Sep 10 17:03:58 2023 +0800
+
+    add: complete work1
+
+[33mcommit 2d36885c9424bcb16c0040d1ef34ed95bde8c515[m
+Author: baieleven <624941850@qq.com>
+Date:   Sun Sep 10 16:35:56 2023 +0800
+
+    add: complete work1
+
+[33mcommit 62e140c2fe389a036b172f6c055dbcef1aa52832[m
+Merge: 402b668 2ea0b62
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Sun Sep 10 15:58:59 2023 +0800
+
+    Merge pull request #4 from DavidBao03/main
+    
+    832203229 - work1 and work2
+
+[33mcommit 402b6682c232ed5ef83c98cf36d188d9221f4e6c[m
+Merge: e89af60 0d17ae0
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Sun Sep 10 13:12:32 2023 +0800
+
+    Merge pull request #2 from shaoxiawjc/main
+    
+    102301323 - work1
+
+[33mcommit 2ea0b62872c70ea2c9f92d73618a5b7730272c56[m
+Author: DavidBao003 <1353406961@qq.com>
+Date:   Sat Sep 9 20:18:49 2023 +0800
+
+    完善了代码中不会更新客户最新到达时间的问题
+
+[33mcommit 7fb94f40e46728655c8e521ba17dc7d5f9340422[m
+Author: DavidBao003 <1353406961@qq.com>
+Date:   Sat Sep 9 01:09:42 2023 +0800
+
+    add: complete for both work1 and work2 with the second try
+
+[33mcommit 96ff7a84b739fe5405a27ac52c863e8033619a6a[m
+Author: DavidBao03 <121073073+DavidBao03@users.noreply.github.com>
+Date:   Sat Sep 9 00:53:24 2023 +0800
+
+    Delete UpdateBooth
+
+[33mcommit 56116199988416eb52d9f583e0b1ef7e0a7cfef1[m
+Author: DavidBao03 <121073073+DavidBao03@users.noreply.github.com>
+Date:   Sat Sep 9 00:51:43 2023 +0800
+
+    SecondBooth.java
+
+[33mcommit c64c1a44a5a13c53d9885ef77f412b35e87f74bc[m
+Author: DavidBao03 <121073073+DavidBao03@users.noreply.github.com>
+Date:   Sat Sep 9 00:30:46 2023 +0800
+
+    Update Booth.java
+
+[33mcommit 0d17ae07984ba771dd37414d267012674547ddf6[m
+Author: shaoxiawjc <wjc2800@163.com>
+Date:   Fri Sep 8 12:51:06 2023 +0800
+
+    add:complete work1
+
+[33mcommit 31901ca2b3a308c5ca2401b79ecff2f71ae1dcde[m
+Author: shaoxiawjc <wjc2800@163.com>
+Date:   Thu Sep 7 23:29:27 2023 +0800
+
+    add:complete work1
+
+[33mcommit 1d3c947e94c12d7d031c772ccdad987e93122d41[m
+Author: shaoxiawjc <wjc2800@163.com>
+Date:   Thu Sep 7 22:52:25 2023 +0800
+
+    add:complete work1
+
+[33mcommit bd1fa6046c28644507a89582ab3b4efbd537faa7[m
+Author: shaoxiawjc <wjc2800@163.com>
+Date:   Thu Sep 7 22:39:06 2023 +0800
+
+    102301323 add:complete work1
+
+[33mcommit e89af6023d7105096c53459f2ce1c6af290a4090[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Sep 7 21:43:40 2023 +0800
+
+    fix: README.md
+
+[33mcommit 1ad9da089b8fc8a5acc729af41cbebb94bf07204[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Thu Sep 7 21:32:57 2023 +0800
+
+    fix: README.md
+
+[33mcommit 4798b5e9f64ba1183911a1b912fd7174ec5e12ce[m
+Author: DavidBao003 <1353406961@qq.com>
+Date:   Wed Sep 6 12:17:38 2023 +0800
+
+    add: complete work2
+
+[33mcommit 684d147c076f18d57ac14fe373f6bf22333c3506[m
+Author: DavidBao003 <1353406961@qq.com>
+Date:   Wed Sep 6 12:14:25 2023 +0800
+
+    add: work1 complete
+
+[33mcommit 9658348dec44e3f8bfbb0ca73d7959fabe69b674[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Wed Sep 6 11:53:00 2023 +0800
+
+    Update .gitignore
+
+[33mcommit 1b3c6b249e009219025aa523c1a581cc53a470e6[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Wed Sep 6 11:52:08 2023 +0800
+
+    Update .gitignore
+
+[33mcommit 6348d40284ff3cb49e5d621f8a5d599806b6dc67[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Wed Sep 6 11:48:30 2023 +0800
+
+    Update CodeQL.yaml
+
+[33mcommit f7cc19e52fecc95d9b868d822c2f261d4fed8a2e[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Wed Sep 6 08:24:14 2023 +0800
+
+    Update README.md
+
+[33mcommit d4c7479317f64864b3df6c024799e41f705efaae[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Wed Sep 6 08:23:56 2023 +0800
+
+    Update README.md
+
+[33mcommit 740849f2becdb7665791e134cb32b19483ef9b09[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Wed Sep 6 08:22:54 2023 +0800
+
+    Update README.md
+
+[33mcommit 692e9f42b5fa4edd219d8ace3fc942beb97dbcf7[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Wed Sep 6 08:15:30 2023 +0800
+
+    Update README.md
+
+[33mcommit d3d85dc1e1144ab8a902a85e17e7fda66dc6e80f[m
+Author: 翁鹏 <222200331@fzu.edu.cn>
+Date:   Wed Sep 6 08:12:30 2023 +0800
+
+    Initial commit

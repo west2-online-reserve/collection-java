@@ -6,7 +6,8 @@
  */
 public class Cat extends Animal {
     public Cat(String name, int age, String sex, double price) {
-        super(name, age, sex, 200);
+        //fix_bug: price constantly equals certain value
+        super(name, age, sex, price);
     }
 
     @Override

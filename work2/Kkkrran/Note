@@ -12,3 +12,37 @@ equal()可能被重写，
 
 instanceof判断A是否能被转化为B，
 即(B.getClass().getSimpleName()) A会抛出异常，则返回false
+
+throws 关键字
+throws 关键字用于在方法声明中指定该方法可能抛出的异常。
+当方法内部抛出指定类型的异常时，
+该异常会被传递给调用该方法的代码，并在该代码中处理异常。
+
+例如，下面的代码中，当 readFile 方法内部发生 IOException 异常时，
+会将该异常传递给调用该方法的代码。
+在调用该方法的代码中，**必须**捕获或声明处理 IOException 异常。
+
+实例
+public void readFile(String filePath) throws IOException {
+  BufferedReader reader = new BufferedReader(new FileReader(filePath));
+  String line = reader.readLine();
+  while (line != null) {
+    System.out.println(line);
+    line = reader.readLine();
+  }
+  reader.close();
+}
+一个方法可以声明抛出多个异常，多个异常之间用逗号隔开。
+
+例如，下面的方法声明抛出 RemoteException 和 InsufficientFundsException：
+
+import java.io.*;
+public class className
+{
+   public void withdraw(double amount) throws RemoteException,
+                              InsufficientFundsException
+   {
+       // Method implementation
+   }
+   //Remainder of class definition
+}

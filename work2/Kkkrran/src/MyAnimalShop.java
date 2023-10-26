@@ -14,6 +14,7 @@ public class MyAnimalShop implements AnimalShop {
     private double profit = 0.0;
     private MyLinkedList<Animal> animals = new MyLinkedList<>();
     private boolean isOpen = false;
+    private boolean ifPrintAnimals;
     private double totalSales;
     private int totalAnimalSoldNum;
     private HashMap<Animal, Customer> ownerList = new HashMap<>();
@@ -50,8 +51,10 @@ public class MyAnimalShop implements AnimalShop {
         if (animals.isEmpty()) {
             throw new AnimalNotFoundException("抱歉，本店没有宠物在售。");
         }
+        if(ifPrintAnimals){
+            printAnimals();
+        }
 
-        printAnimals();
         selling(c, typeOfAnimal);
     }
 
@@ -66,6 +69,8 @@ public class MyAnimalShop implements AnimalShop {
 
                 balance += a.getPrice();
                 animals.remove(a);
+                // fix_bug: miss "break;"
+                break;
 
             }
         }
@@ -128,6 +133,9 @@ public class MyAnimalShop implements AnimalShop {
 
     public boolean isOpen() {
         return isOpen;
+    }
+    public void setIfPrintAnimals(boolean b){
+        ifPrintAnimals = b;
     }
 
 

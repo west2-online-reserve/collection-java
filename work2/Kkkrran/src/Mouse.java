@@ -8,7 +8,8 @@ public class Mouse extends Animal {
     protected double weight;
 
     public Mouse(String name, int age, String sex, double price, double weight) {
-        super(name, age, sex, 20);
+        //fix_bug: price constantly equals 20.0
+        super(name, age, sex, price);
         this.weight = weight;
     }
 

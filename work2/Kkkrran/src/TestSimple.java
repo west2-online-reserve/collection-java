@@ -21,6 +21,7 @@ public class TestSimple {
         Animal mouse1 = new Mouse("Bally", 1, "male", 80, 40);
         Animal mouse2 = new Mouse("Roller", 1, "female", 100, 45);
 
+        shop.setIfPrintAnimals(true);
         // 必须先getMoney再open，否则profit无法正常计算
         shop.getMoney(20000.00);
         shop.open();
