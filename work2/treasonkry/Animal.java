@@ -3,11 +3,11 @@ public abstract class Animal {
     protected int age;
     protected char sex;
     protected double price;
-    public Animal(){
-        this.price = getPrice();
-        this.sex = getSex();
-        this.age = getAge();
-        this.name = getName();
+    public Animal(double price,char sex,int age,String name){
+        this.price = price;
+        this.sex = sex;
+        this.age = age;
+        this.name = name;
     }
 
 

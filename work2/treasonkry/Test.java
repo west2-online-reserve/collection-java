@@ -10,14 +10,8 @@ public class Test {
         myAnimalShop.isOpened = true;
         myAnimalShop.dayEarning = 0;
         //动物的实例
-        Dog dog1 = new Dog();
-        dog1.setName("a");
-        dog1.setSex('公');
-        dog1.setAge(2);
-        Animal cat1 = new Cat();
-        cat1.setName("aa");
-        cat1.setAge(1);
-        cat1.setSex('母');
+        Dog dog1 = new Dog('公',2,"a",true);
+        Animal cat1 = new Cat('母',1,"aa");
 
         //测试买入
         try {
