@@ -8,9 +8,9 @@ import java.util.Scanner;
 public class MyAnimalShop implements AnimalShop {
     // 成员变量
     protected double balance;
-    ArrayList<Animal> animalList = new ArrayList<Animal>();
+    protected ArrayList<Animal> animalList = new ArrayList<Animal>();
     //顾客的列表
-    ArrayList<Customer> customerList = new ArrayList<Customer>();
+    protected ArrayList<Customer> customerList = new ArrayList<Customer>();
     protected boolean isOpen;
 
     public double profit = 0;
@@ -32,7 +32,7 @@ public class MyAnimalShop implements AnimalShop {
     public void setOpen(boolean open) {
         isOpen = open;
     }
-
+    @Override
     // 实现接口中的方法
     public void buyAnimal(Animal a) {
         try {
@@ -49,7 +49,7 @@ public class MyAnimalShop implements AnimalShop {
     }
 
 
-
+    @Override
     public void serveCustomer(Customer customer,int i) {
         if (!isOpen) {
             System.out.println("宠物店已歇业，无法招待客户。");
@@ -79,7 +79,7 @@ public class MyAnimalShop implements AnimalShop {
             System.out.println(e);
         }
     }
-
+    @Override
     public void closeShop() {
         if (isOpen) {
             isOpen = false;
