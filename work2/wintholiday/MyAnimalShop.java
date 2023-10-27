@@ -1,17 +1,20 @@
 package work2;
 
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
+
 
 public class MyAnimalShop implements AnimalShop {
     protected double balance;
+    protected double profit;
     protected List<Animal> animalList;
     protected List<Customer> customerList;
     protected boolean isOpen;
 
     public MyAnimalShop(double balance) {
         this.balance = balance;
+        this.profit = profit;
         this.animalList = new ArrayList<>();
         this.customerList = new ArrayList<>();
         this.isOpen = true;
@@ -20,7 +23,8 @@ public class MyAnimalShop implements AnimalShop {
     @Override
     public void buyAnimal(Animal animal) throws InsufficientBalanceException {
         if (animal.getPrice() > balance) {
-            throw new InsufficientBalanceException("余额不够买动物");
+
+            throw new InsufficientBalanceException("余额不足买动物");
         }
 
         animalList.add(animal);
@@ -34,13 +38,19 @@ public class MyAnimalShop implements AnimalShop {
         }
 
         System.out.println("接待顾客: " + customer.toString());
+        System.out.println("现有动物编号为"+(animalList.size()-1)+"顾客购买的动物编号为编号为");
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        if (n>=animalList.size()){
+            throw new AnimalNotFoundException("该动物卖了,重新输");
+        }
+            Animal animal = animalList.remove(n);
 
-        Animal animal = animalList.remove(0);
+            System.out.println("卖掉动物: " + animal.toString());
 
-        System.out.println("卖掉动物: " + animal.toString());
+            customerList.add(customer);
+            profit += animal.getPrice();
 
-        customerList.add(customer);
-        balance += animal.getPrice();
     }
 
     @Override
@@ -50,19 +60,10 @@ public class MyAnimalShop implements AnimalShop {
         for (Customer customer : customerList) {
             System.out.println(customer.toString());
         }
-        double profit = 5000-balance;
+
         System.out.println("卖了 " + profit);
     }
 }
 
-class AnimalNotFoundException extends RuntimeException {
-    public AnimalNotFoundException(String message) {
-        super(message);
-    }
-}
 
-class InsufficientBalanceException extends RuntimeException {
-    public InsufficientBalanceException(String message) {
-        super(message);
-    }
-}
+
