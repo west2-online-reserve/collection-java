@@ -6,3 +6,5 @@
 3.MyAnimalShop中调整了new scanner和sc.close的位置。
 4.移除了一些无关变量
 5.赋予了一些原来没有给权限的变量private权限。
+10.25第二次修改：
+新增了部分变量的权限。
