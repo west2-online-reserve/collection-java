@@ -24,7 +24,7 @@ public abstract  class Animal {
         this.sex= sex;
         this.cost=cost;
     }
-
+@override
     public abstract String toString ();
 
 
