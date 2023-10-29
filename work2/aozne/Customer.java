@@ -5,7 +5,7 @@
 import java.time.LocalDate;
 
 class Customer{
-    public String customerName;
+    private String customerName;
     private int arrivalTimes=0;
     private LocalDate localDate;
 
@@ -24,6 +24,12 @@ class Customer{
     }
     public int getArrivalTimes(){
         return arrivalTimes;
+    }
+    public void setCustomerName(){
+        this.customerName=customerName;
+    }
+    public String getCustomerName(){
+        return customerName;
     }
     public Customer(String customerName,int arrivalTimes){
         this.customerName=customerName;

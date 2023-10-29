@@ -16,11 +16,11 @@ class ChineseRuralDog extends Animal{
 
     @Override
     public double getAnimalPrice() {
-        return 100;
+        return  animalPrice;
     }
     @Override
     public double getAnimalCost(){
-        return 50;
+        return animalPrice;
     }
     @Override
     public String toString() {

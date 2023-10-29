@@ -79,7 +79,7 @@ class MyAnimalShop implements AnimalShop{
             System.out.println("余额还有"+getMoney());
         }
     }
-//招待客人 并 实现购买！
+// 招待客人并实现购买！
     @Override
     public void hello(Customer customer) {
         customers.add(customer);
@@ -92,7 +92,7 @@ class MyAnimalShop implements AnimalShop{
             throw new AnimalNotFoundException("本店宠物已经卖光了，请明天再来吧");
         }
         else {
-            System.out.println("欢迎" + customer.customerName + "光临");
+            System.out.println("欢迎" + customer.getCustomerName() + "光临");
             System.out.println("以下为本店所有的宠物");
             for (Animal animal : animals) {
                 System.out.println(animal);
@@ -101,7 +101,7 @@ class MyAnimalShop implements AnimalShop{
             int options = sc.nextInt();
             switch (options) {
                 case 1:
-                    // 顾客最新到店时间和到店次数
+                    // 设置顾客最新到店时间和到店次数
                     customer.setArrivalTimes(customer.getArrivalTimes());
                     customer.setLocalDate(LocalDate.now());
                     System.out.println("请输入你要买的数量");
