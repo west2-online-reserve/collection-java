@@ -3,7 +3,7 @@ public class Test {
         MyAnimalShop shop1 = new MyAnimalShop(300);
         Dog dog1 = new Dog("Doggo", 1, "公", true);
         Dog dog2 = new Dog("Doggy", 2, "母", true);
-        Cat cat1 = new Cat("mewww", 3, "母", true);
+        Cat cat1 = new Cat("mewww", 3, "母");
 
         Customer customer1 = new Customer("张三");
         Customer customer2 = new Customer("李四");

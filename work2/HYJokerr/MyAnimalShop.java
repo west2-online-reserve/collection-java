@@ -79,15 +79,17 @@ public class MyAnimalShop implements AnimalShop{
         if(customerArrayList.isEmpty()){
             customerArrayList.add(customer);
         }else {
+            boolean flag = false;
             for (int i = 0; i < customerArrayList.size(); i++) {
                 if (customer.getName() == customerArrayList.get(i).getName()) {
                     customerArrayList.get(i).addTimes();
                     customerArrayList.get(i).setDate();
-                } else {
-                    customerArrayList.add(customer);
+                    flag = true;
                     break;
-                };
-
+                }
+            }
+            if(!flag){
+                customerArrayList.add(customer);
             }
         }
 
