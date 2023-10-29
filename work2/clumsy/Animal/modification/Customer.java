@@ -10,7 +10,6 @@ public class Customer {
     public Customer(String name,int nums) {
         this.name = name;
         this.nums=nums;
-        this.time=LocalDate.now();
     }
 
 

@@ -14,12 +14,14 @@ import java.util.LinkedList;
 
 public class MyAnimalShop implements AnimalShopinterface {
     private double Shopbalance;
-    private double balance;//初始费用
+    private double balance;
+    //初始费用
     private ArrayList<Animal> AnimalList=new ArrayList<Animal>();
     private LinkedList<Customer> CustomerList=new LinkedList<Customer>();
     private boolean isClosed;
     private LocalDate time;
-    private static DateFormat df=DateFormat.getDateTimeInstance();//DateFormat 用来输出标准时间。
+    private static DateFormat df=DateFormat.getDateTimeInstance();
+    //DateFormat 用来输出标准时间。
     private final double profit=0;
 
 
@@ -59,11 +61,13 @@ public class MyAnimalShop implements AnimalShopinterface {
         }
         else{
             double totalMenoy=d.getPrice()*num;
-            if (Shopbalance>=totalMenoy){//买进的宠物添加在列表里
-                Shopbalance=Shopbalance-totalMenoy;//扣除费用
-                for (int i=1;i<=num;i++){//添加买进的动物
+            if (Shopbalance>=totalMenoy){
+                Shopbalance=Shopbalance-totalMenoy;
+                //扣除费用
+                for (int i=1;i<=num;i++){
                     AnimalList.add(d);
                 }
+                //买进的宠物添加在列表里
                 System.out.println("购买成功，买进"+num+"只"+d.toString("mi"));//toString重载 方法是输出买进动物信息，买进动物进价给店长看。
                 System.out.println("余额是"+Shopbalance);
                 System.out.println("_______________");
@@ -81,17 +85,21 @@ public class MyAnimalShop implements AnimalShopinterface {
     @Override
     public void treat(Customer s, Animal pet) {
         try {
-            if (isClosed){//是否开门
+            if (isClosed){
                 System.out.println("抱歉，本店已经打样");
             }
+            //是否开门
             else {
                 System.out.println("用户到店时间是"+df.format(new Date()));
+                s.setTime(LocalDate.now());
                 //顾客到店时间
-                System.out.println("欢迎"+s.getName()+"光临本宠物店");//欢迎顾客
+                System.out.println("欢迎"+s.getName()+"光临本宠物店");
+                //欢迎顾客
                 CustomerList.add(s);
-                if (AnimalList.isEmpty()) {//是否还有宠物
+                if (AnimalList.isEmpty()) {
                     throw new AnimalNotFountException("抱歉，本店宠物已经售空");
                 }
+                //是否还有宠物
                 else {
                     if (!AnimalList.contains(pet)){
                         System.out.println("抱歉，本店此宠物已经售空，您可挑选其他宠物，其他宠物如下：");
@@ -102,7 +110,8 @@ public class MyAnimalShop implements AnimalShopinterface {
                         System.out.println("顾客请您支付"+pet.price*2);
                         Shopbalance=Shopbalance+pet.price*2;
                         AnimalList.remove(pet);
-                        System.out.println("购买成功，宠物信息如下："+"\n"+pet.toString());//toString 方法是输出售卖价格给用户看。
+                        System.out.println("购买成功，宠物信息如下："+"\n"+pet.toString());
+                        //toString 方法是输出售卖价格给用户看。
                         s.setNums(s.getNums()+1);
                         //增加顾客到店次数，在顾客信息中，isclose中输出
                         }
