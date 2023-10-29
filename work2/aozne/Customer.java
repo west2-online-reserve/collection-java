@@ -19,14 +19,8 @@ class Customer{
     public LocalDate localDate(){
         return localDate;
     }
-    public void setArrivalTimes(){
-        this.arrivalTimes=arrivalTimes;
-    }
     public int getArrivalTimes(){
         return arrivalTimes;
-    }
-    public void setCustomerName(){
-        this.customerName=customerName;
     }
     public String getCustomerName(){
         return customerName;

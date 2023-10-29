@@ -102,7 +102,7 @@ class MyAnimalShop implements AnimalShop{
             switch (options) {
                 case 1:
                     // 设置顾客最新到店时间和到店次数
-                    customer.setArrivalTimes(customer.getArrivalTimes());
+                    customer.setArrivalTimes(customer.getArrivalTimes()+1);
                     customer.setLocalDate(LocalDate.now());
                     System.out.println("请输入你要买的数量");
                     int num0 = sc.nextInt();
@@ -133,7 +133,7 @@ class MyAnimalShop implements AnimalShop{
                     }
                 case 2:
                     // 顾客最新到店时间和到店次数
-                    customer.setArrivalTimes(customer.getArrivalTimes());
+                    customer.setArrivalTimes(customer.getArrivalTimes()+1);
                     customer.setLocalDate(LocalDate.now());
                     System.out.println("请输入你要买的数量");
                     int num = sc.nextInt();
