@@ -59,7 +59,7 @@ public class MyAnimalShop extends Animal implements AnimalShop {
         try {
 
 
-            if (customer0.localDateTime.getHour() >= 22 || customer0.localDateTime.getHour() <= 6) {
+            if (customer0.localDateTime.getHour() >= 21 || customer0.localDateTime.getHour() <= 6) {
                 throw new NotOpenException("商店歇业");
             }
 
@@ -90,7 +90,7 @@ public class MyAnimalShop extends Animal implements AnimalShop {
     @Override
     public void close() {
         LocalDateTime localDateTime = LocalDateTime.now();
-        if (localDateTime.getHour() >= 20 || localDateTime.getHour() <= 6) {
+        if (localDateTime.getHour() >= 21 || localDateTime.getHour() <= 6) {
             System.out.println("歇业中");
             System.out.println("利润为" + profit);//输出利润
             for (int i = 0; i < customerArrayList.size(); i++) {//遍历输出顾客列表
