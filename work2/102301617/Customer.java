@@ -3,17 +3,44 @@ import java.time.LocalDate;
 /**
  * @author 102301617
  */
+
 public class Customer {
-   protected String name;
+
+    private String name;
     /**
      * visit:到店次数
-     * */
-    protected int visit;
+     */
+    private int visit;
 
-    protected LocalDate time;
-   @Override
-    public String toString() {
-        return name+visit+time;
+    private LocalDate time;
+
+    public String getName() {
+        return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getVisit() {
+        return visit;
+    }
+
+    public void setVisit(int visit) {
+        this.visit = visit;
+    }
+
+    public LocalDate getTime() {
+        return time;
+    }
+
+    public void setTime(LocalDate time) {
+        this.time = time;
+    }
+
+    @Override
+    public String toString() {
+        return name + visit + time;
+
+    }
 }
