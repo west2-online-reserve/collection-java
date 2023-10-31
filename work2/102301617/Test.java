@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class Test {
@@ -24,8 +23,8 @@ public class Test {
                 while (define == false) {
                     System.out.println("公滴母滴");
 
-                 String type1 = scanner.next();
-                    if (type1.equals(MyAnimalShop.male) || type1.equals(MyAnimalShop.female)) {
+                    String type1 = scanner.next();
+                    if (type1.equals(MyAnimalShop.getMale()) || type1.equals(MyAnimalShop.getFemale())) {
                         Cat cat = new Cat("一只咪", 0, 200, type1);
                         animalShop.perchase(cat);
                         define = true;
@@ -40,8 +39,8 @@ public class Test {
                 Boolean define = false;
                 while (define == false) {
                     String type2 = scanner.next();
-                    if (type2.equals(MyAnimalShop.male) || type2.equals(MyAnimalShop.female)) {
-                        ChineseGardenDog chineseGardenDog = new ChineseGardenDog("修勾", 0, 100, type2);
+                    if (type2.equals(MyAnimalShop.getMale()) || type2.equals(MyAnimalShop.getFemale())) {
+                        ChineseGardenDog chineseGardenDog = new ChineseGardenDog("修勾", 0, 100, type2, true);
                         animalShop.perchase(chineseGardenDog);
                         define = true;
                     } else {
@@ -53,9 +52,9 @@ public class Test {
                 System.out.println("公滴母滴");
                 while (define == false) {
                     String type3 = scanner.next();
-                    if (type3.equals(MyAnimalShop.male) || type3.equals(MyAnimalShop.female)) {
+                    if (type3.equals(MyAnimalShop.getMale()) || type3.equals(MyAnimalShop.getFemale())) {
                         Jerry jerry = new Jerry("鼠", 0, 1000, type3);
-                        animalShop.perchas(jerry);
+                        animalShop.perchase(jerry);
                         define = true;
                     } else {
                         System.out.println("请输入公或者母");
@@ -64,7 +63,7 @@ public class Test {
             } else if (type == 0) {
                 System.out.println("已停止采购");
                 System.out.println("现有动物：");
-                System.out.println(animalShop.list);
+                System.out.println(animalShop.getList());
                 break;
 
             } else {
@@ -78,20 +77,22 @@ public class Test {
         System.out.println("按1招待顾客");
         while (true) {
             int open = scanner.nextInt();
-            if (open==1) {
-           Customer customer= new Customer();
+            if (open == 1) {
+                Customer customer = new Customer();
                 System.out.println("询问得知顾客姓名：");
-           customer.name=scanner.next();
-           animalShop.entertaining(customer);
+                String name = scanner.next();
+                customer.setName(name);
+                animalShop.entertaining(customer);
                 System.out.println("如果想罢工就按2吧");
-            }else if(open==2){
-                break;}
-            else{
+            } else if (open == 2) {
+                break;
+            } else {
                 System.out.println("给我按1！！！");
             }
 
-            }
+        }
         animalShop.close();
 
-        }
     }
+}
+
