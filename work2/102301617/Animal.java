@@ -1,4 +1,3 @@
-
 /***
  * @author 102301617
  *
@@ -7,27 +6,25 @@
 
 
 
-public abstract  class Animal {
+public abstract class Animal {
     protected String name;
     protected int age;
     protected double price;
     protected String sex;
     protected int cost;
-    protected Boolean isVaccinated;
 
-    public Animal(String name, int age, double price,String sex,int cost，Boolean isVaccinated) {
+    public Animal(String name, int age, double price, String sex, int cost) {
         this.name = name;
         this.age = age;
 
-        this.price =  price;
+        this.price = price;
 
-        this.sex= sex;
-        this.cost=cost;
+        this.sex = sex;
+        this.cost = cost;
     }
-@override
-    public abstract String toString ();
 
-
-
-
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
