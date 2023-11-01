@@ -1,6 +1,6 @@
 public class ChineseRuralDog extends Animal {
 
-    //(boolean 是否注射狂犬病疫苗)
+    // (boolean 是否注射狂犬病疫苗)
     private boolean isVaccineInjected;
 
     public ChineseRuralDog(String name, int age, int gender, boolean isVaccineInjected) {
@@ -27,7 +27,7 @@ public class ChineseRuralDog extends Animal {
 
         return str;
     }
-    //打疫苗
+    // 打疫苗
     public void vaccinate(){
         if(!isVaccineInjected){
             isVaccineInjected = true;
