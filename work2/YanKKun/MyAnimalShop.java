@@ -16,10 +16,10 @@ public class MyAnimalShop implements AnimalShop{
     //余额
     private double profits;
     //利润
-    ArrayList<Animal> animalList = new ArrayList<>();
+    private final ArrayList<Animal> animalList = new ArrayList<>();
     //动物列表
 
-    ArrayList<Customer> customerList = new ArrayList<>();
+    private final ArrayList<Customer> customerList = new ArrayList<>();
     //顾客列表
 
     private boolean isOpen;
@@ -73,6 +73,8 @@ public class MyAnimalShop implements AnimalShop{
                     //出售动物
                     customer.setArrivalTimes(customer.getArrivalTimes()+1);
                     //顾客到店次数加一
+                    customer.setLastestArrivalTime(LocalDate.now());
+                    //将顾客到店时间更新为当前时间
                     return;
                 }
             }
