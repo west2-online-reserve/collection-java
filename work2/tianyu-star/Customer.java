@@ -1,9 +1,9 @@
 import java.time.LocalDate;
 
 public class Customer{
-    protected String customerName;
-    protected int frequency;
-    protected LocalDate arrivingTime;
+    private String customerName;
+    private int frequency;
+    private LocalDate arrivingTime;
 
 @Override
         public String toString(){
