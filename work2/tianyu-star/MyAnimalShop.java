@@ -74,51 +74,60 @@ public class MyAnimalShop implements AnimalShop{
 
     @Override
     public void buyAnimal(Animal animal) {//买入动物
+        try{
         if (this.leftMoney < animal.price) {
             throw new InsufficientBalanceException("Such a poor guy don't deserve this pet");
         } else {
             this.leftMoney = this.leftMoney - animal.price;
             this.animalList.add(animal);
         }
+        } catch (InsufficientBalanceException e){
+           e.printStackTrace();
+        }
 
     }
 
     @Override
     public void serviceForCustomer(Customer customer) {
-        this.customerList.add(customer);
-        if (this.animalList.isEmpty()){
-            throw new AnimalNotFountException("there's no animal for you");
-        } else {
-            System.out.println("welcome,please input how many animals you want");
-            Scanner scanner=new Scanner(System.in);
-            int num=scanner.nextInt();
-            if (num==0){
-               System.out.println("you buy nothing");
-             } else {
 
-            System.out.println("please input the animal you want");
-            String[] n =new String[num];
-            for (int k=0;k<num;k++) {
-                n[k] = scanner.next();//记录每个买入的名字，对比字段属性来判断删除哪个
-            }
-                Iterator<Animal> it = this.animalList.iterator();//使用iterator遍历列表，实现遍历时修改列表
-                while (it.hasNext()) {
-                    Animal animal=it.next();
-                    for (int m=0;m<num;m++) {
-                        if (animal.name.equals(n[m])) {
-                            this.leftMoney = this.leftMoney + animal.price + 100;
-                            it.remove();
+        try {
+            if (this.animalList.isEmpty()) {
+                throw new AnimalNotFountException("there's no animal for you");
+            } else {
+                this.customerList.add(customer);
+                System.out.println("welcome,please input how many animals you want");
+                Scanner scanner = new Scanner(System.in);
+                int num = scanner.nextInt();
+                if (num == 0) {
+                    System.out.println("you buy nothing");
+                } else {
+
+                    System.out.println("please input the animal you want");
+                    String[] n = new String[num];
+                    for (int k = 0; k < num; k++) {
+                        n[k] = scanner.next();//记录每个买入的名字，对比字段属性来判断删除哪个
+                    }
+                    Iterator<Animal> it = this.animalList.iterator();//使用iterator遍历列表，实现遍历时修改列表
+                    while (it.hasNext()) {
+                        Animal animal = it.next();
+                        for (int m = 0; m < num; m++) {
+                            if (animal.name.equals(n[m])) {
+                                this.leftMoney = this.leftMoney + animal.price + 100;
+                                it.remove();
+                            }
                         }
+
+
                     }
 
 
-                }
-
-
+                }customer.setArrivingTime(LocalDate.now());
+                System.out.println("thank you for buying");
             }
-            System.out.println("thank you for buying");
+        } catch (AnimalNotFountException a){
+            a.printStackTrace();
         }
-        customer.arrivingTime =LocalDate.now();
+
 
     }
 
@@ -126,7 +135,7 @@ public class MyAnimalShop implements AnimalShop{
     public void stopShopping() {
             double a;
             for (Customer customer: this.customerList){
-                if (customer.arrivingTime.equals(LocalDate.now()))
+                if (customer.getArrivingTime().equals(LocalDate.now()))
                 {
                     System.out.println(customer.toString());
                 }
