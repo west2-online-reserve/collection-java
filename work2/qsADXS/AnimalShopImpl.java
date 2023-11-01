@@ -33,9 +33,8 @@ public class AnimalShopImpl implements AnimalShop {
                 System.out.println("成功进货：" + aAnimal.toString());
                 balance -= aAnimal.getPurchasingCost() * number;
                 System.out.println("余额" + balance);
-            } else {//此处抛出异常类 (InsufficientBalanceException)
+            } else {
                 throw new InsufficientBalanceException("余额不足");
-                //System.out.println("此处应抛出异常类 (InsufficientBalanceException)，别问，问就是还没写");
             }
         } catch (InsufficientBalanceException e) {
             System.out.println(e.toString());
