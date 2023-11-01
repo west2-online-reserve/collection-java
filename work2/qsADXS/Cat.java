@@ -4,7 +4,7 @@ public class Cat extends Animal{
         super(name, age, gender, 200.0,150);
 
     }
-
+    @Override
     public String toString() {
         String str;
         str = "这是一只小猫\n名字：" + super.getName() + "\n年龄：" + super.getAge() + "\n" + "性别：";

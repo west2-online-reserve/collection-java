@@ -7,7 +7,7 @@ public class Chook extends Animal {
         super(name, age, gender, 2.5,0.25);
         this.isDance = isDance;
     }
-
+    @Override
     public String toString() {
         String str;
         str = "这是一只坤\n名字：" + super.getName() + "\n年龄：" + super.getAge() + "\n" + "性别：";

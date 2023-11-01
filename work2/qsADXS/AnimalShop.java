@@ -3,9 +3,9 @@ import java.util.Scanner;
 public interface AnimalShop {
 
 
-    public abstract void buyNewAnimals(Animal aAnimal, int number);
+    void buyNewAnimals(Animal aAnimal, int number);
 
-    public abstract void entertainCustomer();
+    void entertainCustomer();
 
-    public abstract void close();
+    void close();
 }

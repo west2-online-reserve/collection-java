@@ -7,7 +7,7 @@ public class ChineseRuralDog extends Animal {
         super(name, age, gender, 100.0,80);
         this.isVaccineInjected = isVaccineInjected;
     }
-
+    @Override
     public String toString() {
 
         String str;

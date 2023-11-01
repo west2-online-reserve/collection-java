@@ -1,10 +1,12 @@
 public abstract class Animal {
     protected String name;
     protected int age;
-    protected int gender;//0代表雌性，1代表雄性，2代表被嘎蛋的雄性
-
-    protected double price;//售价
-    protected double purchasingCost;//进价
+    // 0代表雌性，1代表雄性，2代表被嘎蛋的雄性
+    protected int gender;
+    // 售价
+    protected double price;
+    // 进价
+    protected double purchasingCost;
 
 
     public Animal(String name, int age, int gender, double price, double purchasingCost) {
@@ -14,6 +16,7 @@ public abstract class Animal {
         this.price = price;
         this.purchasingCost = purchasingCost;
     }
+    @Override
     public abstract String toString();
     public String getName() {
         return name;
