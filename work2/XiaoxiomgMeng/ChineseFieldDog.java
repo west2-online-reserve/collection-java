@@ -5,7 +5,6 @@ public class ChineseFieldDog extends BaseAnimal{
     private final static int PRICE = 100;
 
     private boolean isVaccineInjected;
-    //是否注射疫苗
 
     public ChineseFieldDog(String name, int age, int sex,boolean isVaccineInjected) {
         super(name, age, sex, PRICE);
