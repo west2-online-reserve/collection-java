@@ -1,15 +1,18 @@
-## 项目地址
-    https://github.com/1293978818/collection-java
-## 项目介绍
-* 除Bonus的部分
-    设计了一个自己的宠物店类，包含了买入动物（进货），招待客户（卖货），歇业的方法以及测试类
-* Bonus1
-    运用多线程的思想交替输出两个数组的元素
-* Bonus2
-    运用正则表达式的思想判断一个字符串是否为邮箱
-## 学习记录
-* 学习到了java中面向对象的高级特性例如继承、多态、接口以及接口的实现、异常、ArrayList集合、泛型等等
-* 学习并了解了正则表达式的用法
-* 了解并初步学习了多线程的方法，能够解决一些基础问题
+## Getting Started
 
+Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
+## Folder Structure
+
+The workspace contains two folders by default, where:
+
+- `src`: the folder to maintain sources
+- `lib`: the folder to maintain dependencies
+
+Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+
+> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+
+## Dependency Management
+
+The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).

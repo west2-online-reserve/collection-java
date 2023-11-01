@@ -34,11 +34,14 @@ public class MyAnimalShop implements AnimalShop{
                         System.out.println("出价过低，出售失败");
                         return;
                     }
-                    customers.add(customer);
+                    if (customer.getCustomerVisitTime() == 0){
+                        customers.add(customer);
+                    }
+                    customer.setCustomerVisitTime(customer.getCustomerVisitTime() + 1);
                     restMoney += money;
                     earned += money;
                     System.out.println("出售完成");
-                    System.out.println(animals.get(i).toString());
+                    System.out.println(animals.get(i));
                     animals.remove(i);
                     return;
                 }else if(animal instanceof Cat && animals.get(i) instanceof Cat){
@@ -46,10 +49,13 @@ public class MyAnimalShop implements AnimalShop{
                         System.out.println("出价过低，出售失败");
                         return;
                     }
-                    customers.add(customer);
+                    if (customer.getCustomerVisitTime() == 0){
+                        customers.add(customer);
+                    }
+                    customer.setCustomerVisitTime(customer.getCustomerVisitTime() + 1);
                     earned += money;
                     System.out.println("出售完成");
-                    System.out.println(animals.get(i).toString());
+                    System.out.println(animals.get(i));
                     animals.remove(i);
                     return;
                 }
@@ -63,7 +69,7 @@ public class MyAnimalShop implements AnimalShop{
     @Override
     public void getClose() {
         for(int i = 0;i < customers.size();i ++){
-            System.out.println(customers.get(i).toString());
+            System.out.println(customers.get(i));
         }
         System.out.println("共赚了" + earned + "元");
         isClose = true;
