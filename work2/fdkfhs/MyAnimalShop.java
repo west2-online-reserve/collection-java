@@ -6,9 +6,10 @@ public class MyAnimalShop implements AnimalShop {
     private double balance;
     // 利润
     private double profit;
-    Collection<Customer> customerList = new ArrayList<>();
-    Collection<Animal> animalList = new ArrayList<>();
-    private boolean closed;
+    private final Collection<Customer> customerList = new ArrayList<>();
+    private final Collection<Animal> animalList = new ArrayList<>();
+    //true表示正在营业，false表示歇业
+    private boolean open;
 
 
     public double getBalance() {
@@ -19,12 +20,12 @@ public class MyAnimalShop implements AnimalShop {
         this.balance = balance;
     }
 
-    public boolean getClose() {
-        return closed;
+    public boolean getOpen() {
+        return open;
     }
 
-    public void setClose(boolean closed) {
-        this.closed = closed;
+    public void setOpen(boolean open) {
+        this.open = open;
     }
 
     public double getProfit() {
@@ -50,29 +51,33 @@ public class MyAnimalShop implements AnimalShop {
 
     @Override
     public void reciveCustomer(Customer customer, Animal animal) throws AnimalNotFountException {
-        if (animalList.contains(animal)) {
-            if (!customerList.contains(customer)) {
-                customerList.add(customer);
+        if (getOpen()) {
+            if (animalList.contains(animal)) {
+                if (!customerList.contains(customer)) {
+                    customerList.add(customer);
+                }
+                animalList.remove(animal);
+                // 每买出一只动物获利50元
+                setBalance(getBalance() + animal.getPrice() + 50);
+                setProfit(getProfit() + animal.getPrice() + 50);
+                System.out.println("恭喜" + customer.getName() + "动物购买成功!该动物的信息为" + animal);
+                customer.setNumber(customer.getNumber() + 1);
+                customer.setLocalDate(LocalDate.now());
+            } else {
+                throw new AnimalNotFountException(animal.name);
             }
-            animalList.remove(animal);
-            // 每买出一只动物获利50元
-            setBalance(getBalance() + animal.getPrice() + 50);
-            setProfit(getProfit() + animal.getPrice() + 50);
-            System.out.println("恭喜"+customer.getName()+"动物购买成功!该动物的信息为"+animal.toString());
-            customer.setNumber(customer.getNumber() + 1);
-            customer.setLocalDate(LocalDate.now());
         } else {
-            throw new AnimalNotFountException(animal.name);
+            System.out.println("抱歉，本店正在歇业！");
         }
 
     }
 
     @Override
     public void Closed() {
-        this.setClose(false);
+        this.setOpen(false);
         for (Customer customer : this.customerList) {
             if (customer.getLocalDate().isEqual(LocalDate.now())) {
-                System.out.println(customer.toString());
+                System.out.println(customer);
             }
         }
         if (getProfit() > 0) {

@@ -1,6 +1,5 @@
 public class Dog extends Animal {
     private boolean vaccineInjected;
-    private double price;
 
     public Dog() {
     }

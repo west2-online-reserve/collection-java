@@ -10,6 +10,7 @@ public class Text {
 
         // 一开始有300的资金
         myAnimalShop.setBalance(300);
+        myAnimalShop.setOpen(true);
 
 
         try {
