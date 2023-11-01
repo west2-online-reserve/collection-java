@@ -1,5 +1,5 @@
 public class dog extends Animal{
-    protected boolean isVaccineInjected;
+    private boolean isVaccineInjected;
     public dog(String name,int age,String sex,String species,boolean isVaccineInjected) {
         super(name,age,sex,100,species);
         this.isVaccineInjected = isVaccineInjected;
