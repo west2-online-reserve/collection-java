@@ -1,5 +1,5 @@
 public class AnimalNotFountException extends RuntimeException{
-    int num;
+    private int num;
 
     public AnimalNotFountException(int num){
          this.num = num;
@@ -9,7 +9,7 @@ public class AnimalNotFountException extends RuntimeException{
 
     @Override
     public String toString() {
-        return "AnimalNotFountException";
+        return "AnimalNotFountException: animal="+this.num;
 
     }
 }
