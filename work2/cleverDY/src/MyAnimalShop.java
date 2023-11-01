@@ -7,13 +7,13 @@ import java.util.Scanner;
 
 public class MyAnimalShop implements AnimalShop {
     // 成员变量
-    protected double balance;
-    protected ArrayList<Animal> animalList = new ArrayList<Animal>();
-    //顾客的列表
-    protected ArrayList<Customer> customerList = new ArrayList<Customer>();
-    protected boolean isOpen;
+    private double balance;
+    private ArrayList<Animal> animalList = new ArrayList<Animal>();
 
-    public double profit = 0;
+    private ArrayList<Customer> customerList = new ArrayList<Customer>();//顾客的列表
+    private boolean isOpen;
+
+    private double profit = 0;
 
     // 构造方法
 
