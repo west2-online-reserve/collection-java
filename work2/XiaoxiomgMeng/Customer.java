@@ -7,10 +7,8 @@ public class Customer {
     private String name;
 
     private int times;
-    // 到店次数
 
     private LocalDate latest;
-    // 最近到店时间
 
     public Customer(String name){
         this.name = name;
