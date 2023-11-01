@@ -19,8 +19,8 @@ public class Cat extends Animal{
 
         return str;
     }
-
-    public void mouseWreckers() {//逗猫
+    // 逗猫
+    public void mouseWreckers() {
         System.out.println("mew!");
     }
 
