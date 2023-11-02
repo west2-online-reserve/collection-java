@@ -1,3 +1,5 @@
+package src;
+
 public  abstract class AbstractAnimal {
 
 
@@ -12,11 +14,11 @@ public  abstract class AbstractAnimal {
     方法
     一个全参构造方法
     一个抽象的toString() 方法*/
-protected String animalName;
-protected int animalAge;
-protected   String animalGender;
-protected   double purchasingPrice;
-protected   double sellingPrice;
+    protected String animalName;
+    protected int animalAge;
+    protected   String animalGender;
+    protected   double purchasingPrice;
+    protected   double sellingPrice;
 
     public double getPurchasingPrice() {
         return purchasingPrice;
@@ -38,6 +40,7 @@ protected   double sellingPrice;
 
 
     public AbstractAnimal() {
+
     }
     public AbstractAnimal(String animalName, int animalAge, String animalGender, double purchasingPrice, double sellingPrice) {
         this.animalName = animalName;

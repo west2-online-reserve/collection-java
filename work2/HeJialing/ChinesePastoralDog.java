@@ -1,10 +1,13 @@
-public class ChinesePastoralDog extends AbstractAnimal {
-public ChinesePastoralDog(){
+package src;
 
-}
-public ChinesePastoralDog(String animalName, int animalAge, String animalGender, double purchasingPrice, double sellingPrice){
-super(animalName,animalAge,animalGender,purchasingPrice,sellingPrice);
-}
+public class ChinesePastoralDog extends AbstractAnimal {
+    private boolean isVaccineInjected;
+    public ChinesePastoralDog(){
+
+    }
+    public ChinesePastoralDog(String animalName, int animalAge, String animalGender, double purchasingPrice, double sellingPrice){
+        super(animalName,animalAge,animalGender,purchasingPrice,sellingPrice);
+    }
     public boolean isVaccineInjected() {
         return isVaccineInjected;
     }
@@ -13,7 +16,7 @@ super(animalName,animalAge,animalGender,purchasingPrice,sellingPrice);
         isVaccineInjected = vaccineInjected;
     }
 
-    private boolean isVaccineInjected;
+
 
     @Override
     public String toString() {

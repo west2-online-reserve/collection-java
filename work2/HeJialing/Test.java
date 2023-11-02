@@ -1,3 +1,5 @@
+package src;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 
@@ -16,7 +18,7 @@ public class Test {
         MyAnimalShop shop=new MyAnimalShop(1000,listOfAnimal,listOfCustomer,false);
        //
         //猫实例
-       AbstractAnimal cat1=new Cat(" 喵喵 ",1," 母 ",200,300);
+        AbstractAnimal cat1=new Cat(" 喵喵 ",1," 母 ",200,300);
         AbstractAnimal cat2=new Cat(" 咪咪 ",1," 公 ",200,300);
 
         //狗实例
@@ -37,12 +39,12 @@ public class Test {
         //测试招待客户
         System.out.println("测试招待客户");
         LocalDate date1=LocalDate.of(2023,10,10);
-       LocalDate date2=LocalDate.of(2023,10,23);
+        LocalDate date2=LocalDate.of(2023,10,23);
            //可能出错
         try {
             Customer customer1=new Customer("小明",2,date1,cat1);
             shop.sellAnimals(customer1,listOfAnimal);
-          listOfCustomer.add(customer1);
+            listOfCustomer.add(customer1);
             Customer customer2=new Customer("小红",3,date2,cat1);
             shop.sellAnimals(customer2,listOfAnimal);
             listOfCustomer.add(customer2);

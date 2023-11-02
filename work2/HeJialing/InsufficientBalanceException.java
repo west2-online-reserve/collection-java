@@ -1,3 +1,5 @@
+package src;
+
 public class InsufficientBalanceException extends RuntimeException {
     public InsufficientBalanceException(){
 

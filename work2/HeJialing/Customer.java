@@ -1,3 +1,5 @@
+package src;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 
@@ -16,10 +18,10 @@ public class Customer extends AbstractAnimal {
         最新到店时间(LocalDate类)
         方法
         重写(@Override) toString() 方法, 要求按一定格式输出客户的所有信息*/
-private String customerName;
-private int numberOfVisits;
-private LocalDate localVisit;
-private AbstractAnimal localBuy;
+    private String customerName;
+    private int numberOfVisits;
+    private LocalDate localVisit;
+    private AbstractAnimal localBuy;
     public AbstractAnimal getLocalBuy() {
         return localBuy;
     }

@@ -1,4 +1,6 @@
-public class Cat extends  AbstractAnimal{
+package src;
+
+public class Cat extends AbstractAnimal {
     public Cat(){
 
     }
