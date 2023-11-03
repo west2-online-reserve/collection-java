@@ -58,9 +58,10 @@ public class AnimalShopImpl implements AnimalShop {
             }
             if (!isFind) {
                 customer = new Customer(name);
+                customers.add(customer);
             }
             customer.arrive();
-            customers.add(customer);
+
             System.out.println("顾客名" + name);
             try {
                 if (allowSell.isEmpty()) {
