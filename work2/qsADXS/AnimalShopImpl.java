@@ -58,6 +58,7 @@ public class AnimalShopImpl implements AnimalShop {
             }
             if (!isFind) {
                 customer = new Customer(name);
+
                 customers.add(customer);
             }
             customer.arrive();
