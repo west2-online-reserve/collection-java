@@ -5,6 +5,7 @@ import java.util.ArrayList;
  * @author 1293978818
  */
 public class MyAnimalShop implements AnimalShop{
+    
     private double restMoney;
     private ArrayList<AbstractAnimal> animals;
     private ArrayList<Customer> customers;
@@ -27,32 +28,22 @@ public class MyAnimalShop implements AnimalShop{
     @Override
     public void treatCustomers(Customer customer,AbstractAnimal animal,double money) throws AnimalNotFoundException{
         if(!isClose){
-            
+            if (customer.getCustomerVisitTime() == 0){
+                customers.add(customer);
+            }
+            customer.setCustomerVisitTime(customer.getCustomerVisitTime() + 1);
             for(int i = 0;i < animals.size();i ++){
-                if(animals.get(i) instanceof Dogs && animal instanceof Dogs){
+                
+                boolean whetherDogs = animals.get(i) instanceof Dogs && animal instanceof Dogs;
+                boolean whetherCats = animal instanceof Cat && animals.get(i) instanceof Cat;
+
+                if(whetherDogs || whetherCats){
                     if(money < animals.get(i).animaiPrice){
                         System.out.println("出价过低，出售失败");
                         return;
-                    }
-                    if (customer.getCustomerVisitTime() == 0){
-                        customers.add(customer);
                     }
                     customer.setCustomerVisitTime(customer.getCustomerVisitTime() + 1);
                     restMoney += money;
-                    earned += money;
-                    System.out.println("出售完成");
-                    System.out.println(animals.get(i));
-                    animals.remove(i);
-                    return;
-                }else if(animal instanceof Cat && animals.get(i) instanceof Cat){
-                    if(money < animals.get(i).animaiPrice){
-                        System.out.println("出价过低，出售失败");
-                        return;
-                    }
-                    if (customer.getCustomerVisitTime() == 0){
-                        customers.add(customer);
-                    }
-                    customer.setCustomerVisitTime(customer.getCustomerVisitTime() + 1);
                     earned += money;
                     System.out.println("出售完成");
                     System.out.println(animals.get(i));
