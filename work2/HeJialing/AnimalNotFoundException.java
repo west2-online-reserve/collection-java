@@ -1,10 +1,11 @@
-package src;
+package src.src;
 
-public class AnimalNotFoundException extends RuntimeException{
-    public AnimalNotFoundException(){
+public class AnimalNotFoundException extends RuntimeException {
+    public AnimalNotFoundException() {
 
     }
-    public AnimalNotFoundException(String message){
+
+    public AnimalNotFoundException(String message) {
         super(message);
     }
 }

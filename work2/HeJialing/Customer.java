@@ -1,4 +1,4 @@
-package src;
+package src.src;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -22,6 +22,7 @@ public class Customer extends AbstractAnimal {
     private int numberOfVisits;
     private LocalDate localVisit;
     private AbstractAnimal localBuy;
+
     public AbstractAnimal getLocalBuy() {
         return localBuy;
     }
@@ -54,17 +55,19 @@ public class Customer extends AbstractAnimal {
     public void setLocalVisit(LocalDate localVisit) {
         this.localVisit = localVisit;
     }
-//顾客当天买的宠物
-    public AbstractAnimal buy(AbstractAnimal animal, ArrayList listOfAnimal){
+
+    //顾客当天买的宠物
+    public AbstractAnimal buy(AbstractAnimal animal, ArrayList listOfAnimal) {
 
         return animal;
     }
+
     @Override
     public String toString() {
-        String s=" customerName: "+getCustomerName();
-        s=s+" numberOfVisits: "+getNumberOfVisits();
-        s=s+" localVisit: "+getLocalVisit();
-        s=s+" localBuy: "+getLocalBuy();
+        String s = " customerName: " + getCustomerName();
+        s = s + " numberOfVisits: " + getNumberOfVisits();
+        s = s + " localVisit: " + getLocalVisit();
+        s = s + " localBuy: " + getLocalBuy();
         return s;
     }
 }

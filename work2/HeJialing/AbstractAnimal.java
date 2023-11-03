@@ -1,6 +1,6 @@
-package src;
+package src.src;
 
-public  abstract class AbstractAnimal {
+public abstract class AbstractAnimal {
 
 
     /* 1. 一个Animal动物类 (抽象类 abstract )
@@ -16,9 +16,9 @@ public  abstract class AbstractAnimal {
     一个抽象的toString() 方法*/
     protected String animalName;
     protected int animalAge;
-    protected   String animalGender;
-    protected   double purchasingPrice;
-    protected   double sellingPrice;
+    protected String animalGender;
+    protected double purchasingPrice;
+    protected double sellingPrice;
 
     public double getPurchasingPrice() {
         return purchasingPrice;
@@ -37,11 +37,9 @@ public  abstract class AbstractAnimal {
     }
 
 
-
-
     public AbstractAnimal() {
-
     }
+
     public AbstractAnimal(String animalName, int animalAge, String animalGender, double purchasingPrice, double sellingPrice) {
         this.animalName = animalName;
         this.animalAge = animalAge;
@@ -76,7 +74,6 @@ public  abstract class AbstractAnimal {
     }
 
 
-
-      public abstract String toString ();
+    public abstract String toString();
 
 }

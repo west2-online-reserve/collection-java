@@ -1,11 +1,9 @@
-package src;
+package src.src;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-public class MyAnimalShop implements AnimalShop{
-
-
+public class MyAnimalShop implements AnimalShop {
 
 
     /*
@@ -34,6 +32,7 @@ public class MyAnimalShop implements AnimalShop{
     private ArrayList listOfAnimal;
     private ArrayList<Customer> listOfCustomer;
     private boolean isShutDown;
+
     public MyAnimalShop() {
     }
 
@@ -43,6 +42,7 @@ public class MyAnimalShop implements AnimalShop{
         this.listOfCustomer = listOfCustomer;
         this.isShutDown = isShutDown;
     }
+
     public double getInsufficientBalance() {
         return insufficientBalance;
     }
@@ -76,36 +76,36 @@ public class MyAnimalShop implements AnimalShop{
     }
 
 
-
     //买入动物 -> 买入一只动物，记得在动物列表中添加，
-@Override
-    public void buyNewAnimals( AbstractAnimal animal) {
-        if(insufficientBalance<animal.getPurchasingPrice()){
+    @Override
+    public void buyNewAnimals(AbstractAnimal animal) {
+        if (insufficientBalance < animal.getPurchasingPrice()) {
             throw new InsufficientBalanceException(" 余额不足，购买失败 ");
-    }
-    listOfAnimal.add(animal);
-    setInsufficientBalance(insufficientBalance-animal.getPurchasingPrice());
+        }
+        listOfAnimal.add(animal);
+        setInsufficientBalance(insufficientBalance - animal.getPurchasingPrice());
     }
 
-   // 招待客户 -> 接受客户参数，在顾客列表中加入新顾客，
+    // 招待客户 -> 接受客户参数，在顾客列表中加入新顾客，
     @Override
     public void serveCustomer(Customer customer) {
         listOfCustomer.add(customer);
+        System.out.println(customer.toString());
     }
 
-   // 歇业 -> (LocalDate判断) 输出当天光顾的客户的列表信息，计算并输出一天的利润
+    // 歇业 -> (LocalDate判断) 输出当天光顾的客户的列表信息，计算并输出一天的利润
     @Override
-    public void shutdown(LocalDate localDate,ArrayList listOfCustomer) {
-        double incomeOfToday=0;
-        for(int i=0;i<listOfCustomer.size();i++){
-            Customer c= (Customer) listOfCustomer.get(i);
-            if(c.getLocalVisit().compareTo(localDate)==0){
-                AbstractAnimal animal=c.getLocalBuy();
+    public void shutdown(LocalDate localDate, ArrayList listOfCustomer) {
+        double incomeOfToday = 0;
+        for (int i = 0; i < listOfCustomer.size(); i++) {
+            Customer c = (Customer) listOfCustomer.get(i);
+            if (c.getLocalVisit().compareTo(localDate) == 0) {
+                AbstractAnimal animal = c.getLocalBuy();
                 System.out.println(c.toString());
-                incomeOfToday=incomeOfToday+(animal.getSellingPrice()-animal.getPurchasingPrice());
-             }
-         }
-        System.out.println(" 当天利润 "+incomeOfToday);
+                incomeOfToday = incomeOfToday + (animal.getSellingPrice() - animal.getPurchasingPrice());
+            }
+        }
+        System.out.println(" 当天利润 " + incomeOfToday);
     }
 
     /*出售动物，如果店内没有动物，抛出AnimalNotFoundException。
@@ -116,7 +116,7 @@ public class MyAnimalShop implements AnimalShop{
     public void sellAnimals(Customer customer, ArrayList listOfAnimal) {
         AbstractAnimal animal = customer.getLocalBuy();
         if (listOfAnimal.contains(animal) == false) {
-            throw new AnimalNotFoundException("该动物已被售卖，交易失败");
+            throw new AnimalNotFoundException("店内没有该顾客想要购买的动物，交易失败");
         }
         System.out.println(" 卖出动物的 " + animal.toString());
         setInsufficientBalance(insufficientBalance + animal.getSellingPrice());
