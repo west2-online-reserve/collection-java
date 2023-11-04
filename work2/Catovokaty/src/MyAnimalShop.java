@@ -18,7 +18,7 @@ public class MyAnimalShop implements AnimalShop {
     @Override
     public void buyAnimal(Animal animal) throws InsufficientBalanceException {
         if (balance < animal.getCost()) {
-            throw new InsufficientBalanceException("Insufficient balance to buy the animal.");
+            throw new InsufficientBalanceException("没有足够的余额购买动物.");
         }
 
         balance -= animal.getCost();
@@ -28,7 +28,7 @@ public class MyAnimalShop implements AnimalShop {
     @Override
     public void serveCustomer(Customer customer) throws AnimalNotFoundException {
         if (animalList.isEmpty()) {
-            throw new AnimalNotFoundException("No animals available for sale.");
+            throw new AnimalNotFoundException("没有动物可供出售。.");
         }
 
         Animal animal = animalList.remove(0);
@@ -39,7 +39,7 @@ public class MyAnimalShop implements AnimalShop {
     }
 
     public void entertainCustomer(Customer customer) {
-        System.out.println("Entertaining customer: " + customer.toString());
+        System.out.println("招待顾客: " + customer.toString());
     }
 
     @Override
@@ -50,7 +50,7 @@ public class MyAnimalShop implements AnimalShop {
     public void closeShop(LocalDate date) {
         isOpen = false;
 
-        System.out.println("Customers visited today:");
+        System.out.println("今天来的客户:");
         for (Customer customer : customerList) {
             System.out.println(customer.toString());
         }
@@ -60,7 +60,7 @@ public class MyAnimalShop implements AnimalShop {
             totalProfit += animal.getCost();
         }
 
-        System.out.println("Profit for the day: " + totalProfit);
+        System.out.println("今日收益: " + totalProfit);
 
         balance += totalProfit;
         animalList.clear();

@@ -21,7 +21,7 @@ public class Test {
 
         // 初始化顾客列表
         List<Customer> customerList = new ArrayList<>();
-        // 添加顾客到列表...
+        // 添加顾客到列表
 
         // 设置顾客列表
         animalShop.customerList = customerList;
@@ -37,15 +37,13 @@ public class Test {
 
         // 测试招待顾客
         LocalDate arriveTime = LocalDate.parse("2023-07-17");
-        Customer customer = new Customer("John",9,arriveTime);
+        Customer customer = new Customer("John", 9, arriveTime);
         animalShop.serveCustomer(customer);
         System.out.println("Customer served: " + customer.toString());
 
         // 测试歇业
         LocalDate date = LocalDate.now();
         animalShop.closeShop(date);
-
-        // 添加更多测试代码...
 
         // 测试余额是否正确
         System.out.println("Balance: " + animalShop.balance);
