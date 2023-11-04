@@ -1,10 +1,10 @@
 package work2;
 
 public abstract class Animals {
-    protected String name;
-    protected int age;
-    protected String gender;
-    protected double price;
+    private String name;
+    private int age;
+    private String gender;
+    private double price;
 
 
     public void setPrice(double price) {
@@ -50,5 +50,6 @@ public abstract class Animals {
     public Animals() {
     }
 
+    @Override
     public abstract String toString();
 }

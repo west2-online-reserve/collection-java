@@ -1,7 +1,7 @@
 package work2;
 
 public class AnimalNotFoundException extends RuntimeException {
-    String buyer;
+    private String buyer;
 
     public AnimalNotFoundException(Customer customer) {
         this.buyer = customer.getName();

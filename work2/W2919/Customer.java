@@ -3,9 +3,9 @@ package work2;
 import java.time.LocalTime;
 
 public class Customer {
-    String name;
-    int visitNums;
-    LocalTime lastVisit;
+    private String name;
+    private int visitNums;
+    private LocalTime lastVisit;
 
     public String getName() {
         return name;

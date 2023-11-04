@@ -6,9 +6,9 @@ import java.util.Iterator;
 import java.util.List;
 
 public class MyAnimalShop implements AnimalShop {
-    double money;
-    String name;
-    boolean isOpen;
+    private double money;
+    private String name;
+    private boolean isOpen;
     ArrayList<Animals> animal = new ArrayList<>();
     ArrayList<Customer> customer = new ArrayList<>();
 
@@ -43,11 +43,11 @@ public class MyAnimalShop implements AnimalShop {
     @Override
     public void buying(Animals animals) {
         try {
-            if (money < animals.price) {
+            if (money < animals.getPrice()) {
                 throw new InsufficientBalanceException();
             } else {
                 animal.add(animals);
-                money = money - animals.price;
+                money = money - animals.getPrice();
             }
         } catch (InsufficientBalanceException e) {
             System.out.println(this.name + e);
@@ -71,7 +71,7 @@ public class MyAnimalShop implements AnimalShop {
 //                            +",年龄是:"+animal.get(i-1).age
 //                            +",价格是:"+animal.get(i-1).price
                     );
-                    money = money + animal.get(i - 1).price;
+                    money = money + animal.get(i - 1).getPrice();
                     animal.remove(i - 1);
                 }
             } else {
