@@ -7,7 +7,7 @@ import java.time.ZoneOffset;
 
 public class Customer {
     private String name;
-    public int time = 0;
+    private int time = 0;
     LocalDateTime localDateTime = LocalDateTime.now();
     OffsetDateTime date = localDateTime.atOffset(ZoneOffset.ofHours(+8));
 
@@ -61,18 +61,19 @@ public class Customer {
     public LocalDateTime getLocalDateTime() {
         return localDateTime;
     }
-
     /**
-     * 设置
-     * @param localDateTime
+     * 获取
+     * @return date
      */
+
+
     public void setLocalDateTime(LocalDateTime localDateTime) {
         this.localDateTime = localDateTime;
     }
 //如果获取实时时间应该添加内容
+
     /**
-     * 获取
-     * @return date
+     * 设置
      */
 
     public String toString() {
