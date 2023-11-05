@@ -9,8 +9,10 @@ public class MyAnimalShop implements AnimalShop {
     private double money;
     private String name;
     private boolean isOpen;
-    private ArrayList<Animals> animal = new ArrayList<>();//添加了修饰符
-    private ArrayList<Customer> customer = new ArrayList<>();//添加了修饰符
+    // 添加了修饰符
+    private ArrayList<Animals> animal = new ArrayList<>();
+    // 添加了修饰符
+    private ArrayList<Customer> customer = new ArrayList<>();
 
     public void setOpen(boolean open) {
         isOpen = open;
@@ -56,12 +58,13 @@ public class MyAnimalShop implements AnimalShop {
 
     @Override
     public void entertainCustomer(Customer customers, int i) {
-        //解决了下表越界问题
-        if (i < 1) {
+        // 解决了下表越界问题
+        if (i < 1||i > animal.size()) {
             System.out.println("无效购买");
         }else {
             customer.add(customers);
-            customers.setVisitNums(customers.getVisitNums() + 1); //此处增加了用户更新状态
+            // 此处增加了用户更新状态
+            customers.setVisitNums(customers.getVisitNums() + 1);
             try {
                 if (isOpen) {
                     if (animal.size() == 0) {
