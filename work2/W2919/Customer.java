@@ -26,4 +26,12 @@ public class Customer {
                 ", visit numbers:" + visitNums +
                 ", last visit time:" + lastVisit;
     }
+
+    public int getVisitNums() {
+        return visitNums;
+    }
+
+    public void setVisitNums(int visitNums) {
+        this.visitNums = visitNums;
+    }
 }
