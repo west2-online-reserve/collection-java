@@ -3,7 +3,7 @@ package westwork2;
 import java.time.LocalDate;
 
 //顾客类
-class Customer {
+public class Customer {
  String name;
  int visitCount;
  LocalDate lastVisitDate;
