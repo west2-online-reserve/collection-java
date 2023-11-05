@@ -2,12 +2,12 @@ import java.time.LocalDate;
 import java.util.LinkedList;
 import java.util.List;
 
-public class MyAnimalShop implements AnimalShop{
+public class MyAnimalShop implements AnimalShop {
     List<Animal> animalList = new LinkedList<>();
     List<Customer> customerList = new LinkedList<>();
     private double blance;
     private boolean isOpen;
-    private double profit = 0 ;
+    private double profit = 0;
 
     public List<Animal> getAnimalList() {
         return animalList;
@@ -56,48 +56,48 @@ public class MyAnimalShop implements AnimalShop{
 
     @Override
     public void buyAnimal(Animal animal) throws InsufficientBalanceException {
-         if(isOpen == false) {
-             System.out.println("抱歉，本店已经关门了");
-             return;
-         }else  {
-             try {
-                 if(blance>animal.getPrice()) {
-                     blance -= animal.getPrice();
-                     animalList.add(animal);
-                     System.out.println("目前总共有"+animalList.size()+"只动物");
-                     System.out.println("成功购买一只"+animal);
-                 }else {
-                     System.out.println("余额不足");
-                 }
-             } catch (InsufficientBalanceException e) {
-                 System.out.println(e.toString());
-             }
-         }
+        if (isOpen == false) {
+            System.out.println("抱歉，本店已经关门了");
+            return;
+        } else {
+            try {
+                if (blance > animal.getPrice()) {
+                    blance -= animal.getPrice();
+                    animalList.add(animal);
+                    System.out.println("目前总共有" + animalList.size() + "只动物");
+                    System.out.println("成功购买一只" + animal);
+                } else {
+                    System.out.println("余额不足");
+                }
+            } catch (InsufficientBalanceException e) {
+                System.out.println(e.toString());
+            }
+        }
     }
 
     @Override
     public void Customer(Customer customer) throws AnimalNotFoundException {
         System.out.println("=========================");
         try {
-            if(isOpen == false){
+            if (isOpen == false) {
                 System.out.println("宠物店已打烊.\n");
                 return;
             }
             if (animalList.size() != 0) {
                 customerList.add(customer);
-                System.out.println(customer.getName()+"先生,以下是你购买的宠物信息:");
+                System.out.println(customer.getName() + "先生,以下是你购买的宠物信息:");
                 int number = (int) (Math.random() * animalList.size());
                 Animal animal = animalList.get(number);
                 animalList.remove(number);
-                if(animal instanceof Cat) {
+                if (animal instanceof Cat) {
                     profit += 200;
-                }else if(animal instanceof ChineseRuralDog) {
-                    profit +=100;
-                }else if(animal instanceof Tiger) {
-                    profit +=500;
+                } else if (animal instanceof ChineseRuralDog) {
+                    profit += 100;
+                } else if (animal instanceof Tiger) {
+                    profit += 500;
                 }
                 System.out.println(animal);
-                customer.setTimes(customer.getTimes()+1);
+                customer.setTimes(customer.getTimes() + 1);
                 customer.setLatestArrivedTime(LocalDate.now());
             } else {
                 throw new AnimalNotFoundException("抱歉，当前没有可以宠物可以购买");

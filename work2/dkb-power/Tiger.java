@@ -1,5 +1,4 @@
-public class Tiger extends Animal{
-    public final static String species = "老虎";
+public class Tiger extends Animal {
 
     public Tiger(String name, int age, String gender, double price) {
         super(name, age, gender, 500);

@@ -44,5 +44,5 @@ abstract class Animal {
     }
 
     @Override
-    public abstract String toString() ;
+    public abstract String toString();
 }
