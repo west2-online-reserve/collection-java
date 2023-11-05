@@ -9,8 +9,7 @@ public class Cat extends AbstractAnimal{
         super(name, age, gender, 200, "猫");
     }
     @Override
-    public double getProfit()
-    {
+    public double getProfit() {
         return 70;
     }
     @Override

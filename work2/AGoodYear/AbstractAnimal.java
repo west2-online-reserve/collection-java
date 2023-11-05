@@ -20,33 +20,33 @@ public abstract class AbstractAnimal {
         this.price = price;
         this.type = type;
     }
-    String getName() {
+    public String getName() {
         return name;
     }
-    int getAge() {
+    public int getAge() {
         return age;
     }
-    int getGender() {
+    public int getGender() {
         return gender;
     }
-    double getPrice() {
+    public double getPrice() {
         return price;
     }
-    String getType() {
+    public String getType() {
         return type;
     }
-    void setName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
-    void setAge(int age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
-    void setGender(int gender) {
+    public void setGender(int gender) {
         this.gender = gender;
     }
 
-    void setPrice(double price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
