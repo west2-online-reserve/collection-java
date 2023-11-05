@@ -87,11 +87,10 @@ public class MyAnimalShop implements AnimalShop {
         try {
 
 
-<<<<<<< HEAD
-            if (customer2.localDateTime.getHour() >= 21 || customer2.localDateTime.getHour() <= 6) {
-=======
+
+    
             if (customer0.localDateTime.getHour() >= 21 || customer0.localDateTime.getHour() <= 6) {
->>>>>>> 385fdfbdb7a3e3de1fb3d6db4588872b516cfdf8
+
                 throw new NotOpenException("商店歇业");
             } else if (!animalArrayList.contains(animalSpecie)) {
                 //简写
