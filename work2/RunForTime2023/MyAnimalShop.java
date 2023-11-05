@@ -51,7 +51,7 @@ class MyAnimalShop implements AnimalShop {
             if (x.name.equals(animal.name)) {
                 balance += animal.price;
                 profit += animal.price;
-                System.out.println(animal.toString());
+                System.out.println(animal);
                 animals.remove(animal);
                 isHere = true;
                 break;
