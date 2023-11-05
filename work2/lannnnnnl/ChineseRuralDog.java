@@ -1,7 +1,7 @@
 package westwork2;
 
 //中华田园犬类
-class ChineseRuralDog extends Animal {
+public class ChineseRuralDog extends Animal {
  boolean isVaccineInjected;
 
  ChineseRuralDog(String name, int age, char gender, boolean isVaccineInjected) {
