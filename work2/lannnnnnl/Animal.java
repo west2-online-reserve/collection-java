@@ -1,11 +1,11 @@
 package westwork2;
 
 // 抽象动物类
-abstract class Animal {
-    String name;
-    int age;
-    char gender;
-    double price;
+public abstract class Animal {
+        String name;
+        int age;
+        char gender;
+        double price;
 
     Animal(String name, int age, char gender, double price) {
         this.name = name;
@@ -14,5 +14,5 @@ abstract class Animal {
         this.price = price;
     }
 
-    public abstract String toString();
+ public abstract String toString();
 }
