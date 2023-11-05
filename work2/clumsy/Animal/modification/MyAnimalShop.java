@@ -93,6 +93,8 @@ public class MyAnimalShop implements AnimalShopinterface {
                 System.out.println("用户到店时间是"+df.format(new Date()));
                 s.setTime(LocalDate.now());
                 //顾客到店时间
+                s.setNums(s.getNums()+1);
+                //增加顾客到店次数，在顾客信息中，isclose中输出
                 System.out.println("欢迎"+s.getName()+"光临本宠物店");
                 //欢迎顾客
                 CustomerList.add(s);
@@ -112,8 +114,7 @@ public class MyAnimalShop implements AnimalShopinterface {
                         AnimalList.remove(pet);
                         System.out.println("购买成功，宠物信息如下："+"\n"+pet.toString());
                         //toString 方法是输出售卖价格给用户看。
-                        s.setNums(s.getNums()+1);
-                        //增加顾客到店次数，在顾客信息中，isclose中输出
+
                         }
                     }
                 }
