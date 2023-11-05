@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 //宠物店实现
-class MyAnimalShop implements AnimalShop {
+public class MyAnimalShop implements AnimalShop {
  double balance;
  List<Animal> animalList = new ArrayList<>();
  List<Customer> customerList = new ArrayList<>();
