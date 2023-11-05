@@ -17,8 +17,8 @@ public class MailFormatValidation {
     }
 
     public void formatValidation(String mail) {
-        // 最后的“.?[a-zA-Z]*”用来防止邮箱域名为多段，如fzu.edu.cn
-        boolean legal = mail.matches("[\\w]+@[\\w]+.[a-zA-Z]+.?[a-zA-Z]*");
+        // 最后的“\\.?[a-zA-Z]*”用来防止邮箱域名为多段，如fzu.edu.cn
+        boolean legal = mail.matches("[\\w]+@[\\w]+\\.[a-zA-Z]+\\.?[a-zA-Z]*");
         if (legal) {
             System.out.println("邮箱格式合法");
         } else {
