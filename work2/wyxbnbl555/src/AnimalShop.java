@@ -1,7 +1,7 @@
 import java.util.List;
 
 public interface AnimalShop {
-    public abstract void buyNewAnimal(Animal A);
-    public abstract void entertainCustomer(Customer C, Animal A);
-    public abstract void outOfBusiness(List<Customer> customers);
+    public void buyNewAnimal(Animal A);
+    public void entertainCustomer(Customer C, Animal A);
+    public void outOfBusiness(List<Customer> customers);
 }

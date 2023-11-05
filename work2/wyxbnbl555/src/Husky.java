@@ -1,5 +1,5 @@
 public class Husky extends Animal{
-    public double price = 300;
+    private double price = 300;
     public Husky() {
     }
 
@@ -10,6 +10,10 @@ public class Husky extends Animal{
     public Husky(String name, int age, String gender) {
         super(name, age, gender);
         price = this.getPrice();
+    }
+
+    public double getPrice(){
+        return this.price;
     }
 
     @Override

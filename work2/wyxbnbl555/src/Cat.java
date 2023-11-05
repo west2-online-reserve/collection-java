@@ -1,5 +1,5 @@
 public class Cat extends Animal{
-    public double price = 200;
+    private double price = 200;
     public Cat() {
     }
     public Cat(double price) {

@@ -4,8 +4,8 @@ import java.util.List;
 
 public class MyAnimalShop implements AnimalShop{
     private double balance;
-    ArrayList<Animal> a = new ArrayList<>();
-    ArrayList<Customer> c = new ArrayList<>();
+    private ArrayList<Animal> a = new ArrayList<>();
+    private ArrayList<Customer> c = new ArrayList<>();
     private boolean business =  true;
 
     public MyAnimalShop() {
@@ -65,14 +65,15 @@ public class MyAnimalShop implements AnimalShop{
 
     @Override
     public void entertainCustomer(Customer C, Animal A) {
-        c.add(C);
-        if (a.size() == 0) {
-            throw new AnimalNotFountException("没有动物可以出售了");
-        } else {
-            System.out.println(A.toString());
-            balance = balance + A.getPrice();
-            a.remove(A);
-        }
+            c.add(C);
+            if (a.size() == 0) {
+                throw new AnimalNotFountException("没有动物可以出售了");
+            } else {
+                System.out.println(A.toString());
+                balance = balance + A.getPrice();
+                a.remove(A);
+            }
+
 
 
     }

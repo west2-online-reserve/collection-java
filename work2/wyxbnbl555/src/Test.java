@@ -7,7 +7,7 @@ public class Test {
     public static void main(String[] args) {
         MyAnimalShop shop = new MyAnimalShop();
         ArrayList<Customer> customerList = new ArrayList<>();
-        List<Animal> animalList = new ArrayList<>();
+        ArrayList<Animal> animalList = new ArrayList<>();
         while (shop.isBusiness()){
             System.out.println("1.购买动物");
             System.out.println("2.设置开业成本");
@@ -29,7 +29,7 @@ public class Test {
                     String e = sc1.nextLine();
                     switch(e){
                         case"1":
-                            Cat cat1 = new Cat();
+                            Animal cat1 = new Cat();
                             System.out.println("请输入猫猫的姓名");
                             String catName = sc1.nextLine();
                             cat1.setName(catName);
@@ -42,7 +42,7 @@ public class Test {
                             shop.buyNewAnimal(cat1);
                             break;
                         case"2":
-                            ChinesePastoralDog chinesePastoralDog = new ChinesePastoralDog();
+                            Animal chinesePastoralDog = new ChinesePastoralDog();
                             System.out.println("请输入狗狗的姓名");
                             String name = sc1.nextLine();
                             chinesePastoralDog.setName(name);
@@ -54,11 +54,11 @@ public class Test {
                             chinesePastoralDog.setGender(gender);
                             System.out.println("是否注射狂犬疫苗");
                             boolean a = sc1.nextBoolean();
-                            chinesePastoralDog.setVaccineInjected(a);
+                            ((ChinesePastoralDog) chinesePastoralDog).setVaccineInjected(a);
                             shop.buyNewAnimal(chinesePastoralDog);
                             break;
                         case"3":
-                            Husky husky = new Husky();
+                            Animal husky = new Husky();
                             System.out.println("请输入哈士奇的姓名");
                             String huskyName = sc1.nextLine();
                             husky.setName(huskyName);
@@ -98,9 +98,9 @@ public class Test {
                     int day = sc.nextInt();
                     cust.setLastTime(LocalDate.of(year, mouth, day));*/
                     customerList.add(cust);
-                    ArrayList<Animal> a = shop.a;
+                    ArrayList<Animal> a = shop.getA();
                     for (int i = 0; i < a.size(); i++) {
-                        System.out.println( (i + 1) + a.get(i).toString());
+                        System.out.println( (i + 1)+ " " + a.get(i).toString());
                     }
                     System.out.println("要买什么动物");
                     String r = sc.next();

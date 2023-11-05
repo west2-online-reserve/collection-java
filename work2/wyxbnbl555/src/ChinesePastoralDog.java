@@ -1,6 +1,7 @@
 public class ChinesePastoralDog extends Animal{
+    private double price = 100;
     private boolean isVaccineInjected;
-    public double price = 100;
+
 
     public ChinesePastoralDog() {
     }
@@ -19,12 +20,16 @@ public class ChinesePastoralDog extends Animal{
 
     }
 
+    public double getPrice(){
+        return this.price;
+    }
+
     public boolean isVaccineInjected() {
         return isVaccineInjected;
     }
 
     public void setVaccineInjected(boolean vaccineInjected) {
-        isVaccineInjected = vaccineInjected;
+        this.isVaccineInjected = vaccineInjected;
     }
 
     @Override
