@@ -48,11 +48,7 @@ public class Booth {
 
     @Override
     public String toString() {
-        System.out.println("id:" + this.getId());
-        System.out.println("name:" + this.getName());
-        System.out.println("total:" + this.getTotal());
-        System.out.println("isClosed:" + this.getIsClosed());
-        return super.toString();
+         return "id:" + this.getId()+'\n'+"name:" + this.getName()+'\n'+"total:" + this.getTotal()+'\n'+"isClosed:" + this.getIsClosed()+'\n';
     }
 
     public static void purchase(Booth booth,int num) {
@@ -77,7 +73,7 @@ public class Booth {
         System.out.println("已休业整改:");
         for(int time=0;time<length;time++){
             if(booths[time].getIsClosed()==true){
-                booths[time].toString();
+                System.out.println(booths[time].toString());
             }else{
                 booths[time].setIsClosed(true);
             }
