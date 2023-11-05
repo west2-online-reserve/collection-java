@@ -9,12 +9,14 @@ package java_work2;
  * @date 2023/10/29
  */
 class Parrot extends Animal {
-     protected boolean isAbleToTalk;
-     protected static final double defaultPrice = 150.0;
+     private boolean isAbleToTalk;
+     private static final double defaultPrice = 150.0;
+
      public Parrot(String name, int age, String gender, boolean isAbleToTalk) {
          super(name, age, gender, defaultPrice);
          this.isAbleToTalk = isAbleToTalk;
      }
+
      @Override
      public String toString() {
          return  "Parrot: " + name + "\n" +

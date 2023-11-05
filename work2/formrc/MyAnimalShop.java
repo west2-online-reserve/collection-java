@@ -1,5 +1,6 @@
 package java_work2;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -46,6 +47,8 @@ class MyAnimalShop implements AnimalShop {
         Animal animal = animals.remove(0);
         System.out.println("Serving customer: " + "\n" + customer);
         System.out.println("Selling animal: " + "\n" + animal);
+        customer.setVisitCount(customer.getVisitCount()+1);
+        customer.setLatestVisit(LocalDate.now());
         customers.add(customer);
         balance += animal.getPrice();
     }

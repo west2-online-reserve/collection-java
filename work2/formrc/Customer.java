@@ -19,6 +19,22 @@ class Customer {
         this.latestVisit = latestVisit;
     }
 
+    public int getVisitCount() {
+        return visitCount;
+    }
+
+    public LocalDate getLatestVisit() {
+        return latestVisit;
+    }
+
+    public void setLatestVisit(LocalDate latestVisit) {
+        this.latestVisit = latestVisit;
+    }
+
+    public void setVisitCount(int visitCount) {
+        this.visitCount = visitCount;
+    }
+
     @Override
     public String toString() {
         return  "Customer: " + "\n" +
