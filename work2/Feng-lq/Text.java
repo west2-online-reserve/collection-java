@@ -25,6 +25,10 @@ public class Text {
 
         MyAnimalShop myAnimalShop = new MyAnimalShop();
         myAnimalShop.buyNewAnimal(dog1);
+
+        myAnimalShop.isOpen();
+
+        myAnimalShop.buyNewAnimal(dog1);
         myAnimalShop.buyNewAnimal(dog2);
         myAnimalShop.buyNewAnimal(bird1);
         myAnimalShop.buyNewAnimal(bird2);
@@ -44,11 +48,13 @@ public class Text {
 
         myAnimalShop.isClose();
 
+        myAnimalShop.entertainClients(customer1);
+
         System.out.println();
         Bonus bonus = new Bonus();
         System.out.println(bonus.isValidMail("100862023@qq.com"));
         System.out.println(bonus.isValidMail("100862023qq@.com"));
-        System.out.println(bonus.isValidMail("100862023qq@222.com"));
+        System.out.println(bonus.isValidMail("100862023@qq222.com"));
 
     }
 }
