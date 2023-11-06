@@ -4,7 +4,7 @@ package animal;
  * @author MR.瑜
  */
 public class Cat extends Animal {
-    protected String colour;
+    private String colour;
     public Cat(String name,int age,String gender,double price,String colour){
         super(name,age,gender,200);
         this.colour=colour;
