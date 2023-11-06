@@ -39,15 +39,15 @@ public class MyAnimalShop implements AnimalShop {
         } else {
             if (CustomerList.size() == 0) {
                 this.CustomerList.add(customer);
-                this.DateList.add(customer.date);
+                this.DateList.add(customer.getDate());
             }
             for (int i = 0; i < CustomerList.size(); i++) {
                 if (Objects.equals(customer, CustomerList.get(i))) {
-                    customer.times++;
-                    this.DateList.set(i, customer.date);
+                    customer.setTimes(customer.getTimes()+1);
+                    this.DateList.set(i, customer.getDate());
                 } else {
                     this.CustomerList.add(customer);
-                    this.DateList.add(customer.date);
+                    this.DateList.add(customer.getDate());
                 }
             }
             AnimalList.remove(i1);
