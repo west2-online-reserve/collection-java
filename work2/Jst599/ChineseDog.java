@@ -7,10 +7,18 @@ package PetShop;
  * @author Jst599
  * @date 2023/10/17
  */
-public class ChineseDog extends Animal {
-    protected boolean isVaccineInjected;
+public class ChineseDog extends PetShop.Animal {
+    private boolean isVaccineInjected;
 
     public ChineseDog() {
+    }
+
+    public boolean getisVaccineInjected() {
+        return isVaccineInjected;
+    }
+
+    public void setVaccineInjected(boolean vaccineInjected) {
+        isVaccineInjected = vaccineInjected;
     }
 
     public ChineseDog(String name, int age, String gender, boolean isVaccineInjected) {

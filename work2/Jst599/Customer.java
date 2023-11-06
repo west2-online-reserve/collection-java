@@ -14,7 +14,7 @@ public class Customer {
     // 顾客到店次数
     private int frequency;
     // 顾客最新到店时间
-    private LocalDate timeNew = LocalDate.now();
+    private LocalDate timeNew;
 
     public Customer() {
     }
