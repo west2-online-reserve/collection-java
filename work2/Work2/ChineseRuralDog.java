@@ -1,7 +1,7 @@
 package com.WestTwo.work2;
 
 public class ChineseRuralDog extends Animal {
-    boolean isVaccineInjected;
+    private boolean isVaccineInjected;
     private double price = 100;
 
     public ChineseRuralDog() {
