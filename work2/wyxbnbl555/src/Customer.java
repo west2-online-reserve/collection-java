@@ -6,8 +6,8 @@ public class Customer {
     private int visitNumber;
     private LocalDate lastTime;
 
-    public Customer() {
-        this.lastTime = LocalDate.now();
+    public Customer(){
+
     }
 
     public Customer(String name, int visitNumber) {

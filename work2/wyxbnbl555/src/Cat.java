@@ -1,20 +1,15 @@
 public class Cat extends Animal{
-    private double price = 200;
-    public Cat() {
-    }
-    public Cat(double price) {
-        super(price);
+    public Cat(){
+
     }
 
-    public Cat(String name, int age, String gender) {
-        super(name, age, gender);
-        price = this.getPrice();
+
+
+    public Cat(String name, int age, String gender,double price) {
+        super(name, age, gender,200);
     }
 
-    @Override
-    public double getPrice() {
-        return this.price;
-    }
+
 
     @Override
     public String toString() {
