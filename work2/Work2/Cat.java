@@ -1,7 +1,7 @@
 package com.WestTwo.work2;
 
 public class Cat extends Animal {
-    double price = 200;
+    private double price = 200;
 
     public Cat() {
     }
