@@ -3,9 +3,9 @@ package com.WestTwo.work2;
 import java.time.LocalDate;
 
 public class Customer {
-    String name;
-    int times;
-    LocalDate date;
+    private String name;
+    private int times;
+    private LocalDate date;
 
     @Override
     public String toString() {
