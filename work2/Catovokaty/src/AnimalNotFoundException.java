@@ -3,4 +3,3 @@ class AnimalNotFoundException extends RuntimeException {
         super(message);
     }
 }
-

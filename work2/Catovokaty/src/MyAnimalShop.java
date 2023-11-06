@@ -3,9 +3,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MyAnimalShop implements AnimalShop {
-    protected double balance;
-    protected List<Animal> animalList;
-    protected List<Customer> customerList;
+    private double balance;
+    private List<Animal> animalList;
+    private List<Customer> customerList;
     private boolean isOpen;
 
     public MyAnimalShop() {

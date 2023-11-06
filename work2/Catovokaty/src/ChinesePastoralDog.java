@@ -1,5 +1,5 @@
-public class ChinesePastoralDog extends Animal {
-    protected boolean isVaccinelnjected;
+class ChinesePastoralDog extends Animal {
+    private boolean isVaccinelnjected;
 
     public ChinesePastoralDog() {
         super("ChinesePastoralDog", 7, "boy", 100);
@@ -15,11 +15,11 @@ public class ChinesePastoralDog extends Animal {
     @Override
     public String toString() {
         return "ChinesePastoralDog{" +
-                ", name='" + name + '\'' +
+                "name='" + name + '\'' +
                 ", age=" + age +
                 ", sex=" + gender +
                 ", price=" + price +
-                "isVaccineInjected=" + isVaccinelnjected +
+                ", isVaccineInjected=" + isVaccinelnjected +
                 '}';
     }
 }

@@ -1,3 +1,4 @@
+
 public interface AnimalShop {
     void buyAnimal(Animal animal);
 

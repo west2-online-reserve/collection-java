@@ -12,7 +12,8 @@ public abstract class Animal {
     }
 
     public abstract String toString();
-    public double getCost(){
+
+    public double getCost() {
         return price;
     }
 
