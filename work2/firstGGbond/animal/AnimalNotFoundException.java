@@ -4,7 +4,7 @@ package animal;
  * @author MR.瑜
  */
 public class AnimalNotFoundException extends RuntimeException {
-    protected Animal animal;
+    private Animal animal;
     public AnimalNotFoundException(Animal animal) {
         super(animal.name + " cannot be found.");
         this.setAnimal(animal);
