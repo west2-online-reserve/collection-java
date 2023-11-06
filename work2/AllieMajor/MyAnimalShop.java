@@ -58,15 +58,15 @@ public class MyAnimalShop implements AnimalShop {
 
     @Override
     public void buyNewAnimal(Animal a) {
-        if (balance < a.price) {
+        if (balance < a.getPrice()) {
             //余额不足则抛出异常InsufficientBalanceException
             System.out.println("余额不足，无法再买新动物了");
             throw new InsufficientBalanceException("余额不足，无法再买新动物了");
         } else {
             list1.add(a);
             System.out.println("宠物店买入一只新的动物，成功买入" + a.getName());
-            this.balance = this.balance - a.price;
-            this.profit = this.profit - a.price;
+            this.balance = this.balance - a.getPrice();
+            this.profit = this.profit - a.getPrice();
         }
     }
 
@@ -88,6 +88,7 @@ public class MyAnimalShop implements AnimalShop {
             }
             System.out.println("-------------------------------");
             boolean w = true;
+            int count = 0;
             while (w) {
                 Scanner sc = new Scanner(System.in);
                 System.out.println("请输入想要的动物编号：");
@@ -113,7 +114,8 @@ public class MyAnimalShop implements AnimalShop {
             }
             list2.add(c);
             //到店次数加一
-            c.count++;
+            count++;
+            c.setCount(count);
             c.setLastTime(LocalDate.now());
             boolean hava = false;
             for (int i = 0; i < list1.size(); i++) {
@@ -123,8 +125,8 @@ public class MyAnimalShop implements AnimalShop {
                     String information = a.toString();
                     System.out.println(information);
                     //收入
-                    this.balance += a.price;
-                    this.profit += a.price;
+                    this.balance += a.getPrice();
+                    this.profit += a.getPrice();
                     //移除动物
                     list1.remove(i);
                     System.out.println(c.getName() + "成功购买" + a.getName());

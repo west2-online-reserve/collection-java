@@ -13,7 +13,8 @@ public class ChineseRuralDog extends Animal{
     @Override
     public String toString() {
 
-        return "中华田园犬的名字是"+name+", "+"年龄是"+age+", "+"性别是"+gender+", "+"价格是"+price;
+        return "中华田园犬的名字是"+
+                getName()+", "+"年龄是"+getAge()+", "+"性别是"+getGender()+", "+"价格是"+getPrice();
     }
 
 

@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class Customer {
     private String name;
-    protected int count = 0;
+    private int count = 0;
 
     private LocalDate lastTime;
 
