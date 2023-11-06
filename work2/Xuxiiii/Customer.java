@@ -2,9 +2,12 @@ package Xuxiiii;
 import java.time.LocalDate;
 
 public class Customer {
-    private String name;//顾客名字
-    private int times;//顾客到店次数
-    private LocalDate now;//顾客最新到店时间
+    private String name;
+    //顾客名字
+    private int times;
+    //顾客到店次数
+    private LocalDate now;
+    //顾客最新到店时间
     public Customer(String name,int times,LocalDate now){
         this.name=name;
         this.times=times;

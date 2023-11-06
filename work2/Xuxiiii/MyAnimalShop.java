@@ -7,7 +7,8 @@ import java.util.ArrayList;
 public class MyAnimalShop implements Animalshop{
     private String name;
     private double money;
-    private boolean isonbusiness =true;//用close方法关闭
+    private boolean isonbusiness =true;
+    //用close方法关闭
     ArrayList<Animal> animals=new ArrayList<>();
     ArrayList<Customer> customers=new ArrayList<>();
     public MyAnimalShop(String name,double money,boolean isonbusiness){
