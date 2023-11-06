@@ -35,13 +35,13 @@ public class MyAnimalShop implements AnimalShop {
         System.out.println("Selling animal: " + animal.toString());
 
         balance += animal.getCost();
-        customeer.setArriveTime(LocalDate.now());
+        customer.setArriveTime(LocalDate.now());
         customerList.add(customer);
     }
 
     public void entertainCustomer(Customer customer) {
         System.out.println("招待顾客: " + customer.toString());
-        customeer.setArriveTime(LocalDate.now());
+        customer.setArriveTime(LocalDate.now());
             }
 
     @Override
