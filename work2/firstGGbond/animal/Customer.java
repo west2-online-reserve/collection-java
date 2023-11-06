@@ -3,9 +3,9 @@ package animal;
 import java.time.LocalDate;
 
 public class Customer {
-    protected String name;
-    protected int times;
-    protected LocalDate latestArrivedTime;
+    private String name;
+    private int times;
+    private LocalDate latestArrivedTime;
 
     public Customer(String name) {
         this.name = name;
