@@ -1,5 +1,3 @@
-package src.src;
-
 public abstract class AbstractAnimal {
 
 

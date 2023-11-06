@@ -1,5 +1,3 @@
-package src.src;
-
 public class ChinesePastoralDog extends AbstractAnimal {
     public ChinesePastoralDog() {
 

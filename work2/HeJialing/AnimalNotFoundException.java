@@ -1,5 +1,3 @@
-package src.src;
-
 public class AnimalNotFoundException extends RuntimeException {
     public AnimalNotFoundException() {
 

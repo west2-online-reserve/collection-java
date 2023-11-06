@@ -1,5 +1,3 @@
-package src.src;
-
 import java.time.LocalDate;
 import java.util.ArrayList;
 
@@ -10,9 +8,9 @@ public interface AnimalShop {
      */
     void buyNewAnimals(AbstractAnimal animal);
 
-    void serveCustomer(Customer customer);
+    void serveCustomer(Customer customer, LocalDate localDate);
 
     void shutdown(LocalDate localDate, ArrayList listOfCustomer);
 
-    void sellAnimals(Customer customer, ArrayList listOfAnimal);
+    void sellAnimals(Customer customer, ArrayList listOfAnimal, AbstractAnimal animal);
 }

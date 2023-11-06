@@ -1,5 +1,3 @@
-package src.src;
-
 import java.time.LocalDate;
 import java.util.ArrayList;
 
@@ -30,6 +28,7 @@ public class Test {
         try {
             shop.buyNewAnimals(cat1);
             shop.buyNewAnimals(cat2);
+            shop.buyNewAnimals(dog1);
             System.out.println(listOfAnimal);
             System.out.println(" 店铺余额 " + shop.getInsufficientBalance());
             System.out.println();
@@ -37,26 +36,30 @@ public class Test {
             e.printStackTrace();
         }
         //测试招待客户
-        System.out.println("测试招待客户");
-        LocalDate date1 = LocalDate.of(2023, 10, 10);
-        LocalDate date2 = LocalDate.of(2023, 10, 23);
+        System.out.println("售卖动物");
+        LocalDate localDate = LocalDate.of(2023, 10, 23);
+        LocalDate nevervisit = LocalDate.of(0, 1, 1);
+
+        Customer customer1 = new Customer("小明", 0, nevervisit);
+        Customer customer2 = new Customer("小红", 0, nevervisit);
+        shop.serveCustomer(customer1, localDate);
+        shop.serveCustomer(customer2, localDate);
+        //测试顾客多次光临
+        shop.serveCustomer(customer2, localDate);
+        shop.serveCustomer(customer1, localDate);
+
         //可能出错
-        try {
-            Customer customer1 = new Customer("小明", 2, date1, cat1);
-            shop.sellAnimals(customer1, listOfAnimal);
-            shop.serveCustomer(customer1);
-            Customer customer2 = new Customer("小红", 3, date2, cat1);
-            shop.sellAnimals(customer2, listOfAnimal);
-            shop.serveCustomer(customer2);
-        } catch (AnimalNotFoundException e) {
-            e.printStackTrace();
-        }
+
+        //顾客，动物列表，顾客想买的
+        shop.sellAnimals(customer2, listOfAnimal, dog1);
+        shop.sellAnimals(customer1, listOfAnimal, cat1);
+        shop.sellAnimals(customer1, listOfAnimal, cat1);
 
 
-        //歇业
+        System.out.println();
+        //歇业(LocalDate判断) 输出当天光顾的客户的列表信息，计算并输出一天的利润
         System.out.println("测试歇业");
         //当天日期
-        LocalDate localDate = LocalDate.of(2023, 10, 23);
         shop.shutdown(localDate, listOfCustomer);
 
 
