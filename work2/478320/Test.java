@@ -12,34 +12,34 @@ import java.time.LocalDate;
 public class Test {
     public static void main(String[] args) {
         MyAnimalShop myAnimalShop = new MyAnimalShop();
-        myAnimalShop.setClosingTime(LocalDate.of(2023, 9, 27));
+        myAnimalShop.closingTime=LocalDate.of(2023, 9, 27);
         // 设置初始金额
-        myAnimalShop.setStoreBalance(500);
+        myAnimalShop.storeBalance=500;
         // 设置正在营业
-        myAnimalShop.setBusinessInProgress(true);
+        myAnimalShop.businessInProgress=true;
         Dog charlie = new Dog("charlie", 1, "male", 120, 80, true);
         Cat blue = new Cat("blue", 1, "female", 200, 160);
         Cat tesla = new Cat("tesla", 1, "female", 190, 20);
         Cat max = new Cat("max", 1, "female", 60, 20);
         Dog smowball = new Dog("smowball", 2, "female", 120, 80, true);
         Dog kimi = new Dog("kimi", 1, "male", 3000, 1600, false);
-        myAnimalShop.getAnimalsList().add(charlie);
-        myAnimalShop.getAnimalsList().add(blue);
+        myAnimalShop.animalsList.add(charlie);
+        myAnimalShop.animalsList.add(blue);
         Customer alice = new Customer();
         // 设置顾客名字
-        alice.customerName="alice";
+        alice.setCustomerName("alice");
         // 设置到店次数
         alice.setArrivalTime(2);
         // 设置离店时间
-        alice.latestArrivalTime=(LocalDate.of(2023, 9, 27));
+        alice.setLatestArrivalTime((LocalDate.of(2023, 9, 27)));
         Customer landon = new Customer();
-        landon.customerName="landon";
+        landon.setCustomerName("landon");
         landon.setArrivalTime(2);
-        landon.latestArrivalTime=LocalDate.of(2023, 9, 27);
+        landon.setLatestArrivalTime(LocalDate.of(2023, 9, 27));
         Customer aron = new Customer();
-        aron.customerName="aron";
+        aron.setCustomerName("aron");
         aron.setArrivalTime(2);
-        aron.latestArrivalTime=LocalDate.of(2023, 9, 26);
+        aron.setLatestArrivalTime(LocalDate.of(2023, 9, 26));
         myAnimalShop.purchaseNewAnimal(smowball, LocalDate.of(2023, 9, 26));
         myAnimalShop.purchaseNewAnimal(tesla, LocalDate.of(2023, 9, 27));
         myAnimalShop.purchaseNewAnimal(max, LocalDate.of(2023, 9, 27));
@@ -56,17 +56,17 @@ public class Test {
         }
         // 验证宠物不足的情况
         /*Customer lan = new Customer();
-        lan.customerName="lan";
+        lan.setCustomerName("lan");
         lan.setArrivalTime(2);
-        lan.latestArrivalTime=LocalDate.of(2023, 9, 28);
+        lan.setLatestArrivalTime(LocalDate.of(2023, 9, 28));
         Customer yu = new Customer();
-        yu.customerName="yu";
+        yu.setCustomerName("yu");
         yu.setArrivalTime(2);
-        yu.latestArrivalTime=LocalDate.of(2023, 9, 28);
+        yu.setLatestArrivalTime(LocalDate.of(2023, 9, 28));
         Customer chen = new Customer();
-        chen.customerName="chen";
+        chen.setCustomerName("chen");
         chen.setArrivalTime(2);
-        chen.latestArrivalTime=LocalDate.of(2023, 9, 27);
+        chen.setLatestArrivalTime(LocalDate.of(2023, 9, 27));
         try {
             myAnimalShop.hospitalizingCustomers(alice, 1, charlie);
             myAnimalShop.hospitalizingCustomers(landon, 3, max);

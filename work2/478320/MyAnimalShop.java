@@ -12,6 +12,7 @@ package com.huayu.work02;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
+
 public class MyAnimalShop implements AnimalShop {
 
     protected double storeBalance;
@@ -21,6 +22,8 @@ public class MyAnimalShop implements AnimalShop {
     protected ArrayList<Double> importOnClosedDays = new ArrayList<>();
     protected LocalDate closingTime;
     protected boolean businessInProgress;
+
+
 
     /**
      * 这是购买动物方法，可以购买动物，购买后会把该动物加入我的动物列表，并消耗一部分我原有的钱，如果购买的时间是歇业计算利润的时间，这个动物的购买价格就会进入利润计算用的进口列表，如果已经没钱就会抛出钱不够的异常并捕获，输出异常信息
@@ -83,7 +86,7 @@ public class MyAnimalShop implements AnimalShop {
         // 顾客列表增加顾客
         customersList.add(customer);
         // 如果购买顾客光临时间和当天时间相同，售出列表增这个宠物的出口价
-        if (customer.latestArrivalTime.equals(closingTime) && animalsList.size() > 0) {
+        if (customer.getLatestArrivalTime().equals(closingTime) && animalsList.size() > 0) {
             soldOnClosedDays.add(animal.animalPrice);
         }
     }
@@ -93,7 +96,7 @@ public class MyAnimalShop implements AnimalShop {
      */
     @Override
     public void opening() {
-        this.businessInProgress = true;
+        this.businessInProgress=true;
     }
 
     /**
@@ -108,7 +111,7 @@ public class MyAnimalShop implements AnimalShop {
             return;
         }
         for (int i = 0; i < customer.length; i++) {
-            if (customer[i].latestArrivalTime.equals(closingTime)) {
+            if (customer[i].getLatestArrivalTime().equals(closingTime)) {
                 System.out.println("今日光临的顾客：" + customer[i].toString());
             }
         }
@@ -125,6 +128,7 @@ public class MyAnimalShop implements AnimalShop {
         // 计算利润
         double profit = expenditure - revenue;
         System.out.println("今日的利润为：" + profit);
-        this.businessInProgress = false;
+        this.businessInProgress=false;
+
     }
 }
