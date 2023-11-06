@@ -2,6 +2,9 @@
  * @author pengyuezhe
  */
 public class Cat extends Animal {
+    private String name;
+    private int age;
+    private String sex;
     public Cat(String name, int age, String sex) {
         super(name, age, sex, 200);
     }
