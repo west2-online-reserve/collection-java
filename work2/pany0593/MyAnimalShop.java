@@ -13,9 +13,26 @@ public class MyAnimalShop implements AnimalShop {
 
     private double balance;
     private double profit;
-    private List<AbstractAnimal> animalsList;
-    private List<Customer> customersList;
-    boolean isClosed;
+    private final List<AbstractAnimal> animalsList;
+    private final List<Customer> customersList;
+    private boolean isClosed;
+    private final double profitRate = 0.4;
+
+    public boolean getClosed() {
+        return this.isClosed;
+    }
+
+    public void setClosed(boolean isClosed) {
+        this.isClosed = isClosed;
+    }
+
+    public double getProfit() {
+        return this.profit;
+    }
+
+    public void setProfit(double profit) {
+        this.profit = profit;
+    }
 
     public double getBalance() {
         return this.balance;
@@ -27,22 +44,22 @@ public class MyAnimalShop implements AnimalShop {
 
     MyAnimalShop(double balance) {
         this.setBalance(balance);
-        this.profit = 0;
+        this.setClosed(false);
+        this.setProfit(0);
         this.animalsList = new ArrayList<>();
         this.customersList = new ArrayList<>();
-        this.isClosed = false;
     }
 
     @Override
     public double buyNewAnimal(AbstractAnimal animal) throws InsufficientBalanceException {
-        //进货价为标价一半
-        if (this.balance >= animal.price * 0.5) {
+        //进货价为标价一半 profitRate 利润率为0.5
+        if (this.balance >= animal.price * (1 - profitRate)) {
             this.animalsList.add(animal);
-            this.balance -= animal.price * 0.5;
+            this.balance -= animal.price * (1 - profitRate);
             System.out.println("成功购买宠物：\n" + animal.toString());
         } else {
             throw new InsufficientBalanceException("购买宠物失败：当前余额:" + this.balance +
-                    " 宠物进价:" + animal.getPrice() * 0.5 + '\n');
+                    " 宠物进价:" + animal.getPrice() * (1 - profitRate) + '\n');
         }
         return 0;
     }
@@ -59,7 +76,7 @@ public class MyAnimalShop implements AnimalShop {
             //直接卖出最早购买的宠物
             System.out.print("客户购买的宠物消息:\n" + this.animalsList.get(0).toString());
             this.balance += this.animalsList.get(0).price;
-            this.profit += this.animalsList.get(0).price * 0.5;
+            this.profit += this.animalsList.get(0).price * profitRate;
             animalsList.remove(0);
         }
         System.out.println("当前客户：" + customer.toString());
@@ -67,6 +84,7 @@ public class MyAnimalShop implements AnimalShop {
 
     @Override
     public void closeShop() {
+        this.setClosed(true);
         System.out.println("已经关店，今日客户：");
         for (int i = 0; i < customersList.size(); i++) {
             System.out.print("第" + (i + 1) + "个客户:" + customersList.get(i).toString());
