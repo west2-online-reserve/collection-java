@@ -10,7 +10,7 @@ public class MyAnimalShop implements AnimalShop {
     private ArrayList<Customer> customers;
     private boolean isOpen;
 
-    private double profit=0;
+    private double profit = 0;
 
 
     public MyAnimalShop() {
@@ -21,6 +21,7 @@ public class MyAnimalShop implements AnimalShop {
         this.animals = animals;
         this.customers = customers;
     }
+
     public double getProfit() {
         return profit;
     }
@@ -78,7 +79,7 @@ public class MyAnimalShop implements AnimalShop {
 
     @Override
     public Animal entertainCustomer(Customer customer) {
-        MyAnimalShop shop = new MyAnimalShop(money,animals,customers);
+        MyAnimalShop shop = new MyAnimalShop(money, animals, customers);
         boolean flag = false;
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入客人的姓名");
@@ -93,17 +94,17 @@ public class MyAnimalShop implements AnimalShop {
                 flag = true;
             }
         }
-        int count = customer.getCount();
-        customer.setCount(++count);
-        System.out.println("客人的到店次数" + customer.getCount());
         System.out.println("请输入客人的到店时间");
         String time = sc.next();
-        customer.setTime(LocalDate.parse(time));
-        if(customer.getTime().getDayOfMonth()==15||customer.getTime().getDayOfMonth()==16){
+        if (time.equals("15") || time.equals("16")) {
             isOpen = false;
             System.out.println("抱歉，店铺在月中15，16号不营业");
         }
-        if(isOpen){
+        if (isOpen) {
+            int count = customer.getCount();
+            customer.setCount(++count);
+            System.out.println("客人的到店次数" + customer.getCount());
+            customer.setTime(LocalDate.parse(time));
             if (!flag) customers.add(customer);
             System.out.println("请输入顾客想要购买的动物名字，年龄，性别（如果是狗狗请输入是否打疫苗）");
             System.out.println("请输入动物类型");
@@ -138,16 +139,17 @@ public class MyAnimalShop implements AnimalShop {
                     return a;
                 }
             }
-        }return new Dog();
+        }
+        return new Dog();
     }
 
     @Override
     public void close(LocalDate time, ArrayList<Customer> customers, ArrayList<Animal> Animal, MyAnimalShop shop) {
-        if(time.getDayOfMonth()==15||time.getDayOfMonth()==16){
+        if (time.getDayOfMonth() == 15 || time.getDayOfMonth() == 16) {
             isOpen = false;
             System.out.println("抱歉，店铺在月中15，16号不营业");
             System.exit(0);
-        }else{
+        } else {
             isOpen = true;
             System.out.println("当天顾客列表信息为：");
             for (int i = 0; i < customers.size(); i++) {
