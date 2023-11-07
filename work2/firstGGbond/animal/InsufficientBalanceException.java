@@ -4,8 +4,8 @@ package animal;
  * @author MR.瑜
  */
 public class InsufficientBalanceException extends RuntimeException{
-    protected double balance;
-    protected double expectedCost;
+    private double balance;
+    private double expectedCost;
     public InsufficientBalanceException(double balance, double expectedCost) {
         super("Balance is insufficient to cover the cost!");
         this.setBalance(balance);
