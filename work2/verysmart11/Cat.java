@@ -9,7 +9,7 @@ public class Cat extends Animal {
                 "gender: " + gender + "\r\n" +
                 "Price: " + Price + "\r\n";
     }
-    protected Cat(String name, int age, char gender) {
+    public Cat(String name, int age, char gender) {
         super(name, age, gender, 200);
     }
 

@@ -17,58 +17,32 @@ public class Test {
         Animal animal5 = new Cat("XiaoHei", 1, 'M');
         Animal animal6 = new Rabbit("HeiTu", 2, 'F');
 
-        ArrayList<Animal> animalArrayList = new ArrayList<Animal>();
-       // animalArrayList.add(animal1);
-        animalArrayList.add(animal3);
-        animalArrayList.add(animal4);
+        Customer c1 = new Customer("XiaoMei", 2);
+        Customer c2 = new Customer("XiaoMing", 6);
+        Customer c3 = new Customer("XiaoQiang", 0);
+        Customer c4 = new Customer("DaZhuang", 3);
+        Customer c5 = new Customer("MieMie", 1);
 
         ArrayList<Customer> customerArrayList = new ArrayList<Customer>();
 
-        MyAnimalShop store = new MyAnimalShop(150, animalArrayList, customerArrayList);
+        ArrayList<Animal> animalArrayList = new ArrayList<Animal>();
+        // animalArrayList.add(animal1);
+        animalArrayList.add(animal3);
+        animalArrayList.add(animal4);
 
-        Customer c1 = new Customer("XiaoMei", 2, LocalDate.of(2023, 1, 20));
-        Customer c2 = new Customer("XiaoMing", 6, LocalDate.of(2023, 4, 2));
-        Customer c3 = new Customer("XiaoQiang", 0, LocalDate.of(2023, 5, 7));
-        Customer c4 = new Customer("DaZhuang", 3, LocalDate.of(2023, 10, 20));
-        Customer c5 = new Customer("MieMie", 1, LocalDate.of(2023, 9, 3));
+        MyAnimalShop store = new MyAnimalShop(150, animalArrayList, customerArrayList);
 
         store.close(LocalTime.of(7, 0));
         store.close(LocalTime.of(17, 0));
-
-        try {
-            store.buyAnimal(animal2);
-        } catch (InsufficientBalanceException e) {
-            System.out.println("balance is not enough");
-        }
-
-        try {
-            store.treatCustomer(c1, sc);
-            store.treatCustomer(c2, sc);
-            store.treatCustomer(c3, sc);
-            store.treatCustomer(c4, sc);
-        } catch (AnimalNotFountException e) {
-            System.out.println("there is no animal in the store");
-        }
-
-        try {
-            store.buyAnimal(animal5);
-        } catch (InsufficientBalanceException e) {
-            System.out.println("balance is not enough");
-        }
-
-
+        store.buyAnimal(animal2);
+        store.treatCustomer(c1, sc);
+        store.treatCustomer(c2, sc);
+        store.treatCustomer(c3, sc);
+        store.treatCustomer(c4, sc);
+        store.buyAnimal(animal5);
         store.close(LocalTime.of(23, 23));
-        try {
-            store.buyAnimal(animal6);
-        } catch (InsufficientBalanceException e) {
-            System.out.println("balance is not enough");
-        }
-
-        try {
-            store.treatCustomer(c5, sc);
-        } catch (AnimalNotFountException e) {
-            System.out.println("there is no animal in the store");
-        }
+        store.buyAnimal(animal6);
+        store.treatCustomer(c5, sc);
 
         sc.close();
     }
