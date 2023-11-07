@@ -1,5 +1,6 @@
 package work2;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -11,6 +12,7 @@ public class MyAnimalShop implements AnimalShop {
     private List<Animal> animalList;
     private List<Customer> customerList;
     private boolean isOpen;
+
 
     public MyAnimalShop(double balance) {
         this.balance = balance;
@@ -33,6 +35,7 @@ public class MyAnimalShop implements AnimalShop {
 
     @Override
     public void serveCustomer(Customer customer) throws AnimalNotFoundException {
+        customer.visit();
         if (animalList.isEmpty()) {
             throw new AnimalNotFoundException("动物卖完了");
         }

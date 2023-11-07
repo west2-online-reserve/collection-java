@@ -27,13 +27,9 @@ public class Test {
         }
 
         try {
-            customer1.visit();
             petShop.serveCustomer(customer1);
-            customer2.visit();
             petShop.serveCustomer(customer2);
-            customer3.visit();
             petShop.serveCustomer(customer3);
-            customer1.visit();
             petShop.serveCustomer(customer1);
         } catch (AnimalNotFoundException e) {
             System.out.println(e.getMessage());

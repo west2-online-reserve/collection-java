@@ -12,7 +12,6 @@ public class Customer {
         this.visitCount = 0;
         this.lastVisitDate = null;
     }
-
     public void visit() {
         visitCount++;
         lastVisitDate = LocalDate.now();
