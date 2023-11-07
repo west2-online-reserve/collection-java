@@ -2,7 +2,7 @@ package work2;
 
 public class Rabbit extends Animal {
 
-    protected Rabbit(String name, int age, char gender) {
+    public Rabbit(String name, int age, char gender) {
         super(name, age, gender, 150);
     }
 
