@@ -10,8 +10,8 @@ public class MyanimalShop implements AnimalShop{
     /**
      * 店内余额
      **/
-    List<Animal> animalArrayList = new ArrayList<>();
-    List<Customer> customerArrayList = new ArrayList<>();
+    private List<Animal> animalArrayList = new ArrayList<>();
+    private List<Customer> customerArrayList = new ArrayList<>();
     @Override
     public void addanimal(Animal newanimal) {
         if(num< newanimal.price){
@@ -24,7 +24,7 @@ public class MyanimalShop implements AnimalShop{
     }
     @Override
     public void dealCustomers(Customer customer){
-        customerArrayList.add(customer);
+
         Scanner scanner = new Scanner(System.in);
         if (animalArrayList.size() == 0) {
             throw new AnimalNotFountException("购买失败，原因：本店已无可售动物");
@@ -39,6 +39,7 @@ public class MyanimalShop implements AnimalShop{
                 }
                 customer.setCount(customer.getCount() + 1);
                 customer.setArriveDay(LocalDate.now());
+                customerArrayList.add(customer);
             }
         }
     @Override
