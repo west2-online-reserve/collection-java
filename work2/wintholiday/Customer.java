@@ -25,16 +25,16 @@ public class Customer {
         return count;
     }
 
-    public void setcount(int count) {
-        this.count = count;
+    public void addcount() {
+        this.count++;
     }
 
     public LocalDate getLatestArrivedTime() {
         return latestArrivedTime;
     }
 
-    public void setLatestArrivedTime(LocalDate latestArrivedTime) {
-        this.latestArrivedTime = latestArrivedTime;
+    public void setLatestArrivedTime() {
+        latestArrivedTime = LocalDate.now();
     }
 
     @Override
