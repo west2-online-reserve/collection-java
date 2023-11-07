@@ -1,13 +1,10 @@
 import java.time.LocalDate;
 
 public class Customer {
-    private int times;
+    private int visitCount;
     private LocalDate latestArrivedTime;
     private String name;
-    public int getTimes() { return times; }
-
-    public void setTimes(int times)  { this.times = times; }
-
+    private LocalDate latestVisit;
     public LocalDate getLatestArrivedTime() {
         return latestArrivedTime;
     }
@@ -23,12 +20,6 @@ public class Customer {
     public void setName(String name) {
         this.name = name;
     }
-
-    // 成员变量
-
-    private int visitCount;
-    private LocalDate latestVisit;
-
     // 构造方法
     public Customer(String name, int visitCount, LocalDate latestVisit) {
         this.name = name;
@@ -44,16 +35,11 @@ public class Customer {
         this.visitCount = visitCount;
     }
 
-    public LocalDate getLatestVisit() {
-        return latestVisit;
-    }
+    public LocalDate getLatestVisit() { return latestVisit; }
 
     public void setLatestVisit(LocalDate latestVisit) {
         this.latestVisit = latestVisit;
     }
-
-
-
     // 重写toString方法
     @Override
     public String toString() {

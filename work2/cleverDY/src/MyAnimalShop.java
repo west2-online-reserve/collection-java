@@ -55,7 +55,7 @@ public class MyAnimalShop implements AnimalShop {
             return;
         }
         customerList.add(customer);
-        customer.setTimes(customer.getTimes()+1);
+        customer.setVisitCount(customer.getVisitCount()+1);
         customer.setLatestVisit(LocalDate.now());
         if (animalList.isEmpty()) {
             System.out.println("抱歉，宠物店暂时没有动物可供出售。");
