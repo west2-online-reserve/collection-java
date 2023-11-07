@@ -1,5 +1,5 @@
 public class ChineseTianyuanDog extends Animal{
-    boolean isVaccineInjected=false;
+    private boolean isVaccineInjected=false;
     public ChineseTianyuanDog(String animalname,int age,int gentle,double price)
     {
         super(animalname,age,gentle,100);

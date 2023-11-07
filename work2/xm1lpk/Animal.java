@@ -1,8 +1,8 @@
 public abstract class Animal {
-    protected String animalname;
-    protected int age;
-    protected int gentle;// 公用0表示，1表示母
-    protected double price;
+    private String animalname;
+    private int age;
+    private int gentle;// 公用0表示，1表示母
+    private double price;
 
     public Animal(String animalname,int age,int gentle,double price)
     {
