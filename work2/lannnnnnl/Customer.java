@@ -7,12 +7,34 @@ public class Customer {
  private String name;
  private int visitCount;
  private LocalDate lastVisitDate;
+ public Customer(String name) {
+        this.name = name;
+        this.times = 0;
+        this.lastVisitDate = LocalDate.now();
+    }
+    public String getName() {
 
- Customer(String name, int visitCount, LocalDate lastVisitDate) {
-     this.name = name;
-     this.visitCount = visitCount;
-     this.lastVisitDate = lastVisitDate;
- }
+        return name;
+    }
+    public void setName(String name) {
+
+        this.name = name;
+    }
+    public int getTimes() {
+
+        return times;
+    }
+    public void setTimes(int times) {
+
+        this.times = times;
+    }
+    public LocalDate getlastVisitDate() {
+
+        return lastVisitDate;
+    }
+    public void setlastVisitDate(LocalDate lastVisitDate) {
+        this.lastVisitDate = lastVisitDate;
+    }
 
  @Override
  public String toString() {
