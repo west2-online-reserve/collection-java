@@ -36,12 +36,14 @@ public class MyAnimalShop implements AnimalShop {
 
         balance += animal.getCost();
         customer.setArriveTime(LocalDate.now());
+        customer.settime(customer.time()+ 1);
         customerList.add(customer);
     }
 
     public void entertainCustomer(Customer customer) {
         System.out.println("招待顾客: " + customer.toString());
         customer.setArriveTime(LocalDate.now());
+        customer.settime(customer.time()+ 1);
             }
 
     @Override
