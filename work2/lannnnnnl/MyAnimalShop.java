@@ -5,10 +5,10 @@ import java.util.List;
 
 //宠物店实现
 public class MyAnimalShop implements AnimalShop {
- double balance;
- List<Animal> animalList = new ArrayList<>();
- List<Customer> customerList = new ArrayList<>();
- boolean isOpen;
+ private double balance;
+ private List<Animal> animalList = new ArrayList<>();
+ private List<Customer> customerList = new ArrayList<>();
+ private boolean isOpen;
 
  MyAnimalShop(double balance) {
      this.balance = balance;
