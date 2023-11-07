@@ -44,7 +44,7 @@ public class MyAnimalShop implements AnimalShop {
      * 服务顾客（顾客每买一条宠物就输出该宠物信息并将其从列表中移除，如果该顾客第一次光临就将其添加至顾客列表否则该顾客的visitCount+1并且更新LocalDate，如果宠物列表为空则抛出AnimalNotFoundException）
      * @param customer     顾客
      * @param index        顾客购买的是那只宠物
-     * @throws AnimalNotFoundException       没有动物了
+     * @throws AnimalNotFoundException      没有动物了
      */
     @Override
     public void serveCustomer(Customer customer, int index) throws AnimalNotFoundException {
