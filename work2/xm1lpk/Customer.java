@@ -1,9 +1,9 @@
 import java.time.LocalDate;
 
 public class Customer {
-    String custname;
-    int num;
-    LocalDate gettime;
+    private String custname;
+    private int num;
+    private LocalDate gettime;
     public Customer(String custname, int num, LocalDate gettime) {
         this.custname = custname;
         this.num = num;

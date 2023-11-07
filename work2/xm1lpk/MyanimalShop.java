@@ -4,14 +4,15 @@ import java.util.Scanner;
 import java.time.LocalDate;
 
 public class MyanimalShop implements AnimalShop{
-    Boolean isopen=true;
-    Double num;
-    Double profit=10.00;
+    private Boolean isopen=true;
+    private Double num;
+    private Double profit=10.00;
     /**
      * 店内余额
      **/
     List<Animal> animalArrayList = new ArrayList<>();
     List<Customer> customerArrayList = new ArrayList<>();
+    @Override
     public void addanimal(Animal newanimal) {
         if(num< newanimal.price){
             throw new InsufficientBalanceException("购买失败，原因：余额不足");
@@ -21,6 +22,7 @@ public class MyanimalShop implements AnimalShop{
             num = num - newanimal.price;
         }
     }
+    @Override
     public void dealCustomers(Customer customer){
         customerArrayList.add(customer);
         Scanner scanner = new Scanner(System.in);
@@ -39,7 +41,7 @@ public class MyanimalShop implements AnimalShop{
                 customer.setArriveDay(LocalDate.now());
             }
         }
-
+    @Override
     public void Isopened(){
         isopen=false;
         for (int i = 0; i < customerArrayList.size(); i++) {
