@@ -47,27 +47,27 @@ public class Test {
         for (int i = 0; i < Animals.size(); i++) {
             System.out.println(Animals.get(i));
         }
-        shop.setMoney(shop.getMoney() - aa.price);
-        System.out.println("购买宠物花费"+aa.price+"元，"+"店铺剩余金额："+shop.getMoney());
+        shop.setMoney(shop.getMoney() - aa.getPrice());
+        System.out.println("购买宠物花费"+aa.getPrice()+"元，"+"店铺剩余金额："+shop.getMoney());
         System.out.println("------------------------------------------------------");
         double price = 0;
         for (int i = 0; i < Animals.size(); i++) {
             Animal aa1 = Animals.get(i);
-            price = aa1.price;
-            if(aa.age == aa1.getAge()&&aa.name.equals(aa1.getName())&&aa.gender.equals(aa1.getGender())){
+            price = aa1.getPrice();
+            if(aa.getAge() == aa1.getAge()&& aa.getName().equals(aa1.getName())&& aa.getGender().equals(aa1.getGender())){
                 Animals.remove(i);
-                shop.setMoney(shop.getMoney() + aa1.price);
+                shop.setMoney(shop.getMoney() + aa1.getPrice());
             }
         }
         for (int i = 0; i < Animals.size(); i++) {
             System.out.println(Animals.get(i));
         }
+        shop.setProfit(price);
         System.out.println("出售宠物获得"+price+"元，"+"店铺剩余金额："+shop.getMoney());
         System.out.println("------------------------------------------------------");
         System.out.println("请输入查询利润时间");
         String t = sc.next();
         LocalDate time = LocalDate.parse(t);
-        MyAnimalShop shop1 = new MyAnimalShop(0,Animals,customers);
-        shop1.close(time,customers,Animals,shop1);
+        shop.close(time,customers,Animals,shop);
     }
 }
