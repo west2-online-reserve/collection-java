@@ -61,14 +61,12 @@ public class MyAnimalShop implements AnimalShop{
     @Override
     public void buy(Animal animal,int num) {
         double buySum = 0;
-        try {
-            buySum = (animal.getPrice()-55) * num;
-            if (buySum > this.balance) {
-                throw new InsufficientBalanceException("余额不足");
-            }
-        } catch (InsufficientBalanceException e) {
-            System.out.println(e.toString());
+
+        buySum = (animal.getPrice()-55) * num;
+        if (buySum > this.balance) {
+            throw new InsufficientBalanceException("余额不足");
         }
+
         if (num > 0&& buySum <this.balance) {
             this.balance = this.balance - buySum;
             for (int i = 0; i < num; i++) {
@@ -81,13 +79,11 @@ public class MyAnimalShop implements AnimalShop{
         }
     }
     public void sell(Animal animal,int num){
-        try {
-            if (this.total<num) {
-                throw new AnimalNotFountException("店内没有动物");
-            }
-        } catch (AnimalNotFountException e) {
-            System.out.println(e.toString());
+
+        if (this.total<num) {
+                throw new AnimalNotFountException("店内动物不足");
         }
+
         if (num>0){
             this.balance = this.balance + animal.getPrice() * num;
             System.out.println("已移除出列表的宠物：" + num + "只" + animal.toString());
@@ -100,34 +96,44 @@ public class MyAnimalShop implements AnimalShop{
         }
     }
 
-
+    int q = 0 ;
     public void reception(Customer customer) {
-        for (int i = 0; i < customerArrayList.size(); i++) {
-            if(customerArrayList.get(i).getName().equals(customer.getName())) {
+        if(getIsClosed()){
+            for (int i = 0; i < customerArrayList.size(); i++) {
+                if (customerArrayList.get(i).equals(customer)) {
+                    q = 1;
+                    break;
+                }
+            }
+            if(q==1){
                 System.out.println("欢迎再次光临");
-            }else {
+            }else{
                 customerArrayList.add(customer);
                 System.out.println("欢迎光临");
             }
-             customer.setTimes(customer.getTimes()+1);
-        }
-        System.out.println("我们这里有：");
-        for (Animal animal1 : animalArrayList) {
-            System.out.println(animal1);
-        }
-        System.out.println(customer.getName() + "先生（女士），请问您想要哪只宠物？");
-        Scanner scanner1 = new Scanner(System.in);
-        String animal =scanner1.nextLine();
-        int a=1;
-        for (int i = 0; i < animalArrayList.size(); i++) {
-            if(animalArrayList.get(i).getName().equals(animal)){
-                a=0;
-                System.out.println("好的，谢谢惠顾！");
-                animalArrayList.remove(i);
+            customer.setTimes(customer.getTimes() + 1);
+            System.out.println("我们这里有：");
+            for (Animal animal1 : animalArrayList) {
+                System.out.println(animal1);
             }
-        }
-        if(a==1){
-            System.out.println("很抱歉，我们这里没有这只宠物.");
+            System.out.println(customer.getName() + "先生（女士），请问您想要哪只宠物？");
+            Scanner scanner1 = new Scanner(System.in);
+            String animal =scanner1.nextLine();
+            int a=1;
+            for (int i = 0; i < animalArrayList.size(); i++) {
+                if(animalArrayList.get(i).getName().equals(animal)){
+                    a=0;
+                    System.out.println("好的，谢谢惠顾！");
+                    animalArrayList.remove(i);
+                    this.balance=this.balance-animalArrayList.get(i).getPrice();
+                }
+            }
+            if(a==1){
+                throw new AnimalNotFountException("店内没有该动物。");
+            }
+
+        }else{
+            System.out.println("店铺已经歇业。");
         }
 
     }
