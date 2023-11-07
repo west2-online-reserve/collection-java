@@ -43,4 +43,8 @@ public class Customer {
         return name + visit + time;
 
     }
+     public void renewCustomer(Customer customer){
+        customer.frequency += 1;
+        customer.timeNew = LocalDate.now();
+    }
 }
