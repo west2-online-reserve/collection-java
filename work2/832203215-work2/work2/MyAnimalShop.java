@@ -68,7 +68,6 @@ public class MyAnimalShop implements AnimalShop {
 
     @Override
     public Animal entertainCustomer(Customer customer) {
-        Customer customer1 = new Customer();
         boolean flag = false;
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入客人的姓名");
@@ -78,7 +77,7 @@ public class MyAnimalShop implements AnimalShop {
             if (customers.get(i).getName().equals(name)) {
                 customer = customers.get(i);
                 customers.add(customer);
-                customer1 = customers.get(i);
+                Customer customer1 = customers.get(i);
                 customers.remove(customer1);
                 flag = true;
             }
@@ -89,57 +88,66 @@ public class MyAnimalShop implements AnimalShop {
         System.out.println("请输入客人的到店时间");
         String time = sc.next();
         customer.setTime(LocalDate.parse(time));
-        if(!flag) customers.add(customer);
-        System.out.println("请输入顾客想要购买的动物名字，年龄，性别（如果是狗狗请输入是否打疫苗）");
-        System.out.println("请输入动物类型");
-        String w = sc.next();
-        Animal a;
-        switch (w) {
-            case "狗狗" -> {
-                a = new Dog();
-                Dog d = (Dog) a;
-                a = selectAnimal(d, w);
-                sellAnimal(a);
-                return a;
-            }
-            case "猫猫" -> {
-                a = new Cat();
-                a = selectAnimal(a, w);
-                sellAnimal(a);
-                return a;
-            }
-            case "兔兔" -> {
-                a = new Rabbit();
-                a = selectAnimal(a, w);
-                sellAnimal(a);
-                return a;
-            }
-            default -> {
-                a = new Dog(" ", 0, " ", 1, false);
-                sellAnimal(a);
-                return a;
+        if(customer.getTime().getDayOfMonth()==15||customer.getTime().getDayOfMonth()==16){
+            System.out.println("抱歉，店铺在月中15，16号不营业");
+        }else{
+            if(!flag) customers.add(customer);
+            System.out.println("请输入顾客想要购买的动物名字，年龄，性别（如果是狗狗请输入是否打疫苗）");
+            System.out.println("请输入动物类型");
+            String w = sc.next();
+            Animal a;
+            switch (w) {
+                case "狗狗" -> {
+                    a = new Dog();
+                    Dog d = (Dog) a;
+                    a = selectAnimal(d, w);
+                    sellAnimal(a);
+                    return a;
+                }
+                case "猫猫" -> {
+                    a = new Cat();
+                    a = selectAnimal(a, w);
+                    sellAnimal(a);
+                    return a;
+                }
+                case "兔兔" -> {
+                    a = new Rabbit();
+                    a = selectAnimal(a, w);
+                    sellAnimal(a);
+                    return a;
+                }
+                default -> {
+                    a = new Dog(" ", 0, " ", 1, false);
+                    sellAnimal(a);
+                    return a;
+                }
             }
         }
+        return new Dog();
     }
 
     @Override
     public void close(LocalDate time, ArrayList<Customer> customers, ArrayList<Animal> Animal, MyAnimalShop shop) {
-        int total = 0, start = 0, end = 0;
-        for (int i = 0; i < customers.size(); i++) {
-            Customer c = customers.get(i);
-            if (time.isEqual(c.getTime())) {
-                System.out.println(c);
-                total++;
-                end = i;
+        if(time.getDayOfMonth()==15||time.getDayOfMonth()==16){
+            System.out.println("抱歉，店铺在月中15，16号不营业");
+        }else{
+            int total = 0, start = 0, end = 0;
+            for (int i = 0; i < customers.size(); i++) {
+                Customer c = customers.get(i);
+                if (time.isEqual(c.getTime())) {
+                    System.out.println(c);
+                    total++;
+                    end = i;
+                }
             }
+            int sum = 0;
+            for (int i = start; i < end; i++) {
+                Customer c = customers.get(i);
+                Animal aa = shop.entertainCustomer(c);
+                shop.setMoney((double) (shop.getMoney()) - aa.price);
+            }
+            System.out.println("当天盈利" + shop.getMoney() + "元");
         }
-        int sum = 0;
-        for (int i = start; i < end; i++) {
-            Customer c = customers.get(i);
-            Animal aa = shop.entertainCustomer(c);
-            shop.setMoney((double) (shop.getMoney()) - aa.price);
-        }
-        System.out.println("当天盈利" + shop.getMoney() + "元");
     }
 
     public Animal sellAnimal(Animal a) {
