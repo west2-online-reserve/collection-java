@@ -17,6 +17,8 @@ public class Test {
         //测试购买宠物
         try {
             shop.buyNewAnimal(mm);
+            //重复购买统一宠物
+            shop.buyNewAnimal(mm);
             shop.buyNewAnimal(ww);
             //第三只余额不足
             shop.buyNewAnimal(tt);

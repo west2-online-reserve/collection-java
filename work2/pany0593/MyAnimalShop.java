@@ -60,14 +60,18 @@ public class MyAnimalShop implements AnimalShop {
 
     @Override
     public double buyNewAnimal(AbstractAnimal animal) throws InsufficientBalanceException {
-        //进货价为标价一半 profitRate 利润率为0.5
-        if (this.balance >= animal.price * (1 - profitRate)) {
-            this.animalsList.add(animal);
-            this.balance -= animal.price * (1 - profitRate);
-            System.out.println("成功购买宠物：\n" + animal.toString());
+        if (this.animalsList.contains(animal)) {
+            System.out.println("已经购买过该宠物:\n"+animal.toString());
         } else {
-            throw new InsufficientBalanceException("购买宠物失败：当前余额:" + this.balance +
-                    " 宠物进价:" + animal.getPrice() * (1 - profitRate) + '\n');
+            //进货价为标价一半 profitRate 利润率为0.5
+            if (this.balance >= animal.price * (1 - profitRate)) {
+                this.animalsList.add(animal);
+                this.balance -= animal.price * (1 - profitRate);
+                System.out.println("成功购买宠物：\n" + animal.toString());
+            } else {
+                throw new InsufficientBalanceException("购买宠物失败：当前余额:" + this.balance +
+                        " 宠物进价:" + animal.getPrice() * (1 - profitRate) + '\n');
+            }
         }
         return 0;
     }
