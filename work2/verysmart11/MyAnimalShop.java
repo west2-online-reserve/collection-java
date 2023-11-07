@@ -8,51 +8,18 @@ import java.util.Scanner;
 
 public class MyAnimalShop implements AnimalShop {
 
-    protected double balance;
-    protected double startBalance;
-    protected ArrayList<Animal> animalList;
-    protected ArrayList<Customer> customerList;
-    protected boolean isClose;
+    public double balance;
+    public double startBalance;
+    public ArrayList<Animal> animalList;
+    public ArrayList<Customer> customerList;
+    public boolean isClose;
+    public double profit;
 
-    protected double profit;
-
-    protected MyAnimalShop(double balance, ArrayList<Animal> animalList, ArrayList<Customer> customerList) {
+    public MyAnimalShop(double balance, ArrayList<Animal> animalList, ArrayList<Customer> customerList) {
         this.balance = balance;
         this.animalList = animalList;
         this.customerList = customerList;
         startBalance = balance;
-    }
-
-    protected double getBalance() {
-        return balance;
-    }
-
-    protected void setBalance(double balance) {
-        balance = balance;
-    }
-
-    protected ArrayList<Animal> getAnimalList() {
-        return animalList;
-    }
-
-    protected void setAnimalList(ArrayList<Animal> animalList) {
-        animalList = animalList;
-    }
-
-    protected ArrayList<Customer> getCustomerList() {
-        return customerList;
-    }
-
-    protected void setCustomerList(ArrayList<Customer> customerList) {
-        customerList = customerList;
-    }
-
-    protected boolean getIsClose() {
-        return isClose;
-    }
-
-    protected void setIsClose(boolean close) {
-        isClose = close;
     }
     @Override
     public void buyAnimal(Animal a) throws InsufficientBalanceException {
@@ -113,11 +80,9 @@ public class MyAnimalShop implements AnimalShop {
                 System.out.println("there is no animal in the store");
             }
         } else System.out.println("Store is closing");
-
-
-
-
     }
+
+
 
     @Override
     public void close(LocalTime time) throws ParseException {

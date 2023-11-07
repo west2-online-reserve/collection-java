@@ -12,9 +12,6 @@ public class ChinesePastoralDog extends Animal {
         return IsVaccineInjected;
     }
 
-    public void setIsVaccineInjected(boolean IsVaccineInjected) {
-        IsVaccineInjected = IsVaccineInjected;
-    }
 
     @Override
     public String toString() {
