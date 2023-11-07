@@ -30,7 +30,8 @@ public class Customer {
     public void setNow(LocalDate now) {
         this.now = now;
     }
-
+    
+    @Override
     public String toString(){
         return "名字是："+name+
                 "\n到店次数为："+times+
