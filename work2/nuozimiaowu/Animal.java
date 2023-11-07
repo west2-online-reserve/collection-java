@@ -1,10 +1,11 @@
 package com.sty;
 
 public abstract class Animal {
-    String name;
-    int age;
-    int gender;
-    double price;
+    protected String name;
+    protected int age;
+    protected int gender;
+    protected double price;
+
 
     @Override
     public abstract String toString();
