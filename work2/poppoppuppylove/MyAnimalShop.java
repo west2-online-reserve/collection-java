@@ -31,7 +31,9 @@ public class MyAnimalShop implements AnimalShop {
             return;
         }
 
-        customers.add(customer);
+        if (!this.customers.contains(customer)) {
+            this.customers.add(customer);
+        }
         customer.setVisitCount(customer.getVisitCount() + 1);
         customer.setLastVisitDate(LocalDate.now());
 
