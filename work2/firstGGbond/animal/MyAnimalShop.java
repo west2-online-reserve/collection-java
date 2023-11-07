@@ -8,7 +8,7 @@ import java.util.ArrayList;
  */
 public class MyAnimalShop implements AnimalShop{
     private double balance;
-    protected double profit;
+    private double profit;
     private ArrayList<Animal> animals = new ArrayList<>();;
     private ArrayList<Customer> customers= new ArrayList<>();;
     private boolean isClosed;
