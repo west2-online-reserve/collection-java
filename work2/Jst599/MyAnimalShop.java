@@ -108,8 +108,7 @@ public class MyAnimalShop implements PetShop.AnimalShop {
                     storeAnimal.remove(r.nextInt(storeAnimal.size()));
                     profit += animal instanceof PetShop.Cat ? 50 : 75;
                     System.out.println(customer.getName() + "买入" + animal.name + ","+  animal.name + "的具体信息为" + animal.toString());
-                    customer.getFrequency() += 1;
-                    customer.getTimeNew() = LocalDate.now();
+                    customer.renewCustomer(customer);
                     if (animal instanceof PetShop.ChineseDog){
                         if (!((PetShop.ChineseDog) animal).getisVaccineInjected()){
                             System.out.println("尊敬的" + customer.getName() + "顾客,您买的狗狗没有注射狂犬疫苗,为了您的安全请自行到宠物医院注射");

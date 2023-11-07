@@ -56,4 +56,9 @@ public class Customer {
                 "timeNew =" + timeNew + "\t" +
                 "}";
     }
+
+    public void renewCustomer(Customer customer){
+        customer.frequency += 1;
+        customer.timeNew = LocalDate.now();
+    }
 }
