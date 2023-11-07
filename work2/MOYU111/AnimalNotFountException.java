@@ -1,3 +1,6 @@
+/**
+ * @author sjy176
+ */
 public class AnimalNotFountException extends RuntimeException{
 
     Customer c;
