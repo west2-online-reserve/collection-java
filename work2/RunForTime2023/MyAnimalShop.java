@@ -51,7 +51,7 @@ class MyAnimalShop implements AnimalShop {
             if (x.name.equals(animal.name)) {
                 balance += animal.price;
                 profit += animal.price;
-                System.out.println(animal.toString());
+                System.out.println(animal);
                 animals.remove(animal);
                 isHere = true;
                 break;
@@ -69,7 +69,7 @@ class MyAnimalShop implements AnimalShop {
         System.out.printf("Today's customers List(%s):\n", String.valueOf(openDate));
 
         for (Customer x : customers) {
-            System.out.print(x.toString());
+            System.out.print(x);
         }
         customers.clear();
         System.out.printf("Today's profit:\t\t\t%.2f 元\n\n", profit);

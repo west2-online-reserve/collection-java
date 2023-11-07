@@ -11,7 +11,7 @@ public abstract class Animal {
         this.price = price;
     }
 
-    Animal() {
+    public Animal() {
     }
 
     @Override
