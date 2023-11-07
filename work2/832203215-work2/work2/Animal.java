@@ -1,10 +1,10 @@
 package work2;
 
 public abstract class Animal {
-    protected String name;
-    protected int age;
-    protected String gender;
-    protected double price;
+    private String name;
+    private int age;
+    private String gender;
+    private double price;
 
     public Animal() {
     }
