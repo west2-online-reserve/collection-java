@@ -29,7 +29,15 @@ public class Test {
             System.out.println(customers.get(i));
         }
         System.out.println("------------------------------------------------------");
-        MyAnimalShop shop = new MyAnimalShop(500,Animals,customers);
+        System.out.println("请输入店铺剩余金额");
+        double money = sc.nextDouble();
+        MyAnimalShop shop = new MyAnimalShop(money,Animals,customers);
+        Customer c4 = new Customer();
+        Animal aa = shop.entertainCustomer(c4);
+        for (int i = 0; i < customers.size(); i++) {
+            System.out.println(customers.get(i));
+        }
+        System.out.println("------------------------------------------------------");
         try{
             Animal a4 = new Rabbit("兔兔2",5,"公",1);
             shop.buyAnimal(a4);
@@ -39,18 +47,22 @@ public class Test {
         for (int i = 0; i < Animals.size(); i++) {
             System.out.println(Animals.get(i));
         }
-        Animal aa = shop.entertainCustomer(c3);
-        shop.setMoney((double)(shop.getMoney()) - aa.price);
+        shop.setMoney(shop.getMoney() - aa.price);
+        System.out.println("购买宠物花费"+aa.price+"元，"+"店铺剩余金额："+shop.getMoney());
+        System.out.println("------------------------------------------------------");
+        double price = 0;
         for (int i = 0; i < Animals.size(); i++) {
             Animal aa1 = Animals.get(i);
+            price = aa1.price;
             if(aa.age == aa1.getAge()&&aa.name.equals(aa1.getName())&&aa.gender.equals(aa1.getGender())){
                 Animals.remove(i);
+                shop.setMoney(shop.getMoney() + aa1.price);
             }
         }
         for (int i = 0; i < Animals.size(); i++) {
             System.out.println(Animals.get(i));
         }
-        System.out.println(shop.getMoney());
+        System.out.println("出售宠物获得"+price+"元，"+"店铺剩余金额："+shop.getMoney());
         System.out.println("------------------------------------------------------");
         System.out.println("请输入查询利润时间");
         String t = sc.next();
