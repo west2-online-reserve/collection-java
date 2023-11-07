@@ -32,7 +32,7 @@ public class Test {
             shop.purchase(cat);
             shop.purchase(dog);
         }catch (InsufficientBalanceException e){
-            System.out.println(e.toString());
+            System.out.println(e);
         }
         shop.animalArrayList.add(cat);
         shop.animalArrayList.add(dog);
@@ -43,14 +43,14 @@ public class Test {
         try {
             shop.receiveCustomer(c1);
         }catch (AnimalNotFountException e) {
-            System.out.println(e.toString());
+            System.out.println(e);
         }
 
         //第二位
         try {
             shop.receiveCustomer(c2);
         }catch (AnimalNotFountException e) {
-            System.out.println(e.toString());
+            System.out.println(e);
         }
 
 
@@ -61,7 +61,7 @@ public class Test {
         try {
             shop.receiveCustomer(c3);
         }catch (AnimalNotFountException e) {
-            System.out.println(e.toString());
+            System.out.println(e);
         }
 
 

@@ -106,7 +106,6 @@ public class MyAnimalShop implements AnimalShop {
 
     @Override
     public void receiveCustomer(Customer customer) {
-        customerArrayList.add(customer);
 
         //将顾客添加进列表
         customerArrayList.add(customer);
@@ -118,6 +117,7 @@ public class MyAnimalShop implements AnimalShop {
         customer.setLatestTime(LocalDate.now());
         if (!this.isOpened) {
             System.out.println("请下次光临，本店已关门。");
+            return;
         }
         //询问顾客是否要购买动物
         Scanner s1 = new Scanner(System.in);
@@ -128,7 +128,7 @@ public class MyAnimalShop implements AnimalShop {
             return;
         }
         //如果店内没有动物，抛出AnimalNotFoundException。
-        if(animalArrayList.size()==0){
+        if(animalArrayList.isEmpty()){
             throw new AnimalNotFountException("非常抱歉没有宠物了，下次再来吧。");
         }else {
             //输入想要购买的动物
@@ -157,8 +157,8 @@ public class MyAnimalShop implements AnimalShop {
         this.isOpened = false;
         //输出当天光顾的客户的列表信息
         for(Customer customer : customerArrayList){
-            if (LocalDate.now().equals(customer.getLatestTime())){
-                System.out.println(customer.toString());
+            if (LocalDate.now().equals(customer.getLatestTime())) {
+                System.out.println(customer);
             }
         }
         //输出一天的利润
