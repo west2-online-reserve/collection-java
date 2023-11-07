@@ -55,8 +55,8 @@ public class MyAnimalShop implements AnimalShop {
             return;
         }
         customerList.add(customer);
-        customer.times++;
-        customer.latestArrivedTime = LocalDate.now();
+        customer.setTimes(customer.getTimes()+1);
+        customer.setLatestVisit(LocalDate.now());
         if (animalList.isEmpty()) {
             System.out.println("抱歉，宠物店暂时没有动物可供出售。");
             return;
@@ -68,7 +68,7 @@ public class MyAnimalShop implements AnimalShop {
                 throw new IndexOutOfBoundsException("购买失败，请输入正确的序号");
             }
             if (animalList.size() != 0) {
-                System.out.println("买第" + i + "只宠物");
+                System.out.println(customer.getName()+"买第" + i + "只宠物");
                 System.out.println(animalList.get(i - 1));
                 profit += animalList.get(i - 1).getPrice();//利润是卖宠物的钱
                 animalList.remove(i - 1);

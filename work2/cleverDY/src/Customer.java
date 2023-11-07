@@ -1,16 +1,12 @@
 import java.time.LocalDate;
 
-class Customer {
-    public int times;
-    public LocalDate latestArrivedTime;
-    String name;
-    public int getTimes() {
-        return times;
-    }
+public class Customer {
+    private int times;
+    private LocalDate latestArrivedTime;
+    private String name;
+    public int getTimes() { return times; }
 
-    public void setTimes(int times) {
-        this.times = times;
-    }
+    public void setTimes(int times)  { this.times = times; }
 
     public LocalDate getLatestArrivedTime() {
         return latestArrivedTime;
@@ -39,6 +35,24 @@ class Customer {
         this.visitCount = visitCount;
         this.latestVisit = latestVisit;
     }
+
+    public int getVisitCount() {
+        return visitCount;
+    }
+
+    public void setVisitCount(int visitCount) {
+        this.visitCount = visitCount;
+    }
+
+    public LocalDate getLatestVisit() {
+        return latestVisit;
+    }
+
+    public void setLatestVisit(LocalDate latestVisit) {
+        this.latestVisit = latestVisit;
+    }
+
+
 
     // 重写toString方法
     @Override
