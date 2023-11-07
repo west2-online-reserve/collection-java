@@ -12,7 +12,7 @@ public class MyAnimalShop implements AnimalShop {
     private double profit = 0;
 
     MyAnimalShop() {
-    };
+    }
 
     MyAnimalShop(double balance) {
         this.balance = balance;
