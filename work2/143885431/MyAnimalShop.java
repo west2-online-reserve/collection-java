@@ -7,8 +7,8 @@ import java.util.Scanner;
  */
 public class MyAnimalShop implements AnimalShop{
     private double balance;
-    ArrayList<Animal> animalArrayList = new ArrayList<>();
-    ArrayList<Customer> customerArrayList = new ArrayList<>();
+    private ArrayList<Animal> animalArrayList = new ArrayList<>();
+    private ArrayList<Customer> customerArrayList = new ArrayList<>();
     private boolean isClosed;
     private int total;
     public MyAnimalShop() {
@@ -55,6 +55,7 @@ public class MyAnimalShop implements AnimalShop{
     public void setTotal(int total) {
         this.total = total;
     }
+
 
 
     @Override
@@ -132,13 +133,13 @@ public class MyAnimalShop implements AnimalShop{
     }
     @Override
     public void isClosed() {
-        if(LocalDate.now().isAfter(LocalDate.of(2023,1,5))){
-            System.out.println("已过零点，我们歇业啦！");
-            double income=this.getBalance()-100000;
-            System.out.println("今日利润为："+income);
-        }else{
-            System.out.println("正在营业中~");
-        }
+            if(LocalDate.now().isAfter(LocalDate.of(2023,1,5))){
+                System.out.println("已过零点，我们歇业啦！");
+                double income=this.getBalance()-100000;
+                System.out.println("今日利润为："+income);
+            }else{
+                System.out.println("正在营业中~");
+            }
     }
 
     @Override
