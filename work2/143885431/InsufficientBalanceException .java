@@ -8,8 +8,4 @@ public class InsufficientBalanceException extends RuntimeException{
         super(msg);
     }
 
-    @Override
-    public String toString() {
-        return "余额不足";
-    }
 }
