@@ -1,4 +1,3 @@
-
 import java.time.LocalDate;
 import java.util.ArrayList;
 
@@ -13,7 +12,6 @@ public class MyAnimalShop implements AnimalShop {
     //顾客的列表
     ArrayList<Customer> customer = new ArrayList<Customer>();
 
-    //初始化余额和
     public MyAnimalShop(double m) {
         this.money = m;
     }
@@ -36,7 +34,22 @@ public class MyAnimalShop implements AnimalShop {
 
     }
     public void treat(Customer c,int i) {
-        customer.add(c);
+        int index = 0;
+        // 当前顾客是否已经存在
+        boolean customerNotExist = true;
+        // 搜索当前顾客是否存在
+        for (int x=0; x<customer.size(); x++) {
+            if (customer.get(x) == c) {
+                // 位置改为表中位置
+                index = x;
+                customerNotExist = false;
+            }
+        }
+        // 若不存在则加入列表
+        if (customerNotExist){
+            customer.add(c);
+            index = customer.size()-1;
+        }
         c.setTimes(c.getTimes() + 1);
         c.setNow(LocalDate.now());
         //判断是否有宠物
@@ -56,6 +69,8 @@ public class MyAnimalShop implements AnimalShop {
         }
     }
 
+
+
     public void close() {
         this.isOnBusiness = false;
         for (int i = 0; i < customer.size(); i++) {
@@ -66,3 +81,4 @@ public class MyAnimalShop implements AnimalShop {
     }
 
 }
+
