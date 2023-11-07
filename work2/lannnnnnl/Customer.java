@@ -4,9 +4,9 @@ import java.time.LocalDate;
 
 //顾客类
 public class Customer {
- String name;
- int visitCount;
- LocalDate lastVisitDate;
+ private String name;
+ private int visitCount;
+ private LocalDate lastVisitDate;
 
  Customer(String name, int visitCount, LocalDate lastVisitDate) {
      this.name = name;
