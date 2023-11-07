@@ -168,7 +168,7 @@ public class MyAnimalShop implements AnimalShop {
         System.out.println(list);
         LocalDate date = LocalDate.now();
         int dayOfWeekValue = date.getDayOfWeek().getValue();
-        if (dayOfWeekValue>= 5) {
+        if (dayOfWeekValue> 5) {
             run = false;
         }
     }
