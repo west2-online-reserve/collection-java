@@ -10,37 +10,68 @@ public class test {
         Cat cat3 = new Cat("Lili",3,"女",100);
         ChineseRuralDog dog1 = new ChineseRuralDog("field",2,"男",100,true);
 
-        shop.animalArrayList.add(cat2);
-        shop.animalArrayList.add(cat3);
+        shop.getAnimalArrayList().add(cat2);
+        shop.getAnimalArrayList().add(cat3);
 
 
-        //余额不足
-        shop.buy(cat1,900);
-        //购买成功,购买了1只Cat{name:猫猫,age:3,gender:女,price:200.0}
-        shop.buy(cat1,1);
-        //购买成功,购买了1只ChineseRuralDog{name:field,age:2,gender:男,price:100.0,isVaccineInjected:true}
-        shop.buy(dog1,1);
-
-
-        ArrayList<Customer> customerArrayList = new ArrayList<>();
-        Customer customer1 = new Customer("Jack",0,LocalDate.now());
-        customerArrayList.add(customer1);
-        shop.reception(customer1);
-
-
-        //已移除出列表的宠物：ChineseRuralDog{name:中华田园犬,age:2,gender:男,price:100.0,isVaccineInjected:true}
-        //卖出了ChineseRuralDog{name:中华田园犬,age:2,gender:男,price:100.0,isVaccineInjected:true}
-        shop.sell(dog1,1);
-        shop.sell(cat1,1);
-        shop.sell(cat2,1);
-        //已过零点，我们歇业啦！
-        //今日利润为：310.0
-        shop.isClosed();
-        for (int i = 0; i < customerArrayList.size(); i++) {
-            System.out.println(customerArrayList.get(i));
+        try {
+            shop.buy(cat1,900);
+        } catch (InsufficientBalanceException e) {
+             e.printStackTrace();
         }
-        for (int i = 0; i < shop.animalArrayList.size(); i++) {
-            System.out.println(shop.animalArrayList.get(i));
+
+        try {
+            shop.buy(cat1,1);
+        } catch (InsufficientBalanceException e) {
+            e.printStackTrace();
+        }
+        try {
+            shop.buy(dog1,1);
+        } catch (InsufficientBalanceException e) {
+            e.printStackTrace();
+        }
+
+        shop.setIsClosed(true);
+
+        Customer customer1 = new Customer("Jack",0,LocalDate.now());
+
+        try {
+            shop.reception(customer1);
+        } catch (AnimalNotFountException e) {
+            e.printStackTrace();
+        }
+
+        shop.setIsClosed(false);
+        Customer customer2 = new Customer("Rare",1,LocalDate.now());
+        shop.getCustomerArrayList().add(customer2 );
+        try {
+            shop.reception(customer2);
+        } catch (AnimalNotFountException e) {
+            e.printStackTrace();
+        }
+
+
+        try {
+            shop.sell(dog1,1);
+        } catch (AnimalNotFountException e) {
+            e.printStackTrace();
+        }
+        try {
+            shop.sell(cat1,1);
+        } catch (AnimalNotFountException e) {
+            e.printStackTrace();
+        }
+        try {
+            shop.sell(cat2,1);
+        } catch (AnimalNotFountException e) {
+            e.printStackTrace();
+        }
+
+        for (int i = 0; i < shop.getCustomerArrayList().size(); i++) {
+            System.out.println(shop.getCustomerArrayList().get(i));
+        }
+        for (int i = 0; i < shop.getAnimalArrayList().size(); i++) {
+            System.out.println(shop.getAnimalArrayList().get(i));
         }
     }
 }
