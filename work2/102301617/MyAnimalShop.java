@@ -139,10 +139,10 @@ public class MyAnimalShop implements AnimalShop {
             if (!list.isEmpty()) {
                 costom.add(customer);
                 System.out.println("顾客购买的宠物为");
-                int numberOfBuy = (int) (Math.random() * list.size());
-                Animal animal = (Animal) list.get(numberOfBuy);
-                list.remove(numberOfBuy);
-                balance += animal.price * numberOfBuy;
+                int numberOfBut = (int) (Math.random() * list.size());
+                Animal animal = (Animal) list.get(numberOfBut);
+                list.remove(numberOfBut);
+                balance += animal.price * numberOfBut;
                 System.out.println(animal);
                 int i = 0;
                 customer.setVisit(i++);
@@ -154,8 +154,8 @@ public class MyAnimalShop implements AnimalShop {
         } catch (AnimalNotFountException e) {
             System.out.println(e.toString());
         }
-                 scanner.close();
 
+       scanner.close();
     }
 
     @Override
@@ -172,5 +172,6 @@ public class MyAnimalShop implements AnimalShop {
             run = false;
         }
     }
+
 }
 
