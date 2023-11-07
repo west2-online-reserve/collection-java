@@ -28,10 +28,7 @@ public class MyAnimalShop implements AnimalShop{
     @Override
     public void treatCustomers(Customer customer,AbstractAnimal animal,double money) throws AnimalNotFoundException{
         if(!isClose){
-            if (customer.getCustomerVisitTime() == 0){
-                customers.add(customer);
-            }
-            customer.setCustomerVisitTime(customer.getCustomerVisitTime() + 1);
+            
             for(int i = 0;i < animals.size();i ++){
                 
                 boolean whetherDogs = animals.get(i) instanceof Dogs && animal instanceof Dogs;
@@ -41,6 +38,9 @@ public class MyAnimalShop implements AnimalShop{
                     if(money < animals.get(i).animaiPrice){
                         System.out.println("出价过低，出售失败");
                         return;
+                    }
+                    if (customer.getCustomerVisitTime() == 0){
+                        customers.add(customer);
                     }
                     customer.setCustomerVisitTime(customer.getCustomerVisitTime() + 1);
                     restMoney += money;
