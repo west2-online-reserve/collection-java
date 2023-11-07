@@ -11,8 +11,8 @@ public class MyAnimalShop implements AnimalShop {
     }
 
     private double balance;
-    ArrayList<Animal> list1 = new ArrayList<>();
-    ArrayList<Customer> list2 = new ArrayList<>();
+    private ArrayList<Animal> list1 = new ArrayList<>();
+    private ArrayList<Customer> list2 = new ArrayList<>();
     private boolean shutdown;
     private double profit = 0;
 
@@ -88,9 +88,8 @@ public class MyAnimalShop implements AnimalShop {
             }
             System.out.println("-------------------------------");
             boolean w = true;
-            int count = 0;
+            Scanner sc = new Scanner(System.in);
             while (w) {
-                Scanner sc = new Scanner(System.in);
                 System.out.println("请输入想要的动物编号：");
                 int index = sc.nextInt();
                 if (index >= 0 && index <= list1.size() - 1) {
@@ -112,8 +111,18 @@ public class MyAnimalShop implements AnimalShop {
                 System.out.println(c.getName() + "选择了可爱的中华田园犬");
                 System.out.println("-----------------------------------");
             }
-            list2.add(c);
+            //判断顾客是否已经来过
+            boolean z = true;
+            for (int i = 0; i < list2.size(); i++) {
+                if(c == list2.get(i)){
+                    z = false;
+                }
+            }
+            if(z){
+                list2.add(c);
+            }
             //到店次数加一
+            int count = c.getCount();
             count++;
             c.setCount(count);
             c.setLastTime(LocalDate.now());
@@ -161,3 +170,4 @@ public class MyAnimalShop implements AnimalShop {
         System.out.println("宠物店正式打烊力！");
     }
 }
+
