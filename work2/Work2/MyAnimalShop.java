@@ -11,7 +11,7 @@ public class MyAnimalShop implements AnimalShop {
     private ArrayList CustomerList = new ArrayList<>();
     private ArrayList DateList = new ArrayList<>();
 
-    public boolean work = true;
+    private boolean work = true;
 
     @Override
     public void Buy(Animal animal) {
