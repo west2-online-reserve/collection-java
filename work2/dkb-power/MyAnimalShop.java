@@ -3,8 +3,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class MyAnimalShop implements AnimalShop {
-    List<Animal> animalList = new LinkedList<>();
-    List<Customer> customerList = new LinkedList<>();
+    private List<Animal> animalList = new LinkedList<>();
+    private List<Customer> customerList = new LinkedList<>();
     private double blance;
     private boolean isOpen;
     private double profit = 0;
@@ -79,12 +79,20 @@ public class MyAnimalShop implements AnimalShop {
     public void Customer(Customer customer) throws AnimalNotFoundException {
         System.out.println("=========================");
         try {
-            if (isOpen == false) {
+            if (!isOpen) {
                 System.out.println("宠物店已打烊.\n");
                 return;
             }
-            if (animalList.size() != 0) {
-                customerList.add(customer);
+            if (!animalList.isEmpty()) {
+                boolean customerExises = false;
+                for(Customer existingCustomer : customerList) {
+                    if(existingCustomer.getName().equals(customer.getName())) {
+                        customerExises =true;
+                        break;
+                    }
+                }if(!customerExises) {
+                    customerList.add(customer);
+                }
                 System.out.println(customer.getName() + "先生,以下是你购买的宠物信息:");
                 int number = (int) (Math.random() * animalList.size());
                 Animal animal = animalList.get(number);
