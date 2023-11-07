@@ -12,18 +12,20 @@ import java.util.ArrayList;
  **/
 public class MyAnimalShop implements AnimalShop{
 
-    private double balance;
     //余额
-    private double profits;
+    private double balance;
+
     //利润
-    private final ArrayList<Animal> animalList = new ArrayList<>();
+    private double profits;
+
     //动物列表
+    private final ArrayList<Animal> animalList = new ArrayList<>();
 
-    private final ArrayList<Customer> customerList = new ArrayList<>();
     //顾客列表
+    private final ArrayList<Customer> customerList = new ArrayList<>();
 
-    private boolean isOpen;
     //是否开业
+    private boolean isOpen;
 
     public MyAnimalShop(double balance, boolean isOpen) {
         this.balance = balance;
@@ -33,18 +35,17 @@ public class MyAnimalShop implements AnimalShop{
     @Override
     public void buyAnimals(Animal animal,int number) {
         if (balance< animal.getPrice()*number){
-            throw new InsufficientBalanceException("余额不足无法购买");
             //当余额不足时抛出异常
+            throw new InsufficientBalanceException("余额不足无法购买");
         }else{
-
+            //当余额足够时买入动物
             balance -= animal.getPrice()*number;
-            //买入动物
             System.out.println("买入"+number+"只"+animal+"成功,还剩下"+balance+"元");
-
+            //将买入的动物加入到动物列表
             for (int i = 1; i <= number; i++) {
                 animalList.add(animal);
             }
-            //将买入的动物加入到动物列表
+
         }
     }
 
@@ -53,28 +54,28 @@ public class MyAnimalShop implements AnimalShop{
         if(!isOpen){
             System.out.println("商店尚未营业！");
         }else {
-            customerList.add(customer);
             //将新顾客加入顾客列表中
+            customerList.add(customer);
 
             if (animalList.isEmpty()) {
-                throw new AnimalNotFountException("找不到对应动物");
                 //无动物时抛出异常
+                throw new AnimalNotFountException("找不到对应动物");
             }
             for (int i = 0; i < animalList.size(); i++) {
                 Animal a = animalList.get(i);
                 if (a.equals(animal)) {
-                    profits += 10;
                     //每只利润10块
-                    balance += animal.getPrice()+10;
+                    profits += 10;
                     //商店余额增加
-                    animalList.remove(animal);
+                    balance += animal.getPrice()+10;
                     //将动物移出动物列表
-                    System.out.println("成功出售"+animal);
+                    animalList.remove(animal);
                     //出售动物
-                    customer.setArrivalTimes(customer.getArrivalTimes()+1);
+                    System.out.println("成功出售"+animal);
                     //顾客到店次数加一
-                    customer.setLastestArrivalTime(LocalDate.now());
+                    customer.setArrivalTimes(customer.getArrivalTimes()+1);
                     //将顾客到店时间更新为当前时间
+                    customer.setLastestArrivalTime(LocalDate.now());
                     return;
                 }
             }
@@ -84,15 +85,15 @@ public class MyAnimalShop implements AnimalShop{
     @Override
     public boolean close() {
         if(isOpen){
+            //歇业并输入今日利润
             System.out.println("宠物店歇业");
             LocalDate localDate = LocalDate.now();
             System.out.println("今日利润为"+profits+"元");
-            //歇业并输入今日利润
+            //输出今日光临的顾客
             System.out.println("今日光临的顾客如下");
             for(Customer customer : customerList){
                 System.out.println(customer);
             }
-            //输出今日光临的顾客
             this.isOpen = false;
         }
         return false;
@@ -101,8 +102,8 @@ public class MyAnimalShop implements AnimalShop{
     @Override
     public boolean open() {
         if(!isOpen){
+            //若顾客列表为空直接开业
             if(customerList.isEmpty()){
-                //若顾客列表为空直接开业
                 System.out.println("宠物店开业");
                 this.setProfits(0.0);
                 this.isOpen = true;
@@ -111,10 +112,10 @@ public class MyAnimalShop implements AnimalShop{
                 for (int i = customerList.size()-1; i >= 0; i--) {
                     customerList.remove(customerList.get(i));
                 }
+                //开业并重置利润
                 System.out.println("宠物店开业");
                 this.setProfits(0.0);
                 this.isOpen = true;
-                //开业并重置利润
             }
         }
         return true;

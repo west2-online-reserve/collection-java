@@ -7,12 +7,12 @@ package Animal;
  *
  **/
 public interface AnimalShop {
-    void buyAnimals(Animal animal,int number);
     //买入动物
-    void serverCustomers(Customer customer,Animal animal);
+    void buyAnimals(Animal animal,int number);
     //招待顾客
-    boolean close();
+    void serverCustomers(Customer customer,Animal animal);
     //歇业
-    boolean open();
+    boolean close();
     //开业
+    boolean open();
 }
