@@ -23,6 +23,7 @@ public class test {
         me.add(c1);
         me.add(c2);
         me.treat(customer3,1);
+        me.treat(customer3,1);
         me.close();
 
         my.add(d2);
