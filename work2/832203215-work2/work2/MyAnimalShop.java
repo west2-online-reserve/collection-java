@@ -68,50 +68,54 @@ public class MyAnimalShop implements AnimalShop {
 
     @Override
     public Animal entertainCustomer(Customer customer) {
-        customers.add(customer);
-        System.out.println("请输入顾客想要购买的动物名字，年龄，性别（如果是狗狗请输入是否打疫苗）");
+        Customer customer1 = new Customer();
+        boolean flag = false;
         Scanner sc = new Scanner(System.in);
+        System.out.println("请输入客人的姓名");
+        String name = sc.next();
+        customer.setName(name);
+        for (int i = 0; i < customers.size(); i++) {
+            if (customers.get(i).getName().equals(name)) {
+                customer = customers.get(i);
+                customers.add(customer);
+                customer1 = customers.get(i);
+                customers.remove(customer1);
+                flag = true;
+            }
+        }
+        int count = customer.getCount();
+        customer.setCount(++count);
+        System.out.println("客人的到店次数" + customer.getCount());
+        System.out.println("请输入客人的到店时间");
+        String time = sc.next();
+        customer.setTime(LocalDate.parse(time));
+        if(!flag) customers.add(customer);
+        System.out.println("请输入顾客想要购买的动物名字，年龄，性别（如果是狗狗请输入是否打疫苗）");
         System.out.println("请输入动物类型");
         String w = sc.next();
+        Animal a;
         switch (w) {
             case "狗狗" -> {
-                System.out.println("请输入狗狗的名字");
-                String n = sc.next();
-                System.out.println("请输入狗狗的年龄");
-                int age = sc.nextInt();
-                System.out.println("请输入狗狗的性别");
-                String gender = sc.next();
-                System.out.println("请输入狗狗的疫苗情况");
-                String q = sc.next();
-                boolean is = false;
-                if(q.equals("是")) is = true;
-                Animal a = new Dog(n,age,gender,1,is);
+                a = new Dog();
+                Dog d = (Dog) a;
+                a = selectAnimal(d, w);
                 sellAnimal(a);
                 return a;
             }
             case "猫猫" -> {
-                System.out.println("请输入猫猫的名字");
-                String n = sc.next();
-                System.out.println("请输入猫猫的年龄");
-                int age = sc.nextInt();
-                System.out.println("请输入猫猫的性别");
-                String gender = sc.next();
-                Animal a = new Cat(n,age,gender,1);
+                a = new Cat();
+                a = selectAnimal(a, w);
                 sellAnimal(a);
                 return a;
             }
             case "兔兔" -> {
-                System.out.println("请输入兔兔的名字");
-                String n = sc.next();
-                System.out.println("请输入兔兔的年龄");
-                int age = sc.nextInt();
-                System.out.println("请输入兔兔的性别");
-                String gender = sc.next();
-                Animal a = new Rabbit(n,age,gender,1);
+                a = new Rabbit();
+                a = selectAnimal(a, w);
+                sellAnimal(a);
                 return a;
             }
             default -> {
-                Animal a = new Dog(" ",0," ",1,false);
+                a = new Dog(" ", 0, " ", 1, false);
                 sellAnimal(a);
                 return a;
             }
@@ -119,23 +123,23 @@ public class MyAnimalShop implements AnimalShop {
     }
 
     @Override
-    public void close(LocalDate time,ArrayList<Customer> customers,ArrayList<Animal> Animal,MyAnimalShop shop) {
-        int total = 0,start=0,end=0;
+    public void close(LocalDate time, ArrayList<Customer> customers, ArrayList<Animal> Animal, MyAnimalShop shop) {
+        int total = 0, start = 0, end = 0;
         for (int i = 0; i < customers.size(); i++) {
             Customer c = customers.get(i);
-            if(time.isEqual(c.getTime())){
+            if (time.isEqual(c.getTime())) {
                 System.out.println(c);
-                total ++;
-                end=i;
+                total++;
+                end = i;
             }
         }
-        int sum=0;
+        int sum = 0;
         for (int i = start; i < end; i++) {
             Customer c = customers.get(i);
             Animal aa = shop.entertainCustomer(c);
-            shop.setMoney((double)(shop.getMoney()) - aa.price);
+            shop.setMoney((double) (shop.getMoney()) - aa.price);
         }
-        System.out.println("当天盈利"+shop.getMoney()+"元");
+        System.out.println("当天盈利" + shop.getMoney() + "元");
     }
 
     public Animal sellAnimal(Animal a) {
@@ -147,11 +151,40 @@ public class MyAnimalShop implements AnimalShop {
             if (s.equals(s1)) flag = false;
         }
         if (flag) {
-            throw new AnimalNotFountException("店内没有该动物 " + s1);
+            try {
+                throw new AnimalNotFountException();
+            } catch (AnimalNotFountException e) {
+                String ss = "店内没有该动物 " + s1;
+                e.printStackTrace();
+                System.out.println(ss);
+            }
+
         } else {
-            System.out.println("成功购买 "+a.toString());
+            System.out.println("成功购买 " + a.toString());
             animals.remove(a);
             money += a.price;
+        }
+        return a;
+    }
+
+    public Animal selectAnimal(Animal a, String w) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("请输入" + w + "的名字");
+        String n = sc.next();
+        a.setName(n);
+        System.out.println("请输入" + w + "的年龄");
+        int age = sc.nextInt();
+        a.setAge(age);
+        System.out.println("请输入" + w + "的性别");
+        String gender = sc.next();
+        a.setGender(gender);
+        if (a instanceof Dog d) {
+            System.out.println("请输入狗狗的疫苗情况");
+            String q = sc.next();
+            boolean is = false;
+            if (q.equals("是")) is = true;
+            d.setVaccineInjected(is);
+            return d;
         }
         return a;
     }
