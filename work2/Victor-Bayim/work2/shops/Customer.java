@@ -10,7 +10,10 @@ public class Customer {
         this.visits = visits;
         this.lastVisit = lastVisit;
     }
-
+    public void updateVisit() {
+        this.visits++; // Increment the visit count
+        this.lastVisit = LocalDate.now(); // Update the last visit date to now
+    }
     @Override
     public String toString() {
         return "Customer{" +

@@ -30,10 +30,17 @@ public class MyAnimalShop implements AnimalShop {
         if (this.animalList.isEmpty()) {
             throw new AnimalNotFoundException("No animals available for sale.");
         }
+        // 销售第一只动物
         Animal soldAnimal = this.animalList.remove(0);
+        // 更新店铺余额
         this.balance += soldAnimal.getPrice();
+        // 更新今日收入
         this.todayIncome += soldAnimal.getPrice();
+        // 添加顾客到顾客列表
         this.customerList.add(customer);
+        // 更新顾客信息
+        customer.updateVisit();
+        // 打印出售的动物信息
         System.out.println(soldAnimal);
     }
 
