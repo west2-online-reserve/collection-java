@@ -1,3 +1,4 @@
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 
@@ -8,9 +9,9 @@ public class MyAnimalShop implements AnimalShop {
     //是否营业
     private boolean isOnBusiness = true;
     //动物的列表
-    ArrayList<animal> animal = new ArrayList<animal>();
+    private ArrayList<animal> animal = new ArrayList<animal>();
     //顾客的列表
-    ArrayList<Customer> customer = new ArrayList<Customer>();
+    private ArrayList<Customer> customer = new ArrayList<Customer>();
 
     public MyAnimalShop(double m) {
         this.money = m;
@@ -18,11 +19,11 @@ public class MyAnimalShop implements AnimalShop {
 
     public void add(animal a) {
         try {
-            if (a.price > money){
-                throw new InsufficientBalanceException(a.name,money);
+            if (a.getPrice() > money){
+                throw new InsufficientBalanceException(a.getName(),money);
             }
             else{
-                money -= a.price;
+                money -= a.getPrice();
                 animal.add(a);
             }
 
@@ -57,10 +58,11 @@ public class MyAnimalShop implements AnimalShop {
             if (animal.size() != 0){
                 System.out.println("买第" + i + "只宠物"+"\n");
                 System.out.println(animal.get(i-1));
-                money += animal.get(i-1).price;
+                money += animal.get(i-1).getPrice();
                 animal.remove(i-1);
             }else {
                 throw new AnimalNotFountException(animal.size(),c);
+
             }
         }
 
@@ -81,4 +83,3 @@ public class MyAnimalShop implements AnimalShop {
     }
 
 }
-
