@@ -1,7 +1,7 @@
 package Xuxiiii;
 public class Cat extends Animal{
-    public Cat(String name, int age, String sex,double price) {
-        super(name, age, sex,price);
+    public Cat(String name, int age, String sex, double price) {
+        super(name, age, sex, price);
         this.setPrice(200);
     }
 

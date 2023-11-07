@@ -1,13 +1,12 @@
 package Xuxiiii;
 /* @author Xuxiiii
-* @data 2023/11/5
+*  @data 2023/11/5
 */
 public abstract class Animal {
     protected String name;
     protected int age;
     protected String sex;
     protected double price;
-
     public Animal(String name, int age, String sex, double price) {
         this.name = name;
         this.age = age;
