@@ -1,6 +1,9 @@
 public class Pig extends Animal {
-    Pig(String name, int age, char sex) {
-        super(name, age, sex, 148.7);
+    public Pig(String name, int age, char sex) {
+        this.name = name;
+        this.age = age;
+        this.sex = sex;
+        price = 148.7;
     }
 
     public String toString() {

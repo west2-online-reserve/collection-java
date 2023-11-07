@@ -9,7 +9,7 @@ class MyAnimalShop implements AnimalShop {
     private ArrayList<Customer> customers = new ArrayList<>();
     private LocalDate openDate;
 
-    MyAnimalShop(double balance, LocalDate openDate) {
+    public MyAnimalShop(double balance, LocalDate openDate) {
         this.balance = balance;
         this.isClosed = false;
         this.openDate = openDate;
@@ -38,7 +38,7 @@ class MyAnimalShop implements AnimalShop {
         for (Customer x : customers) { //是否是老顾客
             if (x.getName().equals(customer.getName())) {
                 come = true;
-                x = customer;
+                x.updateArrival(customer.getLatestReachTime());
                 break;
             }
         }
@@ -51,7 +51,7 @@ class MyAnimalShop implements AnimalShop {
             if (x.name.equals(animal.name)) {
                 balance += animal.price;
                 profit += animal.price;
-                System.out.println(animal);
+                System.out.println(animal.toString());
                 animals.remove(animal);
                 isHere = true;
                 break;
@@ -72,7 +72,11 @@ class MyAnimalShop implements AnimalShop {
             System.out.print(x.toString());
         }
         customers.clear();
-        System.out.printf("Today's profit: %.2f 元\n\n", profit);
+        System.out.printf("Today's profit:\t\t\t%.2f 元\n\n", profit);
         profit = 0;
+    }
+
+    public boolean getIsClosed() {
+        return isClosed;
     }
 }

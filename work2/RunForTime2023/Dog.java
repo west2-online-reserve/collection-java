@@ -1,7 +1,7 @@
 public class Dog extends Animal {
     private boolean isVaccineInjected;
 
-    Dog(String name, int age, char sex) {
+    public Dog(String name, int age, char sex) {
         super(name, age, sex, 100);
         this.isVaccineInjected = false;
     }

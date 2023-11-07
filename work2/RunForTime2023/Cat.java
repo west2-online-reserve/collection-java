@@ -1,5 +1,5 @@
 public class Cat extends Animal {
-    Cat(String name, int age, char sex) {
+    public Cat(String name, int age, char sex) {
         super(name, age, sex, 200);
     }
 

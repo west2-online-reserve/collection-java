@@ -1,5 +1,5 @@
 public class Cockroach extends Animal {
-    Cockroach(String name, int age, char sex) {
+    public Cockroach(String name, int age, char sex) {
         super(name, age, sex, 10);
     }
 

@@ -5,7 +5,7 @@ public class Customer {
     private int arrival;
     private LocalDate latestReachTime;
 
-    Customer(String name, LocalDate reachTime) {
+    public Customer(String name, LocalDate reachTime) {
         this.name = name;
         arrival = 1;
         latestReachTime = reachTime;
@@ -15,6 +15,9 @@ public class Customer {
         return name;
     }
 
+    public LocalDate getLatestReachTime() {
+        return latestReachTime;
+    }
     public void updateArrival(LocalDate arrivalTime) {
         arrival++;
         latestReachTime = arrivalTime;
