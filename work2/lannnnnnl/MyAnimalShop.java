@@ -14,6 +14,13 @@ public class MyAnimalShop implements AnimalShop {
      this.balance = balance;
      this.isOpen = true;
  }
+  public double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
 
  @Override
  public void buyNewAnimal(Animal animal) throws InsufficientBalanceException {
@@ -25,27 +32,24 @@ public class MyAnimalShop implements AnimalShop {
  }
 
  @Override
- public void serveCustomer(Customer customer, String animalType) throws AnimalNotFoundException {
-     if (this.animalList.isEmpty()) {
-         throw new AnimalNotFoundException("店内没有动物可卖。");
-     }
-
-     Animal animalToSell = null;
-     for (Animal animal : this.animalList) {
-         if (animal.getClass().getSimpleName().equals(animalType)) {
-             animalToSell = animal;
-             break;
-         }
-     }
-
-     if (animalToSell == null) {
-         throw new AnimalNotFoundException("没有找到指定类型的动物。");
-     }
-
-     this.balance += animalToSell.price;
-     this.animalList.remove(animalToSell);
-     this.customerList.add(customer);
-     System.out.println(animalToSell.toString());
+ public void serveCustomer(Customer customer, Animal animal) throws AnimalNotFoundException {
+      if(!isOpen){
+            System.out.println("The shop is closed!");
+            return;
+        }
+        if(this.animalList.contains(animal)) {
+            this.animalList.remove(animal);
+            this.setBalance(this.getBalance() + animal.getPrice());
+            System.out.println(animal.toString());
+            customer.setLatestArrivedTime(LocalDate.now());
+            customer.setTimes(customer.getTimes() + 1);
+            if (!this.customerList.contains(customer)) {
+                this.customerList.add(customer);
+            }
+        }
+        else {
+            throw new AnimalNotFoundException(animal);
+        }
  }
 
  @Override
