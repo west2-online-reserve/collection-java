@@ -25,34 +25,38 @@ public class MyAnimalShop implements AnimalShop {
 
     @Override
     public void Serve(Customer customer, Animal animal) {
-        int i1 = 0;
-        while (i1 < AnimalList.size()) {
-            if (Objects.equals(animal, AnimalList.get(i1))) {
-                break;
+        if (this.work == false) {
+            System.out.println("We are now closed!");
+        }else {
+            int i1 = 0;
+            while (i1 < AnimalList.size()) {
+                if (Objects.equals(animal, AnimalList.get(i1))) {
+                    break;
+                }
+                i1++;
             }
-            i1++;
-        }
-        if (AnimalList.size() == 0) {
-            throw new AnimalNotFoundException("All the animals have been sold out!");
-        } else if (i1 == AnimalList.size()) {
-            throw new AnimalNotFoundException("We cannot find this animal in our shop!");
-        } else {
-            if (CustomerList.size() == 0) {
-                this.CustomerList.add(customer);
-                this.DateList.add(customer.getDate());
-            }
-            for (int i = 0; i < CustomerList.size(); i++) {
-                if (Objects.equals(customer, CustomerList.get(i))) {
-                    customer.setTimes(customer.getTimes()+1);
-                    this.DateList.set(i, customer.getDate());
-                } else {
+            if (AnimalList.size() == 0) {
+                throw new AnimalNotFoundException("All the animals have been sold out!");
+            } else if (i1 == AnimalList.size()) {
+                throw new AnimalNotFoundException("We cannot find this animal in our shop!");
+            } else {
+                if (CustomerList.size() == 0) {
                     this.CustomerList.add(customer);
                     this.DateList.add(customer.getDate());
                 }
+                for (int i = 0; i < CustomerList.size(); i++) {
+                    if (Objects.equals(customer, CustomerList.get(i))) {
+                        customer.setTimes(customer.getTimes()+1);
+                        this.DateList.set(i, customer.getDate());
+                    } else {
+                        this.CustomerList.add(customer);
+                        this.DateList.add(customer.getDate());
+                    }
+                }
+                AnimalList.remove(i1);
+                this.money += animal.getPrice();
+                System.out.println(animal);
             }
-            AnimalList.remove(i1);
-            this.money += animal.getPrice();
-            System.out.println(animal);
         }
     }
 
