@@ -139,10 +139,10 @@ public class MyAnimalShop implements AnimalShop {
             if (!list.isEmpty()) {
                 costom.add(customer);
                 System.out.println("顾客购买的宠物为");
-                int number = (int) (Math.random() * list.size());
-                Animal animal = (Animal) list.get(number);
-                list.remove(number);
-                balance += animal.price * number;
+                int numberOfBuy = (int) (Math.random() * list.size());
+                Animal animal = (Animal) list.get(numberOfBuy);
+                list.remove(numberOfBuy);
+                balance += animal.price * numberOfBuy;
                 System.out.println(animal);
                 int i = 0;
                 customer.setVisit(i++);
@@ -154,7 +154,7 @@ public class MyAnimalShop implements AnimalShop {
         } catch (AnimalNotFountException e) {
             System.out.println(e.toString());
         }
-
+                 scanner.close();
 
     }
 
