@@ -144,8 +144,7 @@ public class MyAnimalShop implements AnimalShop {
                 list.remove(numberOfBuy);
                 balance += animal.price * numberOfBuy;
                 System.out.println(animal);
-                int i = 0;
-                customer.setVisit(i++);
+                customer.renewCustomer(customer);
                 customer.setTime(LocalDate.now());
 
             } else {
