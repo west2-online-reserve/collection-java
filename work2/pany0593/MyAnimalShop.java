@@ -61,7 +61,7 @@ public class MyAnimalShop implements AnimalShop {
     @Override
     public double buyNewAnimal(AbstractAnimal animal) throws InsufficientBalanceException {
         if (this.animalsList.contains(animal)) {
-            System.out.println("已经购买过该宠物:\n"+animal.toString());
+            System.out.println("已经购买过该宠物:\n" + animal.toString());
         } else {
             //进货价为标价一半 profitRate 利润率为0.5
             if (this.balance >= animal.price * (1 - profitRate)) {
@@ -77,7 +77,8 @@ public class MyAnimalShop implements AnimalShop {
     }
 
     @Override
-    public void serveCustomer(Customer customer) throws AnimalNotFountException {
+    public void serveCustomer(Customer customer, AbstractAnimal animal) throws AnimalNotFountException {
+        //更新顾客状态
         this.customersList.add(customer);
         customer.setArriveTimes(customer.getArriveTimes() + 1);
         customer.setLatestArriveTime(LocalDate.now());
@@ -85,11 +86,14 @@ public class MyAnimalShop implements AnimalShop {
         if (this.animalsList.isEmpty()) {
             throw new AnimalNotFountException("购买失败：当前店内没有更多宠物" + '\n');
         } else {
-            //直接卖出最早购买的宠物
-            System.out.print("客户购买的宠物消息:\n" + this.animalsList.get(0).toString());
-            this.balance += this.animalsList.get(0).price;
-            this.profit += this.animalsList.get(0).price * profitRate;
-            animalsList.remove(0);
+            if (!this.animalsList.contains(animal)) {
+                System.out.println("店内不存在该宠物：\n" + animal.toString());
+            } else {
+                System.out.print("客户购买的宠物消息:\n" + animal.toString());
+                this.balance += animal.price;
+                this.profit += animal.price * profitRate;
+                animalsList.remove(animal);
+            }
         }
         System.out.println("当前客户：" + customer.toString());
     }

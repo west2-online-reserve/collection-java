@@ -20,7 +20,7 @@ public interface AnimalShop {
      * 传入需要招待的客户
      * 添加到宠物店
      */
-    void serveCustomer(Customer customer);
+    void serveCustomer(Customer customer,AbstractAnimal animal);
 
     /**
      * 关店

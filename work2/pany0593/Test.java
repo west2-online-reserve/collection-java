@@ -31,9 +31,9 @@ public class Test {
         Customer l4 = new Customer("l4", 1, LocalDate.of(2023, 1, 1));
         Customer w5 = new Customer("w5", 3, LocalDate.of(2023, 10, 10));
         try {
-            shop.serveCustomer(l4);
-            shop.serveCustomer(z3);
-            shop.serveCustomer(w5);
+            shop.serveCustomer(l4, mm);
+            shop.serveCustomer(z3, ww);
+            shop.serveCustomer(w5, tt);
         } catch (AnimalNotFountException e) {
             System.out.println(e.getMessage());
         }
