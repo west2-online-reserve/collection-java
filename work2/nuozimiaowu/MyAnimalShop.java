@@ -58,7 +58,7 @@ public class MyAnimalShop implements AnimalShop {
         for (Customer customer1 : customerArrayList) {
             if (customer1.getName() == customer.getName()) {
                 customer1.setArriveTime(customer1.getArriveTime() + 1);
-                customer1.setTime(customer.getTime());
+                customer1.setTime(LocalDate.now());
                 getTime++;
             }
         }
