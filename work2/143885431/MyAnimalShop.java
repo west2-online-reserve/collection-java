@@ -108,8 +108,8 @@ public class MyAnimalShop implements AnimalShop{
             }else {
                 customerArrayList.add(customer);
                 System.out.println("欢迎光临");
-                customer.setTimes(customer.getTimes()+1);
             }
+             customer.setTimes(customer.getTimes()+1);
         }
         System.out.println("我们这里有：");
         for (Animal animal1 : animalArrayList) {
