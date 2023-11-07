@@ -166,7 +166,11 @@ public class MyAnimalShop implements AnimalShop {
         System.out.println(costom);
         System.out.println("以下是宠物店剩余动物");
         System.out.println(list);
-        run = false;
+        LocalDate date = LocalDate.now();
+        int dayOfWeekValue = date.getDayOfWeek().getValue();
+        if (dayOfWeekValue<= 5) {
+            run = false;
+        }
     }
 }
 
