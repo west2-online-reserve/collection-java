@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class Customer {
     private String name;
-    private int count;
+    private int count=0;
     private LocalDate time;
 
     public Customer() {
