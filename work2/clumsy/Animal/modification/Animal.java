@@ -3,10 +3,10 @@ package modification;
 import java.util.Objects;
 
 public abstract class Animal {
-     protected String name;
-     protected int age;
-     protected String gender;
-     protected double price;
+     private String name;
+     private int age;
+     private String gender;
+     private double price;
      //全参构造
      public Animal(String name,int age,String gender, double price){
           this.name=name;
