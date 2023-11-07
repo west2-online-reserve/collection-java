@@ -99,8 +99,10 @@ public class MyAnimalShop implements AnimalShop {
         String time = sc.next();
         customer.setTime(LocalDate.parse(time));
         if(customer.getTime().getDayOfMonth()==15||customer.getTime().getDayOfMonth()==16){
+            isOpen = false;
             System.out.println("抱歉，店铺在月中15，16号不营业");
-        }else {
+        }
+        if(isOpen){
             if (!flag) customers.add(customer);
             System.out.println("请输入顾客想要购买的动物名字，年龄，性别（如果是狗狗请输入是否打疫苗）");
             System.out.println("请输入动物类型");
@@ -141,9 +143,11 @@ public class MyAnimalShop implements AnimalShop {
     @Override
     public void close(LocalDate time, ArrayList<Customer> customers, ArrayList<Animal> Animal, MyAnimalShop shop) {
         if(time.getDayOfMonth()==15||time.getDayOfMonth()==16){
+            isOpen = false;
             System.out.println("抱歉，店铺在月中15，16号不营业");
             System.exit(0);
         }else{
+            isOpen = true;
             System.out.println("当天顾客列表信息为：");
             for (int i = 0; i < customers.size(); i++) {
                 Customer c = customers.get(i);
