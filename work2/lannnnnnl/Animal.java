@@ -2,10 +2,10 @@ package westwork2;
 
 // 抽象动物类
 public abstract class Animal {
-        String name;
-        int age;
-        char gender;
-        double price;
+        private String name;
+        private int age;
+        private char gender;
+        private double price;
 
     Animal(String name, int age, char gender, double price) {
         this.name = name;
