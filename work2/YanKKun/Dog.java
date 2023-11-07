@@ -9,7 +9,7 @@ package Animal;
 public class Dog extends Animal{
 
     // 注射狂犬疫苗
-    protected boolean isVaccineInjected;
+    private boolean isVaccineInjected;
 
     public boolean isVaccineInjected() {
         return isVaccineInjected;
