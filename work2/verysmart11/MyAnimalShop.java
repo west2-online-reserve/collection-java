@@ -8,12 +8,12 @@ import java.util.Scanner;
 
 public class MyAnimalShop implements AnimalShop {
 
-    public double balance;
-    public double startBalance;
-    public ArrayList<Animal> animalList;
-    public ArrayList<Customer> customerList;
-    public boolean isClose;
-    public double profit;
+    private double balance;
+    private double startBalance;
+    private ArrayList<Animal> animalList;
+    private ArrayList<Customer> customerList;
+    private boolean isClose;
+    private double profit;
 
     public MyAnimalShop(double balance, ArrayList<Animal> animalList, ArrayList<Customer> customerList) {
         this.balance = balance;
@@ -33,8 +33,7 @@ public class MyAnimalShop implements AnimalShop {
                     else if (a instanceof ChinesePastoralDog) System.out.println("dog");
                     else if (a instanceof Rabbit) System.out.println("rabbit");
                 } else {
-                    InsufficientBalanceException e = new InsufficientBalanceException();
-                    throw new InsufficientBalanceException("Insufficient balance.");
+                    throw new InsufficientBalanceException();
                 }
             }catch (InsufficientBalanceException e){
                 System.out.println("balance is not enough");
@@ -59,22 +58,18 @@ public class MyAnimalShop implements AnimalShop {
             System.out.println(c);
             try {
                 if (animalList.size() == 0) {
-                    throw new AnimalNotFountException("There are no animals in the store.");
+                    throw new AnimalNotFountException();
                 } else {
                     System.out.println("All animals in our store :");
                     for (int i = 0; i < animalList.size(); i++) {
                         System.out.println((i + 1) + ". " + animalList.get(i).toString());
                     }
                     System.out.println("Please input the number of the animal you want to choose.");
-                    int Choice = sc.nextInt();
-                    for (int i = 0; i < animalList.size(); i++) {
-                        if (Choice == (i + 1)) {
-                            System.out.println(c.getName() + " buys" + animalList.get(i).name);
-                            System.out.println("enter an item in an account" + animalList.get(i).Price);
-                            profit += animalList.get(i).Price;
-                            animalList.remove(i);
-                        }
-                    }
+                    int Choice = sc.nextInt()-1;
+                    System.out.println(c.getName() + " buys" + animalList.get(Choice).name);
+                    System.out.println("enter an item in an account" + animalList.get(Choice).Price);
+                    profit += animalList.get(Choice).Price;
+                    animalList.remove(Choice);
                 }
             }catch (AnimalNotFountException e){
                 System.out.println("there is no animal in the store");
