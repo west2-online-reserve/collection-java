@@ -12,10 +12,9 @@ public class Customer {
     
     public Customer() {
     }
-    public Customer(String customerName, int customerVisitTime, LocalDate customerNewestVisitDate) {
+    public Customer(String customerName, int customerVisitTime) {
         this.customerName = customerName;
         this.customerVisitTime = customerVisitTime;
-        this.customerNewestVisitDate = customerNewestVisitDate;
     }
 
     /**

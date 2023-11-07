@@ -10,11 +10,10 @@ public class Test {
     public static void main(String[] args) {
 
         MyAnimalShop myAnimalShop = new MyAnimalShop(100, new ArrayList<>(), new ArrayList<>(), false);
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy年M月d日");
         Dogs dog1 = new Dogs("二蛋", 3, "雄", true);
         Cat cat1 = new Cat("咪咪", 3, "雌");
-        Customer c1 = new Customer("张三",0,LocalDate.parse("2023年1月1日",formatter));
-        Customer c2 = new Customer("李四",0,LocalDate.parse("2023年1月2日",formatter));
+        Customer c1 = new Customer("张三",0);
+        Customer c2 = new Customer("李四",0);
 
         //未购买任何动物时售出       
         try{

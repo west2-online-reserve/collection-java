@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.util.ArrayList;
 
 /**
@@ -39,6 +40,7 @@ public class MyAnimalShop implements AnimalShop{
                         System.out.println("出价过低，出售失败");
                         return;
                     }
+                    customer.setCustomerNewestVisitDate(LocalDate.now());
                     if (customer.getCustomerVisitTime() == 0){
                         customers.add(customer);
                     }
