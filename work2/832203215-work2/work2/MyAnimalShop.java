@@ -9,6 +9,7 @@ public class MyAnimalShop implements AnimalShop {
     private ArrayList<Animal> animals;
     private ArrayList<Customer> customers;
     private boolean isOpen;
+
     private double profit=0;
 
 
@@ -62,10 +63,10 @@ public class MyAnimalShop implements AnimalShop {
 
     @Override
     public void buyAnimal(Animal a) {
-        double price = a.price;
-        String name = a.name;
-        String gender = a.gender;
-        int age = a.age;
+        double price = a.getPrice();
+        String name = a.getName();
+        String gender = a.getGender();
+        int age = a.getAge();
         if (money < price) {
             throw new InsufficientBalanceException("店铺余额不足，仅剩" + money + "元" + "，宠物为" + price + "元，还差" + (price - money) + "元");
         } else {
@@ -161,7 +162,7 @@ public class MyAnimalShop implements AnimalShop {
 
     public Animal sellAnimal(Animal a) {
         String s = "";
-        String s1 = a.name;
+        String s1 = a.getName();
         boolean flag = true;
         for (int i = 0; i < animals.size(); i++) {
             s = animals.get(i).getName();
@@ -179,7 +180,7 @@ public class MyAnimalShop implements AnimalShop {
         } else {
             System.out.println("成功购买 " + a.toString());
             animals.remove(a);
-            money += a.price;
+            money += a.getPrice();
         }
         return a;
     }
