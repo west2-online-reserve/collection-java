@@ -13,6 +13,14 @@ public class Dog extends Animal {
         this.isVaccineInjected = isVaccineInjected;
     }
 
+    public boolean isVaccineInjected() {
+        return isVaccineInjected;
+    }
+
+    public void setVaccineInjected(boolean vaccineInjected) {
+        isVaccineInjected = vaccineInjected;
+    }
+
     @Override
     public String toString() {
         return "狗狗{"  + "价格：" + price + ", 名字：" + name + ", 年龄：" + age + ", 性别：" + gender + ", 是否打了疫苗：" + isVaccineInjected+ '}';
