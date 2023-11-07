@@ -23,6 +23,7 @@ public class Test {
         } catch (InsufficientBalanceException e) {
             System.out.println(e.getMessage());
         }
+        System.out.println(shop.toString());
         //测试招待顾客
         Customer z3 = new Customer("z3", 5, LocalDate.of(2023, 9, 1));
         Customer l4 = new Customer("l4", 1, LocalDate.of(2023, 1, 1));
@@ -35,5 +36,6 @@ public class Test {
             System.out.println(e.getMessage());
         }
         shop.closeShop();
+        System.out.println(shop.toString());
     }
 }

@@ -50,6 +50,14 @@ public class MyAnimalShop implements AnimalShop {
         this.customersList = new ArrayList<>();
     }
 
+
+    @Override
+    public String toString() {
+        return "余额：" + this.getBalance() + '\n' +
+                "今日利润：" + this.getProfit() + '\n' +
+                "是否关店：" + (this.getClosed() ? "是" : "否") + "\n";
+    }
+
     @Override
     public double buyNewAnimal(AbstractAnimal animal) throws InsufficientBalanceException {
         //进货价为标价一半 profitRate 利润率为0.5
