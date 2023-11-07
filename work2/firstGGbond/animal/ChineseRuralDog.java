@@ -4,7 +4,7 @@ package animal;
  * @author MR.瑜
  */
 public class ChineseRuralDog extends Animal{
-    protected boolean vaccination;
+    private boolean vaccination;
     public ChineseRuralDog(String name,int age,String gender,double price,boolean vaccination) {
         super(name,age,gender,100);
         this.vaccination = vaccination;
