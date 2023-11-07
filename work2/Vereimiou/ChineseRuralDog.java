@@ -12,10 +12,10 @@ public class ChineseRuralDog extends Animal {
 
     @Override
     public String toString() {
-        return "ChineseRuralDog {\n" +
+        return "ChineseRuralDog {" +
                 "\nname : " + '"' + name + '"' +
                 "\nage: " + age +
-                "\nisVaccineInjected" + isVaccineInjected +
+                "\nisVaccineInjected: " + isVaccineInjected +
                 "\nprice: " + price +
                 "\n}";
     }

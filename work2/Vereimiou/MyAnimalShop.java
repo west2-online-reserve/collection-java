@@ -1,6 +1,7 @@
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.Random;
 
 public class MyAnimalShop implements AnimalShop {
     private double balance;
@@ -37,23 +38,24 @@ public class MyAnimalShop implements AnimalShop {
             System.out.println("宠物店已关门，请下次光临。");
             return;
         }
-        int customerIndex=customerList.indexOf(customer);
+        int customerIndex = customerList.indexOf(customer);
         customer.addArrivedTimes();
         customer.setLastVisitedTime(todayDate);
-        if(customerIndex==-1){
+        if (customerIndex == -1) {
             customerList.add(customer);
-        }
-        else{
-            customerList.set(customerIndex,customer);
+        } else {
+            customerList.set(customerIndex, customer);
         }
         if (animalList.isEmpty()) {
             throw new AnimalNotFoundException("所有宠物都已售完");
         }
-        Animal animalSelling = animalList.getLast();
-        animalList.removeLast();
+        Random random = new Random();
+        int index = random.nextInt(animalList.size());
+        Animal animalSelling = animalList.get(index);
+        animalList.remove(index);
         System.out.println("购买成功");
         System.out.println("宠物信息:");
-        System.out.println(animalSelling.toString());
+        System.out.println(animalSelling);
         balance += animalSelling.getPrice();
         dailyIncome += animalSelling.getPrice();
     }
@@ -65,7 +67,7 @@ public class MyAnimalShop implements AnimalShop {
         System.out.println("今日来访客人：");
         for (Customer customer : customerList) {
             if (customer.getLastVisitedTime() == todayDate) {
-                System.out.println(customer.toString());
+                System.out.println(customer);
             }
         }
         System.out.println("今日收入" + dailyIncome + "元");

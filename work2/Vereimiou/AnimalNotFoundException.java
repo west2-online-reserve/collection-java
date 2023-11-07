@@ -3,6 +3,6 @@ public class AnimalNotFoundException extends RuntimeException {
 
     public AnimalNotFoundException(String message) {
         super(message);
-        this.message=message;
+        this.message = message;
     }
 }
