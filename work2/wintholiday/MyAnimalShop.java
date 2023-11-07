@@ -14,6 +14,7 @@ public class MyAnimalShop implements AnimalShop {
     private boolean isOpen;
 
 
+
     public MyAnimalShop(double balance) {
         this.balance = balance;
         this.profit = profit;
@@ -35,13 +36,14 @@ public class MyAnimalShop implements AnimalShop {
 
     @Override
     public void serveCustomer(Customer customer) throws AnimalNotFoundException {
-        customer.visit();
+        customer.count++;
+        customer.latestArrivedTime = LocalDate.now();
         if (animalList.isEmpty()) {
             throw new AnimalNotFoundException("动物卖完了");
         }
 
         System.out.println("接待顾客: " + customer.toString());
-        System.out.println("现有动物编号为"+(animalList.size()-1)+"顾客购买的动物编号为编号为");
+        System.out.println("现有动物编号为"+(animalList.size()-1)+",顾客购买的动物编号为编号为");
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         if (n>=animalList.size()){

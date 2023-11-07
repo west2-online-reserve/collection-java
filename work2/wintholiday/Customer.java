@@ -4,23 +4,45 @@ import java.time.LocalDate;
 
 public class Customer {
     private String name;
-    private int visitCount;
-    private LocalDate lastVisitDate;
+    protected int count;
+    protected LocalDate latestArrivedTime;
 
     public Customer(String name) {
         this.name = name;
-        this.visitCount = 0;
-        this.lastVisitDate = null;
+        this.count = count;
+        this.latestArrivedTime = LocalDate.now();
     }
-    public void visit() {
-        visitCount++;
-        lastVisitDate = LocalDate.now();
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getcount() {
+        return count;
+    }
+
+    public void setcount(int count) {
+        this.count = count;
+    }
+
+    public LocalDate getLatestArrivedTime() {
+        return latestArrivedTime;
+    }
+
+    public void setLatestArrivedTime(LocalDate latestArrivedTime) {
+        this.latestArrivedTime = latestArrivedTime;
     }
 
     @Override
     public String toString() {
-        return "Customer: " + name +
-                ", Visit Count: " + visitCount +
-                ", Last Visit Date: " + lastVisitDate;
+        return "顾客：" +
+                "姓名'" + name + '\'' +
+                ", 来了" + count +"次"+
+                ", 时间为" + latestArrivedTime +
+                '}';
     }
 }
