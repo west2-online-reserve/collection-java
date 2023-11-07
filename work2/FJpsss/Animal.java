@@ -1,14 +1,12 @@
 public abstract class Animal {
-    protected String animalName;
-    protected int animalAge;
-    protected String animalSex;
-    protected double animalPrice;
+    private String animalName;
+    private int animalAge;
+    private String animalSex;
+    private double animalPrice;
 
 
     public Animal() {
     }
-
-    ;
 
     public Animal(String animalName, int animalAge, String animalSex, double animalPrice) {
 
@@ -21,6 +19,18 @@ public abstract class Animal {
 
     public double getAnimalPrice() {
         return animalPrice;
+    }
+
+    public String getAnimalName() {
+        return animalName;
+    }
+
+    public String getAnimalSex() {
+        return animalSex;
+    }
+
+    public int getAnimalAge() {
+        return animalAge;
     }
 
     public abstract String toString();

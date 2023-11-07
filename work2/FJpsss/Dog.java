@@ -11,6 +11,6 @@ public class Dog extends Animal {
 
     @Override
     public String toString() {
-        return "种类: 狗\n" + "名字: " + animalName + "\n年龄: " + animalAge + "\n性别: " + animalSex + "\n价格: " + animalPrice + "\n是否注射狂犬疫苗: " + isVaccineInjected;
+        return "种类: 狗\n" + "名字: " + getAnimalName() + "\n年龄: " + getAnimalAge() + "\n性别: " + getAnimalSex() + "\n价格: " + getAnimalPrice() + "\n是否注射狂犬疫苗: " + isVaccineInjected;
     }
 }

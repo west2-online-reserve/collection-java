@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
@@ -43,21 +44,26 @@ public class MyAnimalShop implements AnimalShop {
         System.out.println("宠物店现有的宠物有:");
         for (int i = 0; i < animalArrayList.size(); i++) {
             System.out.println("序号: " + i);
+            //便于输出目前已有的宠物
             System.out.println(animalArrayList.get(i).toString());
             System.out.println();
         }
     }
 
     public void buyAnimal() {
-        System.out.println("客户要购买的动物序列为：");
+        System.out.println("客户要购买的动物序号为：");
         Scanner order = new Scanner(System.in);
         int orderNumber = order.nextInt();
 
-        System.out.println("卖出的动物为:\n" + animalArrayList.get(orderNumber).toString());
-        //余额、利润都增加
-        balance += animalArrayList.get(orderNumber).animalPrice;
-        balance += animalArrayList.get(orderNumber).animalPrice;
-        animalArrayList.remove(orderNumber);
+        if (orderNumber >= 0 && orderNumber < animalArrayList.size()) {
+            System.out.println("卖出的动物为:\n" + animalArrayList.get(orderNumber).toString());
+            //余额、利润都增加
+            balance += animalArrayList.get(orderNumber).getAnimalPrice();
+            balance += animalArrayList.get(orderNumber).getAnimalPrice();
+            animalArrayList.remove(orderNumber);
+        } else {
+            System.out.println("要购买的动物序号有误，动物数量不足！");
+        }
     }
 
     public void showCustomer() {
@@ -73,10 +79,15 @@ public class MyAnimalShop implements AnimalShop {
     //1.买入动物
     public void buyNewAnimal(Animal animal) {
         try {
+            if (isClosed) {
+                System.out.println("关门了，请明天再来~");
+                return;
+            }
+
             //如果要购买的动物价钱已经超过了余额
-            if (animal.animalPrice <= balance) {
+            if (animal.getAnimalPrice() <= balance) {
                 animalArrayList.add(animal);
-                balance -= animal.animalPrice;
+                balance -= animal.getAnimalPrice();
                 System.out.println("购买成功！宠物店目前已经有" + animalArrayList.size() + "只宠物了！");
             }
             //购买成功
@@ -131,11 +142,17 @@ public class MyAnimalShop implements AnimalShop {
     //实现接口中的方法
     //3.歇业
     public void closeShop() {
-        System.out.println("一天的顾客有：");
-        Iterator iter = customerArrayList.iterator();
-        while (iter.hasNext()) {
-            System.out.println(iter.next());
+
+        this.isClosed = true;
+        System.out.println("-----今日顾客-----\n");
+
+        for (int i = 0; i < customerArrayList.size(); i++) {
+            if (customerArrayList.get(i).getDate().equals(LocalDate.now())) {
+                System.out.println(customerArrayList.get(i).toString());
+            }
         }
-        System.out.println("一天的利润有：" + profit);
+
+        System.out.println("日期: " + LocalDate.now() + "的利润为：" + profit);
+        profit = 0;
     }
 }

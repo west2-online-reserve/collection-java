@@ -4,8 +4,9 @@ public class Cat extends Animal {
         super(animalName, animalAge, animalSex, 200);
     }
 
+
     @Override
     public String toString() {
-        return "种类: 猫\n" + "名字: " + animalName + "\n年龄: " + animalAge + "\n性别: " + animalSex + "\n价格: " + animalPrice;
+        return "种类: 猫\n" + "名字: " + getAnimalName() + "\n年龄: " + getAnimalAge() + "\n性别: " + getAnimalSex() + "\n价格: " + getAnimalPrice();
     }
 }
