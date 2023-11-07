@@ -79,7 +79,7 @@ public class MyAnimalShop implements AnimalShop {
             return;
         }
         // 输出顾客购买的宠物信息
-        System.out.println("售出的宠物为：" + animal.toString());
+        System.out.println("售出的宠物为：" + animal);
         storeBalance = storeBalance + animal.animalPrice;
         // 从动物列表移除动物
         animalsList.remove(whichOneToPurchase - 1);
@@ -112,7 +112,7 @@ public class MyAnimalShop implements AnimalShop {
         }
         for (int i = 0; i < customer.length; i++) {
             if (customer[i].getLatestArrivalTime().equals(closingTime)) {
-                System.out.println("今日光临的顾客：" + customer[i].toString());
+                System.out.println("今日光临的顾客：" + customer[i]);
             }
         }
         double revenue = 0;
