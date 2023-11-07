@@ -1,7 +1,7 @@
 package work2;
 
 public class Cat extends Animal{
-    protected static final double PRICE = 200.0;
+    private static final double PRICE = 200.0;
 
     public Cat(String name, int age, String gender) {
         super(name, age, gender, PRICE);

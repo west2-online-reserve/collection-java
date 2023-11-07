@@ -3,9 +3,9 @@ package work2;
 import java.time.LocalDate;
 
 public class Customer {
-    protected String name;
-    protected int visitCount;
-    protected LocalDate lastVisitDate;
+    private String name;
+    private int visitCount;
+    private LocalDate lastVisitDate;
 
     public Customer(String name) {
         this.name = name;

@@ -1,8 +1,8 @@
 package work2;
 
 public class Dog extends Animal {
-    protected boolean isVaccineInjected;
-    protected static final double PRICE = 100.0;
+    private boolean isVaccineInjected;
+    private static final double PRICE = 100.0;
 
     public Dog(String name, int age, String gender, boolean isVaccineInjected) {
         super(name, age, gender, PRICE);

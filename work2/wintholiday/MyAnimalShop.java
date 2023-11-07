@@ -6,11 +6,11 @@ import java.util.Scanner;
 
 
 public class MyAnimalShop implements AnimalShop {
-    protected double balance;
-    protected double profit;
-    protected List<Animal> animalList;
-    protected List<Customer> customerList;
-    protected boolean isOpen;
+    private double balance;
+    private double profit;
+    private List<Animal> animalList;
+    private List<Customer> customerList;
+    private boolean isOpen;
 
     public MyAnimalShop(double balance) {
         this.balance = balance;
