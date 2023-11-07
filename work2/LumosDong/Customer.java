@@ -3,9 +3,9 @@ package com.dong.westtwowork;
 import java.time.LocalDate;
 
 public class Customer {
-    protected String name;
-    protected int visitTimes;
-    protected LocalDate lastVisit;
+    private String name;
+    private int visitTimes;
+    private LocalDate lastVisit;
 
     public Customer() {}
 

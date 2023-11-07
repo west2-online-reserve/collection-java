@@ -1,7 +1,7 @@
 package com.dong.westtwowork;
 
 public class ChineseRuralDog extends AbstractAnimal {
-    protected boolean isVaccineInjected;
+    private boolean isVaccineInjected;
 
     public ChineseRuralDog(String name, int age, String gender, boolean isVaccineInjected) {
         super(name, age, gender, 100);

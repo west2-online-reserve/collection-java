@@ -8,10 +8,10 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class MyAnimalShop implements AnimalShop{
-    protected double balance;
-    protected ArrayList<AbstractAnimal> abstractAnimalList = new ArrayList<AbstractAnimal>();
-    protected ArrayList<Customer> customerlist= new ArrayList<>();
-    protected boolean isInBusiness;
+    private double balance;
+    private ArrayList<AbstractAnimal> abstractAnimalList = new ArrayList<AbstractAnimal>();
+    private ArrayList<Customer> customerlist= new ArrayList<>();
+    private boolean isInBusiness;
     private double profit;
 
     public MyAnimalShop(double balance, boolean isInBusiness) {
