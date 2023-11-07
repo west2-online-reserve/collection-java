@@ -3,7 +3,7 @@ package work2;
 import java.time.LocalDate;
 
 public class Customer {
-    private String name;
+    protected String name;
     protected int count;
     protected LocalDate latestArrivedTime;
 
