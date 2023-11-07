@@ -5,11 +5,11 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 public class MyAnimalShop implements AnimalShop {
-    double money1; // 记录当天初始余额
-    double money; // 记录当天最终余额
-    ArrayList AnimalList = new ArrayList<>();
-    ArrayList CustomerList = new ArrayList<>();
-    ArrayList DateList = new ArrayList<>();
+    private double money1; // 记录当天初始余额
+    private double money; // 记录当天最终余额
+    private ArrayList AnimalList = new ArrayList<>();
+    private ArrayList CustomerList = new ArrayList<>();
+    private ArrayList DateList = new ArrayList<>();
 
     public boolean work = true;
 
@@ -68,5 +68,53 @@ public class MyAnimalShop implements AnimalShop {
         System.out.println(money - money1);
         this.money1 = this.money;
         this.work = false;
+    }
+    
+    public double getMoney1() {
+        return money1;
+    }
+
+    public void setMoney1(double money1) {
+        this.money1 = money1;
+    }
+
+    public double getMoney() {
+        return money;
+    }
+
+    public void setMoney(double money) {
+        this.money = money;
+    }
+
+    public ArrayList getAnimalList() {
+        return AnimalList;
+    }
+
+    public void setAnimalList(ArrayList animalList) {
+        AnimalList = animalList;
+    }
+
+    public ArrayList getCustomerList() {
+        return CustomerList;
+    }
+
+    public void setCustomerList(ArrayList customerList) {
+        CustomerList = customerList;
+    }
+
+    public ArrayList getDateList() {
+        return DateList;
+    }
+
+    public void setDateList(ArrayList dateList) {
+        DateList = dateList;
+    }
+
+    public boolean isWork() {
+        return work;
+    }
+
+    public void setWork(boolean work) {
+        this.work = work;
     }
 }
