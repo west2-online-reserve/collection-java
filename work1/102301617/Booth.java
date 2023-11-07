@@ -59,7 +59,7 @@ public class Booth {
             this.setTotal(this.getTotal() + quantity);
             System.out.println("进货成功！已为摊位 " + this.getId() + " 进货了 " + quantity + "个西瓜。");
         } else {
-            System.out.println("进货失败！单次进货量不能超过200。");
+            System.out.println("进货失败！单次进货量不能超过200且不能小于零");
         }
     }
     public static void closeBooths(Booth[] booths) {
