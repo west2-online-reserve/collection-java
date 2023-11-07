@@ -37,14 +37,13 @@ public class MyAnimalShop implements AnimalShop {
             System.out.println("宠物店已关门，请下次光临。");
             return;
         }
-        int customerIndex=customerList.indexOf(customer);
+        int customerIndex = customerList.indexOf(customer);
         customer.addArrivedTimes();
         customer.setLastVisitedTime(todayDate);
-        if(customerIndex==-1){
+        if (customerIndex == -1) {
             customerList.add(customer);
-        }
-        else{
-            customerList.set(customerIndex,customer);
+        } else {
+            customerList.set(customerIndex, customer);
         }
         if (animalList.isEmpty()) {
             throw new AnimalNotFoundException("所有宠物都已售完");

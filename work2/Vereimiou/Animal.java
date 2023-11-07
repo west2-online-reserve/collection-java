@@ -12,10 +12,12 @@ public abstract class Animal {
     }
 
     public abstract String toString();
-    public String getName(){
+
+    public String getName() {
         return name;
     }
-    public double getPrice(){
+
+    public double getPrice() {
         return price;
     }
 }

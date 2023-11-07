@@ -12,7 +12,7 @@ public class Test {
         //初始化动物列
         Animal puppy1 = new ChineseRuralDog("修狗", 2, "雌性", true);
         animals.add(puppy1);
-        Animal cat1 = new MewMewCat("咪咪", 2, "雄性", true);
+        Animal cat1 = new MewMewCat("咪咪", 2, "雄性");
         animals.add(cat1);
         Animal puppy2 = new ChineseRuralDog("旺旺", 3, "雄性", true);
         animals.add(puppy1);
