@@ -9,11 +9,11 @@ public class Cat extends Animal{
     @Override
     public String toString() {
 
-        return "A cat"+'\n'+
-                "name is"+name+
-                "age is"+age+
-                "sex is"+sex+
-                "price is 200";
+        return "A cat "+'\n'+
+                " name is "+name+
+                " age is "+age+
+                " sex is "+sex+
+                " price is 200 ";
     }
 
 }

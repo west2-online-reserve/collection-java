@@ -1,4 +1,7 @@
 package Xuxiiii;
+/* @author Xuxiiii
+ * @data 2023/11/5
+ */
 
 
 import java.time.LocalDate;
@@ -7,29 +10,29 @@ import java.util.ArrayList;
 public class MyAnimalShop implements Animalshop{
     private String name;
     private double money;
-    private boolean isonbusiness =true;
-    //用close方法关闭
-    ArrayList<Animal> animals=new ArrayList<>();
-    ArrayList<Customer> customers=new ArrayList<>();
-    public MyAnimalShop(String name,double money,boolean isonbusiness){
+    private boolean isOnBusiness =true;
+    // 用close方法关闭
+
+    private ArrayList<Animal> animals=new ArrayList<>();
+    private ArrayList<Customer> customers=new ArrayList<>();
+    // 动物与顾客的列表
+
+    public MyAnimalShop(String name, double money, boolean isOnBusiness){
         this.name=name;
         this.money=money;
-        this.isonbusiness=isonbusiness;
+        this.isOnBusiness=isOnBusiness;
     }
-    //动物与顾客的列表
+
     @Override
     public void buy(Animal animal) throws AnimalNotFountException {
-        if((this.money-animal.getPrice())<0){
+        if( (this.money-animal.getPrice() )<0){
             throw new InsufficientBalanceException(name,money);
         }else{this.money-=animal.getPrice();
             animals.add(animal);}
     }
 
     @Override
-    public void entertain(Customer b,int i) {
-        customers.add(b);
-        b.setTimes(b.getTimes() + 1);
-        b.setNow(LocalDate.now());
+    public void entertain(Customer b, int i) {
         //判断是否有库存宠物
         try {
             if (animals.size() != 0){
@@ -38,11 +41,14 @@ public class MyAnimalShop implements Animalshop{
                 money += animals.get(i-1).price;
                 animals.remove(i - 1);
             }else {
-                throw new AnimalNotFountException(animals.size(),b);
+                throw new AnimalNotFountException(animals.size(), b);
             }
         } catch (AnimalNotFountException e) {
             System.out.println(e);
         }
+        customers.add(b);
+        b.setTimes(b.getTimes() + 1);
+        b.setNow(LocalDate.now());
 
     }
 
@@ -50,9 +56,9 @@ public class MyAnimalShop implements Animalshop{
 
     @Override
     public void close() {
-        this.isonbusiness=false;
+        this.isOnBusiness=false;
         for (int i = 0; i < customers.size(); i++) {
-            System.out.println("第"+(i+1)+"顾客的个人信息为"+customers.get(i));
+            System.out.println("第"+(i+1)+"顾客的个人信息为 "+customers.get(i));
 
         }
         System.out.println("总钱数"+money);

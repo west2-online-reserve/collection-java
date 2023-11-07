@@ -26,6 +26,7 @@ public class TEST {
         b.entertain(c1,1);
         b.entertain(c1,2);
 
+
         a.close();
         b.close();
     }

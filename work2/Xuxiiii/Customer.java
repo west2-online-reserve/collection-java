@@ -24,8 +24,8 @@ public class Customer {
     public void setNow(LocalDate now) {this.now = now;}
     @Override
     public String toString(){
-        return "name is"+name+
-                "times is"+times+
-                "now is"+now;
+        return "name is "+name+
+                " times is "+times+
+                " now is "+now;
     }
 }

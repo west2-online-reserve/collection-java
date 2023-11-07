@@ -1,6 +1,6 @@
 package Xuxiiii;
-/*@author Xuxiiii
-*@data 2023/11/5
+/* @author Xuxiiii
+* @data 2023/11/5
 */
 public abstract class Animal {
     protected String name;
@@ -15,17 +15,37 @@ public abstract class Animal {
         this.price = price;
     }
 
-    public int getAge() {return age;}
-    public void setAge(int age) {this.age = age;}
+    public int getAge() {
+        return age;
+    }
 
-    public String getName() {return name;}
-    public void setName(String name) {this.name = name;}
+    public void setAge(int age) {
+        this.age = age;
+    }
 
-    public double getPrice() {return price;}
-    public void setPrice(double price) {this.price = price;}
+    public String getName() {
+        return name;
+    }
 
-    public String getSex() {return sex;}
-    public void setSex(String sex) {this.sex = sex;}
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
 
 
     public abstract String toString() ;

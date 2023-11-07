@@ -8,9 +8,9 @@ public class Pig extends Animal{
     @Override
     public String toString() {
         return "Pig"+'\n'+
-                "name is"+name+
-                "age is"+age+
-                "sex is"+sex+
-                "price is"+price;
+                "name is "+name+
+                "age is "+age+
+                "sex is "+sex+
+                "price is "+price;
     }
 }
