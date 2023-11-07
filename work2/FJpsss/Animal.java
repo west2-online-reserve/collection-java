@@ -1,12 +1,11 @@
 public abstract class Animal {
-    private String animalName;
-    private int animalAge;
-    private String animalSex;
-    private double animalPrice;
+    protected String animalName;
+    protected int animalAge;
+    protected String animalSex;
+    protected double animalPrice;
 
 
-    public Animal() {
-    }
+    public Animal() {}
 
     public Animal(String animalName, int animalAge, String animalSex, double animalPrice) {
 
