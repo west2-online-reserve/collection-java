@@ -6,7 +6,7 @@ public abstract class Animal {
     protected char gender;
     protected double Price;
 
-    protected Animal(String name, int age, char gender, double Price) {
+    public Animal(String name, int age, char gender, double Price) {
         this.name = name;
         this.age = age;
         this.gender = gender;
