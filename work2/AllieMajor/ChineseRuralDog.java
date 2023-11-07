@@ -8,7 +8,15 @@ public class ChineseRuralDog extends Animal{
 
         super(name, age, gender, 100);
     }
-    public boolean isVaccineInjected;
+    private boolean isVaccineInjected;
+
+    public boolean isVaccineInjected() {
+        return isVaccineInjected;
+    }
+
+    public void setVaccineInjected(boolean vaccineInjected) {
+        isVaccineInjected = vaccineInjected;
+    }
 
     @Override
     public String toString() {
@@ -16,6 +24,4 @@ public class ChineseRuralDog extends Animal{
         return "中华田园犬的名字是"+
                 getName()+", "+"年龄是"+getAge()+", "+"性别是"+getGender()+", "+"价格是"+getPrice();
     }
-
-
 }
