@@ -1,5 +1,5 @@
 public class ChineseRuralDog extends Animal {
-    protected boolean isVaccineInjected;
+    private boolean isVaccineInjected;
 
     public ChineseRuralDog(String theName, int theAge, String theGender, boolean theIsVaccineInjected) {
         super(theName, theAge, theGender, 100);
