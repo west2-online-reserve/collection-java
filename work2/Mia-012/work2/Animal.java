@@ -1,5 +1,8 @@
 package work2;
-
+/**
+ * @author Mia
+ * @date 2023/11/1
+ */
 public abstract class Animal {
     protected String name;
     protected int age;

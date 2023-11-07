@@ -29,7 +29,7 @@ public class MyAnimalShop implements AnimalShop {
                 balance -= buyInPrice;
                 this.animalList.add(animal);
                 System.out.println("购入动物成功！花费" + buyInPrice + "   剩余余额" + balance);
-                System.out.println(animal.toString());
+                System.out.println(animal);
             } else {
                 throw new InsufficientBalanceException("余额不足，无法购买");
             }
@@ -45,7 +45,7 @@ public class MyAnimalShop implements AnimalShop {
         if (closeTime == null) {
             person.setVisitCount(person.getVisitCount() + 1);
             person.setVisitTime(LocalDate.now());
-            person.toString();
+            System.out.println(person);
             //判断是否为新客
             int index = customerList.lastIndexOf(person);
             if (index == -1) {
@@ -69,7 +69,7 @@ public class MyAnimalShop implements AnimalShop {
                 throw new AnimalNotFountException("店内没有名为" + buyName + "的动物");
             } else {
                 System.out.println("成功出售一只小动物！");
-                System.out.println(animalList.get(ind).toString());
+                System.out.println(animalList.get(ind));
                 balance += animalList.get(ind).getPrice();
                 System.out.println("收入+" + animalList.get(ind).getPrice() + " 当前余额为" + balance);
                 animalList.remove(animalList.get(ind));
@@ -86,7 +86,7 @@ public class MyAnimalShop implements AnimalShop {
             System.out.println("今日营业结束！");
             System.out.println("接待了以下顾客：");
             for (int i = 0; i < customerList.size(); i++) {
-                customerList.get(i).toString();
+                System.out.println(customerList.get(i));
             }
             this.profit = balance - profit;
             System.out.println("净收入 " + profit);
@@ -95,14 +95,6 @@ public class MyAnimalShop implements AnimalShop {
         }
         System.out.println();
 
-    }
-
-    public double getBalance() {
-        return balance;
-    }
-
-    public void setBalance(double balance) {
-        this.balance = balance;
     }
 
 
@@ -121,4 +113,5 @@ public class MyAnimalShop implements AnimalShop {
     public void setCustomerList(ArrayList<Customer> customerList) {
         this.customerList = customerList;
     }
+
 }
