@@ -1,7 +1,7 @@
 public class ChineseRuralDog extends Animal{
 
-    protected boolean isVaccineInjected;
-    //变量:是否注射狂犬病疫苗
+    private boolean isVaccineInjected;
+    
     public ChineseRuralDog(){
     }
     public ChineseRuralDog(String name,int age,String gender,boolean isVaccineInjected){
@@ -17,7 +17,6 @@ public class ChineseRuralDog extends Animal{
         return isVaccineInjected;
     }
 
-    //父类toString的实现
     @Override
     public String toString() {
         return "ChineseRuralDog{" +
