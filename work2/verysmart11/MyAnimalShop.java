@@ -66,7 +66,7 @@ public class MyAnimalShop implements AnimalShop {
                     }
                     System.out.println("Please input the number of the animal you want to choose.");
                     int Choice = sc.nextInt()-1;
-                    if(Choice+1>animalList.size()){
+                    if(Choice+1>animalList.size()||Choice<0){
                         System.out.println("Please input right number");
                     }
                     else {
