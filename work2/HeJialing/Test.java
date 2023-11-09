@@ -37,23 +37,20 @@ public class Test {
         }
         //测试招待客户
         System.out.println("售卖动物");
-        LocalDate localDate = LocalDate.of(2023, 10, 23);
+        LocalDate localDate = LocalDate.now();
         LocalDate nevervisit = LocalDate.of(0, 1, 1);
 
         Customer customer1 = new Customer("小明", 0, nevervisit);
         Customer customer2 = new Customer("小红", 0, nevervisit);
-        shop.serveCustomer(customer1, localDate);
-        shop.serveCustomer(customer2, localDate);
+        shop.serveCustomer(customer1, localDate, listOfAnimal, dog1);
+        shop.serveCustomer(customer2, localDate, listOfAnimal, cat1);
         //测试顾客多次光临
-        shop.serveCustomer(customer2, localDate);
-        shop.serveCustomer(customer1, localDate);
+        shop.serveCustomer(customer2, localDate, listOfAnimal, cat1);
+
 
         //可能出错
 
         //顾客，动物列表，顾客想买的
-        shop.sellAnimals(customer2, listOfAnimal, dog1);
-        shop.sellAnimals(customer1, listOfAnimal, cat1);
-        shop.sellAnimals(customer1, listOfAnimal, cat1);
 
 
         System.out.println();

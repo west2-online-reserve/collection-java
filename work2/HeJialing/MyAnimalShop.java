@@ -27,7 +27,7 @@ public class MyAnimalShop implements AnimalShop {
 
              */
     private double insufficientBalance;
-    private ArrayList listOfAnimal;
+    private ArrayList listOfAnimal;//我的动物表参数是需要传入的
     private ArrayList<Customer> listOfCustomer;
     private boolean isShutDown;
     private double incomeOfToday;
@@ -85,19 +85,6 @@ public class MyAnimalShop implements AnimalShop {
         setInsufficientBalance(insufficientBalance - animal.getPurchasingPrice());
     }
 
-    // 招待客户 -> 接受客户参数，在顾客列表中加入新顾客，
-    @Override
-    public void serveCustomer(Customer customer, LocalDate localDate) {
-        if (listOfCustomer.contains(customer)) {
-            customer.setNumberOfVisits(customer.getNumberOfVisits() + 1);
-            customer.setLocalVisit(localDate);
-        } else {
-            customer.setLocalVisit(localDate);
-            customer.setNumberOfVisits(1);
-            listOfCustomer.add(customer);
-        }
-
-    }
 
     // 歇业 -> (LocalDate判断) 输出当天光顾的客户的列表信息，计算并输出一天的利润
     @Override
@@ -109,13 +96,22 @@ public class MyAnimalShop implements AnimalShop {
         }
     }
 
+    // 招待客户 -> 接受客户参数，在顾客列表中加入新顾客，
     /*出售动物，如果店内没有动物，抛出AnimalNotFoundException。
 
 通过toString输出动物信息，并把钱入账，将动物移除列表
      */
     @Override
-    public void sellAnimals(Customer customer, ArrayList listOfAnimal, AbstractAnimal animal) {
-
+   //参数分别为顾客，当天日期，动物列表，顾客想买的动物
+    public void serveCustomer(Customer customer, LocalDate localDate, ArrayList listOfAnimal, AbstractAnimal animal) {
+        if (listOfCustomer.contains(customer)) {
+            customer.setNumberOfVisits(customer.getNumberOfVisits() + 1);
+            customer.setLocalVisit(localDate);
+        } else {
+            customer.setLocalVisit(localDate);
+            customer.setNumberOfVisits(1);
+            listOfCustomer.add(customer);
+        }
         try {
             if (listOfAnimal.contains(animal) == false) {
                 throw new AnimalNotFoundException("店内没有该顾客想要购买的动物，交易失败");
