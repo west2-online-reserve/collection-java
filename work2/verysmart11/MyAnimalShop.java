@@ -66,10 +66,15 @@ public class MyAnimalShop implements AnimalShop {
                     }
                     System.out.println("Please input the number of the animal you want to choose.");
                     int Choice = sc.nextInt()-1;
-                    System.out.println(c.getName() + " buys" + animalList.get(Choice).name);
-                    System.out.println("enter an item in an account" + animalList.get(Choice).Price);
-                    profit += animalList.get(Choice).Price;
-                    animalList.remove(Choice);
+                    if(Choice+1>animalList.size()){
+                        System.out.println("Please input right number");
+                    }
+                    else {
+                        System.out.println(c.getName() + " buys" + animalList.get(Choice).name);
+                        System.out.println("enter an item in an account" + animalList.get(Choice).Price);
+                        profit += animalList.get(Choice).Price;
+                        animalList.remove(Choice);
+                    }
                 }
             }catch (AnimalNotFountException e){
                 System.out.println("there is no animal in the store");
