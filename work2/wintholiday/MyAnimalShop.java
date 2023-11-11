@@ -36,8 +36,7 @@ public class MyAnimalShop implements AnimalShop {
 
     @Override
     public void serveCustomer(Customer customer) throws AnimalNotFoundException {
-        customer.addcount();
-        customer.getLatestArrivedTime();
+
         if (animalList.isEmpty()) {
             throw new AnimalNotFoundException("动物卖完了");
         }
@@ -55,6 +54,10 @@ public class MyAnimalShop implements AnimalShop {
 
             customerList.add(customer);
             profit += animal.getPrice();
+            //顾客状态更新
+        customer.setcount(customer.getcount() + 1);
+        customer.setlastestArrivedTime(LocalDate.now());
+
 
     }
 

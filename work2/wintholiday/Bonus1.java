@@ -1,10 +1,10 @@
 package work2;
 
 public class Bonus1 {
-    protected int[] arr1;
-    protected int[] arr2;
-    protected Object lock = new Object();
-    protected boolean printFirstArray = true;
+    private int[] arr1;
+    private int[] arr2;
+    private Object lock = new Object();
+    private boolean printFirstArray = true;
 
     public void printArrays(int[] arr1, int[] arr2) {
         this.arr1 = arr1;

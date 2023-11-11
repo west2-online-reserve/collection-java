@@ -11,9 +11,9 @@ public class Test {
         Fish fish1=new Fish("若辰",1,"Female");
         Fish fish2=new Fish("若",12,"Male");
 
-        Customer customer1 = new Customer("a");
-        Customer customer2 = new Customer("b");
-        Customer customer3 = new Customer("c");
+        Customer customer1 = new Customer("a",3);
+        Customer customer2 = new Customer("b",2);
+        Customer customer3 = new Customer("c",1);
 
         try {
             petShop.buyAnimal(dog1);

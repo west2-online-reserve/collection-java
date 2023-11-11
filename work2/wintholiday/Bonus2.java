@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Bonus2 {
-    protected static final String EmailRegex = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$";
+    private static final String EmailRegex = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$";
 
     public static boolean isValidEmail(String email) {
         Pattern pattern = Pattern.compile(EmailRegex);

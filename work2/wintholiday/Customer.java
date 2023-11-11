@@ -3,14 +3,14 @@ package work2;
 import java.time.LocalDate;
 
 public class Customer {
-    protected String name;
-    protected int count;
-    protected LocalDate latestArrivedTime;
+    private String name;
+    private int count;
+    private LocalDate lastestArrivedTime;
 
-    public Customer(String name) {
+    public Customer(String name, int count) {
         this.name = name;
         this.count = count;
-        this.latestArrivedTime = LocalDate.now();
+        this.lastestArrivedTime = LocalDate.now();
     }
 
     public String getName() {
@@ -25,16 +25,16 @@ public class Customer {
         return count;
     }
 
-    public void addcount() {
-        this.count++;
+    public void setcount(int count) {
+        this.count = count;
     }
 
-    public LocalDate getLatestArrivedTime() {
-        return latestArrivedTime;
+    public LocalDate getlastestArrivedTime() {
+        return lastestArrivedTime;
     }
 
-    public void setLatestArrivedTime() {
-        latestArrivedTime = LocalDate.now();
+    public void setlastestArrivedTime(LocalDate lastestArrivedTime) {
+        this.lastestArrivedTime = lastestArrivedTime;
     }
 
     @Override
@@ -42,7 +42,7 @@ public class Customer {
         return "顾客：" +
                 "姓名'" + name + '\'' +
                 ", 来了" + count +"次"+
-                ", 时间为" + latestArrivedTime +
+                ", 时间为" + lastestArrivedTime +
                 '}';
     }
 }
