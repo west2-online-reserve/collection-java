@@ -74,6 +74,10 @@ public class MyAnimalShop implements AnimalShop {
         isShutDown = shutDown;
     }
 
+    //开业
+    public void open() {
+        isShutDown = false;
+    }
 
     //买入动物 -> 买入一只动物，记得在动物列表中添加，
     @Override
@@ -89,7 +93,7 @@ public class MyAnimalShop implements AnimalShop {
     // 歇业 -> (LocalDate判断) 输出当天光顾的客户的列表信息，计算并输出一天的利润
     @Override
     public void shutdown(LocalDate localDate, ArrayList listOfCustomer) {
-
+        isShutDown = true;
         System.out.println(" 当天利润 " + incomeOfToday);
         for (int i = 0; i < listOfCustomer.size(); i++) {
             System.out.println("今日招待顾客：" + listOfCustomer.get(i).toString());
@@ -102,8 +106,12 @@ public class MyAnimalShop implements AnimalShop {
 通过toString输出动物信息，并把钱入账，将动物移除列表
      */
     @Override
-   //参数分别为顾客，当天日期，动物列表，顾客想买的动物
+    //参数分别为顾客，当天日期，动物列表，顾客想买的动物
     public void serveCustomer(Customer customer, LocalDate localDate, ArrayList listOfAnimal, AbstractAnimal animal) {
+        if (isShutDown == true) {
+            System.out.println("门店已关闭");
+            return;
+        }
         if (listOfCustomer.contains(customer)) {
             customer.setNumberOfVisits(customer.getNumberOfVisits() + 1);
             customer.setLocalVisit(localDate);

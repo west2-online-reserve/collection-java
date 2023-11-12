@@ -13,8 +13,8 @@ public class Test {
 //创建一个宠物店实例，给定余额，初始化动物列表，一个空的顾客列表
         ArrayList listOfAnimal = new ArrayList();
         ArrayList listOfCustomer = new ArrayList();
-        MyAnimalShop shop = new MyAnimalShop(1000, listOfAnimal, listOfCustomer, false);
-        //
+        MyAnimalShop shop = new MyAnimalShop(1000, listOfAnimal, listOfCustomer, true);
+        shop.open();
         //猫实例
         AbstractAnimal cat1 = new Cat(" 喵喵 ", 1, " 母 ", 200, 300);
         AbstractAnimal cat2 = new Cat(" 咪咪 ", 1, " 公 ", 200, 300);
