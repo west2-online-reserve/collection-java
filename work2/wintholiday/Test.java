@@ -30,20 +30,16 @@ public class Test {
         petShop.isOpen();
         System.out.println("----------------------");
 
-        //判断宠物店开始营业
-        if (petShop.Open()==false) {
-            System.out.println("没有营业");
-        } else {
-            //招待顾客
-            try {
-                petShop.serveCustomer(customer1);
-                petShop.serveCustomer(customer2);
-                petShop.serveCustomer(customer3);
-                petShop.serveCustomer(customer1);
-            } catch (AnimalNotFoundException e) {
-                System.out.println(e.getMessage());
-            }
+        //招待顾客
+        try {
+            petShop.serveCustomer(customer1);
+            petShop.serveCustomer(customer2);
+            petShop.serveCustomer(customer3);
+            petShop.serveCustomer(customer1);
+        } catch (AnimalNotFoundException e) {
+            System.out.println(e.getMessage());
         }
+
         petShop.close();
     }
 }
