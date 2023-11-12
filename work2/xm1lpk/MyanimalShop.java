@@ -38,7 +38,7 @@ public class MyanimalShop implements AnimalShop{
             System.out.println("店铺已歇业，无法购买");
             return ;
         }
-        customerArrayList.add(customer);
+
         Scanner scanner = new Scanner(System.in);
         if (animalArrayList.size() == 0) {
             throw new AnimalNotFountException("购买失败，原因：本店已无可售动物"+"\n"+"购买失败的顾客信息："+"\n"+customer);
@@ -53,6 +53,7 @@ public class MyanimalShop implements AnimalShop{
             }
             customer.setCount(customer.getCount() + 1);
             customer.setArriveDay(LocalDate.now());
+            customerArrayList.add(customer);
         }
     }
     @Override
