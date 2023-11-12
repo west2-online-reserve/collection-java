@@ -26,6 +26,10 @@ public class Test {
             System.out.println(e.getMessage());
         }
 
+        //宠物店开始营业
+        petShop.isOpen();
+        System.out.println("----------------------");
+
         try {
             petShop.serveCustomer(customer1);
             petShop.serveCustomer(customer2);

@@ -34,6 +34,20 @@ public class MyAnimalShop implements AnimalShop {
         balance -= animal.getPrice();
     }
 
+    public void isOpen() {
+        isOpen = false;
+        System.out.println("-------开始营业-------");
+        //打印动物列表
+        if (animalList.isEmpty()) {
+            System.out.println("店内暂无动物，请及时购买动物");
+        } else {
+            System.out.println("店内现有动物");
+            for (int i = 0; i < animalList.size(); i++) {
+                System.out.println("序号:" + i + "\t" + animalList.get(i));
+            }
+        }
+    }
+
     @Override
     public void serveCustomer(Customer customer) throws AnimalNotFoundException {
 
@@ -57,8 +71,6 @@ public class MyAnimalShop implements AnimalShop {
             //顾客状态更新
         customer.setcount(customer.getcount() + 1);
         customer.setlastestArrivedTime(LocalDate.now());
-
-
     }
 
     @Override
