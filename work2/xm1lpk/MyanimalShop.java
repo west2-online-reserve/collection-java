@@ -8,12 +8,11 @@ import java.util.Scanner;
 public class MyanimalShop implements AnimalShop{
     private Boolean isopen=false;
     private Double num=100.0;
-    private Double profit=10.00;
     /**
      * 店内余额
      **/
-    List<Animal> animalArrayList = new ArrayList<>();
-    List<Customer> customerArrayList = new ArrayList<>();
+    private List<Animal> animalArrayList = new ArrayList<>();
+    private List<Customer> customerArrayList = new ArrayList<>();
 
     public void setNum(Double num) {
         this.num = num;
@@ -47,9 +46,9 @@ public class MyanimalShop implements AnimalShop{
         else {
             int temp;
             temp = scanner.nextInt();
-            if (temp < animalArrayList.size()) {
+            if (temp>=0 && temp < animalArrayList.size()) {
                 System.out.println(animalArrayList.get(temp).toString());
-                num = animalArrayList.get(temp).price + num + profit;
+                num = animalArrayList.get(temp).price + num;
                 animalArrayList.remove(temp);
             }
             customer.setCount(customer.getCount() + 1);
