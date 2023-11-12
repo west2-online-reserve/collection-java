@@ -33,6 +33,10 @@ public class MyAnimalShop implements AnimalShop {
         animalList.add(animal);
         balance -= animal.getPrice();
     }
+    //判断营业
+    public boolean Open(){
+        return isOpen;
+    }
 
     public void isOpen() {
         isOpen = false;
