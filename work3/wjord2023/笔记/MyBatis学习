@@ -1,0 +1,421 @@
+# ***MyBatis***
+
+# Maven
+
+<img src="C:\Users\苏琎宇\AppData\Roaming\Typora\typora-user-images\image-20231109184052073.png" alt="image-20231109184052073" style="zoom: 50%;" />
+
+> 为什么要学：
+>
+> 在Java开发中要到入大量的jar包
+>
+> maven是一个**项目架构管理工具**能自动帮我们导入和配置jar包
+>
+> 目前就是用来导入jar包
+
+核心思想：**约定大于配置**
+
+Maven会规定好你该如何去编写我们的Java代码，必需按照这个标准来
+
+# MyBatis
+
+![image-20231109183954041](C:\Users\苏琎宇\AppData\Roaming\Typora\typora-user-images\image-20231109183954041.png)
+
+
+
+## 持久化
+
+数据持久化
+
+持久化就是将程序的数据在持久状态和瞬时状态转化的过程
+
+内存：**断电即失**
+
+数据库（jdbc），io文件持久化
+
+### 为什么要持久化
+
+- 有些对象，不能让他丢掉
+- 内存太贵了
+
+
+
+## 持久层
+
+Dao层，Service层，Controller层.....
+
+- 完成持久化工作的代码块
+- 层界限十分明显
+
+##### 为什么要MyBatis
+
+优点：
+
+- 方便
+- 传统的JDBC代码太复杂了，简化，框架，自动化
+- 不用MyBatis也可以，更容易上手
+- sql和代码分离，提高了可维护性
+- 提供xml标签，支持编写动态sql
+
+JDBC缺点：
+
+![image-20231110104825080](C:\Users\苏琎宇\AppData\Roaming\Typora\typora-user-images\image-20231110104825080.png)
+
+mybatis简化
+
+![image-20231110105039412](C:\Users\苏琎宇\AppData\Roaming\Typora\typora-user-images\image-20231110105039412.png)
+
+
+
+## ***官方文档***
+
+https://mybatis.org/mybatis-3/zh/getting-started.html
+
+## MyBatis快速入门
+
+步骤：
+
+###### 1.创建user表，添加数据
+
+```sql
+create database mybatis;
+use mybatis;
+drop table if exists tb_user;
+
+create table tb_user(
+	id int primary key auto_increment,
+    username varchar(20),
+    gender char(1),
+    addr varchar(20)
+);
+
+insert into tb_user values (1,"zhangsan","123","b",'BJ');
+insert into tb_user values (2,"lishi","234","g","TJ");
+insert into tb_user values (3,"wanwu","1111","b","FZ");
+```
+
+
+
+###### 2.创建模块，导入坐标
+
+在pom.xml中添加
+
+```xml
+<dependency>
+  <groupId>org.mybatis</groupId>
+  <artifactId>mybatis</artifactId>
+  <version>x.x.x</version>
+</dependency>
+
+<!--再导入mysql,junit...-->
+```
+
+
+
+###### 3.编写MyBatis核心配置文件-->替换连接信息，解决硬编码问题
+
+在resource文件下新建mybatis-config.xml，写入
+
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+  <environments default="development">
+    <environment id="development">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <!--数据库连接信息-->
+        <property name="driver" value="com.mysql.jdbc.Driver"/> 
+        <property name="url" value="jdbc:mysql:///mybatis?useSSL=false"/>
+        <property name="username" value="root"/>
+        <property name="password" value="123456"/>
+      </dataSource>
+    </environment>
+  </environments>
+  <mappers>
+    <!--加载sql映射文件-->
+    <mapper resource="org/mybatis/example/BlogMapper.xml"/>
+  </mappers>
+</configuration>
+```
+
+
+
+###### 4.编写SQL映射文件-->统一管理sql语句，解决硬编码问题
+
+在resource文件夹添加UserMapper.xml或OrderMapper.xml .....
+
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace改成随便取一个名字-->
+<mapper namespace="org.mybatis.example.BlogMapper">
+   <!--查询语句,id改为要查询对象，resultType改为写java方法的文件-->
+  <select id="selectBlog" resultType="Blog">
+    select * from Blog where id = #{id}
+  </select>
+</mapper>
+```
+
+
+
+###### 5.编码
+
+1. ###### 定义POJO类
+
+   新建com.xxx.pojo.User这样的java包
+
+   ```java
+   package com.xxx.pojo;
+   
+   public class User{
+       private Integer id;
+       private String username;
+       // ...写表中的变量，再把settergetter方法写一下
+   }
+   ```
+
+   
+
+2. ###### 加载核心配置文件，获取SqlSessionFactory对象
+
+   ```java
+   package com.xxx;
+   
+   public MybatisDemo{
+       public static void main(String[] args){
+            String resource = "org/mybatis/example/mybatis-config.xml";
+   		InputStream inputStream = Resources.getResourceAsStream(resource);
+   		SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+       }
+   }
+   ```
+
+   
+
+3. 获取SqlSession对象，执行SQL语句
+
+   ```java
+   SqlSession sqlSession = sqlSessionFactory.openSession();
+   List<User> users = sqlSession.selectList("test.selectAll");
+   System.out.println(User);
+   sqlSession.close();
+   ```
+
+   
+
+4. 释放资源
+
+   
+
+## Mapper代理开发
+
+```java
+List<User> users = sqlSession.selectList("test.selectAll"); // 依旧存在硬编码问题
+```
+
+###### 1.定义与SQL映射文件同名的Mapper接口，并将Mapper接口和SQL映射文件放置在同一目录下
+
+新建com.xxx.mapper.UserMapper
+
+在resource文件下新建com/xxx/mapper把xml文件放进去
+
+###### 2.设置SQL映射文件的namespace属性为Mapper接口全限定名
+
+```xml
+<mapper namespace="com.xxx.mapper.UserMapper">
+```
+
+###### 3.在Mapper接口中定义方法，方法名就是SQL映射文件中sql语句的id，并保持参数类型和返回值类型一致
+
+```java
+// 在UserMapper接口中加入
+List<User> selectAll();
+```
+
+接着将resource路径改为新路径
+
+```xml
+<mapper resource="org/mybatis/example/BlogMapper.xml"/>
+```
+
+###### 4.编码
+
+1. ###### 通过SqlSession的getMapper方法获取Mapper接口的代理对象
+
+   ```java
+   package com.xxx;
+   
+   public MybatisDemo{
+       public static void main(String[] args){
+            String resource = "org/mybatis/example/mybatis-config.xml";
+   		InputStream inputStream = Resources.getResourceAsStream(resource);
+   		SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+           
+           SqlSession sqlSession = sqlSessionFactory.openSession();
+           
+           UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+           List<User> users = userMapper.selectAll();
+           
+           System.out.println(User);
+   	    sqlSession.close();
+       }
+   }
+   ```
+
+2. ###### 调用对应方法完成sql的执行
+
+###### 注：可以用包扫描简化
+
+```xml
+<mappers>
+    <!--加载sql映射文件-->
+    <mapper resource="org/mybatis/example/BlogMapper.xml"/>
+    <!--改为-->
+    <package name="com.xxx.mapper"/>
+  </mappers>
+```
+
+
+
+## MyBatis配置核心文件
+
+#### Environment
+
+MyBatis 可以配置成适应多种环境，这种机制有助于将 SQL 映射应用于多种数据库之中
+
+来配置数据库连接环境信息，可以配置多个environment，通过default属性切换不同的environment
+
+#### typeAliases
+
+类型别名可为 Java 类型设置一个缩写名字。 它仅用于 XML 配置，意在降低冗余的全限定类名书写。例如：
+
+```xml
+<typeAliases>
+  <typeAlias alias="Author" type="domain.blog.Author"/>
+  <typeAlias alias="Blog" type="domain.blog.Blog"/>
+  <typeAlias alias="Comment" type="domain.blog.Comment"/>
+  <typeAlias alias="Post" type="domain.blog.Post"/>
+  <typeAlias alias="Section" type="domain.blog.Section"/>
+  <typeAlias alias="Tag" type="domain.blog.Tag"/>
+</typeAliases>
+```
+
+当这样配置时，`Blog` 可以用在任何使用 `domain.blog.Blog` 的地方。
+
+也可以指定一个包名，MyBatis 会在包名下面搜索需要的 Java Bean，比如：
+
+```xml
+<typeAliases>
+  <package name="domain.blog"/>
+</typeAliases>
+```
+
+
+
+## 配置文件实现增删改查
+
+![image-20231110125333153](./%E5%9B%BE%E7%89%87%E5%AD%98%E5%82%A8/image-20231110125333153-1699594678006-14.png)
+
+三步：
+
+1. 编写接口方法
+2. 编写sql
+3. 执行方法
+4. <img src="./%E5%9B%BE%E7%89%87%E5%AD%98%E5%82%A8/image-20231110130618604.png" alt="image-20231110130618604" style="zoom: 67%;" />
+
+## resultMap
+
+```xml
+<resultMap id="" type="">
+	<result column="" property=""/>
+</resultMap>
+
+<select id="" resultMap=""></select>
+```
+
+<img src="./%E5%9B%BE%E7%89%87%E5%AD%98%E5%82%A8/image-20231110130525227.png" alt="image-20231110130525227" style="zoom: 67%;" />
+
+## 查询
+
+<img src="./%E5%9B%BE%E7%89%87%E5%AD%98%E5%82%A8/image-20231110130847549.png" alt="image-20231110130847549" style="zoom:67%;" />
+
+<img src="./%E5%9B%BE%E7%89%87%E5%AD%98%E5%82%A8/image-20231110131421320.png" style="zoom:67%;" />
+
+![image-20231110131734072](./%E5%9B%BE%E7%89%87%E5%AD%98%E5%82%A8/image-20231110131734072.png)
+
+![image-20231110133605501](./%E5%9B%BE%E7%89%87%E5%AD%98%E5%82%A8/image-20231110133605501.png)
+
+![image-20231110134326325](./%E5%9B%BE%E7%89%87%E5%AD%98%E5%82%A8/image-20231110134326325.png)
+
+## 动态查询
+
+```xml
+<!--if-->
+<select id="findActiveBlogWithTitleLike"
+     resultType="Blog">
+  SELECT * FROM BLOG
+  WHERE state = ‘ACTIVE’
+  <if test="title != null">
+    AND title like #{title}
+  </if>
+</select>
+
+<select id="findActiveBlogLike"
+     resultType="Blog">
+  SELECT * FROM BLOG WHERE state = ‘ACTIVE’
+  <if test="title != null">
+    AND title like #{title}
+  </if>
+  <if test="author != null and author.name != null">
+    AND author_name like #{author.name}
+  </if>
+</select>
+```
+
+<img src="./%E5%9B%BE%E7%89%87%E5%AD%98%E5%82%A8/image-20231110135509626.png" alt="image-20231110135509626" style="zoom:50%;" />
+
+<img src="./%E5%9B%BE%E7%89%87%E5%AD%98%E5%82%A8/image-20231110135833603.png" alt="image-20231110135833603" style="zoom:67%;" />
+
+## 添加
+
+![image-20231110141039946](./%E5%9B%BE%E7%89%87%E5%AD%98%E5%82%A8/image-20231110141039946.png)
+
+<img src="./%E5%9B%BE%E7%89%87%E5%AD%98%E5%82%A8/image-20231110141330357.png" alt="image-20231110141330357" style="zoom:50%;" />
+
+## 修改
+
+![image-20231110141732273](./%E5%9B%BE%E7%89%87%E5%AD%98%E5%82%A8/image-20231110141732273.png)
+
+## 动态修改
+
+<img src="./%E5%9B%BE%E7%89%87%E5%AD%98%E5%82%A8/image-20231110142322537.png" alt="image-20231110142322537" style="zoom:50%;" />
+
+## 删除
+
+![image-20231110142555982](./%E5%9B%BE%E7%89%87%E5%AD%98%E5%82%A8/image-20231110142555982.png)
+
+![image-20231110142827150](./%E5%9B%BE%E7%89%87%E5%AD%98%E5%82%A8/image-20231110142827150.png)
+
+![image-20231110143522982](./%E5%9B%BE%E7%89%87%E5%AD%98%E5%82%A8/image-20231110143522982.png)
+
+<img src="./%E5%9B%BE%E7%89%87%E5%AD%98%E5%82%A8/image-20231110144837707.png" alt="image-20231110144837707" style="zoom:67%;" />
+
+## 使用注解完成增删改查
+
+使用注解来映射简单语句会使代码显得更加简洁，但对于稍微复杂一点的语句，Java 注解不仅力不从心，还会让本就复杂的 SQL 语句更加混乱不堪。 因此，如果你需要做一些很复杂的操作，最好用 XML 来映射语句。
+
+```java
+package org.mybatis.example;
+public interface BlogMapper {
+  @Select("SELECT * FROM blog WHERE id = #{id}")
+  Blog selectBlog(int id);
+}
+```
+
+
+
+(完结撒花)
