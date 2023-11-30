@@ -31,9 +31,9 @@ public class Customer2 {
         this.time = time;
     }
 
-    public Customer2(String customerName,LocalDate time) {
+    public Customer2(String customerName) {
         this.CustomerName=customerName;
-        this.time=time;
+
     }
 
     @Override

@@ -7,12 +7,12 @@ import java.util.Scanner;
 //102301416姚敏聪
 public class MyAnimalShop implements AnimalsShop{
     static final int OPEN_TIME = 9;//开店时间
-    static final int CLOSE_TIME =18 ;//关店时间，如要进行Test,可以修改次时间进行运行
+    static final int CLOSE_TIME =23;//关店时间，如要进行Test,可以修改次时间进行运行
     private double account=2000;//宠物店初始金额
     private double balance=0;//收支
     ArrayList<Animals> listAnimals=new ArrayList<>();
     ArrayList<Customer2> listCustomer=new ArrayList<>();
-    boolean isOpen;//判断是否营业
+    boolean isOpen=false;//判断是否营业
     Scanner scanner=new Scanner(System.in);
 
     public boolean isOpen() {
@@ -40,14 +40,21 @@ public class MyAnimalShop implements AnimalsShop{
     public void careCustomer(Customer2 customer2) {
         if (isOpen){
             //判断顾客是否是同一个人
-            if (listCustomer.contains(customer2)){
-                System.out.println("感谢您再次光临");
-            }else {
+            int s=1,ss=0;
+            for(int i=0;i<listCustomer.size();i++){//查找该顾客以前是否来过
+                if (customer2.getCustomerName().equals(listCustomer.get(i).getCustomerName())){
+                    System.out.println("欢迎再次光临");
+                    s=0;
+                    ss=i;//老顾客下标
+                }
+            }
+            if (s==1){//新顾客
                 listCustomer.add(customer2);
+                ss=listCustomer.size()-1;
                 System.out.println("欢迎光临");
             }
-            customer2.setCount(customer2.getCount()+1);//到店次数加1
-            customer2.setTime(LocalDate.now());
+            listCustomer.get(ss).setCount(listCustomer.get(ss).getCount()+1);//到店次数加1
+            listCustomer.get(ss).setTime(LocalDate.now());
             System.out.println("宠物店宠物如下：");
             for (Object animalsAll:listAnimals){
                 System.out.println(animalsAll);
@@ -57,7 +64,7 @@ public class MyAnimalShop implements AnimalsShop{
             int judge=0;//判断有误该宠物
             for(int i=0;i<listAnimals.size();i++){
                 if(animalsName.equals(listAnimals.get(i).getName())){
-                    System.out.println("购买成功\n");
+                    System.out.println("购买成功");
                     judge=1;
                     account+=listAnimals.get(i).getPrice();
                     balance+=listAnimals.get(i).getPrice();
