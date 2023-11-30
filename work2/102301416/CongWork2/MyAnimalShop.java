@@ -7,7 +7,7 @@ import java.util.Scanner;
 //102301416姚敏聪
 public class MyAnimalShop implements AnimalsShop{
     static final int OPEN_TIME = 9;//开店时间
-    static final int CLOSE_TIME = 18;//关店时间，如要进行Test,可以修改次时间进行运行
+    static final int CLOSE_TIME =18 ;//关店时间，如要进行Test,可以修改次时间进行运行
     private double account=2000;//宠物店初始金额
     private double balance=0;//收支
     ArrayList<Animals> listAnimals=new ArrayList<>();

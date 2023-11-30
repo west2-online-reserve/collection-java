@@ -30,6 +30,7 @@ public class TestWork {
                 LocalDate time1 = LocalDate.now();
                 Customer2 customer1=new Customer2(name1,time1);
                 shop.careCustomer(customer1);//添加顾客并进行购买宠物
+
                 System.out.println("是否购进宠物？输入“1”为是");
                 b=scanner.nextInt();
                 if (b==1){
@@ -60,11 +61,17 @@ public class TestWork {
                     }
                 }
             }
-            System.out.println("是否继续营业？输入‘1’为是，否则为否");
-            int e= scanner.nextInt();
-            if(e==1){
-                a=true;
-            }else {a=false;}
+            if(shop.isOpen){//处于营业时间时，添加顾客
+                System.out.println("是否继续营业？输入‘1’为是，否则为否");
+                int e= scanner.nextInt();
+                if(e==1){
+                    a=true;
+                } else {
+                    a=false;
+                }
+            }else {//不处于营业时间，结束循环
+                a=false;
+            }
         }
         shop.close(a);
     }
