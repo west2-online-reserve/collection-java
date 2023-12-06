@@ -12,6 +12,12 @@ github:https://github.com/shaoxiawjc/ShopForWestOnlineExam.git
 
 
 
+# 学习进度
+
+目前已经学到spring boot了，现在正在写一个web项目练springboot，所以学习暂时停了
+
+
+
 
 
 # 项目目录结构
@@ -107,6 +113,7 @@ github:https://github.com/shaoxiawjc/ShopForWestOnlineExam.git
 1. 代码的整洁度吧，感觉代码太乱了，不知道学长学姐们能不能看的舒服
 2. 其实在dao（mapper）层里的mapper忘记放到resource下了，但是后面写完了才发现，因为怕出bug就没移动了，以后一定注意
 3. dao层的增删改并不只是简单的增删改，比如订单的增其实是增加一个总价为0.00的空订单，然后再service里的复杂业务添加商品，再更新总价，这是我能想到的一个方法，但是确实并不知道应该怎么简单的增加订单
+4. 查询结果没有优化，结果集里很多都是0，但是我想的是如果是一个web项目，返回到前端的话让前端来处理要显示的数据就好了
 
 
 
