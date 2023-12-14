@@ -10,7 +10,7 @@
 
 3. mysql-connector-j-8.2.0
 
-4. JDBC
+4. DBCP
 
    commons-dbcp2-2.11.0.jar
 
