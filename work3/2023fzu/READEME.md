@@ -183,17 +183,15 @@ CREATE TABLE `bill` (
 ```
 
 ```mysql
-select gb.bill_id,
-       (select b.customer_id
-        from bill b
-        where b.id = gb.bill_id) customer,
-       sum(gb.count) union_count,
-       sum(gb.count * (select g.price
-                                  from good g
-                                  where g.id = gb.good_id)
-       ) as                      union_price
-from good_bill gb
-group by gb.bill_id;
+SELECT gb.bill_id as bill_id,
+b.customer_id as customer_id,
+b.bill_date as bill_date,
+SUM(gb.count) AS union_count,
+SUM(gb.count * g.price) AS union_price
+FROM good_bill gb
+JOIN bill b ON b.id = gb.bill_id
+JOIN good g ON g.id = gb.good_id
+GROUP BY gb.bill_id;
 ```
 
 多表联查
