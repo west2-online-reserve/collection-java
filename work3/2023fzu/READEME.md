@@ -146,3 +146,53 @@ TREE C:\Users\27970\Desktop\IT\JDK\work3 /F /A
 - 阿里巴巴ok
 - 第三方API调用这题.....不是调用完之后和上面这题一模一样吗?emmmmmm
 - 我决定先去学Maven高级和sql高级和运维,把API放一放先
+
+# 12.14
+
+来完善以下数据库
+
+做一张中间表,实现bill和good的多对多
+
+```mysql
+CREATE TABLE `good_bill` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `good_id` int DEFAULT NULL,
+  `bill_id` int DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `fk_gb_bid_bill_id` (`bill_id`),
+  KEY `fk_gb_gid_good_id` (`good_id`),
+  CONSTRAINT `fk_gb_bid_bill_id` FOREIGN KEY (`bill_id`) REFERENCES `bill` (`id`),
+  CONSTRAINT `fk_gb_gid_good_id` FOREIGN KEY (`good_id`) REFERENCES `good` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='bill和good的联合表,bill和good多对多'
+```
+
+
+
+然后我发现bill价格不对,价格可以从中间表推
+
+bill就变成了这样:
+
+```mysql
+CREATE TABLE `bill` (
+  `id` int NOT NULL AUTO_INCREMENT COMMENT '主键,账单号',
+  `customer_id` int NOT NULL COMMENT '用户id',
+  `bill_date` datetime DEFAULT NULL COMMENT '订单成交时间,年月日时分秒',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=52 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='账单表';
+```
+
+```mysql
+select gb.bill_id,
+       (select b.customer_id
+        from bill b
+        where b.id = gb.bill_id) customer,
+       sum(gb.count) union_count,
+       sum(gb.count * (select g.price
+                                  from good g
+                                  where g.id = gb.good_id)
+       ) as                      union_price
+from good_bill gb
+group by gb.bill_id;
+```
+
+多表联查
