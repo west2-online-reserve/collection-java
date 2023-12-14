@@ -3,7 +3,7 @@ package work1;
 public class Test {
     public static void main(String[] args) {
         Booth booth1 = new Booth(123, "mark", 23, false);
-        booth1.toString();
+        System.out.println(booth1.toString());
 
         Booth booth2 = new Booth();
         booth2.setId(124);
@@ -16,5 +16,6 @@ public class Test {
         booth2.restock(300);
 
         Booth.closeBooths(new Booth[]{booth1, booth2});
+
     }
 }
