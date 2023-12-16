@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace=绑定一个对应的Dao/Mapper接口，这里填写接口文件的地址-->
+<mapper namespace="com.chenyyy111.dao.OrderMapper">
+
+    <!-- 查询所有订单 -->
+    <select id="getOrdersList" resultMap="OrderProduct">
+        SELECT o.order_id, o.order_time, o.order_price,  p.`product_id`, p.`product_name`, p.`product_price`
+        FROM shop.order AS o, shop.product AS p, shop.order_product AS op
+        WHERE o.order_id = op.order_id AND p.`product_id` = op.product_id;
+    </select>
+    <!-- 通过订单号查询订单 -->
+    <select id="getOrderById" resultMap="OrderProduct">
+        SELECT o.order_id, o.order_time, o.order_price,  p.`product_id`, p.`product_name`, p.`product_price`
+        FROM shop.order AS o, shop.product AS p, shop.order_product AS op
+        WHERE o.order_id = op.order_id AND p.`product_id` = op.product_id AND o.order_id = #{productId};
+    </select>
+    <resultMap id="OrderProduct" type="Order">
+        <result property="orderId" column="order_id"/>
+        <result property="orderTime" column="order_time"/>
+        <result property="orderPrice" column="order_price"/>
+        <collection property="products" ofType="Product">
+            <result property="productId" column="product_id"/>
+            <result property="productName" column="product_name"/>
+            <result property="productPrice" column="product_price"/>
+        </collection>
+    </resultMap>
+
+    <resultMap id="OrderMap" type="Order">
+        <result property="orderId" column="order_id"/>
+        <result property="orderTime" column="order_time"/>
+        <result property="orderPrice" column="order_price"/>
+    </resultMap>
+
+    <!-- 添加订单和商品的关系 -->
+    <insert id="addOrderProduct">
+        INSERT INTO shop.order_product (order_id, product_id) VALUES (#{orderId}, #{productId});
+    </insert>
+
+    <!-- 插入订单 -->
+    <insert id="addOrder" parameterType="Order">
+        INSERT INTO shop.order (order_id, order_time, order_price) VALUES (#{orderId}, #{orderTime}, #{orderPrice});
+    </insert>
+
+    <!-- 修改商品信息 -->
+    <update id="updateOrder" parameterType="Order">
+        UPDATE shop.order o SET o.`order_price` = #{orderPrice}, o.`order_time` = #{orderTime} WHERE o.`order_id` = #{orderId};
+    </update>
+<!--    <update id="updateOrder" parameterType="Order">-->
+<!--        UPDATE shop.order o-->
+<!--        SET o.`order_price` = (-->
+<!--        SELECT SUM(p.`product_price`)-->
+<!--        FROM shop.product p-->
+<!--        JOIN `order_product` op ON p.`product_id` = op.`product_id`-->
+<!--        WHERE op.`order_id` = o.`order_id`-->
+<!--        )-->
+<!--        WHERE o.`order_id` = #{orderId};-->
+<!--    </update>-->
+    <!-- 删除商品信息 -->
+    <delete id="deleteOrder" parameterType="int">
+        DELETE FROM shop.order WHERE order_id = #{orderId};
+    </delete>
+</mapper>
