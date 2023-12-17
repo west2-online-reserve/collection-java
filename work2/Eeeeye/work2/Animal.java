@@ -13,8 +13,6 @@ public abstract class Animal {
     public Animal() {
     }
 
-    ;
-
     public Animal(String name, int age, String gender, double price, double profit) {
         this.name = name;
         this.age = age;
