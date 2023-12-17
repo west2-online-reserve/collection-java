@@ -1,7 +1,7 @@
 # 学习心得和体会
 
 ## 项目仓库地址
-https://github.com/478320/collection-java
+https://github.com/478320/Work
 
 ## 作业完成度
 完成了订单管理系统的代码
