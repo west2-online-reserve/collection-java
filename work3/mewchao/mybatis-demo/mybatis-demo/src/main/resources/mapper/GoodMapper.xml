@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.mapper.GoodMapper">
+
+    <select id="getGoodList" resultType="com.example.pojo.Good">
+        select * from good_table
+    </select>
+
+
+    <insert id="insertGood" parameterType="com.example.pojo.Good">
+        insert into good_table(ul_id_goods,price_goods,name_goods,gmt_create,gmt_modified)
+            values(#{ul_id_goods},#{price_goods},#{name_goods},#{name_goods},#{gmt_modified})
+    </insert>
+
+</mapper>
