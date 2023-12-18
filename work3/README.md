@@ -1,21 +1,15 @@
 ## 1.项目仓库地址
 https://github.com/XWBN/collection-java.git
 
-
-
 ## 2.任务进度
 
 * 基本完成了订单管理系统的功能
 * 编写了jdbc工具类，实现了订单和商品的增删改查，订单排序功能。
 
-
-
 ## 3.用到的技术栈
 
 * JAVA编程语言
 * 数据库
-
-
 
 ## 4.项目目录结构介绍
 
@@ -29,15 +23,10 @@ https://github.com/XWBN/collection-java.git
 
 * ”Utils”，存放JDBC所需要的包
 
-  
 
 ## 5.项目功能介绍
 
-**test类，实现了菜单功能**
-
-
-
-**dao包，有全部订单查询方法**
+* 菜单功能
 
 * 全部订单查询 selectAll
 
@@ -63,7 +52,6 @@ https://github.com/XWBN/collection-java.git
 
 * 订单按下单时间排序 SortOrderByTime
 
-  
 
 ## 6.项目待改进点
 
