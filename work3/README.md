@@ -13,15 +13,13 @@ https://github.com/XWBN/collection-java.git
 
 ## 4.项目目录结构介绍
 
-**项目有四个主要部分**
-
-* 工具”dao”，存放实现操作的jdbc工具类。
-
-* 对象“entidy”，存放表格的实体类。
-
-* 测试类”test“，实现项目的测试。
-
-* ”Utils”，存放JDBC所需要的包
+> src   
+>     └─XWBN3                    // 项目包
+>         ├─dao                      // 实现工具包
+>         │  └─impl                 // 实现工具类
+>         ├─entity                   // 对象类
+>         ├─test                      // 测试类
+>         └─utils                     // 工具包
 
 
 ## 5.项目功能介绍
