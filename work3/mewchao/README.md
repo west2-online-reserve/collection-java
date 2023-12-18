@@ -5,4 +5,4 @@
 Mybatis
 
 ## [仓库地址]
-https://github.com/mewchao/collection-java
+https://github.com/mewchao/JAVA_work3
