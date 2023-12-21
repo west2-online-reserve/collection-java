@@ -1,5 +1,4 @@
 # Java 第三轮考核
-
 ## 参考资料
 
 * [MySQL[8.0] 解压版安装教程](https://blog.csdn.net/tyler880/article/details/109106093)
@@ -56,7 +55,7 @@
   * 在创建订单时，实施数据验证，确保订单信息的完整性和准确性。例如，检查商品是否存在，价格是否合法等等。
   * 如果想要删除已经存在在订单中的商品，你要怎么处理？
   * 避免使用SELECT *
- 
+
 * **完整的测试**
 
 * 可以自己设计新功能，有需要也可以自行增加字段。
@@ -78,11 +77,9 @@
 * **使用spring框架暴露http路由（日后常用）**
 
 > 第四轮的难度有一定的提升，请在**保证第三轮作业的质量**的前提下，去提前看看第四轮
-
 ### 第三方Api调用
 
 > 你觉得福州天气变化无常<img src="https://gitee.com/poldroc/typora-drawing-bed01/raw/master/imgs/202310140145992.jpeg" alt="img" style="zoom: 40%;" />，想制作一个天气查询系统查询福州和其他部分城市的天气
-
 * 使用和风天气提供的免费 API 来完成任务
 
   * [和风开发者平台官网 (qweather.com)](https://dev.qweather.com/)
@@ -159,5 +156,3 @@
     }
     System.out.println(res);//res就是请求的结果，注意res为StringBuilder
     ~~~
-
-    
