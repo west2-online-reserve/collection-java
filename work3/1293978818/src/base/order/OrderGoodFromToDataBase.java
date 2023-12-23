@@ -49,7 +49,8 @@ public class OrderGoodFromToDataBase {
 
     /**
      * 此方法根据商品id和订单id删除指定目录
-     * @param 要删除的商品id，要删除的订单id
+     * @param 要删除的商品id
+     * @param 要删除的订单id
      * @return 删除是否成功
      */
     public boolean deleteOrderGood(int goodId,int orderId){
@@ -130,7 +131,8 @@ public class OrderGoodFromToDataBase {
 
     /**
      * 此方法用于根据订单编号和商品编号从数据库中获得目录对象
-     * @param 订单编号和商品编号
+     * @param 订单编号
+     * @param 商品编号
      * @return 该目录的对象
      */
     public OrderGood getOrderGood(int orderId,int goodId){
