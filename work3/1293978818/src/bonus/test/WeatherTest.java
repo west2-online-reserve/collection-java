@@ -39,6 +39,7 @@ public class WeatherTest {
                     weatherManage.deleteCity(sc);
                     break;
                 case 5:
+                    System.out.println("感谢您的使用，再见");
                     System.exit(0);
                     break;
                 default:

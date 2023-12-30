@@ -15,14 +15,10 @@ import base.util.JdbcUtil;
 
 public class GoodFromToDataBase {
 
-    private Connection connection;
+
 
     public GoodFromToDataBase(){
-        try {
-            connection = JdbcUtil.getConnection();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        
     }
     
     /**
@@ -30,7 +26,7 @@ public class GoodFromToDataBase {
      * @param 商品对象 
      * @return 增加是否成功
     */
-    public boolean addGood(Good good){
+    public boolean addGood(Good good,Connection connection){
         String sql = "insert into good(goodname,goodprice) values (?,?)";
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
@@ -51,7 +47,7 @@ public class GoodFromToDataBase {
      * @param 商品编号
      * @return 删除是否成功
      */
-    public boolean deleteGood(int goodId){
+    public boolean deleteGood(int goodId,Connection connection){
         String sql = "delete from good where goodid = ?";
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
@@ -71,7 +67,7 @@ public class GoodFromToDataBase {
      * @param 更新后的商品对象
      * @return 是否更新成功
      */
-    public boolean updategood(Good good){
+    public boolean updategood(Good good,Connection connection){
         String sql = "update good set goodname = ?,goodprice = ? where goodid = ?";
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
@@ -88,13 +84,15 @@ public class GoodFromToDataBase {
     }
 
     /**
-     * 此方法用于获得所有商品信息的集合
+     * 此方法用于获得指定页码中的商品信息的集合
      */
-    public ArrayList<Good> getAllGood(){
-        String sql = "select * from good";
+    public ArrayList<Good> getAllGood(Connection connection,int page){
+        String sql = "select * from good limit ?,?";
         ArrayList<Good> list = new ArrayList<>(); 
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setInt(1, (page-1)*3);
+            preparedStatement.setInt(2, 3);
             ResultSet resultSet = preparedStatement.executeQuery();
             while(resultSet.next()){
                 Good good = new Good();
@@ -114,7 +112,7 @@ public class GoodFromToDataBase {
      * @param 商品编号
      * @return 该商品的商品对象,若不存在，则返回null
     */
-    public Good getGood(int goodId){
+    public Good getGood(int goodId,Connection connection){
         String sql = "select * from good where goodid = ?";
         try {
 
@@ -133,6 +131,29 @@ public class GoodFromToDataBase {
             e.printStackTrace();
         }
         return null;
+    }
+
+    /**此方法用于获得商品的个数 */
+    public int getGoodNum(Connection connection){
+        String sql = "select count(*) from good";
+        ResultSet resultSet = null;
+        PreparedStatement preparedStatement = null;
+        try {
+            connection = JdbcUtil.getConnection();
+            preparedStatement = connection.prepareStatement(sql);
+            resultSet = preparedStatement.executeQuery();
+            resultSet.next();
+            return resultSet.getInt(1);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            try {
+                JdbcUtil.close(resultSet, preparedStatement);
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+        return -1;
     }
 
 }

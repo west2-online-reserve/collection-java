@@ -15,14 +15,9 @@ import base.util.JdbcUtil;
  */
 public class OrderGoodFromToDataBase {
     
-    private Connection connection;
 
     public OrderGoodFromToDataBase(){
-        try {
-            this.connection = JdbcUtil.getConnection();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        
     }
 
     /**
@@ -30,7 +25,7 @@ public class OrderGoodFromToDataBase {
      * @param 将要增加的目录对象
      * @return 是否增加成功
      */
-    public boolean addOrderGood(OrderGood orderGood){
+    public boolean addOrderGood(OrderGood orderGood,Connection connection){
         String sql = "insert into ordergood(orderid,goodid,goodnum,goodprice) values (?,?,?,?)";
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
@@ -53,16 +48,23 @@ public class OrderGoodFromToDataBase {
      * @param 要删除的订单id
      * @return 删除是否成功
      */
-    public boolean deleteOrderGood(int goodId,int orderId){
+    public boolean deleteOrderGood(int goodId,int orderId,Connection connection){
         String sql = "delete from ordergood where goodid = ? and orderid = ?";
+        PreparedStatement preparedStatement = null;
         try {
-            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setInt(1, goodId);
             preparedStatement.setInt(2, orderId);
             preparedStatement.executeUpdate();
             return true;
         } catch (SQLException e) {
             e.printStackTrace();
+        }finally{
+            try {
+                JdbcUtil.close(null, preparedStatement);
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
         return false;
         
@@ -73,7 +75,7 @@ public class OrderGoodFromToDataBase {
      * @param 商品id
      * @return 删除是否成功
      */
-    public boolean deleteOrderGoodByGoodId(int goodId){
+    public boolean deleteOrderGoodByGoodId(int goodId,Connection connection){
 
         String sql = "delete from ordergood where goodid = ?";
         try {
@@ -93,7 +95,7 @@ public class OrderGoodFromToDataBase {
      * @param 商品id
      * @return 删除是否成功
      */
-    public boolean deleteOrderGoodByOrderId(int orderId){
+    public boolean deleteOrderGoodByOrderId(int orderId,Connection connection){
         String sql = "delete from ordergood where orderid = ?";
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
@@ -112,7 +114,7 @@ public class OrderGoodFromToDataBase {
      * @param 目录对象
      * @return 存入是否成功
      */
-    public boolean updateOrderGood(OrderGood orderGood){
+    public boolean updateOrderGood(OrderGood orderGood,Connection connection){
         String sql = "update ordergood set goodnum = ?,goodprice = ? where goodid = ? and orderid = ?";
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
@@ -135,7 +137,7 @@ public class OrderGoodFromToDataBase {
      * @param 商品编号
      * @return 该目录的对象
      */
-    public OrderGood getOrderGood(int orderId,int goodId){
+    public OrderGood getOrderGood(int orderId,int goodId,Connection connection){
         String sql = "select * from ordergood where goodid = ? and orderid = ?";
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
@@ -163,7 +165,7 @@ public class OrderGoodFromToDataBase {
      * @param 商品id
      * @return 含有该商品的目录的集合
      */
-    public ArrayList<OrderGood> getOrderGoodArrayListByGoodId(int goodId){
+    public ArrayList<OrderGood> getOrderGoodArrayListByGoodId(int goodId,Connection connection){
 
         String sql = "select * from ordergood where goodid = ?";
         try {
@@ -191,7 +193,7 @@ public class OrderGoodFromToDataBase {
      * @param 订单信息
      * @return 此订单的所有集合
      */
-    public ArrayList<OrderGood> getOrderGoodArrayListByOrderId(int orderId){
+    public ArrayList<OrderGood> getOrderGoodArrayListByOrderId(int orderId,Connection connection){
         ArrayList<OrderGood> list = new ArrayList<>();
         String sql = "select * from ordergood where orderid = ?";
         try {

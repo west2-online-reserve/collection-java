@@ -5,23 +5,39 @@ package base.util;
  * @version 1.0
  */
 
-
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.Properties;
 
 public class JdbcUtil {
 
     /**获得连接的必要变量 */
-    private static String driver =  "com.mysql.cj.jdbc.Driver";
-    private static String url =  "jdbc:mysql://localhost:3306/order?useUnicode=true&characterEndcoding=utf8&useSSL=true";
-    private static String username =  "root";
-    private static String password =  "ygh8730080";
+    private static String driver;
+    private static String url;
+    private static String username;
+    private static String password;
 
     /**使用驱动 */
     static{
+        
+        Properties properties = new Properties();
+        ClassLoader classLoader = JdbcUtil.class.getClassLoader();
+        InputStream inputStream = classLoader.getResourceAsStream("order.properties");
+        try {
+            properties.load(inputStream);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        driver = properties.getProperty("driver");
+        url = properties.getProperty("url");
+        username = properties.getProperty("username");
+        password = properties.getProperty("password");
+
         try {
             Class.forName(driver);
         } catch (ClassNotFoundException e) {

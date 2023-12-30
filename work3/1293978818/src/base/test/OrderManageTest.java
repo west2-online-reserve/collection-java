@@ -28,7 +28,8 @@ public class OrderManageTest {
         System.out.println("8.修改订单中购买商品的个数");
         System.out.println("9.删除订单");
         System.out.println("10.输出指定订单信息");
-        System.out.println("11.退出程序");
+        System.out.println("11.输出所有订单信息");
+        System.out.println("12.退出程序");
         lo:while(true){
 
             choice = sc.nextInt();
@@ -64,9 +65,12 @@ public class OrderManageTest {
                 case 10:
                     orderManage.printTotalOrder(sc);
                     break;
-                case 11:
+                case 12:
                     System.out.println("再见");
                     break lo;
+                case 11:
+                    orderManage.printAllTotalOrder(sc);
+                    break;
                 default:
                     System.out.println("输入有误，再来一次吧");
                     continue lo;
@@ -74,6 +78,7 @@ public class OrderManageTest {
 
             System.out.println("还有什么要做的吗");
         }
+        orderManage.closeConnection();
         sc.close();
     }
 
