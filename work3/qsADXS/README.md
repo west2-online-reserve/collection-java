@@ -29,7 +29,7 @@
 │              order.class
 │              SelectCommodity.class
 │              SelectOrder.class
-│              Text.class
+│              Test.class
 │              Transaction.class
 │              UpdateCommodity.class
 │              UpdateOrder.class
@@ -46,7 +46,7 @@
         order.java
         SelectCommodity.java
         SelectOrder.java
-        Text.java
+        Test.java
         Transaction.java
         UpdateCommodity.java
         UpdateOrder.java
