@@ -1,6 +1,6 @@
 # README
 
-## 项目地址 :https://github.com/python520809/jing
+## 项目地址 :https://github.com/python520809/hello
 
 ## 项目介绍 ：
 实现一个简单的订单管理系统，包括一个商品表和一个订单表，实现商品与订单的增删改查。
