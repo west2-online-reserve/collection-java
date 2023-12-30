@@ -36,51 +36,54 @@ bonus部分主要是对第三方api的调用。该项目调用了和风天气的
 
 ## 项目结构
 
-```note
+
+```
 1293978818
-├─ .vscode 
-│  └─ settings.json //vscode的配置文件
+├─ .vscode
+│  └─ settings.json
 ├─ bin
 ├─ lib
-│  ├─ commons-beanutils-1.8.0.jar //第三方api的依赖
+│  ├─ commons-beanutils-1.8.0.jar   
 │  ├─ commons-collections-3.2.1.jar
 │  ├─ commons-lang-2.4.jar
 │  ├─ commons-logging-1.1.1.jar
-│  ├─ ezmorph-1.0.6.jar
+│  ├─ ezmorph-1.0.6.jar             //json的依赖
 │  ├─ json-lib-2.4-jdk15.jar
-│  └─ mysql-connector-j-8.2.0.jar //mysql的依赖
+│  └─ mysql-connector-j-8.2.0.jar  //mysql的依赖
 ├─ README.md
 └─ src
-   ├─ base
-   │  ├─ domain
-   │  │  ├─ Good.java //商品类
-   │  │  ├─ OrderGood.java //订单目录类
-   │  │  └─ TotalOrder.java //订单总表类
-   │  ├─ order
-   │  │  ├─ GoodFromToDataBase.java   //商品类的数据库操作
-   │  │  ├─ OrderGoodFromToDataBase.java //订单目录类的数据库操作
-   │  │  ├─ OrderManage.java //实现业务的业务类
-   │  │  └─ TotalOrderFromToDataBase.java //订单总表类的数据库操作
-   │  ├─ order.sql //数据库文件
-   │  ├─ test
-   │  │  └─ OrderManageTest.java //测试类
-   │  └─ util
-   │     └─ JdbcUtil.java //数据库连接类
-   └─ bonus
-      ├─ domain
-      │  ├─ City.java //城市类
-      │  └─ Weather.java //天气类
-      ├─ test
-      │  └─ WeatherTest.java //测试类
-      ├─ util
-      │  └─ JdbcUtil.java //数据库连接类
-      ├─ weather
-      │  ├─ CityInformationFromInternet.java //从第三方api获取城市信息
-      │  ├─ CityInformationFromToDataBase.java //从数据库获取城市信息
-      │  ├─ WeatherInformationFromInternet.java //从第三方api获取天气信息
-      │  ├─ WeatherInformationFromToDateBase.java //从数据库获取天气信息
-      │  └─ WeatherManage.java //实现业务的业务类
-      └─ weather.sql //数据库文件
+   ├─ base  //基础部分
+   │  ├─ domain //实体类
+   │  │  ├─ Good.java
+   │  │  ├─ OrderGood.java
+   │  │  └─ TotalOrder.java
+   │  ├─ order //订单部分
+   │  │  ├─ GoodFromToDataBase.java
+   │  │  ├─ OrderGoodFromToDataBase.java
+   │  │  ├─ OrderManage.java
+   │  │  └─ TotalOrderFromToDataBase.java
+   │  ├─ test  //测试部分
+   │  │  └─ OrderManageTest.java
+   │  └─ util  //工具类
+   │     └─ JdbcUtil.java
+   ├─ bonus //bonus部分
+   │  ├─ domain   //实体类
+   │  │  ├─ City.java   
+   │  │  └─ Weather.java
+   │  ├─ test   //测试部分
+   │  │  └─ WeatherTest.java
+   │  ├─ util  //工具类
+   │  │  └─ JdbcUtil.java
+   │  └─ weather  //天气部分
+   │     ├─ CityInformationFromInternet.java
+   │     ├─ CityInformationFromToDataBase.java
+   │     ├─ WeatherInformationFromInternet.java
+   │     ├─ WeatherInformationFromToDateBase.java
+   │     └─ WeatherManage.java
+   ├─ order.properties  //base的配置文件
+   ├─ order.sql   //base的sql文件
+   ├─ weather.properties   //bonus的配置文件
+   └─ weather.sql  //bonus的sql文件
 
 ```
 
@@ -93,8 +96,8 @@ bonus部分在mysql中运行weather.sql文件
 
 ### 2.配置文件
 
-base部分在src的base目录下的util包中的JdbcUtil.java文件中修改数据库的用户名和密码
-bonus部分在src的bonus目录下的util包中的JdbcUtil.java文件中修改数据库的用户名和密码
+base部分在order.properties文件中配置数据库的用户名和密码
+bonus部分在weather.properties文件中配置数据库的用户名和密码
 
 ### 3.运行
 
