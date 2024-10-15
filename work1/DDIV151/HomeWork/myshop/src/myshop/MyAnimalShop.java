@@ -15,8 +15,8 @@ public class MyAnimalShop implements AnimalShop {
     Scanner scanner = new Scanner(System.in);
     //店的余额
     double money;
-    //利润
-    double earnMoney = 0;
+    //店的本钱
+    double firstMoney;
     //是否营业
     boolean ifOpen = false;
     ArrayList animals = new ArrayList();
@@ -27,6 +27,7 @@ public class MyAnimalShop implements AnimalShop {
         this.customs = customs;
         this.animals = animals;
         this.money = money;
+        firstMoney = money;
     }
 
     public MyAnimalShop() {
@@ -63,6 +64,7 @@ public class MyAnimalShop implements AnimalShop {
 
     public void setMoney(double money) {
         this.money = money;
+        firstMoney = money;
     }
 
     @Override
@@ -81,7 +83,6 @@ public class MyAnimalShop implements AnimalShop {
                         cat = cat.catBuying();
                         animals.add(cat);//在动物列表添加
                         money -= 200;
-                        earnMoney -= 200;
                         System.out.println("添加成功\n" + cat + "\n当前余额: " + money);
                     }
                     break;
@@ -92,7 +93,6 @@ public class MyAnimalShop implements AnimalShop {
                         ChineseRuralDog dog = new ChineseRuralDog();
                         animals.add(dog.dogBuying());
                         money -= 100;
-                        earnMoney -= 100;
                         System.out.println("添加成功\n" + dog + "\n当前余额: " + money);
                     }
                     break;
@@ -144,11 +144,9 @@ public class MyAnimalShop implements AnimalShop {
                                 Cat saledCat = (Cat) animals.get(animalIndex);
                                 //记录收入,下面同理
                                 money += saledCat.getPrice();
-                                earnMoney = saledCat.getPrice() - 200;
                             } else {
                                 ChineseRuralDog saledDog = (ChineseRuralDog) animals.get(animalIndex);
                                 money += saledDog.getPrice();
-                                earnMoney = saledDog.getPrice() - 100;
                             }
                             //给出购买结果,从动物列表删除动物
                             System.out.println("顾客购买了\n" + animals.remove(animalIndex));
@@ -195,18 +193,18 @@ public class MyAnimalShop implements AnimalShop {
         //LocalDate判断
         if (now.getHour() < 9 || now.getHour() > 18) {
             System.out.println("关店");
-            double firstMoney = money - earnMoney;
             System.out.println("你往店里投入了" + firstMoney + "\n");
             System.out.println("有这些顾客来过:\n");
             printCustoms(customs);
             System.out.println();
             System.out.println("最后店里还有 " + getMoney() + " 元");
-            if (earnMoney < 0) {
-                System.out.println("可惜了,你亏了 " + -earnMoney + " 元");
-            } else if (earnMoney == 0) {
+            double lostMoney = firstMoney - money;
+            if (lostMoney > 0) {
+                System.out.println("可惜了,你亏了 " + lostMoney + " 元");
+            } else if (lostMoney == 0) {
                 System.out.println("不赚不亏?\n(其实亏了,房租水电结一下)");
             } else {
-                System.out.println("今天赚了 " + earnMoney + " 元!");
+                System.out.println("今天赚了 " + -lostMoney + " 元!");
             }
             System.out.println("再见");
             System.exit(0);
