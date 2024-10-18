@@ -1,4 +1,4 @@
-package Bonus_1;
+package Bonus1;
 
 import java.util.Scanner;
 

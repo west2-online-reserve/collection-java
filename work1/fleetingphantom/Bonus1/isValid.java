@@ -1,6 +1,5 @@
-package Bonus_1;
+package Bonus1;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class isValid {
