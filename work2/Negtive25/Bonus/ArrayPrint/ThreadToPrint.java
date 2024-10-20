@@ -1,11 +1,22 @@
-public class ThreadToPrint extends Thread {
-    int[]arr;
+class ThreadToPrint extends Thread {
+    private int[] arr;
+    private static final Object lock = new Object();
+
     public ThreadToPrint(int[] arr) {
         this.arr = arr;
     }
     public void run() {
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println(this.getName()+": "+arr[i]);
+        synchronized (lock) {
+            for (int i = 0; i < arr.length; i++) {
+                System.out.print(arr[i] + " ");
+                lock.notify();
+                try {
+                    lock.wait();
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                }
+            }
+            lock.notify();
         }
     }
 }

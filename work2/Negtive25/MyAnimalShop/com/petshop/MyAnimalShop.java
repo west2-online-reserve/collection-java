@@ -3,7 +3,7 @@ package com.petshop;
 import java.util.ArrayList;
 
 public class MyAnimalShop implements AnimalShop {
-    double balance,initalBalance;
+    private double balance,initalBalance;
     ArrayList<Animal> animals;
     ArrayList<Customer> customers;
     boolean isOpen;
@@ -22,21 +22,24 @@ public class MyAnimalShop implements AnimalShop {
         balance -= costOfPurchase;
         animals.add(animal);
     }
-    public void sellAnimal(String AnimalSpecies) {
-        boolean checkWhetherAnimalExists = false;
-        int findTheAnimal;
-        for(findTheAnimal = 0; findTheAnimal<animals.size(); findTheAnimal++){
-            if(AnimalSpecies.equals(animals.get(findTheAnimal).getSpecies())){
-                checkWhetherAnimalExists = true;
+    public int findAnimal(String AnimalSpecies) {
+        int findTheAnimal = -1;
+        for(int i = 0; i<animals.size(); i++){
+            if(animals.get(i).getSpecies().equals(AnimalSpecies)){
+                findTheAnimal = i;
                 break;
             }
         }
-        if(!checkWhetherAnimalExists){
-            throw new AnimalNotFountException(AnimalSpecies+" not found");
+        return findTheAnimal;
+    }
+    public void sellAnimal(String animalSpecies) {
+        int animalNumber = findAnimal(animalSpecies);
+        if(animalNumber == -1){
+            throw new AnimalNotFountException(animalSpecies+" not found");
         }
-        balance += animals.get(findTheAnimal).getPrice();
-        System.out.println("Animal sold: "+animals.get(findTheAnimal).toString());
-        animals.remove(findTheAnimal);
+        balance += animals.get(animalNumber).getPrice();
+        System.out.println("Animal sold: "+animals.get(animalNumber).toString());
+        animals.remove(animalNumber);
     }
     public void showAnimalList(){
         if(animals.isEmpty()){

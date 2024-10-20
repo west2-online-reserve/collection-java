@@ -12,17 +12,17 @@ public class Dog extends Animal {
     {
         StringBuilder sb = new StringBuilder();
         sb.append("Dog name: ").append(getName()).append(", Age: ").append(getAge()).append(", Gender: ").append(getGender())
-               .append(", Price: ").append(getPrice()).append(", Weight: ").append(getWeight()).append(", Vaccine Injected: ")
-               .append(getIfVaccineInjected());
+                .append(", Price: ").append(getPrice()).append(", Weight: ").append(getWeight()).append(", Vaccine Injected: ")
+                .append(isVaccineInjected());
 
         return sb.toString();
     }
-    String getIfVaccineInjected() {
+    public boolean isVaccineInjected() {
         if (isVaccineInjected) {
-            return "Yes";
+            return true;
         }
         else {
-            return "No";
+            return false;
         }
     }
 }

@@ -12,7 +12,7 @@ public class Customer {
     }
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Name: ").append(name).append(", Number of visits: ").append(numberOfVisits).append(", Last visit date: ").append(lastVisitDate);
+        sb.append("Name: ").append(name).append(", Number of visits: ").append(numberOfVisits).append(", Last visit date: ").append(lastVisitDate.getLatestVisitTime());
         return sb.toString();
     }
 }
