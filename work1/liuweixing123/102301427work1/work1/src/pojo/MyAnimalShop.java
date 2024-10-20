@@ -61,6 +61,10 @@ public class MyAnimalShop implements AnimalShop {
     public void close() {
         LocalDate now = LocalDate.now();
         isOpen = false;
+        System.out.println("以下为今日光顾的顾客：");
+        for(int i=0;i<customers.size();i++){
+            System.out.println(customers.get(i));
+        }
         System.out.println(now + "利润为：" + profits.get(now));
     }
 
