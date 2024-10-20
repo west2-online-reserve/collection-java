@@ -1,27 +1,35 @@
 public class Text {
-    public static void main(String[] args) {
-        Booth b = new Booth(10086, "Wuwuwuwu", 37, false);
-        String s = b.toString();
-        System.out.print(s);
-        //购买
-        b.purchase(b,12);//购买正常
-        b.purchase(b,38);//购买超过
-        b.purchase(b,-1);//购买少于
-        b.setClosed(true);//休摊测试
-        b.purchase(b,12);
-        b.setClosed((false));
-        System.out.println("*****这是一条分割线******");//分割线
-        //进货
-        b.restock(b,100);//进货正常
-        b.restock(b,-1);//进货小于0
-        b.restock(b,201);//进货大于200测试
-        System.out.println("*****这是一条分割线******");//分割线
-        //休息整改
-        Booth b1=new Booth(10087,"Hahahaha",38,true);
-        Booth booths[]={b,b1};
-        for(int i=0;i< booths.length;i++){
-            System.out.println(booths[i].toString());
+    public static void main(String[] args){
+        Animal dog1=new ChineseRuralDog("dog1",2,"male",200,100,true);
+        Animal dog2=new ChineseRuralDog("dog2",3,"female",300,150,true);
+        Animal dog3=new ChineseRuralDog("dog3",2,"male",200,100,false);
+        Animal cat1=new Cat("CAT1",3,"female",100,50);
+        Animal cat2=new Cat("CAT2",1,"female",100,50);
+        Animal cat3=new Cat("CAT3",2,"female",100,50);
+        AnimalShop animalShop=new MyAnimalShop(2000,false);
+        animalShop.purchase(dog1,1);
+        animalShop.purchase(dog2,2);
+        animalShop.purchase(dog3,1);
+        animalShop.purchase(cat1,1);
+        animalShop.purchase(cat2,1);
+        animalShop.purchase(cat3,1);
+        System.out.println("*********这是一条分界线**********" );
+        Customer c1=new Customer("xiaohong",1);
+        Customer c2=new Customer("HAHHAA",2);
+        animalShop.hello(c1);
+        animalShop.hello(c2);
+        animalShop.closeAnimalShop(animalShop);
+        animalShop.hello(c2);
+        System.out.println("*********这是一条分界线**********" );
+        AnimalShop animalShop1=new MyAnimalShop(1000,false);
+        animalShop1.purchase(dog1,2);
+        animalShop1.purchase(cat1,1);
+        animalShop1.closeAnimalShop(animalShop1);
 
-        }
+
+
+
+
+
     }
 }
