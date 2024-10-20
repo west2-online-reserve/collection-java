@@ -7,9 +7,9 @@ import java.util.zip.CheckedOutputStream;
 
 public class MyAnimalShop implements AnimalShop {
     private double balance;
-    ArrayList<Animal> animalsList;
-    ArrayList<Customer> customersList;
-    boolean status;
+    private ArrayList<Animal> animalsList;
+    private ArrayList<Customer> customersList;
+    private boolean status;
 
     public MyAnimalShop(double balance, ArrayList<Animal> animalsList, ArrayList<Customer> customersList, boolean status) {
         this.balance = balance;

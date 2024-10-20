@@ -2,7 +2,7 @@ package com.catowl.animalshop;
 
 public class ChineseRuralDog extends Animal {
     private final int PURCHASE_PRICE = 50;
-    boolean isVaccinelnjected;
+    private boolean isVaccinelnjected;
 
     public ChineseRuralDog(String name, int age, String gender, boolean isVaccinelnjected) {
         super(name, age, gender);

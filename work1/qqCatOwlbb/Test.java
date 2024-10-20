@@ -104,8 +104,8 @@ public class Test {
     //售卖清单
     public static void saleList(MyAnimalShop myAnimalShop) {
         System.out.println("顾客可购买的动物：");
-        for (int i = 0; i < myAnimalShop.animalsList.size(); i++) {
-            System.out.println("编号：" + i + " " + myAnimalShop.animalsList.get(i).toString());
+        for (int i = 0; i < myAnimalShop.getAnimalsList().size(); i++) {
+            System.out.println("编号：" + i + " " + myAnimalShop.getAnimalsList().get(i).toString());
         }
     }
 }
