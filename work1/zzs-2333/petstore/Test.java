@@ -1,6 +1,6 @@
 package com.petstore;
 
-public class Text {
+public class Test {
     public static void main(String[] args) {
         MyAnimalShop myAnimalShop = new MyAnimalShop(500.0); // 初始化宠物店，余额500元
 
