@@ -1,9 +1,9 @@
 package com.petshop;
 
 public class Customer {
-    String name;
-    int numberOfVisits;
-    LocalDate lastVisitDate;
+    private String name;
+    private int numberOfVisits;
+    private LocalDate lastVisitDate;
 
     public Customer(String name, int numberOfVisits, String date) {
         this.name = name;

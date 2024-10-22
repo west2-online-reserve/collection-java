@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 public class MyAnimalShop implements AnimalShop {
     private double balance,initalBalance;
-    ArrayList<Animal> animals;
-    ArrayList<Customer> customers;
-    boolean isOpen;
+    private ArrayList<Animal> animals;
+    private ArrayList<Customer> customers;
+    private boolean isOpen;
 
     public MyAnimalShop(double balance) {
         this.balance = balance;

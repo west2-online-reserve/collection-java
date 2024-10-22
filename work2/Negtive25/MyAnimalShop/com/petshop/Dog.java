@@ -1,7 +1,7 @@
 package com.petshop;
 
 public class Dog extends Animal {
-    boolean isVaccineInjected;
+    private boolean isVaccineInjected;
 
     public Dog(String name, int age, String gender, double price, double weight, boolean isVaccineInjected) {
         super(name, age, gender, price, weight);

@@ -1,7 +1,7 @@
 package com.petshop;
 
 public class LocalDate {
-    String date;
+    private String date;
 
     public LocalDate(String date) {
         this.date = date;
