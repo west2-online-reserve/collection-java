@@ -1,5 +1,7 @@
-package com.java.west2.work2.shop;
-
 public interface AnimalShop {
-    void buyAnimals ();
+    void buyAnimals(Animal animal);
+
+    void greetCustomer(Customer customer);
+
+    void shopClose();
 }

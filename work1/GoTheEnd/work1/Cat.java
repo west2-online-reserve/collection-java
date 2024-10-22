@@ -1,14 +1,12 @@
-package com.java.west2.work2.shop;
-
 public class Cat extends Animal {
-    public Cat(String name, int age, String gender, double price, String temperament) {
-        super(name, age, gender, price, temperament);
+    public Cat(String name, int age, String gender, double price, double cost, String temperament) {
+        super(name, age, gender, price, cost, temperament);
     }
 
     @Override
     public String toString(){
         return "Cat" + "\n" +
-                "-----------" +
+                "-----------\n" +
                 "name: " + name + "\n" +
                 "age: " + age + "\n" +
                 "gender: " + gender + "\n" +

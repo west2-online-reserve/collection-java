@@ -4,13 +4,15 @@ public abstract class Animal{
     protected String gender;  //性别
     protected double price;  //价格
     protected String temperament;  //性情
+    protected double cost;
 
-    public Animal(String name, int age, String gender, double price, String temperament) {
+    public Animal(String name, int age, String gender, double price, double cost, String temperament) {
         this.name = name;
         this.age = age;
         this.gender = gender;
         this.price = price;
         this.temperament = temperament;
+        this.cost = cost;
     }
 
     @Override
