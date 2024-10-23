@@ -7,7 +7,8 @@ public class ChineseRuralDog extends Animal {
     }
     @Override
     public void feed(){
-        System.out.println("woof!");
+        System.out.println("【你喂食了ChineseRuralDog " + this.name + "】");
+        System.out.println("\"woof!\"\n");
     }
     @Override
     public String toString(){
@@ -18,6 +19,6 @@ public class ChineseRuralDog extends Animal {
                 "gender: " + gender + "\n" +
                 "price: " + price + "\n" +
                 "temperament: " + temperament + "\n" +
-                "isVaccineInjected: " + isVaccineInjected +"\n";
+                "isVaccineInjected: " + isVaccineInjected ;
     }
 }

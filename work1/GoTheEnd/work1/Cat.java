@@ -16,6 +16,7 @@ public class Cat extends Animal {
 
     @Override
     public void feed(){
-        System.out.println("mew!!");
+        System.out.println("【你喂食了Cat " + this.name + "】");
+        System.out.println("\"mew!!\"\n");
     }
 }

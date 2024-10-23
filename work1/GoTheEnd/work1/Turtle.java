@@ -15,6 +15,7 @@ public class Turtle extends Animal {
 
     @Override
     public void feed () {
-        System.out.println("......!!");
+        System.out.println("【你喂食了Turtle " + this.name + "】");
+        System.out.println("\"......!!\"\n");
     }
 }
