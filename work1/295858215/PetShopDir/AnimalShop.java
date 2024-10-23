@@ -5,6 +5,6 @@ public interface AnimalShop {
 
     void buyAnimal(Animal animal) throws InsufficientBalanceException;
 
-    void treatCustomer(Customer customer) throws AnimalNotFoundException;
+    void treatCustomer(Customer customer, String animalType) throws AnimalNotFoundException;
 }
 

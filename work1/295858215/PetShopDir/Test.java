@@ -25,9 +25,9 @@ class Test {
         Customer customer3 = new Customer(0, "Charlie", LocalDate.now());
 
         try {
-            myShop.treatCustomer(customer1);
-            myShop.treatCustomer(customer2);
-            myShop.treatCustomer(customer3);
+            myShop.treatCustomer(customer1, "ChineseDog");
+            myShop.treatCustomer(customer2, "Cat");
+            myShop.treatCustomer(customer3, "ChineseDog");
         } catch (AnimalNotFoundException e) {
             System.out.println(e.getMessage());
         }

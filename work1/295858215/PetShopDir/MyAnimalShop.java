@@ -4,13 +4,16 @@ import java.util.List;
 
 class MyAnimalShop implements AnimalShop {
     private double balance;
-    private List<Animal> animals;
+
+    private List<ChineseDog> dogs;
+    private List<Cat> cats;
     private List<Customer> customers;
     private boolean isOpen;
 
     public MyAnimalShop(double balance) {
         this.balance = balance;
-        this.animals = new ArrayList<>();
+        this.cats = new ArrayList<>();
+        this.dogs = new ArrayList<>();
         this.customers = new ArrayList<>();
         this.isOpen = true;
     }
@@ -20,17 +23,33 @@ class MyAnimalShop implements AnimalShop {
         if (balance < animal.getPrice()) {
             throw new InsufficientBalanceException("余额不足，无法购买新动物。");
         }
-        animals.add(animal);
+        if (animal instanceof ChineseDog) {
+            dogs.add((ChineseDog) animal);
+        } else if (animal instanceof Cat) {
+            cats.add((Cat) animal);
+        }
         balance -= animal.getPrice();
         System.out.println("购买了新动物: " + animal);
+
+
     }
 
     @Override
-    public void treatCustomer(Customer customer) throws AnimalNotFoundException {
-        if (animals.isEmpty()) {
-            throw new AnimalNotFoundException("店内没有动物，无法招待客户。");
+    public void treatCustomer(Customer customer, String animalType) throws AnimalNotFoundException {
+        Animal animal = null;
+        if (animalType.equalsIgnoreCase("ChineseDog")) {
+            if (dogs.isEmpty()) {
+                throw new AnimalNotFoundException("店内没有足够的狗，无法招待客户。");
+            }
+            animal = dogs.remove(0);
+        } else if (animalType.equalsIgnoreCase("Cat")) {
+            if (cats.isEmpty()) {
+                throw new AnimalNotFoundException("店内没有足够的猫，无法招待客户。");
+            }
+            animal = cats.remove(0);
+        } else {
+            throw new AnimalNotFoundException("店内没有指定类型的动物，无法招待客户。");
         }
-        Animal animal = animals.remove(0);
         customers.add(new Customer(customer.getEnterTimes() + 1, customer.getName(), LocalDate.now()));
         balance += animal.getPrice();
         customer.setEnterTimes(customer.getEnterTimes() + 1);
