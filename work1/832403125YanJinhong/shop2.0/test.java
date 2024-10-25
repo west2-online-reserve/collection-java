@@ -6,12 +6,12 @@ public class test {
     public static void main(String[] args) {
 
         // 创建一个宠物店实例
-        Myanimalshop shop = new Myanimalshop(88888);
+        MyAnimalShop shop = new MyAnimalShop(88888);
 
-        Chinesedog dog1 = new Chinesedog("小花狗", 1,0, true);
-        Chinesedog dog2 = new Chinesedog("旺财狗", 2, 1, false);
-        Chinesedog dog3 = new Chinesedog("哈士奇", 3, 0, true);
-        Chinesedog dog4 = new Chinesedog("柴犬", 4, 1, false);
+        ChineseDog dog1 = new ChineseDog("小花狗", 1,0, true);
+        ChineseDog dog2 = new ChineseDog("旺财狗", 2, 1, false);
+        ChineseDog dog3 = new ChineseDog("哈士奇", 3, 0, true);
+        ChineseDog dog4 = new ChineseDog("柴犬", 4, 1, false);
 
         Cat cat1 = new Cat("汤姆猫", 1, 0);
         Cat cat2 = new Cat("小花猫", 2, 1);

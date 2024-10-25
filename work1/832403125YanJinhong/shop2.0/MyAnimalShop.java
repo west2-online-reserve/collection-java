@@ -4,19 +4,19 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Myanimalshop implements AnimalShop{
+public class MyAnimalShop implements AnimalShop{
     private double balance;//余额
     private double profit;//利润
-    private List<Animal> animalList;
-    private List<Customer> customerList;
+    private List<Animal> AnimalList;
+    private List<Customer> CustomerList;
     private boolean isOpen;
 
 
-    public Myanimalshop(double balance) {
+    public MyAnimalShop(double balance) {
         this.balance = balance;
         this.profit = 0;
-        this.animalList = new ArrayList<>();
-        this.customerList = new ArrayList<>();
+        this.AnimalList = new ArrayList<>();
+        this.CustomerList = new ArrayList<>();
         this.isOpen = true;
     }
 
@@ -30,7 +30,7 @@ public class Myanimalshop implements AnimalShop{
         // 余额足够, 扣除余额
         this.balance -= animal.getBuyingprice();
         // 添加动物
-        this.animalList.add(animal);
+        this.AnimalList.add(animal);
         System.out.println("【商店购买了】 " + animal);
         System.out.println("【当前余额】  " + this.balance);
 
@@ -44,17 +44,17 @@ public class Myanimalshop implements AnimalShop{
         }
 
 
-        if (animalList.isEmpty()) {
+        if (AnimalList.isEmpty()) {
             throw new AnimalNotFoundException("动物列表为空, 无法招待客户");
         }
 
 
-        if (!animalList.contains(animal)) {
+        if (!AnimalList.contains(animal)) {
             throw new AnimalNotFoundException("动物列表中没有名为【 " + animal.getName() + " 】的动物, 无法招待客户");
         }
         // 如果未打疫苗, 则打疫苗
-        if (animal instanceof Chinesedog) {
-            Chinesedog dog = (Chinesedog) animal;
+        if (animal instanceof ChineseDog) {
+            ChineseDog dog = (ChineseDog) animal;
             if (dog.isVaccineInjected==false) {
                 dog.setVaccineInjected(true);
                 System.out.println("为" + dog.getName() + "打了疫苗");
@@ -62,12 +62,12 @@ public class Myanimalshop implements AnimalShop{
         }
 
 
-        if (!customerList.contains(customer)) {
-            customerList.add(customer);
+        if (!CustomerList.contains(customer)) {
+            CustomerList.add(customer);
         }
         this.profit += animal.getSellingprice() - animal.getBuyingprice();
         this.balance += animal.getSellingprice();
-        this.animalList.remove(animal);
+        this.AnimalList.remove(animal);
         // 更新顾客信息
         customer.setVisitcount(customer.getVisitcount() + 1);
         customer.setLastvisitdate(LocalDate.now());
@@ -88,8 +88,8 @@ public class Myanimalshop implements AnimalShop{
         this.isOpen = true;
         System.out.println(" ============ 商店已开业 ============ ");
         System.out.println("【当前余额:】 " + this.balance);
-        System.out.println("【当前动物列表:】 " + this.animalList);
-        System.out.println("【当前顾客列表:】 " + this.customerList);
+        System.out.println("【当前动物列表:】 " + this.AnimalList);
+        System.out.println("【当前顾客列表:】 " + this.CustomerList);
     }
 
 
@@ -110,19 +110,19 @@ public class Myanimalshop implements AnimalShop{
     }
 
     public List<Animal> getAnimalList() {
-        return animalList;
+        return AnimalList;
     }
 
     public void setAnimalList(List<Animal> animalList) {
-        this.animalList = animalList;
+        this.AnimalList = animalList;
     }
 
     public List<Customer> getCustomerList() {
-        return customerList;
+        return CustomerList;
     }
 
     public void setCustomerList(List<Customer> customerList) {
-        this.customerList = customerList;
+        this.CustomerList = customerList;
     }
 
     public boolean isOpen() {

@@ -1,12 +1,12 @@
 package com.YJH.west2.q.chongwudianself;
 
 public class Rabbit extends Animal{
-    private static final double buyingprice = 500;
+    private static final double BYINGPRICE = 500;
 
-    private static final double sellingprice = 600;
+    private static final double SELLINGPRICE = 600;
 
     public Rabbit(String name, int age,int sex) {
-        super(name, age, sex, buyingprice, sellingprice);
+        super(name, age, sex, BYINGPRICE, SELLINGPRICE);
     }
 
 
@@ -17,8 +17,8 @@ public class Rabbit extends Animal{
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", gender='" + sex + '\'' +
-                ", buyingPrice=" + buyingprice +
-                ", sellingPrice=" + sellingprice +
+                ", buyingPrice=" + BYINGPRICE +
+                ", sellingPrice=" + SELLINGPRICE +
                 '}';
     }
 }

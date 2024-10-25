@@ -2,18 +2,18 @@ package com.YJH.west2.q.chongwudianself;
 
 import java.util.Random;
 
-public class Chinesedog extends Animal {
+public class ChineseDog extends Animal {
 
     protected boolean isVaccineInjected;
 
-    private static final double buyingprice = 40;
+    private static final double BYINGPRICE = 40;
 
-    private static final double sellingprice = 100;
+    private static final double SELLINGPRICE = 100;
 
-    public Chinesedog() {}
+    public ChineseDog() {}
 
-    public Chinesedog(String name, int age, int sex,boolean isVaccineInjected) {
-        super(name, age, sex, buyingprice,sellingprice);
+    public ChineseDog(String name, int age, int sex,boolean isVaccineInjected) {
+        super(name, age, sex, BYINGPRICE,SELLINGPRICE);
         this.isVaccineInjected = isVaccineInjected;
     }
 
@@ -23,13 +23,13 @@ public class Chinesedog extends Animal {
 
     @Override
     public String toString() {
-        return "ChineseRuralDog{" +
+        return "ChineseDog{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", gender='" + sex + '\'' +
                 ", isVaccineInjected=" + isVaccineInjected +
-                ", buyingPrice=" + buyingprice +
-                ", sellingPrice=" + sellingprice +
+                ", buyingPrice=" + BYINGPRICE +
+                ", sellingPrice=" + SELLINGPRICE +
                 '}';
     }
 }
