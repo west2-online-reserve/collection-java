@@ -32,35 +32,30 @@ class MyAnimalShop implements AnimalShop {
             }
         }
         balance -= totalCost;
-        System.out.println("购买了新动物: " + animal + " (数量: " + quantity + ")");
+        System.out.println("购买了" + quantity + "个新动物: " + animal);
     }
 
     @Override
-    public void treatCustomer(Customer customer, String animalType, int quantity) throws AnimalNotFoundException {
-        List<Animal> purchasedAnimals = new ArrayList<>();
+    public void treatCustomer(Customer customer, String animalType, int index) throws AnimalNotFoundException {
+        Animal animal = null;
         if (animalType.equalsIgnoreCase("ChineseDog")) {
-            if (dogs.size() < quantity) {
-                throw new AnimalNotFoundException("店内没有足够的狗，无法招待客户。");
+            if (dogs.isEmpty() || index < 0 || index >= dogs.size()) {
+                throw new AnimalNotFoundException("店内没有足够的狗或指定的狗不存在，无法招待客户。");
             }
-            for (int i = 0; i < quantity; i++) {
-                purchasedAnimals.add(dogs.remove(0));
-            }
+            animal = dogs.remove(index);
         } else if (animalType.equalsIgnoreCase("Cat")) {
-            if (cats.size() < quantity) {
-                throw new AnimalNotFoundException("店内没有足够的猫，无法招待客户。");
+            if (cats.isEmpty() || index < 0 || index >= cats.size()) {
+                throw new AnimalNotFoundException("店内没有足够的猫或指定的猫不存在，无法招待客户。");
             }
-            for (int i = 0; i < quantity; i++) {
-                purchasedAnimals.add(cats.remove(0));
-            }
+            animal = cats.remove(index);
         } else {
             throw new AnimalNotFoundException("店内没有指定类型的动物，无法招待客户。");
         }
         customers.add(new Customer(customer.getEnterTimes() + 1, customer.getName(), LocalDate.now()));
-        double totalCost = purchasedAnimals.stream().mapToDouble(Animal::getPrice).sum();
-        balance += totalCost;
+        balance += animal.getPrice();
         customer.setEnterTimes(customer.getEnterTimes() + 1);
 
-        System.out.println("客户 " + customer + " 购买了动物: " + purchasedAnimals);
+        System.out.println("客户 " + customer + " 购买了动物: " + animal);
     }
 
     @Override
@@ -70,3 +65,5 @@ class MyAnimalShop implements AnimalShop {
         isOpen = false;
     }
 }
+
+

@@ -14,7 +14,7 @@ class Test {
         try {
             myShop.buyAnimal(cat1, 2);
             myShop.buyAnimal(dog1, 1);
-            myShop.buyAnimal(cat2, 1);
+            myShop.buyAnimal(cat2, 3);
         } catch (InsufficientBalanceException e) {
             System.out.println(e.getMessage());
         }
@@ -25,9 +25,9 @@ class Test {
         Customer customer3 = new Customer(0, "Charlie", LocalDate.now());
 
         try {
-            myShop.treatCustomer(customer1, "ChineseDog", 1);
-            myShop.treatCustomer(customer2, "Cat", 2);
-            myShop.treatCustomer(customer3, "ChineseDog", 1);
+            myShop.treatCustomer(customer1, "ChineseDog", 0);
+            myShop.treatCustomer(customer2, "Cat", 1);
+            myShop.treatCustomer(customer3, "Cat", 0);
         } catch (AnimalNotFoundException e) {
             System.out.println(e.getMessage());
         }
@@ -36,3 +36,4 @@ class Test {
         myShop.shopClose();
     }
 }
+

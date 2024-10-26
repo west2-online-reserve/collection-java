@@ -3,5 +3,6 @@ public interface AnimalShop {
 
     void buyAnimal(Animal animal, int quantity) throws InsufficientBalanceException;
 
-    void treatCustomer(Customer customer, String animalType, int quantity) throws AnimalNotFoundException;
+    void treatCustomer(Customer customer, String animalType, int index) throws AnimalNotFoundException;
 }
+
