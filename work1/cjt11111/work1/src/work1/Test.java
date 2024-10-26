@@ -13,8 +13,8 @@ public class Test {
         shop.t= LocalTime.now();
         LocalTime tc=LocalTime.now();
         Customer c1=new Customer("customerNo1",1,tc);
-        shop.list.add(dog);
-        shop.list.add(cat);
+        shop.animalList.add(dog);
+        shop.animalList.add(cat);
         shop.customerArrayList.add(c1);
         shop.setBalance(10000.0);
 
@@ -30,7 +30,7 @@ public class Test {
 
                   //购买宠物
                   System.out.println("购买仓鼠：");
-                  shop.BuyAnimal(hamster);
+                  shop.buyAnimal(hamster);
                   System.out.println("招待顾客：");
                   //招待顾客
                   System.out.println("请输入您的姓名：");

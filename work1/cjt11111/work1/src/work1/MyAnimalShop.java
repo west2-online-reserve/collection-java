@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class MyAnimalShop implements AnimalShop{
         private double balance;//店的余额
-        public ArrayList<Animal> list =new ArrayList<>();//存放动物的表
+        public ArrayList<Animal> animalList =new ArrayList<>();//存放动物的表
         public ArrayList<Customer> customerArrayList=new ArrayList<>();//顾客列表留作纪念的表
         private boolean isOpen;//判断是否营业
         public static final int OPEN_TIME = 10;
@@ -22,15 +22,15 @@ public class MyAnimalShop implements AnimalShop{
                 this.balance = balance;
         }
 
-        public ArrayList<Animal> getList() {
-                return list;
-        }
+    public ArrayList<Animal> getAnimalList() {
+        return animalList;
+    }
 
-        public void setList(ArrayList<Animal> list) {
-                this.list = list;
-        }
+    public void setAnimalList(ArrayList<Animal> animalList) {
+        this.animalList = animalList;
+    }
 
-        public ArrayList<Customer> getCustomerArrayList() {
+    public ArrayList<Customer> getCustomerArrayList() {
                 return customerArrayList;
         }
 
@@ -46,23 +46,24 @@ public class MyAnimalShop implements AnimalShop{
                 isOpen = open;
         }
 
-        @Override
-        public String toString() {
-                return "MyAnimalShop{" +
-                        "balance=" + balance +
-                        ", list=" + list +
-                        ", customerArrayList=" + customerArrayList +
-                        ", isOpen=" + isOpen +
-                        ", t=" + t +
-                        '}';
-        }
+    @Override
+    public String toString() {
+        return "MyAnimalShop{" +
+                "balance=" + balance +
+                ", animallist=" + animalList +
+                ", customerArrayList=" + customerArrayList +
+                ", isOpen=" + isOpen +
+                ", scanner=" + scanner +
+                ", t=" + t +
+                '}';
+    }
 
-        @Override
-        public void BuyAnimal(Animal animal) {
+    @Override
+        public void buyAnimal(Animal animal) {
                 try {
                         if(balance>=animal.getPrice()){
                                 balance-=animal.getPrice();
-                                list.add(animal);
+                                animalList.add(animal);
                                 System.out.println("购买"+animal.getName()+"成功");
                                 System.out.println("余额为："+balance);
                         }else{
@@ -93,20 +94,20 @@ public class MyAnimalShop implements AnimalShop{
                         customer.setTime(LocalTime.now());//最新到店时间:
 
                         System.out.println("店内的宠物如下：");
-                        for (int i = 0; i < list.size(); i++) {
-                                System.out.println(list.get(i));
+                        for (int i = 0; i < animalList.size(); i++) {
+                                System.out.println(animalList.get(i));
                         }
                         System.out.println("请输入宠物种类：");
                         String a=scanner.next();
                         int i;
                         int flag=0;
-                        for (i = 0; i < list.size(); i++) {
+                        for (i = 0; i < animalList.size(); i++) {
                               flag=0;
-                                if(a.equals(list.get(i).getName())){
+                                if(a.equals(animalList.get(i).getName())){
                                         System.out.println("购买成功~~~");
-                                        balance+=list.get(i).getPrice();
-                                        System.out.println("卖出"+list.get(i).toString());
-                                        list.remove(i);
+                                        balance+=animalList.get(i).getPrice();
+                                        System.out.println("卖出"+animalList.get(i).toString());
+                                        animalList.remove(i);
                                         flag=1;
                                         break;
                                 }
