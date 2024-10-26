@@ -1,10 +1,10 @@
-package 恋与宠物店;
+package LoveAndPetShop;
 
 /**
  * 中华田园犬类的创建
  *
  * @author xumostar
- * @date 2024/10/22
+ * @date 2024/10/26
  */
 
 class Dog extends Animal{

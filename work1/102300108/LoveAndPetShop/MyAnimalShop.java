@@ -1,11 +1,11 @@
-package 恋与宠物店;
+package LoveAndPetShop;
 import java.util.ArrayList;
 import java.time.LocalDate;
 /** 
  * 我的宠物店类创建
  *
  * @author xumostar
- * @date 2024/10/22
+ * @date 2024/10/26
  */
 
 class MyAnimalShop implements AnimalShop{
@@ -84,16 +84,16 @@ class MyAnimalShop implements AnimalShop{
         //如果找得到顾客（即来过）
         if(customerList.contains(customer)){
             //访问次数加1
-            customer.changeVisitFrequency(customer.getFrequency()+1);
+            customer.setVisitFrequency(customer.getFrequency()+1);
             //最近来访时间改为今天
-            customer.changeLastVisitDate();
+            customer.setLastVisitDate();
             return;
         }
 
         //如果顾客没来过
         else{
             //访问次数加1
-            customer.changeVisitFrequency(customer.getFrequency()+1);
+            customer.setVisitFrequency(customer.getFrequency()+1);
             //把顾客加入列表
             customerList.add(customer);
             return;
@@ -132,4 +132,5 @@ class MyAnimalShop implements AnimalShop{
     private double balance; //余额
     private ArrayList<Animal> animalList;
     private ArrayList<Customer> customerList;
+    
 }

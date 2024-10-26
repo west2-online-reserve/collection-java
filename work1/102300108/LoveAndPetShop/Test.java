@@ -1,8 +1,12 @@
-package 恋与宠物店;
-
+package LoveAndPetShop;
 import java.time.LocalDate;
 
-//test类，用于检测功能是否正常
+/**
+ * test类，用于检测功能是否正常
+ *
+ * @author xumostar
+ * @date 2024/10/26
+ */
 public class Test {
 
     public static void main(String[] args) {

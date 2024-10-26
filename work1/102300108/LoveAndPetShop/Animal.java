@@ -1,9 +1,10 @@
-package 恋与宠物店;
+package LoveAndPetShop;
+
 /**
  * 动物类的创建
  *
  * @author xumostar
- * @date 2024/10/22
+ * @date 2024/10/26
  */
 
 abstract class Animal{

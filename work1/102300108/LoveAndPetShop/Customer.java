@@ -1,11 +1,11 @@
-package 恋与宠物店;
+package LoveAndPetShop;
 import java.time.LocalDate;
 
 /**
  * 顾客类的创建
  *
  * @author xumostar
- * @date 2024/10/22
+ * @date 2024/10/26
  */
 
 class Customer {
@@ -36,12 +36,12 @@ class Customer {
     }
 
     //修改顾客访问次数
-    public void changeVisitFrequency(int frequency){
+    public void setVisitFrequency(int frequency){
         this.visitFrequency=frequency;
     }
 
     //修改最近访问时间
-    public void changeLastVisitDate(){
+    public void setLastVisitDate(){
         lastVisitDate=LocalDate.now();
     }
 
