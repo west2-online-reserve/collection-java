@@ -1,42 +1,33 @@
-package com.WestTwo.work2;
-
+package Work2;
 import java.time.LocalDate;
-
 public class Customer {
     private String name;
-    private int times;
-    private LocalDate date;
+    private int arrivetimes;
+    private LocalDate latestarrive;
+    public Customer(){}
 
-    @Override
-    public String toString() {
-        return "Customer{" +
-                "name='" + name + '\'' +
-                ", times=" + times +
-                ", date=" + date +
-                '}';
+
+    public Customer(String name){
+        this.name=name;
+        this.arrivetimes=arrivetimes;
+        this.latestarrive=latestarrive;
+
     }
-
-    public String getName() {
+    public String getName(){
         return name;
     }
+    public int getArrivetimes(){
+        return arrivetimes;
+    }
+    public LocalDate getLatestarrive(){
+        return latestarrive;
+    }
+    @Override
+    public String toString(){
+        return "顾客名字"+name+"到店次数"+arrivetimes+"最新到店时间"+latestarrive;
 
-    public void setName(String name) {
-        this.name = name;
     }
 
-    public int getTimes() {
-        return times;
-    }
 
-    public void setTimes(int times) {
-        this.times = times;
-    }
 
-    public LocalDate getDate() {
-        return date;
-    }
-
-    public void setDate(LocalDate date) {
-        this.date = date;
-    }
 }

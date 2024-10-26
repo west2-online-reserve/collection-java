@@ -1,124 +1,79 @@
-package com.WestTwo.work2;
-
-import java.time.LocalDate;
+package Work2;
 import java.util.ArrayList;
-import java.util.Objects;
 
-public class MyAnimalShop implements AnimalShop {
-    private double money1; // 记录当天初始余额
-    private double money; // 记录当天最终余额
-    private ArrayList AnimalList = new ArrayList<>();
-    private ArrayList CustomerList = new ArrayList<>();
-    private ArrayList DateList = new ArrayList<>();
+public  class MyAnimalShop implements AnimalShop {
+    private double remaining;
+    private boolean dobusiness;
+    private double profit = 0;
+    ArrayList<Animal> animal = new ArrayList<Animal>();
+    ArrayList<Customer> customer = new ArrayList<Customer>();
+    private ArrayList<Animal> animalsArrayList;
+    private ArrayList<Customer> costomersArrayList;
+    private boolean close;
 
-    private boolean work = true;
+    public ArrayList<Animal> getAnimal() {
+        return animal;
+    }
 
+    public ArrayList<Customer> getCustomer() {
+        return customer;
+    }
     @Override
-    public void Buy(Animal animal) {
-        if (money < animal.getPrice()) {
-            throw new InsufficientBalanceException("Money is not enough!");
+    public void buy(Animal animal) throws InsufficientBalanceException {
+        if (remaining >= animal.price) {
+            remaining -= animal.price;
+            profit -= animal.price;
+            animalsArrayList.add(animal);
         } else {
-            this.AnimalList.add(animal);
-            this.money -= animal.getPrice();
+            throw new InsufficientBalanceException("余额不足");
+
         }
+
+
     }
 
     @Override
-    public void Serve(Customer customer, Animal animal) {
-        if (this.work == false) {
-            System.out.println("We are now closed!");
-        }else {
-            int i1 = 0;
-            while (i1 < AnimalList.size()) {
-                if (Objects.equals(animal, AnimalList.get(i1))) {
-                    break;
-                }
-                i1++;
+    public void recepte(Customer customer) throws AnimalNotFoundException {
+        if (!close) {
+
+            if (animalsArrayList.isEmpty()) {
+                throw new AnimalNotFoundException("店内没有动物可供出售");
             }
-            if (AnimalList.size() == 0) {
-                throw new AnimalNotFoundException("All the animals have been sold out!");
-            } else if (i1 == AnimalList.size()) {
-                throw new AnimalNotFoundException("We cannot find this animal in our shop!");
-            } else {
-                if (CustomerList.size() == 0) {
-                    this.CustomerList.add(customer);
-                    this.DateList.add(customer.getDate());
-                }
-                for (int i = 0; i < CustomerList.size(); i++) {
-                    if (Objects.equals(customer, CustomerList.get(i))) {
-                        customer.setTimes(customer.getTimes()+1);
-                        this.DateList.set(i, customer.getDate());
-                    } else {
-                        this.CustomerList.add(customer);
-                        this.DateList.add(customer.getDate());
-                    }
-                }
-                AnimalList.remove(i1);
-                this.money += animal.getPrice();
+            else {animalsArrayList.forEach(System.out::println);
+                Animal animalToSell = animalsArrayList.get(0);
+                remaining+=animalToSell.price;
+                profit+=animalToSell.price;
+                costomersArrayList.add(customer);
                 System.out.println(animal);
+                animalsArrayList.remove(animal);
             }
+//这里有错误，应该是先让顾客挑选，再判断有没有相应的宠物
         }
-    }
+        else {
+            System.out.println("已歇业");
 
+        }
+
+
+    }
     @Override
-    public void Off(LocalDate date) {
-        ArrayList arrayList = new ArrayList<>();
-        for (int i = 0; i < DateList.size(); i++) {
-            if (Objects.equals(date, DateList.get(i))) {
-                arrayList.add(CustomerList.get(i));
-            }
+    public  void close() {
+        if (close) {
+            System.out.println("今日顾客列表:");
+            costomersArrayList.forEach(System.out::println);
+            System.out.println("今日利润"+profit);
+
+        } else {
+            System.out.println("继续营业");
         }
-        System.out.println(arrayList);
-        System.out.println(money - money1);
-        this.money1 = this.money;
-        this.work = false;
-    }
-    
-    public double getMoney1() {
-        return money1;
+
     }
 
-    public void setMoney1(double money1) {
-        this.money1 = money1;
-    }
 
-    public double getMoney() {
-        return money;
-    }
 
-    public void setMoney(double money) {
-        this.money = money;
-    }
 
-    public ArrayList getAnimalList() {
-        return AnimalList;
-    }
-
-    public void setAnimalList(ArrayList animalList) {
-        AnimalList = animalList;
-    }
-
-    public ArrayList getCustomerList() {
-        return CustomerList;
-    }
-
-    public void setCustomerList(ArrayList customerList) {
-        CustomerList = customerList;
-    }
-
-    public ArrayList getDateList() {
-        return DateList;
-    }
-
-    public void setDateList(ArrayList dateList) {
-        DateList = dateList;
-    }
-
-    public boolean isWork() {
-        return work;
-    }
-
-    public void setWork(boolean work) {
-        this.work = work;
-    }
 }
+
+
+
+

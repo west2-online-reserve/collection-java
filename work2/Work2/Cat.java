@@ -1,34 +1,16 @@
-package com.WestTwo.work2;
+package Work2;
 
-public class Cat extends Animal {
-    private double price = 200;
+public class Cat extends Animal{
+    public Cat(String name, int age, String gender, double price){
+        super(name, age, gender, 200);
 
-    public Cat() {
     }
 
-    public Cat(String name, int age, boolean sex) {
-        this.name = name;
-        this.age = age;
-        this.sex = sex;
+    public Cat(String lily, String number, String female, String number1) {
     }
 
     @Override
     public String toString() {
-        return "Cat{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
-                ", age=" + age +
-                ", sex=" + sex +
-                '}';
-    }
-
-    @Override
-    public double getPrice() {
-        return price;
-    }
-
-    @Override
-    public void setPrice(double price) {
-        this.price = price;
+        return "名字"+name+",年龄"+age+",性别"+gender+",价格"+price;
     }
 }
