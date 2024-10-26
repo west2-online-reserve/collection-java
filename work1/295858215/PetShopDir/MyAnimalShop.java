@@ -19,48 +19,53 @@ class MyAnimalShop implements AnimalShop {
     }
 
     @Override
-    public void buyAnimal(Animal animal) throws InsufficientBalanceException {
-        if (balance < animal.getPrice()) {
+    public void buyAnimal(Animal animal, int quantity) throws InsufficientBalanceException {
+        double totalCost = animal.getPrice() * quantity;
+        if (balance < totalCost) {
             throw new InsufficientBalanceException("余额不足，无法购买新动物。");
         }
-        if (animal instanceof ChineseDog) {
-            dogs.add((ChineseDog) animal);
-        } else if (animal instanceof Cat) {
-            cats.add((Cat) animal);
+        for (int i = 0; i < quantity; i++) {
+            if (animal instanceof ChineseDog) {
+                dogs.add((ChineseDog) animal);
+            } else if (animal instanceof Cat) {
+                cats.add((Cat) animal);
+            }
         }
-        balance -= animal.getPrice();
-        System.out.println("购买了新动物: " + animal);
-
-
+        balance -= totalCost;
+        System.out.println("购买了新动物: " + animal + " (数量: " + quantity + ")");
     }
 
     @Override
-    public void treatCustomer(Customer customer, String animalType) throws AnimalNotFoundException {
-        Animal animal = null;
+    public void treatCustomer(Customer customer, String animalType, int quantity) throws AnimalNotFoundException {
+        List<Animal> purchasedAnimals = new ArrayList<>();
         if (animalType.equalsIgnoreCase("ChineseDog")) {
-            if (dogs.isEmpty()) {
+            if (dogs.size() < quantity) {
                 throw new AnimalNotFoundException("店内没有足够的狗，无法招待客户。");
             }
-            animal = dogs.remove(0);
+            for (int i = 0; i < quantity; i++) {
+                purchasedAnimals.add(dogs.remove(0));
+            }
         } else if (animalType.equalsIgnoreCase("Cat")) {
-            if (cats.isEmpty()) {
+            if (cats.size() < quantity) {
                 throw new AnimalNotFoundException("店内没有足够的猫，无法招待客户。");
             }
-            animal = cats.remove(0);
+            for (int i = 0; i < quantity; i++) {
+                purchasedAnimals.add(cats.remove(0));
+            }
         } else {
             throw new AnimalNotFoundException("店内没有指定类型的动物，无法招待客户。");
         }
         customers.add(new Customer(customer.getEnterTimes() + 1, customer.getName(), LocalDate.now()));
-        balance += animal.getPrice();
+        double totalCost = purchasedAnimals.stream().mapToDouble(Animal::getPrice).sum();
+        balance += totalCost;
         customer.setEnterTimes(customer.getEnterTimes() + 1);
 
-        System.out.println("客户 " + customer + " 购买了动物: " + animal);
+        System.out.println("客户 " + customer + " 购买了动物: " + purchasedAnimals);
     }
 
     @Override
     public void shopClose() {
         System.out.println("今天的顾客列表: " + customers);
-        //公益项目不转差价
         System.out.println("今日利润: " + balance);
         isOpen = false;
     }
