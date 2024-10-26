@@ -1,10 +1,10 @@
 import java.time.LocalDate;
 
 public class Customer {
-    protected String name; //姓名
-    protected int times;  //到店次数
-    protected LocalDate recentDate = LocalDate.now(); //最近到店日期
-    protected Animal PurchasedAnimal;
+    private String name; //姓名
+    private int times;  //到店次数
+    private LocalDate recentDate = LocalDate.now(); //最近到店日期
+    private Animal PurchasedAnimal;
 
     public Customer(String name, int times, LocalDate recentDate) {
         this.name = name;
