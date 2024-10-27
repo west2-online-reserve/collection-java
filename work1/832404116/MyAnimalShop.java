@@ -72,7 +72,7 @@ public class MyAnimalShop {
         }
     }
 
-    public void sell(Animals animal) {
+    public void price(Animals animal) {
         if (!animalArrayList.contains(animal)) {
             animalArrayList.remove(animal);
             this.profit = this.profit + animal.getPrice();

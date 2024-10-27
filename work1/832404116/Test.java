@@ -1,11 +1,5 @@
 package com.animals;
 
-import java.time.LocalDate;
-import java.time.LocalTime;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-
 /*9. 一个Test类, 用于测试你写的类功能是否正常
 
 创建一个宠物店实例，给定余额，初始化动物列表，一个空的顾客列表
@@ -57,17 +51,17 @@ public class Test {
 
 
         try {
-            shop.sell(dog1);//AnimalNotFountException: 店里没有该动物
+            shop.price(dog1);//AnimalNotFountException: 店里没有该动物
         } catch (AnimalNotFountException e) {
             e.printStackTrace();
         }
         try {
-            shop.sell(cat1);
+            shop.price(cat1);
         } catch (AnimalNotFountException e) {
             e.printStackTrace();
         }
         try {
-            shop.sell(cat2);
+            shop.price(cat2);
         } catch (AnimalNotFountException e) {
             e.printStackTrace();
         }

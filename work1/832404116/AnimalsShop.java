@@ -1,8 +1,9 @@
 package com.animals;
 
+
 public interface AnimalsShop {
     public void buyAnimals(Animals animals);
-    public <customer> void careCustomer(customer customer);
+    public void careCustomer(Customer customer);
     public void close(boolean a);
 
 }

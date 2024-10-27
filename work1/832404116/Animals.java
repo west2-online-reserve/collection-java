@@ -12,7 +12,7 @@ package com.animals;
 一个抽象的toString() 方法
 ........*/
 public abstract class Animals {
-    public double cost;//进价
+    private double cost;//进价
     private String name;//宠物种类
     private int age;//年龄
     private String gender;//性别
