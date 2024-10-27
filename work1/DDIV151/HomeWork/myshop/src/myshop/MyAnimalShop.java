@@ -5,22 +5,22 @@ import myshop.animals.ChineseRuralDog;
 import myshop.customer.Custom;
 import myshop.ecxeption.AnimalNotFountException;
 import myshop.ecxeption.InsufficientBalanceException;
-
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class MyAnimalShop implements AnimalShop {
-    Scanner scanner = new Scanner(System.in);
+    private Scanner customSc = new Scanner(System.in);
     //店的余额
-    double money;
+    private double money;
     //店的本钱
-    double firstMoney;
-    //是否营业
-    boolean ifOpen = false;
-    ArrayList animals = new ArrayList();
-    ArrayList customs = new ArrayList();
+    private double firstMoney;
+    //是否营业 (一般默认否,需要.open()开店)
+    private boolean ifOpen;
+    //两个清单分别保存动物和顾客
+    private ArrayList animals = new ArrayList();
+    private ArrayList customs = new ArrayList();
 
 
     public MyAnimalShop(ArrayList customs, ArrayList animals, double money) {
@@ -28,9 +28,11 @@ public class MyAnimalShop implements AnimalShop {
         this.animals = animals;
         this.money = money;
         firstMoney = money;
+        ifOpen = false;
     }
 
     public MyAnimalShop() {
+        ifOpen = false;
     }
 
     public void open() {
@@ -71,9 +73,9 @@ public class MyAnimalShop implements AnimalShop {
     public void buyAnimal(MyAnimalShop myAnimalShop) {
         System.out.println("买入一只动物\n这是一只什么动物?");
         System.out.println("1:这是猫\n2:这是狗");
-        if (scanner.hasNext()) {
-            int choice = scanner.nextInt();
-            scanner.nextLine();
+        if (customSc.hasNext()) {
+            int choice = customSc.nextInt();
+            customSc.nextLine();
             switch (choice) {
                 case 1:
                     if (money < 200) {
@@ -81,7 +83,7 @@ public class MyAnimalShop implements AnimalShop {
                     } else {
                         Cat cat = new Cat();
                         cat = cat.catBuying();
-                        animals.add(cat);//在动物列表添加
+                        this.animals.add(cat);//在动物列表添加
                         money -= 200;
                         System.out.println("添加成功\n" + cat + "\n当前余额: " + money);
                     }
@@ -91,7 +93,7 @@ public class MyAnimalShop implements AnimalShop {
                         throw new InsufficientBalanceException("余额不足无法购入狗狗");
                     } else {
                         ChineseRuralDog dog = new ChineseRuralDog();
-                        animals.add(dog.dogBuying());
+                        this.animals.add(dog.dogBuying());
                         money -= 100;
                         System.out.println("添加成功\n" + dog + "\n当前余额: " + money);
                     }
@@ -107,8 +109,8 @@ public class MyAnimalShop implements AnimalShop {
             if (ifOpen) {
                 System.out.println("请输入客户姓名: ");
                 String customerName;
-                if (scanner.hasNext()) {
-                    customerName = scanner.nextLine();
+                if (customSc.hasNext()) {
+                    customerName = customSc.nextLine();
                     Custom custom = new Custom(customerName, 1, LocalDate.now());
                     //判断是不是老顾客,是就读取并自动更新数据,否则新增顾客
                     if (custom.checkCustom(customs, customerName)) {
@@ -133,10 +135,10 @@ public class MyAnimalShop implements AnimalShop {
                         //以表格形式展现一下动物,并接收客户需求
                         printAnimals(animals);
                         System.out.println("请输入购买的动物编号:");
-                        int animalIndex = scanner.nextInt() - 1;
-                        scanner.nextLine();
-                        //客户乱输入,来找茬了
-                        if (animalIndex < 0 || animalIndex > animals.size()) {
+                        int animalIndex = customSc.nextInt() - 1;
+                        customSc.nextLine();
+                        //客户乱输入
+                        if (animalIndex < 0 || animalIndex > this.animals.size()-1) {
                             throw new AnimalNotFountException("顾客买的动物没在卖");
                         } else {
                             //获取卖的动物的品种,获取对应对象
@@ -157,8 +159,8 @@ public class MyAnimalShop implements AnimalShop {
             } else {
                 System.out.println("还没开店呢,请先开店");
                 System.out.println("要开店吗?\n1: 开店\n2: 保持关店");
-                int choice = scanner.nextInt();
-                scanner.nextLine();
+                int choice = customSc.nextInt();
+                customSc.nextLine();
                 switch (choice) {
                     case 1:
                         ifOpen = true;
@@ -192,7 +194,8 @@ public class MyAnimalShop implements AnimalShop {
         LocalDateTime now = LocalDateTime.now();
         //LocalDate判断
         if (now.getHour() < 9 || now.getHour() > 18) {
-            System.out.println("关店");
+            System.out.println("==============");
+            System.out.println("关店\n");
             System.out.println("你往店里投入了" + firstMoney + "\n");
             System.out.println("有这些顾客来过:\n");
             printCustoms(customs);
@@ -211,6 +214,5 @@ public class MyAnimalShop implements AnimalShop {
         } else {
             System.out.println("还早呢,18点下班后再关店吧!");
         }
-
     }
 }

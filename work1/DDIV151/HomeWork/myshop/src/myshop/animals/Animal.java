@@ -7,7 +7,7 @@ public abstract class Animal {
     protected int age;//年龄
     protected String sex;//性别
     protected double price;//价格
-    Scanner scanner = new Scanner(System.in);
+    protected Scanner animalSc = new Scanner(System.in);
 
     public Animal() {
     }

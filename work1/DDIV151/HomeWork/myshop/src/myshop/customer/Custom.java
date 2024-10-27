@@ -4,9 +4,9 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class Custom {
-    String name;
-    int times;
-    LocalDate date;
+    private String name;
+    private int times;
+    private LocalDate date;
 
     public Custom() {
         times = 1;
