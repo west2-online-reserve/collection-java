@@ -1,7 +1,5 @@
 package myshop.animals;
 
-import java.util.Scanner;
-
 public class ChineseRuralDog extends Animal {
     //是否注射狂犬病疫苗
     private boolean isVaccineInjected;
