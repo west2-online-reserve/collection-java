@@ -5,6 +5,7 @@ import myshop.animals.ChineseRuralDog;
 import myshop.customer.Custom;
 import myshop.ecxeption.AnimalNotFountException;
 import myshop.ecxeption.InsufficientBalanceException;
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -138,7 +139,7 @@ public class MyAnimalShop implements AnimalShop {
                         int animalIndex = customSc.nextInt() - 1;
                         customSc.nextLine();
                         //客户乱输入
-                        if (animalIndex < 0 || animalIndex > this.animals.size()-1) {
+                        if (animalIndex < 0 || animalIndex > this.animals.size() - 1) {
                             throw new AnimalNotFountException("顾客买的动物没在卖");
                         } else {
                             //获取卖的动物的品种,获取对应对象
