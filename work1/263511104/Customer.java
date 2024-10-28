@@ -4,12 +4,12 @@ import java.time.LocalDate;
 
 public class Customer {
     private String name;
-    private int NumbersOfVisit;
+    private int visitNumeber;
     private LocalDate lastVisitDate;
 
     public Customer(String name) {
         this.name = name;
-        this.NumbersOfVisit = 1;
+        this.visitNumeber = 1;
         this.lastVisitDate = LocalDate.now();
     }
 
@@ -17,9 +17,13 @@ public class Customer {
     public String toString(){
         return "work1.Customer{" +
                 "Name='" + name + '\'' +
-                ", Numbers of visit=" + NumbersOfVisit +
+                ", Numbers of visit=" + visitNumeber +
                 ", Time to shop='" + lastVisitDate + '\'' +
                 '}';
     }
 
+
+    public String getName() {
+        return name;
+    }
 }
