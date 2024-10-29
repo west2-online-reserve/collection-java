@@ -44,5 +44,5 @@ public abstract class Animal {
     public void setPrice(double price) {
         this.price = price;
     }
-    public abstract String toString();
+
 }

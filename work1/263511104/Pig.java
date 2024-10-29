@@ -4,14 +4,14 @@ import work1.Animal;
 
 public class Pig extends Animal {
 
-    public Pig(String name, int age, String gender, double price){
-        super(name,age,gender,price);
-        setPrice(200);
+    public Pig(String name, int age, String gender){
+        super(name,age,gender,200.0);
+
     }
 
     @Override
     public String toString() {
-        return "work1.Pig{" +
+        return "Pig{" +
                 "name='" + getName() + '\'' +
                 ", age=" + getAge() +
                 ", gender='" + getGender() + '\'' +
