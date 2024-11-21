@@ -76,7 +76,7 @@ Gender:Female
 VELAZQUEZ Rocio 
  
 
-CountryName:Great
+CountryName:Great Britain
 
 Gender:Female
 BENT Desharne
@@ -181,7 +181,7 @@ Gender:Male
 TSIRIKOS Athanasios 
  
 
-CountryName:Republic
+CountryName:Republic of Korea
 
 Gender:Female
 BAEK Sunjin
