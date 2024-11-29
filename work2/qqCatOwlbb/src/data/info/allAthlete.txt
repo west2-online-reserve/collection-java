@@ -1,0 +1,304 @@
+CountryName:Austria
+
+Gender:Male
+HART Alexander
+
+Gender:Male
+LOTFI Dariush
+
+Gender:Male
+SCHALLER Nikolaj 
+ 
+
+CountryName:Canada
+
+Gender:Male
+ABRAMOWICZ Tazman
+
+Gender:Female
+BELANGER Eloise
+
+Gender:Female
+DICK Elaena
+
+Gender:Female
+ERLAM Margo
+
+Gender:Female
+FUNG Katelyn
+
+Gender:Female
+JASMIN Amelie
+
+Gender:Male
+TESSIER Benjamin
+
+Gender:Female
+WILSON Aimee 
+ 
+
+CountryName:Czechia
+
+Gender:Female
+JELINKOVA Tereza
+
+Gender:Female
+SANTIAGO Dominique 
+ 
+
+CountryName:Spain
+
+Gender:Male
+ABADIA Adrian
+
+Gender:Female
+ANTOLINO Valeria
+
+Gender:Male
+CAMACHO Carlos
+
+Gender:Female
+CARVAJAL Ana
+
+Gender:Male
+GARCIA Nicolas
+
+Gender:Male
+LINAN Max
+
+Gender:Female
+PAPWORTH Maria
+
+Gender:Male
+RODRIGUEZ Jorge
+
+Gender:Female
+VELAZQUEZ Rocio 
+ 
+
+CountryName:Great Britain
+
+Gender:Female
+BENT Desharne
+
+Gender:Female
+BOND Maisie
+
+Gender:Male
+DIXON Matthew
+
+Gender:Male
+HEATLY James
+
+Gender:Male
+HOULDEN Jordan
+
+Gender:Male
+LEE Robbie
+
+Gender:Male
+MCCABE Euan
+
+Gender:Female
+ROLLINSON Amy 
+ 
+
+CountryName:Georgia
+
+Gender:Male
+ONIKASHVILI Tornike
+
+Gender:Male
+SAKANDELIDZE Irakli
+
+Gender:Female
+SHANIDZE Mariam
+
+Gender:Female
+SHARIA Tekle
+
+Gender:Male
+TSULUKIDZE Giorgi 
+ 
+
+CountryName:Germany
+
+Gender:Male
+AVILA Luis
+
+Gender:Male
+BARTHEL Timo
+
+Gender:Female
+COORDES Carolina
+
+Gender:Male
+EIKERMANN Jaden
+
+Gender:Female
+HENTSCHEL Lena
+
+Gender:Male
+LUBE Alexander
+
+Gender:Female
+MULLER Jette
+
+Gender:Female
+OETTINGHAUS Saskia
+
+Gender:Female
+PFEIF Pauline
+
+Gender:Male
+PRENZYNA Espen
+
+Gender:Male
+ROSLER Ole
+
+Gender:Female
+ROTHER Jana
+
+Gender:Male
+RUDIGER Lars
+
+Gender:Male
+WALDSTEINER Tom
+
+Gender:Female
+WASSEN Elena
+
+Gender:Female
+WASSEN Christina
+
+Gender:Male
+WESEMANN Moritz 
+ 
+
+CountryName:Greece
+
+Gender:Male
+TSIRIKOS Athanasios 
+ 
+
+CountryName:Republic of Korea
+
+Gender:Female
+BAEK Sunjin
+
+Gender:Male
+CHOI Gangin
+
+Gender:Female
+HAN Jiwoo
+
+Gender:Male
+KANG Jiho
+
+Gender:Male
+KIM Gyeongbin
+
+Gender:Female
+LEE Yejoo
+
+Gender:Male
+LEE Wonseop
+
+Gender:Female
+OH Sooyeon 
+ 
+
+CountryName:Netherlands
+
+Gender:Female
+JANSEN Inge
+
+Gender:Female
+PRAASTERINK Else
+
+Gender:Female
+VAN Celine 
+ 
+
+CountryName:Poland
+
+Gender:Female
+BLAZOWSKA Aleksandra
+
+Gender:Male
+JACHIM Filip
+
+Gender:Male
+LESIAK Kacper
+
+Gender:Male
+LUKASZEWICZ Robert
+
+Gender:Male
+RZESZUTEK Andrzej
+
+Gender:Female
+SKRZEK Kaja 
+ 
+
+CountryName:Romania
+
+Gender:Female
+MUSCALU Nicoleta 
+ 
+
+CountryName:Switzerland
+
+Gender:Female
+COQUOZ Madeline
+
+Gender:Male
+DUTOIT Guillaume
+
+Gender:Male
+SUCKOW Jonathan 
+ 
+
+CountryName:Sweden
+
+Gender:Female
+LUNDIN Amanda 
+ 
+
+CountryName:Ukraine
+
+Gender:Male
+AVANESOV Danylo
+
+Gender:Male
+AZAROV Kyrylo
+
+Gender:Male
+CHYZHOVSKYI Bohdan
+
+Gender:Male
+HRYTSENKO Mark
+
+Gender:Female
+KESAR Viktoriya
+
+Gender:Male
+KONOVALOV Danylo
+
+Gender:Male
+NAUMENKO Yevhen
+
+Gender:Male
+OLIFERCHYK Stanislav
+
+Gender:Female
+PYSMENSKA Anna 
+ 
+
+CountryName:Uzbekistan
+
+Gender:Male
+KACHANOV Vyacheslav
+
+Gender:Male
+MYALIN Igor

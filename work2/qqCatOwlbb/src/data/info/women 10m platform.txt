@@ -1,0 +1,290 @@
+Final:
+TotalPoints:62.35
+TotalPoints:128.15
+TotalPoints:182.15
+TotalPoints:249.35
+TotalPoints:308.80
+Rank:1
+FullName:PRAASTERINK Else
+
+TotalPoints:58.80
+TotalPoints:113.40
+TotalPoints:171.00
+TotalPoints:225.00
+TotalPoints:297.00
+Rank:2
+FullName:FUNG Katelyn
+
+TotalPoints:49.50
+TotalPoints:102.30
+TotalPoints:154.50
+TotalPoints:229.70
+TotalPoints:292.10
+Rank:3
+FullName:ANTOLINO Valeria
+
+TotalPoints:62.40
+TotalPoints:97.60
+TotalPoints:170.10
+TotalPoints:226.10
+TotalPoints:289.10
+Rank:4
+FullName:PFEIF Pauline Alexandra
+TotalPoints:286.30
+TotalPoints:51.20
+TotalPoints:115.70
+TotalPoints:167.90
+TotalPoints:223.90
+TotalPoints:286.30
+Rank:5
+FullName:WASSEN Elena
+
+TotalPoints:60.20
+TotalPoints:119.00
+TotalPoints:168.30
+TotalPoints:217.80
+TotalPoints:275.40
+Rank:6
+FullName:BELANGER Eloise
+
+TotalPoints:55.50
+TotalPoints:105.10
+TotalPoints:161.65
+TotalPoints:214.45
+TotalPoints:267.25
+Rank:7
+FullName:MUSCALU Nicoleta-Angelica
+TotalPoints:265.35
+TotalPoints:72.00
+TotalPoints:119.85
+TotalPoints:160.35
+TotalPoints:205.15
+TotalPoints:265.35
+Rank:8
+FullName:BOND Maisie
+
+TotalPoints:33.60
+TotalPoints:95.10
+TotalPoints:124.10
+TotalPoints:191.30
+TotalPoints:240.70
+Rank:9
+FullName:CARVAJAL Ana
+
+TotalPoints:33.60
+TotalPoints:88.20
+TotalPoints:138.60
+TotalPoints:182.00
+TotalPoints:212.45
+Rank:10
+FullName:LUNDIN Amanda
+
+TotalPoints:42.00
+TotalPoints:70.50
+TotalPoints:90.75
+TotalPoints:132.35
+TotalPoints:177.30
+Rank:11
+FullName:SANTIAGO Dominique
+
+Semifinal:
+TotalPoints:62.40
+TotalPoints:117.90
+TotalPoints:177.35
+TotalPoints:233.35
+TotalPoints:298.95
+Rank:1
+FullName:WASSEN Elena
+
+TotalPoints:54.40
+TotalPoints:113.85
+TotalPoints:163.35
+TotalPoints:230.55
+TotalPoints:297.75
+Rank:2
+FullName:BOND Maisie
+
+TotalPoints:65.25
+TotalPoints:128.25
+TotalPoints:177.75
+TotalPoints:240.15
+TotalPoints:295.25
+Rank:3
+FullName:PRAASTERINK Else
+
+TotalPoints:46.20
+TotalPoints:77.00
+TotalPoints:145.80
+TotalPoints:207.30
+TotalPoints:274.50
+Rank:
+FullName:FUNG Katelyn
+
+TotalPoints:60.00
+TotalPoints:122.40
+TotalPoints:183.30
+TotalPoints:218.50
+TotalPoints:274.50
+Rank:
+FullName:ANTOLINO Valeria
+
+TotalPoints:50.40
+TotalPoints:108.90
+TotalPoints:174.15
+TotalPoints:222.15
+TotalPoints:271.55
+Rank:6
+FullName:CARVAJAL Ana
+
+TotalPoints:58.80
+TotalPoints:117.60
+TotalPoints:148.05
+TotalPoints:206.55
+TotalPoints:267.35
+Rank:7
+FullName:BELANGER Eloise
+
+TotalPoints:64.00
+TotalPoints:88.00
+TotalPoints:140.20
+TotalPoints:197.80
+TotalPoints:260.80
+Rank:8
+FullName:PFEIF Pauline Alexandra
+TotalPoints:244.15
+TotalPoints:50.40
+TotalPoints:98.00
+TotalPoints:147.00
+TotalPoints:187.60
+TotalPoints:244.15
+Rank:9
+FullName:LUNDIN Amanda
+
+TotalPoints:42.00
+TotalPoints:88.40
+TotalPoints:134.80
+TotalPoints:187.60
+TotalPoints:237.20
+Rank:10
+FullName:MUSCALU Nicoleta-Angelica
+TotalPoints:164.10
+TotalPoints:42.00
+TotalPoints:64.50
+TotalPoints:82.05
+TotalPoints:124.95
+TotalPoints:164.10
+Rank:11
+FullName:SANTIAGO Dominique
+
+Premilinary:
+TotalPoints:60.20
+TotalPoints:116.20
+TotalPoints:173.80
+TotalPoints:227.80
+TotalPoints:298.20
+Rank:1
+FullName:FUNG Katelyn
+
+TotalPoints:58.80
+TotalPoints:116.20
+TotalPoints:172.75
+TotalPoints:235.75
+TotalPoints:291.75
+Rank:2
+FullName:BELANGER Eloise
+
+TotalPoints:60.20
+TotalPoints:108.80
+TotalPoints:166.40
+TotalPoints:233.60
+TotalPoints:288.00
+Rank:3
+FullName:DICK Elaena
+
+TotalPoints:58.50
+TotalPoints:109.70
+TotalPoints:160.45
+TotalPoints:224.45
+TotalPoints:282.05
+Rank:4
+FullName:ANTOLINO Valeria
+
+TotalPoints:57.60
+TotalPoints:107.20
+TotalPoints:163.75
+TotalPoints:216.55
+TotalPoints:275.05
+Rank:5
+FullName:PFEIF Pauline Alexandra
+TotalPoints:273.90
+TotalPoints:48.00
+TotalPoints:106.50
+TotalPoints:158.70
+TotalPoints:211.50
+TotalPoints:273.90
+Rank:6
+FullName:WASSEN Elena
+
+TotalPoints:62.40
+TotalPoints:120.90
+TotalPoints:161.50
+TotalPoints:206.30
+TotalPoints:268.70
+Rank:7
+FullName:WASSEN Christina
+
+TotalPoints:50.40
+TotalPoints:119.40
+TotalPoints:167.25
+TotalPoints:210.45
+TotalPoints:263.75
+Rank:8
+FullName:CARVAJAL Ana
+
+TotalPoints:40.60
+TotalPoints:89.60
+TotalPoints:143.60
+TotalPoints:210.80
+TotalPoints:260.10
+Rank:9
+FullName:PRAASTERINK Else
+
+TotalPoints:46.40
+TotalPoints:96.00
+TotalPoints:150.00
+TotalPoints:206.55
+TotalPoints:248.15
+Rank:10
+FullName:COORDES Carolina
+
+TotalPoints:52.80
+TotalPoints:100.65
+TotalPoints:120.15
+TotalPoints:184.15
+TotalPoints:242.95
+Rank:11
+FullName:BOND Maisie
+
+TotalPoints:53.20
+TotalPoints:99.40
+TotalPoints:151.20
+TotalPoints:191.80
+TotalPoints:238.20
+Rank:12
+FullName:LUNDIN Amanda
+
+TotalPoints:55.50
+TotalPoints:109.90
+TotalPoints:149.05
+TotalPoints:206.65
+TotalPoints:206.65
+Rank:13
+FullName:MUSCALU Nicoleta-Angelica
+TotalPoints:146.30
+TotalPoints:39.20
+TotalPoints:60.20
+TotalPoints:102.05
+TotalPoints:133.25
+TotalPoints:146.30
+Rank:14
+FullName:SANTIAGO Dominique

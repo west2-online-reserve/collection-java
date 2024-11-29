@@ -1,0 +1,63 @@
+Final:
+TotalPoints:52.20
+TotalPoints:103.80
+TotalPoints:178.68
+TotalPoints:250.95
+TotalPoints:320.31
+TotalPoints:394.23
+Rank:1
+FullName:ROSLER Ole Johannes & PRENZYNA Espen
+
+TotalPoints:50.40
+TotalPoints:100.80
+TotalPoints:173.76
+TotalPoints:248.01
+TotalPoints:319.41
+TotalPoints:392.37
+Rank:2
+FullName:EIKERMANN GREGORCHUK Jaden Shiloh & BARTHEL Timo
+
+TotalPoints:44.40
+TotalPoints:90.60
+TotalPoints:151.80
+TotalPoints:223.80
+TotalPoints:299.04
+TotalPoints:364.32
+Rank:3
+FullName:JACHIM Filip & LUKASZEWICZ Robert
+
+TotalPoints:48.00
+TotalPoints:96.00
+TotalPoints:164.40
+TotalPoints:243.12
+TotalPoints:297.57
+TotalPoints:361.89
+Rank:4
+FullName:HRYTSENKO Mark & AVANESOV Danylo
+
+TotalPoints:50.40
+TotalPoints:95.40
+TotalPoints:163.80
+TotalPoints:227.16
+TotalPoints:287.55
+TotalPoints:360.51
+Rank:5
+FullName:CAMACHO DEL HOYO Carlos & LINAN Max
+
+TotalPoints:48.60
+TotalPoints:93.60
+TotalPoints:154.08
+TotalPoints:228.00
+TotalPoints:282.45
+TotalPoints:341.85
+Rank:6
+FullName:AVILA SANCHEZ Luis Carlo & WALDSTEINER Tom
+
+TotalPoints:43.80
+TotalPoints:86.40
+TotalPoints:139.50
+TotalPoints:194.22
+TotalPoints:262.53
+TotalPoints:321.69
+Rank:7
+FullName:KIM Gyeongbin & KANG Jiho

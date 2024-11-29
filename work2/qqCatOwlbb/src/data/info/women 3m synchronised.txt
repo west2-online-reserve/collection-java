@@ -1,0 +1,64 @@
+Final:
+TotalPoints:46.80
+TotalPoints:92.40
+TotalPoints:153.60
+TotalPoints:219.63
+TotalPoints:287.13
+Rank:1
+FullName:MULLER Jette & HENTSCHEL Lena
+
+TotalPoints:46.20
+TotalPoints:88.20
+TotalPoints:154.80
+TotalPoints:218.70
+TotalPoints:281.70
+Rank:2
+FullName:BENT-ASHMEIL Desharne & ROLLINSON Amy
+
+TotalPoints:41.40
+TotalPoints:85.80
+TotalPoints:149.70
+TotalPoints:211.80
+TotalPoints:273.90
+Rank:3
+FullName:ERLAM Margo & WILSON Aimee
+
+TotalPoints:42.60
+TotalPoints:84.00
+TotalPoints:137.10
+TotalPoints:196.50
+TotalPoints:260.40
+Rank:4
+FullName:VAN DUIJN Celine & JANSEN Inge
+
+TotalPoints:43.80
+TotalPoints:84.60
+TotalPoints:138.60
+TotalPoints:194.40
+TotalPoints:252.90
+Rank:5
+FullName:PYSMENSKA Anna & KESAR Viktoriya
+
+TotalPoints:39.60
+TotalPoints:69.60
+TotalPoints:110.10
+TotalPoints:147.90
+TotalPoints:190.20
+Rank:6
+FullName:LEE Yejoo & OH Sooyeon
+
+TotalPoints:45.60
+TotalPoints:86.40
+TotalPoints:141.30
+TotalPoints:141.30
+TotalPoints:185.40
+Rank:7
+FullName:PAPWORTH BURREL Maria & VELAZQUEZ Rocio
+
+TotalPoints:0.00
+TotalPoints:0.00
+TotalPoints:0.00
+TotalPoints:0.00
+TotalPoints:0.00
+Rank:8
+FullName:SHANIDZE Mariam & SHARIA Tekle
