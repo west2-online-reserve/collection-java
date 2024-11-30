@@ -33,7 +33,8 @@ public class DWASearch {
                 } else if (playerMatcher.matches()) {
                     coreModule.displayAllPlayersInfo(out);
                 } else if (contestDetailMatcher.matches()) {
-
+                    contestType = contestDetailMatcher.group(1);
+                    coreModule.displayDetailResult(contestType, out);
                 }
             }
 
