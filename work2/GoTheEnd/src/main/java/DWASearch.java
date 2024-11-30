@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 
 public class DWASearch {
     public static Pattern PLAYER_REGEX = Pattern.compile("players");
+    public static Pattern RESULT_REGEX = Pattern.compile("^result .*");
     public static Pattern CONTEST_REGEX = Pattern.compile("result (men 1m springboard|men 3m springboard|" +
             "men 3m synchronised|men 10m platform|men 10m synchronised|women 1m springboard|" +
             "women 3m springboard|women 3m synchronised|women 10m platform|women 10m synchronised)");
@@ -27,14 +28,22 @@ public class DWASearch {
                 Matcher contestMatcher = CONTEST_REGEX.matcher(inputText);
                 Matcher playerMatcher = PLAYER_REGEX.matcher(inputText);
                 Matcher contestDetailMatcher = CONTEST_DETAIL_REGEX.matcher(inputText);
-                if (contestMatcher.matches()) {
-                    contestType = contestMatcher.group(1);
-                    coreModule.displayResultsForEachEvent(contestType, out);
-                } else if (playerMatcher.matches()) {
+                Matcher resultMatcher = RESULT_REGEX.matcher(inputText);
+
+                if (playerMatcher.matches()) {
                     coreModule.displayAllPlayersInfo(out);
-                } else if (contestDetailMatcher.matches()) {
-                    contestType = contestDetailMatcher.group(1);
-                    coreModule.displayDetailResult(contestType, out);
+                }else if (resultMatcher.matches()) {
+                    if (contestMatcher.matches()) {
+                        contestType = contestMatcher.group(1);
+                        coreModule.displayResultsForEachEvent(contestType, out);
+                    } else if (contestDetailMatcher.matches()) {
+                        contestType = contestDetailMatcher.group(1);
+                        coreModule.displayDetailResult(contestType, out);
+                    } else {
+                        out.write("N/A\n-----\n");
+                    }
+                } else {
+                    out.write("Error\n-----\n");
                 }
             }
 
