@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: DWA_Search.DWASearch
+Class-Path: fastjson2-2.0.52.jar
+
