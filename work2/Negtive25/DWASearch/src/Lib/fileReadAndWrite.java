@@ -3,7 +3,7 @@ package src.Lib;
 import java.io.*;
 import src.DWASearch;
 
-public class fileReadAndWrite {
+public class FileReadAndWrite {
     public static String readFile(String directory) throws IOException{
         File file = new File(directory);
         StringBuilder sb = new StringBuilder();

@@ -8,19 +8,19 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-public class createAthleteList {
-    public static List<athlete> createPlayerlist(String fileName) throws IOException {
+public class CreateAthleteList {
+    public static List<Athlete> createPlayerlist(String fileName) throws IOException {
 
         int athleteCount = 0;
         StringBuilder athleteScore = new StringBuilder();
-        List<athlete> allAthleteList = new ArrayList<>();
+        List<Athlete> allAthleteList = new ArrayList<>();
         HashMap<String, Integer> athleteHashMap = new HashMap<>();
 
-        String allAthlete = fileReadAndWrite.readFile("com/src/Data/athleteInformation/" + fileName);
+        String allAthlete = FileReadAndWrite.readFile("src/Data/athleteInformation/" + fileName);
         String[] allAthleteArray = allAthlete.split("\n+");
 
         int markToTellGameType = 0;
-        athlete athlete = new athlete();
+        Athlete athlete = new Athlete();
 
         for (String data : allAthleteArray) {
             if (data.startsWith("Final"))
@@ -34,36 +34,36 @@ public class createAthleteList {
                 String tempRank =data.replace("Rank:", "").trim();
                 if (markToTellGameType == 1){
                     athlete.finalScore = processScore(athleteScore.toString(), "Final Score:");
-                    athlete.finalRank = tempRank;
+                    athlete.setFinalRank(tempRank);
                 }
                 else if (markToTellGameType == 2){
                     athlete.semiScore = processScore(athleteScore.toString(), "Semifinal Score:");
-                    athlete.semiRank = tempRank;
+                    athlete.setSemiRank(tempRank);
                 }
                 else if (markToTellGameType == 3){
                     athlete.preScore = processScore(athleteScore.toString(), "Preliminary Score:");
-                    athlete.preRank = tempRank;
+                    athlete.setPreRank(tempRank);
                 }
                 athleteScore.setLength(0);
             }
             else if (data.startsWith("FullName")) {
-                athlete.fullName = data.replace("FullName:", "Full Name:");
+                athlete.setFullName(data.replace("FullName:", "Full Name:"));
 
-                if (athleteHashMap.containsKey(athlete.fullName)) {
-                    athlete existingAthlete = allAthleteList.get(athleteHashMap.get(athlete.fullName));
+                if (athleteHashMap.containsKey(athlete.getFullName())) {
+                    Athlete existingAthlete = allAthleteList.get(athleteHashMap.get(athlete.getFullName()));
                     if (markToTellGameType == 2){
                         existingAthlete.semiScore = athlete.semiScore;
-                        existingAthlete.semiRank = athlete.semiRank;
+                        existingAthlete.setSemiRank(athlete.getSemiRank());
                     }
                     else if (markToTellGameType == 3){
                         existingAthlete.preScore = athlete.preScore;
-                        existingAthlete.preRank = athlete.preRank;
+                        existingAthlete.setPreRank(athlete.getPreRank());
                     }
                     athlete.resetAthleteInfo();
                 }
                 else {
-                    athleteHashMap.put(athlete.fullName, athleteCount++);
-                    allAthleteList.add(new athlete(athlete.preScore, athlete.semiScore,athlete.finalScore, athlete.preRank, athlete.semiRank, athlete.finalRank, athlete.fullName));
+                    athleteHashMap.put(athlete.getFullName(), athleteCount++);
+                    allAthleteList.add(new Athlete(athlete.preScore, athlete.semiScore,athlete.finalScore, athlete.getPreRank(), athlete.getSemiRank(), athlete.getFinalRank(),athlete.getFullName()));
                 }
             }
             else

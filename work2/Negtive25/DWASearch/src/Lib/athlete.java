@@ -4,14 +4,14 @@ package src.Lib;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class athlete {
-    public String fullName;
-    public String gender;
-    public String country;
-    public String preRank,semiRank,finalRank;
+public class Athlete {
+    private String fullName;
+    private String gender;
+    private String country;
+    private String preRank,semiRank,finalRank;
     public String preScore,semiScore,finalScore;
 
-    public athlete(){
+    public Athlete(){
         fullName = "Full Name:*";
         gender = "Gender:*";
         country = "Country:*";
@@ -22,13 +22,13 @@ public class athlete {
         semiScore = "Semifinal Score:*";
         finalScore = "Final Score:*";
     }
-    public athlete(String fullName, String gender, String country) {
+    public Athlete(String fullName, String gender, String country) {
         this.fullName = fullName;
         this.gender = gender;
         this.country = country;
     }
 
-    public athlete(String preScore,String semiScore,String finalScore,String preRank,String semiRank,String finalRank,String fullName){
+    public Athlete(String preScore, String semiScore, String finalScore, String preRank, String semiRank, String finalRank, String fullName){
         this.preScore = preScore;
         this.semiScore = semiScore;
         this.finalScore = finalScore;
@@ -50,10 +50,42 @@ public class athlete {
         finalScore = "Final Score:*";
     }
 
+    public void setFullName(String fullName){
+        this.fullName = fullName;
+    }
+    public String getFullName(){
+        return fullName;
+    }
+    public void setGender(String gender){
+        this.gender = gender;
+    }
+    public String getGender(){
+        return gender;
+    }
+    public void setCountry(String country){
+        this.country = country;
+    }
     public String getCountryName(){
         return country;
     }
-
+    public void setPreRank(String preRank){
+        this.preRank = preRank;
+    }
+    public String getPreRank(){
+        return preRank;
+    }
+    public void setSemiRank(String semiRank){
+        this.semiRank = semiRank;
+    }
+    public String getSemiRank(){
+        return semiRank;
+    }
+    public void setFinalRank(String finalRank){
+        this.finalRank = finalRank;
+    }
+    public String getFinalRank(){
+        return finalRank;
+    }
     public String getLastName(){
         String[] names = fullName.split(" ");
         return names[names.length-1];
@@ -67,7 +99,7 @@ public class athlete {
         return Integer.parseInt(finalRank);
     }
 
-    public int getFinalRank(){
+    public int getFinalRankForSort(){
         return Integer.parseInt(finalRank);
     }
 

@@ -1,7 +1,8 @@
 package src;
 
-import src.Lib.commandStringProcess;
-import src.Lib.displayInformation;
+import src.Lib.CommandStringProcess;
+import src.Lib.DisplayInformation;
+
 import java.io.IOException;
 
 public class DWASearch {
@@ -13,15 +14,15 @@ public class DWASearch {
             System.exit(0);
         }
 
-        inputFile = "com/src/Data/"+args[0];
-        outputFile = "com/src/Data/"+args[1];
+        inputFile = "src/Data/"+args[0];
+        outputFile = "src/Data/"+args[1];
 
-        commandStringProcess processCommand = new commandStringProcess();
-        String[] command = commandStringProcess.commandInput();
+        CommandStringProcess processCommand = new CommandStringProcess();
+        String[] command = CommandStringProcess.commandInput();
         for(String c: command){
             int result = processCommand.commandDistinguish(c);
             try {
-                displayInformation.displayInfo(result);
+                DisplayInformation.displayInfo(result);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }

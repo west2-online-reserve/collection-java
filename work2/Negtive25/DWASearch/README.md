@@ -222,11 +222,12 @@ package src;
 import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static src.Lib.fileReadAndWrite.readFile;
+
 import org.junit.jupiter.api.Test;  // 确保引入了正确的注解
+import src.Lib.CommandStringProcess;
+import src.Lib.DisplayInformation;
+import src.Lib.FileReadAndWrite;
 import src.Lib.commandStringProcess;
-import src.Lib.displayInformation;
-import src.Lib.fileReadAndWrite;
 
 public class DWASearchTest {
 
@@ -234,13 +235,13 @@ public class DWASearchTest {
 
     @Test  // 将 @Test1 改为 @Test
     public void testDwaSearch() throws IOException {  // 方法名也要符合测试规范
-        commandStringProcess processCommand = new commandStringProcess();
-        String[] command = commandStringProcess.commandInput();
+        CommandStringProcess processCommand = new CommandStringProcess();
+        String[] command = CommandStringProcess.commandInput();
         for (String c : command) {
             int result = processCommand.commandDistinguish(c);
-            displayInformation.displayInfo(result);
+            DisplayInformation.displayInfo(result);
         }
-        assertEquals("预期输出", fileReadAndWrite.readFile("com/src/Data/" + outputFile));
+        assertEquals("预期输出", FileReadAndWrite.readFile("com/src/Data/" + outputFile));
 
     }
 }
