@@ -14,11 +14,11 @@
 ```
 ---
 
-###1.数据收集  
+### 1.数据收集  
 从官网爬取了运动员和比赛的josn类型文件    
-###2.数据处理  
+### 2.数据处理  
 分别创建Athlete，Conpetiton，ConpetitonDetail，三个javabean的类，用来存储数据  
-###3.数据分析  
+### 3.数据分析  
  `DWASearch.java`  
  **功能** 主程序入口，处理输入和结果输出  
  **设计**
@@ -31,13 +31,13 @@
  **设计** 
  - 该类一共包含6个方法，其中3个是内部方法，其他三个分别用来获得Athlete，Conpetiton，ConpetitonDetail数组，供DWASearch使用  
  - 其中使用fastjson的jsonObject和jsonArray来获取数据  
- ###4.实现流程  
+ ### 4.实现流程  
  - DWASearch获取输入  
  - 调用CoreModule获得相应的运动员或比赛的数组
  - 再在DWASearch里面输出
- ###5.性能改进  
+ ### 5.性能改进  
  使用bufferreader来读取，对大文件更加友好  
- ###6.单元测试   
+ ### 6.单元测试   
  public class CoreModuleTest {  
     @Test  
     void testAthletes(){  
@@ -81,6 +81,6 @@
         DWASearch.main(new String[]{"badinput.txt","output.txt"});  
     }  
 }  
-###7.异常处理  
+### 7.异常处理  
 使用try-catch来处理IO  
 抛出异常，返回给调用者处理  
