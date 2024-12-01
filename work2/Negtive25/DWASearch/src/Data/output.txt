@@ -438,8 +438,6 @@ Full Name:RUDIGER Lars
 Rank:12
 Score:52.50 + 38.50 + 21.00 + 0.00 + 0.00 + 0.00 = 112.00
 -----
-N/A
------
 Full Name:TESSIER Benjamin
 Rank:1
 Score:67.20 + 88.40 + 67.50 + 84.15 + 74.25 + 84.60 = 466.10
@@ -673,8 +671,6 @@ Score:40.50 + 32.55 + 51.00 + 51.00 + 37.50 = 212.55
 Full Name:COQUOZ Madeline
 Rank:12
 Score:36.00 + 28.00 + 51.00 + 41.85 + 45.00 = 201.85
------
-N/A
 -----
 Full Name:PRAASTERINK Else
 Rank:1

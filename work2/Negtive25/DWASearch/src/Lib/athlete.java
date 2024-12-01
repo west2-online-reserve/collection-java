@@ -9,7 +9,7 @@ public class Athlete {
     private String gender;
     private String country;
     private String preRank,semiRank,finalRank;
-    public String preScore,semiScore,finalScore;
+    private String preScore,semiScore,finalScore;
 
     public Athlete(){
         fullName = "Full Name:*";
@@ -86,6 +86,25 @@ public class Athlete {
     public String getFinalRank(){
         return finalRank;
     }
+    public void setPreScore(String preScore){
+        this.preScore = preScore;
+    }
+    public String getPreScore(){
+        return preScore;
+    }
+    public void setSemiScore(String semiScore){
+        this.semiScore = semiScore;
+    }
+    public String getSemiScore(){
+        return semiScore;
+    }
+    public void setFinalScore(String finalScore){
+        this.finalScore = finalScore;
+    }
+    public String getFinalScore(){
+        return finalScore;
+    }
+
     public String getLastName(){
         String[] names = fullName.split(" ");
         return names[names.length-1];

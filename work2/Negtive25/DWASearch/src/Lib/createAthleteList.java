@@ -33,15 +33,15 @@ public class CreateAthleteList {
             else if (data.startsWith("Rank")) {
                 String tempRank =data.replace("Rank:", "").trim();
                 if (markToTellGameType == 1){
-                    athlete.finalScore = processScore(athleteScore.toString(), "Final Score:");
+                    athlete.setFinalScore(processScore(athleteScore.toString(), "Final Score:"));
                     athlete.setFinalRank(tempRank);
                 }
                 else if (markToTellGameType == 2){
-                    athlete.semiScore = processScore(athleteScore.toString(), "Semifinal Score:");
+                    athlete.setSemiScore(processScore(athleteScore.toString(), "Semifinal Score:"));
                     athlete.setSemiRank(tempRank);
                 }
                 else if (markToTellGameType == 3){
-                    athlete.preScore = processScore(athleteScore.toString(), "Preliminary Score:");
+                    athlete.setPreScore(processScore(athleteScore.toString(), "Preliminary Score:"));
                     athlete.setPreRank(tempRank);
                 }
                 athleteScore.setLength(0);
@@ -52,18 +52,18 @@ public class CreateAthleteList {
                 if (athleteHashMap.containsKey(athlete.getFullName())) {
                     Athlete existingAthlete = allAthleteList.get(athleteHashMap.get(athlete.getFullName()));
                     if (markToTellGameType == 2){
-                        existingAthlete.semiScore = athlete.semiScore;
+                        existingAthlete.setSemiScore(athlete.getSemiScore());
                         existingAthlete.setSemiRank(athlete.getSemiRank());
                     }
                     else if (markToTellGameType == 3){
-                        existingAthlete.preScore = athlete.preScore;
+                        existingAthlete.setPreScore(athlete.getPreScore());
                         existingAthlete.setPreRank(athlete.getPreRank());
                     }
                     athlete.resetAthleteInfo();
                 }
                 else {
                     athleteHashMap.put(athlete.getFullName(), athleteCount++);
-                    allAthleteList.add(new Athlete(athlete.preScore, athlete.semiScore,athlete.finalScore, athlete.getPreRank(), athlete.getSemiRank(), athlete.getFinalRank(),athlete.getFullName()));
+                    allAthleteList.add(new Athlete(athlete.getPreScore(), athlete.getSemiScore(),athlete.getFinalScore(), athlete.getPreRank(), athlete.getSemiRank(), athlete.getFinalRank(),athlete.getFullName()));
                 }
             }
             else
