@@ -26,4 +26,10 @@ data文件夹为从网站中爬虫得到的数据
 
 
 
+//第二次提交
+
+添加了单元测试代码，于src/test中。test使用的是junit5.8.1，idea自动生成的外部库依赖，未加入到lib中。
+
+将input.txt和output.txt加入了src中，为result women 10m platform detail示例。
+
 
