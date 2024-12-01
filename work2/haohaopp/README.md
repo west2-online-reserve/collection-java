@@ -3,14 +3,17 @@
 
 ```
 |- src
- |- DWASearch.java		主程序
- |-CoreModule.java		获取json信息方法类
- |- Athlete.java		运动员类
- |- Conpetiton.java		比赛类
- |- ConpetitonDetial.java	详细比赛类
- |- resource 				存放程序的数据
+ |-main
+    |- DWASearch.java		主程序
+    |-CoreModule.java		获取json信息方法类
+    |- Athlete.java		运动员类
+    |- Conpetiton.java		比赛类
+    |- ConpetitonDetial.java	详细比赛类 
+    |- resource 	    存放程序的数据
+ |- test                    存放测试数据
 |- DWASearch.jar
 |- README.md
+|- pom.xml
 ```
 ---
 
