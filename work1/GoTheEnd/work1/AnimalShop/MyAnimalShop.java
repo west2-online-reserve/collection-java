@@ -98,7 +98,7 @@ public class MyAnimalShop implements AnimalShop{
     public void greetCustomer(Customer customer) throws AnimalNotFoundException{
         //如果店铺【未开张】，且顾客【今天】到访，报错
         try {
-            if (!openStatus && customer.recentDate.equals(LocalDate.now())) {
+            if (!openStatus && customer.getRecentDate().equals(LocalDate.now())) {
                 throw new ShopNotOpen("[warning: 店铺未开张]");
             }
             customerList.add(customer);
@@ -126,7 +126,7 @@ public class MyAnimalShop implements AnimalShop{
             Animal animal = animalList.get(index);
 
             //顾客进行购买操作
-            if(customer.recentDate.equals(LocalDate.now())){
+            if(customer.getRecentDate().equals(LocalDate.now())){
                 System.out.println("顾客" + customer.getName() + "【已购买了动物】\n动物信息:");
                 System.out.println(animal.toString() + "\n");
                 animalList.remove(index);
@@ -137,7 +137,7 @@ public class MyAnimalShop implements AnimalShop{
             }
 
             //余额增加，计算收入，只有【今天】进入店铺的顾客消费才应该记录
-            if(customer.recentDate.equals(LocalDate.now())){
+            if(customer.getRecentDate().equals(LocalDate.now())){
                 this.balance += animal.price;
                 this.profit += animal.price;
                 System.out.printf("现在商店余额为%.1f\n\n", balance);
@@ -163,7 +163,7 @@ public class MyAnimalShop implements AnimalShop{
 
         for(Customer customer : customerList) {
             //只输出【今天】到访的顾客
-            if(customer.recentDate.equals(LocalDate.now())){
+            if(customer.getRecentDate().equals(LocalDate.now())){
                 System.out.println(customer.toString());
                 System.out.println("----------");
                 this.openStatus = false;
