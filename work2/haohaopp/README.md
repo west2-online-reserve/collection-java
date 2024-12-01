@@ -19,14 +19,14 @@
 ### 2.数据处理  
 分别创建Athlete，Conpetiton，ConpetitonDetail，三个javabean的类，用来存储数据  
 ### 3.数据分析  
- `DWASearch.java`  
+#### DWASearch.java 
  **功能** 主程序入口，处理输入和结果输出  
  **设计**
  - 从命令行获取输入和输出地址  
  - 判断input.txt的输入是否合法  
  - 调用CoreModule里的方法获取所需的运动员信息数组  
  - 输出文件到output.txt  
-`CoreMoudle.java`  
+#### CoreMoudle.java  
  **功能** 对json文件的读取，获得相应的运动员或比赛的类  
  **设计** 
  - 该类一共包含6个方法，其中3个是内部方法，其他三个分别用来获得Athlete，Conpetiton，ConpetitonDetail数组，供DWASearch使用  
