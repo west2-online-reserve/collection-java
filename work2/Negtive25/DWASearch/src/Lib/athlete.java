@@ -4,14 +4,14 @@ package src.Lib;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class Athlete {
+public class athlete {
     private String fullName;
     private String gender;
     private String country;
     private String preRank,semiRank,finalRank;
     private String preScore,semiScore,finalScore;
 
-    public Athlete(){
+    public athlete(){
         fullName = "Full Name:*";
         gender = "Gender:*";
         country = "Country:*";
@@ -22,13 +22,13 @@ public class Athlete {
         semiScore = "Semifinal Score:*";
         finalScore = "Final Score:*";
     }
-    public Athlete(String fullName, String gender, String country) {
+    public athlete(String fullName, String gender, String country) {
         this.fullName = fullName;
         this.gender = gender;
         this.country = country;
     }
 
-    public Athlete(String preScore, String semiScore, String finalScore, String preRank, String semiRank, String finalRank, String fullName){
+    public athlete(String preScore, String semiScore, String finalScore, String preRank, String semiRank, String finalRank, String fullName){
         this.preScore = preScore;
         this.semiScore = semiScore;
         this.finalScore = finalScore;

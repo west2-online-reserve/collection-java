@@ -5,22 +5,22 @@ import java.io.IOException;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
-import src.Lib.CommandStringProcess;
-import src.Lib.DisplayInformation;
-import src.Lib.FileReadAndWrite;
-import src.Lib.CommandStringProcess;
+import src.Lib.commandStringProcess;
+import src.Lib.displayInformation;
+import src.Lib.fileReadAndWrite;
+import src.Lib.commandStringProcess;
 
 public class DWASearchTest {
 
     String inputFile = "src/Data/input.txt",outputFile = "src/Data/output.txt";
     @Test
     public void testDwaSearch() throws IOException {
-        CommandStringProcess processCommand = new CommandStringProcess();
-        String[] command = CommandStringProcess.commandInput(inputFile);
+        commandStringProcess processCommand = new commandStringProcess();
+        String[] command = commandStringProcess.commandInput(inputFile);
         for(String c: command){
             int result = processCommand.commandDistinguish(c);
             try {
-                DisplayInformation.displayInfo(result,outputFile);
+                displayInformation.displayInfo(result,outputFile);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
@@ -622,6 +622,6 @@ public class DWASearchTest {
                         "Semifinal Score:*\n" +
                         "Final Score:43.80 + 42.60 + 53.10 + 54.72 + 68.31 + 59.16 = 321.69\n" +
                         "-----\n",
-                FileReadAndWrite.readFile(outputFile));
+                fileReadAndWrite.readFile(outputFile));
     }
 }

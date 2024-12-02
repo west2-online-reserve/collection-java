@@ -8,19 +8,19 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-public class CreateAthleteList {
-    public static List<Athlete> createPlayerlist(String fileName) throws IOException {
+public class createAthleteList {
+    public static List<athlete> createPlayerlist(String fileName) throws IOException {
 
         int athleteCount = 0;
         StringBuilder athleteScore = new StringBuilder();
-        List<Athlete> allAthleteList = new ArrayList<>();
+        List<athlete> allAthleteList = new ArrayList<>();
         HashMap<String, Integer> athleteHashMap = new HashMap<>();
 
-        String allAthlete = FileReadAndWrite.readFile("src/Data/athleteInformation/" + fileName);
+        String allAthlete = fileReadAndWrite.readFile("src/Data/athleteInformation/" + fileName);
         String[] allAthleteArray = allAthlete.split("\n+");
 
         int markToTellGameType = 0;
-        Athlete athlete = new Athlete();
+        athlete athlete = new athlete();
 
         for (String data : allAthleteArray) {
             if (data.startsWith("Final"))
@@ -50,7 +50,7 @@ public class CreateAthleteList {
                 athlete.setFullName(data.replace("FullName:", "Full Name:"));
 
                 if (athleteHashMap.containsKey(athlete.getFullName())) {
-                    Athlete existingAthlete = allAthleteList.get(athleteHashMap.get(athlete.getFullName()));
+                    athlete existingAthlete = allAthleteList.get(athleteHashMap.get(athlete.getFullName()));
                     if (markToTellGameType == 2){
                         existingAthlete.setSemiScore(athlete.getSemiScore());
                         existingAthlete.setSemiRank(athlete.getSemiRank());
@@ -63,7 +63,7 @@ public class CreateAthleteList {
                 }
                 else {
                     athleteHashMap.put(athlete.getFullName(), athleteCount++);
-                    allAthleteList.add(new Athlete(athlete.getPreScore(), athlete.getSemiScore(),athlete.getFinalScore(), athlete.getPreRank(), athlete.getSemiRank(), athlete.getFinalRank(),athlete.getFullName()));
+                    allAthleteList.add(new athlete(athlete.getPreScore(), athlete.getSemiScore(),athlete.getFinalScore(), athlete.getPreRank(), athlete.getSemiRank(), athlete.getFinalRank(),athlete.getFullName()));
                 }
             }
             else

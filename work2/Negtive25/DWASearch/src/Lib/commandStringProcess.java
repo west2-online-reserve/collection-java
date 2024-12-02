@@ -8,10 +8,10 @@ import src.DWASearch;
 //这个类有两个方法，一个是命令输入，一个是命令识别和处理
 //命令输入方法commandInput()用于从input.txt文件中读取命令字符串，并返回一个字符串数组
 //命令识别和处理方法commandDistinguish()用于识别命令字符串，并返回指令标签，不同的指令标签对应后续不同的处理方法
-public class CommandStringProcess {
+public class commandStringProcess {
    public static HashMap<String, Integer> commandMap = new HashMap<String, Integer>();
 
-   public CommandStringProcess() {
+   public commandStringProcess() {
         commandMap.put("players", 10);
         commandMap.put("result women 1m springboard", 21);
         commandMap.put("result women 3m springboard", 22);
@@ -37,7 +37,7 @@ public class CommandStringProcess {
     public static String[] commandInput(String inputFile) {
         String fileCommand = "";
         try {
-           fileCommand= FileReadAndWrite.readFile(inputFile);
+           fileCommand= fileReadAndWrite.readFile(inputFile);
         }catch (IOException e) {
             e.printStackTrace();
         }
