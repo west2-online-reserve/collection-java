@@ -18,11 +18,11 @@ public class DWASearch {
         outputFile = "src/Data/"+args[1];
 
         CommandStringProcess processCommand = new CommandStringProcess();
-        String[] command = CommandStringProcess.commandInput();
+        String[] command = CommandStringProcess.commandInput(inputFile);
         for(String c: command){
             int result = processCommand.commandDistinguish(c);
             try {
-                DisplayInformation.displayInfo(result);
+                DisplayInformation.displayInfo(result,outputFile);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }

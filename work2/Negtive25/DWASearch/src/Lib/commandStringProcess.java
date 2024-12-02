@@ -34,10 +34,10 @@ public class CommandStringProcess {
         commandMap.put("result men 3m synchronised detail",134);
         commandMap.put("result men 10m synchronised detail",135);
    }
-    public static String[] commandInput() {
+    public static String[] commandInput(String inputFile) {
         String fileCommand = "";
         try {
-           fileCommand= FileReadAndWrite.readFile(DWASearch.inputFile);
+           fileCommand= FileReadAndWrite.readFile(inputFile);
         }catch (IOException e) {
             e.printStackTrace();
         }

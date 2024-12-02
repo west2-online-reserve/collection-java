@@ -26,11 +26,10 @@ public class FileReadAndWrite {
         return sb.toString();
     }
 
-    public static void writeToFile(String data) throws IOException{
+    public static void writeToFile(String data,String outputFile) throws IOException{
         if (data == null)
             return;
-        String directory =DWASearch.outputFile;
-        File file = new File(directory);
+        File file = new File(outputFile);
         try {
             if (!file.exists()) {
                 System.out.println("Output file does not exist, creating new file");

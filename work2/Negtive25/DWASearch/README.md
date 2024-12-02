@@ -214,7 +214,7 @@
 
 ### 
 
-### 代码
+### 测试代码
 
 ```java
 package src;
@@ -223,7 +223,7 @@ import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.jupiter.api.Test;  // 确保引入了正确的注解
+import org.junit.jupiter.api.Test; 
 import src.Lib.CommandStringProcess;
 import src.Lib.DisplayInformation;
 import src.Lib.FileReadAndWrite;
@@ -233,8 +233,8 @@ public class DWASearchTest {
 
     String inputFile = "input.txt", outputFile = "output.txt";
 
-    @Test  // 将 @Test1 改为 @Test
-    public void testDwaSearch() throws IOException {  // 方法名也要符合测试规范
+    @Test 
+    public void testDwaSearch() throws IOException { 
         CommandStringProcess processCommand = new CommandStringProcess();
         String[] command = CommandStringProcess.commandInput();
         for (String c : command) {
@@ -242,7 +242,7 @@ public class DWASearchTest {
             DisplayInformation.displayInfo(result);
         }
         assertEquals("预期输出", FileReadAndWrite.readFile("com/src/Data/" + outputFile));
-
+        //FileReadAndWrite.readFile读取文件内容转化成字符串和预期输入比较
     }
 }
 ```
