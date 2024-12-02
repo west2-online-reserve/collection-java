@@ -71,11 +71,11 @@
 
 **1.首先是DWASearch主方法内的流程图:**
 
-![images](src/Data/image/process1.jpg)
+![images](src/Data/ReadMeEmbededImage/process1.jpg)
 
 ## 2.然后是displayInformation类内的静态方法displayInfo流程图:
 
-![images](src/Data/image/process2.jpg)
+![images](src/Data/ReadMeEmbededImage/process2.jpg)
 
 ## 算法关键点
 
