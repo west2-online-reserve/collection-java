@@ -1,0 +1,24 @@
+Final:
+TotalPoints:49.20
+TotalPoints:92.40
+TotalPoints:159.60
+TotalPoints:220.80
+TotalPoints:289.92
+Rank:1
+FullName:WASSEN Christina & WASSEN Elena
+
+TotalPoints:42.60
+TotalPoints:82.80
+TotalPoints:144.00
+TotalPoints:200.55
+TotalPoints:255.27
+Rank:2
+FullName:ANTOLINO Valeria & CARVAJAL Ana
+
+TotalPoints:46.20
+TotalPoints:93.00
+TotalPoints:148.68
+TotalPoints:214.92
+TotalPoints:272.52
+Rank:99
+FullName:PFEIF Pauline Alexandra & COORDES Carolina

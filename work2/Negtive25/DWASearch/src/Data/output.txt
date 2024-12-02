@@ -1,0 +1,578 @@
+Error
+-----
+N/A
+-----
+N/A
+-----
+N/A
+-----
+Full Name:HART Alexander
+Gender:Male
+Country:Austria
+-----
+Full Name:LOTFI Dariush
+Gender:Male
+Country:Austria
+-----
+Full Name:SCHALLER Nikolaj 
+Gender:Male
+Country:Austria
+-----
+Full Name:WILSON Aimee 
+Gender:Female
+Country:Canada
+-----
+Full Name:JASMIN Amelie
+Gender:Female
+Country:Canada
+-----
+Full Name:TESSIER Benjamin
+Gender:Male
+Country:Canada
+-----
+Full Name:DICK Elaena
+Gender:Female
+Country:Canada
+-----
+Full Name:BELANGER Eloise
+Gender:Female
+Country:Canada
+-----
+Full Name:FUNG Katelyn
+Gender:Female
+Country:Canada
+-----
+Full Name:ERLAM Margo
+Gender:Female
+Country:Canada
+-----
+Full Name:ABRAMOWICZ Tazman
+Gender:Male
+Country:Canada
+-----
+Full Name:SANTIAGO Dominique 
+Gender:Female
+Country:Czechia
+-----
+Full Name:JELINKOVA Tereza
+Gender:Female
+Country:Czechia
+-----
+Full Name:TSULUKIDZE Giorgi 
+Gender:Male
+Country:Georgia
+-----
+Full Name:SAKANDELIDZE Irakli
+Gender:Male
+Country:Georgia
+-----
+Full Name:SHANIDZE Mariam
+Gender:Female
+Country:Georgia
+-----
+Full Name:SHARIA Tekle
+Gender:Female
+Country:Georgia
+-----
+Full Name:ONIKASHVILI Tornike
+Gender:Male
+Country:Georgia
+-----
+Full Name:LUBE Alexander
+Gender:Male
+Country:Germany
+-----
+Full Name:COORDES Carolina
+Gender:Female
+Country:Germany
+-----
+Full Name:WASSEN Christina
+Gender:Female
+Country:Germany
+-----
+Full Name:WASSEN Elena
+Gender:Female
+Country:Germany
+-----
+Full Name:PRENZYNA Espen
+Gender:Male
+Country:Germany
+-----
+Full Name:EIKERMANN Jaden
+Gender:Male
+Country:Germany
+-----
+Full Name:ROTHER Jana
+Gender:Female
+Country:Germany
+-----
+Full Name:MULLER Jette
+Gender:Female
+Country:Germany
+-----
+Full Name:RUDIGER Lars
+Gender:Male
+Country:Germany
+-----
+Full Name:HENTSCHEL Lena
+Gender:Female
+Country:Germany
+-----
+Full Name:AVILA Luis
+Gender:Male
+Country:Germany
+-----
+Full Name:WESEMANN Moritz 
+Gender:Male
+Country:Germany
+-----
+Full Name:ROSLER Ole
+Gender:Male
+Country:Germany
+-----
+Full Name:PFEIF Pauline
+Gender:Female
+Country:Germany
+-----
+Full Name:OETTINGHAUS Saskia
+Gender:Female
+Country:Germany
+-----
+Full Name:BARTHEL Timo
+Gender:Male
+Country:Germany
+-----
+Full Name:WALDSTEINER Tom
+Gender:Male
+Country:Germany
+-----
+Full Name:ROLLINSON Amy 
+Gender:Female
+Country:Great Britain
+-----
+Full Name:BENT Desharne
+Gender:Female
+Country:Great Britain
+-----
+Full Name:MCCABE Euan
+Gender:Male
+Country:Great Britain
+-----
+Full Name:HEATLY James
+Gender:Male
+Country:Great Britain
+-----
+Full Name:HOULDEN Jordan
+Gender:Male
+Country:Great Britain
+-----
+Full Name:BOND Maisie
+Gender:Female
+Country:Great Britain
+-----
+Full Name:DIXON Matthew
+Gender:Male
+Country:Great Britain
+-----
+Full Name:LEE Robbie
+Gender:Male
+Country:Great Britain
+-----
+Full Name:TSIRIKOS Athanasios 
+Gender:Male
+Country:Greece
+-----
+Full Name:VAN Celine 
+Gender:Female
+Country:Netherlands
+-----
+Full Name:PRAASTERINK Else
+Gender:Female
+Country:Netherlands
+-----
+Full Name:JANSEN Inge
+Gender:Female
+Country:Netherlands
+-----
+Full Name:BLAZOWSKA Aleksandra
+Gender:Female
+Country:Poland
+-----
+Full Name:RZESZUTEK Andrzej
+Gender:Male
+Country:Poland
+-----
+Full Name:JACHIM Filip
+Gender:Male
+Country:Poland
+-----
+Full Name:LESIAK Kacper
+Gender:Male
+Country:Poland
+-----
+Full Name:SKRZEK Kaja 
+Gender:Female
+Country:Poland
+-----
+Full Name:LUKASZEWICZ Robert
+Gender:Male
+Country:Poland
+-----
+Full Name:CHOI Gangin
+Gender:Male
+Country:Republic of Korea
+-----
+Full Name:KIM Gyeongbin
+Gender:Male
+Country:Republic of Korea
+-----
+Full Name:KANG Jiho
+Gender:Male
+Country:Republic of Korea
+-----
+Full Name:HAN Jiwoo
+Gender:Female
+Country:Republic of Korea
+-----
+Full Name:OH Sooyeon 
+Gender:Female
+Country:Republic of Korea
+-----
+Full Name:BAEK Sunjin
+Gender:Female
+Country:Republic of Korea
+-----
+Full Name:LEE Wonseop
+Gender:Male
+Country:Republic of Korea
+-----
+Full Name:LEE Yejoo
+Gender:Female
+Country:Republic of Korea
+-----
+Full Name:MUSCALU Nicoleta 
+Gender:Female
+Country:Romania
+-----
+Full Name:ABADIA Adrian
+Gender:Male
+Country:Spain
+-----
+Full Name:CARVAJAL Ana
+Gender:Female
+Country:Spain
+-----
+Full Name:CAMACHO Carlos
+Gender:Male
+Country:Spain
+-----
+Full Name:RODRIGUEZ Jorge
+Gender:Male
+Country:Spain
+-----
+Full Name:PAPWORTH Maria
+Gender:Female
+Country:Spain
+-----
+Full Name:LINAN Max
+Gender:Male
+Country:Spain
+-----
+Full Name:GARCIA Nicolas
+Gender:Male
+Country:Spain
+-----
+Full Name:VELAZQUEZ Rocio 
+Gender:Female
+Country:Spain
+-----
+Full Name:ANTOLINO Valeria
+Gender:Female
+Country:Spain
+-----
+Full Name:LUNDIN Amanda 
+Gender:Female
+Country:Sweden
+-----
+Full Name:DUTOIT Guillaume
+Gender:Male
+Country:Switzerland
+-----
+Full Name:SUCKOW Jonathan 
+Gender:Male
+Country:Switzerland
+-----
+Full Name:COQUOZ Madeline
+Gender:Female
+Country:Switzerland
+-----
+Full Name:PYSMENSKA Anna 
+Gender:Female
+Country:Ukraine
+-----
+Full Name:CHYZHOVSKYI Bohdan
+Gender:Male
+Country:Ukraine
+-----
+Full Name:AVANESOV Danylo
+Gender:Male
+Country:Ukraine
+-----
+Full Name:KONOVALOV Danylo
+Gender:Male
+Country:Ukraine
+-----
+Full Name:AZAROV Kyrylo
+Gender:Male
+Country:Ukraine
+-----
+Full Name:HRYTSENKO Mark
+Gender:Male
+Country:Ukraine
+-----
+Full Name:OLIFERCHYK Stanislav
+Gender:Male
+Country:Ukraine
+-----
+Full Name:KESAR Viktoriya
+Gender:Female
+Country:Ukraine
+-----
+Full Name:NAUMENKO Yevhen
+Gender:Male
+Country:Ukraine
+-----
+Full Name:MYALIN Igor
+Gender:Male
+Country:Uzbekistan
+-----
+Full Name:KACHANOV Vyacheslav
+Gender:Male
+Country:Uzbekistan
+-----
+Full Name:DIXON Matthew
+Rank:1
+Score:58.50 + 61.50 + 58.50 + 67.50 + 57.60 + 69.75 = 373.35
+-----
+Full Name:HOULDEN Jordan
+Rank:2
+Score:57.80 + 52.80 + 48.00 + 67.50 + 63.00 + 62.40 = 351.50
+-----
+Full Name:ABRAMOWICZ Tazman
+Rank:3
+Score:54.60 + 66.00 + 44.85 + 60.45 + 59.20 + 57.00 = 342.10
+-----
+Full Name:CHYZHOVSKYI Bohdan
+Rank:4
+Score:54.25 + 54.00 + 50.60 + 63.00 + 65.60 + 53.30 = 340.75
+-----
+Full Name:OLIFERCHYK Stanislav
+Rank:5
+Score:66.65 + 63.00 + 36.00 + 40.50 + 54.00 + 62.40 = 322.55
+-----
+Full Name:CHOI Gangin
+Rank:6
+Score:57.00 + 56.00 + 51.15 + 49.50 + 39.00 + 57.00 = 309.65
+-----
+Full Name:LOTFI Dariush
+Rank:7
+Score:51.00 + 54.00 + 37.50 + 52.50 + 60.45 + 49.40 = 304.85
+-----
+Full Name:ONIKASHVILI Tornike
+Rank:8
+Score:65.10 + 43.50 + 50.70 + 43.70 + 27.00 + 50.70 = 280.70
+-----
+Full Name:SAKANDELIDZE Irakli
+Rank:9
+Score:46.80 + 43.40 + 43.50 + 39.00 + 40.50 + 36.40 = 249.60
+-----
+Full Name:LEE Wonseop
+Rank:10
+Score:42.90 + 27.00 + 37.50 + 55.50 + 31.50 + 49.60 = 244.00
+-----
+Full Name:HOULDEN Jordan Christopher
+Rank:1
+Score:76.50 + 76.50 + 75.25 + 68.25 + 86.40 + 89.30 = 472.20
+-----
+Full Name:DUTOIT Guillaume
+Rank:2
+Score:67.50 + 65.10 + 89.30 + 60.00 + 64.50 + 71.40 = 417.80
+-----
+Full Name:ABADIA Adrian
+Rank:3
+Score:58.50 + 74.80 + 69.75 + 63.00 + 69.00 + 73.50 = 408.55
+-----
+Full Name:GARCIA BOISSIER Nicolas
+Rank:4
+Score:67.50 + 69.75 + 55.50 + 61.50 + 71.75 + 76.50 = 402.50
+-----
+Full Name:KACHANOV Vyacheslav
+Rank:5
+Score:66.00 + 66.30 + 64.80 + 62.00 + 63.00 + 66.50 = 388.60
+-----
+Full Name:SCHALLER Nikolaj
+Rank:6
+Score:63.00 + 65.10 + 54.00 + 58.50 + 73.50 + 61.20 = 375.30
+-----
+Full Name:HART Alexander
+Rank:7
+Score:61.50 + 65.10 + 57.00 + 54.00 + 68.00 + 64.35 = 369.95
+-----
+Full Name:LUBE Alexander
+Rank:8
+Score:51.00 + 73.10 + 68.25 + 56.10 + 47.50 + 70.00 = 365.95
+-----
+Full Name:AZAROV Kyrylo
+Rank:9
+Score:58.50 + 69.75 + 71.40 + 69.00 + 27.00 + 68.25 = 363.90
+-----
+Full Name:SUCKOW Jonathan
+Rank:10
+Score:66.00 + 66.30 + 58.50 + 63.00 + 70.00 + 39.90 = 363.70
+-----
+Full Name:DIXON Matthew
+Rank:11
+Score:68.20 + 54.40 + 61.20 + 57.75 + 68.40 + 48.60 = 358.55
+-----
+Full Name:RUDIGER Lars
+Rank:12
+Score:52.50 + 38.50 + 21.00 + 0.00 + 0.00 + 0.00 = 112.00
+-----
+Full Name:TESSIER Benjamin
+Rank:1
+Score:67.20 + 88.40 + 67.50 + 84.15 + 74.25 + 84.60 = 466.10
+-----
+Full Name:LEE Robbie
+Rank:2
+Score:76.80 + 75.20 + 69.30 + 76.50 + 77.40 + 86.95 = 462.15
+-----
+Full Name:EIKERMANN GREGORCHUK Jaden
+Rank:3
+Score:76.80 + 75.85 + 79.20 + 81.00 + 79.90 + 68.40 = 461.15
+-----
+Full Name:HRYTSENKO Mark
+Rank:4
+Score:66.00 + 81.60 + 70.00 + 84.15 + 65.60 + 67.20 = 434.55
+-----
+Full Name:MYALIN Igor
+Rank:5
+Score:72.00 + 57.80 + 86.40 + 64.35 + 72.00 + 62.40 = 414.95
+-----
+Full Name:NAUMENKO Yevhen
+Rank:6
+Score:75.20 + 70.95 + 73.10 + 72.00 + 57.60 + 56.00 = 404.85
+-----
+Full Name:MCCABE Euan
+Rank:7
+Score:73.60 + 60.80 + 68.40 + 45.90 + 77.70 + 73.80 = 400.20
+-----
+Full Name:CHOI Gangin
+Rank:8
+Score:72.00 + 69.30 + 55.50 + 64.35 + 62.90 + 69.30 = 393.35
+-----
+Full Name:AVILA SANCHEZ Luis
+Rank:9
+Score:67.20 + 39.60 + 40.80 + 70.40 + 72.15 + 75.60 = 365.75
+-----
+Full Name:LOTFI Dariush
+Rank:10
+Score:60.80 + 57.60 + 59.40 + 54.00 + 68.00 + 62.40 = 362.20
+-----
+Full Name:CAMACHO DEL HOYO
+Rank:11
+Score:76.50 + 50.40 + 29.70 + 40.00 + 62.40 + 72.00 = 331.00
+-----
+Full Name:RODRIGUEZ LEDESMA Jorge
+Rank:12
+Score:38.40 + 57.75 + 79.20 + 59.50 + 42.55 + 48.60 = 326.00
+-----
+Full Name:LUBE Alexander & WESEMANN Moritz
+Rank:* | * | 1
+Preliminary Score:*
+Semifinal Score:*
+Final Score:47.40 + 46.80 + 79.80 + 70.35 + 78.54 + 78.66 = 401.55
+-----
+Full Name:RUDIGER Lars & BARTHEL Timo
+Rank:* | * | 2
+Preliminary Score:*
+Semifinal Score:*
+Final Score:49.80 + 49.80 + 72.45 + 66.15 + 74.46 + 68.40 = 381.06
+-----
+Full Name:ABADIA Adrian & GARCIA BOISSIER Nicolas
+Rank:* | * | 3
+Preliminary Score:*
+Semifinal Score:*
+Final Score:47.40 + 46.20 + 72.00 + 64.17 + 64.05 + 76.50 = 370.32
+-----
+Full Name:RZESZUTEK Andrzej & LESIAK Kacper
+Rank:* | * | 4
+Preliminary Score:*
+Semifinal Score:*
+Final Score:49.80 + 48.60 + 67.89 + 66.30 + 70.38 + 63.84 = 366.81
+-----
+Full Name:DUTOIT Guillaume & SUCKOW Jonathan
+Rank:* | * | 5
+Preliminary Score:*
+Semifinal Score:*
+Final Score:45.00 + 46.80 + 67.50 + 71.61 + 62.22 + 67.26 = 360.39
+-----
+Full Name:HART Alexander & SCHALLER Nikolaj
+Rank:* | * | 6
+Preliminary Score:*
+Semifinal Score:*
+Final Score:45.60 + 45.00 + 56.70 + 63.90 + 60.45 + 64.26 = 335.91
+-----
+Full Name:MYALIN Igor & KACHANOV Vyacheslav
+Rank:* | * | 7
+Preliminary Score:*
+Semifinal Score:*
+Final Score:46.20 + 40.20 + 66.60 + 64.17 + 52.20 + 52.02 = 321.39
+-----
+Full Name:CHOI Gangin & LEE Wonseop
+Rank:* | * | 8
+Preliminary Score:*
+Semifinal Score:*
+Final Score:43.80 + 37.80 + 59.52 + 56.70 + 58.50 + 53.10 = 309.42
+-----
+Full Name:PRENZYNA Espen & ROSLER Ole Johannes
+Rank:* | * | 1
+Preliminary Score:*
+Semifinal Score:*
+Final Score:52.20 + 51.60 + 74.88 + 72.27 + 69.36 + 73.92 = 394.23
+-----
+Full Name:EIKERMANN GREGORCHUK Jaden Shiloh & BARTHEL Timo
+Rank:* | * | 2
+Preliminary Score:*
+Semifinal Score:*
+Final Score:50.40 + 50.40 + 72.96 + 74.25 + 71.40 + 72.96 = 392.37
+-----
+Full Name:JACHIM Filip & LUKASZEWICZ Robert
+Rank:* | * | 3
+Preliminary Score:*
+Semifinal Score:*
+Final Score:44.40 + 46.20 + 61.20 + 72.00 + 75.24 + 65.28 = 364.32
+-----
+Full Name:AVANESOV Danylo & HRYTSENKO Mark
+Rank:* | * | 4
+Preliminary Score:*
+Semifinal Score:*
+Final Score:48.00 + 48.00 + 68.40 + 78.72 + 54.45 + 64.32 = 361.89
+-----
+Full Name:CAMACHO DEL HOYO Carlos & LINAN Max
+Rank:* | * | 5
+Preliminary Score:*
+Semifinal Score:*
+Final Score:50.40 + 45.00 + 68.40 + 63.36 + 60.39 + 72.96 = 360.51
+-----
+Full Name:AVILA SANCHEZ Luis Carlo & WALDSTEINER Tom
+Rank:* | * | 6
+Preliminary Score:*
+Semifinal Score:*
+Final Score:48.60 + 45.00 + 60.48 + 73.92 + 54.45 + 59.40 = 341.85
+-----
+Full Name:KIM Gyeongbin & KANG Jiho
+Rank:* | * | 7
+Preliminary Score:*
+Semifinal Score:*
+Final Score:43.80 + 42.60 + 53.10 + 54.72 + 68.31 + 59.16 = 321.69
+-----
