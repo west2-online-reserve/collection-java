@@ -23,7 +23,7 @@ public class Test {
 
 
               //判断是否营业
-              shop.Close(a);
+              shop.close(a);
             if (shop.isOpen()) {
 
 
@@ -37,14 +37,14 @@ public class Test {
                   String name1 = scanner.next();
                   LocalTime time1 = LocalTime.now();
                   Customer customer1 = new Customer(name1);
-                  shop.EntertainingCustomer(customer1);
+                  shop.entertainingCustomer(customer1);
 
 
               }else{
                   a=false;
               }
              //歇业信息
-                shop.Close(false);
+                shop.close(false);
 
     }
 }
