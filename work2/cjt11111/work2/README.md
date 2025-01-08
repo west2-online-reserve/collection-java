@@ -1,10 +1,11 @@
 #####1.模块接口的设计与实现过程
 ######主要思路
-![](D:\JAVA\idea\work2\主要代码.png)
+
+
 ######Athlete
-![](D:\JAVA\idea\work2\Athlete.png)
+![Image text](https://github.com/cjt11111/collection-java/blob/main/work2/cjt11111/work2/Athlete.png)
 ######contest
-![](D:\JAVA\idea\work2\contest.png)
+![Image text](https://github.com/cjt11111/collection-java/blob/main/work2/cjt11111/work2/contest.png)
 
 ####2.计算模块接口部分的性能改进
 #####core模块
@@ -19,11 +20,10 @@
 
 ####3.计算模块部分单元测试展示
 >单元测试
-![](D:\JAVA\idea\work2\单元测试1.png)
-![](D:\JAVA\idea\work2\单元测试2.png)> 
-
+![Image text](https://github.com/cjt11111/collection-java/blob/main/work2/cjt11111/work2/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%951.png)
+![Image text](https://github.com/cjt11111/collection-java/blob/main/work2/cjt11111/work2/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%952.png)
 
 
 ####4.计算模块部分异常处理说明
-#####*1.使用try catch处理错误
-#####*2.抛出异常，返回给调用者处理*
+#####(1).使用try catch处理错误
+#####(2).抛出异常，返回给调用者处理

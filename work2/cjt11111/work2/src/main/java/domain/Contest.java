@@ -5,23 +5,13 @@ import java.util.List;
 public class Contest {
     private String totalPoints;
     private int rank;
-    private  String fullName;
+    private String fullName;
     private List<String> dives;
 
-
-    public Contest() {
-    }
-
-    public Contest(String totalPoints, int rank, String fullName, List<String> dives) {
-        this.totalPoints = totalPoints;
-        this.rank = rank;
-        this.fullName = fullName;
-        this.dives = dives;
-    }
-    public String getScore(){
-        StringBuilder score=new StringBuilder();
+    public String getScore() {
+        StringBuilder score = new StringBuilder();
         for (int i = 0; i < dives.size(); i++) {
-            if(i==dives.size()-1){
+            if (i == dives.size() - 1) {
                 score.append(dives.get(i)).append(" = ");
                 break;
             }
@@ -30,6 +20,22 @@ public class Contest {
         score.append(totalPoints);
         return score.toString();
     }
+
+    @Override
+    public String toString() {
+        return "Full Name:" + fullName + "\n" +
+                "Rank:" + rank + "\n" +
+                "Score:" + getScore() + "\n" +
+                "-----";
+    }
+
+    public Contest(String totalPoints, int rank, String fullName, List<String> dives) {
+        this.totalPoints = totalPoints;
+        this.rank = rank;
+        this.fullName = fullName;
+        this.dives = dives;
+    }
+
     public String getTotalPoints() {
         return totalPoints;
     }
@@ -60,14 +66,5 @@ public class Contest {
 
     public void setDives(List<String> dives) {
         this.dives = dives;
-    }
-
-    @Override
-    public String toString() {
-        return "Full Name:" +fullName + "\n" +
-                "Rank:" + rank +"\n"+
-                "Score:" + getScore() +
-                "\n"
-                +"-----";
     }
 }
