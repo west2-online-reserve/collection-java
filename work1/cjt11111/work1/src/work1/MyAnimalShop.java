@@ -76,7 +76,7 @@ public class MyAnimalShop implements AnimalShop{
         }
 
         @Override
-        public void EntertainingCustomer(Customer customer) {
+        public void entertainingCustomer(Customer customer) {
 
 
               if(isOpen()){
@@ -127,7 +127,7 @@ public class MyAnimalShop implements AnimalShop{
         }
    public LocalTime t= LocalTime.now();
         @Override
-        public void Close(boolean c) {
+        public void close(boolean c) {
                 if(t.getHour()<OPEN_TIME||t.getHour()>CLOSE_TIME||!c) {
                         System.out.println("店铺已经休息啦~~~");
                         for (int i = 0; i < customerArrayList.size(); i++) {
