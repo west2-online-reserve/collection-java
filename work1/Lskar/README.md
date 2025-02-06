@@ -1,1 +1,1 @@
-<font size=10>宠物店作业</font>
+<p align="center">宠物店作业</p>
