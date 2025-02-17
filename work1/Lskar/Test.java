@@ -1,11 +1,12 @@
 import java.time.LocalDate;
 public class Test {
     public static void main(String[] args) {
-        //建立自己的宠物店，初始资金为1000
-        AnimalShop myAnimalShop = new MyAnimalShop(1000);
-        //初始化两位客人
+        //先设定两个日期
         LocalDate localDate1 = LocalDate.parse("2018-10-01");
         LocalDate localDate2 = LocalDate.parse("2024-07-12");
+        //建立自己的宠物店，初始资金为1000,设定当前日期
+        AnimalShop myAnimalShop = new MyAnimalShop(1000,localDate1);
+        //初始化两位客人
         Customer customer1=new Customer("小明",5,localDate1);
         Customer customer2=new Customer("小红",2,localDate2);
         //初始化3个宠物

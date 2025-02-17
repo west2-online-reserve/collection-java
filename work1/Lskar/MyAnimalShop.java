@@ -1,15 +1,20 @@
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
+
 public class MyAnimalShop implements AnimalShop {
     private double balance;
     private List<Animal> animalList;
     private List<Customer> customerList;
     private boolean isOpen;
-    public MyAnimalShop(double balance) {
+    private LocalDate nowDate;
+    public MyAnimalShop(double balance,LocalDate nowDate) {
         this.animalList=new ArrayList<>();
         this.customerList=new ArrayList<>();
         this.isOpen=true;
         this.balance=balance;
+        this.nowDate=nowDate;
     }
     @Override
     public void buyAnimal(Animal animal) {
@@ -23,7 +28,17 @@ public class MyAnimalShop implements AnimalShop {
         if (animalList.isEmpty()) {
             throw new AnimalNotFoundException("No animals available in the shop.");
         }
-        Animal soldAnimal = animalList.removeFirst();
+        System.out.println("Available animals:");
+        for(int i=0; i<animalList.size(); i++){
+            System.out.println((i+1)+"."+animalList.get(i).toString());
+        }
+        Scanner scanner=new Scanner(System.in);
+        System.out.print("Enter an animal number: ");
+        int choice=scanner.nextInt();
+        if(choice<1||choice>animalList.size()){
+            throw new InvalidAnimalNumberException("Invalid animal number");
+        }
+        Animal soldAnimal = animalList.remove(choice-1);
         System.out.println("Sold animal: " + soldAnimal);
         balance += soldAnimal.getPrice();
         customerList.add(customer);
@@ -32,7 +47,9 @@ public class MyAnimalShop implements AnimalShop {
         if (isOpen) {
             System.out.println("Customers visited today:");
             for (Customer customer : customerList) {
-                System.out.println(customer.toString());//输出顾客所有信息
+                if(customer.getLastVisitDate().equals(nowDate)) {
+                    System.out.println(customer.toString());
+                }
             }
             System.out.println("Total profit for the day: " + balance);
             isOpen = false;

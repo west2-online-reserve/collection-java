@@ -8,6 +8,9 @@ public class Customer {
         this.visitCount = visitCount;
         this.latestVisitDate = latestVisitDate;
     }
+    public LocalDate getLastVisitDate() {
+        return latestVisitDate;
+    }
     @Override
     public String toString() {
         return "Customer{"+
