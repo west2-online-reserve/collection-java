@@ -24,9 +24,9 @@ public class CoreModule {
 
     private List<Player> getAllPlayers() {
         List<Player> players = new ArrayList<>();
-        try {
-            FileReader fileReader = new FileReader(PLAYER_PATH);
-            BufferedReader bufferedReader = new BufferedReader(fileReader);
+        try (FileReader fileReader = new FileReader(PLAYER_PATH);
+             BufferedReader bufferedReader = new BufferedReader(fileReader)){
+
             Gson gson = new Gson();
             List<Country> countries = gson.fromJson(bufferedReader, new TypeToken<List<Country>>() {
             }.getType());
@@ -122,9 +122,9 @@ public class CoreModule {
 
         List<AthleteResult> sortedResults = new ArrayList<>();
 
-        try {
-            FileReader fileReader = new FileReader(path);
-            BufferedReader bufferedReader = new BufferedReader(fileReader);
+        try (FileReader fileReader = new FileReader(path);
+             BufferedReader bufferedReader = new BufferedReader(fileReader)){
+
             Gson gson = new Gson();
 
             Event event = gson.fromJson(bufferedReader, Event.class);
@@ -142,9 +142,9 @@ public class CoreModule {
 
     private List<AthleteResult> getSimpleResults(String path) {
         List<AthleteResult> simpleResults = new ArrayList<>();
-        try {
-            FileReader fileReader = new FileReader(path);
-            BufferedReader bufferedReader = new BufferedReader(fileReader);
+        try (FileReader fileReader = new FileReader(path);
+             BufferedReader bufferedReader = new BufferedReader(fileReader)){
+
             Gson gson = new Gson();
             Event event = gson.fromJson(bufferedReader, Event.class);
             Map<String, AthleteResult> athletes = getAthleteSimpleInformation(event.getHeats());
