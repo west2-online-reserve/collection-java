@@ -4,9 +4,9 @@ import com.google.gson.annotations.SerializedName;
 
 public class Dive {
     @SerializedName("DiveOrder")
-    int order;
+    private int order;
     @SerializedName("DivePoints")
-    String points;
+    private String points;
 
     public int getOrder() {
         return order;

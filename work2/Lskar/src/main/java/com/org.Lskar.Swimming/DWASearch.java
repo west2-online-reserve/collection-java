@@ -15,17 +15,17 @@ public class DWASearch {
         //String inputFile="src\\main\\java\\com\\org.Lskar.Swimming\\data\\input.txt";
         //String outputFile="src\\main\\java\\com\\org.Lskar.Swimming\\data\\output.txt";
 
-        try {
-            BufferedReader bufferedReader = new BufferedReader(new FileReader(inputFile));
-            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(outputFile));
+
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader(inputFile));
+             BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(outputFile))){
+
             CoreModule coreModule = new CoreModule();
             while ((line = bufferedReader.readLine()) != null) {
                 String result=coreModule.ProcessingCommands(line);
                 bufferedWriter.write(result);
                 bufferedWriter.newLine();
             }
-            bufferedReader.close();
-            bufferedWriter.close();
+
         }
         catch(Exception e){
             e.printStackTrace();

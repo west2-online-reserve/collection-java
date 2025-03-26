@@ -7,13 +7,13 @@ import java.util.List;
 
 public class Result {
     @SerializedName("FullName")
-    String fullName;
+    private String fullName;
     @SerializedName("Rank")
-    int rank;
+    private int rank;
     @SerializedName("TotalPoints")
-    String totalPoints;
+    private String totalPoints;
     @SerializedName("Dives")
-    List<Dive> dives;
+    private List<Dive> dives;
 
     public List<Dive> getDives() {
         return dives != null ? dives : new ArrayList<>();

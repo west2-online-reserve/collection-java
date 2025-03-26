@@ -7,9 +7,9 @@ import java.util.List;
 
 public class Heat {
     @SerializedName("Name")
-    String name;
+    private String name;
     @SerializedName("Results")
-    List<Result> results;
+    private List<Result> results;
 
     public String getName() {
         return name != null ? name : "";

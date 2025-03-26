@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Event {
     @SerializedName("Heats")
-    List<Heat> heats;
+    private List<Heat> heats;
 
     public List<Heat> getHeats() {
         return heats != null ? heats : new ArrayList<>();

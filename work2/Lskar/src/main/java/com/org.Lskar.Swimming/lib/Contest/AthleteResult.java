@@ -1,15 +1,15 @@
 package com.org.Lskar.Swimming.lib.Contest;
 
 public class AthleteResult {
-    String name;
-    String prelimRank = "*";
-    String semiRank = "*";
-    String finalRank = "*";
-    String prelimScores = "*";
-    String semiScores = "*";
-    String finalScores = "*";
-    int firstAppearanceRank = Integer.MAX_VALUE;
-    String firstAppearancePhase = "";
+    private String name;
+    private String prelimRank = "*";
+    private String semiRank = "*";
+    private String finalRank = "*";
+    private String prelimScores = "*";
+    private String semiScores = "*";
+    private String finalScores = "*";
+    private int firstAppearanceRank = Integer.MAX_VALUE;
+    private String firstAppearancePhase = "";
 
     public void setName(String name){
 
