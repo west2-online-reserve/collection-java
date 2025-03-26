@@ -1,22 +1,19 @@
-package org.Lskar.Swimming;
+package com.org.Lskar.Swimming;
 
-import org.Lskar.Swimming.utils.CoreModule;
+import com.org.Lskar.Swimming.utils.CoreModule;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
-import java.util.Scanner;
 
-public class DWSearch {
+public class DWASearch {
     public static void main(String[] args) {
         String line;
-        //String inputFile=args[0];
-        //String outputFile=args[1];
-        Scanner sc = new Scanner(System.in);
-        String inputFile = sc.nextLine();
-        String outputFile = sc.nextLine();
-
+        String inputFile=args[0];
+        String outputFile=args[1];
+        //String inputFile="src\\main\\java\\com\\org.Lskar.Swimming\\data\\input.txt";
+        //String outputFile="src\\main\\java\\com\\org.Lskar.Swimming\\data\\output.txt";
 
         try {
             BufferedReader bufferedReader = new BufferedReader(new FileReader(inputFile));
@@ -33,6 +30,5 @@ public class DWSearch {
         catch(Exception e){
             e.printStackTrace();
         }
-
     }
 }

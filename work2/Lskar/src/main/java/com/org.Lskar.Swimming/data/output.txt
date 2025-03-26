@@ -1,0 +1,392 @@
+N/A
+Error
+Full Name:BELANGER Eloise
+Rank:6
+Score:60.20 + 58.80 + 49.30 + 49.50 + 57.60 = 275.40
+-----
+Full Name:LUNDIN Amanda
+Rank:10
+Score:33.60 + 54.60 + 50.40 + 43.40 + 30.45 = 212.45
+-----
+Full Name:PRAASTERINK Else
+Rank:1
+Score:62.35 + 65.80 + 54.00 + 67.20 + 59.45 = 308.80
+-----
+Full Name:WASSEN Elena
+Rank:5
+Score:51.20 + 64.50 + 52.20 + 56.00 + 62.40 = 286.30
+-----
+Full Name:SANTIAGO Dominique
+Rank:11
+Score:42.00 + 28.50 + 20.25 + 41.60 + 44.95 = 177.30
+-----
+Full Name:BOND Maisie
+Rank:8
+Score:72.00 + 47.85 + 40.50 + 44.80 + 60.20 = 265.35
+-----
+Full Name:MUSCALU Nicoleta-Angelica
+Rank:7
+Score:55.50 + 49.60 + 56.55 + 52.80 + 52.80 = 267.25
+-----
+Full Name:PFEIF Pauline Alexandra
+Rank:4
+Score:62.40 + 35.20 + 72.50 + 56.00 + 63.00 = 289.10
+-----
+Full Name:CARVAJAL Ana
+Rank:9
+Score:33.60 + 61.50 + 29.00 + 67.20 + 49.40 = 240.70
+-----
+Full Name:ANTOLINO Valeria
+Rank:3
+Score:49.50 + 52.80 + 52.20 + 75.20 + 62.40 = 292.10
+-----
+Full Name:FUNG Katelyn
+Rank:2
+Score:58.80 + 54.60 + 57.60 + 54.00 + 72.00 = 297.00
+-----
+
+Full Name: Alexander HART
+Gender: 0
+Country: Austria
+-----
+Full Name: Dariush LOTFI
+Gender: 0
+Country: Austria
+-----
+Full Name: Nikolaj SCHALLER
+Gender: 0
+Country: Austria
+-----
+Full Name: Tazman ABRAMOWICZ
+Gender: 0
+Country: Canada
+-----
+Full Name: Eloise BELANGER
+Gender: 1
+Country: Canada
+-----
+Full Name: Elaena DICK
+Gender: 1
+Country: Canada
+-----
+Full Name: Margo ERLAM
+Gender: 1
+Country: Canada
+-----
+Full Name: Katelyn FUNG
+Gender: 1
+Country: Canada
+-----
+Full Name: Amelie-Laura JASMIN
+Gender: 1
+Country: Canada
+-----
+Full Name: Benjamin TESSIER
+Gender: 0
+Country: Canada
+-----
+Full Name: Aimee WILSON
+Gender: 1
+Country: Canada
+-----
+Full Name: Tereza JELINKOVA
+Gender: 1
+Country: Czechia
+-----
+Full Name: Dominique SANTIAGO
+Gender: 1
+Country: Czechia
+-----
+Full Name: Tornike ONIKASHVILI
+Gender: 0
+Country: Georgia
+-----
+Full Name: Irakli SAKANDELIDZE
+Gender: 0
+Country: Georgia
+-----
+Full Name: Mariam SHANIDZE
+Gender: 1
+Country: Georgia
+-----
+Full Name: Tekle SHARIA
+Gender: 1
+Country: Georgia
+-----
+Full Name: Giorgi TSULUKIDZE
+Gender: 0
+Country: Georgia
+-----
+Full Name: Luis Carlo AVILA SANCHEZ
+Gender: 0
+Country: Germany
+-----
+Full Name: Timo BARTHEL
+Gender: 0
+Country: Germany
+-----
+Full Name: Carolina COORDES
+Gender: 1
+Country: Germany
+-----
+Full Name: Jaden Shiloh EIKERMANN GREGORCHUK
+Gender: 0
+Country: Germany
+-----
+Full Name: Lena HENTSCHEL
+Gender: 1
+Country: Germany
+-----
+Full Name: Alexander LUBE
+Gender: 0
+Country: Germany
+-----
+Full Name: Jette MULLER
+Gender: 1
+Country: Germany
+-----
+Full Name: Saskia OETTINGHAUS
+Gender: 1
+Country: Germany
+-----
+Full Name: Pauline Alexandra PFEIF
+Gender: 1
+Country: Germany
+-----
+Full Name: Espen PRENZYNA
+Gender: 0
+Country: Germany
+-----
+Full Name: Ole Johannes ROSLER
+Gender: 0
+Country: Germany
+-----
+Full Name: Jana Lisa ROTHER
+Gender: 1
+Country: Germany
+-----
+Full Name: Lars RUDIGER
+Gender: 0
+Country: Germany
+-----
+Full Name: Tom Laszlo WALDSTEINER
+Gender: 0
+Country: Germany
+-----
+Full Name: Elena WASSEN
+Gender: 1
+Country: Germany
+-----
+Full Name: Christina WASSEN
+Gender: 1
+Country: Germany
+-----
+Full Name: Moritz WESEMANN
+Gender: 0
+Country: Germany
+-----
+Full Name: Desharne BENT-ASHMEIL
+Gender: 1
+Country: Great Britain
+-----
+Full Name: Maisie BOND
+Gender: 1
+Country: Great Britain
+-----
+Full Name: Matthew DIXON
+Gender: 0
+Country: Great Britain
+-----
+Full Name: James HEATLY
+Gender: 0
+Country: Great Britain
+-----
+Full Name: Jordan Christopher HOULDEN
+Gender: 0
+Country: Great Britain
+-----
+Full Name: Robbie LEE
+Gender: 0
+Country: Great Britain
+-----
+Full Name: Euan MCCABE
+Gender: 0
+Country: Great Britain
+-----
+Full Name: Amy ROLLINSON
+Gender: 1
+Country: Great Britain
+-----
+Full Name: Athanasios TSIRIKOS
+Gender: 0
+Country: Greece
+-----
+Full Name: Inge JANSEN
+Gender: 1
+Country: Netherlands
+-----
+Full Name: Else PRAASTERINK
+Gender: 1
+Country: Netherlands
+-----
+Full Name: Celine VAN DUIJN
+Gender: 1
+Country: Netherlands
+-----
+Full Name: Aleksandra BLAZOWSKA
+Gender: 1
+Country: Poland
+-----
+Full Name: Filip JACHIM
+Gender: 0
+Country: Poland
+-----
+Full Name: Kacper LESIAK
+Gender: 0
+Country: Poland
+-----
+Full Name: Robert LUKASZEWICZ
+Gender: 0
+Country: Poland
+-----
+Full Name: Andrzej RZESZUTEK
+Gender: 0
+Country: Poland
+-----
+Full Name: Kaja SKRZEK
+Gender: 1
+Country: Poland
+-----
+Full Name: Sunjin BAEK
+Gender: 1
+Country: Republic of Korea
+-----
+Full Name: Gangin CHOI
+Gender: 0
+Country: Republic of Korea
+-----
+Full Name: Jiwoo HAN
+Gender: 1
+Country: Republic of Korea
+-----
+Full Name: Jiho KANG
+Gender: 0
+Country: Republic of Korea
+-----
+Full Name: Gyeongbin KIM
+Gender: 0
+Country: Republic of Korea
+-----
+Full Name: Yejoo LEE
+Gender: 1
+Country: Republic of Korea
+-----
+Full Name: Wonseop LEE
+Gender: 0
+Country: Republic of Korea
+-----
+Full Name: Sooyeon OH
+Gender: 1
+Country: Republic of Korea
+-----
+Full Name: Nicoleta-Angelica MUSCALU
+Gender: 1
+Country: Romania
+-----
+Full Name: Adrian ABADIA
+Gender: 0
+Country: Spain
+-----
+Full Name: Valeria ANTOLINO
+Gender: 1
+Country: Spain
+-----
+Full Name: Carlos CAMACHO DEL HOYO
+Gender: 0
+Country: Spain
+-----
+Full Name: Ana CARVAJAL
+Gender: 1
+Country: Spain
+-----
+Full Name: Nicolas GARCIA BOISSIER
+Gender: 0
+Country: Spain
+-----
+Full Name: Max LINAN
+Gender: 0
+Country: Spain
+-----
+Full Name: Maria PAPWORTH BURREL
+Gender: 1
+Country: Spain
+-----
+Full Name: Jorge RODRIGUEZ LEDESMA
+Gender: 0
+Country: Spain
+-----
+Full Name: Rocio VELAZQUEZ
+Gender: 1
+Country: Spain
+-----
+Full Name: Amanda LUNDIN
+Gender: 1
+Country: Sweden
+-----
+Full Name: Madeline COQUOZ
+Gender: 1
+Country: Switzerland
+-----
+Full Name: Guillaume DUTOIT
+Gender: 0
+Country: Switzerland
+-----
+Full Name: Jonathan SUCKOW
+Gender: 0
+Country: Switzerland
+-----
+Full Name: Danylo AVANESOV
+Gender: 0
+Country: Ukraine
+-----
+Full Name: Kyrylo AZAROV
+Gender: 0
+Country: Ukraine
+-----
+Full Name: Bohdan CHYZHOVSKYI
+Gender: 0
+Country: Ukraine
+-----
+Full Name: Mark HRYTSENKO
+Gender: 0
+Country: Ukraine
+-----
+Full Name: Viktoriya KESAR
+Gender: 1
+Country: Ukraine
+-----
+Full Name: Danylo KONOVALOV
+Gender: 0
+Country: Ukraine
+-----
+Full Name: Yevhen NAUMENKO
+Gender: 0
+Country: Ukraine
+-----
+Full Name: Stanislav OLIFERCHYK
+Gender: 0
+Country: Ukraine
+-----
+Full Name: Anna PYSMENSKA
+Gender: 1
+Country: Ukraine
+-----
+Full Name: Vyacheslav KACHANOV
+Gender: 0
+Country: Uzbekistan
+-----
+Full Name: Igor MYALIN
+Gender: 0
+Country: Uzbekistan
+-----
+
