@@ -1,7 +1,7 @@
 package learn_java1;
 
 public class InsufficientBalanceException extends RuntimeException {
-    String message;
+    private final String message;
 
     public InsufficientBalanceException() {
         message = "店内余额不足";

@@ -3,9 +3,9 @@ package learn_java1;
 import java.time.LocalDate;
 
 public class Customer implements Comparable<Customer> {
-    String name;//名字
-    int numOfVisits;//光临次数
-    LocalDate latestArrivalTime;//最近光临的时间
+    private String name;//名字
+    private int numOfVisits;//光临次数
+    private LocalDate latestArrivalTime;//最近光临的时间
 
     public String getName() {
         return name;
@@ -31,6 +31,10 @@ public class Customer implements Comparable<Customer> {
         this.name = name;
         this.numOfVisits = numOfVisits;
         this.latestArrivalTime = latestArrivalTime;
+    }
+
+    public void addNumOfVisits(){
+        numOfVisits++;
     }
 
     @Override

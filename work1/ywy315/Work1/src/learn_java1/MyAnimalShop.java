@@ -6,11 +6,11 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class MyAnimalShop implements AnimalShop {
-    boolean isClosed;//是否营业
-    double balance;//余额
-    double profit;
-    ArrayList<Animal> animals;//存放动物的列表
-    ArrayList<Customer> customers;//存放光临过客户的列表，假设所有客户名字均不相同
+    private boolean isClosed;//是否营业
+    private double balance;//余额
+    private double profit;//利润
+    private ArrayList<Animal> animals;//存放动物的列表
+    private ArrayList<Customer> customers;//存放光临过客户的列表，假设所有客户名字均不相同
 
     public MyAnimalShop(boolean isClosed, double balance, ArrayList<Animal> animals, ArrayList<Customer> customers) {
         this.isClosed = isClosed;
@@ -29,7 +29,7 @@ public class MyAnimalShop implements AnimalShop {
     public void CloseShop(LocalDate date) {
         System.out.println("今日为" + date + "，利润为" + profit + "元" + "，店资金余额为" + balance + "元，下面为该日光临过的客户信息");
         for (Customer customer : customers) {
-            if (customer.latestArrivalTime == date) {
+            if (customer.getLatestArrivalTime() == date) {
                 System.out.println(customer.toString());
             }
         }
@@ -56,7 +56,7 @@ public class MyAnimalShop implements AnimalShop {
         }
         System.out.println("尊贵的客户" + customer.getName() + "已完成购入，请下次再来");
         customers.removeIf(p -> p.getName().equals(customer.getName()));
-        customer.numOfVisits++;
+        customer.addNumOfVisits();
         customers.add(customer);
 
         profit += animals.get(choice - 1).getPrice() - animals.get(choice - 1).getPurchasePrice();

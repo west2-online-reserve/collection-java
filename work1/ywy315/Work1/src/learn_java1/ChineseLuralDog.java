@@ -1,7 +1,7 @@
 package learn_java1;
 
 public class ChineseLuralDog extends Animal {
-    boolean isVaccineInjected;//是否打过疫苗
+    private boolean isVaccineInjected;//是否打过疫苗
 
     public ChineseLuralDog(String name, int age, char gender, boolean isVaccineInjected, double price, double purchasePrice) {
         super(name, age, gender, price, purchasePrice);
