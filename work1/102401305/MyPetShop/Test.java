@@ -34,12 +34,12 @@ public class Test {
                 //欢迎新老顾客前来选购（载入老顾客信息）
                 BanGDreamPetShop.initialCustomerInformation(Sakiko);
                 BanGDreamPetShop.initialCustomerInformation(Yukina);
-               BanGDreamPetShop.initialCustomerInformation(Rikki);
+                BanGDreamPetShop.initialCustomerInformation(Rikki);
                 //这里如果给顾客设置的最新到店时间是今天 那程序就会变成很麻烦（？ 比如小店没买到宠物今天歇业了 但是Rikki今天来过 我要输出她的信息
                 //那我就需要提前载入她的信息（因为后面顾客没办法再到店购买了 更新顾客信息的方法不会被调用
                 //如果提前载入的话 那就要在关店输出顾客信息时候做一个筛选
 
-                //倒霉店主钱没带够
+                //倒霉店主钱没带够就去买宠物了
                 try {
                         BanGDreamPetShop.buyNewAnimal(Uika);
                         BanGDreamPetShop.buyNewAnimal(Lisa);
@@ -49,7 +49,7 @@ public class Test {
                 }
 
                 //而且店主一只宠物也没买到
-                if (BanGDreamPetShop.listAnimal.isEmpty()) {
+                if (!BanGDreamPetShop.isOpening()) {
                         System.out.println("很遗憾通知各位顾客 小店由于店主今天没买到宠物提前歇业了（悲\n");
                         BanGDreamPetShop.closeShop();
                         return;

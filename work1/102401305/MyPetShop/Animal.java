@@ -1,12 +1,12 @@
 package MyPetShop;
 
 public abstract class Animal {
-    String nameAnimal;
-    int ageAnimal;
-    char genderAnimal;
-    double purchasePriceAnimal;
-    double sellPriceAnimal;
-    String master;
+    protected String nameAnimal;
+    protected int ageAnimal;
+    protected char genderAnimal;
+    protected double purchasePriceAnimal;
+    protected double sellPriceAnimal;
+    private String master;
 
     Animal(String name, int age, char gender, double purchasePriceAnimal, double sellPriceAnimal){
         nameAnimal = name;

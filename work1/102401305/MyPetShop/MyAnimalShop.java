@@ -6,11 +6,11 @@ import java.util.Objects;
 
 public class MyAnimalShop implements AnimalShop{
 
-    double balance;
-    double profit = 0;
-    ArrayList<Animal> listAnimal = new ArrayList<>();
-    ArrayList<Customer> listCustomer = new ArrayList<>();
-    boolean isOpen;
+    private double balance;
+    private double profit = 0;
+    private ArrayList<Animal> listAnimal = new ArrayList<>();
+    private ArrayList<Customer> listCustomer = new ArrayList<>();
+    private boolean isOpen = false;
 
     MyAnimalShop() {}
 
@@ -24,6 +24,7 @@ public class MyAnimalShop implements AnimalShop{
         if(balance - animal.purchasePriceAnimal < 0) throw new InsufficientBalanceException("您的余额不足");
         balance -= animal.purchasePriceAnimal;
         listAnimal.add(animal);
+        isOpen = true;
         System.out.println("购买成功:\n"+animal.getAnimalInformation());
         System.out.println("店内余额:"+balance+"\n");
     }
@@ -75,6 +76,11 @@ public class MyAnimalShop implements AnimalShop{
             if (Objects.equals(customer.getLatestTime(), LocalDate.now())) System.out.println(customer.toString()+"\n");
         }
         System.out.println("今日份收益:"+profit);
+    }
+
+    //检测是否歇业
+    boolean isOpening() {
+        return isOpen;
     }
 
 }
