@@ -1,0 +1,14 @@
+[
+  {
+    "CountryName": "USA",
+    "Gender": 1,
+    "PreferredLastName": "Smith",
+    "PreferredFirstName": "John"
+  },
+  {
+    "CountryName": "Canada",
+    "Gender": 0,
+    "PreferredLastName": "Doe",
+    "PreferredFirstName": "Jane"
+  }
+]
