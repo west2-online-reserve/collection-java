@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Main-Class: com.westonline.DWASearch
+Class-Path: junit-jupiter-engine-5.11.3.jar apiguardian-api-1.1.2.jar op
+ entest4j-1.3.0.jar junit-platform-commons-1.11.3.jar ObjectMapper-0.2.3
+ .jar junit-jupiter-5.11.3.jar junit-platform-engine-1.11.3.jar fastjson
+ -2.0.42.jar junit-jupiter-api-5.11.3.jar fastjson2-2.0.42.jar jsoup-1.1
+ 8.1.jar fastjson2-extension-2.0.42.jar junit-jupiter-params-5.11.3.jar 
+ gson-2.10.1.jar
+

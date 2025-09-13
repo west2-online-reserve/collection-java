@@ -1,0 +1,416 @@
+Final:
+TotalPoints:67.20
+TotalPoints:155.60
+TotalPoints:223.10
+TotalPoints:307.25
+TotalPoints:381.50
+TotalPoints:466.10
+Rank:1
+FullName:TESSIER Benjamin
+
+TotalPoints:76.80
+TotalPoints:152.00
+TotalPoints:221.30
+TotalPoints:297.80
+TotalPoints:375.20
+TotalPoints:462.15
+Rank:2
+FullName:LEE Robbie
+
+TotalPoints:76.80
+TotalPoints:152.65
+TotalPoints:231.85
+TotalPoints:312.85
+TotalPoints:392.75
+TotalPoints:461.15
+Rank:3
+FullName:EIKERMANN GREGORCHUK Jaden
+
+TotalPoints:66.00
+TotalPoints:147.60
+TotalPoints:217.60
+TotalPoints:301.75
+TotalPoints:367.35
+TotalPoints:434.55
+Rank:4
+FullName:HRYTSENKO Mark
+
+TotalPoints:72.00
+TotalPoints:129.80
+TotalPoints:216.20
+TotalPoints:280.55
+TotalPoints:352.55
+TotalPoints:414.95
+Rank:5
+FullName:MYALIN Igor
+
+TotalPoints:75.20
+TotalPoints:146.15
+TotalPoints:219.25
+TotalPoints:291.25
+TotalPoints:348.85
+TotalPoints:404.85
+Rank:6
+FullName:NAUMENKO Yevhen
+
+TotalPoints:73.60
+TotalPoints:134.40
+TotalPoints:202.80
+TotalPoints:248.70
+TotalPoints:326.40
+TotalPoints:400.20
+Rank:7
+FullName:MCCABE Euan
+
+TotalPoints:72.00
+TotalPoints:141.30
+TotalPoints:196.80
+TotalPoints:261.15
+TotalPoints:324.05
+TotalPoints:393.35
+Rank:8
+FullName:CHOI Gangin
+
+TotalPoints:67.20
+TotalPoints:106.80
+TotalPoints:147.60
+TotalPoints:218.00
+TotalPoints:290.15
+TotalPoints:365.75
+Rank:9
+FullName:AVILA SANCHEZ Luis
+
+TotalPoints:60.80
+TotalPoints:118.40
+TotalPoints:177.80
+TotalPoints:231.80
+TotalPoints:299.80
+TotalPoints:362.20
+Rank:10
+FullName:LOTFI Dariush
+
+TotalPoints:76.50
+TotalPoints:126.90
+TotalPoints:156.60
+TotalPoints:196.60
+TotalPoints:259.00
+TotalPoints:331.00
+Rank:11
+FullName:CAMACHO DEL HOYO
+
+TotalPoints:38.40
+TotalPoints:96.15
+TotalPoints:175.35
+TotalPoints:234.85
+TotalPoints:277.40
+TotalPoints:326.00
+Rank:12
+FullName:RODRIGUEZ LEDESMA Jorge
+
+Semifinal:
+TotalPoints:72.00
+TotalPoints:158.70
+TotalPoints:224.70
+TotalPoints:308.85
+TotalPoints:393.00
+TotalPoints:463.20
+Rank:1
+FullName:TESSIER Benjamin
+
+TotalPoints:70.40
+TotalPoints:137.60
+TotalPoints:216.80
+TotalPoints:269.50
+TotalPoints:339.70
+TotalPoints:428.50
+Rank:2
+FullName:LEE Robbie
+
+TotalPoints:76.80
+TotalPoints:142.40
+TotalPoints:216.20
+TotalPoints:292.70
+TotalPoints:361.15
+TotalPoints:425.95
+Rank:3
+FullName:MCCABE Euan
+
+TotalPoints:54.40
+TotalPoints:121.00
+TotalPoints:200.20
+TotalPoints:275.80
+TotalPoints:343.80
+TotalPoints:415.80
+Rank:4
+FullName:EIKERMANN GREGORCHUK Jaden
+
+TotalPoints:62.40
+TotalPoints:126.75
+TotalPoints:193.05
+TotalPoints:258.65
+TotalPoints:330.80
+TotalPoints:410.00
+Rank:5
+FullName:AVILA SANCHEZ Luis
+
+TotalPoints:72.00
+TotalPoints:148.80
+TotalPoints:216.00
+TotalPoints:258.90
+TotalPoints:326.10
+TotalPoints:386.90
+Rank:6
+FullName:HRYTSENKO Mark
+
+TotalPoints:70.50
+TotalPoints:133.50
+TotalPoints:197.85
+TotalPoints:231.45
+TotalPoints:306.65
+TotalPoints:377.05
+Rank:7
+FullName:CAMACHO DEL HOYO
+
+TotalPoints:72.00
+TotalPoints:146.25
+TotalPoints:176.85
+TotalPoints:248.85
+TotalPoints:309.65
+TotalPoints:376.85
+Rank:8
+FullName:NAUMENKO Yevhen
+
+TotalPoints:67.20
+TotalPoints:102.90
+TotalPoints:180.30
+TotalPoints:241.35
+TotalPoints:311.85
+TotalPoints:371.05
+Rank:9
+FullName:MYALIN Igor
+
+TotalPoints:62.40
+TotalPoints:124.80
+TotalPoints:187.50
+TotalPoints:246.00
+TotalPoints:305.50
+TotalPoints:343.90
+Rank:10
+FullName:LOTFI Dariush
+
+TotalPoints:68.80
+TotalPoints:133.15
+TotalPoints:199.75
+TotalPoints:234.40
+TotalPoints:290.50
+TotalPoints:335.05
+Rank:11
+FullName:CHOI Gangin
+
+TotalPoints:60.80
+TotalPoints:105.35
+TotalPoints:163.10
+TotalPoints:239.60
+TotalPoints:265.50
+TotalPoints:328.50
+Rank:12
+FullName:RODRIGUEZ LEDESMA Jorge
+
+TotalPoints:54.00
+TotalPoints:93.60
+TotalPoints:157.15
+TotalPoints:193.15
+TotalPoints:255.55
+TotalPoints:325.95
+Rank:13
+FullName:TSIRIKOS Athanasios
+
+TotalPoints:40.50
+TotalPoints:94.90
+TotalPoints:136.15
+TotalPoints:167.50
+TotalPoints:228.30
+TotalPoints:296.30
+Rank:14
+FullName:LUKASZEWICZ Robert
+
+TotalPoints:57.00
+TotalPoints:116.20
+TotalPoints:165.70
+TotalPoints:220.30
+TotalPoints:233.50
+TotalPoints:287.15
+Rank:15
+FullName:KIM Gyeongbin
+
+Preliminary:
+TotalPoints:64.00
+TotalPoints:132.00
+TotalPoints:196.50
+TotalPoints:270.75
+TotalPoints:356.55
+TotalPoints:435.75
+Rank:1
+FullName:TESSIER Benjamin
+
+TotalPoints:75.20
+TotalPoints:147.20
+TotalPoints:229.70
+TotalPoints:294.30
+TotalPoints:369.90
+TotalPoints:430.95
+Rank:2
+FullName:LEE Robbie
+
+TotalPoints:80.00
+TotalPoints:139.40
+TotalPoints:215.90
+TotalPoints:283.40
+TotalPoints:339.40
+TotalPoints:411.40
+Rank:3
+FullName:NAUMENKO Yevhen
+
+TotalPoints:72.00
+TotalPoints:130.80
+TotalPoints:175.35
+TotalPoints:256.95
+TotalPoints:330.55
+TotalPoints:407.35
+Rank:4
+FullName:CAMACHO DEL HOYO
+
+TotalPoints:65.60
+TotalPoints:131.60
+TotalPoints:184.30
+TotalPoints:238.70
+TotalPoints:305.30
+TotalPoints:380.90
+Rank:5
+FullName:AVILA SANCHEZ Luis
+
+TotalPoints:72.00
+TotalPoints:138.60
+TotalPoints:217.80
+TotalPoints:264.60
+TotalPoints:315.60
+TotalPoints:380.40
+Rank:6
+FullName:EIKERMANN GREGORCHUK Jaden
+
+TotalPoints:65.60
+TotalPoints:95.30
+TotalPoints:158.00
+TotalPoints:220.90
+TotalPoints:298.60
+TotalPoints:372.40
+Rank:7
+FullName:RODRIGUEZ LEDESMA Jorge
+
+TotalPoints:54.00
+TotalPoints:103.50
+TotalPoints:168.60
+TotalPoints:231.60
+TotalPoints:300.40
+TotalPoints:367.60
+Rank:8
+FullName:TSIRIKOS Athanasios
+
+TotalPoints:65.60
+TotalPoints:102.40
+TotalPoints:151.00
+TotalPoints:230.90
+TotalPoints:279.00
+TotalPoints:360.00
+Rank:9
+FullName:MCCABE Euan
+
+TotalPoints:56.00
+TotalPoints:118.40
+TotalPoints:184.40
+TotalPoints:241.40
+TotalPoints:294.10
+TotalPoints:358.10
+Rank:10
+FullName:LOTFI Dariush
+
+TotalPoints:62.40
+TotalPoints:103.20
+TotalPoints:171.60
+TotalPoints:227.70
+TotalPoints:290.70
+TotalPoints:357.90
+Rank:11
+FullName:MYALIN Igor
+
+TotalPoints:61.50
+TotalPoints:120.70
+TotalPoints:157.00
+TotalPoints:220.00
+TotalPoints:279.40
+TotalPoints:331.60
+Rank:12
+FullName:KIM Gyeongbin
+
+TotalPoints:65.60
+TotalPoints:120.05
+TotalPoints:186.65
+TotalPoints:229.55
+TotalPoints:280.55
+TotalPoints:330.05
+Rank:13
+FullName:CHOI Gangin
+
+TotalPoints:66.00
+TotalPoints:120.40
+TotalPoints:173.60
+TotalPoints:211.55
+TotalPoints:269.15
+TotalPoints:328.35
+Rank:14
+FullName:HRYTSENKO Mark
+
+TotalPoints:43.50
+TotalPoints:91.10
+TotalPoints:148.70
+TotalPoints:204.70
+TotalPoints:259.15
+TotalPoints:326.35
+Rank:15
+FullName:LINAN Max
+
+TotalPoints:67.20
+TotalPoints:134.40
+TotalPoints:174.00
+TotalPoints:194.40
+TotalPoints:259.20
+TotalPoints:322.20
+Rank:16
+FullName:AVANESOV Danylo
+
+TotalPoints:48.00
+TotalPoints:100.80
+TotalPoints:148.40
+TotalPoints:206.00
+TotalPoints:237.45
+TotalPoints:296.85
+Rank:17
+FullName:WALDSTEINER Tom Laszlo
+
+TotalPoints:42.00
+TotalPoints:94.80
+TotalPoints:145.95
+TotalPoints:187.20
+TotalPoints:246.40
+TotalPoints:290.60
+Rank:18
+FullName:LUKASZEWICZ Robert
+
+TotalPoints:39.00
+TotalPoints:82.20
+TotalPoints:111.90
+TotalPoints:128.40
+TotalPoints:177.70
+TotalPoints:216.65
+Rank:19
+FullName:KANG Jiho
