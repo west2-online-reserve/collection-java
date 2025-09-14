@@ -1,7 +1,0 @@
-players
-result men 10m platform detail
-result women 10m platform
-result men 1m springboard detail
-result women 3m springboard detail
-pla
-result men 3m synchronised
