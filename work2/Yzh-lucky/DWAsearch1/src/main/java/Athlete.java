@@ -46,7 +46,7 @@ public class Athlete {
     public int getGender() {
         return gender;
     }
-    public String getcountry() {
+    public String getCountry() {
         return country;
     }
 

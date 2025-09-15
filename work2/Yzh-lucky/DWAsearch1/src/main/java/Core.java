@@ -20,15 +20,15 @@ public class Core implements CoreInterface,ParseInterface {
         String[] divesScores3 = new String[10];
 
         public static String toString(String[] scores) {
-            String str=new String();
+            StringBuilder sb=new StringBuilder();
             for (int i=0;i<scores.length;i++){
                 if (scores[i]!=null) {
-                    str.concat((scores[i]+"+"));
+                    sb.append((scores[i]+"+"));
                 } else {
                     break;
                 }
             }
-            return str;
+            return sb.toString();
         }
     }
 
@@ -70,7 +70,7 @@ public class Core implements CoreInterface,ParseInterface {
             Collections.sort(athletes,new Comparator<Athlete>(){
                 @Override
                 public int compare(Athlete a1, Athlete a2) {
-                    int countryCompare = a1.getcountry().compareTo(a2.getcountry());
+                    int countryCompare = a1.getCountry().compareTo(a2.getCountry());
                     //先以国家首字母排序
                     if (countryCompare!=0)
                         return countryCompare;
@@ -79,7 +79,7 @@ public class Core implements CoreInterface,ParseInterface {
             });
             for (Athlete athlete : athletes){
                 StringBuilder sb = new StringBuilder();
-                sb.append("FullName:" +  athlete.getFullName() + "\nGender:" + (athlete.getGender()==0 ? "MALE" : "FEMALE") + "\nCountry:" + athlete.getcountry() + "\n" + "-----\n");
+                sb.append("FullName:" +  athlete.getFullName() + "\nGender:" + (athlete.getGender()==0 ? "MALE" : "FEMALE") + "\nCountry:" + athlete.getCountry() + "\n" + "-----\n");
                 bw.write(sb.toString() + "\n");
             }
         } catch (Exception e){
