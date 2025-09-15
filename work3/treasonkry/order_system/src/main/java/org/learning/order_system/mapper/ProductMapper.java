@@ -12,10 +12,13 @@ public interface ProductMapper {
     void deleteProduct(Integer productId);
     @Update("update product set product_name = #{productName}, product_price = #{productPrice},quantity=#{quantity},is_deleted=#{isDeleted} where product_id=#{productId}")
     void updateProduct(Product product);
-    @Select("select * from product where product_id=#{productId}")
+    @Select("select product_name, product_price, quantity, is_deleted from product where product_id=#{productId}")
     Product getProduct(Integer productId);
-    @Select("select * from product")
+    @Select("select product_name, product_price, quantity, is_deleted from product")
     List<Product> getAllProducts();
     @Update("update product set quantity=quantity-#{reduceQuantity} where product_id=#{productId}")
     void reduceQuantity(Integer productId, Integer reduceQuantity);
+    //实现软删除，实际上是修改操作
+    @Update("update product set is_deleted=1;")
+    void softDeleteProduct(Integer productId);
 }

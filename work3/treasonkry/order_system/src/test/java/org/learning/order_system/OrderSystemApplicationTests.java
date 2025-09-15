@@ -45,4 +45,8 @@ class OrderSystemApplicationTests {
         orderRequest.setOrderItemRequests(orderItemRequests);
         orderService.insertOrder(orderRequest);
     }
+    @Test
+    void displayOrderTest(){
+        System.out.println(orderService.selectAllOrders());
+    }
 }

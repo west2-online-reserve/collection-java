@@ -55,7 +55,6 @@ public class OrderServiceImpl implements OrderService {
         try {
             for(OrderRequest.OrderItemRequest orderItemRequest:orderRequest.getOrderItemRequests()){
                 if(checkQuantity(orderItemRequest)==false){
-                    orderMapper.deleteOrder(orderId);
                     throw new RuntimeException("库存不足");
                 }else{
                     OrderItem orderItem = new OrderItem();

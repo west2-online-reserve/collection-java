@@ -26,8 +26,9 @@ public class ProductServiceImpl implements ProductService {
     public Product getProduct(Integer id) {
         return productMapper.getProduct(id);
     }
+    //采用软删除机制
     @Override
     public void deleteProduct(Integer productId) {
-        productMapper.deleteProduct(productId);
+        productMapper.softDeleteProduct(productId);
     }
 }
