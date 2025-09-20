@@ -1,0 +1,114 @@
+[
+  {
+    "FullName": "HENTSCHEL Lena & MULLER Jette",
+    "PhaseName": "Finals",
+    "Rank": 1,
+    "TotalScore": "287.13",
+    "Scores": [
+      "46.80",
+      "45.60",
+      "61.20",
+      "66.03",
+      "67.50"
+    ],
+    "PersonId": "153965127169"
+  },
+  {
+    "FullName": "BENT-ASHMEIL Desharne & ROLLINSON Amy",
+    "PhaseName": "Finals",
+    "Rank": 2,
+    "TotalScore": "281.70",
+    "Scores": [
+      "46.20",
+      "42.00",
+      "66.60",
+      "63.90",
+      "63.00"
+    ],
+    "PersonId": "198301198190"
+  },
+  {
+    "FullName": "ERLAM Margo & WILSON Aimee",
+    "PhaseName": "Finals",
+    "Rank": 3,
+    "TotalScore": "273.90",
+    "Scores": [
+      "41.40",
+      "44.40",
+      "63.90",
+      "62.10",
+      "62.10"
+    ],
+    "PersonId": "153662212971"
+  },
+  {
+    "FullName": "JANSEN Inge & VAN DUIJN Celine",
+    "PhaseName": "Finals",
+    "Rank": 4,
+    "TotalScore": "260.40",
+    "Scores": [
+      "42.60",
+      "41.40",
+      "53.10",
+      "59.40",
+      "63.90"
+    ],
+    "PersonId": "102186101810"
+  },
+  {
+    "FullName": "KESAR Viktoriya & PYSMENSKA Anna",
+    "PhaseName": "Finals",
+    "Rank": 5,
+    "TotalScore": "252.90",
+    "Scores": [
+      "43.80",
+      "40.80",
+      "54.00",
+      "55.80",
+      "58.50"
+    ],
+    "PersonId": "103184112781"
+  },
+  {
+    "FullName": "LEE Yejoo & OH Sooyeon",
+    "PhaseName": "Finals",
+    "Rank": 6,
+    "TotalScore": "190.20",
+    "Scores": [
+      "39.60",
+      "30.00",
+      "40.50",
+      "37.80",
+      "42.30"
+    ],
+    "PersonId": "214036198287"
+  },
+  {
+    "FullName": "PAPWORTH BURREL Maria & VELAZQUEZ Rocio",
+    "PhaseName": "Finals",
+    "Rank": 7,
+    "TotalScore": "185.40",
+    "Scores": [
+      "45.60",
+      "40.80",
+      "54.90",
+      "0.00",
+      "44.10"
+    ],
+    "PersonId": "154372102103"
+  },
+  {
+    "FullName": "SHANIDZE Mariam & SHARIA Tekle",
+    "PhaseName": "Finals",
+    "Rank": 8,
+    "TotalScore": "0.00",
+    "Scores": [
+      "0.00",
+      "0.00",
+      "0.00",
+      "0.00",
+      "0.00"
+    ],
+    "PersonId": "246412246413"
+  }
+]

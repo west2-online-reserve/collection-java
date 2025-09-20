@@ -1,0 +1,122 @@
+[
+  {
+    "FullName": "LUBE Alexander & WESEMANN Moritz",
+    "PhaseName": "Finals",
+    "Rank": 1,
+    "TotalScore": "401.55",
+    "Scores": [
+      "47.40",
+      "46.80",
+      "79.80",
+      "70.35",
+      "78.54",
+      "78.66"
+    ],
+    "PersonId": "193015193337"
+  },
+  {
+    "FullName": "ABADIA Adrian & GARCIA BOISSIER Nicolas",
+    "PhaseName": "Finals",
+    "Rank": 2,
+    "TotalScore": "370.32",
+    "Scores": [
+      "47.40",
+      "46.20",
+      "72.00",
+      "64.17",
+      "64.05",
+      "76.50"
+    ],
+    "PersonId": "154192101476"
+  },
+  {
+    "FullName": "LESIAK Kacper & RZESZUTEK Andrzej",
+    "PhaseName": "Finals",
+    "Rank": 3,
+    "TotalScore": "366.81",
+    "Scores": [
+      "49.80",
+      "48.60",
+      "67.89",
+      "66.30",
+      "70.38",
+      "63.84"
+    ],
+    "PersonId": "100621115697"
+  },
+  {
+    "FullName": "DUTOIT Guillaume & SUCKOW Jonathan",
+    "PhaseName": "Finals",
+    "Rank": 4,
+    "TotalScore": "360.39",
+    "Scores": [
+      "45.00",
+      "46.80",
+      "67.50",
+      "71.61",
+      "62.22",
+      "67.26"
+    ],
+    "PersonId": "120909138760"
+  },
+  {
+    "FullName": "HART Alexander & SCHALLER Nikolaj",
+    "PhaseName": "Finals",
+    "Rank": 5,
+    "TotalScore": "335.91",
+    "Scores": [
+      "45.60",
+      "45.00",
+      "56.70",
+      "63.90",
+      "60.45",
+      "64.26"
+    ],
+    "PersonId": "192894153715"
+  },
+  {
+    "FullName": "KACHANOV Vyacheslav & MYALIN Igor",
+    "PhaseName": "Finals",
+    "Rank": 6,
+    "TotalScore": "321.39",
+    "Scores": [
+      "46.20",
+      "40.20",
+      "66.60",
+      "64.17",
+      "52.20",
+      "52.02"
+    ],
+    "PersonId": "153816127187"
+  },
+  {
+    "FullName": "CHOI Gangin & LEE Wonseop",
+    "PhaseName": "Finals",
+    "Rank": 7,
+    "TotalScore": "309.42",
+    "Scores": [
+      "43.80",
+      "37.80",
+      "59.52",
+      "56.70",
+      "58.50",
+      "53.10"
+    ],
+    "PersonId": "214037"
+  },
+  {
+    "FullName": "BARTHEL Timo & RUDIGER Lars",
+    "PhaseName": "Finals",
+    "Rank": 99,
+    "TotalScore": "381.06",
+    "Scores": [
+      "49.80",
+      "49.80",
+      "72.45",
+      "66.15",
+      "74.46",
+      "68.40"
+    ],
+    "PersonId": "120321152299"
+  }
+]

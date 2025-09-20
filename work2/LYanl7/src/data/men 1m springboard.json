@@ -1,0 +1,347 @@
+[
+  {
+    "FullName": "Matthew DIXON",
+    "PhaseName": "Finals",
+    "Rank": 1,
+    "TotalScore": "373.35",
+    "Scores": [
+      "58.50",
+      "61.50",
+      "58.50",
+      "67.50",
+      "57.60",
+      "69.75"
+    ],
+    "PersonId": "5fdfbcee-d2a0-473a-a928-1f2a5e826548"
+  },
+  {
+    "FullName": "Jordan HOULDEN",
+    "PhaseName": "Finals",
+    "Rank": 2,
+    "TotalScore": "351.50",
+    "Scores": [
+      "57.80",
+      "52.80",
+      "48.00",
+      "67.50",
+      "63.00",
+      "62.40"
+    ],
+    "PersonId": "be7b1b42-1768-4fb7-932c-ce98cf550bfc"
+  },
+  {
+    "FullName": "Tazman ABRAMOWICZ",
+    "PhaseName": "Finals",
+    "Rank": 3,
+    "TotalScore": "342.10",
+    "Scores": [
+      "54.60",
+      "66.00",
+      "44.85",
+      "60.45",
+      "59.20",
+      "57.00"
+    ],
+    "PersonId": "b8a5bd31-48ac-4fb6-868f-dd40afbf4142"
+  },
+  {
+    "FullName": "Bohdan CHYZHOVSKYI",
+    "PhaseName": "Finals",
+    "Rank": 4,
+    "TotalScore": "340.75",
+    "Scores": [
+      "54.25",
+      "54.00",
+      "50.60",
+      "63.00",
+      "65.60",
+      "53.30"
+    ],
+    "PersonId": "d6b76e58-2ed5-4cb6-a78e-05e8c75801ec"
+  },
+  {
+    "FullName": "Stanislav OLIFERCHYK",
+    "PhaseName": "Finals",
+    "Rank": 5,
+    "TotalScore": "322.55",
+    "Scores": [
+      "66.65",
+      "63.00",
+      "36.00",
+      "40.50",
+      "54.00",
+      "62.40"
+    ],
+    "PersonId": "d29d3671-2297-4057-8e0c-52537b77ca85"
+  },
+  {
+    "FullName": "Gangin CHOI",
+    "PhaseName": "Finals",
+    "Rank": 6,
+    "TotalScore": "309.65",
+    "Scores": [
+      "57.00",
+      "56.00",
+      "51.15",
+      "49.50",
+      "39.00",
+      "57.00"
+    ],
+    "PersonId": "e95d5048-eafa-4c40-aafc-401a75cd7216"
+  },
+  {
+    "FullName": "Dariush LOTFI",
+    "PhaseName": "Finals",
+    "Rank": 7,
+    "TotalScore": "304.85",
+    "Scores": [
+      "51.00",
+      "54.00",
+      "37.50",
+      "52.50",
+      "60.45",
+      "49.40"
+    ],
+    "PersonId": "410c0356-2f6b-42f1-a3e6-3d76aa5b080b"
+  },
+  {
+    "FullName": "Tornike ONIKASHVILI",
+    "PhaseName": "Finals",
+    "Rank": 8,
+    "TotalScore": "280.70",
+    "Scores": [
+      "65.10",
+      "43.50",
+      "50.70",
+      "43.70",
+      "27.00",
+      "50.70"
+    ],
+    "PersonId": "2b0d613a-f9d4-433a-85ea-fba91cee31f0"
+  },
+  {
+    "FullName": "Irakli SAKANDELIDZE",
+    "PhaseName": "Finals",
+    "Rank": 9,
+    "TotalScore": "249.60",
+    "Scores": [
+      "46.80",
+      "43.40",
+      "43.50",
+      "39.00",
+      "40.50",
+      "36.40"
+    ],
+    "PersonId": "d8ff703a-5ded-4463-b3a9-7393128a2899"
+  },
+  {
+    "FullName": "Wonseop LEE",
+    "PhaseName": "Finals",
+    "Rank": 10,
+    "TotalScore": "244.00",
+    "Scores": [
+      "42.90",
+      "27.00",
+      "37.50",
+      "55.50",
+      "31.50",
+      "49.60"
+    ],
+    "PersonId": "a8f6aef4-823c-4f17-8073-f7856ebd9fc7"
+  },
+  {
+    "FullName": "Jordan HOULDEN",
+    "PhaseName": "Preliminaries",
+    "Rank": 1,
+    "TotalScore": "368.10",
+    "Scores": [
+      "61.20",
+      "69.30",
+      "54.00",
+      "63.00",
+      "63.00",
+      "57.60"
+    ],
+    "PersonId": "be7b1b42-1768-4fb7-932c-ce98cf550bfc"
+  },
+  {
+    "FullName": "Matthew DIXON",
+    "PhaseName": "Preliminaries",
+    "Rank": 2,
+    "TotalScore": "346.50",
+    "Scores": [
+      "54.60",
+      "55.50",
+      "58.50",
+      "61.50",
+      "54.40",
+      "62.00"
+    ],
+    "PersonId": "5fdfbcee-d2a0-473a-a928-1f2a5e826548"
+  },
+  {
+    "FullName": "Tazman ABRAMOWICZ",
+    "PhaseName": "Preliminaries",
+    "Rank": 3,
+    "TotalScore": "344.75",
+    "Scores": [
+      "55.90",
+      "54.00",
+      "50.60",
+      "60.45",
+      "60.80",
+      "63.00"
+    ],
+    "PersonId": "b8a5bd31-48ac-4fb6-868f-dd40afbf4142"
+  },
+  {
+    "FullName": "Stanislav OLIFERCHYK",
+    "PhaseName": "Preliminaries",
+    "Rank": 4,
+    "TotalScore": "320.95",
+    "Scores": [
+      "66.65",
+      "49.50",
+      "49.50",
+      "40.50",
+      "54.00",
+      "60.80"
+    ],
+    "PersonId": "d29d3671-2297-4057-8e0c-52537b77ca85"
+  },
+  {
+    "FullName": "James HEATLY",
+    "PhaseName": "Preliminaries",
+    "Rank": 5,
+    "TotalScore": "319.65",
+    "Scores": [
+      "58.50",
+      "57.60",
+      "43.50",
+      "49.50",
+      "54.45",
+      "56.10"
+    ],
+    "PersonId": "91d3c486-196c-4ffd-b8ef-45d5ce8a3044"
+  },
+  {
+    "FullName": "Tornike ONIKASHVILI",
+    "PhaseName": "Preliminaries",
+    "Rank": 6,
+    "TotalScore": "299.45",
+    "Scores": [
+      "55.80",
+      "57.00",
+      "52.00",
+      "42.55",
+      "37.50",
+      "54.60"
+    ],
+    "PersonId": "2b0d613a-f9d4-433a-85ea-fba91cee31f0"
+  },
+  {
+    "FullName": "Bohdan CHYZHOVSKYI",
+    "PhaseName": "Preliminaries",
+    "Rank": 7,
+    "TotalScore": "287.00",
+    "Scores": [
+      "55.80",
+      "39.00",
+      "43.70",
+      "31.50",
+      "62.40",
+      "54.60"
+    ],
+    "PersonId": "d6b76e58-2ed5-4cb6-a78e-05e8c75801ec"
+  },
+  {
+    "FullName": "Dariush LOTFI",
+    "PhaseName": "Preliminaries",
+    "Rank": 8,
+    "TotalScore": "279.10",
+    "Scores": [
+      "43.50",
+      "51.00",
+      "46.50",
+      "36.00",
+      "52.70",
+      "49.40"
+    ],
+    "PersonId": "410c0356-2f6b-42f1-a3e6-3d76aa5b080b"
+  },
+  {
+    "FullName": "Kyrylo AZAROV",
+    "PhaseName": "Preliminaries",
+    "Rank": 9,
+    "TotalScore": "258.85",
+    "Scores": [
+      "45.60",
+      "50.70",
+      "58.50",
+      "42.55",
+      "40.50",
+      "21.00"
+    ],
+    "PersonId": "85eff9ff-ab91-43ed-a43c-803b4b000d2e"
+  },
+  {
+    "FullName": "Gangin CHOI",
+    "PhaseName": "Preliminaries",
+    "Rank": 10,
+    "TotalScore": "243.70",
+    "Scores": [
+      "31.50",
+      "38.40",
+      "40.30",
+      "43.50",
+      "39.00",
+      "51.00"
+    ],
+    "PersonId": "e95d5048-eafa-4c40-aafc-401a75cd7216"
+  },
+  {
+    "FullName": "Wonseop LEE",
+    "PhaseName": "Preliminaries",
+    "Rank": 11,
+    "TotalScore": "210.50",
+    "Scores": [
+      "44.20",
+      "39.00",
+      "40.50",
+      "0.00",
+      "46.50",
+      "40.30"
+    ],
+    "PersonId": "a8f6aef4-823c-4f17-8073-f7856ebd9fc7"
+  },
+  {
+    "FullName": "Jiho KANG",
+    "PhaseName": "Preliminaries",
+    "Rank": 12,
+    "TotalScore": "205.15",
+    "Scores": [
+      "36.40",
+      "31.50",
+      "36.00",
+      "36.00",
+      "37.95",
+      "27.30"
+    ],
+    "PersonId": "3f86dc7a-1620-40fd-951d-a76e8b649c77"
+  },
+  {
+    "FullName": "Irakli SAKANDELIDZE",
+    "PhaseName": "Preliminaries",
+    "Rank": 13,
+    "TotalScore": "189.85",
+    "Scores": [
+      "46.80",
+      "35.65",
+      "45.00",
+      "15.00",
+      "4.50",
+      "42.90"
+    ],
+    "PersonId": "d8ff703a-5ded-4463-b3a9-7393128a2899"
+  }
+]

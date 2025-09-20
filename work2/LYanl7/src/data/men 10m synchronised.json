@@ -1,0 +1,107 @@
+[
+  {
+    "FullName": "BARTHEL Timo & EIKERMANN GREGORCHUK Jaden Shiloh",
+    "PhaseName": "Finals",
+    "Rank": 1,
+    "TotalScore": "392.37",
+    "Scores": [
+      "50.40",
+      "50.40",
+      "72.96",
+      "74.25",
+      "71.40",
+      "72.96"
+    ],
+    "PersonId": "193501120321"
+  },
+  {
+    "FullName": "JACHIM Filip & LUKASZEWICZ Robert",
+    "PhaseName": "Finals",
+    "Rank": 2,
+    "TotalScore": "364.32",
+    "Scores": [
+      "44.40",
+      "46.20",
+      "61.20",
+      "72.00",
+      "75.24",
+      "65.28"
+    ],
+    "PersonId": "154424202183"
+  },
+  {
+    "FullName": "AVANESOV Danylo & HRYTSENKO Mark",
+    "PhaseName": "Finals",
+    "Rank": 3,
+    "TotalScore": "361.89",
+    "Scores": [
+      "48.00",
+      "48.00",
+      "68.40",
+      "78.72",
+      "54.45",
+      "64.32"
+    ],
+    "PersonId": "248204198054"
+  },
+  {
+    "FullName": "CAMACHO DEL HOYO Carlos & LINAN Max",
+    "PhaseName": "Finals",
+    "Rank": 4,
+    "TotalScore": "360.51",
+    "Scores": [
+      "50.40",
+      "45.00",
+      "68.40",
+      "63.36",
+      "60.39",
+      "72.96"
+    ],
+    "PersonId": "154194197376"
+  },
+  {
+    "FullName": "KANG Jiho & KIM Gyeongbin",
+    "PhaseName": "Finals",
+    "Rank": 5,
+    "TotalScore": "321.69",
+    "Scores": [
+      "43.80",
+      "42.60",
+      "53.10",
+      "54.72",
+      "68.31",
+      "59.16"
+    ],
+    "PersonId": "214040"
+  },
+  {
+    "FullName": "AVILA SANCHEZ Luis Carlo & WALDSTEINER Tom Laszlo",
+    "PhaseName": "Finals",
+    "Rank": 99,
+    "TotalScore": "341.85",
+    "Scores": [
+      "48.60",
+      "45.00",
+      "60.48",
+      "73.92",
+      "54.45",
+      "59.40"
+    ],
+    "PersonId": "233317195448"
+  },
+  {
+    "FullName": "PRENZYNA Espen & ROSLER Ole Johannes",
+    "PhaseName": "Finals",
+    "Rank": 99,
+    "TotalScore": "394.23",
+    "Scores": [
+      "52.20",
+      "51.60",
+      "74.88",
+      "72.27",
+      "69.36",
+      "73.92"
+    ],
+    "PersonId": "248008197613"
+  }
+]

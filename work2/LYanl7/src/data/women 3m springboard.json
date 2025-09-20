@@ -1,0 +1,688 @@
+[
+  {
+    "FullName": "Desharne BENT-ASHMEIL",
+    "PhaseName": "Finals",
+    "Rank": 1,
+    "TotalScore": "291.55",
+    "Scores": [
+      "61.50",
+      "63.55",
+      "66.00",
+      "55.50",
+      "45.00"
+    ],
+    "PersonId": "41638bb0-cffa-4ff2-b5ea-c311263fc72c"
+  },
+  {
+    "FullName": "Jette MULLER",
+    "PhaseName": "Finals",
+    "Rank": 2,
+    "TotalScore": "287.80",
+    "Scores": [
+      "63.00",
+      "63.00",
+      "61.50",
+      "40.30",
+      "60.00"
+    ],
+    "PersonId": "84abb6f6-fdf2-48a2-8732-83f2a642a347"
+  },
+  {
+    "FullName": "Lena HENTSCHEL",
+    "PhaseName": "Finals",
+    "Rank": 3,
+    "TotalScore": "283.85",
+    "Scores": [
+      "58.50",
+      "57.35",
+      "60.00",
+      "45.00",
+      "63.00"
+    ],
+    "PersonId": "18a88bfe-55ce-4963-aa3b-1d2900a64a36"
+  },
+  {
+    "FullName": "Aimee WILSON",
+    "PhaseName": "Finals",
+    "Rank": 4,
+    "TotalScore": "276.50",
+    "Scores": [
+      "48.00",
+      "62.00",
+      "52.50",
+      "49.50",
+      "64.50"
+    ],
+    "PersonId": "379ad49d-fd57-439d-a87c-eae270a4e683"
+  },
+  {
+    "FullName": "Amelie-Laura JASMIN",
+    "PhaseName": "Finals",
+    "Rank": 5,
+    "TotalScore": "276.40",
+    "Scores": [
+      "63.00",
+      "57.40",
+      "51.00",
+      "54.00",
+      "51.00"
+    ],
+    "PersonId": "1b83c525-26a3-4a63-8ebb-6a6d337427f5"
+  },
+  {
+    "FullName": "Kaja SKRZEK",
+    "PhaseName": "Finals",
+    "Rank": 6,
+    "TotalScore": "259.15",
+    "Scores": [
+      "54.00",
+      "50.40",
+      "41.85",
+      "57.40",
+      "55.50"
+    ],
+    "PersonId": "cf9f4ba1-5132-4b2d-b176-a13547f9cb09"
+  },
+  {
+    "FullName": "Maria PAPWORTH BURREL",
+    "PhaseName": "Finals",
+    "Rank": 7,
+    "TotalScore": "255.40",
+    "Scores": [
+      "43.50",
+      "58.90",
+      "45.00",
+      "45.00",
+      "63.00"
+    ],
+    "PersonId": "39514b38-3873-48a6-86ea-21d7230c8bb4"
+  },
+  {
+    "FullName": "Viktoriya KESAR",
+    "PhaseName": "Finals",
+    "Rank": 8,
+    "TotalScore": "252.15",
+    "Scores": [
+      "49.50",
+      "58.50",
+      "34.50",
+      "58.50",
+      "51.15"
+    ],
+    "PersonId": "425c7de3-fc39-4b4a-93f2-f66c60bcf077"
+  },
+  {
+    "FullName": "Amy ROLLINSON",
+    "PhaseName": "Finals",
+    "Rank": 9,
+    "TotalScore": "243.10",
+    "Scores": [
+      "55.50",
+      "49.60",
+      "39.00",
+      "54.00",
+      "45.00"
+    ],
+    "PersonId": "22699d3a-dc39-457e-8714-15cc91d7330d"
+  },
+  {
+    "FullName": "Aleksandra BLAZOWSKA",
+    "PhaseName": "Finals",
+    "Rank": 10,
+    "TotalScore": "236.60",
+    "Scores": [
+      "47.25",
+      "47.60",
+      "45.00",
+      "48.00",
+      "48.75"
+    ],
+    "PersonId": "e5c22b9a-032d-4bf8-996d-62b6ec362cae"
+  },
+  {
+    "FullName": "Rocio VELAZQUEZ",
+    "PhaseName": "Finals",
+    "Rank": 11,
+    "TotalScore": "212.55",
+    "Scores": [
+      "40.50",
+      "32.55",
+      "51.00",
+      "51.00",
+      "37.50"
+    ],
+    "PersonId": "b9308ff0-b30e-476b-93b4-951f97c85449"
+  },
+  {
+    "FullName": "Madeline COQUOZ",
+    "PhaseName": "Finals",
+    "Rank": 12,
+    "TotalScore": "201.85",
+    "Scores": [
+      "36.00",
+      "28.00",
+      "51.00",
+      "41.85",
+      "45.00"
+    ],
+    "PersonId": "07671caa-4361-41f0-bb21-cbe7fc274046"
+  },
+  {
+    "FullName": "Desharne BENT-ASHMEIL",
+    "PhaseName": "Semifinals",
+    "Rank": 1,
+    "TotalScore": "282.30",
+    "Scores": [
+      "55.50",
+      "55.80",
+      "52.50",
+      "63.00",
+      "55.50"
+    ],
+    "PersonId": "41638bb0-cffa-4ff2-b5ea-c311263fc72c"
+  },
+  {
+    "FullName": "Aimee WILSON",
+    "PhaseName": "Semifinals",
+    "Rank": 2,
+    "TotalScore": "276.30",
+    "Scores": [
+      "52.50",
+      "55.80",
+      "57.00",
+      "52.50",
+      "58.50"
+    ],
+    "PersonId": "379ad49d-fd57-439d-a87c-eae270a4e683"
+  },
+  {
+    "FullName": "Amelie-Laura JASMIN",
+    "PhaseName": "Semifinals",
+    "Rank": 2,
+    "TotalScore": "276.30",
+    "Scores": [
+      "54.00",
+      "58.80",
+      "55.50",
+      "49.50",
+      "58.50"
+    ],
+    "PersonId": "1b83c525-26a3-4a63-8ebb-6a6d337427f5"
+  },
+  {
+    "FullName": "Lena HENTSCHEL",
+    "PhaseName": "Semifinals",
+    "Rank": 4,
+    "TotalScore": "271.85",
+    "Scores": [
+      "52.50",
+      "57.35",
+      "55.50",
+      "49.50",
+      "57.00"
+    ],
+    "PersonId": "18a88bfe-55ce-4963-aa3b-1d2900a64a36"
+  },
+  {
+    "FullName": "Maria PAPWORTH BURREL",
+    "PhaseName": "Semifinals",
+    "Rank": 5,
+    "TotalScore": "258.30",
+    "Scores": [
+      "40.50",
+      "55.80",
+      "58.50",
+      "45.00",
+      "58.50"
+    ],
+    "PersonId": "39514b38-3873-48a6-86ea-21d7230c8bb4"
+  },
+  {
+    "FullName": "Amy ROLLINSON",
+    "PhaseName": "Semifinals",
+    "Rank": 6,
+    "TotalScore": "256.35",
+    "Scores": [
+      "54.00",
+      "41.85",
+      "49.50",
+      "54.00",
+      "57.00"
+    ],
+    "PersonId": "22699d3a-dc39-457e-8714-15cc91d7330d"
+  },
+  {
+    "FullName": "Kaja SKRZEK",
+    "PhaseName": "Semifinals",
+    "Rank": 7,
+    "TotalScore": "249.90",
+    "Scores": [
+      "49.50",
+      "50.40",
+      "55.80",
+      "46.20",
+      "48.00"
+    ],
+    "PersonId": "cf9f4ba1-5132-4b2d-b176-a13547f9cb09"
+  },
+  {
+    "FullName": "Jette MULLER",
+    "PhaseName": "Semifinals",
+    "Rank": 8,
+    "TotalScore": "248.50",
+    "Scores": [
+      "57.00",
+      "51.00",
+      "55.50",
+      "31.00",
+      "54.00"
+    ],
+    "PersonId": "84abb6f6-fdf2-48a2-8732-83f2a642a347"
+  },
+  {
+    "FullName": "Madeline COQUOZ",
+    "PhaseName": "Semifinals",
+    "Rank": 9,
+    "TotalScore": "236.85",
+    "Scores": [
+      "48.00",
+      "46.20",
+      "45.00",
+      "51.15",
+      "46.50"
+    ],
+    "PersonId": "07671caa-4361-41f0-bb21-cbe7fc274046"
+  },
+  {
+    "FullName": "Rocio VELAZQUEZ",
+    "PhaseName": "Semifinals",
+    "Rank": 10,
+    "TotalScore": "230.85",
+    "Scores": [
+      "49.50",
+      "41.85",
+      "52.50",
+      "46.50",
+      "40.50"
+    ],
+    "PersonId": "b9308ff0-b30e-476b-93b4-951f97c85449"
+  },
+  {
+    "FullName": "Aleksandra BLAZOWSKA",
+    "PhaseName": "Semifinals",
+    "Rank": 11,
+    "TotalScore": "228.20",
+    "Scores": [
+      "36.45",
+      "42.00",
+      "45.00",
+      "58.50",
+      "46.25"
+    ],
+    "PersonId": "e5c22b9a-032d-4bf8-996d-62b6ec362cae"
+  },
+  {
+    "FullName": "Viktoriya KESAR",
+    "PhaseName": "Semifinals",
+    "Rank": 12,
+    "TotalScore": "225.25",
+    "Scores": [
+      "54.00",
+      "58.50",
+      "27.00",
+      "31.50",
+      "54.25"
+    ],
+    "PersonId": "425c7de3-fc39-4b4a-93f2-f66c60bcf077"
+  },
+  {
+    "FullName": "Tereza JELINKOVA",
+    "PhaseName": "Semifinals",
+    "Rank": 13,
+    "TotalScore": "214.05",
+    "Scores": [
+      "44.40",
+      "46.80",
+      "47.25",
+      "42.00",
+      "33.60"
+    ],
+    "PersonId": "8648291f-ad46-450f-a22f-43d65bcaf0e8"
+  },
+  {
+    "FullName": "Sooyeon OH",
+    "PhaseName": "Semifinals",
+    "Rank": 14,
+    "TotalScore": "200.40",
+    "Scores": [
+      "48.00",
+      "40.50",
+      "42.00",
+      "29.40",
+      "40.50"
+    ],
+    "PersonId": "b8d4fa93-565e-47b2-9d71-1993bf9daf6e"
+  },
+  {
+    "FullName": "Yejoo LEE",
+    "PhaseName": "Semifinals",
+    "Rank": 15,
+    "TotalScore": "198.50",
+    "Scores": [
+      "40.50",
+      "50.40",
+      "32.20",
+      "36.40",
+      "39.00"
+    ],
+    "PersonId": "75b2091b-a243-46ef-a457-1cfb9b1cda38"
+  },
+  {
+    "FullName": "Tekle SHARIA",
+    "PhaseName": "Semifinals",
+    "Rank": 16,
+    "TotalScore": "175.20",
+    "Scores": [
+      "39.60",
+      "27.00",
+      "31.05",
+      "46.20",
+      "31.35"
+    ],
+    "PersonId": "08389a54-e5d5-4be6-89bc-541aa7b2b3d1"
+  },
+  {
+    "FullName": "Lena HENTSCHEL",
+    "PhaseName": "Preliminaries",
+    "Rank": 1,
+    "TotalScore": "276.55",
+    "Scores": [
+      "54.00",
+      "63.55",
+      "48.00",
+      "60.00",
+      "51.00"
+    ],
+    "PersonId": "18a88bfe-55ce-4963-aa3b-1d2900a64a36"
+  },
+  {
+    "FullName": "Jette MULLER",
+    "PhaseName": "Preliminaries",
+    "Rank": 2,
+    "TotalScore": "267.15",
+    "Scores": [
+      "57.00",
+      "51.00",
+      "55.50",
+      "51.15",
+      "52.50"
+    ],
+    "PersonId": "84abb6f6-fdf2-48a2-8732-83f2a642a347"
+  },
+  {
+    "FullName": "Aimee WILSON",
+    "PhaseName": "Preliminaries",
+    "Rank": 3,
+    "TotalScore": "265.70",
+    "Scores": [
+      "54.00",
+      "52.70",
+      "54.00",
+      "49.50",
+      "55.50"
+    ],
+    "PersonId": "379ad49d-fd57-439d-a87c-eae270a4e683"
+  },
+  {
+    "FullName": "Kaja SKRZEK",
+    "PhaseName": "Preliminaries",
+    "Rank": 4,
+    "TotalScore": "260.15",
+    "Scores": [
+      "49.50",
+      "56.00",
+      "41.85",
+      "58.80",
+      "54.00"
+    ],
+    "PersonId": "cf9f4ba1-5132-4b2d-b176-a13547f9cb09"
+  },
+  {
+    "FullName": "Viktoriya KESAR",
+    "PhaseName": "Preliminaries",
+    "Rank": 5,
+    "TotalScore": "259.85",
+    "Scores": [
+      "40.50",
+      "55.50",
+      "52.50",
+      "54.00",
+      "57.35"
+    ],
+    "PersonId": "425c7de3-fc39-4b4a-93f2-f66c60bcf077"
+  },
+  {
+    "FullName": "Amelie-Laura JASMIN",
+    "PhaseName": "Preliminaries",
+    "Rank": 6,
+    "TotalScore": "258.60",
+    "Scores": [
+      "42.00",
+      "54.60",
+      "58.50",
+      "48.00",
+      "55.50"
+    ],
+    "PersonId": "1b83c525-26a3-4a63-8ebb-6a6d337427f5"
+  },
+  {
+    "FullName": "Margo ERLAM",
+    "PhaseName": "Preliminaries",
+    "Rank": 7,
+    "TotalScore": "256.60",
+    "Scores": [
+      "54.00",
+      "46.50",
+      "49.60",
+      "49.50",
+      "57.00"
+    ],
+    "PersonId": "ce8c6ffa-fd55-4b0b-971d-c56b9ac5c06c"
+  },
+  {
+    "FullName": "Saskia OETTINGHAUS",
+    "PhaseName": "Preliminaries",
+    "Rank": 8,
+    "TotalScore": "252.90",
+    "Scores": [
+      "54.00",
+      "58.50",
+      "27.90",
+      "58.50",
+      "54.00"
+    ],
+    "PersonId": "d551a154-9834-4288-9f7f-a1535ed1eed3"
+  },
+  {
+    "FullName": "Aleksandra BLAZOWSKA",
+    "PhaseName": "Preliminaries",
+    "Rank": 9,
+    "TotalScore": "248.25",
+    "Scores": [
+      "48.60",
+      "50.40",
+      "54.00",
+      "46.50",
+      "48.75"
+    ],
+    "PersonId": "e5c22b9a-032d-4bf8-996d-62b6ec362cae"
+  },
+  {
+    "FullName": "Desharne BENT-ASHMEIL",
+    "PhaseName": "Preliminaries",
+    "Rank": 10,
+    "TotalScore": "230.50",
+    "Scores": [
+      "51.00",
+      "31.00",
+      "49.50",
+      "54.00",
+      "45.00"
+    ],
+    "PersonId": "41638bb0-cffa-4ff2-b5ea-c311263fc72c"
+  },
+  {
+    "FullName": "Jana Lisa ROTHER",
+    "PhaseName": "Preliminaries",
+    "Rank": 11,
+    "TotalScore": "229.65",
+    "Scores": [
+      "40.50",
+      "49.50",
+      "39.00",
+      "49.50",
+      "51.15"
+    ],
+    "PersonId": "fb18f171-da05-4a42-aaab-8f2c9f553433"
+  },
+  {
+    "FullName": "Tereza JELINKOVA",
+    "PhaseName": "Preliminaries",
+    "Rank": 12,
+    "TotalScore": "220.65",
+    "Scores": [
+      "40.80",
+      "43.20",
+      "52.65",
+      "49.00",
+      "35.00"
+    ],
+    "PersonId": "8648291f-ad46-450f-a22f-43d65bcaf0e8"
+  },
+  {
+    "FullName": "Rocio VELAZQUEZ",
+    "PhaseName": "Preliminaries",
+    "Rank": 13,
+    "TotalScore": "220.55",
+    "Scores": [
+      "46.50",
+      "48.05",
+      "45.00",
+      "49.50",
+      "31.50"
+    ],
+    "PersonId": "b9308ff0-b30e-476b-93b4-951f97c85449"
+  },
+  {
+    "FullName": "Madeline COQUOZ",
+    "PhaseName": "Preliminaries",
+    "Rank": 14,
+    "TotalScore": "217.70",
+    "Scores": [
+      "49.50",
+      "36.40",
+      "49.50",
+      "40.30",
+      "42.00"
+    ],
+    "PersonId": "07671caa-4361-41f0-bb21-cbe7fc274046"
+  },
+  {
+    "FullName": "Amy ROLLINSON",
+    "PhaseName": "Preliminaries",
+    "Rank": 15,
+    "TotalScore": "205.25",
+    "Scores": [
+      "51.00",
+      "38.75",
+      "30.00",
+      "49.50",
+      "36.00"
+    ],
+    "PersonId": "22699d3a-dc39-457e-8714-15cc91d7330d"
+  },
+  {
+    "FullName": "Yejoo LEE",
+    "PhaseName": "Preliminaries",
+    "Rank": 16,
+    "TotalScore": "204.20",
+    "Scores": [
+      "48.60",
+      "29.40",
+      "30.80",
+      "50.40",
+      "45.00"
+    ],
+    "PersonId": "75b2091b-a243-46ef-a457-1cfb9b1cda38"
+  },
+  {
+    "FullName": "Maria PAPWORTH BURREL",
+    "PhaseName": "Preliminaries",
+    "Rank": 17,
+    "TotalScore": "191.55",
+    "Scores": [
+      "45.00",
+      "32.55",
+      "33.00",
+      "21.00",
+      "60.00"
+    ],
+    "PersonId": "39514b38-3873-48a6-86ea-21d7230c8bb4"
+  },
+  {
+    "FullName": "Sooyeon OH",
+    "PhaseName": "Preliminaries",
+    "Rank": 18,
+    "TotalScore": "168.30",
+    "Scores": [
+      "25.20",
+      "40.50",
+      "26.60",
+      "28.00",
+      "48.00"
+    ],
+    "PersonId": "b8d4fa93-565e-47b2-9d71-1993bf9daf6e"
+  },
+  {
+    "FullName": "Jiwoo HAN",
+    "PhaseName": "Preliminaries",
+    "Rank": 19,
+    "TotalScore": "165.75",
+    "Scores": [
+      "43.20",
+      "20.70",
+      "22.95",
+      "42.90",
+      "36.00"
+    ],
+    "PersonId": "7308ddb4-0474-42d8-90d5-411d20e76dc5"
+  },
+  {
+    "FullName": "Tekle SHARIA",
+    "PhaseName": "Preliminaries",
+    "Rank": 20,
+    "TotalScore": "135.60",
+    "Scores": [
+      "39.60",
+      "13.50",
+      "18.90",
+      "29.40",
+      "34.20"
+    ],
+    "PersonId": "08389a54-e5d5-4be6-89bc-541aa7b2b3d1"
+  },
+  {
+    "FullName": "Sunjin BAEK",
+    "PhaseName": "Preliminaries",
+    "Rank": 21,
+    "TotalScore": "114.80",
+    "Scores": [
+      "36.00",
+      "24.30",
+      "29.70",
+      "19.55",
+      "5.25"
+    ],
+    "PersonId": "46d81b6e-c60b-4082-a6fb-c73c07cd1843"
+  }
+]
