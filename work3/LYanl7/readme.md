@@ -24,7 +24,8 @@
         update_time DATETIME DEFAULT
         CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
         FOREIGN KEY(order_id) REFERENCES orders(id),
-        FOREIGN KEY(product_id) REFERENCES products(id)
+        FOREIGN KEY(product_id) REFERENCES products(id),
+        INDEX idx_is_delted(is_deleted)
     )
 ```
 商品表的设计
@@ -37,6 +38,7 @@
         create_time DATETIME DEFAULT CURRENT_TIMESTAMP,
         update_time DATETIME DEFAULT
         CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+        INDEX idx_is_delted(is_deleted)
     )
 ```
 订单表的设计
@@ -48,6 +50,7 @@
         create_time DATETIME DEFAULT CURRENT_TIMESTAMP,
         update_time DATETIME DEFAULT
         CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+        INDEX idx_is_delted(is_deleted)
     )
 ```
-为了处理删除已存在于订单中的商品，我采用了逻辑删除，删除这个商品时直接将 is_deleted 置1即可。
+为了处理删除已存在于订单中的商品，我采用了逻辑删除，删除这个商品时直接将 is_deleted 置1即可。同时给 is_deleted 字段建索引，以防止性能损失。
