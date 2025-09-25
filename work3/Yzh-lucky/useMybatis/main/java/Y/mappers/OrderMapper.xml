@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="Y.mappers.OrderMapper">
+    <!--查询所有的订单信息-->
+    <select id="selectAll" parameterType="String" resultType="order">
+        select `order_code`,`user_name`,`order_price`,`order_date` from `order_information`.`order`
+        <if test="orderBy!= null">
+            order by `order_code` ${orderBy}
+        </if>
+    </select>
+
+    <!--查询订单（按照订单编号）-->
+    <select id="selectById" parameterType="int" resultType="Order">
+        select `order_code`,`user_name`,`order_price`,`order_date` from `order_information`.`order` where `order_code`=#{id}
+    </select>
+
+    <!--分页查询订单信息-->
+    <select id="selectByPage" resultType="Order">
+        select `order_code`,`user_name`,`order_price`,`order_date` from `order_information`.`order` order by `order_code` ${orderBy} limit #{startIndex},#{pageSize}
+    </select>
+
+    <!--增加订单信息-->
+    <insert id="insertOrder" parameterType="Order">
+        insert into `order_information`.`order`(`order_code`,`user_name`,`order_price`,`order_date`)
+        select #{orderCode},#{userName},#{orderPrice},#{orderDate} from dual
+        where not exists (select 1 from `order_information`.`order` where `order_code`=#{orderCode})
+    </insert>
+
+    <!--删除订单信息-->
+    <delete id="deleteById" parameterType="int">
+        delete from `order_information`.`order` where `order_code`=${id}
+    </delete>
+
+    <!--更新订单信息-->
+    <update id="updateOrder">
+        <bind name="hasValidField" value="(code > 0) and (product != null) and (product.productPrice > 0)"/>
+        <if test="operator">
+            <if test="hasValidField">
+                update `order_information`.`order` set `order_price`=`order_price`+#{product.productPrice},`order_date`=#{dateTime} where `order_code`=#{code};
+            </if>
+            <if test="!hasValidField">
+                select 1 from dual
+            </if>
+        </if>
+        <if test="!operator">
+            <if test="hasValidField">
+                update `order_information`.`order` set `order_price`=`order_price`-#{product.productPrice},`order_date`=#{dateTime} where `order_code`=#{code};
+            </if>
+            <if test="!hasValidField">
+                select 1 from dual
+            </if>
+        </if>
+    </update>
+</mapper>
