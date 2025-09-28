@@ -1,5 +1,5 @@
 public class ChineseDog extends Animal {
-    protected boolean isVaccineInjected;
+    private boolean isVaccineInjected;
     static final double CHINESEDOG_PURCHASE_PRICE=100;
     public ChineseDog(){}
 

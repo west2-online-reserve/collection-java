@@ -6,6 +6,8 @@ import java.util.Scanner;
 public class MyPetShop implements AnimalShop {
     private static final LocalTime OPEN_TIME = LocalTime.of(9, 0);  // 9:00 开店
     private static final LocalTime CLOSE_TIME = LocalTime.of(23, 0); // 21:00 闭店
+    //设置Scanner常量,最后统一关闭
+    public static final Scanner in = new Scanner(System.in);
     private double money;
     private ArrayList<Animal> animals;
     private ArrayList<Customer> customers;
@@ -56,7 +58,6 @@ public class MyPetShop implements AnimalShop {
 
     @Override
     public void buyNewAnimal(Animal animal) throws InsufficientBalanceException{
-        Scanner in = new Scanner(System.in);
         double purchasePrice = 0;
         String animalClass = "";
         if (animal instanceof Cat) {
@@ -85,7 +86,6 @@ public class MyPetShop implements AnimalShop {
 
     @Override
     public void tradeCustomer(ArrayList<Customer> customers,ArrayList<Animal> animals) {
-        Scanner in = new Scanner(System.in);
         System.out.println("""
                 请问客官您要买什么?
                 本店有猫,狗,鸡出售
@@ -108,8 +108,6 @@ public class MyPetShop implements AnimalShop {
             }
 
         }
-
-
     }
 
     @Override
@@ -125,17 +123,17 @@ public class MyPetShop implements AnimalShop {
                 System.out.println(customers.get(i).toString());
             }
             System.out.println("今日利润为"+(money-10000));
+            in.close();
             System.exit(1);
         }
 
     }
 
     public void initialize(Animal animal) {
-        Scanner in = new Scanner(System.in);
         System.out.println("请初始化您新购买的动物");
         System.out.println("请输入新动物的名字");
+        in.nextLine();
         animal.setName(in.nextLine());
-
         System.out.println("请输入动物的年龄");
         animal.setAge(Integer.parseInt(in.nextLine()));
         while (true) {
@@ -147,7 +145,7 @@ public class MyPetShop implements AnimalShop {
             }
         }
 
-        System.out.println("请输入动物的体重");
+        System.out.println("请输入动物的体重(kg)");
         animal.setWeight(Integer.parseInt(in.nextLine()));
         System.out.println("请输入动物的售价");
         int price = in.nextInt();
@@ -178,7 +176,6 @@ public class MyPetShop implements AnimalShop {
 
 
     public void sellAnimal(ArrayList<Customer> customers,ArrayList<Animal> animals) {
-        Scanner in = new Scanner(System.in);
         System.out.println("以下为我店所有宠物名单,请输入想购买的宠物编号,如想退出,请输入0");
         for (int i = 0; i < animals.size(); i++) {
             System.out.println("NO." + (i + 1) + " " + animals.get(i).toString());
@@ -215,7 +212,6 @@ public class MyPetShop implements AnimalShop {
             System.out.println("无效的宠物编号，请重新选择");
             sellAnimal(customers, animals);
         }
-
     }
 
     public  boolean genderCheck(String gender) {

@@ -13,7 +13,7 @@ public class MyPetShopTest {
         customers.add(new Customer("胖宝宝test",3, LocalTime.of(13,5,22)));
 
         //创建宠物商店对象
-        myPetShop = new MyPetShop(10000,animals,customers);
+        myPetShop = new MyPetShop(100000,animals,customers);
         while (true){
             petStart(myPetShop,animals,customers);
         }
@@ -63,7 +63,7 @@ public class MyPetShopTest {
 
 
     public static void petStart(MyPetShop myPetShop,ArrayList<Animal>animals,ArrayList<Customer>customers) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = MyPetShop.in;
         System.out.println("""
                 欢迎您来到您的宠物商店,请选择的您的操作
                 1:买入新动物
@@ -89,13 +89,13 @@ public class MyPetShopTest {
                 switch(choiceAnimal) {
                     case 1->{
                         try {myPetShop.buyNewAnimal(new Chicken ());}
-                        catch (Exception e) {
+                        catch (InsufficientBalanceException e) {
                             System.out.println("金额不足error");
                         }
                     }
                     case 2->{
                         try{myPetShop.buyNewAnimal(new Cat ());}
-                        catch (Exception e) {
+                        catch (InsufficientBalanceException e) {
                             System.out.println("金额不足error");
                         }
 
@@ -104,7 +104,7 @@ public class MyPetShopTest {
                         try {
                             myPetShop.buyNewAnimal(new ChineseDog ());
                         }
-                        catch (Exception e) {
+                        catch (InsufficientBalanceException e) {
                             System.out.println("金额不足error");
                         }
 
