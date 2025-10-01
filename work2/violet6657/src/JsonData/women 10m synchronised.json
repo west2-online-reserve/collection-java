@@ -1,0 +1,44 @@
+[
+  {
+    "FullName": "WASSEN Christina & WASSEN Elena",
+    "PhaseName": "Finals",
+    "Rank": 1,
+    "TotalScore": "289.92",
+    "Scores": [
+      "49.20",
+      "43.20",
+      "67.20",
+      "61.20",
+      "69.12"
+    ],
+    "PersonId": "120326120333"
+  },
+  {
+    "FullName": "ANTOLINO Valeria & CARVAJAL Ana",
+    "PhaseName": "Finals",
+    "Rank": 2,
+    "TotalScore": "255.27",
+    "Scores": [
+      "42.60",
+      "40.20",
+      "61.20",
+      "56.55",
+      "54.72"
+    ],
+    "PersonId": "154420197377"
+  },
+  {
+    "FullName": "COORDES Carolina & PFEIF Pauline Alexandra",
+    "PhaseName": "Finals",
+    "Rank": 99,
+    "TotalScore": "272.52",
+    "Scores": [
+      "46.20",
+      "46.80",
+      "55.68",
+      "66.24",
+      "57.60"
+    ],
+    "PersonId": "153966213971"
+  }
+]
