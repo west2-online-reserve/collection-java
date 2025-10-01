@@ -1,0 +1,692 @@
+[
+  {
+    "FullName": "Benjamin TESSIER",
+    "PhaseName": "Finals",
+    "Rank": 1,
+    "TotalScore": "466.10",
+    "Scores": [
+      "67.20",
+      "88.40",
+      "67.50",
+      "84.15",
+      "74.25",
+      "84.60"
+    ],
+    "PersonId": "f15599d8-6c10-4f2d-90ca-5a832439004e"
+  },
+  {
+    "FullName": "Robbie LEE",
+    "PhaseName": "Finals",
+    "Rank": 2,
+    "TotalScore": "462.15",
+    "Scores": [
+      "76.80",
+      "75.20",
+      "69.30",
+      "76.50",
+      "77.40",
+      "86.95"
+    ],
+    "PersonId": "4047085f-2b5e-4359-94d1-bdc06ecfb69d"
+  },
+  {
+    "FullName": "Jaden Shiloh EIKERMANN GREGORCHUK",
+    "PhaseName": "Finals",
+    "Rank": 3,
+    "TotalScore": "461.15",
+    "Scores": [
+      "76.80",
+      "75.85",
+      "79.20",
+      "81.00",
+      "79.90",
+      "68.40"
+    ],
+    "PersonId": "00006ce3-63d8-439c-a41b-2ab95bbffdc0"
+  },
+  {
+    "FullName": "Mark HRYTSENKO",
+    "PhaseName": "Finals",
+    "Rank": 4,
+    "TotalScore": "434.55",
+    "Scores": [
+      "66.00",
+      "81.60",
+      "70.00",
+      "84.15",
+      "65.60",
+      "67.20"
+    ],
+    "PersonId": "209ad056-b688-4a4e-b78a-439614c8ccd1"
+  },
+  {
+    "FullName": "Igor MYALIN",
+    "PhaseName": "Finals",
+    "Rank": 5,
+    "TotalScore": "414.95",
+    "Scores": [
+      "72.00",
+      "57.80",
+      "86.40",
+      "64.35",
+      "72.00",
+      "62.40"
+    ],
+    "PersonId": "95823117-9a8d-45ed-8aeb-c69c07b5583a"
+  },
+  {
+    "FullName": "Yevhen NAUMENKO",
+    "PhaseName": "Finals",
+    "Rank": 6,
+    "TotalScore": "404.85",
+    "Scores": [
+      "75.20",
+      "70.95",
+      "73.10",
+      "72.00",
+      "57.60",
+      "56.00"
+    ],
+    "PersonId": "ef63b74b-7eb5-4a35-a785-759da86847d9"
+  },
+  {
+    "FullName": "Euan MCCABE",
+    "PhaseName": "Finals",
+    "Rank": 7,
+    "TotalScore": "400.20",
+    "Scores": [
+      "73.60",
+      "60.80",
+      "68.40",
+      "45.90",
+      "77.70",
+      "73.80"
+    ],
+    "PersonId": "06045885-36a8-4872-8640-c726a741ef97"
+  },
+  {
+    "FullName": "Gangin CHOI",
+    "PhaseName": "Finals",
+    "Rank": 8,
+    "TotalScore": "393.35",
+    "Scores": [
+      "72.00",
+      "69.30",
+      "55.50",
+      "64.35",
+      "62.90",
+      "69.30"
+    ],
+    "PersonId": "e95d5048-eafa-4c40-aafc-401a75cd7216"
+  },
+  {
+    "FullName": "Luis Carlo AVILA SANCHEZ",
+    "PhaseName": "Finals",
+    "Rank": 9,
+    "TotalScore": "365.75",
+    "Scores": [
+      "67.20",
+      "39.60",
+      "40.80",
+      "70.40",
+      "72.15",
+      "75.60"
+    ],
+    "PersonId": "2e084c46-cc00-477e-88c6-07bdb687f6b9"
+  },
+  {
+    "FullName": "Dariush LOTFI",
+    "PhaseName": "Finals",
+    "Rank": 10,
+    "TotalScore": "362.20",
+    "Scores": [
+      "60.80",
+      "57.60",
+      "59.40",
+      "54.00",
+      "68.00",
+      "62.40"
+    ],
+    "PersonId": "410c0356-2f6b-42f1-a3e6-3d76aa5b080b"
+  },
+  {
+    "FullName": "Carlos CAMACHO DEL HOYO",
+    "PhaseName": "Finals",
+    "Rank": 11,
+    "TotalScore": "331.00",
+    "Scores": [
+      "76.50",
+      "50.40",
+      "29.70",
+      "40.00",
+      "62.40",
+      "72.00"
+    ],
+    "PersonId": "c4d3c2ec-3399-47d1-8135-c709edc3cb34"
+  },
+  {
+    "FullName": "Jorge RODRIGUEZ LEDESMA",
+    "PhaseName": "Finals",
+    "Rank": 12,
+    "TotalScore": "326.00",
+    "Scores": [
+      "38.40",
+      "57.75",
+      "79.20",
+      "59.50",
+      "42.55",
+      "48.60"
+    ],
+    "PersonId": "0c1c8461-4f28-472f-aa1e-fe290feef36b"
+  },
+  {
+    "FullName": "Benjamin TESSIER",
+    "PhaseName": "Semifinals",
+    "Rank": 1,
+    "TotalScore": "463.20",
+    "Scores": [
+      "72.00",
+      "86.70",
+      "66.00",
+      "84.15",
+      "84.15",
+      "70.20"
+    ],
+    "PersonId": "f15599d8-6c10-4f2d-90ca-5a832439004e"
+  },
+  {
+    "FullName": "Robbie LEE",
+    "PhaseName": "Semifinals",
+    "Rank": 2,
+    "TotalScore": "428.50",
+    "Scores": [
+      "70.40",
+      "67.20",
+      "79.20",
+      "52.70",
+      "70.20",
+      "88.80"
+    ],
+    "PersonId": "4047085f-2b5e-4359-94d1-bdc06ecfb69d"
+  },
+  {
+    "FullName": "Euan MCCABE",
+    "PhaseName": "Semifinals",
+    "Rank": 3,
+    "TotalScore": "425.95",
+    "Scores": [
+      "76.80",
+      "65.60",
+      "73.80",
+      "76.50",
+      "68.45",
+      "64.80"
+    ],
+    "PersonId": "06045885-36a8-4872-8640-c726a741ef97"
+  },
+  {
+    "FullName": "Jaden Shiloh EIKERMANN GREGORCHUK",
+    "PhaseName": "Semifinals",
+    "Rank": 4,
+    "TotalScore": "415.80",
+    "Scores": [
+      "54.40",
+      "66.60",
+      "79.20",
+      "75.60",
+      "68.00",
+      "72.00"
+    ],
+    "PersonId": "00006ce3-63d8-439c-a41b-2ab95bbffdc0"
+  },
+  {
+    "FullName": "Luis Carlo AVILA SANCHEZ",
+    "PhaseName": "Semifinals",
+    "Rank": 5,
+    "TotalScore": "410.00",
+    "Scores": [
+      "62.40",
+      "64.35",
+      "66.30",
+      "65.60",
+      "72.15",
+      "79.20"
+    ],
+    "PersonId": "2e084c46-cc00-477e-88c6-07bdb687f6b9"
+  },
+  {
+    "FullName": "Mark HRYTSENKO",
+    "PhaseName": "Semifinals",
+    "Rank": 6,
+    "TotalScore": "386.90",
+    "Scores": [
+      "72.00",
+      "76.80",
+      "67.20",
+      "42.90",
+      "67.20",
+      "60.80"
+    ],
+    "PersonId": "209ad056-b688-4a4e-b78a-439614c8ccd1"
+  },
+  {
+    "FullName": "Carlos CAMACHO DEL HOYO",
+    "PhaseName": "Semifinals",
+    "Rank": 7,
+    "TotalScore": "377.05",
+    "Scores": [
+      "70.50",
+      "63.00",
+      "64.35",
+      "33.60",
+      "75.20",
+      "70.40"
+    ],
+    "PersonId": "c4d3c2ec-3399-47d1-8135-c709edc3cb34"
+  },
+  {
+    "FullName": "Yevhen NAUMENKO",
+    "PhaseName": "Semifinals",
+    "Rank": 8,
+    "TotalScore": "376.85",
+    "Scores": [
+      "72.00",
+      "74.25",
+      "30.60",
+      "72.00",
+      "60.80",
+      "67.20"
+    ],
+    "PersonId": "ef63b74b-7eb5-4a35-a785-759da86847d9"
+  },
+  {
+    "FullName": "Igor MYALIN",
+    "PhaseName": "Semifinals",
+    "Rank": 9,
+    "TotalScore": "371.05",
+    "Scores": [
+      "67.20",
+      "35.70",
+      "77.40",
+      "61.05",
+      "70.50",
+      "59.20"
+    ],
+    "PersonId": "95823117-9a8d-45ed-8aeb-c69c07b5583a"
+  },
+  {
+    "FullName": "Dariush LOTFI",
+    "PhaseName": "Semifinals",
+    "Rank": 10,
+    "TotalScore": "343.90",
+    "Scores": [
+      "62.40",
+      "62.40",
+      "62.70",
+      "58.50",
+      "59.50",
+      "38.40"
+    ],
+    "PersonId": "410c0356-2f6b-42f1-a3e6-3d76aa5b080b"
+  },
+  {
+    "FullName": "Gangin CHOI",
+    "PhaseName": "Semifinals",
+    "Rank": 11,
+    "TotalScore": "335.05",
+    "Scores": [
+      "68.80",
+      "64.35",
+      "66.60",
+      "34.65",
+      "56.10",
+      "44.55"
+    ],
+    "PersonId": "e95d5048-eafa-4c40-aafc-401a75cd7216"
+  },
+  {
+    "FullName": "Jorge RODRIGUEZ LEDESMA",
+    "PhaseName": "Semifinals",
+    "Rank": 12,
+    "TotalScore": "328.50",
+    "Scores": [
+      "60.80",
+      "44.55",
+      "57.75",
+      "76.50",
+      "25.90",
+      "63.00"
+    ],
+    "PersonId": "0c1c8461-4f28-472f-aa1e-fe290feef36b"
+  },
+  {
+    "FullName": "Athanasios TSIRIKOS",
+    "PhaseName": "Semifinals",
+    "Rank": 13,
+    "TotalScore": "325.95",
+    "Scores": [
+      "54.00",
+      "39.60",
+      "63.55",
+      "36.00",
+      "62.40",
+      "70.40"
+    ],
+    "PersonId": "03e559be-d77f-45b2-945d-0d98d9fb9ceb"
+  },
+  {
+    "FullName": "Robert LUKASZEWICZ",
+    "PhaseName": "Semifinals",
+    "Rank": 14,
+    "TotalScore": "296.30",
+    "Scores": [
+      "40.50",
+      "54.40",
+      "41.25",
+      "31.35",
+      "60.80",
+      "68.00"
+    ],
+    "PersonId": "784567cc-7e1c-4d5f-a765-7d208bd6c5ec"
+  },
+  {
+    "FullName": "Gyeongbin KIM",
+    "PhaseName": "Semifinals",
+    "Rank": 15,
+    "TotalScore": "287.15",
+    "Scores": [
+      "57.00",
+      "59.20",
+      "49.50",
+      "54.60",
+      "13.20",
+      "53.65"
+    ],
+    "PersonId": "8fdfe985-e40c-4699-ae95-e66470c44dcb"
+  },
+  {
+    "FullName": "Benjamin TESSIER",
+    "PhaseName": "Preliminaries",
+    "Rank": 1,
+    "TotalScore": "435.75",
+    "Scores": [
+      "64.00",
+      "68.00",
+      "64.50",
+      "74.25",
+      "85.80",
+      "79.20"
+    ],
+    "PersonId": "f15599d8-6c10-4f2d-90ca-5a832439004e"
+  },
+  {
+    "FullName": "Robbie LEE",
+    "PhaseName": "Preliminaries",
+    "Rank": 2,
+    "TotalScore": "430.95",
+    "Scores": [
+      "75.20",
+      "72.00",
+      "82.50",
+      "64.60",
+      "75.60",
+      "61.05"
+    ],
+    "PersonId": "4047085f-2b5e-4359-94d1-bdc06ecfb69d"
+  },
+  {
+    "FullName": "Yevhen NAUMENKO",
+    "PhaseName": "Preliminaries",
+    "Rank": 3,
+    "TotalScore": "411.40",
+    "Scores": [
+      "80.00",
+      "59.40",
+      "76.50",
+      "67.50",
+      "56.00",
+      "72.00"
+    ],
+    "PersonId": "ef63b74b-7eb5-4a35-a785-759da86847d9"
+  },
+  {
+    "FullName": "Carlos CAMACHO DEL HOYO",
+    "PhaseName": "Preliminaries",
+    "Rank": 4,
+    "TotalScore": "407.35",
+    "Scores": [
+      "72.00",
+      "58.80",
+      "44.55",
+      "81.60",
+      "73.60",
+      "76.80"
+    ],
+    "PersonId": "c4d3c2ec-3399-47d1-8135-c709edc3cb34"
+  },
+  {
+    "FullName": "Luis Carlo AVILA SANCHEZ",
+    "PhaseName": "Preliminaries",
+    "Rank": 5,
+    "TotalScore": "380.90",
+    "Scores": [
+      "65.60",
+      "66.00",
+      "52.70",
+      "54.40",
+      "66.60",
+      "75.60"
+    ],
+    "PersonId": "2e084c46-cc00-477e-88c6-07bdb687f6b9"
+  },
+  {
+    "FullName": "Jaden Shiloh EIKERMANN GREGORCHUK",
+    "PhaseName": "Preliminaries",
+    "Rank": 6,
+    "TotalScore": "380.40",
+    "Scores": [
+      "72.00",
+      "66.60",
+      "79.20",
+      "46.80",
+      "51.00",
+      "64.80"
+    ],
+    "PersonId": "00006ce3-63d8-439c-a41b-2ab95bbffdc0"
+  },
+  {
+    "FullName": "Jorge RODRIGUEZ LEDESMA",
+    "PhaseName": "Preliminaries",
+    "Rank": 7,
+    "TotalScore": "372.40",
+    "Scores": [
+      "65.60",
+      "29.70",
+      "62.70",
+      "62.90",
+      "77.70",
+      "73.80"
+    ],
+    "PersonId": "0c1c8461-4f28-472f-aa1e-fe290feef36b"
+  },
+  {
+    "FullName": "Athanasios TSIRIKOS",
+    "PhaseName": "Preliminaries",
+    "Rank": 8,
+    "TotalScore": "367.60",
+    "Scores": [
+      "54.00",
+      "49.50",
+      "65.10",
+      "63.00",
+      "68.80",
+      "67.20"
+    ],
+    "PersonId": "03e559be-d77f-45b2-945d-0d98d9fb9ceb"
+  },
+  {
+    "FullName": "Euan MCCABE",
+    "PhaseName": "Preliminaries",
+    "Rank": 9,
+    "TotalScore": "360.00",
+    "Scores": [
+      "65.60",
+      "36.80",
+      "48.60",
+      "79.90",
+      "48.10",
+      "81.00"
+    ],
+    "PersonId": "06045885-36a8-4872-8640-c726a741ef97"
+  },
+  {
+    "FullName": "Dariush LOTFI",
+    "PhaseName": "Preliminaries",
+    "Rank": 10,
+    "TotalScore": "358.10",
+    "Scores": [
+      "56.00",
+      "62.40",
+      "66.00",
+      "57.00",
+      "52.70",
+      "64.00"
+    ],
+    "PersonId": "410c0356-2f6b-42f1-a3e6-3d76aa5b080b"
+  },
+  {
+    "FullName": "Igor MYALIN",
+    "PhaseName": "Preliminaries",
+    "Rank": 11,
+    "TotalScore": "357.90",
+    "Scores": [
+      "62.40",
+      "40.80",
+      "68.40",
+      "56.10",
+      "63.00",
+      "67.20"
+    ],
+    "PersonId": "95823117-9a8d-45ed-8aeb-c69c07b5583a"
+  },
+  {
+    "FullName": "Gyeongbin KIM",
+    "PhaseName": "Preliminaries",
+    "Rank": 12,
+    "TotalScore": "331.60",
+    "Scores": [
+      "61.50",
+      "59.20",
+      "36.30",
+      "63.00",
+      "59.40",
+      "52.20"
+    ],
+    "PersonId": "8fdfe985-e40c-4699-ae95-e66470c44dcb"
+  },
+  {
+    "FullName": "Gangin CHOI",
+    "PhaseName": "Preliminaries",
+    "Rank": 13,
+    "TotalScore": "330.05",
+    "Scores": [
+      "65.60",
+      "54.45",
+      "66.60",
+      "42.90",
+      "51.00",
+      "49.50"
+    ],
+    "PersonId": "e95d5048-eafa-4c40-aafc-401a75cd7216"
+  },
+  {
+    "FullName": "Mark HRYTSENKO",
+    "PhaseName": "Preliminaries",
+    "Rank": 14,
+    "TotalScore": "328.35",
+    "Scores": [
+      "66.00",
+      "54.40",
+      "53.20",
+      "37.95",
+      "57.60",
+      "59.20"
+    ],
+    "PersonId": "209ad056-b688-4a4e-b78a-439614c8ccd1"
+  },
+  {
+    "FullName": "Max LINAN",
+    "PhaseName": "Preliminaries",
+    "Rank": 15,
+    "TotalScore": "326.35",
+    "Scores": [
+      "43.50",
+      "47.60",
+      "57.60",
+      "56.00",
+      "54.45",
+      "67.20"
+    ],
+    "PersonId": "f28cc9b5-9012-4ded-94b3-cc436ad32482"
+  },
+  {
+    "FullName": "Danylo AVANESOV",
+    "PhaseName": "Preliminaries",
+    "Rank": 16,
+    "TotalScore": "322.20",
+    "Scores": [
+      "67.20",
+      "67.20",
+      "39.60",
+      "20.40",
+      "64.80",
+      "63.00"
+    ],
+    "PersonId": "b91f1cd3-da25-4377-bd67-14febdb302d4"
+  },
+  {
+    "FullName": "Tom Laszlo WALDSTEINER",
+    "PhaseName": "Preliminaries",
+    "Rank": 17,
+    "TotalScore": "296.85",
+    "Scores": [
+      "48.00",
+      "52.80",
+      "47.60",
+      "57.60",
+      "31.45",
+      "59.40"
+    ],
+    "PersonId": "cad95ee8-ed23-46b0-a8ea-707032e93f26"
+  },
+  {
+    "FullName": "Robert LUKASZEWICZ",
+    "PhaseName": "Preliminaries",
+    "Rank": 18,
+    "TotalScore": "290.60",
+    "Scores": [
+      "42.00",
+      "52.80",
+      "51.15",
+      "41.25",
+      "59.20",
+      "44.20"
+    ],
+    "PersonId": "784567cc-7e1c-4d5f-a765-7d208bd6c5ec"
+  },
+  {
+    "FullName": "Jiho KANG",
+    "PhaseName": "Preliminaries",
+    "Rank": 19,
+    "TotalScore": "216.65",
+    "Scores": [
+      "39.00",
+      "43.20",
+      "29.70",
+      "16.50",
+      "49.30",
+      "38.95"
+    ],
+    "PersonId": "3f86dc7a-1620-40fd-951d-a76e8b649c77"
+  }
+]
