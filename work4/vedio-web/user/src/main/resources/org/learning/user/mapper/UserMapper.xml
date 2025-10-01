@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.learning.user.mapper.UserMapper">
+    <select id="findById" resultType="org.learning.user.pojo.User">
+        select user.username,user.avatar_url,user.created_at,user.updated_at,user.deleted_at from user where id=#{id} and deleted_at IS NULL
+    </select>
+    <select id="findByUsernameAndPassword" resultType="org.learning.user.pojo.User">
+        select user.username,user.avatar_url,user.created_at,user.updated_at,user.deleted_at from user where username=#{username} and password=#{password}
+    </select>
+    <insert id="insert">
+        insert into user (id, username, password, avatar_url, created_at, updated_at, deleted_at)
+        values (#{id},#{username},#{password},#{avatarUrl},#{createdAt},#{updatedAt},#{deletedAt})
+    </insert>
+    <update id="update">
+        update user set user.username=#{username},password=#{password},
+                    avatar_url=#{avatarUrl} ,updated_at=#{updatedAt},
+                    deleted_at=#{deletedAt}
+                    where id=#{id}
+    </update>
+</mapper>
