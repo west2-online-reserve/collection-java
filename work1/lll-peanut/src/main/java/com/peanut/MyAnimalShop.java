@@ -18,7 +18,7 @@ public class MyAnimalShop implements AnimalShop {
 
     private ArrayList<Customer> customers = new ArrayList<Customer>();
 
-    boolean isOpen;
+    private boolean isOpen;
 
     public MyAnimalShop() {
         balance = 1000;
