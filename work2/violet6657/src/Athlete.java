@@ -3,7 +3,7 @@ public class Athlete {
     private String gender;
     private String country;
 
-    Athlete(String fullName, String gender, String country) {
+    public Athlete(String fullName, String gender, String country) {
         this.fullName = fullName;
         this.gender = gender;
         this.country = country;
