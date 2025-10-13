@@ -10,7 +10,8 @@ public class Cat extends Animal {
 
     @Override
     public String toString() {
+        String s = isSex() ? "MALE" : "FEMALE";
         return "{Cat :" + " name:" + name + " age:" + age + " price:" +
-                price + " sex:" + sex + "}";
+                price + " sex:" + s + "}";
     }
 }

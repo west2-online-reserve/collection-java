@@ -6,9 +6,9 @@ public class ChineseRuralDog extends Animal {
 
     private boolean isVaccineInjected;
 
-    public ChineseRuralDog(String name, int age, boolean sex, boolean isVaccineInjected) {
+    public ChineseRuralDog(String name, int age, boolean sex, boolean isVaccineInject) {
         super(name, age, sex, PRICE.DOG_PRICE);
-        price = 100;
+        isVaccineInjected = isVaccineInject;
     }
 
     @Override

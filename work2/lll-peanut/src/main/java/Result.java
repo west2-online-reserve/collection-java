@@ -1,7 +1,7 @@
 public class Result {
-    String name;
-    String[] array;
-    String[] score;
+    private String name;
+    private String[] array;
+    private String[] score;
 
     public Result() {
     }

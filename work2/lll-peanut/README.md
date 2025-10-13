@@ -9,6 +9,7 @@
 │  │  │  │  Player.java
 │  │  │  │  ResourceUtil.java
 │  │  │  │  Result.java
+│  │  │  │  Deprecated.java
 │  │  │  └─Constant
 │  │  │          DivingEventConstants.java
 │  │  │          FileConstants.java
@@ -35,27 +36,15 @@
 
 首先对参数的个数，文件是否进行验证。输入函数一定要存在，输出函数若不存在可以创建，并且可以选择是否对输出文件的覆盖。接下来对字符串进行解析，并调用不同的函数实现不同的输出。
 
+# Deprecated类
+
+这个类的一个函数readAllFilesInDir()本来是用来读取所有文件的Player，再整合到一起，但是我发现我漏了个json是存放运动员数据的，所以放在Deprecated类里
+
+还有一个函数processArgs()和Lib的processArgs()是一样的，但是Lib类里的processArgs()需要输入1或其他数来判断文件是否覆盖，为了便利测试，Deprecated类里的processArgs()里直接覆盖不需要确认。
+
 # 异常处理
 若输入文件不存在，报异常ArgumentsException。若io异常，抛出RuntimeException。
 
 # 单元测试
-~~~text
-result women 10m platform detail
-player
-Players
-resultwomen 1m springboard
-result 
-result women 10m springboard
-result sss
-result detail
-result  detail
-result women 1m springboard details
-result men 10m     synchronised
-players
-result women 1m springboard detail
-result women 1m springboard
-result women 1m
-~~~
-
-对以上命令进行了测试并将结果放入resources里的TestData的test.txt文件
+由于ResourceUtil无法在test文件中对于json文件的调用，所以测试没有用断言。对于input.txt测试了14组的不同指令，并进行人工验证。对于输入文件输出文件的名字也进行了验证。
 

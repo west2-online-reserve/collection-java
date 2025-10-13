@@ -10,18 +10,15 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Lib {
-    static ResourceUtil resourceUtil = new ResourceUtil();
-
     /*
         作用： 输出运动员信息到dest中
         首先用ResourceUtil的readFile读取player的json数据，利用json工具解析得到每个player并将其封装
      */
     public static void outputPlayers(String dest) {
-        String playerData = resourceUtil.readFile(FileConstants.PALYER_JSON_FILEPATH);
+        String playerData = ResourceUtil.readFile(FileConstants.PALYER_JSON_FILEPATH);
 
         ArrayList<Player> players = new ArrayList<>();
         StringBuilder stringBuilder = new StringBuilder();
@@ -29,11 +26,11 @@ public class Lib {
         JSONArray countryArray = JSON.parseArray(playerData);
         for (int i = 0; i < countryArray.size(); i++) {
             JSONObject countryObject = countryArray.getJSONObject(i);
-            String countryName = (String) countryObject.get("CountryName");
+            String countryName = countryObject.getString("CountryName");
             JSONArray participations = countryObject.getJSONArray("Participations");
             for (int j = 0; j < participations.size(); j++) {
                 JSONObject participation = participations.getJSONObject(j);
-                int temp = (int) participation.get("Gender");
+                int temp = participation.getInteger("Gender");
                 String gender = temp == 0 ? "Male" : "Female";
                 String lastName = participation.getString("PreferredLastName");
                 String firstName = participation.getString("PreferredFirstName");
@@ -50,11 +47,12 @@ public class Lib {
         }
         Lib.outPrint(stringBuilder.toString(), dest);
     }
+
     /*
         作用： 将比赛结果输出到dest中
      */
     public static void outputFinalResults(String fileName, String dest) {
-        String s = resourceUtil.readFile(fileName);
+        String s = ResourceUtil.readFile(fileName);
         StringBuilder stringBuilder = new StringBuilder();
 
         JSONObject jsonObject = JSON.parseObject(s);
@@ -64,17 +62,21 @@ public class Lib {
             JSONArray results = heat.getJSONArray("Results");
             for (int j = 0; j < results.size(); j++) {
                 JSONObject result = results.getJSONObject(j);
-                String fullName = (String) result.get("FullName");
-                int rank = (int) result.get("Rank");
-                String totalPoints = (String) result.get("TotalPoints");
+                String fullName = result.getString("FullName");
+                int rank = result.getInteger("Rank");
+                String totalPoints = result.getString("TotalPoints");
                 JSONArray judgesScores = result.getJSONArray("Dives");
                 int a = judgesScores.size();
-                stringBuilder.append("FullName:" + fullName + "\nRank:" + rank + "\nScore:");
-                for (i = 0; i < a; i++) {
-                    JSONObject judge = judgesScores.getJSONObject(i);
-                    String score = (String) judge.get("DivePoints");
+                stringBuilder.append("FullName:")
+                        .append(fullName)
+                        .append("\nRank:")
+                        .append(rank)
+                        .append("\nScore:");
+                for (int k = 0; k < a; k++) {
+                    JSONObject judge = judgesScores.getJSONObject(k);
+                    String score = judge.getString("DivePoints");
                     stringBuilder.append(score);
-                    if (i != judgesScores.size() - 1)
+                    if (k != judgesScores.size() - 1)
                         stringBuilder.append(" + ");
                 }
                 stringBuilder.append(" = " + totalPoints);
@@ -86,7 +88,7 @@ public class Lib {
 
     public static void outputFinalResultsDetail(String fileName, String dest) {
         ArrayList<Result> resultArrayList = new ArrayList<>();
-        String s = resourceUtil.readFile(fileName);
+        String s = ResourceUtil.readFile(fileName);
         StringBuilder stringBuilder = new StringBuilder();
         JSONObject jsonObject = JSON.parseObject(s);
         JSONArray heats = jsonObject.getJSONArray("Heats");
@@ -94,7 +96,7 @@ public class Lib {
             String[] rankList = new String[3];
             JSONObject heat = heats.getJSONObject(i);
             JSONArray results = heat.getJSONArray("Results");
-            String phaseName = (String) heat.get("PhaseName");
+            String phaseName = heat.getString("PhaseName");
             int k = -1;
             if (phaseName.equals("Finals")) {
                 k = 2;
@@ -119,14 +121,14 @@ public class Lib {
                         fullName = fullName.substring(i1 + 1) + " & " + fullName.substring(0, i1);
                     }
                 }
-                Integer rank = (int) result.get("Rank");
-                String totalPoints = (String) result.get("TotalPoints");
+                Integer rank = result.getInteger("Rank");
+                String totalPoints = result.getString("TotalPoints");
                 JSONArray judgesScores = result.getJSONArray("Dives");
                 int a = judgesScores.size();
                 String score = "";
                 for (int r = 0; r < a; r++) {
                     JSONObject judge = judgesScores.getJSONObject(r);
-                    score = score + (String) judge.get("DivePoints");
+                    score = score + judge.getString("DivePoints");
                     if (r != judgesScores.size() - 1)
                         score += " + ";
                 }
@@ -159,12 +161,10 @@ public class Lib {
     /*
         封装一个方法将数据写入dest
      */
-    static void outPrint(String s, String dest, boolean isAppend) {
-        try {
-            FileWriter fileWriter = new FileWriter(dest, StandardCharsets.UTF_8, isAppend);
+    public static void outPrint(String s, String dest, boolean isAppend) {
+        try (FileWriter fileWriter = new FileWriter(dest, StandardCharsets.UTF_8, isAppend);) {
             fileWriter.write(s);
             fileWriter.flush();
-            fileWriter.close();
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
@@ -173,11 +173,11 @@ public class Lib {
     /*
         默认追加
      */
-    static void outPrint(String s, String dest) {
+    public static void outPrint(String s, String dest) {
         outPrint(s, dest, true);
     }
 
-    static void processArgs(String[] args) {
+    public static void processArgs(String[] args) {
         if (args.length != 2) {
             throw new ArgumentsException(FileConstants.ARGS_ERROR);
         }
@@ -185,8 +185,7 @@ public class Lib {
         File file = new File(args[0]);
 
         for (String arg : args) {
-            int lastDotIndex = arg.lastIndexOf('.');
-            if (lastDotIndex == -1 || !arg.substring(lastDotIndex + 1).equals("txt")) {
+            if (!arg.endsWith(".txt")) {
                 throw new ArgumentsException(FileConstants.SUFFIX_ERROR);
             }
         }
@@ -215,10 +214,9 @@ public class Lib {
 
         }
 
-        try {
+        try (FileReader fileReader = new FileReader(file);
+             BufferedReader bufferedReader = new BufferedReader(fileReader);) {
 
-            FileReader fileReader = new FileReader(file);
-            BufferedReader bufferedReader = new BufferedReader(fileReader);
             String content;
             while ((content = bufferedReader.readLine()) != null) {
 

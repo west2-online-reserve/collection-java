@@ -12,16 +12,16 @@ import java.util.jar.JarFile;
 public class ResourceUtil {
 
     public static final String fileName = "rowData1";
+
     /*
         返回值： 相关项目的json信息
         作用： 利用类加载器读取resources里的json文本，并将其用BufferedReader的readLine()方法转化为字符串将其返回。
         好处是在打成jar包的时候不会出现找不到文件的问题。
      */
-    public String readFile(String resourcePath)  {
+    public static String readFile(String resourcePath) {
         resourcePath = fileName + "/" + resourcePath;
-        try {
-            InputStream resourceAsStream = getClass().getClassLoader().getResourceAsStream(resourcePath);
-            BufferedReader br = new BufferedReader(new InputStreamReader(resourceAsStream));
+        try (InputStream resourceAsStream = ResourceUtil.class.getClassLoader().getResourceAsStream(resourcePath);
+             BufferedReader br = new BufferedReader(new InputStreamReader(resourceAsStream));) {
             return br.readLine();
         } catch (IOException e) {
             throw new RuntimeException(e);

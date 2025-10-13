@@ -2,7 +2,7 @@ package com.peanut;
 
 public class Hamster extends Animal {
 
-    String color;
+    private String color;
 
     public Hamster(String name, int age, boolean sex, double price, String color) {
         super(name, age, sex, price);
@@ -11,7 +11,8 @@ public class Hamster extends Animal {
 
     @Override
     public String toString() {
+        String s = isSex() ? "MALE" : "FEMALE";
         return "{Hamster name:" + name + " age:" + age + " price:" +
-                price + " sex:" + sex + " color:" + color + "}";
+                price + " sex:" + s + " color:" + color + "}";
     }
 }

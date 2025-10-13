@@ -35,7 +35,7 @@ public class Deprecated {
 //        return contents;
 //    }
 
-    static void processArgs(String[] args) {
+    public static void processArgs(String[] args) {
         if (args.length != 2) {
             throw new ArgumentsException(FileConstants.ARGS_ERROR);
         }
@@ -43,8 +43,7 @@ public class Deprecated {
         File file = new File(args[0]);
 
         for (String arg : args) {
-            int lastDotIndex = arg.lastIndexOf('.');
-            if (lastDotIndex == -1 || !arg.substring(lastDotIndex + 1).equals("txt")) {
+            if (!arg.endsWith(".txt")) {
                 throw new ArgumentsException(FileConstants.SUFFIX_ERROR);
             }
         }
@@ -65,13 +64,12 @@ public class Deprecated {
             System.out.println("即将创建新文件" + dest);
         } else {
             System.out.println("即将覆盖文件" + dest);
-                Lib.outPrint("", dest, false);
+            Lib.outPrint("", dest, false);
         }
 
-        try {
+        try (FileReader fileReader = new FileReader(file);
+             BufferedReader bufferedReader = new BufferedReader(fileReader);) {
 
-            FileReader fileReader = new FileReader(file);
-            BufferedReader bufferedReader = new BufferedReader(fileReader);
             String content;
             while ((content = bufferedReader.readLine()) != null) {
 
