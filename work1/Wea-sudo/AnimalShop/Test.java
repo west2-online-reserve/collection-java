@@ -7,8 +7,6 @@ import static example.Gender.FEMALE;
 
 public class Test {
     public static void main(String[] args) {
-        //LocalDate l = new LocalDate(2025, 6, 7);
-        //System.out.println(l.toString());
 
         MyAnimalShop myAnimalShop = new MyAnimalShop(1500,true);
         Cat cat1 = new Cat("小凯", 10, MALE);
@@ -36,16 +34,15 @@ public class Test {
         Customer customer3 = new Customer("王五");
         Customer customer4 = new Customer("小凯");
         Customer customer5 = new Customer("小宇");
-
         try {
-            myAnimalShop.solicitCustomer(customer1, cat1, 300, LocalDate.of(2025, 6,18));
-            myAnimalShop.solicitCustomer(customer2, bird1, 350, LocalDate.of(2025, 6,18));
-            myAnimalShop.solicitCustomer(customer3, chineseRuralDog1, 430, LocalDate.of(2025, 6,18));
-            myAnimalShop.solicitCustomer(customer4, cat2, 420, LocalDate.of(2025, 6,18));
-            myAnimalShop.solicitCustomer(customer4, chineseRuralDog2, 400, LocalDate.of(2025, 6,18));
+            myAnimalShop.solicitCustomer(customer1, Cat.class, 300, LocalDate.of(2025, 6,18));
+            myAnimalShop.solicitCustomer(customer2, Bird.class, 350, LocalDate.of(2025, 6,18));
+            myAnimalShop.solicitCustomer(customer3, ChineseRuralDog.class, 430, LocalDate.of(2025, 6,18));
+            myAnimalShop.solicitCustomer(customer4, Cat.class, 420, LocalDate.of(2025, 6,18));
+            myAnimalShop.solicitCustomer(customer4, ChineseRuralDog.class, 400, LocalDate.of(2025, 6,18));
 
 
-        }catch(AnimalNotFountException e) {
+        }catch(AnimalNotFoundException e) {
             System.out.println(e.getMessage());
         }
 
@@ -63,12 +60,12 @@ public class Test {
         }
 
         try {
-            myAnimalShop.solicitCustomer(customer1, cat3, 280, LocalDate.of(2025, 6,19));
-            myAnimalShop.solicitCustomer(customer2, bird2, 411, LocalDate.of(2025, 6,19));
-            myAnimalShop.solicitCustomer(customer5, chineseRuralDog3, 470, LocalDate.of(2025, 6,19));
+            myAnimalShop.solicitCustomer(customer1, Cat.class, 280, LocalDate.of(2025, 6,19));
+            myAnimalShop.solicitCustomer(customer2, Bird.class, 411, LocalDate.of(2025, 6,19));
+            myAnimalShop.solicitCustomer(customer5, ChineseRuralDog.class, 470, LocalDate.of(2025, 6,19));
 
 
-        }catch(AnimalNotFountException e) {
+        }catch(AnimalNotFoundException e) {
             System.out.println(e.getMessage());
         }
         myAnimalShop.printCustomerHasVisit();

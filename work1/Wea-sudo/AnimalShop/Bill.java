@@ -5,10 +5,10 @@ import java.time.LocalDate;
 public class Bill {
     private Customer customer;
     private Animal animal;
-    private int price;
+    private double price;
     private LocalDate localDate;
 
-    public Bill(Customer customer, Animal animal, int price, LocalDate localDate) {
+    public Bill(Customer customer, Animal animal, double price, LocalDate localDate) {
         this.customer = customer;
         this.animal = animal;
         this.price = price;

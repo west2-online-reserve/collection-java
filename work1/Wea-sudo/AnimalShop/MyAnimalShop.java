@@ -7,7 +7,7 @@ public class MyAnimalShop implements AnimalShop {
     private ArrayList<Animal> myAnimal = new ArrayList<>();
     private ArrayList<Customer> myCustomer = new ArrayList<>();
     private ArrayList<Bill> myBillToday = new ArrayList<>();
-    private int profitToday = 0;
+    private double profitToday = 0;
     private boolean isOnBusiness;
 
     public MyAnimalShop() {
@@ -57,7 +57,7 @@ public class MyAnimalShop implements AnimalShop {
     }
 
     @Override
-    public void solicitCustomer(Customer customer, Animal animal, int price, LocalDate localDate) throws AnimalNotFountException {
+    public void solicitCustomer(Customer customer, Class<? extends Animal> animalType, double price, LocalDate localDate) throws AnimalNotFoundException {
         if(!isOnBusiness) {
             System.out.println("本店已打烊");
             return;
@@ -66,7 +66,7 @@ public class MyAnimalShop implements AnimalShop {
         boolean hasAnimalStock = false;
 
         for (int i = 0; i < myAnimal.size() && !hasAnimalStock; i++) {
-            if(myAnimal.get(i).equals(animal)) {
+            if(animalType.isInstance(myAnimal.get(i))) {
 
                 if(customer.getCountOfVisitStore() <= 0) {
                     myCustomer.add(customer);
@@ -82,7 +82,7 @@ public class MyAnimalShop implements AnimalShop {
             }
         }
         if(!hasAnimalStock) {
-            throw new AnimalNotFountException("库存缺少" + animal.getClassName());
+            throw new AnimalNotFoundException("库存缺少" + animalType.getSimpleName());
         }
 
 

@@ -5,13 +5,11 @@ public abstract class Animal {
     protected int age;
     protected Gender sex;
     protected double price;
-    protected  String className = "";
-    public Animal(String name, int age, Gender sex, double price, String className) {
+    public Animal(String name, int age, Gender sex, double price) {
         this.name = name;
         this.age = age;
         this.sex = sex;
         this.price = price;
-        this.className = className;
     }
 
 
@@ -48,7 +46,5 @@ public abstract class Animal {
         return price;
     }
 
-    public String getClassName() {
-        return className;
-    }
+
 }

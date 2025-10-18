@@ -4,7 +4,7 @@ public class ChineseRuralDog extends Animal {
     private boolean isVaccineInjected;
 
     public ChineseRuralDog(String name, int age, Gender sex, boolean isVaccineInjected) {
-        super(name,age,sex,100, "中华田园犬");
+        super(name,age,sex,100.0);
         this.isVaccineInjected = isVaccineInjected;
 
     }
@@ -18,7 +18,7 @@ public class ChineseRuralDog extends Animal {
             isVaccineString = "否";
         }
         return "{姓名:" + name +
-                ", 类型:" + className +
+                ", 类型:" + ChineseRuralDog.class.getSimpleName() +
                 ", 性别:" + sex +
                 ", 年龄:" + age +
                 ", 是否注册疫苗:" + isVaccineString
