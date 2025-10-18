@@ -1,11 +1,12 @@
 package com.cai.task01;
 
 public abstract class Animal {
-    private String name;
-    private int age;
-    private String gender;
-    private double price;
-    private String kind;
+    protected String name;
+    protected int age;
+    protected String gender;
+    protected double cost;
+    protected double price;
+    protected String kind;
 
     abstract void eat();
     abstract void makeSound();
@@ -24,6 +25,9 @@ public abstract class Animal {
         this.kind = kind;
     }
 
+    public double getCost() {return cost;}
+
+    public void setCost(double cost) {this.cost = cost;}
 
     public int getAge() {
         return age;

@@ -5,10 +5,10 @@ import java.util.List;
 
 public interface PetShopMethods {
     //买入动物
-    void buyAnimal(Animal animal, double cost, double sellPrice) throws InsufficientBalanceException;
+    void buyAnimal(List<Animal> animalCanBuyList , Animal animal, double cost, double sellPrice) throws InsufficientBalanceException;
 
     // 招待客户
-    void serveCustomer(Customer customer, Animal animal) throws AnimalNotFoundException;
+    void serveCustomer(Customer customer, Animal animal , LocalDate date) throws AnimalNotFoundException;
 
     // 歇业
     void closeShop(LocalDate date);
@@ -16,12 +16,21 @@ public interface PetShopMethods {
     // 获取当前动物列表
     List<Animal> getAnimals();
 
-    //
-    List<Customer> getCustomers();
+    //获取所有顾客列表
+    List<Customer> getAllCustomers();
+
+    //获取今日顾客列表
+    List<Customer> getTodayCustomers();
 
     //获取当前余额
     double getBalance();
 
-    //获取当前盈利
+    //获取当前营业额
     double getTodayProfit();
+
+    //获取当前营业状态
+    boolean getIsRunning();
+
+    //获取宠物店名
+    String getName();
 }
