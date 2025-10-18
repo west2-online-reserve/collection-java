@@ -14,8 +14,6 @@ public abstract class Animal {
         this.className = className;
     }
 
-//    @Override
-//    public abstract String toString();
 
 
     public void setName(String name) {
