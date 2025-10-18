@@ -1,5 +1,7 @@
 package example;
 
+import java.time.LocalDate;
+
 import static example.Gender.MALE;
 import static example.Gender.FEMALE;
 
@@ -28,11 +30,11 @@ public class Test {
         Customer customer5 = new Customer("小宇");
 
         try {
-            myAnimalShop.SolicitCustomer(customer1, "猫", 300, new LocalDate(2025, 6,18));
-            myAnimalShop.SolicitCustomer(customer2, "鸟", 350, new LocalDate(2025, 6,18));
-            myAnimalShop.SolicitCustomer(customer3, "中华田园犬", 430, new LocalDate(2025, 6,18));
-            myAnimalShop.SolicitCustomer(customer4, "猫", 420, new LocalDate(2025, 6,18));
-            myAnimalShop.SolicitCustomer(customer4, "中华田园犬", 400, new LocalDate(2025, 6,18));
+            myAnimalShop.SolicitCustomer(customer1, "猫", 300, LocalDate.of(2025, 6,18));
+            myAnimalShop.SolicitCustomer(customer2, "鸟", 350, LocalDate.of(2025, 6,18));
+            myAnimalShop.SolicitCustomer(customer3, "中华田园犬", 430, LocalDate.of(2025, 6,18));
+            myAnimalShop.SolicitCustomer(customer4, "猫", 420, LocalDate.of(2025, 6,18));
+            myAnimalShop.SolicitCustomer(customer4, "中华田园犬", 400, LocalDate.of(2025, 6,18));
 
 
         }catch(AnimalNotFountException e) {
@@ -53,9 +55,9 @@ public class Test {
         }
 
         try {
-            myAnimalShop.SolicitCustomer(customer1, "猫", 280, new LocalDate(2025, 6,19));
-            myAnimalShop.SolicitCustomer(customer2, "鸟", 411, new LocalDate(2025, 6,19));
-            myAnimalShop.SolicitCustomer(customer5, "中华田园犬", 470, new LocalDate(2025, 6,19));
+            myAnimalShop.SolicitCustomer(customer1, "猫", 280, LocalDate.of(2025, 6,19));
+            myAnimalShop.SolicitCustomer(customer2, "鸟", 411, LocalDate.of(2025, 6,19));
+            myAnimalShop.SolicitCustomer(customer5, "中华田园犬", 470, LocalDate.of(2025, 6,19));
 
 
         }catch(AnimalNotFountException e) {

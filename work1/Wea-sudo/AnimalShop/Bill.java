@@ -1,5 +1,7 @@
 package example;
 
+import java.time.LocalDate;
+
 public class Bill {
     private Customer customer;
     private Animal animal;

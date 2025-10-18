@@ -11,17 +11,17 @@ public class ChineseRuralDog extends Animal {
 
     @Override
     public String toString() {
-        String isVaccine = "";
+        String isVaccineString = "";
         if (isVaccineInjected) {
-            isVaccine = "是";
+            isVaccineString = "是";
         } else {
-            isVaccine = "否";
+            isVaccineString = "否";
         }
         return "姓名" + name +
                 ", 类型:" + className +
                 ", 性别:" + sex +
                 ", 年龄:" + age +
-                ", 是否注册疫苗:" + isVaccine;
+                ", 是否注册疫苗:" + isVaccineString;
     }
 
 

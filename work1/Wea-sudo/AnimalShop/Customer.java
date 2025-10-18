@@ -1,5 +1,7 @@
 package example;
 
+import java.time.LocalDate;
+
 public class Customer {
     private String name;
     private int countOfVisitStore;

@@ -1,5 +1,6 @@
 package example;
 import java.util.ArrayList;
+import java.time.LocalDate;
 
 public class MyAnimalShop implements AnimalShop {
     private double balance;
@@ -47,6 +48,7 @@ public class MyAnimalShop implements AnimalShop {
         }
         if(balance >= animal.getPrice()) {
             balance -= animal.getPrice();
+            profitToday -= animal.getPrice();
             myAnimal.add(animal);
         }else {
             throw new InsufficientBalanceException("余额不足");
@@ -71,7 +73,7 @@ public class MyAnimalShop implements AnimalShop {
                 }
                 customer.visit();
                 balance += price;
-                profitToday += price - myAnimal.get(i).getPrice();
+                profitToday += price;
                 myBillToday.add(new Bill(customer, myAnimal.get(i), price, localDate));
                 myAnimal.remove(i);
                 customer.setLatestDate(localDate);
@@ -88,6 +90,7 @@ public class MyAnimalShop implements AnimalShop {
 
     @Override
     public void close() {
+
         showListToday();
 
         profitToday = 0;
