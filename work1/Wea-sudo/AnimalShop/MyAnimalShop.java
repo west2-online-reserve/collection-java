@@ -57,7 +57,7 @@ public class MyAnimalShop implements AnimalShop {
     }
 
     @Override
-    public void SolicitCustomer(Customer customer, String className, int price, LocalDate localDate) throws AnimalNotFountException {
+    public void solicitCustomer(Customer customer, Animal animal, int price, LocalDate localDate) throws AnimalNotFountException {
         if(!isOnBusiness) {
             System.out.println("本店已打烊");
             return;
@@ -66,7 +66,7 @@ public class MyAnimalShop implements AnimalShop {
         boolean hasAnimalStock = false;
 
         for (int i = 0; i < myAnimal.size() && !hasAnimalStock; i++) {
-            if(myAnimal.get(i).getClassName().equals(className)) {
+            if(myAnimal.get(i).equals(animal)) {
 
                 if(customer.getCountOfVisitStore() <= 0) {
                     myCustomer.add(customer);
@@ -82,7 +82,7 @@ public class MyAnimalShop implements AnimalShop {
             }
         }
         if(!hasAnimalStock) {
-            throw new AnimalNotFountException("库存缺少" + className);
+            throw new AnimalNotFountException("库存缺少" + animal.getClassName());
         }
 
 

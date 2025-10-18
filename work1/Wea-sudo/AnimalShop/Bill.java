@@ -18,7 +18,7 @@ public class Bill {
     @Override
     public String toString() {
         return "顾客姓名:" + customer.getName() +
-                ", 购买动物:" + animal.getClassName() +
+                ", 购买动物:" + animal.toString() +
                 ", 购买价格:" + price +
                 ", 购买日期:" + localDate;
     }

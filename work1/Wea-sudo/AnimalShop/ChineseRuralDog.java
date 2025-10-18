@@ -17,11 +17,12 @@ public class ChineseRuralDog extends Animal {
         } else {
             isVaccineString = "否";
         }
-        return "姓名" + name +
+        return "{姓名:" + name +
                 ", 类型:" + className +
                 ", 性别:" + sex +
                 ", 年龄:" + age +
-                ", 是否注册疫苗:" + isVaccineString;
+                ", 是否注册疫苗:" + isVaccineString
+                + "}";
     }
 
 

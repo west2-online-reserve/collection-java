@@ -7,10 +7,11 @@ public class Bird extends Animal{
 
     @Override
     public String toString() {
-        return "姓名:" + name +
+        return "{姓名:" + name +
                 ", 类型:" + className +
                 ", 性别:" + sex +
-                ", 年龄:" + age;
+                ", 年龄:" + age
+                + "}";
     }
 
 
