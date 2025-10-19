@@ -28,25 +28,6 @@ public class Test {
         Animal.Cat C4 = new Animal.Cat("小白", 4, "Girl", "小花猫");
         Animal.Cat C5 = new Animal.Cat("小黑", 5, "Boy", "雀猫");
 
-        // 初始化顾客
-        Customer customer1 = new Customer("00001", "俊凡", 5, LocalDate.of(2025, 9, 30));
-        Customer customer2 = new Customer("00002", "荣琛", 1, LocalDate.of(2024, 5, 30));
-
-        // 初始动物添加到宠物店
-        myPetShop.getAnimals().add(D0);
-        D0.setPrice(200);
-        D0.setCost(100);
-        myPetShop.getAnimals().add(C0);
-        C0.setCost(200);
-        C0.setPrice(400);
-        myPetShop.getAnimals().add(C1);
-        C1.setCost(200);
-        C1.setPrice(300);
-
-        // 添加老顾客
-        myPetShop.getAllCustomers().add(customer1);
-        myPetShop.getAllCustomers().add(customer2);
-
         // 可购买的动物列表
         animalsCanBuy.add(D1);
         animalsCanBuy.add(D2);
@@ -62,10 +43,16 @@ public class Test {
         // 模拟5天营业
         for (int i = 0; i < 5; i++) {
             System.out.println("\n===== 第" + (i + 1) + "天：" + date + " =====");
+
             if (!myPetShop.getIsRunning()) {
                 System.out.println("============== " + myPetShop.getName() + " 今日歇业 ================");
                 date = date.plusDays(1); // 天数仍需加一
                 continue;
+            }
+
+            // 每日循环开始检查动物列表是否为空，空则提醒需买入
+            if (myPetShop.getAnimals().isEmpty()) {
+                System.out.println("你的宠物店内还没有动物，建议先买入一些动物");
             }
 
             // 买入动物逻辑
@@ -101,15 +88,23 @@ public class Test {
 
 
             System.out.println("============================= 开始招待顾客 ===============================");
-            int flag = 1;
-            while (flag != -1) {
+
+            // 使用标签定义外部循环，替代flag信号量
+            outerLoop:
+            while (true) {
+                // 招待顾客前检查动物列表是否为空，空则直接歇业
+                if (myPetShop.getAnimals().isEmpty()) {
+                    System.out.println("店内没有可购买动物，今日歇业");
+                    break ;
+                }
+
                 String idInput = "";
                 while (true) {
                     System.out.print("请输入顾客ID（5位数字，输入-1结束今日招待）：");
                     idInput = input();
                     if (idInput.equals("-1")) {
-                        flag = -1;
-                        break;
+                        // 直接跳出外部循环，结束整个流程
+                        break outerLoop;
                     }
                     if (idInput.isEmpty()) {
                         System.out.println("错误：顾客ID不能为空，请重新输入！");
@@ -121,7 +116,6 @@ public class Test {
                     }
                     break;
                 }
-                if (flag == -1) break;
 
                 // 检验顾客姓名不能为空
                 String customerNameInput = "";
@@ -157,6 +151,8 @@ public class Test {
         }
 
         //打印所有顾客，留作纪念
+        System.out.println();
+        System.out.println("==================== 所有顾客列表 ====================");
         for(Customer customer : myPetShop.getAllCustomers()) {
             System.out.println(customer);
         }
