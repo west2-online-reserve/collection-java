@@ -2,7 +2,8 @@ import Entity.*;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.List;
+import Exception.InsufficientBalanceException;
+import Exception.AnimalNotFountException;
 
 public class Test {
     public static void main(String[] args) {
@@ -20,12 +21,21 @@ public class Test {
 
         shop.buyNewAnimal(rabbit);
         shop.buyNewAnimal(dog);
-//        余额不足异常
-//        shop.buyNewAnimal(cat);
+        try {
+            shop.buyNewAnimal(cat);
+        } catch (Exception e) {
+            System.out.println("购买猫失败：余额不足");
+            e.printStackTrace();
+        }
 
         shop.serveCustomer(c2, rabbit);
-//        不存在这个宠物的异常
-//        shop.serveCustomer(c3, cat);
+        try{
+            shop.serveCustomer(c3, cat);
+        } catch (Exception e) {
+            System.out.println("服务失败：动物不存在");
+            e.printStackTrace();
+        }
+
 
         shop.buyNewAnimal(dog2);
 
