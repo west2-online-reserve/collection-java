@@ -1,0 +1,30 @@
+import java.time.LocalDate;
+
+public class Customer {
+    private String name;
+    private int visitCount;
+    private LocalDate latestVisitTime;
+
+    public Customer(String name, int visitCount, LocalDate latestVisitTime) {
+        this.name = name;
+        this.visitCount = visitCount;
+        this.latestVisitTime = latestVisitTime;
+    }
+
+    @Override
+    public String toString() {
+        return "顾客信息：[" +
+                "姓名='" + name + '\'' +
+                ", 到店次数=" + visitCount +
+                ", 最新到店时间=" + latestVisitTime +
+                ']';
+    }
+
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
+    public int getVisitCount() { return visitCount; }
+    public void setVisitCount(int visitCount) { this.visitCount = visitCount; }
+    public LocalDate getLatestVisitTime() { return latestVisitTime; }
+    public void setLatestVisitTime(LocalDate latestVisitTime) { this.latestVisitTime = latestVisitTime; }
+}
+ 
