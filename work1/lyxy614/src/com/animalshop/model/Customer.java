@@ -2,9 +2,9 @@ package com.animalshop.model;
 
 import java.time.LocalDate;
 public class Customer {
-    protected String name;
-    protected int times;
-    protected LocalDate lastDate;
+    private String name;
+    private int times;
+    private LocalDate lastDate;
     public Customer(String name){
         this.name = name;
         this.times = 0;
@@ -24,3 +24,4 @@ public class Customer {
         return String.format("名字: %s, 到店次数: %d, 最新到店时间: %s", name, times, lastDate.toString());
     }
 }
+
