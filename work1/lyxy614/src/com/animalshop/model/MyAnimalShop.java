@@ -9,12 +9,12 @@ import java.util.List;
 import java.time.LocalDate;
 import java.util.Iterator;
 public class MyAnimalShop implements AnimalShop {
-    protected double balance;
-    protected double previousBalance;
-    protected List<Animal> animalList = new ArrayList<>();
-    protected List<Customer> customerList = new ArrayList<>();
-    protected List<Customer> todayCustomerList = new ArrayList<>();
-    protected boolean isOpen;
+    private double balance;
+    private double previousBalance;
+    private List<Animal> animalList = new ArrayList<>();
+    private List<Customer> customerList = new ArrayList<>();
+    private List<Customer> todayCustomerList = new ArrayList<>();
+    private boolean isOpen;
     public MyAnimalShop(double balance) {
         this.balance = balance;
         previousBalance = balance;
@@ -119,3 +119,4 @@ public class MyAnimalShop implements AnimalShop {
         System.out.println("宠物店开业");
     }
 }
+
