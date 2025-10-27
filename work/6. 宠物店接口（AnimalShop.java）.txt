@@ -1,0 +1,14 @@
+6. 宠物店接口（AnimalShop.java）
+ 
+import java.time.LocalDate;
+
+public interface AnimalShop {
+    // 买入新动物
+    void buyAnimal(Animal animal) throws InsufficientBalanceException;
+
+    // 招待客户（出售动物）
+    void serveCustomer(Customer customer) throws AnimalNotFoundException;
+
+    // 歇业（统计当日数据）
+    void closeShop(LocalDate date);
+}

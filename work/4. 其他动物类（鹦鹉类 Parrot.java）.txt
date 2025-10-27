@@ -1,0 +1,26 @@
+4. 其他动物类（鹦鹉类 Parrot.java）
+ 
+public class Parrot extends Animal {
+    private String featherColor; // 羽毛颜色
+
+    // 全参构造（价格自定义）
+    public Parrot(String name, int age, String gender, double price, String featherColor) {
+        super(name, age, gender, price);
+        this.featherColor = featherColor;
+    }
+
+    @Override
+    public String toString() {
+        return "鹦鹉：[" +
+                "姓名='" + getName() + '\'' +
+                ", 年龄=" + getAge() +
+                ", 性别='" + getGender() + '\'' +
+                ", 价格=" + getPrice() + "元" +
+                ", 羽毛颜色='" + featherColor + '\'' +
+                ']';
+    }
+
+    // Getter和Setter
+    public String getFeatherColor() { return featherColor; }
+    public void setFeatherColor(String featherColor) { this.featherColor = featherColor; }
+}
