@@ -98,7 +98,8 @@ public class MyAnimalShop implements AnimalShop {
         for (Customer customer : customerList) {
             System.out.println("  " + customer);
         }
-        System.out.println("今日利润：" + balance);
+        System.out.println("今日余额：" + balance);
+
     }
     // getter和setter方法
     public double getBalance() {
