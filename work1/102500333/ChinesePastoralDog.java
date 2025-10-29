@@ -1,0 +1,22 @@
+ public class ChinesePastoralDog extends Animal {
+    private boolean isVaccineInjected; 
+
+    public ChinesePastoralDog(String name, int age, String gender, boolean isVaccineInjected) {
+        super(name, age, gender, 100.0);
+        this.isVaccineInjected = isVaccineInjected;
+    }
+
+    @Override
+    public String toString() {
+        return "中华田园犬：[" +
+                "姓名='" + getName() + '\'' +
+                ", 年龄=" + getAge() +
+                ", 性别='" + getGender() + '\'' +
+                ", 价格=" + getPrice() + "元" +
+                ", 已注射狂犬疫苗=" + isVaccineInjected +
+                ']';
+    }
+
+    public boolean isVaccineInjected() { return isVaccineInjected; }
+    public void setVaccineInjected(boolean vaccineInjected) { isVaccineInjected = vaccineInjected; }
+}

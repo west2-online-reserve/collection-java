@@ -1,0 +1,96 @@
+9. 测试类（Test.java）
+ 
+java
+   
+
+import java.time.LocalDate;
+
+public class Test {
+    public static void main(String[] args) {
+        // 1. 初始化宠物店（初始余额1000元）
+        MyAnimalShop shop = new MyAnimalShop(1000.0);
+
+        // 2. 测试买入动物
+        try {
+            shop.buyAnimal(new ChinesePastoralDog("大黄", 2, "公", true));
+            shop.buyAnimal(new Cat("小白", 1, "母"));
+            shop.buyAnimal(new Parrot("彩彩", 1, "公", 150.0, "彩色"));
+            // 测试余额不足情况
+            shop.buyAnimal(new Parrot("金刚", 3, "公", 1000.0, "蓝色"));
+        } catch (InsufficientBalanceException e) {
+            System.out.println("买入失败：" + e.getMessage());
+        }
+        // 3. 测试招待客户
+        LocalDate today = LocalDate.now();
+        try {
+            shop.serveCustomer(new Customer("张三", 1, today));
+            shop.serveCustomer(new Customer("李四", 2, today));
+            // 测试无动物可售情况
+            shop.serveCustomer(new Customer("王五", 1, today));
+        } catch (AnimalNotFoundException e) {
+            System.out.println("招待客户失败：" + e.getMessage());
+        }
+
+        // 4. 测试歇业
+        shop.closeShop(today);
+
+        // 5. 测试Bonus方法
+        System.out.println("\n===== Bonus方法测试 =====");
+        // 多线程交替输出数组
+        int[] arr1 = {1, 3, 5, 7, 9};
+        int[] arr2 = {2, 4, 6, 8, 10};
+        System.out.println("多线程交替输出数组结果：");
+        alternatePrintArrays(arr1, arr2);
+        // 邮箱格式验证
+        String[] emails = {"test@163.com", "invalid-email", "user@qq.cn", "123@.com"};
+        for (String email : emails) {
+            System.out.println("邮箱 '" + email + "' 格式合法？" + isEmailValid(email));
+        }
+    }
+
+    // Bonus1：多线程交替输出两个int数组元素
+    public static void alternatePrintArrays(int[] arr1, int[] arr2) {
+        Object lock = new Object();
+        // 线程1输出arr1
+        new Thread(() -> {
+            synchronized (lock) {
+                for (int num : arr1) {
+                    System.out.print(num + " ");
+                    lock.notify(); // 唤醒另一个线程
+                    try {
+                        lock.wait(); // 释放锁，等待唤醒
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                    }
+                }
+                lock.notify(); // 最后唤醒，避免线程阻塞
+            }
+        }).start();
+
+        // 线程2输出arr2
+        new Thread(() -> {
+            synchronized (lock) {
+                for (int num : arr2) {
+                    System.out.print(num + " ");
+                    lock.notify(); // 唤醒另一个线程
+                    try {
+                        lock.wait(); // 释放锁，等待唤醒
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                    }
+                }
+                lock.notify(); // 最后唤醒，避免线程阻塞
+            }
+        }).start();
+    }
+
+    // Bonus2：验证邮箱格式是否合法
+    public static boolean isEmailValid(String email) {
+        if (email == null || email.isEmpty()) {
+            return false;
+        }
+        // 正则表达式：匹配常见邮箱格式（用户名@域名.后缀）
+        String regex = "^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\\.[a-zA-Z0-9_-]+)+$";
+        return email.matches(regex);
+    }
+}
