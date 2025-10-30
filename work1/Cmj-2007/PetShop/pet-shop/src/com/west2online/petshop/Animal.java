@@ -2,11 +2,11 @@ package com.west2online.petshop;
 
 public abstract class Animal {
 
-    private String name;
-    private int age;
-    private String gender;
-    private double price;
-    private String color;
+    protected String name;
+    protected int age;
+    protected String gender;
+    protected double price;
+    protected String color;
 
     public Animal() {
 
