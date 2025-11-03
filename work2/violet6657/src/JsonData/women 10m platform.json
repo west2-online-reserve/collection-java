@@ -1,0 +1,506 @@
+[
+  {
+    "FullName": "Else PRAASTERINK",
+    "PhaseName": "Finals",
+    "Rank": 1,
+    "TotalScore": "308.80",
+    "Scores": [
+      "62.35",
+      "65.80",
+      "54.00",
+      "67.20",
+      "59.45"
+    ],
+    "PersonId": "d230b899-c7e6-44c7-83b4-e39f8a15eb7d"
+  },
+  {
+    "FullName": "Katelyn FUNG",
+    "PhaseName": "Finals",
+    "Rank": 2,
+    "TotalScore": "297.00",
+    "Scores": [
+      "58.80",
+      "54.60",
+      "57.60",
+      "54.00",
+      "72.00"
+    ],
+    "PersonId": "def10055-0632-4178-8f19-b37cf4acd933"
+  },
+  {
+    "FullName": "Valeria ANTOLINO",
+    "PhaseName": "Finals",
+    "Rank": 3,
+    "TotalScore": "292.10",
+    "Scores": [
+      "49.50",
+      "52.80",
+      "52.20",
+      "75.20",
+      "62.40"
+    ],
+    "PersonId": "45101f00-7ed3-4aa9-acfa-c54b4e1f0ac5"
+  },
+  {
+    "FullName": "Pauline Alexandra PFEIF",
+    "PhaseName": "Finals",
+    "Rank": 4,
+    "TotalScore": "289.10",
+    "Scores": [
+      "62.40",
+      "35.20",
+      "72.50",
+      "56.00",
+      "63.00"
+    ],
+    "PersonId": "5cf48f98-fe3e-4768-bb42-e5e5b78cca2f"
+  },
+  {
+    "FullName": "Elena WASSEN",
+    "PhaseName": "Finals",
+    "Rank": 5,
+    "TotalScore": "286.30",
+    "Scores": [
+      "51.20",
+      "64.50",
+      "52.20",
+      "56.00",
+      "62.40"
+    ],
+    "PersonId": "e455fe4b-477e-452c-a32b-2f1b4f6f2eb7"
+  },
+  {
+    "FullName": "Eloise BELANGER",
+    "PhaseName": "Finals",
+    "Rank": 6,
+    "TotalScore": "275.40",
+    "Scores": [
+      "60.20",
+      "58.80",
+      "49.30",
+      "49.50",
+      "57.60"
+    ],
+    "PersonId": "1a79e7ab-62a9-46f6-a907-44bf4af77b45"
+  },
+  {
+    "FullName": "Nicoleta-Angelica MUSCALU",
+    "PhaseName": "Finals",
+    "Rank": 7,
+    "TotalScore": "267.25",
+    "Scores": [
+      "55.50",
+      "49.60",
+      "56.55",
+      "52.80",
+      "52.80"
+    ],
+    "PersonId": "55d1848f-5be2-460f-8d15-0befa84bdefc"
+  },
+  {
+    "FullName": "Maisie BOND",
+    "PhaseName": "Finals",
+    "Rank": 8,
+    "TotalScore": "265.35",
+    "Scores": [
+      "72.00",
+      "47.85",
+      "40.50",
+      "44.80",
+      "60.20"
+    ],
+    "PersonId": "31c5555d-5a74-4411-a46b-2c4f7d16f3d6"
+  },
+  {
+    "FullName": "Ana CARVAJAL",
+    "PhaseName": "Finals",
+    "Rank": 9,
+    "TotalScore": "240.70",
+    "Scores": [
+      "33.60",
+      "61.50",
+      "29.00",
+      "67.20",
+      "49.40"
+    ],
+    "PersonId": "76144f77-dff6-49e7-95b1-5d0b435644c9"
+  },
+  {
+    "FullName": "Amanda LUNDIN",
+    "PhaseName": "Finals",
+    "Rank": 10,
+    "TotalScore": "212.45",
+    "Scores": [
+      "33.60",
+      "54.60",
+      "50.40",
+      "43.40",
+      "30.45"
+    ],
+    "PersonId": "a43c110f-93ff-4e4c-ac85-d8a64dca9936"
+  },
+  {
+    "FullName": "Dominique SANTIAGO",
+    "PhaseName": "Finals",
+    "Rank": 11,
+    "TotalScore": "177.30",
+    "Scores": [
+      "42.00",
+      "28.50",
+      "20.25",
+      "41.60",
+      "44.95"
+    ],
+    "PersonId": "948df3ba-d9f0-4cc8-a6c0-6bd81b0251f9"
+  },
+  {
+    "FullName": "Elena WASSEN",
+    "PhaseName": "Semifinals",
+    "Rank": 1,
+    "TotalScore": "298.95",
+    "Scores": [
+      "62.40",
+      "55.50",
+      "59.45",
+      "56.00",
+      "65.60"
+    ],
+    "PersonId": "e455fe4b-477e-452c-a32b-2f1b4f6f2eb7"
+  },
+  {
+    "FullName": "Maisie BOND",
+    "PhaseName": "Semifinals",
+    "Rank": 2,
+    "TotalScore": "297.75",
+    "Scores": [
+      "54.40",
+      "59.45",
+      "49.50",
+      "67.20",
+      "67.20"
+    ],
+    "PersonId": "31c5555d-5a74-4411-a46b-2c4f7d16f3d6"
+  },
+  {
+    "FullName": "Else PRAASTERINK",
+    "PhaseName": "Semifinals",
+    "Rank": 3,
+    "TotalScore": "295.25",
+    "Scores": [
+      "65.25",
+      "63.00",
+      "49.50",
+      "62.40",
+      "55.10"
+    ],
+    "PersonId": "d230b899-c7e6-44c7-83b4-e39f8a15eb7d"
+  },
+  {
+    "FullName": "Katelyn FUNG",
+    "PhaseName": "Semifinals",
+    "Rank": 4,
+    "TotalScore": "274.50",
+    "Scores": [
+      "46.20",
+      "30.80",
+      "68.80",
+      "61.50",
+      "67.20"
+    ],
+    "PersonId": "def10055-0632-4178-8f19-b37cf4acd933"
+  },
+  {
+    "FullName": "Valeria ANTOLINO",
+    "PhaseName": "Semifinals",
+    "Rank": 4,
+    "TotalScore": "274.50",
+    "Scores": [
+      "60.00",
+      "62.40",
+      "60.90",
+      "35.20",
+      "56.00"
+    ],
+    "PersonId": "45101f00-7ed3-4aa9-acfa-c54b4e1f0ac5"
+  },
+  {
+    "FullName": "Ana CARVAJAL",
+    "PhaseName": "Semifinals",
+    "Rank": 6,
+    "TotalScore": "271.55",
+    "Scores": [
+      "50.40",
+      "58.50",
+      "65.25",
+      "48.00",
+      "49.40"
+    ],
+    "PersonId": "76144f77-dff6-49e7-95b1-5d0b435644c9"
+  },
+  {
+    "FullName": "Eloise BELANGER",
+    "PhaseName": "Semifinals",
+    "Rank": 7,
+    "TotalScore": "267.35",
+    "Scores": [
+      "58.80",
+      "58.80",
+      "30.45",
+      "58.50",
+      "60.80"
+    ],
+    "PersonId": "1a79e7ab-62a9-46f6-a907-44bf4af77b45"
+  },
+  {
+    "FullName": "Pauline Alexandra PFEIF",
+    "PhaseName": "Semifinals",
+    "Rank": 8,
+    "TotalScore": "260.80",
+    "Scores": [
+      "64.00",
+      "24.00",
+      "52.20",
+      "57.60",
+      "63.00"
+    ],
+    "PersonId": "5cf48f98-fe3e-4768-bb42-e5e5b78cca2f"
+  },
+  {
+    "FullName": "Amanda LUNDIN",
+    "PhaseName": "Semifinals",
+    "Rank": 9,
+    "TotalScore": "244.15",
+    "Scores": [
+      "50.40",
+      "47.60",
+      "49.00",
+      "40.60",
+      "56.55"
+    ],
+    "PersonId": "a43c110f-93ff-4e4c-ac85-d8a64dca9936"
+  },
+  {
+    "FullName": "Nicoleta-Angelica MUSCALU",
+    "PhaseName": "Semifinals",
+    "Rank": 10,
+    "TotalScore": "237.20",
+    "Scores": [
+      "42.00",
+      "46.40",
+      "46.40",
+      "52.80",
+      "49.60"
+    ],
+    "PersonId": "55d1848f-5be2-460f-8d15-0befa84bdefc"
+  },
+  {
+    "FullName": "Dominique SANTIAGO",
+    "PhaseName": "Semifinals",
+    "Rank": 11,
+    "TotalScore": "164.10",
+    "Scores": [
+      "42.00",
+      "22.50",
+      "17.55",
+      "42.90",
+      "39.15"
+    ],
+    "PersonId": "948df3ba-d9f0-4cc8-a6c0-6bd81b0251f9"
+  },
+  {
+    "FullName": "Katelyn FUNG",
+    "PhaseName": "Preliminaries",
+    "Rank": 1,
+    "TotalScore": "298.20",
+    "Scores": [
+      "60.20",
+      "56.00",
+      "57.60",
+      "54.00",
+      "70.40"
+    ],
+    "PersonId": "def10055-0632-4178-8f19-b37cf4acd933"
+  },
+  {
+    "FullName": "Eloise BELANGER",
+    "PhaseName": "Preliminaries",
+    "Rank": 2,
+    "TotalScore": "291.75",
+    "Scores": [
+      "58.80",
+      "57.40",
+      "56.55",
+      "63.00",
+      "56.00"
+    ],
+    "PersonId": "1a79e7ab-62a9-46f6-a907-44bf4af77b45"
+  },
+  {
+    "FullName": "Elaena DICK",
+    "PhaseName": "Preliminaries",
+    "Rank": 3,
+    "TotalScore": "288.00",
+    "Scores": [
+      "60.20",
+      "48.60",
+      "57.60",
+      "67.20",
+      "54.40"
+    ],
+    "PersonId": "b4915ef0-7585-47f3-8f29-bc69162bce54"
+  },
+  {
+    "FullName": "Valeria ANTOLINO",
+    "PhaseName": "Preliminaries",
+    "Rank": 4,
+    "TotalScore": "282.05",
+    "Scores": [
+      "58.50",
+      "51.20",
+      "50.75",
+      "64.00",
+      "57.60"
+    ],
+    "PersonId": "45101f00-7ed3-4aa9-acfa-c54b4e1f0ac5"
+  },
+  {
+    "FullName": "Pauline Alexandra PFEIF",
+    "PhaseName": "Preliminaries",
+    "Rank": 5,
+    "TotalScore": "275.05",
+    "Scores": [
+      "57.60",
+      "49.60",
+      "56.55",
+      "52.80",
+      "58.50"
+    ],
+    "PersonId": "5cf48f98-fe3e-4768-bb42-e5e5b78cca2f"
+  },
+  {
+    "FullName": "Elena WASSEN",
+    "PhaseName": "Preliminaries",
+    "Rank": 6,
+    "TotalScore": "273.90",
+    "Scores": [
+      "48.00",
+      "58.50",
+      "52.20",
+      "52.80",
+      "62.40"
+    ],
+    "PersonId": "e455fe4b-477e-452c-a32b-2f1b4f6f2eb7"
+  },
+  {
+    "FullName": "Christina WASSEN",
+    "PhaseName": "Preliminaries",
+    "Rank": 7,
+    "TotalScore": "268.70",
+    "Scores": [
+      "62.40",
+      "58.50",
+      "40.60",
+      "44.80",
+      "62.40"
+    ],
+    "PersonId": "a8febd04-b14b-49cf-adf0-6d551c903efb"
+  },
+  {
+    "FullName": "Ana CARVAJAL",
+    "PhaseName": "Preliminaries",
+    "Rank": 8,
+    "TotalScore": "263.75",
+    "Scores": [
+      "50.40",
+      "69.00",
+      "47.85",
+      "43.20",
+      "53.30"
+    ],
+    "PersonId": "76144f77-dff6-49e7-95b1-5d0b435644c9"
+  },
+  {
+    "FullName": "Else PRAASTERINK",
+    "PhaseName": "Preliminaries",
+    "Rank": 9,
+    "TotalScore": "260.10",
+    "Scores": [
+      "40.60",
+      "49.00",
+      "54.00",
+      "67.20",
+      "49.30"
+    ],
+    "PersonId": "d230b899-c7e6-44c7-83b4-e39f8a15eb7d"
+  },
+  {
+    "FullName": "Carolina COORDES",
+    "PhaseName": "Preliminaries",
+    "Rank": 10,
+    "TotalScore": "248.15",
+    "Scores": [
+      "46.40",
+      "49.60",
+      "54.00",
+      "56.55",
+      "41.60"
+    ],
+    "PersonId": "9728a5a5-0da2-44fb-93ae-de72c6e33810"
+  },
+  {
+    "FullName": "Maisie BOND",
+    "PhaseName": "Preliminaries",
+    "Rank": 11,
+    "TotalScore": "242.95",
+    "Scores": [
+      "52.80",
+      "47.85",
+      "19.50",
+      "64.00",
+      "58.80"
+    ],
+    "PersonId": "31c5555d-5a74-4411-a46b-2c4f7d16f3d6"
+  },
+  {
+    "FullName": "Amanda LUNDIN",
+    "PhaseName": "Preliminaries",
+    "Rank": 12,
+    "TotalScore": "238.20",
+    "Scores": [
+      "53.20",
+      "46.20",
+      "51.80",
+      "40.60",
+      "46.40"
+    ],
+    "PersonId": "a43c110f-93ff-4e4c-ac85-d8a64dca9936"
+  },
+  {
+    "FullName": "Nicoleta-Angelica MUSCALU",
+    "PhaseName": "Preliminaries",
+    "Rank": 13,
+    "TotalScore": "206.65",
+    "Scores": [
+      "55.50",
+      "54.40",
+      "39.15",
+      "57.60",
+      "0.00"
+    ],
+    "PersonId": "55d1848f-5be2-460f-8d15-0befa84bdefc"
+  },
+  {
+    "FullName": "Dominique SANTIAGO",
+    "PhaseName": "Preliminaries",
+    "Rank": 14,
+    "TotalScore": "146.30",
+    "Scores": [
+      "39.20",
+      "21.00",
+      "41.85",
+      "31.20",
+      "13.05"
+    ],
+    "PersonId": "948df3ba-d9f0-4cc8-a6c0-6bd81b0251f9"
+  }
+]
