@@ -29,7 +29,7 @@ public class PetShopUI {
                     break;
                 case 3:
                     closeShop();
-                    return;
+                    break;
                 case 4:
                     showShopInfo();
                     break;
@@ -40,6 +40,8 @@ public class PetShopUI {
     }
 
     private void showMenu() {
+        int day = shop.getDay();
+        System.out.println("第" + day + "天");
         System.out.println("\n========== 菜单 ==========");
         System.out.println("1. 买入动物");
         System.out.println("2. 招待客户");
@@ -70,8 +72,12 @@ public class PetShopUI {
             String name = scanner.nextLine();
             System.out.print("请输入动物年龄: ");
             int age = Integer.parseInt(scanner.nextLine());
-            System.out.print("请输入动物性别: ");
+            System.out.print("请输入动物性别(male/female): ");
             String gender = scanner.nextLine();
+
+            // 性别验证
+            validateGender(gender);
+            validateage(age);
 
             Animal animal = null;
             switch (type) {
@@ -96,6 +102,26 @@ public class PetShopUI {
             System.out.println("输入格式错误！");
         } catch (InsufficientBalanceException e) {
             System.out.println("购买失败: " + e.getMessage());
+        } catch (GenderException e) {
+            System.out.println("性别输入错误: " + e.getMessage());
+        } catch (AgeException e) {
+            System.out.println("年龄输入错误: " + e.getMessage());
+        }
+    }
+
+    // 添加性别验证方法
+    private void validateGender(String gender) throws GenderException {
+        if (!gender.equals("male") && !gender.equals("female")) {
+            throw new GenderException("性别只能是'male'或'female'");
+        }
+    }
+   // 添加年龄验证方法
+    private void validateage(int age) throws AgeException {
+        if (age < 0) {
+            throw new AgeException("年龄不能小于0");
+        }
+        if (age > 40) {
+            throw new AgeException("年龄不能大于40");
         }
     }
 
@@ -137,5 +163,9 @@ public class PetShopUI {
         System.out.println("当前余额: ¥" + shop.getBalance());
         System.out.println("动物库存数量: " + shop.getAnimalCount());
         System.out.println("累计客户数: " + shop.getCustomerCount());
+        //顾客列表
+        System.out.println("顾客列表:" + shop.getCustomers());
+
+
     }
 }

@@ -10,7 +10,7 @@ public class Customer {
     private LocalDate lastVisitTime;
     private CustomerType type;
     private String introduction;
-
+    private int day=1;
     // 顾客类型枚举
     public enum CustomerType {
         RESTAURANT_OWNER("餐厅老板"),
@@ -54,6 +54,12 @@ public class Customer {
     public void visit() {
         this.visitCount++;
         this.lastVisitTime = LocalDate.now();
+    }
+    public int getDay() {
+        return day;
+    }
+    public void setDay(int day) {
+        this.day = day;
     }
 
     public CustomerType getType() {
@@ -147,6 +153,7 @@ public class Customer {
                 ", 类型=" + type.getDisplayName() +
                 ", 到店次数=" + visitCount +
                 ", 最新到店时间=" + lastVisitTime +
+                ", 第" +day+"天"+
                 '}'+
                 "\n简介："+introduction;
     }

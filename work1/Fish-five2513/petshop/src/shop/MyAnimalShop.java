@@ -12,6 +12,7 @@ public class MyAnimalShop implements AnimalShop {
     private List<Customer> customers;
     private boolean isOpen;
     private LocalDate businessDate;
+    private int currentday =1 ;
 
     public MyAnimalShop(double initialBalance) {
         this.balance = initialBalance;
@@ -61,14 +62,23 @@ public class MyAnimalShop implements AnimalShop {
     @Override
     public void closeShop() {
         System.out.println("今日光顾的顾客:");
+
         for (Customer customer : customers) {
-            System.out.println(customer.toString());
+            if (customer.getDay()==currentday) {
+                System.out.println(customer.toString());
+            }
+            currentday++;
+            customer.setDay(currentday);
         }
         System.out.println("今日利润: " + (balance - 2000)); // 假设初始资金为2000
         isOpen = false;
     }
 
+
     // Getter methods for UI
+    public int getDay() {
+        return currentday ;
+    }
     public double getBalance() {
         return balance;
     }
@@ -80,6 +90,10 @@ public class MyAnimalShop implements AnimalShop {
     public int getCustomerCount() {
         return customers.size();
     }
+    public List<Customer> getCustomers() {
+        return new ArrayList<>(customers); // 返回副本以防止外部修改
+    }
+
 
     public String getName() {
         return "我的宠物店";
