@@ -107,7 +107,7 @@ public class MyAnimalShop implements AnimalShop {
                 sellPrice = sellAnimal.getPrice() * 1.5;
                 animalsList.remove(sellAnimal);
                 profit += (sellPrice - sellAnimal.getPrice());
-                money += profit;
+                money += sellPrice;
                 break;
             }
         }
