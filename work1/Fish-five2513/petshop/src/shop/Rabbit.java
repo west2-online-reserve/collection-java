@@ -12,7 +12,7 @@ public class Rabbit extends Animal {
                 "名字='" + name + '\'' +
                 ", 年龄=" + age +
                 ", 性别='" + gender + '\'' +
-                ", 价格=" + price*2 +
+                ",基础售价=" + price*2 +
                 '}';
     }
 }

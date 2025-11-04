@@ -21,6 +21,14 @@ public class MyAnimalShop implements AnimalShop {
         this.isOpen = true;
         this.businessDate = LocalDate.now();
     }
+    public void setOpen(boolean isOpen) {
+        this.isOpen = isOpen;
+    }
+
+    public boolean isOpen() {
+        return isOpen;
+    }
+
 
     @Override
     public void buyAnimal(Animal animal) throws InsufficientBalanceException {
@@ -67,17 +75,17 @@ public class MyAnimalShop implements AnimalShop {
             if (customer.getDay()==currentday) {
                 System.out.println(customer.toString());
             }
-            currentday++;
-            customer.setDay(currentday);
+
         }
+        currentday++;
         System.out.println("今日利润: " + (balance - 2000)); // 假设初始资金为2000
         isOpen = false;
     }
 
 
     // Getter methods for UI
-    public int getDay() {
-        return currentday ;
+    public  int getCurrentdayDay() {
+        return currentday;
     }
     public double getBalance() {
         return balance;

@@ -16,7 +16,7 @@ public class ChineseRuralDog extends Animal {
                 ", 年龄=" + age +
                 ", 性别='" + gender + '\'' +
                 ", 是否注射疫苗=" + isVaccineInjected +
-                ", 价格=" + price*2 +
+                ", 基础售价=" + price*2 +
                 '}';
     }
 }

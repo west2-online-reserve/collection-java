@@ -29,6 +29,9 @@ public class PetShopUI {
                     break;
                 case 3:
                     closeShop();
+                    System.out.println("回车进入下一天");
+                    scanner.nextLine();
+                    shop.setOpen(true);
                     break;
                 case 4:
                     showShopInfo();
@@ -40,8 +43,8 @@ public class PetShopUI {
     }
 
     private void showMenu() {
-        int day = shop.getDay();
-        System.out.println("第" + day + "天");
+        int today = shop.getCurrentdayDay();
+        System.out.println("========== 第" + today + "天 =========");
         System.out.println("\n========== 菜单 ==========");
         System.out.println("1. 买入动物");
         System.out.println("2. 招待客户");
@@ -138,9 +141,9 @@ public class PetShopUI {
             if (choice == 1) {
                 System.out.print("请输入客户姓名: ");
                 String name = scanner.nextLine();
-                customer = new Customer(name);
+                customer = new Customer(name,shop);
             } else {
-                customer = Customer.getRandomCustomer();
+                customer = Customer.getRandomCustomer(shop);
                 System.out.println("随机生成的客户: " + customer.toString());
             }
 

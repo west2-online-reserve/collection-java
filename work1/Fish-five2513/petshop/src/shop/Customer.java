@@ -35,20 +35,22 @@ public class Customer {
     private static final String[] CHANG_ES = {"嫦娥姐姐", "太阴星君", "月宫仙子"};
     private static final String[] ORDINARY_CUSTOMERS = {"小明", "小红", "小刚", "小丽", "老张"};
 
-    public Customer(String name) {
+    public Customer(String name,MyAnimalShop  shop) {
         this.name = name;
         this.visitCount = 0;
         this.lastVisitTime = LocalDate.now();
         this.type = CustomerType.ORDINARY;
         this.introduction = "一个普通顾客";
+        this.day=shop.getCurrentdayDay();
     }
 
-    public Customer(String name, CustomerType type) {
+    public Customer(String name, CustomerType type, MyAnimalShop shop) {
         this.name = name;
         this.visitCount = 0;
         this.lastVisitTime = LocalDate.now();
         this.type = type;
         this.introduction = generateIntroduction(type);
+        this.day=shop.getCurrentdayDay();
     }
 
     public void visit() {
@@ -58,9 +60,7 @@ public class Customer {
     public int getDay() {
         return day;
     }
-    public void setDay(int day) {
-        this.day = day;
-    }
+
 
     public CustomerType getType() {
         return type;
@@ -98,7 +98,7 @@ public class Customer {
     }
 
     // 随机生成一个顾客
-    public static Customer getRandomCustomer() {
+    public static Customer getRandomCustomer(MyAnimalShop shop) {
         Random random = new Random();
         CustomerType[] types = CustomerType.values();
         CustomerType randomType = types[random.nextInt(types.length)];
@@ -119,7 +119,7 @@ public class Customer {
                 break;
         }
 
-        return new Customer(name, randomType);
+        return new Customer(name, randomType, shop);
     }
 
     public String getName() {
