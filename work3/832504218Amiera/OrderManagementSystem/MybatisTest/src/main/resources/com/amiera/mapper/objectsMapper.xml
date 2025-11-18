@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 绑定你的接口 -->
+<mapper namespace="com.amiera.mapper.objectsMapper">
+    <!-- 增加产品 -->
+    <insert id="insertProducts" parameterType="com.amiera.objects.products" useGeneratedKeys="true" keyProperty="product_id">
+        insert into products (product_name, price)
+        values (#{product_name}, #{price})
+    </insert>
+
+    <!-- 查询产品 -->
+    <select id="selectAllProducts" resultType="com.amiera.objects.products">
+        select product_id, product_name, price from products
+    </select>
+
+    <!-- 查询订单 -->
+    <select id="selectAllOrders" resultType="com.amiera.objects.orders">
+        select order_id, order_time, order_price, order_information, product_id from orders
+    </select>
+
+    <!-- 增加订单 -->
+    <insert id="insertOrders" parameterType="com.amiera.objects.orders" useGeneratedKeys="true" keyProperty="order_id">
+        insert into orders (order_time, order_price, order_information, product_id)
+        values (#{order_time}, #{order_price}, #{order_information}, #{product_id})
+    </insert>
+    <!-- 根据ID查询商品 -->
+    <select id="selectProductById" parameterType="int" resultType="com.amiera.objects.products">
+        select product_id, product_name, price from products where product_id = #{product_id}
+    </select>
+    <!-- 根据ID查询订单 -->
+    <select id="selectOrderById" parameterType="int" resultType="com.amiera.objects.orders">
+        select order_id, order_time, order_price, order_information, product_id from orders where order_id = #{id}
+    </select>
+    <!-- 删除产品 -->
+    <delete id="deleteProducts" parameterType="int">
+        delete from products where product_id = #{id}
+    </delete>
+    <!-- 删除订单 -->
+    <delete id="deleteOrders" parameterType="int">
+        delete from orders where order_id = #{id}
+    </delete>
+    <!-- 修改产品 -->
+    <update id="updateProducts" parameterType="com.amiera.objects.products">
+        update products
+        set product_name = #{product_name}, price = #{price}
+        where product_id = #{id}
+    </update>
+    <!-- 修改订单 -->
+    <update id="updateOrders" parameterType="com.amiera.objects.orders">
+        update orders
+        set order_time = #{order_time}, order_price = #{order_price}, order_information = #{order_information}, product_id = #{product_id}
+        where order_id = #{order_id}
+    </update>
+</mapper>
