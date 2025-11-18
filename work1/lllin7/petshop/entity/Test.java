@@ -14,7 +14,7 @@ public class Test {
         MyAnimalShop myAnimalShop = new MyAnimalShop(200.0, animals, customers, true);
 
         try {
-            myAnimalShop.serveCustomer("小红");
+            myAnimalShop.serveCustomer("小红", "猫猫");
         } catch (RuntimeException e) {
             System.out.println(e.getMessage());
         }finally {
@@ -41,15 +41,15 @@ public class Test {
         }
 
         try {
-            myAnimalShop.serveCustomer("小明");
+            myAnimalShop.serveCustomer("小明", "中华田园犬");
             myAnimalShop.openShop();
-            myAnimalShop.serveCustomer("小明");
-            myAnimalShop.serveCustomer("小明");
-            myAnimalShop.serveCustomer("小明");
-            myAnimalShop.serveCustomer("小明");
-            myAnimalShop.serveCustomer("小天");
-            myAnimalShop.serveCustomer("小天");
-            myAnimalShop.serveCustomer("小红");
+            myAnimalShop.serveCustomer("小明", "猫猫");
+            myAnimalShop.serveCustomer("小明", "小兔子");
+            myAnimalShop.serveCustomer("小明", "猫猫");
+            myAnimalShop.serveCustomer("小明", "仓鼠");
+            myAnimalShop.serveCustomer("小天", "中华田园犬");
+            myAnimalShop.serveCustomer("小天", "猫猫");
+            myAnimalShop.serveCustomer("小红", "小兔子");
         } catch (RuntimeException e) {
             System.out.println(e.getMessage());
         } finally {

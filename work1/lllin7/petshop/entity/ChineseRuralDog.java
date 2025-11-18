@@ -4,7 +4,7 @@ class ChineseRuralDog extends Animal {
     private boolean isVaccineInjected;
 
     public ChineseRuralDog(String name, int age, char sex, boolean isVaccineInjected) {
-        super(name, age, sex, 100.0);
+        super("中华田园犬", name, age, sex, 100.0);
         this.isVaccineInjected = isVaccineInjected;
     }
 

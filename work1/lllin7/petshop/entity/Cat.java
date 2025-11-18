@@ -2,7 +2,7 @@ package com.petshop.entity;
 
 class Cat extends Animal {
     public Cat(String name, int age, char sex) {
-        super(name, age, sex, 200.0);
+        super("猫猫", name, age, sex, 200.0);
     }
 
     @Override
