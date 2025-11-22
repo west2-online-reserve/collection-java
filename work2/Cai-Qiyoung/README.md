@@ -2,17 +2,17 @@
 
 ## 1.1 从官网上爬取所需的Json数据文件
 
-![数据](/Users/caiqiyang/Pictures/数据.png)
+![数据](images/数据.png)
 
 ## 1.2 解析数据的JSON文件结构并找出所需数据
 
 ### 1.2.1 athlete.json文件主要结构
 
-![Althelete](/Users/caiqiyang/Pictures/altheletes结构.png)
+![Althelete](images/altheletes结构.png)
 
 ### 1.2.2 每轮次比赛结果数据JSON文件结构
 
-![结果结构](/Users/caiqiyang/Pictures/Result结构.png)
+![结果结构](images/Result结构.png)
 
 ## 1.3 根据所需数据编写JSON映射类提取所需数据
 
