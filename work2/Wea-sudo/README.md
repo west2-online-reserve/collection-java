@@ -1,5 +1,5 @@
 # 作业说明
-命令行数用方法：确保 jar 包同目录下有存放着 "input.txt"和 "output.txt" data目录，将命令行切换到jar包上级目录，输入 <br>Java -jar DWASearch.jar input.txt output.txt，jar 包会执行 input 文件里的命令到 output 
+命令行使用方法：确保 jar 包同目录下有存放着 "input.txt"和 "output.txt" data目录，将命令行切换到jar包上级目录，输入 <br>Java -jar DWASearch.jar input.txt output.txt，jar 包会执行 input 文件里的命令到 output 
 ## 1. 主要类说明与接口设计
  
 该命令行程序包括以下类
