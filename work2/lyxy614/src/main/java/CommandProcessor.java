@@ -51,11 +51,6 @@ public class CommandProcessor {
             return;
         }
         //不能执行的，先检查命令（前缀）是否合法，不合法的输出"Error"，结束检查
-        //把命令按空格分割，以单独检查比赛名称有没有错误
-        String [] args = command.split("\\s+");
-        //要求中没有提到如果result和detail与比赛名称之间有超过一个的空格需要报错，那就默认可以执行
-        //所以这里统一把多空格转为一个空格来保证能与之前初始化的命令相匹配
-        command = command.replaceAll("\\s+", " ");
         String wrongMessage;
         if (command.startsWith("players")){
             //players只能单独作为命令
@@ -65,16 +60,9 @@ public class CommandProcessor {
             }
         }
         else if (command.startsWith("result ")){
-            //若前缀为"result"且后有空格，继续按顺序检查比赛名称
-            if (!competitionNames.contains(args[1])){
-                wrongMessage = "N/A";
-                coreModule.displayWrongMessage(DWAFile.getOutputFile().getPath(), wrongMessage);
-            }
-            //比赛名称也合法，继续检查后缀是否为"detail"
-            else if (!args[2].equals("detail")){
-                wrongMessage = "N/A";
-                coreModule.displayWrongMessage(DWAFile.getOutputFile().getPath(), wrongMessage);
-            }
+            //若前缀为"result"且后有空格,那就只能是后面有问题了，直接输出"N/A"
+            wrongMessage = "N/A";
+            coreModule.displayWrongMessage(DWAFile.getOutputFile().getPath(), wrongMessage);
 
         }
         else {
@@ -84,3 +72,4 @@ public class CommandProcessor {
     }
 
 }
+
