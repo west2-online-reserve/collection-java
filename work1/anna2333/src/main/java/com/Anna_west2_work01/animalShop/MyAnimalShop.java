@@ -13,8 +13,11 @@ public class MyAnimalShop implements AnimalShop {
     protected ArrayList<Customer> CustomerList = new ArrayList<>();
     protected boolean isOpen;
     protected double todayNetProfit;
+    protected LocalDateTime lastCloseTime;  // 新增：记录上次关店时间
 
-    public MyAnimalShop() {}
+    public MyAnimalShop() {
+        this.lastCloseTime = LocalDateTime.now();  // 初始化关店时间
+    }
 
     public MyAnimalShop(double balance, ArrayList<Animal> animalList, ArrayList<Customer> customerList, boolean isOpen, double todayNetProfit) {
         this.balance = balance;
@@ -22,6 +25,7 @@ public class MyAnimalShop implements AnimalShop {
         CustomerList = customerList;
         this.isOpen = isOpen;
         this.todayNetProfit = todayNetProfit;
+        this.lastCloseTime = LocalDateTime.now();
     }
 
     public double getBalance() {
@@ -47,6 +51,7 @@ public class MyAnimalShop implements AnimalShop {
         }
         if(!isOpen) {
             System.out.println("抱歉哦，宠物店今日已打烊，请明日再光临！");
+            return;
         }
         CustomerList.add(customer);
         System.out.println("恭喜，已成功售出该宠物！");
@@ -61,6 +66,8 @@ public class MyAnimalShop implements AnimalShop {
         this.isOpen = true;
         System.out.println("开始今天的营业啦！~");
         this.todayNetProfit = 0;
+        // 清空前一天顾客名单
+        CustomerList.clear();
     }
 
     public void close() {
@@ -68,6 +75,7 @@ public class MyAnimalShop implements AnimalShop {
 
         if(time.getHour() < 9 || time.getHour() > 20) {
             this.isOpen = false;
+            this.lastCloseTime = time;  // 更新关店时间
             System.out.println("结束今天的营业！~");
             System.out.println("今天宠物店一共接待了" + CustomerList.size() + "位顾客哦");
             System.out.println("以下为今日接待所有顾客的信息：");
@@ -82,4 +90,3 @@ public class MyAnimalShop implements AnimalShop {
         }
     }
 }
-

@@ -3,7 +3,7 @@ package com.Anna_west2_work01.animalShop.animals;
 import com.Anna_west2_work01.animalShop.Animal;
 
 public class CRDogs extends Animal {
-    protected boolean isVaccineInjected;
+    private boolean isVaccineInjected;
 
     public CRDogs() {}
 
