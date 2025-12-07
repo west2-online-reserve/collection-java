@@ -294,7 +294,6 @@ public void displayFinalResults(BufferedWriter writer, String eventName) throws 
    - 为所有getter方法添加空值检查
 
 2. **数据一致性检查**：
-   ```java
    private boolean validateCompetitionDetail(CompetitionDetail detail) {
        if (detail.getScore() < 0 || detail.getScore() > 1000) {
            return false; // 分数范围检查
