@@ -65,18 +65,18 @@
 
 **1. 一个Animal动物类 (抽象类 abstract )**
 
-* 变量:
-  * 动物名(String)
-  * 年龄(int)
-  * 性别
-  * 价格(double)
-  * ....
+*
 * 方法
   * 一个全参构造方法
   * 一个抽象的toString() 方法
   * ........
 
-**2. 中华田园犬类** (extends Animal)<img src="https://gitee.com/sky-dog/note/raw/master/img/202210252201019.jpg" alt="img" style="zoom:3%;" />
+**2. 中华田园犬类** (extends Animal)<img src="https://gitee.com/sky-dog/ 变量:
+  * 动物名(String)
+  * 年龄(int)
+  * 性别
+  * 价格(double)
+  * ....note/raw/master/img/202210252201019.jpg" alt="img" style="zoom:3%;" />
 
 * 变量: isVaccineInjected(boolean 是否注射狂犬病疫苗)
 * 价格100元
