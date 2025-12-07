@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CoreModuleTest" time="0.105" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\west2-online\第二轮考核\cicikh\cicikh\target\test-classes;D:\west2-online\第二轮考核\cicikh\cicikh\target\classes;D:\Apache Maven 3.9.10\apache-maven-3.9.10\conf\repo\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;D:\Apache Maven 3.9.10\apache-maven-3.9.10\conf\repo\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;D:\Apache Maven 3.9.10\apache-maven-3.9.10\conf\repo\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\Apache Maven 3.9.10\apache-maven-3.9.10\conf\repo\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;D:\Apache Maven 3.9.10\apache-maven-3.9.10\conf\repo\org\json\json\20210307\json-20210307.jar;D:\Apache Maven 3.9.10\apache-maven-3.9.10\conf\repo\junit\junit\4.13.2\junit-4.13.2.jar;D:\Apache Maven 3.9.10\apache-maven-3.9.10\conf\repo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\cici\AppData\Local\Temp\surefire6113176141733750832\surefirebooter-20251207133313605_3.jar C:\Users\cici\AppData\Local\Temp\surefire6113176141733750832 2025-12-07T13-33-11_073-jvmRun1 surefire-20251207133313605_1tmp surefire_0-20251207133313605_2tmp"/>
+    <property name="surefire.test.class.path" value="D:\west2-online\第二轮考核\cicikh\cicikh\target\test-classes;D:\west2-online\第二轮考核\cicikh\cicikh\target\classes;D:\Apache Maven 3.9.10\apache-maven-3.9.10\conf\repo\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;D:\Apache Maven 3.9.10\apache-maven-3.9.10\conf\repo\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;D:\Apache Maven 3.9.10\apache-maven-3.9.10\conf\repo\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\Apache Maven 3.9.10\apache-maven-3.9.10\conf\repo\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;D:\Apache Maven 3.9.10\apache-maven-3.9.10\conf\repo\org\json\json\20210307\json-20210307.jar;D:\Apache Maven 3.9.10\apache-maven-3.9.10\conf\repo\junit\junit\4.13.2\junit-4.13.2.jar;D:\Apache Maven 3.9.10\apache-maven-3.9.10\conf\repo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\cici"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_91\jre"/>
+    <property name="basedir" value="D:\west2-online\第二轮考核\cicikh\cicikh"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\cici\AppData\Local\Temp\surefire6113176141733750832\surefirebooter-20251207133313605_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_91-b15"/>
+    <property name="user.name" value="cici"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\Apache Maven 3.9.10\apache-maven-3.9.10\conf\repo"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\cici\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="user.dir" value="D:\west2-online\第二轮考核\cicikh\cicikh"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;D:\nvm;D:\node.js;D:\Git\cmd;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\Apache Maven 3.9.10\apache-maven-3.9.10\bin;C:\Users\cici\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\cici\AppData\Local\Programs\Python\Python314\;C:\Users\cici\AppData\Local\Microsoft\WindowsApps;C:\Users\cici\AppData\Local\Programs\Microsoft VS Code\bin;D:\nvm;D:\node.js;C:\Users\cici\AppData\Local\Python\bin;D:\pycharm\PyCharm 2025.2.4\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.91-b15"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testPlayerSorting" classname="CoreModuleTest" time="0.017"/>
+  <testcase name="testCoreModuleInitialization" classname="CoreModuleTest" time="0.0"/>
+  <testcase name="testDisplayDetailedResultsValidEvent" classname="CoreModuleTest" time="0.004"/>
+  <testcase name="testDisplayDetailedResultsInvalidEvent" classname="CoreModuleTest" time="0.0"/>
+  <testcase name="testDisplayFinalResultsInvalidEvent" classname="CoreModuleTest" time="0.0"/>
+  <testcase name="testDisplayAllPlayersInfo" classname="CoreModuleTest" time="0.004"/>
+  <testcase name="testOutputFormat" classname="CoreModuleTest" time="0.004"/>
+  <testcase name="testFileAppend" classname="CoreModuleTest" time="0.004"/>
+  <testcase name="testDisplayFinalResultsValidEvent" classname="CoreModuleTest" time="0.002"/>
+</testsuite>
