@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- 1. 定义一个控制台输出的Appender -->
+    <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <!-- 日志输出格式：
+                 %d{yyyy-MM-dd HH:mm:ss} - 日期时间
+                 %highlight(%-5level) - 高亮显示的日志级别（-5表示左对齐并固定宽度5）
+                 %cyan(%logger{36}) - 青色的Logger名称（最多显示36个字符）
+                 %msg%n - 日志消息本身 + 换行
+            -->
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %highlight(%-5level) %cyan(%logger{36}) - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- 2. 定义一个滚动文件输出的Appender -->
+    <appender name="File" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 当前正在写的日志文件路径 -->
+        <file>logs/myapp.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+        <!-- 滚动策略：按时间+大小滚动 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- 归档文件的名称模式：
+                 logs/myapp.%d{yyyy-MM-dd}.%i.log.gz
+                 %d{yyyy-MM-dd} - 按日期分割
+                 %i - 当天的第几个归档（如果单日文件太大，会按大小再分割）
+                 .gz - 自动用GZIP压缩
+            -->
+            <fileNamePattern>logs/myapp.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <!-- 每个文件的最大大小 -->
+            <maxFileSize>100MB</maxFileSize>
+            <!-- 保留日志的最大天数 -->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <!-- 3. 根Logger：设置全局的日志级别 -->
+    <root level="info">
+        <!-- 引用上面定义的Appender -->
+        <appender-ref ref="Console"/>
+        <appender-ref ref="File"/>
+    </root>
+
+    <!-- 4. (可选) 为特定包设置更详细的日志级别 -->
+    <!-- 例如：在开发时，想看你自己的代码的DEBUG日志，但其他库只看WARN -->
+    <logger name="org.learning.user" level="debug" additivity="false">
+        <appender-ref ref="Console"/>
+    </logger>
+
+</configuration>
