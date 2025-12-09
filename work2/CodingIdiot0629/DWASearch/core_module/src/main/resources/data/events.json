@@ -1,0 +1,4062 @@
+{
+  "Id": "7dc47aca-99a9-4719-aedc-41118d97be8a",
+  "Name": "World Aquatics Championships - Doha 2024",
+  "OfficialName": "World Aquatics Championships - Doha 2024",
+  "EventLogoId": "eafa28ac-06db-41f0-bb8e-56406c46c64b",
+  "EventImageId": "283ad11a-a9d7-44e3-a511-d5b0a01b1be2",
+  "From": "2024-02-02T00:00:00",
+  "To": "2024-02-18T23:59:59",
+  "DateTBC": false,
+  "WorldCalendar": false,
+  "EventTypeId": "cd00a72b-f8cf-4d33-ac12-d7c17b283cec",
+  "CountryId": "e4d18b1d-82ce-476d-b09a-2c41bdb56552",
+  "EventTypeName": "World Championships",
+  "CountryName": "Qatar",
+  "CountryCode": "QAT",
+  "City": "Doha",
+  "IsLive": false,
+  "Sports": [
+    {
+      "Name": "Diving",
+      "Code": "DV",
+      "Description": null,
+      "DisciplineList": [
+        {
+          "Id": "09649153-aa3f-46eb-9c39-1ac7498b8eaa",
+          "Name": "1m",
+          "Code": "001",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "c0622cfc-6e18-4064-b6ec-120748b71c57",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "62d0c989-1143-4a2b-9a43-cda23add1c2a",
+              "Phase": "Preliminaries",
+              "Name": "Preliminary",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 1m Springboard"
+        },
+        {
+          "Id": "737e8daf-26bd-4022-b50d-cb21574937dc",
+          "Name": "3m",
+          "Code": "002",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "f68d6486-533b-4835-809c-95c4fba446ec",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "e3d90198-8701-476b-b59e-c70e26aa27b0",
+              "Phase": "Semifinals",
+              "Name": "Semifinals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "ec9c7733-1cda-4d82-a8b9-d29295de556f",
+              "Phase": "Preliminaries",
+              "Name": "Preliminaries",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 3m Springboard"
+        },
+        {
+          "Id": "ea50076b-c572-4fc3-ab0c-05c1d27d7809",
+          "Name": "10m",
+          "Code": "003",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "d6e97655-2b7c-4940-ab6f-36b374d4164b",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "989c7f48-c140-4d93-b7da-631f6375775e",
+              "Phase": "Semifinals",
+              "Name": "Semifinals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "05203dab-65d1-4296-8003-dd437df73d40",
+              "Phase": "Preliminaries",
+              "Name": "Preliminaries",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 10m Platform"
+        },
+        {
+          "Id": "ca1a7796-08cb-4c5e-aba7-763f88116d93",
+          "Name": "3m",
+          "Code": "202",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "8974046e-fc58-4ca2-9d13-9724e19c56a6",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 3m Synchronised"
+        },
+        {
+          "Id": "c8d904a9-61bf-46fc-8143-5be53f503d2e",
+          "Name": "10m",
+          "Code": "203",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "db91b317-f327-41d9-88bb-ca7611074d85",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 10m Synchronised"
+        },
+        {
+          "Id": "bcbd7bb1-da50-4e42-8f9c-62177664fb9e",
+          "Name": "1m",
+          "Code": "001",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "4317b8b4-2d98-46e9-ae55-0077f4a7bb89",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "5eeeac58-9a5a-462e-bfaa-5cb905fb66d2",
+              "Phase": "Preliminaries",
+              "Name": "Preliminaries",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 1m Springboard"
+        },
+        {
+          "Id": "1ef5f056-4f2b-44d9-b6a5-4c407d6ed9d9",
+          "Name": "3m",
+          "Code": "002",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "0a9f760a-8528-406a-b906-f3a0a2801e2c",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "759b4037-9d58-4ae5-ae8b-9066b398442f",
+              "Phase": "Semifinals",
+              "Name": "Semifinals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "0e6a40da-f005-40ac-aa8f-e2a1fc17d6fb",
+              "Phase": "Preliminaries",
+              "Name": "Preliminaries",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 3m Springboard"
+        },
+        {
+          "Id": "c895be83-6bd7-4ab5-a8c5-388dce7cb54d",
+          "Name": "10m",
+          "Code": "003",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "1d064f1a-5529-4f41-8b11-514e8ccd956a",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "97b86ec9-76ab-4855-b9db-ee69e6f76c9a",
+              "Phase": "Semifinals",
+              "Name": "Semifinals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "12c455f0-afc3-4b99-ade0-d8d8ee19a6ed",
+              "Phase": "Preliminaries",
+              "Name": "Preliminaries",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 10m Platform"
+        },
+        {
+          "Id": "42cca18e-cc79-43a5-97fb-68b8732e31a5",
+          "Name": "3m",
+          "Code": "202",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "c78917e8-e646-4eab-ac87-96e41f011056",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 3m Synchronised"
+        },
+        {
+          "Id": "9b20b9da-3246-46c2-8181-701e9e15cbc9",
+          "Name": "10m",
+          "Code": "203",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "d68cb6b7-6145-4cc7-819e-8bd8137f8a98",
+              "Phase": "Finals",
+              "Name": "Final",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 10m Synchronised"
+        },
+        {
+          "Id": "a1addd62-9b32-4065-b80e-2d2e8716960e",
+          "Name": "3m",
+          "Code": "202",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "acc10557-3dab-43f9-8a4a-b2d140ead517",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Mixed",
+          "DisciplineName": "Mixed 3m Synchronised"
+        },
+        {
+          "Id": "be92091f-77b1-44dd-beb6-ac61f1195190",
+          "Name": "10m",
+          "Code": "203",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "6888fd9f-c4a0-468a-88a8-641fbd6cb7d9",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Mixed",
+          "DisciplineName": "Mixed 10m Synchronised"
+        },
+        {
+          "Id": "41fd5aff-363e-4d8b-b5fa-8dee670a636c",
+          "Name": "3m & 10m",
+          "Code": "400",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "1057e879-e5a1-4c19-8ab3-93a1d54dc6b2",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Mixed",
+          "DisciplineName": "Mixed 3m & 10m Team"
+        }
+      ],
+      "SportStartDate": "2024-02-02T10:02:00",
+      "SportEndDate": "2024-02-10T18:32:26"
+    },
+    {
+      "Name": "Swimming",
+      "Code": "SW",
+      "Description": null,
+      "DisciplineList": [
+        {
+          "Id": "214d920a-b1b2-44a8-89fb-9a7af2fb0427",
+          "Name": "50",
+          "Code": "010",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "c38e792f-a195-467c-a089-140d3f10ea3a",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "f6552ff4-b495-4c0b-8edb-705a67035053",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "7fb55e60-f976-4bcd-92b2-401bf1dc198c",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "8048c7d4-0f7d-4520-8219-ffa890dc525e",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "897bb721-e489-485d-aed3-02fd043556e4",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "fd733e8a-7669-490a-8f6b-9a7d848d6f46",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "18735427-f197-4a58-8942-47f85aadcb3b",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "e8abf0f7-203b-431b-bc57-cd34ec0edf68",
+              "Phase": "Heats",
+              "Name": "Heat 5",
+              "Unit": "05",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "ce8cf7ec-1c60-43a8-8b93-da36d0fe7f02",
+              "Phase": "Heats",
+              "Name": "Heat 6",
+              "Unit": "06",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "e9ef58d5-04bd-49af-aa7a-f85ff4f08c3e",
+              "Phase": "Heats",
+              "Name": "Heat 7",
+              "Unit": "07",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "f1078da8-6bf8-4f0b-83f1-8c78570e1316",
+              "Phase": "Heats",
+              "Name": "Heat 8",
+              "Unit": "08",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "30ac1a6f-6ef9-4b67-9d2c-6927963d5e8d",
+              "Phase": "Heats",
+              "Name": "Heat 9",
+              "Unit": "09",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "8c55e796-4b90-418f-a599-40b525c2fa73",
+              "Phase": "Heats",
+              "Name": "Heat 10",
+              "Unit": "10",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "cdc9e457-9cb1-48d8-b020-c5552ebf83f7",
+              "Phase": "Heats",
+              "Name": "Heat 11",
+              "Unit": "11",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "042160c2-61ac-480a-9ce6-f68ec80c953b",
+              "Phase": "Heats",
+              "Name": "Heat 12",
+              "Unit": "12",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 50m Freestyle"
+        },
+        {
+          "Id": "1cefc9ab-ac60-4e83-a820-003e9e814dc8",
+          "Name": "100",
+          "Code": "011",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "9d61010f-4c08-418c-88de-20e9717b2f41",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "c63200df-e722-43a6-b03f-8a093c292b28",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "8f5917c8-6808-4875-9bfc-bcd7891a48de",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "c59080ab-40d8-4585-830a-1d98d0b03746",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "565cf853-efdb-47bd-951b-6076df741ab0",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "5b5df213-19e6-468d-ada5-2aa9f411270f",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "f0bfbaa3-e20c-4096-b30b-2e83c7131408",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "68d799e7-dec2-4d75-abda-f5b512522c8c",
+              "Phase": "Heats",
+              "Name": "Heat 5",
+              "Unit": "05",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "a8894699-fc53-4809-b61a-eeb9735c9de2",
+              "Phase": "Heats",
+              "Name": "Heat 6",
+              "Unit": "06",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "56907e54-4bd6-4915-ab64-5ad15ac95661",
+              "Phase": "Heats",
+              "Name": "Heat 7",
+              "Unit": "07",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "3ea6d7e8-678c-44e3-b306-84942c595717",
+              "Phase": "Heats",
+              "Name": "Heat 8",
+              "Unit": "08",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "c99c3a24-8092-4c1b-9aad-d7f154a1e241",
+              "Phase": "Heats",
+              "Name": "Heat 9",
+              "Unit": "09",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 100m Freestyle"
+        },
+        {
+          "Id": "b604d582-f244-4b56-8a41-0803bc3d07ae",
+          "Name": "200",
+          "Code": "012",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "50958bad-1ee0-4954-aedf-a18b76d5964a",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "5ae50bb3-32a2-43f5-a9df-9e05ececf973",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "070c0bf9-a150-46ec-9e25-3f80fd9d81a2",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "0b9dc24d-5c4c-431d-885a-0c9507055187",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "81e6c643-e964-4a36-bc4d-e90dd75b64b2",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "5f4a57b2-092c-410a-b1ff-91f9acd2cbdf",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "60a19245-6c84-45d4-a1ba-ddeb55acd34f",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "79d83403-2086-4b6e-924c-e0bb47d5ddc6",
+              "Phase": "Heats",
+              "Name": "Heat 5",
+              "Unit": "05",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 200m Freestyle"
+        },
+        {
+          "Id": "2993a117-1c6f-40b0-833d-e5a3333ca199",
+          "Name": "400",
+          "Code": "014",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "7601d8b7-9372-4fd3-8e12-9825ba3d4e24",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "ae56a256-b96b-4b73-ad1e-0494e2e400b0",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "224e6dc4-6031-4d2d-8030-8621584d6e9b",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "4b23ba7d-eaf1-4cf0-8434-f7a0b26f35ab",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "6c280841-e126-4881-b2c7-9a00050ad9aa",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 400m Freestyle"
+        },
+        {
+          "Id": "9e9e0cbf-0814-405f-8b3d-47fc2c2c42e4",
+          "Name": "800",
+          "Code": "018",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "c4a05340-5b35-44c8-a1af-5e5dcfb35883",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "eea5a7d6-ce9b-4c5f-9504-faef3e495ac7",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "e49b2582-8e6f-4574-8b99-b27c7fe4b37d",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "48da4072-9d11-4332-be2f-d01f52f055d2",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 800m Freestyle"
+        },
+        {
+          "Id": "3e3c5d8d-1ff5-4640-aea1-917b86f70d90",
+          "Name": "1500",
+          "Code": "015",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "068c99a3-2c13-48d7-9edd-286edfac624f",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "1af14186-5988-4d1b-ad30-fe9689b98c06",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "9285042e-78fb-4604-a92d-02164c8c5471",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "7eb4624f-87c0-4c0d-927c-26fe000c75e0",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 1500m Freestyle"
+        },
+        {
+          "Id": "306b1ce1-037e-40c0-b149-05388e698fd1",
+          "Name": "50",
+          "Code": "040",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "439ebb12-ca16-4a50-9f8c-ddc881f5db46",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "3028e444-1489-434c-94cb-3cc8fb1fa80f",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "a389bc0c-58cb-483a-affb-ac14a46864a6",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "eaffcf25-3371-4da6-8162-3c97ed8cb9f8",
+              "Phase": "Swim Off Semifinals",
+              "Name": "Swim Off Semifinal",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "153b3bae-408a-4b66-8141-865056f580bc",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "4afd57c5-4288-4895-a8c5-1a29b2df728b",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "f04d5365-3706-4a3d-ac19-b00da1369ced",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "8c3c8612-1e09-4814-af54-53ebdf613109",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "1bb10a76-4070-4403-aae0-2ee1d70a9068",
+              "Phase": "Heats",
+              "Name": "Heat 5",
+              "Unit": "05",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "bc8f81bf-905e-4618-a759-1ec11ce215eb",
+              "Phase": "Heats",
+              "Name": "Heat 6",
+              "Unit": "06",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 50m Backstroke"
+        },
+        {
+          "Id": "e911236e-42d3-412a-95aa-e794b51b1406",
+          "Name": "100",
+          "Code": "041",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "971bf245-c0be-4d2c-a80e-9bed225d5d92",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "d1464650-685f-4156-a0ba-d7c937c69880",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "9a94527d-3b9a-4cd2-8476-f9d839ef6807",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "9fffdf51-3f71-4baf-8a07-6bde891a6212",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "cf1d433d-6c70-44f7-917b-53274b6891f2",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "5fa7b5a4-e71f-4b68-9793-498e7b00821c",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "1cf40a00-d50c-4896-a69f-b2e9bd748f80",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "54ef890a-3e54-41e8-b568-2002616a8e94",
+              "Phase": "Heats",
+              "Name": "Heat 5",
+              "Unit": "05",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "ac26bf5d-c100-44f3-b8e7-a1809544fc39",
+              "Phase": "Heats",
+              "Name": "Heat 6",
+              "Unit": "06",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 100m Backstroke"
+        },
+        {
+          "Id": "9fcc5122-2001-4283-a474-a4d6b43c0ea1",
+          "Name": "200",
+          "Code": "042",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "20c8fa11-41bb-427e-a366-2e86b8134e4c",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "41d95c05-bf04-41a2-b05e-50a3b856df5b",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "c3ecc999-3641-4037-8665-7065fabd2df4",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "a80145da-1e67-496e-adc6-a2f2fe1dabef",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "cf3fd590-a263-49ed-990b-d3d25b2cc4b6",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "9ebdc7ec-a177-4ed9-bea6-cf21170cdc8e",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "76b8a8af-40ba-4eab-9091-59858d33ea87",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 200m Backstroke"
+        },
+        {
+          "Id": "e38db6eb-6986-4f6b-9e4d-071fbf8feeba",
+          "Name": "50",
+          "Code": "030",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "2c63cb8d-7f03-4c3f-9f59-968f86e13bb2",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "ff79b957-0f16-4f92-a76a-ebb4f532e5f0",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "147b27fd-edd1-429b-92d9-66822460d56d",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "9ed41367-84be-47a9-b45d-5839c637cca7",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "d559e14b-11a0-4dec-bb5b-1118af2bfc00",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "864d584a-86fd-40ea-a342-2a1515e10e3e",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "53664280-052d-446b-b509-3ba81d746d12",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "a6caf40f-d243-41d6-a155-b7d2f7e732a7",
+              "Phase": "Heats",
+              "Name": "Heat 5",
+              "Unit": "05",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 50m Breaststroke"
+        },
+        {
+          "Id": "0a61e24d-06fb-416a-ac44-bc48b34dc479",
+          "Name": "100",
+          "Code": "031",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "3dc5e741-43c4-4a49-b26e-7b80502611a6",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "591633a8-19a6-422c-8c61-0fd67dd713eb",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "3da680ca-f2c7-4b39-934d-2c3e6ee6bfc6",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "c38a0dbe-24e8-406c-81f4-f4767ba2ed3f",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "e040981e-b7f1-486a-be76-8c7ded35e8d6",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "f5075536-5765-4740-aa7a-1e0d3df8d153",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "1e55fb17-9d20-4338-845f-a987645d633a",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "ebd4cf17-d0a9-472f-aaaa-6866b6871961",
+              "Phase": "Heats",
+              "Name": "Heat 5",
+              "Unit": "05",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "7819b7cd-6674-4167-958b-c21909cb908e",
+              "Phase": "Heats",
+              "Name": "Heat 6",
+              "Unit": "06",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 100m Breaststroke"
+        },
+        {
+          "Id": "a17f61cb-e0ce-4fbe-ac69-3a253fd96171",
+          "Name": "200",
+          "Code": "032",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "c7782ab3-d73f-48b8-a8a5-c804384b0c26",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "89e290e9-e412-44cd-84a1-9135c41b2d99",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "b27a41cb-1907-45e0-ab12-97b9bc386aa5",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "a9197b6b-0f22-409b-8a0e-624e5c2a47be",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "2b70b187-9e08-4f71-b429-2e4d8945cea6",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "b490c314-9e79-421b-9f47-4f0d524db61a",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "ee14950e-c9b1-4780-850b-c1cba321e982",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 200m Breaststroke"
+        },
+        {
+          "Id": "c2e89398-8b25-4b84-b51f-1a1069713404",
+          "Name": "50",
+          "Code": "020",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "f492a0e9-5920-4321-9114-f00524322d9a",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "6d0b8cb9-8782-4f91-98ce-d5c995995c86",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "f7404c51-d140-4caa-8674-e484c1aae3b3",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "476d26ce-152e-4ab0-a591-4567c37b439c",
+              "Phase": "Swim Off Semifinals",
+              "Name": "Swim Off Semifinal",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "4a981a6e-9c72-42de-b916-1d198e99d03e",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "2c8ea638-1bc7-4ea6-80c2-0f628baa3349",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "42c50ec6-b7c9-4715-86ba-eb41b5566b00",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "6a2dac12-8158-4aa4-943e-7b1d8aed9b8c",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "cd06d0ee-64ba-4955-b88f-42b222792b58",
+              "Phase": "Heats",
+              "Name": "Heat 5",
+              "Unit": "05",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "3643e0a7-b33a-49f1-9816-20f87041eb2e",
+              "Phase": "Heats",
+              "Name": "Heat 6",
+              "Unit": "06",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "7baa5fae-9a26-4c8c-b64a-0dfda1f32ec9",
+              "Phase": "Heats",
+              "Name": "Heat 7",
+              "Unit": "07",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 50m Butterfly"
+        },
+        {
+          "Id": "b2cdc027-0e1c-40b7-8977-b64cb57ab562",
+          "Name": "100",
+          "Code": "021",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "8039679f-6b60-4ba1-9e1f-f9520d7a9a00",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "ecdc7fde-84df-4d2a-9ee4-fe1028bf4fb9",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "042bf4d9-01c0-448a-a151-5f677185b55d",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "c98ad927-91c9-47ab-b3c9-c1a42221e49d",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "8ab8e076-27c0-40b5-b10b-d7f1c8ff1296",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "8c0250b4-d793-4eed-86b7-e5ef0fb27488",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "0caa3152-5643-46e1-9679-89ed317d47ad",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "b853e6c3-bb61-4a3e-8c19-3b79c24885e5",
+              "Phase": "Heats",
+              "Name": "Heat 5",
+              "Unit": "05",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 100m Butterfly"
+        },
+        {
+          "Id": "a8d2cfcd-2204-4ebf-92ce-095c05a23134",
+          "Name": "200",
+          "Code": "022",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "254b524e-b6dd-482b-b8d7-c5c291d25d58",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "fb0ffd03-32b3-4844-92f0-1385b1e7521c",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "eb147ddb-5103-4fa6-a99b-50e11e7c57ea",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "14e5dcc7-bdb3-4e24-975f-a9899fe19eec",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "e7eba0f6-fa87-4210-87af-74ef1e588a16",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "cb97cd3a-8432-46f0-90ea-dbd1e468cb6d",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 200m Butterfly"
+        },
+        {
+          "Id": "445043f7-a0ff-4c01-a49c-4aab82dcaf5c",
+          "Name": "200",
+          "Code": "052",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "9bad7a90-8274-46aa-a583-f18d1b407fcc",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "bbb45c9b-8330-4c4a-82f2-978b78b76cb6",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "94e9d2f5-cebc-412c-a195-54706e3e58bc",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "39853eb5-7ef0-40c4-9ec0-da3d3a0313d7",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "c3366d09-21d2-4786-8931-88d6b9ef7ef5",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "7061f96b-e332-4550-99be-16db8ab8ecf6",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 200m Medley"
+        },
+        {
+          "Id": "8ff605b2-3a37-4603-98b6-621dffd97985",
+          "Name": "400",
+          "Code": "054",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "b9c50fe5-420d-4f59-b7dc-6310408d8aae",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "41147fe8-211d-4466-83d6-3784c0756523",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "7d39c063-e4aa-4db9-9731-cdd81ad94f2d",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "c794992d-cffe-4c8f-9584-03af71caa1fe",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 400m Medley"
+        },
+        {
+          "Id": "470027ed-3c3a-4fe7-93fb-3c407ec3c056",
+          "Name": "4x100",
+          "Code": "411",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "61d3c50d-a007-46f5-9b41-08e97d9ac560",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "a1195f7f-525e-4b40-8818-e78eab1a4a50",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "056b9485-108f-46cd-b6ef-409b7b50fc0e",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 4x100m Freestyle Relay"
+        },
+        {
+          "Id": "ef2dc38e-e21c-41cf-bd4f-fc32b18fd633",
+          "Name": "4x200",
+          "Code": "412",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "61351509-6d52-4c42-80aa-d795d0d7ab8f",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "d784bb30-81b1-4025-a6b7-c63f7d001c6b",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "1ad12ea9-b75e-48d6-8bfd-a32d6fbcb4de",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 4x200m Freestyle Relay"
+        },
+        {
+          "Id": "2942eb58-2ec5-408d-8437-d7a8adbf54b0",
+          "Name": "4x100",
+          "Code": "451",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "608621cc-1401-41a7-b76b-18bed3a87144",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "5c49db9d-4e52-41ff-872e-6ba79ee4819c",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "3d4082ff-4cc9-4c51-9be2-b1ad371b206d",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "019e5f6c-986e-49c1-8437-d5d6d6d0b761",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 4x100m Medley Relay"
+        },
+        {
+          "Id": "ea52dc21-aed8-40a9-9038-9825b563aa27",
+          "Name": "50",
+          "Code": "010",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "04c4d21a-0189-4ef6-b45e-ed97a920410a",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "3b351c3d-ad6c-4c28-875f-3255bca58170",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "561e8bb8-430e-4732-8198-b77eecc599b9",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "0651946e-5c7a-498a-baf9-0724c46613c7",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "00b148cc-df5d-4a5b-9d1e-b3cdd6656e72",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "163f232f-5224-4973-9d01-a0344f56c4de",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "335468ed-cdd0-4077-84aa-2f390e925d57",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "451398de-4b06-433e-808e-ac093496e213",
+              "Phase": "Heats",
+              "Name": "Heat 5",
+              "Unit": "05",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "a9886ece-8a09-4197-b1b1-22f4c4d8e89c",
+              "Phase": "Heats",
+              "Name": "Heat 6",
+              "Unit": "06",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "cc1a0a1c-22a8-48ca-9ecf-dadcf6b752d1",
+              "Phase": "Heats",
+              "Name": "Heat 7",
+              "Unit": "07",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "e4d8e2df-ac6e-4f43-a0a3-fc9b8164e9e0",
+              "Phase": "Heats",
+              "Name": "Heat 8",
+              "Unit": "08",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "ae5a3595-e294-4e75-bdff-5fc7e52da2e4",
+              "Phase": "Heats",
+              "Name": "Heat 9",
+              "Unit": "09",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "f8fbcda8-89ae-4af6-b3f3-a3d0102af86d",
+              "Phase": "Heats",
+              "Name": "Heat 10",
+              "Unit": "10",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "ca0fa1c5-fc48-457a-8c16-b46761427c4e",
+              "Phase": "Heats",
+              "Name": "Heat 11",
+              "Unit": "11",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "f02e9088-c7e5-4f69-b884-fff352720653",
+              "Phase": "Heats",
+              "Name": "Heat 12",
+              "Unit": "12",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 50m Freestyle"
+        },
+        {
+          "Id": "28b77ca7-d106-47f6-a06a-aee09c779c5d",
+          "Name": "100",
+          "Code": "011",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "f22f564e-64d4-4405-9a04-305cb29469fe",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "3a93359a-eb01-45e3-978f-00fd9e7ed381",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "03ffd8d4-85ac-4499-af09-626c4aa6bb4e",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "9951ee12-a176-4f2a-ab50-968f8653edad",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "8ea3f988-5ff6-42ab-9f2e-f295181d0919",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "fc3f747d-ba6c-48e1-a7bb-dfffd350821e",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "b6f23b52-9057-42c5-ac45-3284d6846b40",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "8bb5174f-a34f-4d9d-b475-1dc2a755caed",
+              "Phase": "Heats",
+              "Name": "Heat 5",
+              "Unit": "05",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "b0a7aae3-f658-4c35-adec-93044d7b63ed",
+              "Phase": "Heats",
+              "Name": "Heat 6",
+              "Unit": "06",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "d606bfc9-bfed-4fff-980f-2798811d88f7",
+              "Phase": "Heats",
+              "Name": "Heat 7",
+              "Unit": "07",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "69dfb577-29d4-4f21-88b1-d8010a9002f9",
+              "Phase": "Heats",
+              "Name": "Heat 8",
+              "Unit": "08",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "e7a81250-7fde-4de7-a51a-88452f3cf8d8",
+              "Phase": "Heats",
+              "Name": "Heat 9",
+              "Unit": "09",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "e1e73319-bee1-40aa-9b3a-8f9dfe4cf27b",
+              "Phase": "Heats",
+              "Name": "Heat 10",
+              "Unit": "10",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "ce527486-968a-4d23-ad2d-754491e8f00e",
+              "Phase": "Heats",
+              "Name": "Heat 11",
+              "Unit": "11",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "3aea96ec-bbe0-43ff-80e5-16e28cc232d4",
+              "Phase": "Heats",
+              "Name": "Heat 12",
+              "Unit": "12",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 100m Freestyle"
+        },
+        {
+          "Id": "e63010b8-8750-4aab-b462-b8aad577f9c6",
+          "Name": "200",
+          "Code": "012",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "aa3463ef-228e-4c30-a578-4d8c4a369145",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "56cb4387-d023-448e-b845-a4a07dd06150",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "285ce8bc-f7ff-4944-a90f-6f5222ca249e",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "0bc6e981-25a7-41a8-bd31-2d899fa60ffd",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "ecf08c39-691c-41f5-9670-610bddde9d09",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "0ed53779-4781-45cf-b3c8-f94a6f0131fe",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "fd9ce7da-56b0-45bc-b5e1-4733c4a8eecc",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "fedaf88e-1d46-433f-977b-359ab3ef9b22",
+              "Phase": "Heats",
+              "Name": "Heat 5",
+              "Unit": "05",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "b3b3bc94-55b2-4725-9f49-450f63d16ad1",
+              "Phase": "Heats",
+              "Name": "Heat 6",
+              "Unit": "06",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "78b7d71a-b4d0-4771-b70f-50714ad57297",
+              "Phase": "Heats",
+              "Name": "Heat 7",
+              "Unit": "07",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 200m Freestyle"
+        },
+        {
+          "Id": "c2c5fcfe-ebf3-4eeb-9639-95c62f0b3e4c",
+          "Name": "400",
+          "Code": "014",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "9ebe963f-a383-45be-8090-fb0c2951e5ad",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "50fd7b5a-dada-4ce6-9cd9-29f3a228e100",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "96398b31-83e4-44ae-9e25-c8502dda4e46",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "373f543e-1b6e-4b8a-8c30-5e6edc66d7d6",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "053969da-10c2-4e5c-bdf1-8f7de7b89425",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "72210408-742f-454e-a977-8814cbccd609",
+              "Phase": "Heats",
+              "Name": "Heat 5",
+              "Unit": "05",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "3650ee9d-c557-4a15-8cf9-096f9ce1c253",
+              "Phase": "Heats",
+              "Name": "Heat 6",
+              "Unit": "06",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 400m Freestyle"
+        },
+        {
+          "Id": "c534149d-d057-4b52-84f9-8642a29daf39",
+          "Name": "800",
+          "Code": "018",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "953e9922-88f4-42f0-a8be-8d2a31b22522",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "c609cd70-1507-4597-9623-bcb326f97130",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "cd8eb803-511b-4e76-933d-6066fbf95009",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "d9de8a1a-d3e5-4007-9b6f-53771bc5de6b",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "4724812f-a437-431d-8463-c644187dc6b6",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "da188091-57a2-45b9-a76c-16b59ef0b367",
+              "Phase": "Heats",
+              "Name": "Heat 5",
+              "Unit": "05",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 800m Freestyle"
+        },
+        {
+          "Id": "0906c471-0f62-4318-92d0-77fd2dfb3039",
+          "Name": "1500",
+          "Code": "015",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "1f16d505-990c-431f-9fd2-f8da9993bab5",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "406d03c7-c56e-4bf2-b8f2-b3d4acfa8447",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "6c5b28ce-9939-4357-9f63-6d91f3b4bd3f",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "b47a24b7-91ac-4b8b-ac9d-fc5a6550c215",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "ccb58b7f-8c56-4a16-a1ba-a022415c9dd3",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 1500m Freestyle"
+        },
+        {
+          "Id": "3a7c783f-f33d-457f-8018-86de5b2cadf9",
+          "Name": "50",
+          "Code": "040",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "d5a49c18-2a51-4072-89a2-ed61ca8152a0",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "2b2aa296-94a8-4922-b613-6ed83652e734",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "4b4a27d6-dd0c-4ef1-84fd-9ffc8fb156df",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "247a183a-d652-4c03-85a4-5c99b4335e61",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "b12d1698-4c4d-48f7-bdf9-7d3e5bded2f8",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "6d51e302-4ee3-4aa8-9bdb-dd93ec2bac08",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "4f99916c-60c0-450c-822b-6d41cdd73c64",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "8dea4eaf-046d-4672-a3f2-91d62e63b364",
+              "Phase": "Heats",
+              "Name": "Heat 5",
+              "Unit": "05",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 50m Backstroke"
+        },
+        {
+          "Id": "e18d6425-a4f7-4cd6-88d5-8680eb0ca928",
+          "Name": "100",
+          "Code": "041",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "86b609bc-c7d8-4e7e-881e-8559acab2799",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "551ae38e-c31a-4515-b5e4-3b7711229f2f",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "1140e261-71a1-4a2d-9b9d-531f782794c4",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "cea8a398-f5ce-43e9-be4d-f73a25782919",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "ae42ee9e-e356-4cbd-aad2-c7fb94dfad54",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "77ddab6c-a047-41dc-a414-d2a18a73b859",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "512631e7-e4d2-4f60-baa5-4691a37f62ab",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "6a15a1b8-a568-40d1-b506-4bb6fc8db52a",
+              "Phase": "Heats",
+              "Name": "Heat 5",
+              "Unit": "05",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "50b702e1-3117-42a1-ad54-ee0beb59dfac",
+              "Phase": "Heats",
+              "Name": "Heat 6",
+              "Unit": "06",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 100m Backstroke"
+        },
+        {
+          "Id": "1a731b0c-c387-49cd-8ff9-8e5955998857",
+          "Name": "200",
+          "Code": "042",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "22cafd49-bc32-4889-b958-50b35a54acb9",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "3f4db70b-6813-4665-af28-fdfc1f6bcd2d",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "1b1c1033-c88a-46d4-8b60-a224f3804078",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "1324c0a9-7ae6-47b1-90f2-930a00a21eda",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "b9421c84-6732-452b-948b-13b8ec354fa4",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "930e4002-9b2e-4711-a310-b123e349acac",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "363b36c5-c763-43c2-9823-bdc64f3bcf68",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 200m Backstroke"
+        },
+        {
+          "Id": "134bc8ef-f2b0-4d16-a7b7-e1fb06cfeafd",
+          "Name": "50",
+          "Code": "030",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "ddae6ba7-b1c5-4142-992c-4d8ce06f8173",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "d4a44adc-5111-4f42-a591-0a197d972d2b",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "f94bc18f-ec9f-43c6-8f68-5cbadd8b7b4a",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "97c4c18e-890d-4cb1-9db7-63adf20b0d5b",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "917dd50a-a5c9-45af-a3d2-ddd5ee39bf93",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "ba5afe48-3010-45ae-a10e-a7ea855b3176",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "2f434942-b2f0-4670-9b66-1052a62a3914",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "749075c8-ffbc-40ee-b060-8474191cbd16",
+              "Phase": "Heats",
+              "Name": "Heat 5",
+              "Unit": "05",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "ae81b663-c2e3-4228-a8af-923c1a1c01b4",
+              "Phase": "Heats",
+              "Name": "Heat 6",
+              "Unit": "06",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 50m Breaststroke"
+        },
+        {
+          "Id": "00250415-8633-4a72-9e55-4b89b60262b2",
+          "Name": "100",
+          "Code": "031",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "a483767f-6be6-4236-89a3-3e25a23beae7",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "dc91d114-6898-45cd-aad6-e5c611449254",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "ee9a87bc-a4ff-4db0-a808-2a9fe98c8c45",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "3dfc60b9-0ad7-400b-b15c-5a9e869bdffe",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "37cefc31-b2a5-40f6-a965-e5e0b98f2635",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "72490a14-1a88-4b5e-972b-d97e7c699586",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "4f1ddffd-ca61-499b-8c34-dce9b4f75ef3",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "30a65689-a39f-4266-80f8-ec26a6cff557",
+              "Phase": "Heats",
+              "Name": "Heat 5",
+              "Unit": "05",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "426138d3-632a-4028-a37c-5819b06ca644",
+              "Phase": "Heats",
+              "Name": "Heat 6",
+              "Unit": "06",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "f724fc5d-41fb-414a-a748-e76509234f43",
+              "Phase": "Heats",
+              "Name": "Heat 7",
+              "Unit": "07",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "6213ad4c-667d-40de-b609-787bce4cfeb3",
+              "Phase": "Heats",
+              "Name": "Heat 8",
+              "Unit": "08",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 100m Breaststroke"
+        },
+        {
+          "Id": "40502132-0556-4374-b201-4ba6e93ec009",
+          "Name": "200",
+          "Code": "032",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "3165611b-8814-4397-a278-7921ab79e7ab",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "cde4906c-668e-465c-a03d-7c08bd5e2086",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "a1e3cad9-56bc-423e-890e-f73f80973451",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "602cc794-26b3-4300-9626-de978abe6094",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "ea0acd33-0776-4152-83c0-76d7ae9422fc",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "ecb2a715-7b25-41b9-81e5-65cfc93792bc",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "b8788b3c-8d1f-48e4-8c52-afa01fe9cbe5",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 200m Breaststroke"
+        },
+        {
+          "Id": "801ead0a-7028-4946-8d9a-8a0e8fc19015",
+          "Name": "50",
+          "Code": "020",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "ca4bdb08-ff41-49e4-b8e4-e10ea8cfa6a6",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "70c06d41-2f82-4136-9c3b-a20ccc6797ee",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "936d4587-1c35-42ac-b022-1086bf0a1699",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "87cabbb9-2900-45ca-a58f-19225f5655a6",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "36b5fd59-52d1-44aa-a1f1-45f3f28d5cc7",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "94e4ff9b-2fd4-451f-a26a-0186524807cd",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "95aa5c5d-3d72-428f-9af1-c483d8a8260f",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "92e28b0d-b344-4671-a233-c5a6418d8b43",
+              "Phase": "Heats",
+              "Name": "Heat 5",
+              "Unit": "05",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "5c13a4ab-f54b-4041-bb8e-81d38a498fa9",
+              "Phase": "Heats",
+              "Name": "Heat 6",
+              "Unit": "06",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "a77e0667-0c0c-472e-b1f7-3ef766bc69f3",
+              "Phase": "Heats",
+              "Name": "Heat 7",
+              "Unit": "07",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "537f31b6-0ffa-4901-906a-acc71122e2fc",
+              "Phase": "Swim Off Heats",
+              "Name": "Swim Off Heat",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 50m Butterfly"
+        },
+        {
+          "Id": "9412d533-ad48-410c-931c-95110e48dc22",
+          "Name": "100",
+          "Code": "021",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "b1a95b26-d1ae-4ce0-a65f-77b1fd592e63",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "3c5e8c42-76da-4834-a017-01802435c5c4",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "d3af7e15-e64e-4dc2-90a5-137f31232a9d",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "9ebee55f-9ccb-4bff-9af7-90f625f7547f",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "92241ec3-1254-422c-a7b8-649bf6f32970",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "fa8692d5-fe9c-42a7-83d9-d5f970b0d4f2",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "7faac193-7dfb-4426-814c-9793ed1587ea",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "7dc089d1-a7c5-4b0f-b4a0-a5c8e2115b9a",
+              "Phase": "Heats",
+              "Name": "Heat 5",
+              "Unit": "05",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "d7185f08-f2f4-49c5-8fad-0e9f41a68f86",
+              "Phase": "Heats",
+              "Name": "Heat 6",
+              "Unit": "06",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "d4087f95-8486-4d3b-85e7-3478d2e6744b",
+              "Phase": "Heats",
+              "Name": "Heat 7",
+              "Unit": "07",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "ee9e8c8d-6f7f-4389-97a3-a7de8c878cef",
+              "Phase": "Heats",
+              "Name": "Heat 8",
+              "Unit": "08",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "379dffeb-755f-43eb-a0f6-15dee9f0e9bb",
+              "Phase": "Swim Off Heats",
+              "Name": "Swim Off Heat",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 100m Butterfly"
+        },
+        {
+          "Id": "8f849284-acf5-4e67-bd75-b3aef9f80826",
+          "Name": "200",
+          "Code": "022",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "5b7c34ab-37a1-42cd-93dc-e3eef5459800",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "5f147fbf-f5d7-4d9a-87e3-5fd4feae241e",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "996d9ddc-680e-4e2c-9fe4-825a07c20a2e",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "d4e8c956-acde-42cf-8ffb-f09d481079cd",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "19336f6b-56b4-4b74-b141-0b1f126c4b0a",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "64364d13-3ff0-4917-8ff1-b89768ab1d75",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "4379ae72-93bf-4548-8dfa-e006a360dd66",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "dbd40dcc-7f45-42af-9d98-b086f48403c3",
+              "Phase": "Heats",
+              "Name": "Heat 5",
+              "Unit": "05",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "f91d9b0b-a6a8-431c-8b71-a54532e6c047",
+              "Phase": "Swim Off Heats",
+              "Name": "Swim Off Heat",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 200m Butterfly"
+        },
+        {
+          "Id": "99c954f7-8a7d-4631-b8a8-44e6feb90e18",
+          "Name": "200",
+          "Code": "052",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "de51bf74-ef75-45a6-a780-02f295319375",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "cd6adaa4-97bc-4858-b91c-728cee5c3a6a",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "b78db26a-5ab0-4f28-8886-2fd92e52b661",
+              "Phase": "Semifinals",
+              "Name": "Semifinal 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "e02f8e82-858f-4878-863a-2585f4294f26",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "306f0bff-87a4-4318-839a-ebfb55060341",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "260134b3-4588-47c8-8c46-36dcc9e4e798",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "b7a21f91-1802-48b1-b0bd-40c256e6f074",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "a58db50e-0afa-49f2-ad71-ff5f0991de99",
+              "Phase": "Heats",
+              "Name": "Heat 5",
+              "Unit": "05",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 200m Medley"
+        },
+        {
+          "Id": "c15e1618-2588-4d0c-a520-b1beb0b2eccb",
+          "Name": "400",
+          "Code": "054",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "e1ee7b23-4db9-4846-932b-2139242f8b89",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "4de5b695-ba40-4fbe-a60a-c4f3fc219ced",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "da7d6ce1-6c85-4a09-b028-c38d5d4e56dc",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "34b017b9-9a02-4c84-85b6-29d63b254c1d",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 400m Medley"
+        },
+        {
+          "Id": "1753a4d5-a6b5-4b1f-9486-74adfc79790a",
+          "Name": "4x100",
+          "Code": "411",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "d75d070b-1050-44eb-b44e-bab7ab59a6c6",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "f8a484d5-2f11-4b90-b980-e27046e6a113",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "2d6a2658-18ad-46af-8563-5e6c53b95319",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 4x100m Freestyle Relay"
+        },
+        {
+          "Id": "62027f68-ea03-4c3c-9b76-8a7fe034747c",
+          "Name": "4x200",
+          "Code": "412",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "8ac8633b-5c12-4ff0-a787-4becf78fe7c8",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "129906b1-46f4-4a16-a46f-b37fd1992b5c",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "d694e5c8-d81d-468f-ac6f-20b74fa8e83f",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 4x200m Freestyle Relay"
+        },
+        {
+          "Id": "eb9e12d9-b8d8-4eb0-b101-dd23bc602761",
+          "Name": "4x100",
+          "Code": "451",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "c2a2f832-1775-4db5-83d6-4d38f53824fc",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "67652509-e48c-438a-8a3d-9ccdda22e23f",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "75be5f69-369f-450d-80e4-6ec6d4c44088",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "56031803-6d9a-46f9-84b5-7cbf0749aa87",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 4x100m Medley Relay"
+        },
+        {
+          "Id": "9850c36e-bb26-4942-8614-04e4e7170260",
+          "Name": "4x100",
+          "Code": "411",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "20fad4da-0822-4a07-83db-8a5c0c9aa9b6",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "3290aaa7-5b8e-4701-91cf-711235c2847a",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "98815cf5-f543-4eaa-bd42-22916483a533",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "0008957b-82f3-47d8-9aa6-cb7d37b8b5d8",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Mixed",
+          "DisciplineName": "Mixed 4x100m Freestyle Relay"
+        },
+        {
+          "Id": "0cac59cd-b5a2-4727-809f-d60bcbc59e48",
+          "Name": "4x100",
+          "Code": "451",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "7f2e04bc-1836-4c86-bec8-9b38c3017000",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "ff0dedd5-a206-4488-84fc-1faca822970f",
+              "Phase": "Heats",
+              "Name": "Heat 1",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "fd78bf9f-f205-46ab-b823-c8d8a01f502a",
+              "Phase": "Heats",
+              "Name": "Heat 2",
+              "Unit": "02",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "efae2e4d-a26c-410e-b9c4-0fcfba3c13af",
+              "Phase": "Heats",
+              "Name": "Heat 3",
+              "Unit": "03",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "7c28007e-582f-4714-bc84-d7c881f5eff7",
+              "Phase": "Heats",
+              "Name": "Heat 4",
+              "Unit": "04",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Mixed",
+          "DisciplineName": "Mixed 4x100m Medley Relay"
+        }
+      ],
+      "SportStartDate": "2024-02-11T09:32:00",
+      "SportEndDate": "2024-02-18T20:59:13"
+    },
+    {
+      "Name": "Open Water Swimming",
+      "Code": "OW",
+      "Description": null,
+      "DisciplineList": [
+        {
+          "Id": "7c8c25d7-ef63-4c32-a454-f82ae691b026",
+          "Name": "5km",
+          "Code": "010",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "0ca169c7-be6c-430d-a03f-a9fafb8e72de",
+              "Phase": "Finals",
+              "Name": "Final",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 5km"
+        },
+        {
+          "Id": "680dacfb-edec-45f6-9509-18f0b4074576",
+          "Name": "10km",
+          "Code": "011",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "cffd37e9-61df-489a-b487-9f5b4d67e24e",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 10km"
+        },
+        {
+          "Id": "f272eb49-87f4-4ceb-b629-248f0e121ec6",
+          "Name": "5km",
+          "Code": "010",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "6388d4f5-029b-4c6a-bc82-7e8196326b8b",
+              "Phase": "Finals",
+              "Name": "Final",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 5km"
+        },
+        {
+          "Id": "598358f2-f105-45ac-9bec-68bae8691d29",
+          "Name": "10km",
+          "Code": "011",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "330cb247-7258-4424-abe3-2b3c57d79cdd",
+              "Phase": "Finals",
+              "Name": "Final",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 10km"
+        },
+        {
+          "Id": "e6d32427-a69c-45ce-b132-b96f4b12918f",
+          "Name": "4x1500m",
+          "Code": "450",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "fa4407dc-de86-451d-a6e1-fadd6a2a178d",
+              "Phase": "Finals",
+              "Name": "Final",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Mixed",
+          "DisciplineName": "Mixed 4x1500m"
+        }
+      ],
+      "SportStartDate": "2024-02-03T10:32:00",
+      "SportEndDate": "2024-02-08T10:32:05"
+    },
+    {
+      "Name": "Artistic Swimming",
+      "Code": "SY",
+      "Description": null,
+      "DisciplineList": [
+        {
+          "Id": "7d920ade-200b-4ccb-a246-02ff5dfb6e4b",
+          "Name": "Technical",
+          "Code": "102",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "eb8fd287-0d51-4a49-b3b2-c71f97b603d6",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "cfabcbba-fbe7-4497-a02b-98a740b9816f",
+              "Phase": "Preliminaries",
+              "Name": "Preliminaries",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women Solo Technical"
+        },
+        {
+          "Id": "95e991ec-ba78-402f-94ff-7fd214956b54",
+          "Name": "Free",
+          "Code": "103",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "881202ec-5a06-40da-973e-090f1f4c6d62",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "446a6f9f-caab-46b4-8393-aa48e9208ea0",
+              "Phase": "Preliminaries",
+              "Name": "Preliminaries",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women Solo Free"
+        },
+        {
+          "Id": "215776c7-0fbe-4f56-84fb-a55ded9bf389",
+          "Name": "Technical",
+          "Code": "202",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "df3b1995-014d-4a75-a25d-64891c76fc25",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "42708754-1256-4939-aadb-fbf0e4915015",
+              "Phase": "Preliminaries",
+              "Name": "Preliminaries",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women Duet Technical"
+        },
+        {
+          "Id": "0bbf0141-092a-40e1-8e05-70ed453adf79",
+          "Name": "Free",
+          "Code": "203",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "67c8dc31-1b62-4723-b94e-32cf1bdac4ec",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "908ba5b4-d820-45cd-8e7d-0e5ab8f5028e",
+              "Phase": "Preliminaries",
+              "Name": "Preliminaries",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women Duet Free"
+        },
+        {
+          "Id": "0a24d2b2-2a82-48eb-a961-fdeae580ed56",
+          "Name": "Technical",
+          "Code": "102",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "67fb4ec1-8e68-4e22-a00f-47b56f9900ed",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "973f7630-b2f9-486a-84b4-9e850affdd81",
+              "Phase": "Preliminaries",
+              "Name": "Preliminaries",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men Solo Technical"
+        },
+        {
+          "Id": "c04a529c-e752-45ba-9829-124bd31f6459",
+          "Name": "Free",
+          "Code": "103",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "1c4cd2f4-f42f-40c5-a0ce-579927018b26",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "a928cd7a-f7ef-47db-bd0e-28ce4dbf55c0",
+              "Phase": "Preliminaries",
+              "Name": "Preliminaries",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men Solo Free"
+        },
+        {
+          "Id": "39219a5b-817b-4f71-b9df-e8105400759d",
+          "Name": "Technical",
+          "Code": "202",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "d53d98f1-a6f3-4ee0-a505-0a27150a046e",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "00c84f1d-74a9-4c72-b49b-be0dcbdd0ae9",
+              "Phase": "Preliminaries",
+              "Name": "Preliminaries",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Mixed",
+          "DisciplineName": "Mixed Duet Technical"
+        },
+        {
+          "Id": "b2918607-8dbe-4fc3-8e52-77c211ee2370",
+          "Name": "Free",
+          "Code": "203",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "4393dcee-029e-4907-b9a6-9c3e97c5bd39",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "6e46fae1-df2c-4a8d-bafa-47abf116e035",
+              "Phase": "Preliminaries",
+              "Name": "Preliminaries",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Mixed",
+          "DisciplineName": "Mixed Duet Free"
+        },
+        {
+          "Id": "07755f68-5a51-4b26-967a-197404c7c58d",
+          "Name": "Team Acrobatic",
+          "Code": "601",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "9f9fe20c-cf36-43d8-b9e6-93db22ba7471",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "36c051d3-014c-4afe-8dab-e07fcb38d1c0",
+              "Phase": "Preliminaries",
+              "Name": "Preliminaries",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Mixed",
+          "DisciplineName": "Team Acrobatic"
+        },
+        {
+          "Id": "d1fe1ebe-21ab-4f73-8374-db50e4e34649",
+          "Name": "Team Technical",
+          "Code": "402",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "26a955bc-4cb6-44a1-8874-941fced23e74",
+              "Phase": "Finals",
+              "Name": "Finals",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "297acc70-414b-4a03-8c31-9b47688c733f",
+              "Phase": "Preliminaries",
+              "Name": "Preliminaries",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Mixed",
+          "DisciplineName": "Team Technical"
+        },
+        {
+          "Id": "76d9ce74-382a-4d2e-a4b3-5b484632a35d",
+          "Name": "Team Free",
+          "Code": "403",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "d0235d86-b75b-4951-bfa5-ababfe4898cc",
+              "Phase": "Finals",
+              "Name": "Final",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "866e498a-04b0-4cf8-98b0-867c91219c8a",
+              "Phase": "Preliminaries",
+              "Name": "Preliminaries",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Mixed",
+          "DisciplineName": "Team Free"
+        }
+      ],
+      "SportStartDate": "2024-02-02T09:30:00",
+      "SportEndDate": "2024-02-10T09:30:00"
+    },
+    {
+      "Name": "High Diving",
+      "Code": "HD",
+      "Description": null,
+      "DisciplineList": [
+        {
+          "Id": "39523198-cd8f-42cc-93b8-a9ff6438cf32",
+          "Name": "20m",
+          "Code": "520",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "65131d24-610e-48d7-8e41-d20cd5f6d730",
+              "Phase": "Finals",
+              "Name": "Round 4",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "42338d22-e053-4f8d-a05c-5972d63427a9",
+              "Phase": "Semifinals",
+              "Name": "Round 3",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "a6cc0dc7-724d-4a20-bda5-1ac058ca30bd",
+              "Phase": "Preliminaries",
+              "Name": "Rounds 1 - 2",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women 20m"
+        },
+        {
+          "Id": "bf1bf6a3-a1fc-44c3-a0c7-94cedf92bc02",
+          "Name": "27m",
+          "Code": "527",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "b484f502-a120-4f68-bca9-ad7c3b909108",
+              "Phase": "Finals",
+              "Name": "Round 4",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "be6b8379-ad4a-47b6-8abf-dcb6a195418e",
+              "Phase": "Semifinals",
+              "Name": "Round 3",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "2172c729-5b4f-4033-bc6f-bb0b20a41590",
+              "Phase": "Preliminaries",
+              "Name": "Rounds 1 - 2",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men 27m"
+        }
+      ],
+      "SportStartDate": "2024-02-13T11:02:00",
+      "SportEndDate": "2024-02-15T11:49:34"
+    },
+    {
+      "Name": "Water Polo",
+      "Code": "WP",
+      "Description": null,
+      "DisciplineList": [
+        {
+          "Id": "1da03b5b-2974-4f2f-8943-19b397be794b",
+          "Name": "Women",
+          "Code": "400",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "e9c15f27-a8de-4a6d-af71-0466facb478a",
+              "Phase": "Final Standings",
+              "Name": "Gold Medal Match",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "80ab9bc2-1cd6-4c0e-971d-5d02a85a1608",
+              "Phase": "Finals",
+              "Name": "Gold Medal Match",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "58ee97dd-d807-4273-bf85-4b4d767c07d0",
+              "Phase": "Semifinals",
+              "Name": "Semifinal",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "99f82091-c0a5-423d-8be0-0900a9c7b4a9",
+              "Phase": "Quarterfinals",
+              "Name": "Quarterfinal",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "86afc972-c911-4b95-8684-14d5c14e42d7",
+              "Phase": "Classification",
+              "Name": "Classification",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "bc9c1d01-e17c-4190-b9cf-29d966e151bc",
+              "Phase": "Round of 16",
+              "Name": "Round of 16",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "f1766204-c1a6-476f-b0be-dbfba52d1d69",
+              "Phase": "Group A",
+              "Name": "Group A",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "e58bb5b2-2dcd-4cbd-bdc7-f2a50ebafdb3",
+              "Phase": "Group B",
+              "Name": "Group B",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "48cce5c2-74e7-4f48-bc7b-4d1ad46c4944",
+              "Phase": "Group C",
+              "Name": "Group C",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "f6ed981d-a05b-49ee-9ef0-05d2ed882026",
+              "Phase": "Group D",
+              "Name": "Group D",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Women",
+          "DisciplineName": "Women"
+        },
+        {
+          "Id": "34b5b78f-a3a8-460d-b237-8e52ef04400c",
+          "Name": "Men",
+          "Code": "400",
+          "Comment": null,
+          "HeatList": [
+            {
+              "Id": "7d2d8312-a66c-4ac3-aa3c-0f6ed22eb4f0",
+              "Phase": "Final Standings",
+              "Name": "Gold Medal Match",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "c7edd863-060a-40f1-be48-4537c929df49",
+              "Phase": "Finals",
+              "Name": "Gold Medal Match",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "6c48a511-ae6e-40ad-8d33-bdfaade6b793",
+              "Phase": "Semifinals",
+              "Name": "Semifinal",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "94090aec-35e5-4d92-a720-edea5d9b17b3",
+              "Phase": "Quarterfinals",
+              "Name": "Quarterfinal",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "7b4e8c4d-d95e-45e8-ac8f-9cd1c74e4e9c",
+              "Phase": "Classification",
+              "Name": "Classification",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "c8a32659-67b5-40ed-a0a2-6797be11b943",
+              "Phase": "Round of 16",
+              "Name": "Round of 16",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "ba05b622-5335-4725-8dcd-13fa04378d71",
+              "Phase": "Group A",
+              "Name": "Group A",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "ad1a2264-d0b2-4ed4-87d0-63981969c9f0",
+              "Phase": "Group B",
+              "Name": "Group B",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "0095f81a-7c58-4a1c-bd46-ad93fc4c7ef2",
+              "Phase": "Group C",
+              "Name": "Group C",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            },
+            {
+              "Id": "99944232-d332-48d0-83ad-d86bd2299089",
+              "Phase": "Group D",
+              "Name": "Group D",
+              "Unit": "01",
+              "IsFinal": false,
+              "ResultStatus": "OFFICIAL"
+            }
+          ],
+          "Gender": "Men",
+          "DisciplineName": "Men"
+        }
+      ],
+      "SportStartDate": "2024-02-04T09:00:00",
+      "SportEndDate": "2024-02-17T17:32:15"
+    }
+  ],
+  "QualificationForEventTypes": [
+    "2247f7e2-906b-4cdd-8990-0363a5333e1a",
+    "2247f7e2-906b-4cdd-8990-0363a5333e1a",
+    "f19fc56e-a6c1-4969-b380-cd9912788a00",
+    "17e31b1e-e367-4b1a-a8f0-dc2ea19bdbd1"
+  ],
+  "UpdatedDate": "2025-08-16T07:58:22.8927468",
+  "PoolConfiguration": "50m",
+  "TimeZone": "03:00:00",
+  "TimeZoneDisplayName": "Arab Standard Time",
+  "LiveStreamLink": null,
+  "Units": 0,
+  "TimingAndScoringPartnerLogo1": "5ec8f6b9-fc8c-4c67-ba60-d3b0abfab32c",
+  "TimingAndScoringPartnerLogo2": "f5b08bb2-e8b7-47c2-a7b5-9809802ee141",
+  "TimingAndScoringPartnerLogo3": "c607d205-52d5-486f-9da1-daac4062a52f",
+  "TimingAndScoringPartnerLogo4": "413228fe-62e5-4a2f-8f3a-985de920ba19",
+  "TimingAndScoringPartnerName": "Omega",
+  "IsSlim": false,
+  "OdfCompetitionCode": "WCH24",
+  "OdfImportType": null,
+  "RegionName": "Asia",
+  "Series": [
+    {
+      "SeriesId": "12f8087d-3b11-4c21-9a1c-0e004b143d23",
+      "SeriesName": "Doha DV",
+      "SeriesYear": 2024,
+      "SeriesOrderValue": 1,
+      "ClusterName": null,
+      "ClusterOrderValue": null,
+      "SportCode": "DV",
+      "HasRankings": false,
+      "EventType": "World Championships",
+      "EventTypeId": "cd00a72b-f8cf-4d33-ac12-d7c17b283cec",
+      "FollowUpSeriesId": null,
+      "FollowUpSeriesName": null
+    },
+    {
+      "SeriesId": "0d709db8-a12d-4b95-9023-92454a99be1c",
+      "SeriesName": "Doha SW",
+      "SeriesYear": 2024,
+      "SeriesOrderValue": 1,
+      "ClusterName": null,
+      "ClusterOrderValue": null,
+      "SportCode": "SW",
+      "HasRankings": false,
+      "EventType": "World Championships",
+      "EventTypeId": "cd00a72b-f8cf-4d33-ac12-d7c17b283cec",
+      "FollowUpSeriesId": null,
+      "FollowUpSeriesName": null
+    },
+    {
+      "SeriesId": "a775564f-e912-4c74-a7c1-ff9026fbbc67",
+      "SeriesName": "Doha OW",
+      "SeriesYear": 2024,
+      "SeriesOrderValue": 1,
+      "ClusterName": null,
+      "ClusterOrderValue": null,
+      "SportCode": "OW",
+      "HasRankings": false,
+      "EventType": "World Championships",
+      "EventTypeId": "cd00a72b-f8cf-4d33-ac12-d7c17b283cec",
+      "FollowUpSeriesId": null,
+      "FollowUpSeriesName": null
+    },
+    {
+      "SeriesId": "044c0f7e-03d3-4523-bfb5-dae444d00a45",
+      "SeriesName": "Doha AS",
+      "SeriesYear": 2024,
+      "SeriesOrderValue": 1,
+      "ClusterName": null,
+      "ClusterOrderValue": null,
+      "SportCode": "SY",
+      "HasRankings": false,
+      "EventType": "World Championships",
+      "EventTypeId": "cd00a72b-f8cf-4d33-ac12-d7c17b283cec",
+      "FollowUpSeriesId": null,
+      "FollowUpSeriesName": null
+    },
+    {
+      "SeriesId": "02a17d19-b7a0-4e0b-9c77-6c410571a7c3",
+      "SeriesName": "Doha HD",
+      "SeriesYear": 2024,
+      "SeriesOrderValue": 1,
+      "ClusterName": null,
+      "ClusterOrderValue": null,
+      "SportCode": "HD",
+      "HasRankings": false,
+      "EventType": "World Championships",
+      "EventTypeId": "cd00a72b-f8cf-4d33-ac12-d7c17b283cec",
+      "FollowUpSeriesId": null,
+      "FollowUpSeriesName": null
+    },
+    {
+      "SeriesId": "c272114a-531c-4681-8b68-bb2127b98123",
+      "SeriesName": "Doha WP",
+      "SeriesYear": 2024,
+      "SeriesOrderValue": 1,
+      "ClusterName": null,
+      "ClusterOrderValue": null,
+      "SportCode": "WP",
+      "HasRankings": false,
+      "EventType": "World Championships",
+      "EventTypeId": "cd00a72b-f8cf-4d33-ac12-d7c17b283cec",
+      "FollowUpSeriesId": null,
+      "FollowUpSeriesName": null
+    }
+  ],
+  "ResultsReceived": true,
+  "IsCancelled": false,
+  "HasOWSprints": false
+}
