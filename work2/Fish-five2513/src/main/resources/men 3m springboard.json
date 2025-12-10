@@ -1,0 +1,5148 @@
+{
+  "AgeGroup": null,
+  "Comment": null,
+  "DisciplineName": "Men 3m Springboard",
+  "DisciplineStartDate": "2025-10-31",
+  "DisciplineStartTime": null,
+  "DisciplineEndDate": "2025-10-31",
+  "DisciplineEndTime": null,
+  "EventName": "3rd Malaysia Open Diving Championships 2025",
+  "EventOfficialName": "3rd Malaysia Open Diving Championships 2025",
+  "EventResultDate": "2025-10-31",
+  "EventResultTime": null,
+  "EventResultUtcDateTime": null,
+  "Heats": [
+    {
+      "CurrentGroup": null,
+      "CurrentRound": null,
+      "BracketFormat": false,
+      "EndDate": "2025-10-31",
+      "EndTime": null,
+      "EndUtcDateTime": null,
+      "Name": "Finals",
+      "UnitCode": "01",
+      "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+      "PhaseCode": "100",
+      "DisciplineCode": "002",
+      "SportCode": "DV",
+      "Gender": "Men",
+      "PhaseName": "Finals",
+      "Order": 11,
+      "Date": "2025-10-31",
+      "Time": null,
+      "UtcDateTime": null,
+      "Results": [
+        {
+          "TotalPoints": "374.60",
+          "Dives": [
+            {
+              "DiveOrder": 1,
+              "DiveNo": "5154B",
+              "DD": "3.4",
+              "DivePoints": "66.30",
+              "DiveRank": "2",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "66.30",
+              "OverallRank": "2",
+              "IsOverallRankShared": false,
+              "PointsBehind": "4.20",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 2,
+              "DiveNo": "5337D",
+              "DD": "3.5",
+              "DivePoints": "63.00",
+              "DiveRank": "2",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "129.30",
+              "OverallRank": "2",
+              "IsOverallRankShared": false,
+              "PointsBehind": "6.30",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 3,
+              "DiveNo": "307C",
+              "DD": "3.5",
+              "DivePoints": "52.50",
+              "DiveRank": "6",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "181.80",
+              "OverallRank": "3",
+              "IsOverallRankShared": false,
+              "PointsBehind": "9.90",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 4,
+              "DiveNo": "205B",
+              "DD": "3.0",
+              "DivePoints": "60.00",
+              "DiveRank": "3",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "241.80",
+              "OverallRank": "3",
+              "IsOverallRankShared": false,
+              "PointsBehind": "17.40",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 5,
+              "DiveNo": "407C",
+              "DD": "3.4",
+              "DivePoints": "64.60",
+              "DiveRank": "1",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "306.40",
+              "OverallRank": "2",
+              "IsOverallRankShared": false,
+              "PointsBehind": "2.30",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 6,
+              "DiveNo": "107B",
+              "DD": "3.1",
+              "DivePoints": "68.20",
+              "DiveRank": "1",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "374.60",
+              "OverallRank": "1",
+              "IsOverallRankShared": false,
+              "PointsBehind": null,
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "7.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            }
+          ],
+          "PointsBehind": null,
+          "CarryOverPoints": null,
+          "RankingPoints": null,
+          "Competitors": null,
+          "BracketGroup": null,
+          "BracketResultGroup": null,
+          "BracketSeedGroup": null,
+          "ResultId": "R1140696",
+          "GmsId": "154273",
+          "Rank": 1,
+          "HeatRank": null,
+          "NAT": "NAB",
+          "FullName": "FOKIN Gennadii",
+          "FirstName": "Gennadii",
+          "LastName": "FOKIN",
+          "ScoreboardPhoto": "478960aa-13f7-476f-8b11-b710d98001ee",
+          "MedalTag": "G",
+          "AthleteResultAge": 23,
+          "PersonId": "f2a184e9-5916-4ed8-af15-d43633f236c0"
+        },
+        {
+          "TotalPoints": "362.95",
+          "Dives": [
+            {
+              "DiveOrder": 1,
+              "DiveNo": "405B",
+              "DD": "3.0",
+              "DivePoints": "70.50",
+              "DiveRank": "1",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "70.50",
+              "OverallRank": "1",
+              "IsOverallRankShared": false,
+              "PointsBehind": null,
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "7.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 2,
+              "DiveNo": "107B",
+              "DD": "3.1",
+              "DivePoints": "65.10",
+              "DiveRank": "1",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "135.60",
+              "OverallRank": "1",
+              "IsOverallRankShared": false,
+              "PointsBehind": null,
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "7.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 3,
+              "DiveNo": "5154B",
+              "DD": "3.4",
+              "DivePoints": "56.10",
+              "DiveRank": "3",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "191.70",
+              "OverallRank": "1",
+              "IsOverallRankShared": false,
+              "PointsBehind": null,
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 4,
+              "DiveNo": "205B",
+              "DD": "3.0",
+              "DivePoints": "67.50",
+              "DiveRank": "1",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "259.20",
+              "OverallRank": "1",
+              "IsOverallRankShared": false,
+              "PointsBehind": null,
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "7.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 5,
+              "DiveNo": "305B",
+              "DD": "3.0",
+              "DivePoints": "49.50",
+              "DiveRank": "3",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "308.70",
+              "OverallRank": "1",
+              "IsOverallRankShared": false,
+              "PointsBehind": null,
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 6,
+              "DiveNo": "5337D",
+              "DD": "3.5",
+              "DivePoints": "54.25",
+              "DiveRank": "3",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "362.95",
+              "OverallRank": "2",
+              "IsOverallRankShared": false,
+              "PointsBehind": "11.65",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            }
+          ],
+          "PointsBehind": "11.65",
+          "CarryOverPoints": null,
+          "RankingPoints": null,
+          "Competitors": null,
+          "BracketGroup": null,
+          "BracketResultGroup": null,
+          "BracketSeedGroup": null,
+          "ResultId": "R1020972",
+          "GmsId": "119386",
+          "Rank": 2,
+          "HeatRank": null,
+          "NAT": "MAS",
+          "FullName": "PUTEH Muhammad Syafiq",
+          "FirstName": "Muhammad Syafiq",
+          "LastName": "PUTEH",
+          "ScoreboardPhoto": "d537172f-c952-4d26-8714-cbc89fee2efb",
+          "MedalTag": "S",
+          "AthleteResultAge": 30,
+          "PersonId": "3f6871ad-13a3-45ba-bcce-33f02849317e"
+        },
+        {
+          "TotalPoints": "338.95",
+          "Dives": [
+            {
+              "DiveOrder": 1,
+              "DiveNo": "405B",
+              "DD": "3.0",
+              "DivePoints": "64.50",
+              "DiveRank": "3",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "64.50",
+              "OverallRank": "3",
+              "IsOverallRankShared": false,
+              "PointsBehind": "6.00",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "7.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 2,
+              "DiveNo": "107B",
+              "DD": "3.1",
+              "DivePoints": "58.90",
+              "DiveRank": "4",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "123.40",
+              "OverallRank": "3",
+              "IsOverallRankShared": false,
+              "PointsBehind": "12.20",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 3,
+              "DiveNo": "407C",
+              "DD": "3.4",
+              "DivePoints": "59.50",
+              "DiveRank": "1",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "182.90",
+              "OverallRank": "2",
+              "IsOverallRankShared": false,
+              "PointsBehind": "8.80",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 4,
+              "DiveNo": "205B",
+              "DD": "3.0",
+              "DivePoints": "61.50",
+              "DiveRank": "2",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "244.40",
+              "OverallRank": "2",
+              "IsOverallRankShared": false,
+              "PointsBehind": "14.80",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 5,
+              "DiveNo": "307C",
+              "DD": "3.5",
+              "DivePoints": "36.75",
+              "DiveRank": "7",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "281.15",
+              "OverallRank": "3",
+              "IsOverallRankShared": false,
+              "PointsBehind": "27.55",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "3.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "3.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "3.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "3.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "3.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "3.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 6,
+              "DiveNo": "5154B",
+              "DD": "3.4",
+              "DivePoints": "57.80",
+              "DiveRank": "2",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "338.95",
+              "OverallRank": "3",
+              "IsOverallRankShared": false,
+              "PointsBehind": "35.65",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            }
+          ],
+          "PointsBehind": "35.65",
+          "CarryOverPoints": null,
+          "RankingPoints": null,
+          "Competitors": null,
+          "BracketGroup": null,
+          "BracketResultGroup": null,
+          "BracketSeedGroup": null,
+          "ResultId": "R1668691",
+          "GmsId": "213140",
+          "Rank": 3,
+          "HeatRank": null,
+          "NAT": "MAS",
+          "FullName": "BIN MOHAMAD NAZIM Nurqayyum Nazmi",
+          "FirstName": "Nurqayyum Nazmi",
+          "LastName": "BIN MOHAMAD NAZIM",
+          "ScoreboardPhoto": "4f9aa7e1-ee1b-4a3a-ad29-266fd5b1652c",
+          "MedalTag": "B",
+          "AthleteResultAge": 19,
+          "PersonId": "3fdb5f95-5177-4cd7-9a97-dbf9a96619fd"
+        },
+        {
+          "TotalPoints": "316.55",
+          "Dives": [
+            {
+              "DiveOrder": 1,
+              "DiveNo": "405B",
+              "DD": "3.0",
+              "DivePoints": "54.00",
+              "DiveRank": "6",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "54.00",
+              "OverallRank": "6",
+              "IsOverallRankShared": false,
+              "PointsBehind": "16.50",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 2,
+              "DiveNo": "107B",
+              "DD": "3.1",
+              "DivePoints": "55.80",
+              "DiveRank": "5",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "109.80",
+              "OverallRank": "5",
+              "IsOverallRankShared": false,
+              "PointsBehind": "25.80",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 3,
+              "DiveNo": "5152B",
+              "DD": "3.0",
+              "DivePoints": "54.00",
+              "DiveRank": "=4",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": true,
+              "TotalPoints": "163.80",
+              "OverallRank": "5",
+              "IsOverallRankShared": false,
+              "PointsBehind": "27.90",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 4,
+              "DiveNo": "205B",
+              "DD": "3.0",
+              "DivePoints": "54.00",
+              "DiveRank": "=4",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": true,
+              "TotalPoints": "217.80",
+              "OverallRank": "4",
+              "IsOverallRankShared": false,
+              "PointsBehind": "41.40",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 5,
+              "DiveNo": "305B",
+              "DD": "3.0",
+              "DivePoints": "48.00",
+              "DiveRank": "4",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "265.80",
+              "OverallRank": "5",
+              "IsOverallRankShared": false,
+              "PointsBehind": "42.90",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 6,
+              "DiveNo": "5335D",
+              "DD": "2.9",
+              "DivePoints": "50.75",
+              "DiveRank": "5",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "316.55",
+              "OverallRank": "4",
+              "IsOverallRankShared": false,
+              "PointsBehind": "58.05",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            }
+          ],
+          "PointsBehind": "58.05",
+          "CarryOverPoints": null,
+          "RankingPoints": null,
+          "Competitors": null,
+          "BracketGroup": null,
+          "BracketResultGroup": null,
+          "BracketSeedGroup": null,
+          "ResultId": "R1138599",
+          "GmsId": "153918",
+          "Rank": 4,
+          "HeatRank": null,
+          "NAT": "HKG",
+          "FullName": "YUEN Pak Yin Curtis",
+          "FirstName": "Pak Yin Curtis",
+          "LastName": "YUEN",
+          "ScoreboardPhoto": "ed4529ab-e90a-4d4c-b21e-4dc81add9f5e",
+          "AthleteResultAge": 23,
+          "PersonId": "b66e1100-a868-40ff-9ce6-9a78caae7a64"
+        },
+        {
+          "TotalPoints": "305.30",
+          "Dives": [
+            {
+              "DiveOrder": 1,
+              "DiveNo": "205B",
+              "DD": "3.0",
+              "DivePoints": "60.00",
+              "DiveRank": "5",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "60.00",
+              "OverallRank": "5",
+              "IsOverallRankShared": false,
+              "PointsBehind": "10.50",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "7.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 2,
+              "DiveNo": "5154B",
+              "DD": "3.4",
+              "DivePoints": "62.90",
+              "DiveRank": "3",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "122.90",
+              "OverallRank": "4",
+              "IsOverallRankShared": false,
+              "PointsBehind": "12.70",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 3,
+              "DiveNo": "305B",
+              "DD": "3.0",
+              "DivePoints": "54.00",
+              "DiveRank": "=4",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": true,
+              "TotalPoints": "176.90",
+              "OverallRank": "4",
+              "IsOverallRankShared": false,
+              "PointsBehind": "14.80",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 4,
+              "DiveNo": "407C",
+              "DD": "3.4",
+              "DivePoints": "30.60",
+              "DiveRank": "7",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "207.50",
+              "OverallRank": "5",
+              "IsOverallRankShared": false,
+              "PointsBehind": "51.70",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "2.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "3.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "3.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "3.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "3.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "3.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "3.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 5,
+              "DiveNo": "109C",
+              "DD": "3.8",
+              "DivePoints": "62.70",
+              "DiveRank": "2",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "270.20",
+              "OverallRank": "4",
+              "IsOverallRankShared": false,
+              "PointsBehind": "38.50",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 6,
+              "DiveNo": "5156B",
+              "DD": "3.9",
+              "DivePoints": "35.10",
+              "DiveRank": "7",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "305.30",
+              "OverallRank": "5",
+              "IsOverallRankShared": false,
+              "PointsBehind": "69.30",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "3.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "2.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "2.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "3.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "3.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "2.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            }
+          ],
+          "PointsBehind": "69.30",
+          "CarryOverPoints": null,
+          "RankingPoints": null,
+          "Competitors": null,
+          "BracketGroup": null,
+          "BracketResultGroup": null,
+          "BracketSeedGroup": null,
+          "ResultId": "R1930933",
+          "Rank": 5,
+          "HeatRank": null,
+          "NAT": "NAB",
+          "FullName": "KALASHNIKOV Aleksandr",
+          "FirstName": "Aleksandr",
+          "LastName": "KALASHNIKOV",
+          "PersonId": "df1dd243-511a-4a40-bc1d-61534e61d09d"
+        },
+        {
+          "TotalPoints": "281.85",
+          "Dives": [
+            {
+              "DiveOrder": 1,
+              "DiveNo": "105B",
+              "DD": "2.4",
+              "DivePoints": "39.60",
+              "DiveRank": "7",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "39.60",
+              "OverallRank": "7",
+              "IsOverallRankShared": false,
+              "PointsBehind": "30.90",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 2,
+              "DiveNo": "405C",
+              "DD": "2.7",
+              "DivePoints": "49.95",
+              "DiveRank": "6",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "89.55",
+              "OverallRank": "6",
+              "IsOverallRankShared": false,
+              "PointsBehind": "46.05",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 3,
+              "DiveNo": "107C",
+              "DD": "2.8",
+              "DivePoints": "51.80",
+              "DiveRank": "7",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "141.35",
+              "OverallRank": "6",
+              "IsOverallRankShared": false,
+              "PointsBehind": "50.35",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 4,
+              "DiveNo": "205C",
+              "DD": "2.8",
+              "DivePoints": "44.80",
+              "DiveRank": "6",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "186.15",
+              "OverallRank": "6",
+              "IsOverallRankShared": false,
+              "PointsBehind": "73.05",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 5,
+              "DiveNo": "305C",
+              "DD": "2.8",
+              "DivePoints": "46.20",
+              "DiveRank": "5",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "232.35",
+              "OverallRank": "6",
+              "IsOverallRankShared": false,
+              "PointsBehind": "76.35",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 6,
+              "DiveNo": "5152B",
+              "DD": "3.0",
+              "DivePoints": "49.50",
+              "DiveRank": "6",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "281.85",
+              "OverallRank": "6",
+              "IsOverallRankShared": false,
+              "PointsBehind": "92.75",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            }
+          ],
+          "PointsBehind": "92.75",
+          "CarryOverPoints": null,
+          "RankingPoints": null,
+          "Competitors": null,
+          "BracketGroup": null,
+          "BracketResultGroup": null,
+          "BracketSeedGroup": null,
+          "ResultId": "R1728844",
+          "GmsId": "224431",
+          "Rank": 6,
+          "HeatRank": null,
+          "NAT": "HKG",
+          "FullName": "YIU Lok Pan Robben",
+          "FirstName": "Lok Pan Robben",
+          "LastName": "YIU",
+          "ScoreboardPhoto": "724df5fb-522c-4ba0-bb90-a8bcc8e4fbc6",
+          "AthleteResultAge": 16,
+          "PersonId": "9f4331a8-352b-4b53-af0e-2251c8d08e1b"
+        },
+        {
+          "TotalPoints": "265.95",
+          "Dives": [
+            {
+              "DiveOrder": 1,
+              "DiveNo": "107B",
+              "DD": "3.1",
+              "DivePoints": "60.45",
+              "DiveRank": "4",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "60.45",
+              "OverallRank": "4",
+              "IsOverallRankShared": false,
+              "PointsBehind": "10.05",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "7.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 2,
+              "DiveNo": "109C",
+              "DD": "3.8",
+              "DivePoints": "0.00",
+              "DiveRank": "7",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "60.45",
+              "OverallRank": "7",
+              "IsOverallRankShared": false,
+              "PointsBehind": "75.15",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "0.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "0.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "0.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "0.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "0.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "0.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "0.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 3,
+              "DiveNo": "405B",
+              "DD": "3.0",
+              "DivePoints": "58.50",
+              "DiveRank": "2",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "118.95",
+              "OverallRank": "7",
+              "IsOverallRankShared": false,
+              "PointsBehind": "72.75",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 4,
+              "DiveNo": "205B",
+              "DD": "3.0",
+              "DivePoints": "54.00",
+              "DiveRank": "=4",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": true,
+              "TotalPoints": "172.95",
+              "OverallRank": "7",
+              "IsOverallRankShared": false,
+              "PointsBehind": "86.25",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 5,
+              "DiveNo": "307C",
+              "DD": "3.5",
+              "DivePoints": "42.00",
+              "DiveRank": "6",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "214.95",
+              "OverallRank": "7",
+              "IsOverallRankShared": false,
+              "PointsBehind": "93.75",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "3.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 6,
+              "DiveNo": "5154B",
+              "DD": "3.4",
+              "DivePoints": "51.00",
+              "DiveRank": "4",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "265.95",
+              "OverallRank": "7",
+              "IsOverallRankShared": false,
+              "PointsBehind": "108.65",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            }
+          ],
+          "PointsBehind": "108.65",
+          "CarryOverPoints": null,
+          "RankingPoints": null,
+          "Competitors": null,
+          "BracketGroup": null,
+          "BracketResultGroup": null,
+          "BracketSeedGroup": null,
+          "ResultId": "R1866937",
+          "GmsId": "265860",
+          "Rank": 7,
+          "HeatRank": null,
+          "NAT": "SUI",
+          "FullName": "PASSERONE Erik",
+          "FirstName": "Erik",
+          "LastName": "PASSERONE",
+          "ScoreboardPhoto": "251a5b86-946c-49a4-a7db-9f7e5bc004a0",
+          "AthleteResultAge": 16,
+          "PersonId": "bbac350d-95d9-4749-90b7-4824151ab5fd"
+        }
+      ],
+      "IsSummary": false,
+      "ExcludeFromEventSummary": false,
+      "Distance": null,
+      "ObjectState": 1,
+      "ResultStatus": "OFFICIAL"
+    },
+    {
+      "CurrentGroup": null,
+      "CurrentRound": null,
+      "BracketFormat": false,
+      "EndDate": "2025-10-31",
+      "EndTime": null,
+      "EndUtcDateTime": null,
+      "Name": "Preliminaries",
+      "UnitCode": "01",
+      "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+      "PhaseCode": "900",
+      "DisciplineCode": "002",
+      "SportCode": "DV",
+      "Gender": "Men",
+      "PhaseName": "Preliminaries",
+      "Order": 1,
+      "Date": "2025-10-31",
+      "Time": null,
+      "UtcDateTime": null,
+      "Results": [
+        {
+          "TotalPoints": "365.00",
+          "Dives": [
+            {
+              "DiveOrder": 1,
+              "DiveNo": "5154B",
+              "DD": "3.4",
+              "DivePoints": "59.50",
+              "DiveRank": "3",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "59.50",
+              "OverallRank": "3",
+              "IsOverallRankShared": false,
+              "PointsBehind": "2.00",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 2,
+              "DiveNo": "5337D",
+              "DD": "3.5",
+              "DivePoints": "57.75",
+              "DiveRank": "5",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "117.25",
+              "OverallRank": "3",
+              "IsOverallRankShared": false,
+              "PointsBehind": "10.55",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 3,
+              "DiveNo": "307C",
+              "DD": "3.5",
+              "DivePoints": "73.50",
+              "DiveRank": "1",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "190.75",
+              "OverallRank": "1",
+              "IsOverallRankShared": false,
+              "PointsBehind": null,
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "7.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 4,
+              "DiveNo": "205B",
+              "DD": "3.0",
+              "DivePoints": "49.50",
+              "DiveRank": "6",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "240.25",
+              "OverallRank": "1",
+              "IsOverallRankShared": false,
+              "PointsBehind": null,
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 5,
+              "DiveNo": "407C",
+              "DD": "3.4",
+              "DivePoints": "61.20",
+              "DiveRank": "3",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "301.45",
+              "OverallRank": "1",
+              "IsOverallRankShared": false,
+              "PointsBehind": null,
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 6,
+              "DiveNo": "107B",
+              "DD": "3.1",
+              "DivePoints": "63.55",
+              "DiveRank": "1",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "365.00",
+              "OverallRank": "1",
+              "IsOverallRankShared": false,
+              "PointsBehind": null,
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "7.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            }
+          ],
+          "PointsBehind": null,
+          "CarryOverPoints": null,
+          "RankingPoints": null,
+          "Competitors": null,
+          "BracketGroup": null,
+          "BracketResultGroup": null,
+          "BracketSeedGroup": null,
+          "ResultId": "R1140696",
+          "GmsId": "154273",
+          "Rank": 1,
+          "HeatRank": null,
+          "NAT": "NAB",
+          "FullName": "FOKIN Gennadii",
+          "FirstName": "Gennadii",
+          "LastName": "FOKIN",
+          "ScoreboardPhoto": "478960aa-13f7-476f-8b11-b710d98001ee",
+          "AthleteResultAge": 23,
+          "PersonId": "f2a184e9-5916-4ed8-af15-d43633f236c0"
+        },
+        {
+          "TotalPoints": "348.75",
+          "Dives": [
+            {
+              "DiveOrder": 1,
+              "DiveNo": "405B",
+              "DD": "3.0",
+              "DivePoints": "60.00",
+              "DiveRank": "2",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "60.00",
+              "OverallRank": "2",
+              "IsOverallRankShared": false,
+              "PointsBehind": "1.50",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 2,
+              "DiveNo": "107B",
+              "DD": "3.1",
+              "DivePoints": "54.25",
+              "DiveRank": "6",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "114.25",
+              "OverallRank": "5",
+              "IsOverallRankShared": false,
+              "PointsBehind": "13.55",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 3,
+              "DiveNo": "5154B",
+              "DD": "3.4",
+              "DivePoints": "51.00",
+              "DiveRank": "6",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "165.25",
+              "OverallRank": "5",
+              "IsOverallRankShared": false,
+              "PointsBehind": "25.50",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 4,
+              "DiveNo": "205B",
+              "DD": "3.0",
+              "DivePoints": "61.50",
+              "DiveRank": "1",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "226.75",
+              "OverallRank": "4",
+              "IsOverallRankShared": false,
+              "PointsBehind": "13.50",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 5,
+              "DiveNo": "305B",
+              "DD": "3.0",
+              "DivePoints": "66.00",
+              "DiveRank": "2",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "292.75",
+              "OverallRank": "2",
+              "IsOverallRankShared": false,
+              "PointsBehind": "8.70",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 6,
+              "DiveNo": "5337D",
+              "DD": "3.5",
+              "DivePoints": "56.00",
+              "DiveRank": "4",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "348.75",
+              "OverallRank": "2",
+              "IsOverallRankShared": false,
+              "PointsBehind": "16.25",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            }
+          ],
+          "PointsBehind": "16.25",
+          "CarryOverPoints": null,
+          "RankingPoints": null,
+          "Competitors": null,
+          "BracketGroup": null,
+          "BracketResultGroup": null,
+          "BracketSeedGroup": null,
+          "ResultId": "R1020972",
+          "GmsId": "119386",
+          "Rank": 2,
+          "HeatRank": null,
+          "NAT": "MAS",
+          "FullName": "PUTEH Muhammad Syafiq",
+          "FirstName": "Muhammad Syafiq",
+          "LastName": "PUTEH",
+          "ScoreboardPhoto": "d537172f-c952-4d26-8714-cbc89fee2efb",
+          "AthleteResultAge": 30,
+          "PersonId": "3f6871ad-13a3-45ba-bcce-33f02849317e"
+        },
+        {
+          "TotalPoints": "331.85",
+          "Dives": [
+            {
+              "DiveOrder": 1,
+              "DiveNo": "107B",
+              "DD": "3.1",
+              "DivePoints": "46.50",
+              "DiveRank": "7",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "46.50",
+              "OverallRank": "7",
+              "IsOverallRankShared": false,
+              "PointsBehind": "15.00",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 2,
+              "DiveNo": "109C",
+              "DD": "3.8",
+              "DivePoints": "66.50",
+              "DiveRank": "1",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "113.00",
+              "OverallRank": "6",
+              "IsOverallRankShared": false,
+              "PointsBehind": "14.80",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 3,
+              "DiveNo": "405B",
+              "DD": "3.0",
+              "DivePoints": "54.00",
+              "DiveRank": "=3",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": true,
+              "TotalPoints": "167.00",
+              "OverallRank": "4",
+              "IsOverallRankShared": false,
+              "PointsBehind": "23.75",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 4,
+              "DiveNo": "205B",
+              "DD": "3.0",
+              "DivePoints": "40.50",
+              "DiveRank": "8",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "207.50",
+              "OverallRank": "6",
+              "IsOverallRankShared": false,
+              "PointsBehind": "32.75",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 5,
+              "DiveNo": "307C",
+              "DD": "3.5",
+              "DivePoints": "68.25",
+              "DiveRank": "1",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "275.75",
+              "OverallRank": "4",
+              "IsOverallRankShared": false,
+              "PointsBehind": "25.70",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 6,
+              "DiveNo": "5154B",
+              "DD": "3.4",
+              "DivePoints": "56.10",
+              "DiveRank": "3",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "331.85",
+              "OverallRank": "3",
+              "IsOverallRankShared": false,
+              "PointsBehind": "33.15",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            }
+          ],
+          "PointsBehind": "33.15",
+          "CarryOverPoints": null,
+          "RankingPoints": null,
+          "Competitors": null,
+          "BracketGroup": null,
+          "BracketResultGroup": null,
+          "BracketSeedGroup": null,
+          "ResultId": "R1866937",
+          "GmsId": "265860",
+          "Rank": 3,
+          "HeatRank": null,
+          "NAT": "SUI",
+          "FullName": "PASSERONE Erik",
+          "FirstName": "Erik",
+          "LastName": "PASSERONE",
+          "ScoreboardPhoto": "251a5b86-946c-49a4-a7db-9f7e5bc004a0",
+          "AthleteResultAge": 16,
+          "PersonId": "bbac350d-95d9-4749-90b7-4824151ab5fd"
+        },
+        {
+          "TotalPoints": "312.45",
+          "Dives": [
+            {
+              "DiveOrder": 1,
+              "DiveNo": "405B",
+              "DD": "3.0",
+              "DivePoints": "57.00",
+              "DiveRank": "5",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "57.00",
+              "OverallRank": "5",
+              "IsOverallRankShared": false,
+              "PointsBehind": "4.50",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 2,
+              "DiveNo": "107B",
+              "DD": "3.1",
+              "DivePoints": "62.00",
+              "DiveRank": "3",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "119.00",
+              "OverallRank": "2",
+              "IsOverallRankShared": false,
+              "PointsBehind": "8.80",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 3,
+              "DiveNo": "407C",
+              "DD": "3.4",
+              "DivePoints": "45.90",
+              "DiveRank": "8",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "164.90",
+              "OverallRank": "6",
+              "IsOverallRankShared": false,
+              "PointsBehind": "25.85",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "4.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 4,
+              "DiveNo": "205B",
+              "DD": "3.0",
+              "DivePoints": "60.00",
+              "DiveRank": "3",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "224.90",
+              "OverallRank": "5",
+              "IsOverallRankShared": false,
+              "PointsBehind": "15.35",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 5,
+              "DiveNo": "307C",
+              "DD": "3.5",
+              "DivePoints": "29.75",
+              "DiveRank": "9",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "254.65",
+              "OverallRank": "6",
+              "IsOverallRankShared": false,
+              "PointsBehind": "46.80",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "2.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "3.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "2.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "2.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "3.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "3.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 6,
+              "DiveNo": "5154B",
+              "DD": "3.4",
+              "DivePoints": "57.80",
+              "DiveRank": "2",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "312.45",
+              "OverallRank": "4",
+              "IsOverallRankShared": false,
+              "PointsBehind": "52.55",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "7.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            }
+          ],
+          "PointsBehind": "52.55",
+          "CarryOverPoints": null,
+          "RankingPoints": null,
+          "Competitors": null,
+          "BracketGroup": null,
+          "BracketResultGroup": null,
+          "BracketSeedGroup": null,
+          "ResultId": "R1668691",
+          "GmsId": "213140",
+          "Rank": 4,
+          "HeatRank": null,
+          "NAT": "MAS",
+          "FullName": "BIN MOHAMAD NAZIM Nurqayyum Nazmi",
+          "FirstName": "Nurqayyum Nazmi",
+          "LastName": "BIN MOHAMAD NAZIM",
+          "ScoreboardPhoto": "4f9aa7e1-ee1b-4a3a-ad29-266fd5b1652c",
+          "AthleteResultAge": 19,
+          "PersonId": "3fdb5f95-5177-4cd7-9a97-dbf9a96619fd"
+        },
+        {
+          "TotalPoints": "288.20",
+          "Dives": [
+            {
+              "DiveOrder": 1,
+              "DiveNo": "405B",
+              "DD": "3.0",
+              "DivePoints": "54.00",
+              "DiveRank": "6",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "54.00",
+              "OverallRank": "6",
+              "IsOverallRankShared": false,
+              "PointsBehind": "7.50",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 2,
+              "DiveNo": "107B",
+              "DD": "3.1",
+              "DivePoints": "60.45",
+              "DiveRank": "4",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "114.45",
+              "OverallRank": "4",
+              "IsOverallRankShared": false,
+              "PointsBehind": "13.35",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 3,
+              "DiveNo": "5154B",
+              "DD": "3.4",
+              "DivePoints": "61.20",
+              "DiveRank": "2",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "175.65",
+              "OverallRank": "3",
+              "IsOverallRankShared": false,
+              "PointsBehind": "15.10",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 4,
+              "DiveNo": "205B",
+              "DD": "3.0",
+              "DivePoints": "55.50",
+              "DiveRank": "4",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "231.15",
+              "OverallRank": "2",
+              "IsOverallRankShared": false,
+              "PointsBehind": "9.10",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 5,
+              "DiveNo": "307C",
+              "DD": "3.5",
+              "DivePoints": "45.50",
+              "DiveRank": "5",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "276.65",
+              "OverallRank": "3",
+              "IsOverallRankShared": false,
+              "PointsBehind": "24.80",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 6,
+              "DiveNo": "5353B",
+              "DD": "3.3",
+              "DivePoints": "11.55",
+              "DiveRank": "9",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "288.20",
+              "OverallRank": "5",
+              "IsOverallRankShared": false,
+              "PointsBehind": "76.80",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "1.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "1.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "2.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "0.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "1.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "1.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "1.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            }
+          ],
+          "PointsBehind": "76.80",
+          "CarryOverPoints": null,
+          "RankingPoints": null,
+          "Competitors": null,
+          "BracketGroup": null,
+          "BracketResultGroup": null,
+          "BracketSeedGroup": null,
+          "ResultId": "R1668757",
+          "GmsId": "213137",
+          "Rank": 5,
+          "HeatRank": null,
+          "NAT": "MAS",
+          "FullName": "YONG Rui Jie",
+          "FirstName": "Rui Jie",
+          "LastName": "YONG",
+          "ScoreboardPhoto": "5f7c9597-4185-4d7d-87ad-b2066139bcec",
+          "AthleteResultAge": 19,
+          "PersonId": "878e4e0f-348b-42e0-837f-3caa871144f3"
+        },
+        {
+          "TotalPoints": "281.55",
+          "Dives": [
+            {
+              "DiveOrder": 1,
+              "DiveNo": "405B",
+              "DD": "3.0",
+              "DivePoints": "33.00",
+              "DiveRank": "9",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "33.00",
+              "OverallRank": "9",
+              "IsOverallRankShared": false,
+              "PointsBehind": "28.50",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "3.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "3.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "3.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "3.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "4.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 2,
+              "DiveNo": "107B",
+              "DD": "3.1",
+              "DivePoints": "41.85",
+              "DiveRank": "9",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "74.85",
+              "OverallRank": "9",
+              "IsOverallRankShared": false,
+              "PointsBehind": "52.95",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "4.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 3,
+              "DiveNo": "5152B",
+              "DD": "3.0",
+              "DivePoints": "54.00",
+              "DiveRank": "=3",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": true,
+              "TotalPoints": "128.85",
+              "OverallRank": "9",
+              "IsOverallRankShared": false,
+              "PointsBehind": "61.90",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 4,
+              "DiveNo": "205B",
+              "DD": "3.0",
+              "DivePoints": "51.00",
+              "DiveRank": "5",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "179.85",
+              "OverallRank": "8",
+              "IsOverallRankShared": false,
+              "PointsBehind": "60.40",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 5,
+              "DiveNo": "305B",
+              "DD": "3.0",
+              "DivePoints": "49.50",
+              "DiveRank": "4",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "229.35",
+              "OverallRank": "8",
+              "IsOverallRankShared": false,
+              "PointsBehind": "72.10",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 6,
+              "DiveNo": "5335D",
+              "DD": "2.9",
+              "DivePoints": "52.20",
+              "DiveRank": "5",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "281.55",
+              "OverallRank": "6",
+              "IsOverallRankShared": false,
+              "PointsBehind": "83.45",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            }
+          ],
+          "PointsBehind": "83.45",
+          "CarryOverPoints": null,
+          "RankingPoints": null,
+          "Competitors": null,
+          "BracketGroup": null,
+          "BracketResultGroup": null,
+          "BracketSeedGroup": null,
+          "ResultId": "R1138599",
+          "GmsId": "153918",
+          "Rank": 6,
+          "HeatRank": null,
+          "NAT": "HKG",
+          "FullName": "YUEN Pak Yin Curtis",
+          "FirstName": "Pak Yin Curtis",
+          "LastName": "YUEN",
+          "ScoreboardPhoto": "ed4529ab-e90a-4d4c-b21e-4dc81add9f5e",
+          "AthleteResultAge": 23,
+          "PersonId": "b66e1100-a868-40ff-9ce6-9a78caae7a64"
+        },
+        {
+          "TotalPoints": "281.40",
+          "Dives": [
+            {
+              "DiveOrder": 1,
+              "DiveNo": "205B",
+              "DD": "3.0",
+              "DivePoints": "61.50",
+              "DiveRank": "1",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "61.50",
+              "OverallRank": "1",
+              "IsOverallRankShared": false,
+              "PointsBehind": null,
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "7.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 2,
+              "DiveNo": "5154B",
+              "DD": "3.4",
+              "DivePoints": "66.30",
+              "DiveRank": "2",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "127.80",
+              "OverallRank": "1",
+              "IsOverallRankShared": false,
+              "PointsBehind": null,
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "7.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 3,
+              "DiveNo": "305B",
+              "DD": "3.0",
+              "DivePoints": "54.00",
+              "DiveRank": "=3",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": true,
+              "TotalPoints": "181.80",
+              "OverallRank": "2",
+              "IsOverallRankShared": false,
+              "PointsBehind": "8.95",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 4,
+              "DiveNo": "407C",
+              "DD": "3.4",
+              "DivePoints": "45.90",
+              "DiveRank": "7",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "227.70",
+              "OverallRank": "3",
+              "IsOverallRankShared": false,
+              "PointsBehind": "12.55",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 5,
+              "DiveNo": "109C",
+              "DD": "3.8",
+              "DivePoints": "34.20",
+              "DiveRank": "8",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "261.90",
+              "OverallRank": "5",
+              "IsOverallRankShared": false,
+              "PointsBehind": "39.55",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "3.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "2.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "3.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "2.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "3.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "3.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "3.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 6,
+              "DiveNo": "5156B",
+              "DD": "3.9",
+              "DivePoints": "19.50",
+              "DiveRank": "8",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "281.40",
+              "OverallRank": "7",
+              "IsOverallRankShared": false,
+              "PointsBehind": "83.60",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "2.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "1.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "1.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "1.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "2.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "1.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "3.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            }
+          ],
+          "PointsBehind": "83.60",
+          "CarryOverPoints": null,
+          "RankingPoints": null,
+          "Competitors": null,
+          "BracketGroup": null,
+          "BracketResultGroup": null,
+          "BracketSeedGroup": null,
+          "ResultId": "R1930933",
+          "Rank": 7,
+          "HeatRank": null,
+          "NAT": "NAB",
+          "FullName": "KALASHNIKOV Aleksandr",
+          "FirstName": "Aleksandr",
+          "LastName": "KALASHNIKOV",
+          "PersonId": "df1dd243-511a-4a40-bc1d-61534e61d09d"
+        },
+        {
+          "TotalPoints": "275.55",
+          "Dives": [
+            {
+              "DiveOrder": 1,
+              "DiveNo": "107B",
+              "DD": "3.1",
+              "DivePoints": "58.90",
+              "DiveRank": "4",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "58.90",
+              "OverallRank": "4",
+              "IsOverallRankShared": false,
+              "PointsBehind": "2.60",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 2,
+              "DiveNo": "205B",
+              "DD": "3.0",
+              "DivePoints": "42.00",
+              "DiveRank": "8",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "100.90",
+              "OverallRank": "7",
+              "IsOverallRankShared": false,
+              "PointsBehind": "26.90",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "4.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 3,
+              "DiveNo": "307C",
+              "DD": "3.5",
+              "DivePoints": "36.75",
+              "DiveRank": "9",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "137.65",
+              "OverallRank": "7",
+              "IsOverallRankShared": false,
+              "PointsBehind": "53.10",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "3.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "3.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "3.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "3.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "3.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "3.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "3.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 4,
+              "DiveNo": "5154B",
+              "DD": "3.4",
+              "DivePoints": "61.20",
+              "DiveRank": "2",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "198.85",
+              "OverallRank": "7",
+              "IsOverallRankShared": false,
+              "PointsBehind": "41.40",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "7.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 5,
+              "DiveNo": "407C",
+              "DD": "3.4",
+              "DivePoints": "42.50",
+              "DiveRank": "6",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "241.35",
+              "OverallRank": "7",
+              "IsOverallRankShared": false,
+              "PointsBehind": "60.10",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "3.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "2.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "4.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 6,
+              "DiveNo": "109C",
+              "DD": "3.8",
+              "DivePoints": "34.20",
+              "DiveRank": "7",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "275.55",
+              "OverallRank": "8",
+              "IsOverallRankShared": false,
+              "PointsBehind": "89.45",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "3.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "2.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "3.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "2.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "3.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "3.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "3.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            }
+          ],
+          "PointsBehind": "89.45",
+          "CarryOverPoints": null,
+          "RankingPoints": null,
+          "Competitors": null,
+          "BracketGroup": null,
+          "BracketResultGroup": null,
+          "BracketSeedGroup": null,
+          "ResultId": "R1631529",
+          "GmsId": "197341",
+          "Rank": 8,
+          "HeatRank": null,
+          "NAT": "NAB",
+          "FullName": "CHEREPAKHIN Aleksandr",
+          "FirstName": "Aleksandr",
+          "LastName": "CHEREPAKHIN",
+          "AthleteResultAge": 21,
+          "PersonId": "75414e87-b824-44fc-bad6-afa2ffe9313b"
+        },
+        {
+          "TotalPoints": "257.75",
+          "Dives": [
+            {
+              "DiveOrder": 1,
+              "DiveNo": "105B",
+              "DD": "2.4",
+              "DivePoints": "42.00",
+              "DiveRank": "8",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "42.00",
+              "OverallRank": "8",
+              "IsOverallRankShared": false,
+              "PointsBehind": "19.50",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 2,
+              "DiveNo": "405C",
+              "DD": "2.7",
+              "DivePoints": "47.25",
+              "DiveRank": "7",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "89.25",
+              "OverallRank": "8",
+              "IsOverallRankShared": false,
+              "PointsBehind": "38.55",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 3,
+              "DiveNo": "107C",
+              "DD": "2.8",
+              "DivePoints": "46.20",
+              "DiveRank": "7",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "135.45",
+              "OverallRank": "8",
+              "IsOverallRankShared": false,
+              "PointsBehind": "55.30",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "6.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 4,
+              "DiveNo": "205C",
+              "DD": "2.8",
+              "DivePoints": "35.00",
+              "DiveRank": "9",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "170.45",
+              "OverallRank": "9",
+              "IsOverallRankShared": false,
+              "PointsBehind": "69.80",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "3.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "4.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 5,
+              "DiveNo": "305C",
+              "DD": "2.8",
+              "DivePoints": "37.80",
+              "DiveRank": "7",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "208.25",
+              "OverallRank": "9",
+              "IsOverallRankShared": false,
+              "PointsBehind": "93.20",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "4.0"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "4.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 6,
+              "DiveNo": "5152B",
+              "DD": "3.0",
+              "DivePoints": "49.50",
+              "DiveRank": "6",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "257.75",
+              "OverallRank": "9",
+              "IsOverallRankShared": false,
+              "PointsBehind": "107.25",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "J1",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J2",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J3",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J4",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J5",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "J6",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "J7",
+                  "Score": "5.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            }
+          ],
+          "PointsBehind": "107.25",
+          "CarryOverPoints": null,
+          "RankingPoints": null,
+          "Competitors": null,
+          "BracketGroup": null,
+          "BracketResultGroup": null,
+          "BracketSeedGroup": null,
+          "ResultId": "R1728844",
+          "GmsId": "224431",
+          "Rank": 9,
+          "HeatRank": null,
+          "NAT": "HKG",
+          "FullName": "YIU Lok Pan Robben",
+          "FirstName": "Lok Pan Robben",
+          "LastName": "YIU",
+          "ScoreboardPhoto": "724df5fb-522c-4ba0-bb90-a8bcc8e4fbc6",
+          "AthleteResultAge": 16,
+          "PersonId": "9f4331a8-352b-4b53-af0e-2251c8d08e1b"
+        }
+      ],
+      "IsSummary": false,
+      "ExcludeFromEventSummary": false,
+      "Distance": null,
+      "ObjectState": 1,
+      "ResultStatus": "OFFICIAL"
+    }
+  ],
+  "Gender": "Men",
+  "TimingAndScoringPartnerName": null,
+  "TimingAndScoringPartnerLogo1": null,
+  "TimingAndScoringPartnerLogo2": null,
+  "TimingAndScoringPartnerLogo3": null,
+  "TimingAndScoringPartnerLogo4": null,
+  "DisciplineCode": "002",
+  "SportCode": "DV",
+  "Id": "a8429808-8216-498a-ba0f-a0ce7f5df4a8",
+  "LastChange": "0001-01-01T00:00:00"
+}

@@ -1,6 +1,5 @@
-package main;
-
-import java.io.*;
+import java.io.BufferedWriter;
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
@@ -20,7 +19,6 @@ public class DWASearch {
 
             CoreModule coreModule = new CoreModule();
             coreModule.initializeData();
-
             try (BufferedWriter writer = Files.newBufferedWriter(Paths.get(outputFile))) {
                 for (String command : commands) {
                     processCommand(command.trim(), coreModule, writer);
