@@ -272,4 +272,32 @@ public class Tools {
         String[] parts = input.split("\\s+");
         return parts.length == 2 ? parts[1] + " " + parts[0] : input;
     }
+
+    private static String handleCompoundName(String input) {
+        String[] sides = input.split("&", 2);
+        if (sides.length != 2) return input;
+
+        // 处理每个选手的姓名
+        String[] player1 = sides[0].trim().split("\\s+");
+        String[] player2 = sides[1].trim().split("\\s+");
+
+        // 获取姓氏进行比较
+        String lastName1 = player1[player1.length - 1];
+        String lastName2 = player2[player2.length - 1];
+
+        // 根据姓氏排序
+        if (lastName1.compareToIgnoreCase(lastName2) > 0) {
+            // 如果第一个选手的姓氏大于第二个，交换位置
+            String temp = sides[0];
+            sides[0] = sides[1];
+            sides[1] = temp;
+        }
+
+        // 重新组合姓名
+        String leftReversed = handleSingleName(sides[0].trim());
+        String rightReversed = handleSingleName(sides[1].trim());
+
+        return leftReversed + " & " + rightReversed;
+    }
+
 }
