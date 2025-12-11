@@ -1,0 +1,809 @@
+{
+  "AgeGroup": null,
+  "Comment": null,
+  "DisciplineName": "Men 10m Synchronised",
+  "DisciplineStartDate": "2025-11-01",
+  "DisciplineStartTime": null,
+  "DisciplineEndDate": "2025-11-01",
+  "DisciplineEndTime": null,
+  "EventName": "3rd Malaysia Open Diving Championships 2025",
+  "EventOfficialName": "3rd Malaysia Open Diving Championships 2025",
+  "EventResultDate": "2025-11-01",
+  "EventResultTime": null,
+  "EventResultUtcDateTime": null,
+  "Heats": [
+    {
+      "CurrentGroup": null,
+      "CurrentRound": null,
+      "BracketFormat": false,
+      "EndDate": "2025-11-01",
+      "EndTime": null,
+      "EndUtcDateTime": null,
+      "Name": "Finals",
+      "UnitCode": "01",
+      "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+      "PhaseCode": "100",
+      "DisciplineCode": "203",
+      "SportCode": "DV",
+      "Gender": "Men",
+      "PhaseName": "Finals",
+      "Order": 11,
+      "Date": "2025-11-01",
+      "Time": null,
+      "UtcDateTime": null,
+      "Results": [
+        {
+          "TotalPoints": "372.93",
+          "Dives": [
+            {
+              "DiveOrder": 1,
+              "DiveNo": "101B",
+              "DD": "2.0",
+              "DivePoints": "47.40",
+              "DiveRank": "1",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "47.40",
+              "OverallRank": "1",
+              "IsOverallRankShared": false,
+              "PointsBehind": null,
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "E1",
+                  "Score": "8.5"
+                },
+                {
+                  "Type": "E2",
+                  "Score": "8.5"
+                },
+                {
+                  "Type": "E3",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "E4",
+                  "Score": "8.5"
+                },
+                {
+                  "Type": "S1",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "S2",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "S3",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "S4",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "S5",
+                  "Score": "8.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 2,
+              "DiveNo": "301B",
+              "DD": "2.0",
+              "DivePoints": "43.20",
+              "DiveRank": "2",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "90.60",
+              "OverallRank": "2",
+              "IsOverallRankShared": false,
+              "PointsBehind": "2.40",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "E1",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "E2",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "E3",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "E4",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "S1",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "S2",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "S3",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "S4",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "S5",
+                  "Score": "7.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 3,
+              "DiveNo": "5253B",
+              "DD": "3.2",
+              "DivePoints": "75.84",
+              "DiveRank": "1",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "166.44",
+              "OverallRank": "1",
+              "IsOverallRankShared": false,
+              "PointsBehind": null,
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "E1",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "E2",
+                  "Score": "8.5"
+                },
+                {
+                  "Type": "E3",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "E4",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "S1",
+                  "Score": "8.5"
+                },
+                {
+                  "Type": "S2",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "S3",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "S4",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "S5",
+                  "Score": "8.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 4,
+              "DiveNo": "107B",
+              "DD": "3.0",
+              "DivePoints": "63.00",
+              "DiveRank": "2",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "229.44",
+              "OverallRank": "1",
+              "IsOverallRankShared": false,
+              "PointsBehind": null,
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "E1",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "E2",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "E3",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "E4",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "S1",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "S2",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "S3",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "S4",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "S5",
+                  "Score": "7.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 5,
+              "DiveNo": "407C",
+              "DD": "3.2",
+              "DivePoints": "65.28",
+              "DiveRank": "2",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "294.72",
+              "OverallRank": "1",
+              "IsOverallRankShared": false,
+              "PointsBehind": null,
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "E1",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "E2",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "E3",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "E4",
+                  "Score": "8.5"
+                },
+                {
+                  "Type": "S1",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "S2",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "S3",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "S4",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "S5",
+                  "Score": "7.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 6,
+              "DiveNo": "207C",
+              "DD": "3.3",
+              "DivePoints": "78.21",
+              "DiveRank": "1",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "372.93",
+              "OverallRank": "1",
+              "IsOverallRankShared": false,
+              "PointsBehind": null,
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "E1",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "E2",
+                  "Score": "8.5"
+                },
+                {
+                  "Type": "E3",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "E4",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "S1",
+                  "Score": "8.5"
+                },
+                {
+                  "Type": "S2",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "S3",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "S4",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "S5",
+                  "Score": "7.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            }
+          ],
+          "PointsBehind": null,
+          "CarryOverPoints": null,
+          "RankingPoints": null,
+          "Competitors": [
+            {
+              "FirstName": "Elvis Priestly",
+              "LastName": "ANAK CLEMENT",
+              "Nationality": "MAS",
+              "NAT": "MAS",
+              "FullName": "ANAK CLEMENT Elvis Priestly",
+              "ResultId": "R1668817",
+              "GmsId": "213136",
+              "AthleteResultAge": 19
+            },
+            {
+              "FirstName": "Enrique Maccartney",
+              "LastName": "ANAK HAROLD",
+              "Nationality": "MAS",
+              "NAT": "MAS",
+              "FullName": "ANAK HAROLD Enrique Maccartney",
+              "ResultId": "R1951826"
+            }
+          ],
+          "BracketGroup": null,
+          "BracketResultGroup": null,
+          "BracketSeedGroup": null,
+          "Rank": 1,
+          "HeatRank": null,
+          "NAT": "MAS",
+          "FullName": "ANAK CLEMENT Elvis Priestly / ANAK HAROLD Enrique Maccartney",
+          "MedalTag": "G"
+        },
+        {
+          "TotalPoints": "357.90",
+          "Dives": [
+            {
+              "DiveOrder": 1,
+              "DiveNo": "201B",
+              "DD": "2.0",
+              "DivePoints": "46.20",
+              "DiveRank": "2",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "46.20",
+              "OverallRank": "2",
+              "IsOverallRankShared": false,
+              "PointsBehind": "1.20",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "E1",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "E2",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "E3",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "E4",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "S1",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "S2",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "S3",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "S4",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "S5",
+                  "Score": "7.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 2,
+              "DiveNo": "301B",
+              "DD": "2.0",
+              "DivePoints": "46.80",
+              "DiveRank": "1",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "93.00",
+              "OverallRank": "1",
+              "IsOverallRankShared": false,
+              "PointsBehind": null,
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "E1",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "E2",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "E3",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "E4",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "S1",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "S2",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "S3",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "S4",
+                  "Score": "8.0"
+                },
+                {
+                  "Type": "S5",
+                  "Score": "8.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 3,
+              "DiveNo": "407C",
+              "DD": "3.2",
+              "DivePoints": "65.28",
+              "DiveRank": "2",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "158.28",
+              "OverallRank": "2",
+              "IsOverallRankShared": false,
+              "PointsBehind": "8.16",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "E1",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "E2",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "E3",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "E4",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "S1",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "S2",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "S3",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "S4",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "S5",
+                  "Score": "7.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 4,
+              "DiveNo": "107B",
+              "DD": "3.0",
+              "DivePoints": "63.90",
+              "DiveRank": "1",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "222.18",
+              "OverallRank": "2",
+              "IsOverallRankShared": false,
+              "PointsBehind": "7.26",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "E1",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "E2",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "E3",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "E4",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "S1",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "S2",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "S3",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "S4",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "S5",
+                  "Score": "7.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 5,
+              "DiveNo": "5253B",
+              "DD": "3.2",
+              "DivePoints": "69.12",
+              "DiveRank": "1",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "291.30",
+              "OverallRank": "2",
+              "IsOverallRankShared": false,
+              "PointsBehind": "3.42",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "E1",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "E2",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "E3",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "E4",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "S1",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "S2",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "S3",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "S4",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "S5",
+                  "Score": "7.0"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            },
+            {
+              "DiveOrder": 6,
+              "DiveNo": "109C",
+              "DD": "3.7",
+              "DivePoints": "66.60",
+              "DiveRank": "2",
+              "DiveRound": null,
+              "RoundPoints": null,
+              "IsDiveRankShared": false,
+              "TotalPoints": "357.90",
+              "OverallRank": "2",
+              "IsOverallRankShared": false,
+              "PointsBehind": "15.03",
+              "TS": null,
+              "Gender": null,
+              "JudgesScores": [
+                {
+                  "Type": "E1",
+                  "Score": "4.5"
+                },
+                {
+                  "Type": "E2",
+                  "Score": "5.0"
+                },
+                {
+                  "Type": "E3",
+                  "Score": "6.5"
+                },
+                {
+                  "Type": "E4",
+                  "Score": "7.0"
+                },
+                {
+                  "Type": "S1",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "S2",
+                  "Score": "6.0"
+                },
+                {
+                  "Type": "S3",
+                  "Score": "5.5"
+                },
+                {
+                  "Type": "S4",
+                  "Score": "7.5"
+                },
+                {
+                  "Type": "S5",
+                  "Score": "6.5"
+                }
+              ],
+              "Competitor": null,
+              "LastName": null,
+              "FirstName": null
+            }
+          ],
+          "PointsBehind": "15.03",
+          "CarryOverPoints": null,
+          "RankingPoints": null,
+          "Competitors": [
+            {
+              "FirstName": "Aleksandr",
+              "LastName": "KALASHNIKOV",
+              "Nationality": "NAB",
+              "NAT": "NAB",
+              "FullName": "KALASHNIKOV Aleksandr",
+              "ResultId": "R1930933"
+            },
+            {
+              "FirstName": "Sandro",
+              "LastName": "ROGAVA",
+              "Nationality": "NAB",
+              "NAT": "NAB",
+              "FullName": "ROGAVA Sandro",
+              "ResultId": "R1138572",
+              "GmsId": "153829",
+              "AthleteResultAge": 22
+            }
+          ],
+          "BracketGroup": null,
+          "BracketResultGroup": null,
+          "BracketSeedGroup": null,
+          "Rank": 2,
+          "HeatRank": null,
+          "NAT": "NAB",
+          "FullName": "KALASHNIKOV Aleksandr / ROGAVA Sandro",
+          "MedalTag": "S"
+        }
+      ],
+      "IsSummary": false,
+      "ExcludeFromEventSummary": false,
+      "Distance": null,
+      "ObjectState": 1,
+      "ResultStatus": "OFFICIAL"
+    }
+  ],
+  "Gender": "Men",
+  "TimingAndScoringPartnerName": null,
+  "TimingAndScoringPartnerLogo1": null,
+  "TimingAndScoringPartnerLogo2": null,
+  "TimingAndScoringPartnerLogo3": null,
+  "TimingAndScoringPartnerLogo4": null,
+  "DisciplineCode": "203",
+  "SportCode": "DV",
+  "Id": "ceb23dbe-04d9-4f47-b0f8-2050dac21c16",
+  "LastChange": "0001-01-01T00:00:00"
+}
