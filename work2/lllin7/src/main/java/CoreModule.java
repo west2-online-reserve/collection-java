@@ -63,7 +63,17 @@ public class CoreModule {
             JSONArray results = heat.getJSONArray("Results");
             for (int j = 0; j < results.size(); j++) {
                 JSONObject result = results.getJSONObject(j);
-                String fullName = result.getString("FullName").replace('/', '&');
+                String fullName = result.getString("FullName");
+                if (fullName.contains("/")) {
+                    String[] fullNameArr = fullName.split("/");
+                    String fullName1 = fullNameArr[0].trim();
+                    String fullName2 = fullNameArr[1].trim();
+                    if (fullName1.compareTo(fullName2) > 0) {
+                        fullName = fullName2 + " & " + fullName1;
+                    } else {
+                        fullName = fullName1 + " & " + fullName2;
+                    }
+                }
                 int rank = result.getInteger("Rank");
                 String totalPoint = result.getString("TotalPoints");
 
