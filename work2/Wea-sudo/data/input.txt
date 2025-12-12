@@ -1,0 +1,30 @@
+player
+Players
+resultwomen 1m springboard
+result women 10m springboard
+result sss
+result detail
+result women 1m springboard details
+result men 10m     synchronised
+players
+result women 1m springboard detail
+result women 3m springboard detail
+result women 10m platform detail
+result women 3m synchronized detail
+result women 10m synchronized detail
+result men 1m springboard detail
+result men 3m springboard detail
+result men 10m platform detail
+result men 3m synchronized detail
+result men 10m synchronized detail
+result women 1m springboard detail
+result women 1m springboard
+result women 3m springboard
+result women 10m platform
+result women 3m synchronised
+result women 10m synchronised
+result men 1m springboard
+result men 3m springboard
+result men 10m platform
+result men 3m synchronised
+result men 10m synchronised
