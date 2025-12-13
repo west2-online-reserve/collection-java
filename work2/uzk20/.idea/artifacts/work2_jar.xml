@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="work2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/work2_jar</output-path>
+    <root id="archive" name="work2.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="DWASearch" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/alibaba/fastjson2/fastjson2/2.0.32/fastjson2-2.0.32.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/alibaba/fastjson/2.0.32/fastjson-2.0.32.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/alibaba/fastjson2/fastjson2-extension/2.0.32/fastjson2-extension-2.0.32.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
