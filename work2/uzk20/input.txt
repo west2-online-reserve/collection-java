@@ -7,3 +7,4 @@ result detail
 result women 1m springboard details
 result men 10m     synchronised
 players
+result men 3m synchronis
