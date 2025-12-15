@@ -42,4 +42,8 @@ public class Customer {
     public void changeArrivalTime(){
         this.arrivalTime=LocalDate.now();
     }
+
+    public void backToYesterday(){
+        this.arrivalTime=arrivalTime.minusDays(1);
+    }
 }
