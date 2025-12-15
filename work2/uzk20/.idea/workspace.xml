@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="work2:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ff3dfb5-e59d-4783-97e7-ff47b50aea12" name="默认变更列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit3 Test Class" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="corretto-16" />
+  </component>
+  <component name="ProjectId" id="36evxMZNUlSyZL6uUZRUd5EB3ZU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="工件" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.17035775" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work2\work2\src\test\java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work2\work2\src\test" />
+      <recent name="D:\work2\work2\src\test\java" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.uzk20" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DWASearchTest (1)">
+    <configuration name="DWASearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.uzk20.DWASearch" />
+      <module name="DWASearch" />
+      <option name="PROGRAM_PARAMETERS" value="input.txt output.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.uzk20.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DWASearchTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DWASearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.uzk20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.uzk20" />
+      <option name="MAIN_CLASS_NAME" value="org.uzk20.DWASearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DWASearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DWASearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dwa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dwa" />
+      <option name="MAIN_CLASS_NAME" value="com.dwa.DWASearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DWASearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DWASearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.uzk20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-16" />
+      <option name="PACKAGE_NAME" value="org.uzk20" />
+      <option name="MAIN_CLASS_NAME" value="org.uzk20.DWASearchTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DWASearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="work2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.uzk20.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.uzk20" />
+      <option name="MAIN_CLASS_NAME" value="org.uzk20.DWASearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DWASearchTest.testMain1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DWASearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.uzk20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.uzk20" />
+      <option name="MAIN_CLASS_NAME" value="org.uzk20.DWASearchTest" />
+      <option name="METHOD_NAME" value="testMain1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DWASearchTest.testMain_InsufficientArgs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DWASearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.uzk20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.uzk20" />
+      <option name="MAIN_CLASS_NAME" value="org.uzk20.DWASearchTest" />
+      <option name="METHOD_NAME" value="testMain_InsufficientArgs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DWASearchTest (1)" />
+        <item itemvalue="JUnit.DWASearchTest.testMain1" />
+        <item itemvalue="JUnit.DWASearchTest" />
+        <item itemvalue="JUnit.DWASearchTest.testMain_InsufficientArgs" />
+        <item itemvalue="应用程序.DWASearch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="5ff3dfb5-e59d-4783-97e7-ff47b50aea12" name="默认变更列表" comment="" />
+      <created>1765380100011</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765380100011</updated>
+      <workItem from="1765380101120" duration="948000" />
+      <workItem from="1765381434419" duration="727000" />
+      <workItem from="1765413776058" duration="6441000" />
+      <workItem from="1765440551387" duration="3626000" />
+      <workItem from="1765444222949" duration="1896000" />
+      <workItem from="1765453890527" duration="3870000" />
+      <workItem from="1765457843587" duration="895000" />
+      <workItem from="1765458753835" duration="11640000" />
+      <workItem from="1765506491134" duration="3348000" />
+      <workItem from="1765535321414" duration="250000" />
+      <workItem from="1765535611541" duration="7516000" />
+      <workItem from="1765543610835" duration="907000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/uzk20/CoreModule.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
