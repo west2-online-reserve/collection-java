@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.learning.user.mapper.UserMapper">
+    <select id="findAll" resultType="Video">
+        SELECT
+            id,
+            user_id as userId,
+            video_url as videoUrl,
+            cover_url as coverUrl,
+            title,
+            description,
+            visit_count as visitCount,
+            like_count as likeCount,
+            comment_count as commentCount,
+            created_at as createdAt,
+            updated_at as updatedAt,
+            deleted_at as deletedAt
+        FROM video
+        WHERE deleted_at IS NULL
+    </select>
+</mapper>
