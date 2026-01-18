@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>极简天气预报</title>
+    <style>
+        body {
+            font-family: 'PingFang SC', 'Helvetica Neue', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); /* 渐变底色，更有质感 */
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 80px 20px;
+            color: #2c3e50;
+        }
+
+        /* 搜索容器 */
+        .search-container {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px); /* 磨砂玻璃效果 */
+            padding: 30px;
+            border-radius: 24px;
+            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.1);
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .search-wrapper { position: relative; flex: 1; }
+
+        input {
+            width: 100%;
+            padding: 14px 20px;
+            border: 1px solid rgba(0,0,0,0.05);
+            border-radius: 12px;
+            outline: none;
+            font-size: 16px;
+            transition: all 0.3s;
+            box-sizing: border-box;
+        }
+
+        input:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 0 4px rgba(0,123,255,0.1);
+        }
+
+        button {
+            padding: 0 24px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        button:hover {
+            background: #0056b3;
+            transform: translateY(-1px);
+        }
+
+        /* 热门城市标签 */
+        .hot-cities {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .hot-label {
+            font-size: 13px;
+            color: #7f8c8d;
+            margin-right: 5px;
+        }
+
+        .city-tag {
+            padding: 6px 16px;
+            background: #fff;
+            border: 1px solid transparent;
+            border-radius: 50px;
+            font-size: 13px;
+            color: #57606f;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+            transition: all 0.2s;
+        }
+
+        .city-tag:hover {
+            color: #007bff;
+            border-color: #007bff;
+            background: rgba(0, 123, 255, 0.05);
+            transform: scale(1.05);
+        }
+
+        /* 城市标题美化 */
+        .city-info {
+            margin-top: 40px;
+            font-size: 1.8em;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .city-info span { font-size: 0.6em; color: #7f8c8d; font-weight: normal; }
+        /* 天气展示区域的总容器 */
+        .weather-container {
+            display: flex;
+            gap: 20px;            /* 卡片之间的间距 */
+            flex-wrap: wrap;      /* 手机端自动换行 */
+            justify-content: center;
+            margin-top: 30px;
+            width: 100%;
+            max-width: 900px;     /* 限制总宽度，防止拉得太开 */
+        }
+
+        /* 单个天气卡片 */
+        .weather-card {
+            background: rgba(255, 255, 255, 0.9); /* 半透明白 */
+            backdrop-filter: blur(5px);
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            text-align: center;
+            width: 180px;         /* 固定宽度 */
+            transition: transform 0.3s;
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+
+        .weather-card:hover {
+            transform: translateY(-5px); /* 鼠标指上去会轻轻浮起 */
+        }
+
+        .weather-card .date { color: #8c8c8c; font-size: 0.9em; margin-bottom: 8px; }
+        .weather-card .text { color: #1890ff; font-weight: bold; font-size: 1.1em; }
+        .weather-card .temp { font-size: 1.5em; font-weight: bold; color: #262626; margin: 10px 0; }
+        .weather-card .details { font-size: 0.85em; color: #999; line-height: 1.6; }
+    </style>
+</head>
+<body>
+
+<div class="search-container">
+    <div class="search-box">
+        <div class="search-wrapper">
+            <input type="text" id="cityInput" placeholder="请输入城市名称..." oninput="handleInput()">
+            <div id="suggestionBox" class="suggestion-list"></div>
+        </div>
+        <button onclick="queryWeather()">查询天气</button>
+    </div>
+
+    <div class="hot-cities">
+        <span class="hot-label">热门城市：</span>
+        <div class="city-tag" onclick="selectCity('北京')">北京</div>
+        <div class="city-tag" onclick="selectCity('上海')">上海</div>
+        <div class="city-tag" onclick="selectCity('广州')">广州</div>
+        <div class="city-tag" onclick="selectCity('深圳')">深圳</div>
+        <div class="city-tag" onclick="selectCity('福州')">福州</div>
+        <div class="city-tag" onclick="selectCity('厦门')">厦门</div>
+    </div>
+</div>
+
+<div id="cityTitle" class="city-info"></div>
+<div class="weather-container" id="weatherDisplay"></div>
+<div id="loading"></div>
+<script>
+    // 预设的中文搜索建议列表
+    const cityDatabase = ["北京", "上海", "广州", "深圳", "杭州", "成都", "武汉", "西安", "南京", "福州", "厦门", "长沙", "重庆"];
+
+    // 处理输入显示下拉框
+    function handleInput() {
+        const val = document.getElementById('cityInput').value.trim();
+        const box = document.getElementById('suggestionBox');
+
+        if (!val) { box.style.display = 'none'; return; }
+
+        // 模糊匹配逻辑
+        const matches = cityDatabase.filter(city => city.includes(val));
+
+        if (matches.length > 0) {
+            box.innerHTML = matches.map(city =>
+                `<div class="suggestion-item" onclick="selectCity('${city}')">${city}</div>`
+            ).join('');
+            box.style.display = 'block';
+        } else {
+            box.style.display = 'none';
+        }
+    }
+
+    function selectCity(city) {
+        document.getElementById('cityInput').value = city;
+        document.getElementById('suggestionBox').style.display = 'none';
+        queryWeather();
+    }
+
+    async function queryWeather() {
+        const cityName = document.getElementById('cityInput').value.trim();
+        if (!cityName) return;
+
+        const display = document.getElementById('weatherDisplay');
+        const title = document.getElementById('cityTitle');
+        const btn = document.querySelector('button');
+
+        // --- 核心修复：状态锁定 ---
+        if (btn.disabled) return; // 如果正在查询中，直接跳过，防止并发
+        btn.disabled = true;
+        btn.innerText = "查询中...";
+
+        // 预清空
+        display.innerHTML = '';
+        title.innerHTML = '📡 正在同步数据...';
+
+        try {
+            // 先存再取
+            await fetch(`/api/weather/save?city=${encodeURIComponent(cityName)}`);
+            const response = await fetch(`/api/weather/get?city=${encodeURIComponent(cityName)}`);
+            const data = await response.json();
+
+            // --- 核心修复：渲染前最后一次强制清空 ---
+            display.innerHTML = '';
+            title.innerHTML = '';
+
+            if (data && data.weatherTable) {
+                title.innerHTML = `📍 ${data.name}`;
+
+                // 使用一个变量拼接好后一次性写入，比多次操作 innerHTML 性能更好且更稳
+                let htmlContent = '';
+                data.weatherTable.forEach(day => {
+                    htmlContent += `
+                    <div class="weather-card">
+                        <div class="date">${day.fxDate}</div>
+                        <div class="temp">${day.tempMin}° / ${day.tempMax}°</div>
+                        <div style="font-size: 0.85em; color: #bfbfbf; margin-top: 10px;">
+                            湿度: ${day.humidity}%
+                        </div>
+                        <div style="font-size: 0.8em; margin-top:10px; color:#999">
+                            🌅 ${day.sunrise}<br>🌇 ${day.sunset}
+                        </div>
+                    </div>`;
+                });
+                display.innerHTML = htmlContent;
+            } else {
+                title.innerHTML = '❌ 未找到该城市天气信息';
+            }
+        } catch (error) {
+            console.error("查询出错:", error);
+            title.innerHTML = '❌ 未找到该城市天气信息';
+        } finally {
+            // --- 核心修复：解锁按钮 ---
+            btn.disabled = false;
+            btn.innerText = "查询天气";
+        }
+    }
+
+    // 点击空白处关闭下拉框
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('.search-wrapper')) {
+            document.getElementById('suggestionBox').style.display = 'none';
+        }
+    });
+</script>
+</body>
+</html>

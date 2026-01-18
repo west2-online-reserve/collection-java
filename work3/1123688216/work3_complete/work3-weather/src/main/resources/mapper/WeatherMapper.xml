@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.weatherforecast.mapper.WeatherMapper">
+
+    <insert id="saveCity">
+        INSERT INTO citys(id,name,lat,lon,update_time)values(#{id},#{name},#{lat},#{lon},#{updateTime})
+        ON DUPLICATE KEY UPDATE update_time=values(update_time)
+    </insert>
+    <insert id="saveWeather">
+        INSERT INTO weather_table(fx_date,sunrise,sunset,temp_max,temp_min,humidity,city_id) values
+        <foreach collection="weatherTableList" item="weatherTable" separator=",">
+            (#{weatherTable.fxDate},#{weatherTable.sunrise},#{weatherTable.sunset},
+             #{weatherTable.tempMax},#{weatherTable.tempMin},#{weatherTable.humidity},#{weatherTable.cityId})
+        </foreach>
+        ON DUPLICATE KEY UPDATE
+        sunrise = VALUES(sunrise),
+        sunset = VALUES(sunset),
+        temp_max = VALUES(temp_max),
+        temp_min = VALUES(temp_min),
+        humidity = VALUES(humidity)
+    </insert>
+    <delete id="deleteWeather">Delete from weather_table where city_id=#{id}</delete>
+
+    <resultMap id="CityWithWeatherMap" type="org.example.weatherforecast.pojo.po.City">
+        <id property="id" column="id" />
+        <result property="name" column="name" />
+        <result property="lat" column="lat" />
+        <result property="lon" column="lon" />
+
+        <collection property="weatherTable" ofType="org.example.weatherforecast.pojo.po.WeatherTable">
+            <result property="fxDate" column="fx_date" />
+            <result property="sunrise" column="sunrise" />
+            <result property="sunset" column="sunset" />
+            <result property="tempMax" column="temp_max" />
+            <result property="tempMin" column="temp_min" />
+            <result property="humidity" column="humidity" />
+            <result property="cityId" column="city_id"/>
+        </collection>
+    </resultMap>
+    <select id="getWeatherList" resultMap="CityWithWeatherMap">
+        select c.id,c.name,c.lat,c.lon,
+               wt.fx_date,wt.sunrise,wt.sunset,wt.temp_max,wt.temp_min,wt.humidity,wt.city_id
+        from citys c left join weather_table  wt on c.id=wt.city_id where c.name=#{cityName}
+    </select>
+</mapper>
