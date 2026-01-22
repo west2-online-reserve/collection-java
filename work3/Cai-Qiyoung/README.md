@@ -1,4 +1,10 @@
-# **一、初识MySQL**
+**作业地址：**https://github.com/Cai-Qiyoung/my-compulishments-java.git
+
+------
+
+# --数据库学习笔记--
+
+# 一、初识MySQL
 
 ## **1.1 数据库的分类**
 
