@@ -1,0 +1,14 @@
+test@example.com
+user.name@gmail.com
+abc@sub.domain.co
+abc@domain
+abc@domain.c
+abc@-domain.com
+abc@domain-.com
+test@example.com
+user.name@gmail.com
+abc@sub.domain.co
+abc@domain
+abc@domain.c
+abc@-domain.com
+abc@domain-.com
