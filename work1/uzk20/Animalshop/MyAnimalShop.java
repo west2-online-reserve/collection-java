@@ -7,6 +7,7 @@ class MyAnimalShop implements Animalshop{
 
     private double balance;
     private double retainedProfits;
+    private int day=0;
     private ArrayList<Animal> animalList;
     private ArrayList<Customer> customerList;
     private boolean startBusiness;
@@ -24,12 +25,7 @@ class MyAnimalShop implements Animalshop{
     }
 
     public void isOperateNormally(){
-        if(sellOutJudge()){
-            startBusiness=true;
-        }
-        else{
-            startBusiness=false;
-        }
+        startBusiness= !sellOutJudge();
     }
 
     public void openShop(){
@@ -91,11 +87,16 @@ class MyAnimalShop implements Animalshop{
 
     @Override
     public void serveCustomer(Customer customer,Animal animal){
+        if(!startBusiness)
+        {
+            throw new IllegalStateException("今日未开业，不提供顾客服务");
+        }
         sellAnimal(animal);
         register(customer);
     }
 
     public void todayCustomer(){
+        System.out.println();
         for (Customer customer : customerList) {
             if (customer.getArrivalTime().equals(LocalDate.now())) {
                 System.out.println(customer);
@@ -103,11 +104,29 @@ class MyAnimalShop implements Animalshop{
         }
     }
 
+    public void ClearCustomer(){
+        int judge=0;
+        for(Customer customer : customerList) {
+            if (customer.getArrivalTime().equals(LocalDate.now())) {
+                judge=1;
+                customer.backToYesterday();
+            }
+        }
+        if(judge==0){
+            System.out.println("哇今天一个顾客都没有");
+        }
+    }
+
     public void closeShop(){
         System.out.println("本店已打烊");
+        System.out.println("Day "+day+":");
         System.out.println("今日净收入："+retainedProfits);
         System.out.println("今天的顾客列表如下：");
         todayCustomer();
+        ClearCustomer();
+        day++;
+        retainedProfits=0;
+        System.out.println();
     }
 
 }
