@@ -3,16 +3,17 @@ package org.uzk20.core;
 import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONArray;
 import com.alibaba.fastjson2.JSONObject;
-import org.uzk20.domain.SingleMatchResult;
+import org.uzk20.domain.Athlete;
 import org.uzk20.domain.DiveScore;
 import org.uzk20.domain.EventDetailedResult;
-import org.uzk20.domain.Athlete;
-import org.uzk20.utils.Constants;
+import org.uzk20.domain.SingleMatchResult;
 import org.uzk20.utils.Command;
+import org.uzk20.utils.Constants;
 import org.uzk20.utils.Utility;
+
 import java.util.ArrayList;
-import java.util.stream.Collectors;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class CoreModule {
     //此处处理所有的选手的信息

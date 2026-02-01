@@ -7,4 +7,6 @@ result detail
 result women 1m springboard details
 result men 10m     synchronised
 players
-result men 3m synchronis
+result women 1m springboard detail
+result mens 10m synchronised
+result women 10m platform detail

@@ -1,7 +1,5 @@
 package org.uzk20.utils;
 
-import java.util.Locale;
-
 public class Command {
     // 指令的类型分为三种
     public enum CmdType { PLAYERS, RESULT, INVALID }

@@ -13,35 +13,144 @@
     <maven.compiler.source>16</maven.compiler.source>
     <maven.compiler.target>16</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <!-- 插件版本统一管理（保留测试插件版本） -->
+    <maven-shade-plugin.version>3.2.4</maven-shade-plugin.version>
+    <maven-jar-plugin.version>3.2.2</maven-jar-plugin.version>
+    <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+    <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
+    <!-- 依赖版本（保留JUnit等测试依赖） -->
+    <fastjson.version>2.0.32</fastjson.version>
+    <junit4.version>4.13.2</junit4.version> <!-- 保留原有JUnit4 -->
+    <junit-jupiter.version>5.8.2</junit-jupiter.version> <!-- 同时支持JUnit5 -->
+    <mockito.version>4.11.0</mockito.version>
   </properties>
 
+  <!-- 仓库配置（确保插件和依赖能正常下载） -->
+  <repositories>
+    <repository>
+      <id>aliyun-maven</id>
+      <url>https://maven.aliyun.com/repository/public</url>
+      <releases><enabled>true</enabled></releases>
+      <snapshots><enabled>false</enabled></snapshots>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>aliyun-maven</id>
+      <url>https://maven.aliyun.com/repository/public</url>
+      <releases><enabled>true</enabled></releases>
+      <snapshots><enabled>false</enabled></snapshots>
+    </pluginRepository>
+  </pluginRepositories>
+
   <dependencies>
+    <!-- JSON解析依赖 -->
     <dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>fastjson</artifactId>
-      <version>2.0.32</version>
+      <version>${fastjson.version}</version>
     </dependency>
+
+    <!-- 保留原有JUnit4测试依赖（你的测试类可能基于此） -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.13.2</version>
+      <version>${junit4.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- 保留JUnit5依赖（如需扩展） -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>${junit-jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>${junit-jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- 保留Mockito测试依赖 -->
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>${mockito.version}</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
 
   <build>
     <plugins>
+      <!-- 编译插件 -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>${maven-compiler-plugin.version}</version>
+        <configuration>
+          <source>${maven.compiler.source}</source>
+          <target>${maven.compiler.target}</target>
+          <encoding>${project.build.sourceEncoding}</encoding>
+        </configuration>
+      </plugin>
+
+      <!-- 保留原有jar插件配置 -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
-        <version>3.3.0</version>
+        <version>${maven-jar-plugin.version}</version>
         <configuration>
           <archive>
             <manifest>
-              <mainClass>com.dwa.DWASearch</mainClass>
+              <mainClass>org.uzk20.DWASearch</mainClass> <!-- 修正为主类实际包路径 -->
               <addClasspath>true</addClasspath>
             </manifest>
           </archive>
+        </configuration>
+      </plugin>
+
+      <!-- 修复shade插件配置（解决找不到插件的问题） -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>${maven-shade-plugin.version}</version>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals><goal>shade</goal></goals>
+            <configuration>
+              <minimizeJar>true</minimizeJar>
+              <filters>
+                <filter>
+                  <artifact>*:*</artifact>
+                  <excludes>
+                    <exclude>**/Test*.class</exclude>
+                    <exclude>**/*Test.class</exclude>
+                    <exclude>**/*TestCase.class</exclude>
+                  </excludes>
+                </filter>
+              </filters>
+              <transformers>
+                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                  <mainClass>org.uzk20.DWASearch</mainClass> <!-- 与jar插件保持一致 -->
+                </transformer>
+              </transformers>
+              <finalName>${project.artifactId}-${project.version}-exec</finalName>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+      <!-- 保留测试运行插件（确保测试能正常执行） -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>${maven-surefire-plugin.version}</version>
+        <configuration>
+          <!-- 支持JUnit4和JUnit5测试 -->
+          <testNGArtifactName>none:none</testNGArtifactName>
         </configuration>
       </plugin>
     </plugins>

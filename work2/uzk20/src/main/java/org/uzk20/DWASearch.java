@@ -2,7 +2,6 @@ package org.uzk20;
 
 import org.uzk20.core.CoreModule;
 import org.uzk20.utils.Command;
-import org.uzk20.utils.Utility;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -14,7 +13,8 @@ public class DWASearch {
 
         if (args.length < 2) {
             System.err.println("请传入输入文件和输出文件路径");
-            System.exit(1);
+            //System.exit(1);
+            return;
         }
 
         String inputPath=args[0];

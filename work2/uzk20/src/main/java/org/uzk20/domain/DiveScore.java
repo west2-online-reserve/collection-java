@@ -1,6 +1,7 @@
 package org.uzk20.domain;
 
 import org.uzk20.utils.Constants;
+
 import java.util.List;
 
 public class DiveScore {
