@@ -1,0 +1,3 @@
+players
+result women-10m
+result women-10m detail
