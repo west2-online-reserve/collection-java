@@ -1,0 +1,82 @@
+Full Name:ROLLINSON Amy
+Gender:Women
+Country:CAN
+-----
+Full Name:FUNG Katelyn
+Gender:Women
+Country:CAN
+-----
+Full Name:MULLER Jette
+Gender:Women
+Country:GER
+-----
+Full Name:LOTFI Dariush
+Gender:Men
+Country:IRI
+-----
+Full Name:SANTIAGO Dominique
+Gender:Women
+Country:PUR
+-----
+Full Name:MYALIN Igor
+Gender:Men
+Country:RUS
+-----
+Full Name:HART Alexander
+Gender:Men
+Country:USA
+-----
+Full Name:DICK Elaena
+Gender:Women
+Country:USA
+-----
+Full Name:MULLER Jette
+Rank:1
+Score:85.00 + 82.00 + 88.00 + 86.00 + 89.00 = 430.00
+-----
+Full Name:ROLLINSON Amy
+Rank:2
+Score:83.00 + 80.00 + 85.00 + 82.00 + 86.00 = 416.00
+-----
+Full Name:SANTIAGO Dominique
+Rank:3
+Score:80.00 + 78.00 + 82.00 + 81.00 + 83.00 = 404.00
+-----
+Full Name:FUNG Katelyn
+Rank:4
+Score:78.00 + 75.00 + 80.00 + 79.00 + 81.00 = 393.00
+-----
+Full Name:DICK Elaena
+Rank:5
+Score:76.00 + 73.00 + 78.00 + 77.00 + 79.00 = 383.00
+-----
+Full Name:MULLER Jette
+Rank:* | * | 1
+Preliminary Score:*
+Semifinal Score:*
+Final Score:85.00 + 82.00 + 88.00 + 86.00 + 89.00 = 430.00
+-----
+Full Name:ROLLINSON Amy
+Rank:* | * | 2
+Preliminary Score:*
+Semifinal Score:*
+Final Score:83.00 + 80.00 + 85.00 + 82.00 + 86.00 = 416.00
+-----
+Full Name:SANTIAGO Dominique
+Rank:* | * | 3
+Preliminary Score:*
+Semifinal Score:*
+Final Score:80.00 + 78.00 + 82.00 + 81.00 + 83.00 = 404.00
+-----
+Full Name:FUNG Katelyn
+Rank:* | * | 4
+Preliminary Score:*
+Semifinal Score:*
+Final Score:78.00 + 75.00 + 80.00 + 79.00 + 81.00 = 393.00
+-----
+Full Name:DICK Elaena
+Rank:* | * | 5
+Preliminary Score:*
+Semifinal Score:*
+Final Score:76.00 + 73.00 + 78.00 + 77.00 + 79.00 = 383.00
+-----
