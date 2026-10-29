@@ -137,3 +137,5 @@ MissArgumentTest: 实参个数测试
 如果想要输出各个赛事全部阶段数据，将 OutputClass 类中方法 OutputPhase() 的判断条件去掉即可
 
 如果不想查询赛事数据时每一行都输入 result, 将 ProjectMatcher 中的 similarity 括号里的 "result" 去掉即可
+
+input.txt, output.txt 是测试样例，可以删除
