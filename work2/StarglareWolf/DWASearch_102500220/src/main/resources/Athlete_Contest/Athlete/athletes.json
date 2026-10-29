@@ -1,0 +1,2542 @@
+[
+  {
+    "CountryName": "Australia",
+    "CountryCode": "AUS",
+    "Participations": [
+      {
+        "ResultId": 1769867,
+        "Gender": 1,
+        "PreferredLastName": "COLE",
+        "PreferredFirstName": "Ellie",
+        "ScoreboardPhotoId": "3e06283f-063f-470b-b46b-a317b81a4dd4",
+        "Sports": "DV",
+        "DOB": "2006-09-16T00:00:00",
+        "NAT": "Australia",
+        "Disciplines": [
+          {
+            "DisciplineId": "581a26af-8e97-427c-9adb-5fdd8f4fc9c1",
+            "DisciplineCode": "003",
+            "DisciplineName": "Women's 10m Platform",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          },
+          {
+            "DisciplineId": "c3cca7c9-5ef7-4a69-a173-82fe75ffcc4b",
+            "DisciplineCode": "203",
+            "DisciplineName": "Women's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "b9f0e0e9-e11d-4b78-bf5a-b7c186cd1b8f"
+      },
+      {
+        "ResultId": 1018072,
+        "Gender": 1,
+        "PreferredLastName": "KEENEY",
+        "PreferredFirstName": "Maddison",
+        "ScoreboardPhotoId": "d4e71f4b-9fc4-4042-a6c4-3953c2d3e2e0",
+        "Sports": "DV",
+        "DOB": "1996-05-23T00:00:00",
+        "NAT": "Australia",
+        "Disciplines": [
+          {
+            "DisciplineId": "2b08da89-8232-4ffc-8df3-95865ba41b82",
+            "DisciplineCode": "002",
+            "DisciplineName": "Women's 3m Springboard",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "61b483ec-4022-4555-9960-fba9cd1d702d",
+            "DisciplineCode": "202",
+            "DisciplineName": "Women's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "368575e4-e59c-4391-8f3a-11a27ecd0886"
+      },
+      {
+        "ResultId": 1061332,
+        "Gender": 1,
+        "PreferredLastName": "KOLOI",
+        "PreferredFirstName": "Alysha",
+        "ScoreboardPhotoId": "c68c4196-fee3-4ef1-bc4e-abca0e9b43d7",
+        "Sports": "DV",
+        "DOB": "2001-09-08T00:00:00",
+        "NAT": "Australia",
+        "Disciplines": [
+          {
+            "DisciplineId": "2b08da89-8232-4ffc-8df3-95865ba41b82",
+            "DisciplineCode": "002",
+            "DisciplineName": "Women's 3m Springboard",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "61b483ec-4022-4555-9960-fba9cd1d702d",
+            "DisciplineCode": "202",
+            "DisciplineName": "Women's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "8461470d-e119-4e0f-844e-581c703d36cf"
+      },
+      {
+        "ResultId": 1662828,
+        "Gender": 0,
+        "PreferredLastName": "MERCIECA",
+        "PreferredFirstName": "Jonah",
+        "ScoreboardPhotoId": "dabe2445-2b61-4880-8082-72bcbfe51bea",
+        "Sports": "DV",
+        "DOB": "2007-10-17T00:00:00",
+        "NAT": "Australia",
+        "Disciplines": [
+          {
+            "DisciplineId": "450a9e84-5db0-40c4-a45c-4c3bb2392f48",
+            "DisciplineCode": "003",
+            "DisciplineName": "Men's 10m Platform",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          },
+          {
+            "DisciplineId": "f86bd80d-a342-40f7-a521-90a50ad9d5c5",
+            "DisciplineCode": "203",
+            "DisciplineName": "Men's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "bce51102-8bdd-4d8c-88c5-349ed4242695"
+      },
+      {
+        "ResultId": 1662812,
+        "Gender": 1,
+        "PreferredLastName": "PUCKERIDGE",
+        "PreferredFirstName": "Milly",
+        "ScoreboardPhotoId": "6b886680-1938-4a91-9c48-6483027ea7c7",
+        "Sports": "DV",
+        "DOB": "2005-02-15T00:00:00",
+        "NAT": "Australia",
+        "Disciplines": [
+          {
+            "DisciplineId": "c3cca7c9-5ef7-4a69-a173-82fe75ffcc4b",
+            "DisciplineCode": "203",
+            "DisciplineName": "Women's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "a1a07677-7864-400f-a1b6-7ef21a072ca2"
+      },
+      {
+        "ResultId": 1138554,
+        "Gender": 0,
+        "PreferredLastName": "ROUSSEAU",
+        "PreferredFirstName": "Cassiel",
+        "ScoreboardPhotoId": "34a6ec7d-1371-4aa6-8989-c0f78783d06e",
+        "Sports": "DV",
+        "DOB": "2001-02-04T00:00:00",
+        "NAT": "Australia",
+        "Disciplines": [
+          {
+            "DisciplineId": "450a9e84-5db0-40c4-a45c-4c3bb2392f48",
+            "DisciplineCode": "003",
+            "DisciplineName": "Men's 10m Platform",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f86bd80d-a342-40f7-a521-90a50ad9d5c5",
+            "DisciplineCode": "203",
+            "DisciplineName": "Men's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "608b9f19-6769-487c-8e10-efc2d4dad412"
+      }
+    ]
+  },
+  {
+    "CountryName": "Canada",
+    "CountryCode": "CAN",
+    "Participations": [
+      {
+        "ResultId": 1553338,
+        "Gender": 0,
+        "PreferredLastName": "CULLEN",
+        "PreferredFirstName": "Matt",
+        "ScoreboardPhotoId": "1285b232-297b-49e9-8dac-8a04f08388e2",
+        "Sports": "DV",
+        "DOB": "2005-12-14T00:00:00",
+        "NAT": "Canada",
+        "Disciplines": [
+          {
+            "DisciplineId": "450a9e84-5db0-40c4-a45c-4c3bb2392f48",
+            "DisciplineCode": "003",
+            "DisciplineName": "Men's 10m Platform",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          },
+          {
+            "DisciplineId": "f86bd80d-a342-40f7-a521-90a50ad9d5c5",
+            "DisciplineCode": "203",
+            "DisciplineName": "Men's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "01fd576f-d13f-4279-9dca-7bd481d8344f"
+      },
+      {
+        "ResultId": 1055777,
+        "Gender": 1,
+        "PreferredLastName": "ERLAM",
+        "PreferredFirstName": "Margo",
+        "ScoreboardPhotoId": "82b2608a-3d8f-4bd8-aafb-7282aad186ba",
+        "Sports": "DV",
+        "DOB": "2002-06-18T00:00:00",
+        "NAT": "Canada",
+        "Disciplines": [
+          {
+            "DisciplineId": "2b08da89-8232-4ffc-8df3-95865ba41b82",
+            "DisciplineCode": "002",
+            "DisciplineName": "Women's 3m Springboard",
+            "PhaseId": "a6a21dde-c174-462c-b292-b868df6077f6",
+            "PhaseCode": "200",
+            "PhaseName": "Semifinals",
+            "HeatName": "Semifinals"
+          }
+        ],
+        "PersonId": "ce8c6ffa-fd55-4b0b-971d-c56b9ac5c06c"
+      },
+      {
+        "ResultId": 1553355,
+        "Gender": 1,
+        "PreferredLastName": "FUNG",
+        "PreferredFirstName": "Katelyn",
+        "ScoreboardPhotoId": "ecd8f823-aac3-4606-b760-7876185ea574",
+        "Sports": "DV",
+        "DOB": "2004-04-01T00:00:00",
+        "NAT": "Canada",
+        "Disciplines": [
+          {
+            "DisciplineId": "581a26af-8e97-427c-9adb-5fdd8f4fc9c1",
+            "DisciplineCode": "003",
+            "DisciplineName": "Women's 10m Platform",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          },
+          {
+            "DisciplineId": "c3cca7c9-5ef7-4a69-a173-82fe75ffcc4b",
+            "DisciplineCode": "203",
+            "DisciplineName": "Women's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "def10055-0632-4178-8f19-b37cf4acd933"
+      },
+      {
+        "ResultId": 1779013,
+        "Gender": 1,
+        "PreferredLastName": "JASMIN",
+        "PreferredFirstName": "Amelie-Laura",
+        "ScoreboardPhotoId": "0731d56c-1295-412a-b7d5-f253bf3d464f",
+        "Sports": "DV",
+        "DOB": "2004-04-19T00:00:00",
+        "NAT": "Canada",
+        "Disciplines": [
+          {
+            "DisciplineId": "61b483ec-4022-4555-9960-fba9cd1d702d",
+            "DisciplineCode": "202",
+            "DisciplineName": "Women's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "1b83c525-26a3-4a63-8ebb-6a6d337427f5"
+      },
+      {
+        "ResultId": 1553352,
+        "Gender": 1,
+        "PreferredLastName": "MILLER",
+        "PreferredFirstName": "Kate",
+        "ScoreboardPhotoId": "0ccbb513-ab0c-4abc-b1e3-5fe3cc524a5b",
+        "Sports": "DV",
+        "DOB": "2005-05-27T00:00:00",
+        "NAT": "Canada",
+        "Disciplines": [
+          {
+            "DisciplineId": "581a26af-8e97-427c-9adb-5fdd8f4fc9c1",
+            "DisciplineCode": "003",
+            "DisciplineName": "Women's 10m Platform",
+            "PhaseId": "a6a21dde-c174-462c-b292-b868df6077f6",
+            "PhaseCode": "200",
+            "PhaseName": "Semifinals",
+            "HeatName": "Semifinals"
+          },
+          {
+            "DisciplineId": "c3cca7c9-5ef7-4a69-a173-82fe75ffcc4b",
+            "DisciplineCode": "203",
+            "DisciplineName": "Women's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "9d5db8c8-a45f-4745-b63d-f9c49379a79c"
+      },
+      {
+        "ResultId": 1631934,
+        "Gender": 1,
+        "PreferredLastName": "PALKHIVALA",
+        "PreferredFirstName": "Sonya",
+        "ScoreboardPhotoId": "7a2c0603-8d98-45c9-88ea-f2cf2b293dfe",
+        "Sports": "DV",
+        "DOB": "2005-03-14T00:00:00",
+        "NAT": "Canada",
+        "Disciplines": [
+          {
+            "DisciplineId": "2b08da89-8232-4ffc-8df3-95865ba41b82",
+            "DisciplineCode": "002",
+            "DisciplineName": "Women's 3m Springboard",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          }
+        ],
+        "PersonId": "d03fa4f0-35a5-4011-bc18-f56eef578213"
+      },
+      {
+        "ResultId": 1666583,
+        "Gender": 0,
+        "PreferredLastName": "PAUL",
+        "PreferredFirstName": "Carson",
+        "ScoreboardPhotoId": "97e02c53-a910-41cc-8fc3-ad2e33b1ae3c",
+        "Sports": "DV",
+        "DOB": "2004-09-30T00:00:00",
+        "NAT": "Canada",
+        "Disciplines": [
+          {
+            "DisciplineId": "4c18d241-ad14-436a-bd38-25dfb47f1cb7",
+            "DisciplineCode": "002",
+            "DisciplineName": "Men's 3m Springboard",
+            "PhaseId": "a6a21dde-c174-462c-b292-b868df6077f6",
+            "PhaseCode": "200",
+            "PhaseName": "Semifinals",
+            "HeatName": "Semifinals"
+          },
+          {
+            "DisciplineId": "08d17e1c-94c2-4c56-bf2b-603eeba24f8c",
+            "DisciplineCode": "202",
+            "DisciplineName": "Men's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "c68a085b-7bc8-45a8-bebe-bb078cb7de51"
+      },
+      {
+        "ResultId": 1632076,
+        "Gender": 0,
+        "PreferredLastName": "TESSIER",
+        "PreferredFirstName": "Benjamin",
+        "ScoreboardPhotoId": "57eb906f-9016-4ed6-9c15-43fb077b7dc6",
+        "Sports": "DV",
+        "DOB": "2005-03-26T00:00:00",
+        "NAT": "Canada",
+        "Disciplines": [
+          {
+            "DisciplineId": "450a9e84-5db0-40c4-a45c-4c3bb2392f48",
+            "DisciplineCode": "003",
+            "DisciplineName": "Men's 10m Platform",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          },
+          {
+            "DisciplineId": "f86bd80d-a342-40f7-a521-90a50ad9d5c5",
+            "DisciplineCode": "203",
+            "DisciplineName": "Men's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "f15599d8-6c10-4f2d-90ca-5a832439004e"
+      },
+      {
+        "ResultId": 1056064,
+        "Gender": 1,
+        "PreferredLastName": "VALLEE",
+        "PreferredFirstName": "Mia",
+        "ScoreboardPhotoId": "bcdc26fe-c12f-4dfa-bf55-f59b4ed1d3a0",
+        "Sports": "DV",
+        "DOB": "2001-03-22T00:00:00",
+        "NAT": "Canada",
+        "Disciplines": [
+          {
+            "DisciplineId": "61b483ec-4022-4555-9960-fba9cd1d702d",
+            "DisciplineCode": "202",
+            "DisciplineName": "Women's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "08d49b2c-df61-400e-92f4-9e2aed221075"
+      },
+      {
+        "ResultId": 1056973,
+        "Gender": 0,
+        "PreferredLastName": "ZSOMBOR-MURRAY",
+        "PreferredFirstName": "Nathan",
+        "ScoreboardPhotoId": "cf08a66b-88dc-4ce2-b15f-953bd7775f1a",
+        "Sports": "DV",
+        "DOB": "2003-04-28T00:00:00",
+        "NAT": "Canada",
+        "Disciplines": [
+          {
+            "DisciplineId": "4c18d241-ad14-436a-bd38-25dfb47f1cb7",
+            "DisciplineCode": "002",
+            "DisciplineName": "Men's 3m Springboard",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          },
+          {
+            "DisciplineId": "08d17e1c-94c2-4c56-bf2b-603eeba24f8c",
+            "DisciplineCode": "202",
+            "DisciplineName": "Men's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "b6cc83b1-d2f5-425f-a791-d6cbc330e5d4"
+      }
+    ]
+  },
+  {
+    "CountryName": "People's Republic of China",
+    "CountryCode": "CHN",
+    "Participations": [
+      {
+        "ResultId": 1645251,
+        "Gender": 0,
+        "PreferredLastName": "BAI",
+        "PreferredFirstName": "Yuming",
+        "ScoreboardPhotoId": "ace98dfd-2c8e-46b6-a533-8ff40ad184b7",
+        "Sports": "DV",
+        "DOB": "2007-01-10T00:00:00",
+        "NAT": "People's Republic of China",
+        "Disciplines": [
+          {
+            "DisciplineId": "450a9e84-5db0-40c4-a45c-4c3bb2392f48",
+            "DisciplineCode": "003",
+            "DisciplineName": "Men's 10m Platform",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "f64ebbf4-467e-40d3-9a39-002805b80d16"
+      },
+      {
+        "ResultId": 1891388,
+        "Gender": 1,
+        "PreferredLastName": "CHEN",
+        "PreferredFirstName": "Jia",
+        "ScoreboardPhotoId": "5c992744-d8e5-4414-9392-09cedee7d9c5",
+        "Sports": "DV",
+        "DOB": "2004-09-12T00:00:00",
+        "NAT": "People's Republic of China",
+        "Disciplines": [
+          {
+            "DisciplineId": "2b08da89-8232-4ffc-8df3-95865ba41b82",
+            "DisciplineCode": "002",
+            "DisciplineName": "Women's 3m Springboard",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "61b483ec-4022-4555-9960-fba9cd1d702d",
+            "DisciplineCode": "202",
+            "DisciplineName": "Women's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "29edadbb-b4d0-450d-924a-0fd71d0aa8b0"
+      },
+      {
+        "ResultId": 1218541,
+        "Gender": 1,
+        "PreferredLastName": "CHEN",
+        "PreferredFirstName": "Yuxi",
+        "ScoreboardPhotoId": "2458f38f-a9c1-4650-8563-14d6125613ca",
+        "Sports": "DV",
+        "DOB": "2005-09-11T00:00:00",
+        "NAT": "People's Republic of China",
+        "Disciplines": [
+          {
+            "DisciplineId": "c3cca7c9-5ef7-4a69-a173-82fe75ffcc4b",
+            "DisciplineCode": "203",
+            "DisciplineName": "Women's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "793b142a-8f02-4f14-9d92-62a48b72dc92"
+      },
+      {
+        "ResultId": 1028322,
+        "Gender": 1,
+        "PreferredLastName": "CHEN",
+        "PreferredFirstName": "Yiwen",
+        "ScoreboardPhotoId": "bd596db1-98e7-4297-b2d9-9b51dfc40e4a",
+        "Sports": "DV",
+        "DOB": "1999-06-15T00:00:00",
+        "NAT": "People's Republic of China",
+        "Disciplines": [
+          {
+            "DisciplineId": "2b08da89-8232-4ffc-8df3-95865ba41b82",
+            "DisciplineCode": "002",
+            "DisciplineName": "Women's 3m Springboard",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "61b483ec-4022-4555-9960-fba9cd1d702d",
+            "DisciplineCode": "202",
+            "DisciplineName": "Women's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "6dafbcbb-ef90-4cf4-b5f5-23134da47c96"
+      },
+      {
+        "ResultId": 1830623,
+        "Gender": 1,
+        "PreferredLastName": "JIANG",
+        "PreferredFirstName": "Linjing",
+        "ScoreboardPhotoId": "f7b31db3-3886-4c10-8b7c-214b9dea6447",
+        "Sports": "DV",
+        "DOB": "2010-05-29T00:00:00",
+        "NAT": "People's Republic of China",
+        "Disciplines": [
+          {
+            "DisciplineId": "581a26af-8e97-427c-9adb-5fdd8f4fc9c1",
+            "DisciplineCode": "003",
+            "DisciplineName": "Women's 10m Platform",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "9e81a96e-16bb-4162-8585-1a22a1f86b0f"
+      },
+      {
+        "ResultId": 1021031,
+        "Gender": 0,
+        "PreferredLastName": "LIAN",
+        "PreferredFirstName": "Junjie",
+        "ScoreboardPhotoId": "f8579721-4435-4487-9c30-634984363fd0",
+        "Sports": "DV",
+        "DOB": "2000-11-03T00:00:00",
+        "NAT": "People's Republic of China",
+        "Disciplines": [
+          {
+            "DisciplineId": "450a9e84-5db0-40c4-a45c-4c3bb2392f48",
+            "DisciplineCode": "003",
+            "DisciplineName": "Men's 10m Platform",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "b06144a4-af9a-4d73-8d33-3a90feca8599"
+      },
+      {
+        "ResultId": 1080926,
+        "Gender": 1,
+        "PreferredLastName": "LIN",
+        "PreferredFirstName": "Shan",
+        "ScoreboardPhotoId": "291af538-3d10-4787-9ac7-f35a5869546d",
+        "Sports": "DV",
+        "DOB": "2001-08-03T00:00:00",
+        "NAT": "People's Republic of China",
+        "Disciplines": [
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "9af9c530-d138-4839-b1b9-8604b3b6ca16"
+      },
+      {
+        "ResultId": 2003437,
+        "Gender": 0,
+        "PreferredLastName": "LIU",
+        "PreferredFirstName": "Chengzan",
+        "ScoreboardPhotoId": "c756a75a-1fb0-49e7-87eb-ff18955c35d9",
+        "Sports": "DV",
+        "DOB": "2009-10-03T00:00:00",
+        "NAT": "People's Republic of China",
+        "Disciplines": [
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "031ee762-dbe6-4d59-aa11-52546b48bad1"
+      },
+      {
+        "ResultId": 1119359,
+        "Gender": 1,
+        "PreferredLastName": "LU",
+        "PreferredFirstName": "Wei",
+        "ScoreboardPhotoId": "d14e6ff3-6b97-4c01-bfa8-b591ed44fa17",
+        "Sports": "DV",
+        "DOB": "2005-12-10T00:00:00",
+        "NAT": "People's Republic of China",
+        "Disciplines": [
+          {
+            "DisciplineId": "c3cca7c9-5ef7-4a69-a173-82fe75ffcc4b",
+            "DisciplineCode": "203",
+            "DisciplineName": "Women's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "6ca383b0-6920-4ac7-b606-845fe9bc7aa5"
+      },
+      {
+        "ResultId": 1081270,
+        "Gender": 0,
+        "PreferredLastName": "WANG",
+        "PreferredFirstName": "Zongyuan",
+        "ScoreboardPhotoId": "acff0f48-9445-443e-b62d-706e6e2d5d6a",
+        "Sports": "DV",
+        "DOB": "2001-10-24T00:00:00",
+        "NAT": "People's Republic of China",
+        "Disciplines": [
+          {
+            "DisciplineId": "4c18d241-ad14-436a-bd38-25dfb47f1cb7",
+            "DisciplineCode": "002",
+            "DisciplineName": "Men's 3m Springboard",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "08d17e1c-94c2-4c56-bf2b-603eeba24f8c",
+            "DisciplineCode": "202",
+            "DisciplineName": "Men's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "71b4cb2f-b22a-4b66-af54-05eeadbbba89"
+      },
+      {
+        "ResultId": 1987737,
+        "Gender": 0,
+        "PreferredLastName": "YANG",
+        "PreferredFirstName": "Zhihao",
+        "ScoreboardPhotoId": "d9e64af2-d3ca-443d-bdd2-3f14002207e4",
+        "Sports": "DV",
+        "DOB": "2009-10-31T00:00:00",
+        "NAT": "People's Republic of China",
+        "Disciplines": [
+          {
+            "DisciplineId": "f86bd80d-a342-40f7-a521-90a50ad9d5c5",
+            "DisciplineCode": "203",
+            "DisciplineName": "Men's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "57ccc8ea-e101-4f0b-a08f-62c88cff46a9"
+      },
+      {
+        "ResultId": 1931992,
+        "Gender": 0,
+        "PreferredLastName": "ZHAO",
+        "PreferredFirstName": "Renjie",
+        "ScoreboardPhotoId": "d1109c33-f6ef-410d-9965-a32f14ddde71",
+        "Sports": "DV",
+        "DOB": "2011-03-12T00:00:00",
+        "NAT": "People's Republic of China",
+        "Disciplines": [
+          {
+            "DisciplineId": "f86bd80d-a342-40f7-a521-90a50ad9d5c5",
+            "DisciplineCode": "203",
+            "DisciplineName": "Men's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "a66f8c8c-e623-4b40-9bbd-a210b30f9e8b"
+      },
+      {
+        "ResultId": 1645250,
+        "Gender": 0,
+        "PreferredLastName": "ZHENG",
+        "PreferredFirstName": "Jiuyuan",
+        "ScoreboardPhotoId": "42ce54ea-a6af-4a6a-9661-07bf93844bc1",
+        "Sports": "DV",
+        "DOB": "2004-04-13T00:00:00",
+        "NAT": "People's Republic of China",
+        "Disciplines": [
+          {
+            "DisciplineId": "4c18d241-ad14-436a-bd38-25dfb47f1cb7",
+            "DisciplineCode": "002",
+            "DisciplineName": "Men's 3m Springboard",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "08d17e1c-94c2-4c56-bf2b-603eeba24f8c",
+            "DisciplineCode": "202",
+            "DisciplineName": "Men's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "f59e659b-c088-4f4d-9765-2a31b3b03829"
+      }
+    ]
+  },
+  {
+    "CountryName": "Colombia",
+    "CountryCode": "COL",
+    "Participations": [
+      {
+        "ResultId": 1107582,
+        "Gender": 0,
+        "PreferredLastName": "URIBE BERMUDEZ",
+        "PreferredFirstName": "Luis Felipe",
+        "ScoreboardPhotoId": "93a5c082-1047-4f4f-aa6c-7d5d6c87c188",
+        "Sports": "DV",
+        "DOB": "2001-09-03T00:00:00",
+        "NAT": "Colombia",
+        "Disciplines": [
+          {
+            "DisciplineId": "4c18d241-ad14-436a-bd38-25dfb47f1cb7",
+            "DisciplineCode": "002",
+            "DisciplineName": "Men's 3m Springboard",
+            "PhaseId": "a6a21dde-c174-462c-b292-b868df6077f6",
+            "PhaseCode": "200",
+            "PhaseName": "Semifinals",
+            "HeatName": "Semifinals"
+          }
+        ],
+        "PersonId": "e4d7cca6-67fb-4b6b-843e-744a62d0566f"
+      },
+      {
+        "ResultId": 1056567,
+        "Gender": 1,
+        "PreferredLastName": "ZAPATA CORREA",
+        "PreferredFirstName": "Daniela",
+        "ScoreboardPhotoId": "8370769d-7c26-4be5-bb51-e7ba4a3cb547",
+        "Sports": "DV",
+        "DOB": "2001-10-20T00:00:00",
+        "NAT": "Colombia",
+        "Disciplines": [
+          {
+            "DisciplineId": "2b08da89-8232-4ffc-8df3-95865ba41b82",
+            "DisciplineCode": "002",
+            "DisciplineName": "Women's 3m Springboard",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          }
+        ],
+        "PersonId": "b2ce143b-49d8-4344-9565-a8af5a9db353"
+      }
+    ]
+  },
+  {
+    "CountryName": "Spain",
+    "CountryCode": "ESP",
+    "Participations": [
+      {
+        "ResultId": 1631541,
+        "Gender": 1,
+        "PreferredLastName": "CARVAJAL",
+        "PreferredFirstName": "Ana",
+        "ScoreboardPhotoId": "a96237c2-2f00-421e-ba25-6cc442239d22",
+        "Sports": "DV",
+        "DOB": "2006-09-03T00:00:00",
+        "NAT": "Spain",
+        "Disciplines": [
+          {
+            "DisciplineId": "581a26af-8e97-427c-9adb-5fdd8f4fc9c1",
+            "DisciplineCode": "003",
+            "DisciplineName": "Women's 10m Platform",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          }
+        ],
+        "PersonId": "76144f77-dff6-49e7-95b1-5d0b435644c9"
+      }
+    ]
+  },
+  {
+    "CountryName": "France",
+    "CountryCode": "FRA",
+    "Participations": [
+      {
+        "ResultId": 1138527,
+        "Gender": 0,
+        "PreferredLastName": "BOUYER",
+        "PreferredFirstName": "Jules",
+        "ScoreboardPhotoId": "eb9eb5b3-19e5-4849-a5e5-08fbde8bbc66",
+        "Sports": "DV",
+        "DOB": "2002-07-22T00:00:00",
+        "NAT": "France",
+        "Disciplines": [
+          {
+            "DisciplineId": "4c18d241-ad14-436a-bd38-25dfb47f1cb7",
+            "DisciplineCode": "002",
+            "DisciplineName": "Men's 3m Springboard",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "33cc39a9-4bcd-4d35-afcc-a957e6cc06fc"
+      }
+    ]
+  },
+  {
+    "CountryName": "Great Britain",
+    "CountryCode": "GBR",
+    "Participations": [
+      {
+        "ResultId": 1140646,
+        "Gender": 0,
+        "PreferredLastName": "CUTMORE",
+        "PreferredFirstName": "Ben",
+        "ScoreboardPhotoId": "5bfc9b2b-f278-4da2-aae2-b9863851fff2",
+        "Sports": "DV",
+        "DOB": "2003-03-10T00:00:00",
+        "NAT": "Great Britain",
+        "Disciplines": [
+          {
+            "DisciplineId": "f86bd80d-a342-40f7-a521-90a50ad9d5c5",
+            "DisciplineCode": "203",
+            "DisciplineName": "Men's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "bff7f0a5-808f-486e-9011-23ef158f7eb8"
+      },
+      {
+        "ResultId": 1060017,
+        "Gender": 0,
+        "PreferredLastName": "HARDING",
+        "PreferredFirstName": "Anthony",
+        "ScoreboardPhotoId": "cea59745-ea05-42b4-b7f1-e60c4b46e382",
+        "Sports": "DV",
+        "DOB": "2000-06-30T00:00:00",
+        "NAT": "Great Britain",
+        "Disciplines": [
+          {
+            "DisciplineId": "08d17e1c-94c2-4c56-bf2b-603eeba24f8c",
+            "DisciplineCode": "202",
+            "DisciplineName": "Men's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "ecbc0090-d2ec-4f79-92f4-6e24c0cc6e5a"
+      },
+      {
+        "ResultId": 1056792,
+        "Gender": 1,
+        "PreferredLastName": "HARPER",
+        "PreferredFirstName": "Yasmin",
+        "ScoreboardPhotoId": "5887a432-4396-4415-b1e1-73ba94eb8338",
+        "Sports": "DV",
+        "DOB": "2000-07-28T00:00:00",
+        "NAT": "Great Britain",
+        "Disciplines": [
+          {
+            "DisciplineId": "61b483ec-4022-4555-9960-fba9cd1d702d",
+            "DisciplineCode": "202",
+            "DisciplineName": "Women's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "49ea8dac-e1cf-4699-afff-a60e68b7669a"
+      },
+      {
+        "ResultId": 1028420,
+        "Gender": 0,
+        "PreferredLastName": "HASLAM",
+        "PreferredFirstName": "Ross",
+        "ScoreboardPhotoId": "45840f57-a0a9-42ea-b1e3-e0a78d309c05",
+        "Sports": "DV",
+        "DOB": "1997-10-02T00:00:00",
+        "NAT": "Great Britain",
+        "Disciplines": [
+          {
+            "DisciplineId": "4c18d241-ad14-436a-bd38-25dfb47f1cb7",
+            "DisciplineCode": "002",
+            "DisciplineName": "Men's 3m Springboard",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          }
+        ],
+        "PersonId": "8f7a57ff-d490-49cc-900e-abd2d7ab5c85"
+      },
+      {
+        "ResultId": 1021028,
+        "Gender": 0,
+        "PreferredLastName": "LAUGHER",
+        "PreferredFirstName": "Jack",
+        "ScoreboardPhotoId": "af9f6707-3e10-4167-8579-332408b84fab",
+        "Sports": "DV",
+        "DOB": "1995-01-30T00:00:00",
+        "NAT": "Great Britain",
+        "Disciplines": [
+          {
+            "DisciplineId": "08d17e1c-94c2-4c56-bf2b-603eeba24f8c",
+            "DisciplineCode": "202",
+            "DisciplineName": "Men's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "f55bcccf-c30d-4b58-ad52-276f456ad1b4"
+      },
+      {
+        "ResultId": 1409624,
+        "Gender": 0,
+        "PreferredLastName": "MCCABE",
+        "PreferredFirstName": "Euan",
+        "ScoreboardPhotoId": "48778020-afbe-4863-92df-d90a05c36777",
+        "Sports": "DV",
+        "DOB": "2005-10-23T00:00:00",
+        "NAT": "Great Britain",
+        "Disciplines": [
+          {
+            "DisciplineId": "450a9e84-5db0-40c4-a45c-4c3bb2392f48",
+            "DisciplineCode": "003",
+            "DisciplineName": "Men's 10m Platform",
+            "PhaseId": "a6a21dde-c174-462c-b292-b868df6077f6",
+            "PhaseCode": "200",
+            "PhaseName": "Semifinals",
+            "HeatName": "Semifinals"
+          },
+          {
+            "DisciplineId": "f86bd80d-a342-40f7-a521-90a50ad9d5c5",
+            "DisciplineCode": "203",
+            "DisciplineName": "Men's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "06045885-36a8-4872-8640-c726a741ef97"
+      },
+      {
+        "ResultId": 1056794,
+        "Gender": 1,
+        "PreferredLastName": "MEW JENSEN",
+        "PreferredFirstName": "Scarlett",
+        "ScoreboardPhotoId": "c31027ab-f240-4397-97ec-1f7cc3f5397d",
+        "Sports": "DV",
+        "DOB": "2001-12-31T00:00:00",
+        "NAT": "Great Britain",
+        "Disciplines": [
+          {
+            "DisciplineId": "61b483ec-4022-4555-9960-fba9cd1d702d",
+            "DisciplineCode": "202",
+            "DisciplineName": "Women's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "835267bd-ec93-4108-8e08-c0c442f3f55f"
+      }
+    ]
+  },
+  {
+    "CountryName": "Germany",
+    "CountryCode": "GER",
+    "Participations": [
+      {
+        "ResultId": 1056573,
+        "Gender": 0,
+        "PreferredLastName": "MASSENBERG",
+        "PreferredFirstName": "Lou Noel Guy",
+        "ScoreboardPhotoId": "d4aa1cfb-4c91-42f2-af71-389f8ad3f1e2",
+        "Sports": "DV",
+        "DOB": "2000-11-13T00:00:00",
+        "NAT": "Germany",
+        "Disciplines": [
+          {
+            "DisciplineId": "4c18d241-ad14-436a-bd38-25dfb47f1cb7",
+            "DisciplineCode": "002",
+            "DisciplineName": "Men's 3m Springboard",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          },
+          {
+            "DisciplineId": "08d17e1c-94c2-4c56-bf2b-603eeba24f8c",
+            "DisciplineCode": "202",
+            "DisciplineName": "Men's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "6b6710f5-9141-4226-b937-ae9b6751a8bb"
+      },
+      {
+        "ResultId": 1138552,
+        "Gender": 1,
+        "PreferredLastName": "PFEIF",
+        "PreferredFirstName": "Pauline Alexandra",
+        "ScoreboardPhotoId": "651ba7fb-423a-4492-98d0-1e510511701a",
+        "Sports": "DV",
+        "DOB": "2002-05-07T00:00:00",
+        "NAT": "Germany",
+        "Disciplines": [
+          {
+            "DisciplineId": "581a26af-8e97-427c-9adb-5fdd8f4fc9c1",
+            "DisciplineCode": "003",
+            "DisciplineName": "Women's 10m Platform",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "c3cca7c9-5ef7-4a69-a173-82fe75ffcc4b",
+            "DisciplineCode": "203",
+            "DisciplineName": "Women's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "5cf48f98-fe3e-4768-bb42-e5e5b78cca2f"
+      },
+      {
+        "ResultId": 1631454,
+        "Gender": 0,
+        "PreferredLastName": "SCHAUER",
+        "PreferredFirstName": "Jonathan Gisbert",
+        "ScoreboardPhotoId": "abf1b1cb-9149-4ae2-9ead-e0a1e6e6f429",
+        "Sports": "DV",
+        "DOB": "2005-05-28T00:00:00",
+        "NAT": "Germany",
+        "Disciplines": [
+          {
+            "DisciplineId": "08d17e1c-94c2-4c56-bf2b-603eeba24f8c",
+            "DisciplineCode": "202",
+            "DisciplineName": "Men's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "642b0be0-1400-4c82-80d3-287fd5c5875e"
+      },
+      {
+        "ResultId": 1021022,
+        "Gender": 1,
+        "PreferredLastName": "WASSEN",
+        "PreferredFirstName": "Elena",
+        "ScoreboardPhotoId": "1d41098f-c771-4f31-a7c2-b28e1b1df1ec",
+        "Sports": "DV",
+        "DOB": "2000-11-01T00:00:00",
+        "NAT": "Germany",
+        "Disciplines": [
+          {
+            "DisciplineId": "c3cca7c9-5ef7-4a69-a173-82fe75ffcc4b",
+            "DisciplineCode": "203",
+            "DisciplineName": "Women's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "e455fe4b-477e-452c-a32b-2f1b4f6f2eb7"
+      }
+    ]
+  },
+  {
+    "CountryName": "Italy",
+    "CountryCode": "ITA",
+    "Participations": [
+      {
+        "ResultId": 1669384,
+        "Gender": 0,
+        "PreferredLastName": "CONTE",
+        "PreferredFirstName": "Simone",
+        "ScoreboardPhotoId": "6432ae09-2585-4f62-a817-169775bc2f9b",
+        "Sports": "DV",
+        "DOB": "2007-07-25T00:00:00",
+        "NAT": "Italy",
+        "Disciplines": [
+          {
+            "DisciplineId": "f86bd80d-a342-40f7-a521-90a50ad9d5c5",
+            "DisciplineCode": "203",
+            "DisciplineName": "Men's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "f9d056bc-3c7a-4b61-8d6c-c6d75c61dee0"
+      },
+      {
+        "ResultId": 1159223,
+        "Gender": 0,
+        "PreferredLastName": "GIOVANNINI",
+        "PreferredFirstName": "Riccardo",
+        "ScoreboardPhotoId": "f8754721-8c90-423b-a5de-ae38cba6f72e",
+        "Sports": "DV",
+        "DOB": "2003-03-14T00:00:00",
+        "NAT": "Italy",
+        "Disciplines": [
+          {
+            "DisciplineId": "f86bd80d-a342-40f7-a521-90a50ad9d5c5",
+            "DisciplineCode": "203",
+            "DisciplineName": "Men's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "82fe3d83-82d9-4d7c-a052-68e5490af75d"
+      },
+      {
+        "ResultId": 1081256,
+        "Gender": 1,
+        "PreferredLastName": "JODOIN DI MARIA",
+        "PreferredFirstName": "Sarah",
+        "ScoreboardPhotoId": "1e8d8b3b-f136-4554-b929-b0f0206e5deb",
+        "Sports": "DV",
+        "DOB": "2000-01-03T00:00:00",
+        "NAT": "Italy",
+        "Disciplines": [
+          {
+            "DisciplineId": "581a26af-8e97-427c-9adb-5fdd8f4fc9c1",
+            "DisciplineCode": "003",
+            "DisciplineName": "Women's 10m Platform",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "4fc41b34-d467-48c1-a8c7-83dfb407758b"
+      },
+      {
+        "ResultId": 1043379,
+        "Gender": 0,
+        "PreferredLastName": "MARSAGLIA",
+        "PreferredFirstName": "Lorenzo",
+        "ScoreboardPhotoId": "1c767ef4-87ed-4866-b3a2-d5a0c421606a",
+        "Sports": "DV",
+        "DOB": "1996-11-16T00:00:00",
+        "NAT": "Italy",
+        "Disciplines": [
+          {
+            "DisciplineId": "08d17e1c-94c2-4c56-bf2b-603eeba24f8c",
+            "DisciplineCode": "202",
+            "DisciplineName": "Men's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "e95b1145-f762-4997-b77c-82dd798ae8e5"
+      },
+      {
+        "ResultId": 1632061,
+        "Gender": 1,
+        "PreferredLastName": "PIZZINI",
+        "PreferredFirstName": "Elisa",
+        "ScoreboardPhotoId": "1aecde6c-3d45-42b2-84c0-64552f46a0e3",
+        "Sports": "DV",
+        "DOB": "2005-01-21T00:00:00",
+        "NAT": "Italy",
+        "Disciplines": [
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "eda28461-e971-4700-a74a-ccdcb723094a"
+      },
+      {
+        "ResultId": 1018686,
+        "Gender": 0,
+        "PreferredLastName": "TOCCI",
+        "PreferredFirstName": "Giovanni",
+        "ScoreboardPhotoId": "aeb87a60-57e1-4dc6-a918-b43fd07ccf47",
+        "Sports": "DV",
+        "DOB": "1994-08-31T00:00:00",
+        "NAT": "Italy",
+        "Disciplines": [
+          {
+            "DisciplineId": "08d17e1c-94c2-4c56-bf2b-603eeba24f8c",
+            "DisciplineCode": "202",
+            "DisciplineName": "Men's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "24a31d48-3571-4b45-939b-53490a5762f0"
+      }
+    ]
+  },
+  {
+    "CountryName": "Japan",
+    "CountryCode": "JPN",
+    "Participations": [
+      {
+        "ResultId": 1631491,
+        "Gender": 0,
+        "PreferredLastName": "IKUMA",
+        "PreferredFirstName": "Senri",
+        "ScoreboardPhotoId": "3a241431-10b7-4bff-bdc7-b38fb83bdd8b",
+        "Sports": "DV",
+        "DOB": "2004-05-10T00:00:00",
+        "NAT": "Japan",
+        "Disciplines": [
+          {
+            "DisciplineId": "08d17e1c-94c2-4c56-bf2b-603eeba24f8c",
+            "DisciplineCode": "202",
+            "DisciplineName": "Men's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "6b1f4f07-9ebd-43ac-b78a-b959ccebfe30"
+      },
+      {
+        "ResultId": 1055771,
+        "Gender": 1,
+        "PreferredLastName": "KANETO",
+        "PreferredFirstName": "Rin",
+        "ScoreboardPhotoId": "3569846d-d03d-410f-81fa-2ca4fdbf8bde",
+        "Sports": "DV",
+        "DOB": "2003-07-18T00:00:00",
+        "NAT": "Japan",
+        "Disciplines": [
+          {
+            "DisciplineId": "581a26af-8e97-427c-9adb-5fdd8f4fc9c1",
+            "DisciplineCode": "003",
+            "DisciplineName": "Women's 10m Platform",
+            "PhaseId": "a6a21dde-c174-462c-b292-b868df6077f6",
+            "PhaseCode": "200",
+            "PhaseName": "Semifinals",
+            "HeatName": "Semifinals"
+          }
+        ],
+        "PersonId": "2c8020f3-f57f-436c-8b5f-7d39ae05e99c"
+      },
+      {
+        "ResultId": 1028672,
+        "Gender": 0,
+        "PreferredLastName": "SUYAMA",
+        "PreferredFirstName": "Haruki",
+        "ScoreboardPhotoId": "c787d450-c8aa-4cf6-a1d7-0905c0ab220c",
+        "Sports": "DV",
+        "DOB": "1998-03-09T00:00:00",
+        "NAT": "Japan",
+        "Disciplines": [
+          {
+            "DisciplineId": "08d17e1c-94c2-4c56-bf2b-603eeba24f8c",
+            "DisciplineCode": "202",
+            "DisciplineName": "Men's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "7412f6c2-0ea5-410b-ac56-643825177880"
+      }
+    ]
+  },
+  {
+    "CountryName": "Mexico",
+    "CountryCode": "MEX",
+    "Participations": [
+      {
+        "ResultId": 1018628,
+        "Gender": 1,
+        "PreferredLastName": "AGUNDEZ GARCIA",
+        "PreferredFirstName": "Gabriela",
+        "ScoreboardPhotoId": "07d2eef3-95b6-4c2c-bf7d-b0a548d32852",
+        "Sports": "DV",
+        "DOB": "2000-08-04T00:00:00",
+        "NAT": "Mexico",
+        "Disciplines": [
+          {
+            "DisciplineId": "c3cca7c9-5ef7-4a69-a173-82fe75ffcc4b",
+            "DisciplineCode": "203",
+            "DisciplineName": "Women's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "0aa96fee-c914-43d1-9c51-e54d767987a0"
+      },
+      {
+        "ResultId": 1055290,
+        "Gender": 0,
+        "PreferredLastName": "BERLIN REYES",
+        "PreferredFirstName": "Kevin",
+        "ScoreboardPhotoId": "4a10d929-9f51-404b-a6d4-944a80d2bfc7",
+        "Sports": "DV",
+        "DOB": "2001-04-25T00:00:00",
+        "NAT": "Mexico",
+        "Disciplines": [
+          {
+            "DisciplineId": "450a9e84-5db0-40c4-a45c-4c3bb2392f48",
+            "DisciplineCode": "003",
+            "DisciplineName": "Men's 10m Platform",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          },
+          {
+            "DisciplineId": "f86bd80d-a342-40f7-a521-90a50ad9d5c5",
+            "DisciplineCode": "203",
+            "DisciplineName": "Men's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "e298a2f7-2576-496f-9d5f-5254d22141f0"
+      },
+      {
+        "ResultId": 1029404,
+        "Gender": 0,
+        "PreferredLastName": "CELAYA HERNANDEZ",
+        "PreferredFirstName": "Juan Manuel",
+        "ScoreboardPhotoId": "2de77ec2-fbac-46d9-b3c2-e1f941774c57",
+        "Sports": "DV",
+        "DOB": "1998-09-01T00:00:00",
+        "NAT": "Mexico",
+        "Disciplines": [
+          {
+            "DisciplineId": "4c18d241-ad14-436a-bd38-25dfb47f1cb7",
+            "DisciplineCode": "002",
+            "DisciplineName": "Men's 3m Springboard",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          },
+          {
+            "DisciplineId": "08d17e1c-94c2-4c56-bf2b-603eeba24f8c",
+            "DisciplineCode": "202",
+            "DisciplineName": "Men's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "7f6e93d4-fc79-471b-ac09-85d9557831ca"
+      },
+      {
+        "ResultId": 1891389,
+        "Gender": 1,
+        "PreferredLastName": "CUEVA LOBATO",
+        "PreferredFirstName": "Mia Zazil",
+        "ScoreboardPhotoId": "1b71f30d-fc2a-41f8-9c00-9d6f560d24a3",
+        "Sports": "DV",
+        "DOB": "2011-01-21T00:00:00",
+        "NAT": "Mexico",
+        "Disciplines": [
+          {
+            "DisciplineId": "61b483ec-4022-4555-9960-fba9cd1d702d",
+            "DisciplineCode": "202",
+            "DisciplineName": "Women's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "2e69ace0-338a-49c4-8940-9a72e28051ea"
+      },
+      {
+        "ResultId": 1891396,
+        "Gender": 1,
+        "PreferredLastName": "CUEVA LOBATO",
+        "PreferredFirstName": "Lia Yatzil",
+        "ScoreboardPhotoId": "cc2cc83b-9af9-4c28-bdae-a1734d6dff65",
+        "Sports": "DV",
+        "DOB": "2011-01-21T00:00:00",
+        "NAT": "Mexico",
+        "Disciplines": [
+          {
+            "DisciplineId": "61b483ec-4022-4555-9960-fba9cd1d702d",
+            "DisciplineCode": "202",
+            "DisciplineName": "Women's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "8b3f873b-7d50-4a6a-86f4-8fe1fd0ed279"
+      },
+      {
+        "ResultId": 1866911,
+        "Gender": 1,
+        "PreferredLastName": "CUEVA LOBATO",
+        "PreferredFirstName": "Suri Zoe",
+        "ScoreboardPhotoId": "0bf0c4b5-0252-4c42-af70-faa86dc8cc5a",
+        "Sports": "DV",
+        "DOB": "2009-10-29T00:00:00",
+        "NAT": "Mexico",
+        "Disciplines": [
+          {
+            "DisciplineId": "581a26af-8e97-427c-9adb-5fdd8f4fc9c1",
+            "DisciplineCode": "003",
+            "DisciplineName": "Women's 10m Platform",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          }
+        ],
+        "PersonId": "69a98af2-d213-4deb-beb2-d17538968d38"
+      },
+      {
+        "ResultId": 1631109,
+        "Gender": 1,
+        "PreferredLastName": "ESTUDILLO TORRES",
+        "PreferredFirstName": "Alejandra",
+        "ScoreboardPhotoId": "e783a305-4933-4f64-b3cd-fb99dbfa3af1",
+        "Sports": "DV",
+        "DOB": "2005-05-20T00:00:00",
+        "NAT": "Mexico",
+        "Disciplines": [
+          {
+            "DisciplineId": "c3cca7c9-5ef7-4a69-a173-82fe75ffcc4b",
+            "DisciplineCode": "203",
+            "DisciplineName": "Women's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "1047093a-62d7-4423-9f7d-4cad25542eae"
+      },
+      {
+        "ResultId": 1866957,
+        "Gender": 1,
+        "PreferredLastName": "GARCIA SIXTOS",
+        "PreferredFirstName": "Maria Fernanda",
+        "ScoreboardPhotoId": "4e976c14-368d-41e1-9e7a-587442b271ff",
+        "Sports": "DV",
+        "DOB": "2006-05-03T00:00:00",
+        "NAT": "Mexico",
+        "Disciplines": [
+          {
+            "DisciplineId": "2b08da89-8232-4ffc-8df3-95865ba41b82",
+            "DisciplineCode": "002",
+            "DisciplineName": "Women's 3m Springboard",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          }
+        ],
+        "PersonId": "e7d30a91-9236-4f31-bf05-148441d3a697"
+      },
+      {
+        "ResultId": 1054136,
+        "Gender": 0,
+        "PreferredLastName": "OLVERA IBARRA",
+        "PreferredFirstName": "Osmar",
+        "ScoreboardPhotoId": "8b65db91-65c5-4d40-beaf-9eaeb5765d15",
+        "Sports": "DV",
+        "DOB": "2004-06-05T00:00:00",
+        "NAT": "Mexico",
+        "Disciplines": [
+          {
+            "DisciplineId": "4c18d241-ad14-436a-bd38-25dfb47f1cb7",
+            "DisciplineCode": "002",
+            "DisciplineName": "Men's 3m Springboard",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "08d17e1c-94c2-4c56-bf2b-603eeba24f8c",
+            "DisciplineCode": "202",
+            "DisciplineName": "Men's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "5897f289-5e02-45ac-9fa1-6e9d5eb6b5e1"
+      },
+      {
+        "ResultId": 1055289,
+        "Gender": 1,
+        "PreferredLastName": "VAZQUEZ MONTANO",
+        "PreferredFirstName": "Aranza",
+        "ScoreboardPhotoId": "254ad3f7-3739-4a09-b8df-f667c79ac842",
+        "Sports": "DV",
+        "DOB": "2002-08-21T00:00:00",
+        "NAT": "Mexico",
+        "Disciplines": [
+          {
+            "DisciplineId": "2b08da89-8232-4ffc-8df3-95865ba41b82",
+            "DisciplineCode": "002",
+            "DisciplineName": "Women's 3m Springboard",
+            "PhaseId": "a6a21dde-c174-462c-b292-b868df6077f6",
+            "PhaseCode": "200",
+            "PhaseName": "Semifinals",
+            "HeatName": "Semifinals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "dcdb35d6-8e8e-4bb4-b3a7-b151b4c15949"
+      },
+      {
+        "ResultId": 1054127,
+        "Gender": 0,
+        "PreferredLastName": "WILLARS VALDEZ",
+        "PreferredFirstName": "Randal",
+        "ScoreboardPhotoId": "c59f8be2-fa85-4f79-81ee-a0979846d4a3",
+        "Sports": "DV",
+        "DOB": "2002-04-30T00:00:00",
+        "NAT": "Mexico",
+        "Disciplines": [
+          {
+            "DisciplineId": "450a9e84-5db0-40c4-a45c-4c3bb2392f48",
+            "DisciplineCode": "003",
+            "DisciplineName": "Men's 10m Platform",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f86bd80d-a342-40f7-a521-90a50ad9d5c5",
+            "DisciplineCode": "203",
+            "DisciplineName": "Men's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "2b7dac5a-8afb-409a-a0b2-01e2f99f1d6d"
+      }
+    ]
+  },
+  {
+    "CountryName": "Democratic People's Republic of Korea",
+    "CountryCode": "PRK",
+    "Participations": [
+      {
+        "ResultId": 1185239,
+        "Gender": 1,
+        "PreferredLastName": "JO",
+        "PreferredFirstName": "Jin Mi",
+        "ScoreboardPhotoId": "427f7179-3d70-4683-a318-407fcf606852",
+        "Sports": "DV",
+        "DOB": "2004-11-15T00:00:00",
+        "NAT": "Democratic People's Republic of Korea",
+        "Disciplines": [
+          {
+            "DisciplineId": "581a26af-8e97-427c-9adb-5fdd8f4fc9c1",
+            "DisciplineCode": "003",
+            "DisciplineName": "Women's 10m Platform",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          },
+          {
+            "DisciplineId": "c3cca7c9-5ef7-4a69-a173-82fe75ffcc4b",
+            "DisciplineCode": "203",
+            "DisciplineName": "Women's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "4c93c258-fdf5-4465-aefc-8a4e779e5dff"
+      },
+      {
+        "ResultId": 1024445,
+        "Gender": 1,
+        "PreferredLastName": "KIM",
+        "PreferredFirstName": "Mi Rae",
+        "ScoreboardPhotoId": "0ad3263d-4ac4-44ac-9688-92dea55416ef",
+        "Sports": "DV",
+        "DOB": "2001-04-07T00:00:00",
+        "NAT": "Democratic People's Republic of Korea",
+        "Disciplines": [
+          {
+            "DisciplineId": "c3cca7c9-5ef7-4a69-a173-82fe75ffcc4b",
+            "DisciplineCode": "203",
+            "DisciplineName": "Women's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "a4b0c7a2-edf7-4c19-8930-52442d01ee44"
+      }
+    ]
+  },
+  {
+    "CountryName": "Russia",
+    "CountryCode": "RUS",
+    "Participations": [
+      {
+        "ResultId": 1951803,
+        "Gender": 1,
+        "PreferredLastName": "KAZANTSEVA",
+        "PreferredFirstName": "Viktoria",
+        "ScoreboardPhotoId": "452f1fdd-43e1-4425-966e-177c90346e40",
+        "Sports": "DV",
+        "DOB": "2008-03-06T00:00:00",
+        "NAT": "Russia",
+        "Disciplines": [
+          {
+            "DisciplineId": "c3cca7c9-5ef7-4a69-a173-82fe75ffcc4b",
+            "DisciplineCode": "203",
+            "DisciplineName": "Women's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "76b3308a-7f30-4b63-8616-3f60bc9ed270"
+      },
+      {
+        "ResultId": 1054340,
+        "Gender": 1,
+        "PreferredLastName": "KLIUEVA",
+        "PreferredFirstName": "Uliana",
+        "ScoreboardPhotoId": "7ddb0a6f-1142-405e-a90e-d1b024f646af",
+        "Sports": "DV",
+        "DOB": "2002-06-30T00:00:00",
+        "NAT": "Russia",
+        "Disciplines": [
+          {
+            "DisciplineId": "61b483ec-4022-4555-9960-fba9cd1d702d",
+            "DisciplineCode": "202",
+            "DisciplineName": "Women's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "019c052b-6605-4dd8-8e20-feb2d881a69f"
+      },
+      {
+        "ResultId": 1448093,
+        "Gender": 1,
+        "PreferredLastName": "KONANYKHINA",
+        "PreferredFirstName": "Anna",
+        "ScoreboardPhotoId": "805e985f-3366-4260-8264-2dbd3d3c87b2",
+        "Sports": "DV",
+        "DOB": "2004-09-10T00:00:00",
+        "NAT": "Russia",
+        "Disciplines": [
+          {
+            "DisciplineId": "581a26af-8e97-427c-9adb-5fdd8f4fc9c1",
+            "DisciplineCode": "003",
+            "DisciplineName": "Women's 10m Platform",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "c3cca7c9-5ef7-4a69-a173-82fe75ffcc4b",
+            "DisciplineCode": "203",
+            "DisciplineName": "Women's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "ee5fb1c5-d0fb-47ac-83d8-10039e30d41a"
+      },
+      {
+        "ResultId": 1138587,
+        "Gender": 1,
+        "PreferredLastName": "KUZINA",
+        "PreferredFirstName": "Elizaveta",
+        "ScoreboardPhotoId": "765df3a7-7ede-414d-8ca7-f74b5434960a",
+        "Sports": "DV",
+        "DOB": "2003-05-09T00:00:00",
+        "NAT": "Russia",
+        "Disciplines": [
+          {
+            "DisciplineId": "2b08da89-8232-4ffc-8df3-95865ba41b82",
+            "DisciplineCode": "002",
+            "DisciplineName": "Women's 3m Springboard",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          }
+        ],
+        "PersonId": "979e3fcb-7191-4a44-b6a7-aed5af5dfa23"
+      },
+      {
+        "ResultId": 1019086,
+        "Gender": 0,
+        "PreferredLastName": "SHLEIKHER",
+        "PreferredFirstName": "Nikita",
+        "ScoreboardPhotoId": "ee046ef2-08dc-4aae-b0c4-d0f08eb43a82",
+        "Sports": "DV",
+        "DOB": "1998-06-10T00:00:00",
+        "NAT": "Russia",
+        "Disciplines": [
+          {
+            "DisciplineId": "4c18d241-ad14-436a-bd38-25dfb47f1cb7",
+            "DisciplineCode": "002",
+            "DisciplineName": "Men's 3m Springboard",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          },
+          {
+            "DisciplineId": "f86bd80d-a342-40f7-a521-90a50ad9d5c5",
+            "DisciplineCode": "203",
+            "DisciplineName": "Men's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "a3a5a658-0f22-40d4-a027-22beb83664ea"
+      },
+      {
+        "ResultId": 1055270,
+        "Gender": 0,
+        "PreferredLastName": "TERNOVOI",
+        "PreferredFirstName": "Ruslan",
+        "ScoreboardPhotoId": "b15bfee6-5a0d-4fe3-be01-4cef12b83db7",
+        "Sports": "DV",
+        "DOB": "2001-04-10T00:00:00",
+        "NAT": "Russia",
+        "Disciplines": [
+          {
+            "DisciplineId": "450a9e84-5db0-40c4-a45c-4c3bb2392f48",
+            "DisciplineCode": "003",
+            "DisciplineName": "Men's 10m Platform",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          },
+          {
+            "DisciplineId": "f86bd80d-a342-40f7-a521-90a50ad9d5c5",
+            "DisciplineCode": "203",
+            "DisciplineName": "Men's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "c8112a56-8ffc-405f-9b8e-b592ed090046"
+      },
+      {
+        "ResultId": 1889027,
+        "Gender": 1,
+        "PreferredLastName": "TRIFONOVA",
+        "PreferredFirstName": "Nadezhda",
+        "ScoreboardPhotoId": "006830fb-fcec-4d3f-a008-faaa5c2dd63e",
+        "Sports": "DV",
+        "DOB": "2008-08-01T00:00:00",
+        "NAT": "Russia",
+        "Disciplines": [
+          {
+            "DisciplineId": "61b483ec-4022-4555-9960-fba9cd1d702d",
+            "DisciplineCode": "202",
+            "DisciplineName": "Women's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "fcd5146d-fd1c-477a-9313-4cd75218c882"
+      }
+    ]
+  },
+  {
+    "CountryName": "Switzerland",
+    "CountryCode": "SUI",
+    "Participations": [
+      {
+        "ResultId": 1028442,
+        "Gender": 1,
+        "PreferredLastName": "HEIMBERG",
+        "PreferredFirstName": "Michelle",
+        "ScoreboardPhotoId": "8c4315c7-41e3-4d06-b6ac-06eb5a86d7e6",
+        "Sports": "DV",
+        "DOB": "2000-06-02T00:00:00",
+        "NAT": "Switzerland",
+        "Disciplines": [
+          {
+            "DisciplineId": "2b08da89-8232-4ffc-8df3-95865ba41b82",
+            "DisciplineCode": "002",
+            "DisciplineName": "Women's 3m Springboard",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          }
+        ],
+        "PersonId": "d198d7de-8a19-4c3c-b39e-d952f24ab74d"
+      }
+    ]
+  },
+  {
+    "CountryName": "Ukraine",
+    "CountryCode": "UKR",
+    "Participations": [
+      {
+        "ResultId": 1440128,
+        "Gender": 1,
+        "PreferredLastName": "BAILO",
+        "PreferredFirstName": "Kseniia",
+        "ScoreboardPhotoId": "48f93581-701a-428a-9a49-6ab9944166d8",
+        "Sports": "DV",
+        "DOB": "2005-02-25T00:00:00",
+        "NAT": "Ukraine",
+        "Disciplines": [
+          {
+            "DisciplineId": "c3cca7c9-5ef7-4a69-a173-82fe75ffcc4b",
+            "DisciplineCode": "203",
+            "DisciplineName": "Women's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "7a5f4621-0d62-4fb4-b25c-70895f656c26"
+      },
+      {
+        "ResultId": 1866898,
+        "Gender": 1,
+        "PreferredLastName": "BOCHEK",
+        "PreferredFirstName": "Kseniia",
+        "ScoreboardPhotoId": "955d3430-a6ec-446f-b815-863c67368c7a",
+        "Sports": "DV",
+        "DOB": "2009-03-24T00:00:00",
+        "NAT": "Ukraine",
+        "Disciplines": [
+          {
+            "DisciplineId": "61b483ec-4022-4555-9960-fba9cd1d702d",
+            "DisciplineCode": "202",
+            "DisciplineName": "Women's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "52a3634a-85e2-42f9-9912-de21c8464ead"
+      },
+      {
+        "ResultId": 1563952,
+        "Gender": 0,
+        "PreferredLastName": "BOLIUKH",
+        "PreferredFirstName": "Kirill",
+        "ScoreboardPhotoId": "1adebb78-b402-4565-bf87-149cf0c186e9",
+        "Sports": "DV",
+        "DOB": "2007-03-12T00:00:00",
+        "NAT": "Ukraine",
+        "Disciplines": [
+          {
+            "DisciplineId": "08d17e1c-94c2-4c56-bf2b-603eeba24f8c",
+            "DisciplineCode": "202",
+            "DisciplineName": "Men's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "fe351c8c-310e-4d08-81ce-bdda0e437006"
+      },
+      {
+        "ResultId": 1776242,
+        "Gender": 0,
+        "PreferredLastName": "HRYTSENKO",
+        "PreferredFirstName": "Mark",
+        "ScoreboardPhotoId": "5d844671-4f7a-46fc-9abc-6eed611661af",
+        "Sports": "DV",
+        "DOB": "2009-10-21T00:00:00",
+        "NAT": "Ukraine",
+        "Disciplines": [
+          {
+            "DisciplineId": "450a9e84-5db0-40c4-a45c-4c3bb2392f48",
+            "DisciplineCode": "003",
+            "DisciplineName": "Men's 10m Platform",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          },
+          {
+            "DisciplineId": "f86bd80d-a342-40f7-a521-90a50ad9d5c5",
+            "DisciplineCode": "203",
+            "DisciplineName": "Men's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "209ad056-b688-4a4e-b78a-439614c8ccd1"
+      },
+      {
+        "ResultId": 1830609,
+        "Gender": 1,
+        "PreferredLastName": "KARNAFEL",
+        "PreferredFirstName": "Diana",
+        "ScoreboardPhotoId": "bd1b0a3e-24aa-46b2-8448-f386b15b0a9e",
+        "Sports": "DV",
+        "DOB": "2007-01-08T00:00:00",
+        "NAT": "Ukraine",
+        "Disciplines": [
+          {
+            "DisciplineId": "61b483ec-4022-4555-9960-fba9cd1d702d",
+            "DisciplineCode": "202",
+            "DisciplineName": "Women's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "7df17de3-339e-4f4c-bceb-28859d321b39"
+      },
+      {
+        "ResultId": 1024459,
+        "Gender": 0,
+        "PreferredLastName": "OLIFERCHYK",
+        "PreferredFirstName": "Stanislav",
+        "ScoreboardPhotoId": "abb6a7fc-0fa1-4cc3-98de-c72b3edae6bf",
+        "Sports": "DV",
+        "DOB": "1996-05-09T00:00:00",
+        "NAT": "Ukraine",
+        "Disciplines": [
+          {
+            "DisciplineId": "08d17e1c-94c2-4c56-bf2b-603eeba24f8c",
+            "DisciplineCode": "202",
+            "DisciplineName": "Men's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "d29d3671-2297-4057-8e0c-52537b77ca85"
+      },
+      {
+        "ResultId": 1081108,
+        "Gender": 0,
+        "PreferredLastName": "SEREDA",
+        "PreferredFirstName": "Oleksii",
+        "ScoreboardPhotoId": "744a93f9-b941-44bf-97c7-6a27e91bf2b2",
+        "Sports": "DV",
+        "DOB": "2005-12-25T00:00:00",
+        "NAT": "Ukraine",
+        "Disciplines": [
+          {
+            "DisciplineId": "450a9e84-5db0-40c4-a45c-4c3bb2392f48",
+            "DisciplineCode": "003",
+            "DisciplineName": "Men's 10m Platform",
+            "PhaseId": "a6a21dde-c174-462c-b292-b868df6077f6",
+            "PhaseCode": "200",
+            "PhaseName": "Semifinals",
+            "HeatName": "Semifinals"
+          },
+          {
+            "DisciplineId": "f86bd80d-a342-40f7-a521-90a50ad9d5c5",
+            "DisciplineCode": "203",
+            "DisciplineName": "Men's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "ab9ea005-2bd6-4c22-82cf-bbf9275a35f3"
+      },
+      {
+        "ResultId": 1780805,
+        "Gender": 1,
+        "PreferredLastName": "VYSTAVKINA",
+        "PreferredFirstName": "Sofiia",
+        "ScoreboardPhotoId": "a44e8ab6-d2c7-418a-8fe9-54b2e7ab1d28",
+        "Sports": "DV",
+        "DOB": "2009-01-20T00:00:00",
+        "NAT": "Ukraine",
+        "Disciplines": [
+          {
+            "DisciplineId": "c3cca7c9-5ef7-4a69-a173-82fe75ffcc4b",
+            "DisciplineCode": "203",
+            "DisciplineName": "Women's 10m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "1719533c-9b36-435c-8324-56f96de79d08"
+      }
+    ]
+  },
+  {
+    "CountryName": "United States of America",
+    "CountryCode": "USA",
+    "Participations": [
+      {
+        "ResultId": 1828755,
+        "Gender": 1,
+        "PreferredLastName": "KNIGHT",
+        "PreferredFirstName": "Kyndal",
+        "ScoreboardPhotoId": "91763bb8-c61c-4639-9fcd-ee868fdc81e7",
+        "Sports": "DV",
+        "DOB": "2000-07-05T00:00:00",
+        "NAT": "United States of America",
+        "Disciplines": [
+          {
+            "DisciplineId": "2b08da89-8232-4ffc-8df3-95865ba41b82",
+            "DisciplineCode": "002",
+            "DisciplineName": "Women's 3m Springboard",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          }
+        ],
+        "PersonId": "248a1046-d641-4593-a85a-0d052811f210"
+      },
+      {
+        "ResultId": 1891420,
+        "Gender": 1,
+        "PreferredLastName": "KWONG",
+        "PreferredFirstName": "Anna",
+        "ScoreboardPhotoId": "505e2890-005d-44ff-ade3-5f975d4bc167",
+        "Sports": "DV",
+        "DOB": "2003-04-09T00:00:00",
+        "NAT": "United States of America",
+        "Disciplines": [
+          {
+            "DisciplineId": "61b483ec-4022-4555-9960-fba9cd1d702d",
+            "DisciplineCode": "202",
+            "DisciplineName": "Women's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "24104c1a-f017-4d5b-b127-814f336795ba"
+      },
+      {
+        "ResultId": 1081067,
+        "Gender": 1,
+        "PreferredLastName": "MCAFEE",
+        "PreferredFirstName": "Sophia",
+        "ScoreboardPhotoId": "b98f3f36-2529-447d-812d-4d680a935ab1",
+        "Sports": "DV",
+        "DOB": "2002-12-27T00:00:00",
+        "NAT": "United States of America",
+        "Disciplines": [
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "c1e027d7-c14f-4f02-8331-cee2fd309ab4"
+      },
+      {
+        "ResultId": 1922685,
+        "Gender": 1,
+        "PreferredLastName": "NIDAY",
+        "PreferredFirstName": "Ellireese",
+        "ScoreboardPhotoId": "9f7d89d7-fe4c-485e-b2a9-98b0076983cf",
+        "Sports": "DV",
+        "DOB": "2012-02-24T00:00:00",
+        "NAT": "United States of America",
+        "Disciplines": [
+          {
+            "DisciplineId": "581a26af-8e97-427c-9adb-5fdd8f4fc9c1",
+            "DisciplineCode": "003",
+            "DisciplineName": "Women's 10m Platform",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "97cdb654-4240-4fb3-8317-6c8fe83236b5"
+      },
+      {
+        "ResultId": 1733260,
+        "Gender": 0,
+        "PreferredLastName": "RYAN",
+        "PreferredFirstName": "Jack",
+        "ScoreboardPhotoId": "2485899d-c3fd-4495-b53f-b1cecad8356a",
+        "Sports": "DV",
+        "DOB": "2003-06-20T00:00:00",
+        "NAT": "United States of America",
+        "Disciplines": [
+          {
+            "DisciplineId": "4c18d241-ad14-436a-bd38-25dfb47f1cb7",
+            "DisciplineCode": "002",
+            "DisciplineName": "Men's 3m Springboard",
+            "PhaseId": "ebede09d-ff20-47bb-b3ce-6e191809d084",
+            "PhaseCode": "900",
+            "PhaseName": "Preliminaries",
+            "HeatName": "Head-To-Head"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "4ae3dbb2-1401-4ed0-b5cb-cef5808c2150"
+      },
+      {
+        "ResultId": 1637589,
+        "Gender": 0,
+        "PreferredLastName": "TYLER",
+        "PreferredFirstName": "Carson",
+        "ScoreboardPhotoId": "37ac2ef6-0c53-402e-9db5-4dabbc8707d8",
+        "Sports": "DV",
+        "DOB": "2004-06-09T00:00:00",
+        "NAT": "United States of America",
+        "Disciplines": [
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "6837d7ec-2f99-41b1-95c0-db9e52320058"
+      },
+      {
+        "ResultId": 1828765,
+        "Gender": 1,
+        "PreferredLastName": "VERZYL",
+        "PreferredFirstName": "Sophia",
+        "ScoreboardPhotoId": "4d9d76b6-a62a-4014-8680-e61dde544e0d",
+        "Sports": "DV",
+        "DOB": "2003-02-18T00:00:00",
+        "NAT": "United States of America",
+        "Disciplines": [
+          {
+            "DisciplineId": "61b483ec-4022-4555-9960-fba9cd1d702d",
+            "DisciplineCode": "202",
+            "DisciplineName": "Women's 3m Synchronised",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          },
+          {
+            "DisciplineId": "f981457d-1f4a-4cc4-a53e-00f569878860",
+            "DisciplineCode": "400",
+            "DisciplineName": "Mixed 3m & 10m Team",
+            "PhaseId": "3abd8d45-1c15-4bf9-94c8-7ebc1f3ec42e",
+            "PhaseCode": "100",
+            "PhaseName": "Finals",
+            "HeatName": "Finals"
+          }
+        ],
+        "PersonId": "332fb9f9-ca44-4b1d-b738-18838821f2f9"
+      }
+    ]
+  }
+]
