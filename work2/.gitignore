@@ -1,0 +1,10 @@
+target/
+dependency-reduced-pom.xml
+*.class
+*.jar
+output.txt
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
