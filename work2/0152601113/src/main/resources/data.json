@@ -1,0 +1,698 @@
+{
+  "players" : [ {
+    "country" : "Australia",
+    "lastName" : "COLE",
+    "firstName" : "Ellie",
+    "gender" : "Female"
+  }, {
+    "country" : "Australia",
+    "lastName" : "KEENEY",
+    "firstName" : "Maddison",
+    "gender" : "Female"
+  }, {
+    "country" : "Australia",
+    "lastName" : "KOLOI",
+    "firstName" : "Alysha",
+    "gender" : "Female"
+  }, {
+    "country" : "Australia",
+    "lastName" : "MERCIECA",
+    "firstName" : "Jonah",
+    "gender" : "Male"
+  }, {
+    "country" : "Australia",
+    "lastName" : "PUCKERIDGE",
+    "firstName" : "Milly",
+    "gender" : "Female"
+  }, {
+    "country" : "Australia",
+    "lastName" : "ROUSSEAU",
+    "firstName" : "Cassiel",
+    "gender" : "Male"
+  }, {
+    "country" : "Canada",
+    "lastName" : "CULLEN",
+    "firstName" : "Matt",
+    "gender" : "Male"
+  }, {
+    "country" : "Canada",
+    "lastName" : "ERLAM",
+    "firstName" : "Margo",
+    "gender" : "Female"
+  }, {
+    "country" : "Canada",
+    "lastName" : "FUNG",
+    "firstName" : "Katelyn",
+    "gender" : "Female"
+  }, {
+    "country" : "Canada",
+    "lastName" : "JASMIN",
+    "firstName" : "Amelie-Laura",
+    "gender" : "Female"
+  }, {
+    "country" : "Canada",
+    "lastName" : "MILLER",
+    "firstName" : "Kate",
+    "gender" : "Female"
+  }, {
+    "country" : "Canada",
+    "lastName" : "PALKHIVALA",
+    "firstName" : "Sonya",
+    "gender" : "Female"
+  }, {
+    "country" : "Canada",
+    "lastName" : "PAUL",
+    "firstName" : "Carson",
+    "gender" : "Male"
+  }, {
+    "country" : "Canada",
+    "lastName" : "TESSIER",
+    "firstName" : "Benjamin",
+    "gender" : "Male"
+  }, {
+    "country" : "Canada",
+    "lastName" : "VALLEE",
+    "firstName" : "Mia",
+    "gender" : "Female"
+  }, {
+    "country" : "Canada",
+    "lastName" : "ZSOMBOR-MURRAY",
+    "firstName" : "Nathan",
+    "gender" : "Male"
+  }, {
+    "country" : "People's Republic of China",
+    "lastName" : "BAI",
+    "firstName" : "Yuming",
+    "gender" : "Male"
+  }, {
+    "country" : "People's Republic of China",
+    "lastName" : "CHEN",
+    "firstName" : "Jia",
+    "gender" : "Female"
+  }, {
+    "country" : "People's Republic of China",
+    "lastName" : "CHEN",
+    "firstName" : "Yuxi",
+    "gender" : "Female"
+  }, {
+    "country" : "People's Republic of China",
+    "lastName" : "CHEN",
+    "firstName" : "Yiwen",
+    "gender" : "Female"
+  }, {
+    "country" : "People's Republic of China",
+    "lastName" : "JIANG",
+    "firstName" : "Linjing",
+    "gender" : "Female"
+  }, {
+    "country" : "People's Republic of China",
+    "lastName" : "LIAN",
+    "firstName" : "Junjie",
+    "gender" : "Male"
+  }, {
+    "country" : "People's Republic of China",
+    "lastName" : "LIN",
+    "firstName" : "Shan",
+    "gender" : "Female"
+  }, {
+    "country" : "People's Republic of China",
+    "lastName" : "LIU",
+    "firstName" : "Chengzan",
+    "gender" : "Male"
+  }, {
+    "country" : "People's Republic of China",
+    "lastName" : "LU",
+    "firstName" : "Wei",
+    "gender" : "Female"
+  }, {
+    "country" : "People's Republic of China",
+    "lastName" : "WANG",
+    "firstName" : "Zongyuan",
+    "gender" : "Male"
+  }, {
+    "country" : "People's Republic of China",
+    "lastName" : "YANG",
+    "firstName" : "Zhihao",
+    "gender" : "Male"
+  }, {
+    "country" : "People's Republic of China",
+    "lastName" : "ZHAO",
+    "firstName" : "Renjie",
+    "gender" : "Male"
+  }, {
+    "country" : "People's Republic of China",
+    "lastName" : "ZHENG",
+    "firstName" : "Jiuyuan",
+    "gender" : "Male"
+  }, {
+    "country" : "Colombia",
+    "lastName" : "URIBE BERMUDEZ",
+    "firstName" : "Luis Felipe",
+    "gender" : "Male"
+  }, {
+    "country" : "Colombia",
+    "lastName" : "ZAPATA CORREA",
+    "firstName" : "Daniela",
+    "gender" : "Female"
+  }, {
+    "country" : "Spain",
+    "lastName" : "CARVAJAL",
+    "firstName" : "Ana",
+    "gender" : "Female"
+  }, {
+    "country" : "France",
+    "lastName" : "BOUYER",
+    "firstName" : "Jules",
+    "gender" : "Male"
+  }, {
+    "country" : "Great Britain",
+    "lastName" : "CUTMORE",
+    "firstName" : "Ben",
+    "gender" : "Male"
+  }, {
+    "country" : "Great Britain",
+    "lastName" : "HARDING",
+    "firstName" : "Anthony",
+    "gender" : "Male"
+  }, {
+    "country" : "Great Britain",
+    "lastName" : "HARPER",
+    "firstName" : "Yasmin",
+    "gender" : "Female"
+  }, {
+    "country" : "Great Britain",
+    "lastName" : "HASLAM",
+    "firstName" : "Ross",
+    "gender" : "Male"
+  }, {
+    "country" : "Great Britain",
+    "lastName" : "LAUGHER",
+    "firstName" : "Jack",
+    "gender" : "Male"
+  }, {
+    "country" : "Great Britain",
+    "lastName" : "MCCABE",
+    "firstName" : "Euan",
+    "gender" : "Male"
+  }, {
+    "country" : "Great Britain",
+    "lastName" : "MEW JENSEN",
+    "firstName" : "Scarlett",
+    "gender" : "Female"
+  }, {
+    "country" : "Germany",
+    "lastName" : "MASSENBERG",
+    "firstName" : "Lou Noel Guy",
+    "gender" : "Male"
+  }, {
+    "country" : "Germany",
+    "lastName" : "PFEIF",
+    "firstName" : "Pauline Alexandra",
+    "gender" : "Female"
+  }, {
+    "country" : "Germany",
+    "lastName" : "SCHAUER",
+    "firstName" : "Jonathan Gisbert",
+    "gender" : "Male"
+  }, {
+    "country" : "Germany",
+    "lastName" : "WASSEN",
+    "firstName" : "Elena",
+    "gender" : "Female"
+  }, {
+    "country" : "Italy",
+    "lastName" : "CONTE",
+    "firstName" : "Simone",
+    "gender" : "Male"
+  }, {
+    "country" : "Italy",
+    "lastName" : "GIOVANNINI",
+    "firstName" : "Riccardo",
+    "gender" : "Male"
+  }, {
+    "country" : "Italy",
+    "lastName" : "JODOIN DI MARIA",
+    "firstName" : "Sarah",
+    "gender" : "Female"
+  }, {
+    "country" : "Italy",
+    "lastName" : "MARSAGLIA",
+    "firstName" : "Lorenzo",
+    "gender" : "Male"
+  }, {
+    "country" : "Italy",
+    "lastName" : "PIZZINI",
+    "firstName" : "Elisa",
+    "gender" : "Female"
+  }, {
+    "country" : "Italy",
+    "lastName" : "TOCCI",
+    "firstName" : "Giovanni",
+    "gender" : "Male"
+  }, {
+    "country" : "Japan",
+    "lastName" : "IKUMA",
+    "firstName" : "Senri",
+    "gender" : "Male"
+  }, {
+    "country" : "Japan",
+    "lastName" : "KANETO",
+    "firstName" : "Rin",
+    "gender" : "Female"
+  }, {
+    "country" : "Japan",
+    "lastName" : "SUYAMA",
+    "firstName" : "Haruki",
+    "gender" : "Male"
+  }, {
+    "country" : "Mexico",
+    "lastName" : "AGUNDEZ GARCIA",
+    "firstName" : "Gabriela",
+    "gender" : "Female"
+  }, {
+    "country" : "Mexico",
+    "lastName" : "BERLIN REYES",
+    "firstName" : "Kevin",
+    "gender" : "Male"
+  }, {
+    "country" : "Mexico",
+    "lastName" : "CELAYA HERNANDEZ",
+    "firstName" : "Juan Manuel",
+    "gender" : "Male"
+  }, {
+    "country" : "Mexico",
+    "lastName" : "CUEVA LOBATO",
+    "firstName" : "Mia Zazil",
+    "gender" : "Female"
+  }, {
+    "country" : "Mexico",
+    "lastName" : "CUEVA LOBATO",
+    "firstName" : "Lia Yatzil",
+    "gender" : "Female"
+  }, {
+    "country" : "Mexico",
+    "lastName" : "CUEVA LOBATO",
+    "firstName" : "Suri Zoe",
+    "gender" : "Female"
+  }, {
+    "country" : "Mexico",
+    "lastName" : "ESTUDILLO TORRES",
+    "firstName" : "Alejandra",
+    "gender" : "Female"
+  }, {
+    "country" : "Mexico",
+    "lastName" : "GARCIA SIXTOS",
+    "firstName" : "Maria Fernanda",
+    "gender" : "Female"
+  }, {
+    "country" : "Mexico",
+    "lastName" : "OLVERA IBARRA",
+    "firstName" : "Osmar",
+    "gender" : "Male"
+  }, {
+    "country" : "Mexico",
+    "lastName" : "VAZQUEZ MONTANO",
+    "firstName" : "Aranza",
+    "gender" : "Female"
+  }, {
+    "country" : "Mexico",
+    "lastName" : "WILLARS VALDEZ",
+    "firstName" : "Randal",
+    "gender" : "Male"
+  }, {
+    "country" : "Democratic People's Republic of Korea",
+    "lastName" : "JO",
+    "firstName" : "Jin Mi",
+    "gender" : "Female"
+  }, {
+    "country" : "Democratic People's Republic of Korea",
+    "lastName" : "KIM",
+    "firstName" : "Mi Rae",
+    "gender" : "Female"
+  }, {
+    "country" : "Russia",
+    "lastName" : "KAZANTSEVA",
+    "firstName" : "Viktoria",
+    "gender" : "Female"
+  }, {
+    "country" : "Russia",
+    "lastName" : "KLIUEVA",
+    "firstName" : "Uliana",
+    "gender" : "Female"
+  }, {
+    "country" : "Russia",
+    "lastName" : "KONANYKHINA",
+    "firstName" : "Anna",
+    "gender" : "Female"
+  }, {
+    "country" : "Russia",
+    "lastName" : "KUZINA",
+    "firstName" : "Elizaveta",
+    "gender" : "Female"
+  }, {
+    "country" : "Russia",
+    "lastName" : "SHLEIKHER",
+    "firstName" : "Nikita",
+    "gender" : "Male"
+  }, {
+    "country" : "Russia",
+    "lastName" : "TERNOVOI",
+    "firstName" : "Ruslan",
+    "gender" : "Male"
+  }, {
+    "country" : "Russia",
+    "lastName" : "TRIFONOVA",
+    "firstName" : "Nadezhda",
+    "gender" : "Female"
+  }, {
+    "country" : "Switzerland",
+    "lastName" : "HEIMBERG",
+    "firstName" : "Michelle",
+    "gender" : "Female"
+  }, {
+    "country" : "Ukraine",
+    "lastName" : "BAILO",
+    "firstName" : "Kseniia",
+    "gender" : "Female"
+  }, {
+    "country" : "Ukraine",
+    "lastName" : "BOCHEK",
+    "firstName" : "Kseniia",
+    "gender" : "Female"
+  }, {
+    "country" : "Ukraine",
+    "lastName" : "BOLIUKH",
+    "firstName" : "Kirill",
+    "gender" : "Male"
+  }, {
+    "country" : "Ukraine",
+    "lastName" : "HRYTSENKO",
+    "firstName" : "Mark",
+    "gender" : "Male"
+  }, {
+    "country" : "Ukraine",
+    "lastName" : "KARNAFEL",
+    "firstName" : "Diana",
+    "gender" : "Female"
+  }, {
+    "country" : "Ukraine",
+    "lastName" : "OLIFERCHYK",
+    "firstName" : "Stanislav",
+    "gender" : "Male"
+  }, {
+    "country" : "Ukraine",
+    "lastName" : "SEREDA",
+    "firstName" : "Oleksii",
+    "gender" : "Male"
+  }, {
+    "country" : "Ukraine",
+    "lastName" : "VYSTAVKINA",
+    "firstName" : "Sofiia",
+    "gender" : "Female"
+  }, {
+    "country" : "United States of America",
+    "lastName" : "KNIGHT",
+    "firstName" : "Kyndal",
+    "gender" : "Female"
+  }, {
+    "country" : "United States of America",
+    "lastName" : "KWONG",
+    "firstName" : "Anna",
+    "gender" : "Female"
+  }, {
+    "country" : "United States of America",
+    "lastName" : "MCAFEE",
+    "firstName" : "Sophia",
+    "gender" : "Female"
+  }, {
+    "country" : "United States of America",
+    "lastName" : "NIDAY",
+    "firstName" : "Ellireese",
+    "gender" : "Female"
+  }, {
+    "country" : "United States of America",
+    "lastName" : "RYAN",
+    "firstName" : "Jack",
+    "gender" : "Male"
+  }, {
+    "country" : "United States of America",
+    "lastName" : "TYLER",
+    "firstName" : "Carson",
+    "gender" : "Male"
+  }, {
+    "country" : "United States of America",
+    "lastName" : "VERZYL",
+    "firstName" : "Sophia",
+    "gender" : "Female"
+  } ],
+  "results" : {
+    "women 3m springboard" : [ {
+      "rank" : 1,
+      "fullName" : "CHEN Jia",
+      "dives" : [ "73.50", "74.40", "76.50", "72.00", "78.00" ],
+      "totalPoints" : "374.40"
+    }, {
+      "rank" : 2,
+      "fullName" : "CHEN Yiwen",
+      "dives" : [ "69.00", "72.00", "76.50", "79.05", "76.50" ],
+      "totalPoints" : "373.05"
+    }, {
+      "rank" : 3,
+      "fullName" : "KEENEY Maddison",
+      "dives" : [ "66.00", "49.50", "67.50", "74.40", "81.60" ],
+      "totalPoints" : "339.00"
+    }, {
+      "rank" : 4,
+      "fullName" : "KOLOI Alysha",
+      "dives" : [ "67.50", "65.10", "40.50", "58.50", "63.00" ],
+      "totalPoints" : "294.60"
+    } ],
+    "women 10m platform" : [ {
+      "rank" : 1,
+      "fullName" : "JIANG Linjing",
+      "dives" : [ "81.60", "73.50", "94.05", "86.40", "62.40" ],
+      "totalPoints" : "397.95"
+    }, {
+      "rank" : 2,
+      "fullName" : "KONANYKHINA Anna",
+      "dives" : [ "61.50", "76.80", "54.60", "49.50", "76.80" ],
+      "totalPoints" : "319.20"
+    }, {
+      "rank" : 3,
+      "fullName" : "PFEIF Pauline Alexandra",
+      "dives" : [ "46.50", "67.20", "72.00", "60.90", "70.40" ],
+      "totalPoints" : "317.00"
+    }, {
+      "rank" : 4,
+      "fullName" : "NIDAY Ellireese",
+      "dives" : [ "76.80", "40.60", "30.45", "72.80", "72.00" ],
+      "totalPoints" : "292.65"
+    } ],
+    "women 3m synchronised" : [ {
+      "rank" : 1,
+      "fullName" : "CHEN Jia / CHEN Yiwen",
+      "dives" : [ "51.60", "51.00", "73.80", "79.05", "75.60" ],
+      "totalPoints" : "331.05"
+    }, {
+      "rank" : 2,
+      "fullName" : "KEENEY Maddison / KOLOI Alysha",
+      "dives" : [ "49.20", "45.00", "69.30", "72.54", "63.90" ],
+      "totalPoints" : "299.94"
+    }, {
+      "rank" : 3,
+      "fullName" : "MEW JENSEN Scarlett / HARPER Yasmin",
+      "dives" : [ "49.20", "46.20", "69.30", "64.80", "65.10" ],
+      "totalPoints" : "294.60"
+    }, {
+      "rank" : 4,
+      "fullName" : "KWONG Anna / VERZYL Sophia",
+      "dives" : [ "46.80", "42.60", "58.50", "66.03", "62.22" ],
+      "totalPoints" : "276.15"
+    }, {
+      "rank" : 5,
+      "fullName" : "CUEVA LOBATO Mia Zazil / CUEVA LOBATO Lia Yatzil",
+      "dives" : [ "47.40", "46.20", "57.60", "56.73", "65.70" ],
+      "totalPoints" : "273.63"
+    }, {
+      "rank" : 6,
+      "fullName" : "TRIFONOVA Nadezhda / KLIUEVA Uliana",
+      "dives" : [ "47.40", "42.00", "65.70", "54.90", "63.00" ],
+      "totalPoints" : "273.00"
+    }, {
+      "rank" : 7,
+      "fullName" : "BOCHEK Kseniia / KARNAFEL Diana",
+      "dives" : [ "46.80", "40.20", "62.10", "54.00", "59.40" ],
+      "totalPoints" : "262.50"
+    }, {
+      "rank" : 8,
+      "fullName" : "VALLEE Mia / JASMIN Amelie-Laura",
+      "dives" : [ "44.40", "47.40", "46.80", "52.08", "60.30" ],
+      "totalPoints" : "250.98"
+    } ],
+    "women 10m synchronised" : [ {
+      "rank" : 1,
+      "fullName" : "CHEN Yuxi / LU Wei",
+      "dives" : [ "54.60", "55.80", "81.00", "84.48", "90.24" ],
+      "totalPoints" : "366.12"
+    }, {
+      "rank" : 2,
+      "fullName" : "JO Jin Mi / KIM Mi Rae",
+      "dives" : [ "54.00", "50.40", "72.90", "74.88", "69.12" ],
+      "totalPoints" : "321.30"
+    }, {
+      "rank" : 3,
+      "fullName" : "PUCKERIDGE Milly / COLE Ellie",
+      "dives" : [ "45.00", "46.20", "64.80", "66.24", "74.88" ],
+      "totalPoints" : "297.12"
+    }, {
+      "rank" : 4,
+      "fullName" : "ESTUDILLO TORRES Alejandra / AGUNDEZ GARCIA Gabriela",
+      "dives" : [ "46.80", "42.60", "68.40", "65.28", "72.96" ],
+      "totalPoints" : "296.04"
+    }, {
+      "rank" : 5,
+      "fullName" : "KAZANTSEVA Viktoria / KONANYKHINA Anna",
+      "dives" : [ "46.20", "45.60", "64.80", "60.48", "67.20" ],
+      "totalPoints" : "284.28"
+    }, {
+      "rank" : 6,
+      "fullName" : "VYSTAVKINA Sofiia / BAILO Kseniia",
+      "dives" : [ "45.60", "46.20", "65.70", "62.40", "58.56" ],
+      "totalPoints" : "278.46"
+    }, {
+      "rank" : 7,
+      "fullName" : "MILLER Kate / FUNG Katelyn",
+      "dives" : [ "47.40", "43.80", "67.50", "42.24", "74.88" ],
+      "totalPoints" : "275.82"
+    }, {
+      "rank" : 8,
+      "fullName" : "WASSEN Elena / PFEIF Pauline Alexandra",
+      "dives" : [ "43.80", "42.60", "45.12", "61.20", "50.88" ],
+      "totalPoints" : "243.60"
+    } ],
+    "men 3m springboard" : [ {
+      "rank" : 1,
+      "fullName" : "WANG Zongyuan",
+      "dives" : [ "86.70", "89.25", "95.55", "89.25", "81.00", "102.60" ],
+      "totalPoints" : "544.35"
+    }, {
+      "rank" : 2,
+      "fullName" : "ZHENG Jiuyuan",
+      "dives" : [ "78.20", "89.25", "87.50", "70.50", "91.20", "83.85" ],
+      "totalPoints" : "500.50"
+    }, {
+      "rank" : 3,
+      "fullName" : "OLVERA IBARRA Osmar",
+      "dives" : [ "86.70", "71.75", "46.80", "86.70", "96.90", "91.65" ],
+      "totalPoints" : "480.50"
+    }, {
+      "rank" : 4,
+      "fullName" : "BOUYER Jules",
+      "dives" : [ "66.30", "81.60", "72.00", "70.00", "73.50", "79.80" ],
+      "totalPoints" : "443.20"
+    } ],
+    "men 10m platform" : [ {
+      "rank" : 1,
+      "fullName" : "BAI Yuming",
+      "dives" : [ "81.60", "86.40", "77.00", "91.80", "104.40", "101.75" ],
+      "totalPoints" : "542.95"
+    }, {
+      "rank" : 2,
+      "fullName" : "WILLARS VALDEZ Randal",
+      "dives" : [ "85.75", "76.50", "87.50", "93.60", "88.20", "106.60" ],
+      "totalPoints" : "538.15"
+    }, {
+      "rank" : 3,
+      "fullName" : "LIAN Junjie",
+      "dives" : [ "91.20", "96.00", "94.50", "49.30", "64.80", "111.00" ],
+      "totalPoints" : "506.80"
+    }, {
+      "rank" : 4,
+      "fullName" : "ROUSSEAU Cassiel",
+      "dives" : [ "81.60", "81.60", "48.60", "90.00", "86.40", "92.50" ],
+      "totalPoints" : "480.70"
+    } ],
+    "men 3m synchronised" : [ {
+      "rank" : 1,
+      "fullName" : "WANG Zongyuan / ZHENG Jiuyuan",
+      "dives" : [ "51.60", "54.60", "85.05", "85.68", "86.64", "97.11" ],
+      "totalPoints" : "460.68"
+    }, {
+      "rank" : 2,
+      "fullName" : "CELAYA HERNANDEZ Juan Manuel / OLVERA IBARRA Osmar",
+      "dives" : [ "49.80", "49.20", "81.60", "82.62", "67.26", "90.09" ],
+      "totalPoints" : "420.57"
+    }, {
+      "rank" : 3,
+      "fullName" : "HARDING Anthony / LAUGHER Jack",
+      "dives" : [ "50.40", "51.60", "74.40", "79.56", "79.56", "70.68" ],
+      "totalPoints" : "406.20"
+    }, {
+      "rank" : 4,
+      "fullName" : "BOLIUKH Kirill / OLIFERCHYK Stanislav",
+      "dives" : [ "49.80", "46.80", "75.48", "68.82", "83.22", "72.42" ],
+      "totalPoints" : "396.54"
+    }, {
+      "rank" : 5,
+      "fullName" : "ZSOMBOR-MURRAY Nathan / PAUL Carson",
+      "dives" : [ "49.80", "48.00", "70.38", "73.50", "70.68", "77.52" ],
+      "totalPoints" : "389.88"
+    }, {
+      "rank" : 6,
+      "fullName" : "SCHAUER Jonathan Gisbert / MASSENBERG Lou Noel Guy",
+      "dives" : [ "48.60", "48.00", "77.52", "66.30", "72.45", "70.68" ],
+      "totalPoints" : "383.55"
+    }, {
+      "rank" : 7,
+      "fullName" : "IKUMA Senri / SUYAMA Haruki",
+      "dives" : [ "46.80", "47.40", "65.10", "74.46", "70.20", "74.55" ],
+      "totalPoints" : "378.51"
+    }, {
+      "rank" : 8,
+      "fullName" : "MARSAGLIA Lorenzo / TOCCI Giovanni",
+      "dives" : [ "48.00", "48.00", "70.68", "79.56", "67.32", "62.70" ],
+      "totalPoints" : "376.26"
+    } ],
+    "men 10m synchronised" : [ {
+      "rank" : 1,
+      "fullName" : "ZHAO Renjie / YANG Zhihao",
+      "dives" : [ "57.00", "49.80", "87.36", "91.80", "66.60", "96.12" ],
+      "totalPoints" : "448.68"
+    }, {
+      "rank" : 2,
+      "fullName" : "HRYTSENKO Mark / SEREDA Oleksii",
+      "dives" : [ "49.20", "48.00", "75.84", "79.92", "71.40", "79.92" ],
+      "totalPoints" : "404.28"
+    }, {
+      "rank" : 3,
+      "fullName" : "BERLIN REYES Kevin / WILLARS VALDEZ Randal",
+      "dives" : [ "50.40", "47.40", "76.50", "81.00", "71.04", "76.68" ],
+      "totalPoints" : "403.02"
+    }, {
+      "rank" : 4,
+      "fullName" : "MCCABE Euan / CUTMORE Ben",
+      "dives" : [ "45.60", "48.00", "73.44", "74.52", "68.82", "66.96" ],
+      "totalPoints" : "377.34"
+    }, {
+      "rank" : 5,
+      "fullName" : "CULLEN Matt / TESSIER Benjamin",
+      "dives" : [ "51.00", "48.60", "71.40", "84.24", "51.06", "69.12" ],
+      "totalPoints" : "375.42"
+    }, {
+      "rank" : 6,
+      "fullName" : "GIOVANNINI Riccardo / CONTE Simone",
+      "dives" : [ "49.20", "47.40", "72.00", "73.26", "68.40", "60.48" ],
+      "totalPoints" : "370.74"
+    }, {
+      "rank" : 7,
+      "fullName" : "MERCIECA Jonah / ROUSSEAU Cassiel",
+      "dives" : [ "47.40", "47.40", "71.04", "75.84", "65.28", "61.05" ],
+      "totalPoints" : "368.01"
+    }, {
+      "rank" : 8,
+      "fullName" : "SHLEIKHER Nikita / TERNOVOI Ruslan",
+      "dives" : [ "48.60", "50.40", "57.12", "51.84", "69.93", "76.68" ],
+      "totalPoints" : "354.57"
+    } ]
+  }
+}
