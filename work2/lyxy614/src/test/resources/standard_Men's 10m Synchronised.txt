@@ -1,0 +1,32 @@
+Full Name:ZHAO Renjie / YANG Zhihao
+Rank:1
+Score:57.00 + 49.80 + 87.36 + 91.80 + 66.60 + 96.12 = 448.68
+-----
+Full Name:HRYTSENKO Mark / SEREDA Oleksii
+Rank:2
+Score:49.20 + 48.00 + 75.84 + 79.92 + 71.40 + 79.92 = 404.28
+-----
+Full Name:BERLIN REYES Kevin / WILLARS VALDEZ Randal
+Rank:3
+Score:50.40 + 47.40 + 76.50 + 81.00 + 71.04 + 76.68 = 403.02
+-----
+Full Name:MCCABE Euan / CUTMORE Ben
+Rank:4
+Score:45.60 + 48.00 + 73.44 + 74.52 + 68.82 + 66.96 = 377.34
+-----
+Full Name:CULLEN Matt / TESSIER Benjamin
+Rank:5
+Score:51.00 + 48.60 + 71.40 + 84.24 + 51.06 + 69.12 = 375.42
+-----
+Full Name:GIOVANNINI Riccardo / CONTE Simone
+Rank:6
+Score:49.20 + 47.40 + 72.00 + 73.26 + 68.40 + 60.48 = 370.74
+-----
+Full Name:MERCIECA Jonah / ROUSSEAU Cassiel
+Rank:7
+Score:47.40 + 47.40 + 71.04 + 75.84 + 65.28 + 61.05 = 368.01
+-----
+Full Name:SHLEIKHER Nikita / TERNOVOI Ruslan
+Rank:8
+Score:48.60 + 50.40 + 57.12 + 51.84 + 69.93 + 76.68 = 354.57
+-----

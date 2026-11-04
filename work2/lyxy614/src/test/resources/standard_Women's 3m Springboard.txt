@@ -1,0 +1,16 @@
+Full Name:CHEN Jia
+Rank:1
+Score:73.50 + 74.40 + 76.50 + 72.00 + 78.00 = 374.40
+-----
+Full Name:CHEN Yiwen
+Rank:2
+Score:69.00 + 72.00 + 76.50 + 79.05 + 76.50 = 373.05
+-----
+Full Name:KEENEY Maddison
+Rank:3
+Score:66.00 + 49.50 + 67.50 + 74.40 + 81.60 = 339.00
+-----
+Full Name:KOLOI Alysha
+Rank:4
+Score:67.50 + 65.10 + 40.50 + 58.50 + 63.00 = 294.60
+-----
