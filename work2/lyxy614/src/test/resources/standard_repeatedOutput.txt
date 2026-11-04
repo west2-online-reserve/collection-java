@@ -1,0 +1,752 @@
+Full Name:COLE Ellie
+Gender:Female
+Country:Australia
+-----
+Full Name:KEENEY Maddison
+Gender:Female
+Country:Australia
+-----
+Full Name:KOLOI Alysha
+Gender:Female
+Country:Australia
+-----
+Full Name:MERCIECA Jonah
+Gender:Male
+Country:Australia
+-----
+Full Name:PUCKERIDGE Milly
+Gender:Female
+Country:Australia
+-----
+Full Name:ROUSSEAU Cassiel
+Gender:Male
+Country:Australia
+-----
+Full Name:CULLEN Matt
+Gender:Male
+Country:Canada
+-----
+Full Name:ERLAM Margo
+Gender:Female
+Country:Canada
+-----
+Full Name:FUNG Katelyn
+Gender:Female
+Country:Canada
+-----
+Full Name:JASMIN Amelie-Laura
+Gender:Female
+Country:Canada
+-----
+Full Name:MILLER Kate
+Gender:Female
+Country:Canada
+-----
+Full Name:PALKHIVALA Sonya
+Gender:Female
+Country:Canada
+-----
+Full Name:PAUL Carson
+Gender:Male
+Country:Canada
+-----
+Full Name:TESSIER Benjamin
+Gender:Male
+Country:Canada
+-----
+Full Name:VALLEE Mia
+Gender:Female
+Country:Canada
+-----
+Full Name:ZSOMBOR-MURRAY Nathan
+Gender:Male
+Country:Canada
+-----
+Full Name:URIBE BERMUDEZ Luis Felipe
+Gender:Male
+Country:Colombia
+-----
+Full Name:ZAPATA CORREA Daniela
+Gender:Female
+Country:Colombia
+-----
+Full Name:JO Jin Mi
+Gender:Female
+Country:Democratic People's Republic of Korea
+-----
+Full Name:KIM Mi Rae
+Gender:Female
+Country:Democratic People's Republic of Korea
+-----
+Full Name:BOUYER Jules
+Gender:Male
+Country:France
+-----
+Full Name:MASSENBERG Lou Noel Guy
+Gender:Male
+Country:Germany
+-----
+Full Name:PFEIF Pauline Alexandra
+Gender:Female
+Country:Germany
+-----
+Full Name:SCHAUER Jonathan Gisbert
+Gender:Male
+Country:Germany
+-----
+Full Name:WASSEN Elena
+Gender:Female
+Country:Germany
+-----
+Full Name:CUTMORE Ben
+Gender:Male
+Country:Great Britain
+-----
+Full Name:HARDING Anthony
+Gender:Male
+Country:Great Britain
+-----
+Full Name:HARPER Yasmin
+Gender:Female
+Country:Great Britain
+-----
+Full Name:HASLAM Ross
+Gender:Male
+Country:Great Britain
+-----
+Full Name:LAUGHER Jack
+Gender:Male
+Country:Great Britain
+-----
+Full Name:MCCABE Euan
+Gender:Male
+Country:Great Britain
+-----
+Full Name:MEW JENSEN Scarlett
+Gender:Female
+Country:Great Britain
+-----
+Full Name:CONTE Simone
+Gender:Male
+Country:Italy
+-----
+Full Name:GIOVANNINI Riccardo
+Gender:Male
+Country:Italy
+-----
+Full Name:JODOIN DI MARIA Sarah
+Gender:Female
+Country:Italy
+-----
+Full Name:MARSAGLIA Lorenzo
+Gender:Male
+Country:Italy
+-----
+Full Name:PIZZINI Elisa
+Gender:Female
+Country:Italy
+-----
+Full Name:TOCCI Giovanni
+Gender:Male
+Country:Italy
+-----
+Full Name:IKUMA Senri
+Gender:Male
+Country:Japan
+-----
+Full Name:KANETO Rin
+Gender:Female
+Country:Japan
+-----
+Full Name:SUYAMA Haruki
+Gender:Male
+Country:Japan
+-----
+Full Name:AGUNDEZ GARCIA Gabriela
+Gender:Female
+Country:Mexico
+-----
+Full Name:BERLIN REYES Kevin
+Gender:Male
+Country:Mexico
+-----
+Full Name:CELAYA HERNANDEZ Juan Manuel
+Gender:Male
+Country:Mexico
+-----
+Full Name:CUEVA LOBATO Mia Zazil
+Gender:Female
+Country:Mexico
+-----
+Full Name:CUEVA LOBATO Lia Yatzil
+Gender:Female
+Country:Mexico
+-----
+Full Name:CUEVA LOBATO Suri Zoe
+Gender:Female
+Country:Mexico
+-----
+Full Name:ESTUDILLO TORRES Alejandra
+Gender:Female
+Country:Mexico
+-----
+Full Name:GARCIA SIXTOS Maria Fernanda
+Gender:Female
+Country:Mexico
+-----
+Full Name:OLVERA IBARRA Osmar
+Gender:Male
+Country:Mexico
+-----
+Full Name:VAZQUEZ MONTANO Aranza
+Gender:Female
+Country:Mexico
+-----
+Full Name:WILLARS VALDEZ Randal
+Gender:Male
+Country:Mexico
+-----
+Full Name:BAI Yuming
+Gender:Male
+Country:People's Republic of China
+-----
+Full Name:CHEN Jia
+Gender:Female
+Country:People's Republic of China
+-----
+Full Name:CHEN Yuxi
+Gender:Female
+Country:People's Republic of China
+-----
+Full Name:CHEN Yiwen
+Gender:Female
+Country:People's Republic of China
+-----
+Full Name:JIANG Linjing
+Gender:Female
+Country:People's Republic of China
+-----
+Full Name:LIAN Junjie
+Gender:Male
+Country:People's Republic of China
+-----
+Full Name:LIN Shan
+Gender:Female
+Country:People's Republic of China
+-----
+Full Name:LIU Chengzan
+Gender:Male
+Country:People's Republic of China
+-----
+Full Name:LU Wei
+Gender:Female
+Country:People's Republic of China
+-----
+Full Name:WANG Zongyuan
+Gender:Male
+Country:People's Republic of China
+-----
+Full Name:YANG Zhihao
+Gender:Male
+Country:People's Republic of China
+-----
+Full Name:ZHAO Renjie
+Gender:Male
+Country:People's Republic of China
+-----
+Full Name:ZHENG Jiuyuan
+Gender:Male
+Country:People's Republic of China
+-----
+Full Name:KAZANTSEVA Viktoria
+Gender:Female
+Country:Russia
+-----
+Full Name:KLIUEVA Uliana
+Gender:Female
+Country:Russia
+-----
+Full Name:KONANYKHINA Anna
+Gender:Female
+Country:Russia
+-----
+Full Name:KUZINA Elizaveta
+Gender:Female
+Country:Russia
+-----
+Full Name:SHLEIKHER Nikita
+Gender:Male
+Country:Russia
+-----
+Full Name:TERNOVOI Ruslan
+Gender:Male
+Country:Russia
+-----
+Full Name:TRIFONOVA Nadezhda
+Gender:Female
+Country:Russia
+-----
+Full Name:CARVAJAL Ana
+Gender:Female
+Country:Spain
+-----
+Full Name:HEIMBERG Michelle
+Gender:Female
+Country:Switzerland
+-----
+Full Name:BAILO Kseniia
+Gender:Female
+Country:Ukraine
+-----
+Full Name:BOCHEK Kseniia
+Gender:Female
+Country:Ukraine
+-----
+Full Name:BOLIUKH Kirill
+Gender:Male
+Country:Ukraine
+-----
+Full Name:HRYTSENKO Mark
+Gender:Male
+Country:Ukraine
+-----
+Full Name:KARNAFEL Diana
+Gender:Female
+Country:Ukraine
+-----
+Full Name:OLIFERCHYK Stanislav
+Gender:Male
+Country:Ukraine
+-----
+Full Name:SEREDA Oleksii
+Gender:Male
+Country:Ukraine
+-----
+Full Name:VYSTAVKINA Sofiia
+Gender:Female
+Country:Ukraine
+-----
+Full Name:KNIGHT Kyndal
+Gender:Female
+Country:United States of America
+-----
+Full Name:KWONG Anna
+Gender:Female
+Country:United States of America
+-----
+Full Name:MCAFEE Sophia
+Gender:Female
+Country:United States of America
+-----
+Full Name:NIDAY Ellireese
+Gender:Female
+Country:United States of America
+-----
+Full Name:RYAN Jack
+Gender:Male
+Country:United States of America
+-----
+Full Name:TYLER Carson
+Gender:Male
+Country:United States of America
+-----
+Full Name:VERZYL Sophia
+Gender:Female
+Country:United States of America
+-----
+Full Name:COLE Ellie
+Gender:Female
+Country:Australia
+-----
+Full Name:KEENEY Maddison
+Gender:Female
+Country:Australia
+-----
+Full Name:KOLOI Alysha
+Gender:Female
+Country:Australia
+-----
+Full Name:MERCIECA Jonah
+Gender:Male
+Country:Australia
+-----
+Full Name:PUCKERIDGE Milly
+Gender:Female
+Country:Australia
+-----
+Full Name:ROUSSEAU Cassiel
+Gender:Male
+Country:Australia
+-----
+Full Name:CULLEN Matt
+Gender:Male
+Country:Canada
+-----
+Full Name:ERLAM Margo
+Gender:Female
+Country:Canada
+-----
+Full Name:FUNG Katelyn
+Gender:Female
+Country:Canada
+-----
+Full Name:JASMIN Amelie-Laura
+Gender:Female
+Country:Canada
+-----
+Full Name:MILLER Kate
+Gender:Female
+Country:Canada
+-----
+Full Name:PALKHIVALA Sonya
+Gender:Female
+Country:Canada
+-----
+Full Name:PAUL Carson
+Gender:Male
+Country:Canada
+-----
+Full Name:TESSIER Benjamin
+Gender:Male
+Country:Canada
+-----
+Full Name:VALLEE Mia
+Gender:Female
+Country:Canada
+-----
+Full Name:ZSOMBOR-MURRAY Nathan
+Gender:Male
+Country:Canada
+-----
+Full Name:URIBE BERMUDEZ Luis Felipe
+Gender:Male
+Country:Colombia
+-----
+Full Name:ZAPATA CORREA Daniela
+Gender:Female
+Country:Colombia
+-----
+Full Name:JO Jin Mi
+Gender:Female
+Country:Democratic People's Republic of Korea
+-----
+Full Name:KIM Mi Rae
+Gender:Female
+Country:Democratic People's Republic of Korea
+-----
+Full Name:BOUYER Jules
+Gender:Male
+Country:France
+-----
+Full Name:MASSENBERG Lou Noel Guy
+Gender:Male
+Country:Germany
+-----
+Full Name:PFEIF Pauline Alexandra
+Gender:Female
+Country:Germany
+-----
+Full Name:SCHAUER Jonathan Gisbert
+Gender:Male
+Country:Germany
+-----
+Full Name:WASSEN Elena
+Gender:Female
+Country:Germany
+-----
+Full Name:CUTMORE Ben
+Gender:Male
+Country:Great Britain
+-----
+Full Name:HARDING Anthony
+Gender:Male
+Country:Great Britain
+-----
+Full Name:HARPER Yasmin
+Gender:Female
+Country:Great Britain
+-----
+Full Name:HASLAM Ross
+Gender:Male
+Country:Great Britain
+-----
+Full Name:LAUGHER Jack
+Gender:Male
+Country:Great Britain
+-----
+Full Name:MCCABE Euan
+Gender:Male
+Country:Great Britain
+-----
+Full Name:MEW JENSEN Scarlett
+Gender:Female
+Country:Great Britain
+-----
+Full Name:CONTE Simone
+Gender:Male
+Country:Italy
+-----
+Full Name:GIOVANNINI Riccardo
+Gender:Male
+Country:Italy
+-----
+Full Name:JODOIN DI MARIA Sarah
+Gender:Female
+Country:Italy
+-----
+Full Name:MARSAGLIA Lorenzo
+Gender:Male
+Country:Italy
+-----
+Full Name:PIZZINI Elisa
+Gender:Female
+Country:Italy
+-----
+Full Name:TOCCI Giovanni
+Gender:Male
+Country:Italy
+-----
+Full Name:IKUMA Senri
+Gender:Male
+Country:Japan
+-----
+Full Name:KANETO Rin
+Gender:Female
+Country:Japan
+-----
+Full Name:SUYAMA Haruki
+Gender:Male
+Country:Japan
+-----
+Full Name:AGUNDEZ GARCIA Gabriela
+Gender:Female
+Country:Mexico
+-----
+Full Name:BERLIN REYES Kevin
+Gender:Male
+Country:Mexico
+-----
+Full Name:CELAYA HERNANDEZ Juan Manuel
+Gender:Male
+Country:Mexico
+-----
+Full Name:CUEVA LOBATO Mia Zazil
+Gender:Female
+Country:Mexico
+-----
+Full Name:CUEVA LOBATO Lia Yatzil
+Gender:Female
+Country:Mexico
+-----
+Full Name:CUEVA LOBATO Suri Zoe
+Gender:Female
+Country:Mexico
+-----
+Full Name:ESTUDILLO TORRES Alejandra
+Gender:Female
+Country:Mexico
+-----
+Full Name:GARCIA SIXTOS Maria Fernanda
+Gender:Female
+Country:Mexico
+-----
+Full Name:OLVERA IBARRA Osmar
+Gender:Male
+Country:Mexico
+-----
+Full Name:VAZQUEZ MONTANO Aranza
+Gender:Female
+Country:Mexico
+-----
+Full Name:WILLARS VALDEZ Randal
+Gender:Male
+Country:Mexico
+-----
+Full Name:BAI Yuming
+Gender:Male
+Country:People's Republic of China
+-----
+Full Name:CHEN Jia
+Gender:Female
+Country:People's Republic of China
+-----
+Full Name:CHEN Yuxi
+Gender:Female
+Country:People's Republic of China
+-----
+Full Name:CHEN Yiwen
+Gender:Female
+Country:People's Republic of China
+-----
+Full Name:JIANG Linjing
+Gender:Female
+Country:People's Republic of China
+-----
+Full Name:LIAN Junjie
+Gender:Male
+Country:People's Republic of China
+-----
+Full Name:LIN Shan
+Gender:Female
+Country:People's Republic of China
+-----
+Full Name:LIU Chengzan
+Gender:Male
+Country:People's Republic of China
+-----
+Full Name:LU Wei
+Gender:Female
+Country:People's Republic of China
+-----
+Full Name:WANG Zongyuan
+Gender:Male
+Country:People's Republic of China
+-----
+Full Name:YANG Zhihao
+Gender:Male
+Country:People's Republic of China
+-----
+Full Name:ZHAO Renjie
+Gender:Male
+Country:People's Republic of China
+-----
+Full Name:ZHENG Jiuyuan
+Gender:Male
+Country:People's Republic of China
+-----
+Full Name:KAZANTSEVA Viktoria
+Gender:Female
+Country:Russia
+-----
+Full Name:KLIUEVA Uliana
+Gender:Female
+Country:Russia
+-----
+Full Name:KONANYKHINA Anna
+Gender:Female
+Country:Russia
+-----
+Full Name:KUZINA Elizaveta
+Gender:Female
+Country:Russia
+-----
+Full Name:SHLEIKHER Nikita
+Gender:Male
+Country:Russia
+-----
+Full Name:TERNOVOI Ruslan
+Gender:Male
+Country:Russia
+-----
+Full Name:TRIFONOVA Nadezhda
+Gender:Female
+Country:Russia
+-----
+Full Name:CARVAJAL Ana
+Gender:Female
+Country:Spain
+-----
+Full Name:HEIMBERG Michelle
+Gender:Female
+Country:Switzerland
+-----
+Full Name:BAILO Kseniia
+Gender:Female
+Country:Ukraine
+-----
+Full Name:BOCHEK Kseniia
+Gender:Female
+Country:Ukraine
+-----
+Full Name:BOLIUKH Kirill
+Gender:Male
+Country:Ukraine
+-----
+Full Name:HRYTSENKO Mark
+Gender:Male
+Country:Ukraine
+-----
+Full Name:KARNAFEL Diana
+Gender:Female
+Country:Ukraine
+-----
+Full Name:OLIFERCHYK Stanislav
+Gender:Male
+Country:Ukraine
+-----
+Full Name:SEREDA Oleksii
+Gender:Male
+Country:Ukraine
+-----
+Full Name:VYSTAVKINA Sofiia
+Gender:Female
+Country:Ukraine
+-----
+Full Name:KNIGHT Kyndal
+Gender:Female
+Country:United States of America
+-----
+Full Name:KWONG Anna
+Gender:Female
+Country:United States of America
+-----
+Full Name:MCAFEE Sophia
+Gender:Female
+Country:United States of America
+-----
+Full Name:NIDAY Ellireese
+Gender:Female
+Country:United States of America
+-----
+Full Name:RYAN Jack
+Gender:Male
+Country:United States of America
+-----
+Full Name:TYLER Carson
+Gender:Male
+Country:United States of America
+-----
+Full Name:VERZYL Sophia
+Gender:Female
+Country:United States of America
+-----
+Full Name:BAI Yuming
+Rank:1
+Score:81.60 + 86.40 + 77.00 + 91.80 + 104.40 + 101.75 = 542.95
+-----
+Full Name:WILLARS VALDEZ Randal
+Rank:2
+Score:85.75 + 76.50 + 87.50 + 93.60 + 88.20 + 106.60 = 538.15
+-----
+Full Name:LIAN Junjie
+Rank:3
+Score:91.20 + 96.00 + 94.50 + 49.30 + 64.80 + 111.00 = 506.80
+-----
+Full Name:ROUSSEAU Cassiel
+Rank:4
+Score:81.60 + 81.60 + 48.60 + 90.00 + 86.40 + 92.50 = 480.70
+-----
+Full Name:BAI Yuming
+Rank:1
+Score:81.60 + 86.40 + 77.00 + 91.80 + 104.40 + 101.75 = 542.95
+-----
+Full Name:WILLARS VALDEZ Randal
+Rank:2
+Score:85.75 + 76.50 + 87.50 + 93.60 + 88.20 + 106.60 = 538.15
+-----
+Full Name:LIAN Junjie
+Rank:3
+Score:91.20 + 96.00 + 94.50 + 49.30 + 64.80 + 111.00 = 506.80
+-----
+Full Name:ROUSSEAU Cassiel
+Rank:4
+Score:81.60 + 81.60 + 48.60 + 90.00 + 86.40 + 92.50 = 480.70
+-----
+N/A
+-----
+N/A
+-----
+Error
+-----
+Error
+-----

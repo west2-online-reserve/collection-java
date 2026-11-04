@@ -1,0 +1,32 @@
+Full Name:LIU Chengzan / LIN Shan / LU Wei / BAI Yuming
+Rank:1
+Score:72.00 + 85.00 + 52.50 + 52.50 + 89.10 + 85.10 + 80.00 + 80.00 = 463.70
+-----
+Full Name:VAZQUEZ MONTANO Aranza / ESTUDILLO TORRES Alejandra / OLVERA IBARRA Osmar / WILLARS VALDEZ Randal
+Rank:2
+Score:61.50 + 77.90 + 67.50 + 67.50 + 62.90 + 73.50 + 79.20 + 79.20 = 422.50
+-----
+Full Name:KEENEY Maddison / COLE Ellie / ROUSSEAU Cassiel
+Rank:3
+Score:54.40 + 57.35 + 60.00 + 60.00 + 81.60 + 86.70 + 70.40 + 70.40 = 410.45
+-----
+Full Name:CULLEN Matt / VALLEE Mia / ZSOMBOR-MURRAY Nathan / FUNG Katelyn
+Rank:4
+Score:58.50 + 76.00 + 63.00 + 63.00 + 59.20 + 84.60 + 67.20 + 67.20 = 408.50
+-----
+Full Name:SHLEIKHER Nikita / TERNOVOI Ruslan / KLIUEVA Uliana / KAZANTSEVA Viktoria
+Rank:5
+Score:63.55 + 78.75 + 58.50 + 58.50 + 67.20 + 68.40 + 68.80 + 68.80 = 405.20
+-----
+Full Name:BOCHEK Kseniia / BOLIUKH Kirill / SEREDA Oleksii / BAILO Kseniia
+Rank:6
+Score:43.50 + 68.40 + 67.50 + 67.50 + 65.60 + 84.60 + 72.00 + 72.00 = 401.60
+-----
+Full Name:GIOVANNINI Riccardo / JODOIN DI MARIA Sarah / CONTE Simone / PIZZINI Elisa
+Rank:7
+Score:51.00 + 57.00 + 61.50 + 61.50 + 67.20 + 62.70 + 67.20 + 67.20 = 366.60
+-----
+Full Name:MCAFEE Sophia / RYAN Jack / VERZYL Sophia / TYLER Carson
+Rank:8
+Score:55.80 + 63.00 + 59.50 + 59.50 + 52.20 + 63.00 + 67.20 + 67.20 = 360.70
+-----
