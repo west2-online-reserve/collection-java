@@ -1,0 +1,37 @@
+[ {
+  "name" : "QUAN Hongchan",
+  "country" : "China",
+  "project" : "Women 10m Platform",
+  "score" : 436.25,
+  "rank" : 1
+}, {
+  "name" : "CHEN Yuxi",
+  "country" : "China",
+  "project" : "Women 10m Platform",
+  "score" : 427.8,
+  "rank" : 2
+}, {
+  "name" : "Andrea SPENDOLINI",
+  "country" : "Great Britain",
+  "project" : "Women 10m Platform",
+  "score" : 377.4,
+  "rank" : 3
+}, {
+  "name" : "WANG Zongyuan",
+  "country" : "China",
+  "project" : "Men 3m Springboard",
+  "score" : 525.8,
+  "rank" : 1
+}, {
+  "name" : "XIE Siyi",
+  "country" : "China",
+  "project" : "Men 3m Springboard",
+  "score" : 516.3,
+  "rank" : 2
+}, {
+  "name" : "OSMAR Olvera",
+  "country" : "Mexico",
+  "project" : "Men 3m Springboard",
+  "score" : 490.15,
+  "rank" : 3
+} ]
