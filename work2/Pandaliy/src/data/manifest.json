@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-11-05T11:10:33Z",
+  "source": {
+    "provider": "World Aquatics",
+    "competitionEndpoint": "https://api.worldaquatics.com/fina/competitions/5019/events",
+    "athletesEndpoint": "https://api.worldaquatics.com/fina/competitions/5019/athletes",
+    "eventEndpointTemplate": "https://api.worldaquatics.com/fina/events/{eventId}"
+  },
+  "counts": {
+    "players": 89,
+    "events": 8,
+    "results": 48
+  },
+  "files": {
+    "data.json": {
+      "sha256": "24ba862b446ccbd8b2534598cc279a806025d881835b5a9d36e1139b70bc0f83"
+    }
+  }
+}

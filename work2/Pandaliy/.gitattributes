@@ -1,0 +1,8 @@
+# 统一换行：仓库与工作区都用 LF，避免 Windows 上 checkout 出 CRLF 导致
+# src/data/data.json 的 SHA-256（README 中记录为 24ba862b…）与实际文件不一致。
+* text=auto eol=lf
+
+# 二进制文件不做换行转换
+*.jar binary
+*.png binary
+*.jpg binary
