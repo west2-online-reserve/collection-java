@@ -1,0 +1,14 @@
+target/
+*.jar
+*.class
+.idea/
+*.iml
+out/
+.DS_Store
+
+# maven-shade-plugin 打包时自动生成的临时 POM
+dependency-reduced-pom.xml
+
+# 本地测试用的输入输出（不属于交付物）
+input.txt
+output.txt

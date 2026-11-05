@@ -1,0 +1,1629 @@
+{
+  "meta": {
+    "competition": "World Aquatics Diving World Cup 2026 - Super Final",
+    "competitionId": 5019,
+    "city": "Beijing",
+    "country": "People's Republic of China",
+    "dateFrom": "2026-05-01",
+    "dateTo": "2026-05-03",
+    "fetchedAt": "2026-11-02T19:02:09+08:00",
+    "sources": {
+      "events": "https://api.worldaquatics.com/fina/competitions/5019/events",
+      "athletes": "https://api.worldaquatics.com/fina/competitions/5019/athletes",
+      "event": "https://api.worldaquatics.com/fina/events/{disciplineId}"
+    }
+  },
+  "players": [
+    {
+      "fullName": "COLE Ellie",
+      "lastName": "COLE",
+      "firstName": "Ellie",
+      "gender": "Female",
+      "country": "Australia",
+      "countryCode": "AUS",
+      "personId": "b9f0e0e9-e11d-4b78-bf5a-b7c186cd1b8f"
+    },
+    {
+      "fullName": "KEENEY Maddison",
+      "lastName": "KEENEY",
+      "firstName": "Maddison",
+      "gender": "Female",
+      "country": "Australia",
+      "countryCode": "AUS",
+      "personId": "368575e4-e59c-4391-8f3a-11a27ecd0886"
+    },
+    {
+      "fullName": "KOLOI Alysha",
+      "lastName": "KOLOI",
+      "firstName": "Alysha",
+      "gender": "Female",
+      "country": "Australia",
+      "countryCode": "AUS",
+      "personId": "8461470d-e119-4e0f-844e-581c703d36cf"
+    },
+    {
+      "fullName": "MERCIECA Jonah",
+      "lastName": "MERCIECA",
+      "firstName": "Jonah",
+      "gender": "Male",
+      "country": "Australia",
+      "countryCode": "AUS",
+      "personId": "bce51102-8bdd-4d8c-88c5-349ed4242695"
+    },
+    {
+      "fullName": "PUCKERIDGE Milly",
+      "lastName": "PUCKERIDGE",
+      "firstName": "Milly",
+      "gender": "Female",
+      "country": "Australia",
+      "countryCode": "AUS",
+      "personId": "a1a07677-7864-400f-a1b6-7ef21a072ca2"
+    },
+    {
+      "fullName": "ROUSSEAU Cassiel",
+      "lastName": "ROUSSEAU",
+      "firstName": "Cassiel",
+      "gender": "Male",
+      "country": "Australia",
+      "countryCode": "AUS",
+      "personId": "608b9f19-6769-487c-8e10-efc2d4dad412"
+    },
+    {
+      "fullName": "CULLEN Matt",
+      "lastName": "CULLEN",
+      "firstName": "Matt",
+      "gender": "Male",
+      "country": "Canada",
+      "countryCode": "CAN",
+      "personId": "01fd576f-d13f-4279-9dca-7bd481d8344f"
+    },
+    {
+      "fullName": "ERLAM Margo",
+      "lastName": "ERLAM",
+      "firstName": "Margo",
+      "gender": "Female",
+      "country": "Canada",
+      "countryCode": "CAN",
+      "personId": "ce8c6ffa-fd55-4b0b-971d-c56b9ac5c06c"
+    },
+    {
+      "fullName": "FUNG Katelyn",
+      "lastName": "FUNG",
+      "firstName": "Katelyn",
+      "gender": "Female",
+      "country": "Canada",
+      "countryCode": "CAN",
+      "personId": "def10055-0632-4178-8f19-b37cf4acd933"
+    },
+    {
+      "fullName": "JASMIN Amelie-Laura",
+      "lastName": "JASMIN",
+      "firstName": "Amelie-Laura",
+      "gender": "Female",
+      "country": "Canada",
+      "countryCode": "CAN",
+      "personId": "1b83c525-26a3-4a63-8ebb-6a6d337427f5"
+    },
+    {
+      "fullName": "MILLER Kate",
+      "lastName": "MILLER",
+      "firstName": "Kate",
+      "gender": "Female",
+      "country": "Canada",
+      "countryCode": "CAN",
+      "personId": "9d5db8c8-a45f-4745-b63d-f9c49379a79c"
+    },
+    {
+      "fullName": "PALKHIVALA Sonya",
+      "lastName": "PALKHIVALA",
+      "firstName": "Sonya",
+      "gender": "Female",
+      "country": "Canada",
+      "countryCode": "CAN",
+      "personId": "d03fa4f0-35a5-4011-bc18-f56eef578213"
+    },
+    {
+      "fullName": "PAUL Carson",
+      "lastName": "PAUL",
+      "firstName": "Carson",
+      "gender": "Male",
+      "country": "Canada",
+      "countryCode": "CAN",
+      "personId": "c68a085b-7bc8-45a8-bebe-bb078cb7de51"
+    },
+    {
+      "fullName": "TESSIER Benjamin",
+      "lastName": "TESSIER",
+      "firstName": "Benjamin",
+      "gender": "Male",
+      "country": "Canada",
+      "countryCode": "CAN",
+      "personId": "f15599d8-6c10-4f2d-90ca-5a832439004e"
+    },
+    {
+      "fullName": "VALLEE Mia",
+      "lastName": "VALLEE",
+      "firstName": "Mia",
+      "gender": "Female",
+      "country": "Canada",
+      "countryCode": "CAN",
+      "personId": "08d49b2c-df61-400e-92f4-9e2aed221075"
+    },
+    {
+      "fullName": "ZSOMBOR-MURRAY Nathan",
+      "lastName": "ZSOMBOR-MURRAY",
+      "firstName": "Nathan",
+      "gender": "Male",
+      "country": "Canada",
+      "countryCode": "CAN",
+      "personId": "b6cc83b1-d2f5-425f-a791-d6cbc330e5d4"
+    },
+    {
+      "fullName": "BAI Yuming",
+      "lastName": "BAI",
+      "firstName": "Yuming",
+      "gender": "Male",
+      "country": "People's Republic of China",
+      "countryCode": "CHN",
+      "personId": "f64ebbf4-467e-40d3-9a39-002805b80d16"
+    },
+    {
+      "fullName": "CHEN Jia",
+      "lastName": "CHEN",
+      "firstName": "Jia",
+      "gender": "Female",
+      "country": "People's Republic of China",
+      "countryCode": "CHN",
+      "personId": "29edadbb-b4d0-450d-924a-0fd71d0aa8b0"
+    },
+    {
+      "fullName": "CHEN Yuxi",
+      "lastName": "CHEN",
+      "firstName": "Yuxi",
+      "gender": "Female",
+      "country": "People's Republic of China",
+      "countryCode": "CHN",
+      "personId": "793b142a-8f02-4f14-9d92-62a48b72dc92"
+    },
+    {
+      "fullName": "CHEN Yiwen",
+      "lastName": "CHEN",
+      "firstName": "Yiwen",
+      "gender": "Female",
+      "country": "People's Republic of China",
+      "countryCode": "CHN",
+      "personId": "6dafbcbb-ef90-4cf4-b5f5-23134da47c96"
+    },
+    {
+      "fullName": "JIANG Linjing",
+      "lastName": "JIANG",
+      "firstName": "Linjing",
+      "gender": "Female",
+      "country": "People's Republic of China",
+      "countryCode": "CHN",
+      "personId": "9e81a96e-16bb-4162-8585-1a22a1f86b0f"
+    },
+    {
+      "fullName": "LIAN Junjie",
+      "lastName": "LIAN",
+      "firstName": "Junjie",
+      "gender": "Male",
+      "country": "People's Republic of China",
+      "countryCode": "CHN",
+      "personId": "b06144a4-af9a-4d73-8d33-3a90feca8599"
+    },
+    {
+      "fullName": "LIN Shan",
+      "lastName": "LIN",
+      "firstName": "Shan",
+      "gender": "Female",
+      "country": "People's Republic of China",
+      "countryCode": "CHN",
+      "personId": "9af9c530-d138-4839-b1b9-8604b3b6ca16"
+    },
+    {
+      "fullName": "LIU Chengzan",
+      "lastName": "LIU",
+      "firstName": "Chengzan",
+      "gender": "Male",
+      "country": "People's Republic of China",
+      "countryCode": "CHN",
+      "personId": "031ee762-dbe6-4d59-aa11-52546b48bad1"
+    },
+    {
+      "fullName": "LU Wei",
+      "lastName": "LU",
+      "firstName": "Wei",
+      "gender": "Female",
+      "country": "People's Republic of China",
+      "countryCode": "CHN",
+      "personId": "6ca383b0-6920-4ac7-b606-845fe9bc7aa5"
+    },
+    {
+      "fullName": "WANG Zongyuan",
+      "lastName": "WANG",
+      "firstName": "Zongyuan",
+      "gender": "Male",
+      "country": "People's Republic of China",
+      "countryCode": "CHN",
+      "personId": "71b4cb2f-b22a-4b66-af54-05eeadbbba89"
+    },
+    {
+      "fullName": "YANG Zhihao",
+      "lastName": "YANG",
+      "firstName": "Zhihao",
+      "gender": "Male",
+      "country": "People's Republic of China",
+      "countryCode": "CHN",
+      "personId": "57ccc8ea-e101-4f0b-a08f-62c88cff46a9"
+    },
+    {
+      "fullName": "ZHAO Renjie",
+      "lastName": "ZHAO",
+      "firstName": "Renjie",
+      "gender": "Male",
+      "country": "People's Republic of China",
+      "countryCode": "CHN",
+      "personId": "a66f8c8c-e623-4b40-9bbd-a210b30f9e8b"
+    },
+    {
+      "fullName": "ZHENG Jiuyuan",
+      "lastName": "ZHENG",
+      "firstName": "Jiuyuan",
+      "gender": "Male",
+      "country": "People's Republic of China",
+      "countryCode": "CHN",
+      "personId": "f59e659b-c088-4f4d-9765-2a31b3b03829"
+    },
+    {
+      "fullName": "URIBE BERMUDEZ Luis Felipe",
+      "lastName": "URIBE BERMUDEZ",
+      "firstName": "Luis Felipe",
+      "gender": "Male",
+      "country": "Colombia",
+      "countryCode": "COL",
+      "personId": "e4d7cca6-67fb-4b6b-843e-744a62d0566f"
+    },
+    {
+      "fullName": "ZAPATA CORREA Daniela",
+      "lastName": "ZAPATA CORREA",
+      "firstName": "Daniela",
+      "gender": "Female",
+      "country": "Colombia",
+      "countryCode": "COL",
+      "personId": "b2ce143b-49d8-4344-9565-a8af5a9db353"
+    },
+    {
+      "fullName": "CARVAJAL Ana",
+      "lastName": "CARVAJAL",
+      "firstName": "Ana",
+      "gender": "Female",
+      "country": "Spain",
+      "countryCode": "ESP",
+      "personId": "76144f77-dff6-49e7-95b1-5d0b435644c9"
+    },
+    {
+      "fullName": "BOUYER Jules",
+      "lastName": "BOUYER",
+      "firstName": "Jules",
+      "gender": "Male",
+      "country": "France",
+      "countryCode": "FRA",
+      "personId": "33cc39a9-4bcd-4d35-afcc-a957e6cc06fc"
+    },
+    {
+      "fullName": "CUTMORE Ben",
+      "lastName": "CUTMORE",
+      "firstName": "Ben",
+      "gender": "Male",
+      "country": "Great Britain",
+      "countryCode": "GBR",
+      "personId": "bff7f0a5-808f-486e-9011-23ef158f7eb8"
+    },
+    {
+      "fullName": "HARDING Anthony",
+      "lastName": "HARDING",
+      "firstName": "Anthony",
+      "gender": "Male",
+      "country": "Great Britain",
+      "countryCode": "GBR",
+      "personId": "ecbc0090-d2ec-4f79-92f4-6e24c0cc6e5a"
+    },
+    {
+      "fullName": "HARPER Yasmin",
+      "lastName": "HARPER",
+      "firstName": "Yasmin",
+      "gender": "Female",
+      "country": "Great Britain",
+      "countryCode": "GBR",
+      "personId": "49ea8dac-e1cf-4699-afff-a60e68b7669a"
+    },
+    {
+      "fullName": "HASLAM Ross",
+      "lastName": "HASLAM",
+      "firstName": "Ross",
+      "gender": "Male",
+      "country": "Great Britain",
+      "countryCode": "GBR",
+      "personId": "8f7a57ff-d490-49cc-900e-abd2d7ab5c85"
+    },
+    {
+      "fullName": "LAUGHER Jack",
+      "lastName": "LAUGHER",
+      "firstName": "Jack",
+      "gender": "Male",
+      "country": "Great Britain",
+      "countryCode": "GBR",
+      "personId": "f55bcccf-c30d-4b58-ad52-276f456ad1b4"
+    },
+    {
+      "fullName": "MCCABE Euan",
+      "lastName": "MCCABE",
+      "firstName": "Euan",
+      "gender": "Male",
+      "country": "Great Britain",
+      "countryCode": "GBR",
+      "personId": "06045885-36a8-4872-8640-c726a741ef97"
+    },
+    {
+      "fullName": "MEW JENSEN Scarlett",
+      "lastName": "MEW JENSEN",
+      "firstName": "Scarlett",
+      "gender": "Female",
+      "country": "Great Britain",
+      "countryCode": "GBR",
+      "personId": "835267bd-ec93-4108-8e08-c0c442f3f55f"
+    },
+    {
+      "fullName": "MASSENBERG Lou Noel Guy",
+      "lastName": "MASSENBERG",
+      "firstName": "Lou Noel Guy",
+      "gender": "Male",
+      "country": "Germany",
+      "countryCode": "GER",
+      "personId": "6b6710f5-9141-4226-b937-ae9b6751a8bb"
+    },
+    {
+      "fullName": "PFEIF Pauline Alexandra",
+      "lastName": "PFEIF",
+      "firstName": "Pauline Alexandra",
+      "gender": "Female",
+      "country": "Germany",
+      "countryCode": "GER",
+      "personId": "5cf48f98-fe3e-4768-bb42-e5e5b78cca2f"
+    },
+    {
+      "fullName": "SCHAUER Jonathan Gisbert",
+      "lastName": "SCHAUER",
+      "firstName": "Jonathan Gisbert",
+      "gender": "Male",
+      "country": "Germany",
+      "countryCode": "GER",
+      "personId": "642b0be0-1400-4c82-80d3-287fd5c5875e"
+    },
+    {
+      "fullName": "WASSEN Elena",
+      "lastName": "WASSEN",
+      "firstName": "Elena",
+      "gender": "Female",
+      "country": "Germany",
+      "countryCode": "GER",
+      "personId": "e455fe4b-477e-452c-a32b-2f1b4f6f2eb7"
+    },
+    {
+      "fullName": "CONTE Simone",
+      "lastName": "CONTE",
+      "firstName": "Simone",
+      "gender": "Male",
+      "country": "Italy",
+      "countryCode": "ITA",
+      "personId": "f9d056bc-3c7a-4b61-8d6c-c6d75c61dee0"
+    },
+    {
+      "fullName": "GIOVANNINI Riccardo",
+      "lastName": "GIOVANNINI",
+      "firstName": "Riccardo",
+      "gender": "Male",
+      "country": "Italy",
+      "countryCode": "ITA",
+      "personId": "82fe3d83-82d9-4d7c-a052-68e5490af75d"
+    },
+    {
+      "fullName": "JODOIN DI MARIA Sarah",
+      "lastName": "JODOIN DI MARIA",
+      "firstName": "Sarah",
+      "gender": "Female",
+      "country": "Italy",
+      "countryCode": "ITA",
+      "personId": "4fc41b34-d467-48c1-a8c7-83dfb407758b"
+    },
+    {
+      "fullName": "MARSAGLIA Lorenzo",
+      "lastName": "MARSAGLIA",
+      "firstName": "Lorenzo",
+      "gender": "Male",
+      "country": "Italy",
+      "countryCode": "ITA",
+      "personId": "e95b1145-f762-4997-b77c-82dd798ae8e5"
+    },
+    {
+      "fullName": "PIZZINI Elisa",
+      "lastName": "PIZZINI",
+      "firstName": "Elisa",
+      "gender": "Female",
+      "country": "Italy",
+      "countryCode": "ITA",
+      "personId": "eda28461-e971-4700-a74a-ccdcb723094a"
+    },
+    {
+      "fullName": "TOCCI Giovanni",
+      "lastName": "TOCCI",
+      "firstName": "Giovanni",
+      "gender": "Male",
+      "country": "Italy",
+      "countryCode": "ITA",
+      "personId": "24a31d48-3571-4b45-939b-53490a5762f0"
+    },
+    {
+      "fullName": "IKUMA Senri",
+      "lastName": "IKUMA",
+      "firstName": "Senri",
+      "gender": "Male",
+      "country": "Japan",
+      "countryCode": "JPN",
+      "personId": "6b1f4f07-9ebd-43ac-b78a-b959ccebfe30"
+    },
+    {
+      "fullName": "KANETO Rin",
+      "lastName": "KANETO",
+      "firstName": "Rin",
+      "gender": "Female",
+      "country": "Japan",
+      "countryCode": "JPN",
+      "personId": "2c8020f3-f57f-436c-8b5f-7d39ae05e99c"
+    },
+    {
+      "fullName": "SUYAMA Haruki",
+      "lastName": "SUYAMA",
+      "firstName": "Haruki",
+      "gender": "Male",
+      "country": "Japan",
+      "countryCode": "JPN",
+      "personId": "7412f6c2-0ea5-410b-ac56-643825177880"
+    },
+    {
+      "fullName": "AGUNDEZ GARCIA Gabriela",
+      "lastName": "AGUNDEZ GARCIA",
+      "firstName": "Gabriela",
+      "gender": "Female",
+      "country": "Mexico",
+      "countryCode": "MEX",
+      "personId": "0aa96fee-c914-43d1-9c51-e54d767987a0"
+    },
+    {
+      "fullName": "BERLIN REYES Kevin",
+      "lastName": "BERLIN REYES",
+      "firstName": "Kevin",
+      "gender": "Male",
+      "country": "Mexico",
+      "countryCode": "MEX",
+      "personId": "e298a2f7-2576-496f-9d5f-5254d22141f0"
+    },
+    {
+      "fullName": "CELAYA HERNANDEZ Juan Manuel",
+      "lastName": "CELAYA HERNANDEZ",
+      "firstName": "Juan Manuel",
+      "gender": "Male",
+      "country": "Mexico",
+      "countryCode": "MEX",
+      "personId": "7f6e93d4-fc79-471b-ac09-85d9557831ca"
+    },
+    {
+      "fullName": "CUEVA LOBATO Mia Zazil",
+      "lastName": "CUEVA LOBATO",
+      "firstName": "Mia Zazil",
+      "gender": "Female",
+      "country": "Mexico",
+      "countryCode": "MEX",
+      "personId": "2e69ace0-338a-49c4-8940-9a72e28051ea"
+    },
+    {
+      "fullName": "CUEVA LOBATO Lia Yatzil",
+      "lastName": "CUEVA LOBATO",
+      "firstName": "Lia Yatzil",
+      "gender": "Female",
+      "country": "Mexico",
+      "countryCode": "MEX",
+      "personId": "8b3f873b-7d50-4a6a-86f4-8fe1fd0ed279"
+    },
+    {
+      "fullName": "CUEVA LOBATO Suri Zoe",
+      "lastName": "CUEVA LOBATO",
+      "firstName": "Suri Zoe",
+      "gender": "Female",
+      "country": "Mexico",
+      "countryCode": "MEX",
+      "personId": "69a98af2-d213-4deb-beb2-d17538968d38"
+    },
+    {
+      "fullName": "ESTUDILLO TORRES Alejandra",
+      "lastName": "ESTUDILLO TORRES",
+      "firstName": "Alejandra",
+      "gender": "Female",
+      "country": "Mexico",
+      "countryCode": "MEX",
+      "personId": "1047093a-62d7-4423-9f7d-4cad25542eae"
+    },
+    {
+      "fullName": "GARCIA SIXTOS Maria Fernanda",
+      "lastName": "GARCIA SIXTOS",
+      "firstName": "Maria Fernanda",
+      "gender": "Female",
+      "country": "Mexico",
+      "countryCode": "MEX",
+      "personId": "e7d30a91-9236-4f31-bf05-148441d3a697"
+    },
+    {
+      "fullName": "OLVERA IBARRA Osmar",
+      "lastName": "OLVERA IBARRA",
+      "firstName": "Osmar",
+      "gender": "Male",
+      "country": "Mexico",
+      "countryCode": "MEX",
+      "personId": "5897f289-5e02-45ac-9fa1-6e9d5eb6b5e1"
+    },
+    {
+      "fullName": "VAZQUEZ MONTANO Aranza",
+      "lastName": "VAZQUEZ MONTANO",
+      "firstName": "Aranza",
+      "gender": "Female",
+      "country": "Mexico",
+      "countryCode": "MEX",
+      "personId": "dcdb35d6-8e8e-4bb4-b3a7-b151b4c15949"
+    },
+    {
+      "fullName": "WILLARS VALDEZ Randal",
+      "lastName": "WILLARS VALDEZ",
+      "firstName": "Randal",
+      "gender": "Male",
+      "country": "Mexico",
+      "countryCode": "MEX",
+      "personId": "2b7dac5a-8afb-409a-a0b2-01e2f99f1d6d"
+    },
+    {
+      "fullName": "JO Jin Mi",
+      "lastName": "JO",
+      "firstName": "Jin Mi",
+      "gender": "Female",
+      "country": "Democratic People's Republic of Korea",
+      "countryCode": "PRK",
+      "personId": "4c93c258-fdf5-4465-aefc-8a4e779e5dff"
+    },
+    {
+      "fullName": "KIM Mi Rae",
+      "lastName": "KIM",
+      "firstName": "Mi Rae",
+      "gender": "Female",
+      "country": "Democratic People's Republic of Korea",
+      "countryCode": "PRK",
+      "personId": "a4b0c7a2-edf7-4c19-8930-52442d01ee44"
+    },
+    {
+      "fullName": "KAZANTSEVA Viktoria",
+      "lastName": "KAZANTSEVA",
+      "firstName": "Viktoria",
+      "gender": "Female",
+      "country": "Russia",
+      "countryCode": "RUS",
+      "personId": "76b3308a-7f30-4b63-8616-3f60bc9ed270"
+    },
+    {
+      "fullName": "KLIUEVA Uliana",
+      "lastName": "KLIUEVA",
+      "firstName": "Uliana",
+      "gender": "Female",
+      "country": "Russia",
+      "countryCode": "RUS",
+      "personId": "019c052b-6605-4dd8-8e20-feb2d881a69f"
+    },
+    {
+      "fullName": "KONANYKHINA Anna",
+      "lastName": "KONANYKHINA",
+      "firstName": "Anna",
+      "gender": "Female",
+      "country": "Russia",
+      "countryCode": "RUS",
+      "personId": "ee5fb1c5-d0fb-47ac-83d8-10039e30d41a"
+    },
+    {
+      "fullName": "KUZINA Elizaveta",
+      "lastName": "KUZINA",
+      "firstName": "Elizaveta",
+      "gender": "Female",
+      "country": "Russia",
+      "countryCode": "RUS",
+      "personId": "979e3fcb-7191-4a44-b6a7-aed5af5dfa23"
+    },
+    {
+      "fullName": "SHLEIKHER Nikita",
+      "lastName": "SHLEIKHER",
+      "firstName": "Nikita",
+      "gender": "Male",
+      "country": "Russia",
+      "countryCode": "RUS",
+      "personId": "a3a5a658-0f22-40d4-a027-22beb83664ea"
+    },
+    {
+      "fullName": "TERNOVOI Ruslan",
+      "lastName": "TERNOVOI",
+      "firstName": "Ruslan",
+      "gender": "Male",
+      "country": "Russia",
+      "countryCode": "RUS",
+      "personId": "c8112a56-8ffc-405f-9b8e-b592ed090046"
+    },
+    {
+      "fullName": "TRIFONOVA Nadezhda",
+      "lastName": "TRIFONOVA",
+      "firstName": "Nadezhda",
+      "gender": "Female",
+      "country": "Russia",
+      "countryCode": "RUS",
+      "personId": "fcd5146d-fd1c-477a-9313-4cd75218c882"
+    },
+    {
+      "fullName": "HEIMBERG Michelle",
+      "lastName": "HEIMBERG",
+      "firstName": "Michelle",
+      "gender": "Female",
+      "country": "Switzerland",
+      "countryCode": "SUI",
+      "personId": "d198d7de-8a19-4c3c-b39e-d952f24ab74d"
+    },
+    {
+      "fullName": "BAILO Kseniia",
+      "lastName": "BAILO",
+      "firstName": "Kseniia",
+      "gender": "Female",
+      "country": "Ukraine",
+      "countryCode": "UKR",
+      "personId": "7a5f4621-0d62-4fb4-b25c-70895f656c26"
+    },
+    {
+      "fullName": "BOCHEK Kseniia",
+      "lastName": "BOCHEK",
+      "firstName": "Kseniia",
+      "gender": "Female",
+      "country": "Ukraine",
+      "countryCode": "UKR",
+      "personId": "52a3634a-85e2-42f9-9912-de21c8464ead"
+    },
+    {
+      "fullName": "BOLIUKH Kirill",
+      "lastName": "BOLIUKH",
+      "firstName": "Kirill",
+      "gender": "Male",
+      "country": "Ukraine",
+      "countryCode": "UKR",
+      "personId": "fe351c8c-310e-4d08-81ce-bdda0e437006"
+    },
+    {
+      "fullName": "HRYTSENKO Mark",
+      "lastName": "HRYTSENKO",
+      "firstName": "Mark",
+      "gender": "Male",
+      "country": "Ukraine",
+      "countryCode": "UKR",
+      "personId": "209ad056-b688-4a4e-b78a-439614c8ccd1"
+    },
+    {
+      "fullName": "KARNAFEL Diana",
+      "lastName": "KARNAFEL",
+      "firstName": "Diana",
+      "gender": "Female",
+      "country": "Ukraine",
+      "countryCode": "UKR",
+      "personId": "7df17de3-339e-4f4c-bceb-28859d321b39"
+    },
+    {
+      "fullName": "OLIFERCHYK Stanislav",
+      "lastName": "OLIFERCHYK",
+      "firstName": "Stanislav",
+      "gender": "Male",
+      "country": "Ukraine",
+      "countryCode": "UKR",
+      "personId": "d29d3671-2297-4057-8e0c-52537b77ca85"
+    },
+    {
+      "fullName": "SEREDA Oleksii",
+      "lastName": "SEREDA",
+      "firstName": "Oleksii",
+      "gender": "Male",
+      "country": "Ukraine",
+      "countryCode": "UKR",
+      "personId": "ab9ea005-2bd6-4c22-82cf-bbf9275a35f3"
+    },
+    {
+      "fullName": "VYSTAVKINA Sofiia",
+      "lastName": "VYSTAVKINA",
+      "firstName": "Sofiia",
+      "gender": "Female",
+      "country": "Ukraine",
+      "countryCode": "UKR",
+      "personId": "1719533c-9b36-435c-8324-56f96de79d08"
+    },
+    {
+      "fullName": "KNIGHT Kyndal",
+      "lastName": "KNIGHT",
+      "firstName": "Kyndal",
+      "gender": "Female",
+      "country": "United States of America",
+      "countryCode": "USA",
+      "personId": "248a1046-d641-4593-a85a-0d052811f210"
+    },
+    {
+      "fullName": "KWONG Anna",
+      "lastName": "KWONG",
+      "firstName": "Anna",
+      "gender": "Female",
+      "country": "United States of America",
+      "countryCode": "USA",
+      "personId": "24104c1a-f017-4d5b-b127-814f336795ba"
+    },
+    {
+      "fullName": "MCAFEE Sophia",
+      "lastName": "MCAFEE",
+      "firstName": "Sophia",
+      "gender": "Female",
+      "country": "United States of America",
+      "countryCode": "USA",
+      "personId": "c1e027d7-c14f-4f02-8331-cee2fd309ab4"
+    },
+    {
+      "fullName": "NIDAY Ellireese",
+      "lastName": "NIDAY",
+      "firstName": "Ellireese",
+      "gender": "Female",
+      "country": "United States of America",
+      "countryCode": "USA",
+      "personId": "97cdb654-4240-4fb3-8317-6c8fe83236b5"
+    },
+    {
+      "fullName": "RYAN Jack",
+      "lastName": "RYAN",
+      "firstName": "Jack",
+      "gender": "Male",
+      "country": "United States of America",
+      "countryCode": "USA",
+      "personId": "4ae3dbb2-1401-4ed0-b5cb-cef5808c2150"
+    },
+    {
+      "fullName": "TYLER Carson",
+      "lastName": "TYLER",
+      "firstName": "Carson",
+      "gender": "Male",
+      "country": "United States of America",
+      "countryCode": "USA",
+      "personId": "6837d7ec-2f99-41b1-95c0-db9e52320058"
+    },
+    {
+      "fullName": "VERZYL Sophia",
+      "lastName": "VERZYL",
+      "firstName": "Sophia",
+      "gender": "Female",
+      "country": "United States of America",
+      "countryCode": "USA",
+      "personId": "332fb9f9-ca44-4b1d-b738-18838821f2f9"
+    }
+  ],
+  "events": [
+    {
+      "key": "women 3m springboard",
+      "disciplineId": "2b08da89-8232-4ffc-8df3-95865ba41b82",
+      "name": "Women's 3m Springboard",
+      "gender": "Female",
+      "results": [
+        {
+          "rank": 1,
+          "fullName": "CHEN Jia",
+          "lastName": "CHEN",
+          "firstName": "Jia",
+          "countryCode": "CHN",
+          "dives": [
+            "73.50",
+            "74.40",
+            "76.50",
+            "72.00",
+            "78.00"
+          ],
+          "total": "374.40"
+        },
+        {
+          "rank": 2,
+          "fullName": "CHEN Yiwen",
+          "lastName": "CHEN",
+          "firstName": "Yiwen",
+          "countryCode": "CHN",
+          "dives": [
+            "69.00",
+            "72.00",
+            "76.50",
+            "79.05",
+            "76.50"
+          ],
+          "total": "373.05"
+        },
+        {
+          "rank": 3,
+          "fullName": "KEENEY Maddison",
+          "lastName": "KEENEY",
+          "firstName": "Maddison",
+          "countryCode": "AUS",
+          "dives": [
+            "66.00",
+            "49.50",
+            "67.50",
+            "74.40",
+            "81.60"
+          ],
+          "total": "339.00"
+        },
+        {
+          "rank": 4,
+          "fullName": "KOLOI Alysha",
+          "lastName": "KOLOI",
+          "firstName": "Alysha",
+          "countryCode": "AUS",
+          "dives": [
+            "67.50",
+            "65.10",
+            "40.50",
+            "58.50",
+            "63.00"
+          ],
+          "total": "294.60"
+        }
+      ]
+    },
+    {
+      "key": "women 10m platform",
+      "disciplineId": "581a26af-8e97-427c-9adb-5fdd8f4fc9c1",
+      "name": "Women's 10m Platform",
+      "gender": "Female",
+      "results": [
+        {
+          "rank": 1,
+          "fullName": "JIANG Linjing",
+          "lastName": "JIANG",
+          "firstName": "Linjing",
+          "countryCode": "CHN",
+          "dives": [
+            "81.60",
+            "73.50",
+            "94.05",
+            "86.40",
+            "62.40"
+          ],
+          "total": "397.95"
+        },
+        {
+          "rank": 2,
+          "fullName": "KONANYKHINA Anna",
+          "lastName": "KONANYKHINA",
+          "firstName": "Anna",
+          "countryCode": "RUS",
+          "dives": [
+            "61.50",
+            "76.80",
+            "54.60",
+            "49.50",
+            "76.80"
+          ],
+          "total": "319.20"
+        },
+        {
+          "rank": 3,
+          "fullName": "PFEIF Pauline Alexandra",
+          "lastName": "PFEIF",
+          "firstName": "Pauline Alexandra",
+          "countryCode": "GER",
+          "dives": [
+            "46.50",
+            "67.20",
+            "72.00",
+            "60.90",
+            "70.40"
+          ],
+          "total": "317.00"
+        },
+        {
+          "rank": 4,
+          "fullName": "NIDAY Ellireese",
+          "lastName": "NIDAY",
+          "firstName": "Ellireese",
+          "countryCode": "USA",
+          "dives": [
+            "76.80",
+            "40.60",
+            "30.45",
+            "72.80",
+            "72.00"
+          ],
+          "total": "292.65"
+        }
+      ]
+    },
+    {
+      "key": "women 3m synchronised",
+      "disciplineId": "61b483ec-4022-4555-9960-fba9cd1d702d",
+      "name": "Women's 3m Synchronised",
+      "gender": "Female",
+      "results": [
+        {
+          "rank": 1,
+          "fullName": "CHEN Jia / CHEN Yiwen",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "CHN",
+          "dives": [
+            "51.60",
+            "51.00",
+            "73.80",
+            "79.05",
+            "75.60"
+          ],
+          "total": "331.05"
+        },
+        {
+          "rank": 2,
+          "fullName": "KEENEY Maddison / KOLOI Alysha",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "AUS",
+          "dives": [
+            "49.20",
+            "45.00",
+            "69.30",
+            "72.54",
+            "63.90"
+          ],
+          "total": "299.94"
+        },
+        {
+          "rank": 3,
+          "fullName": "MEW JENSEN Scarlett / HARPER Yasmin",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "GBR",
+          "dives": [
+            "49.20",
+            "46.20",
+            "69.30",
+            "64.80",
+            "65.10"
+          ],
+          "total": "294.60"
+        },
+        {
+          "rank": 4,
+          "fullName": "KWONG Anna / VERZYL Sophia",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "USA",
+          "dives": [
+            "46.80",
+            "42.60",
+            "58.50",
+            "66.03",
+            "62.22"
+          ],
+          "total": "276.15"
+        },
+        {
+          "rank": 5,
+          "fullName": "CUEVA LOBATO Mia Zazil / CUEVA LOBATO Lia Yatzil",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "MEX",
+          "dives": [
+            "47.40",
+            "46.20",
+            "57.60",
+            "56.73",
+            "65.70"
+          ],
+          "total": "273.63"
+        },
+        {
+          "rank": 6,
+          "fullName": "TRIFONOVA Nadezhda / KLIUEVA Uliana",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "RUS",
+          "dives": [
+            "47.40",
+            "42.00",
+            "65.70",
+            "54.90",
+            "63.00"
+          ],
+          "total": "273.00"
+        },
+        {
+          "rank": 7,
+          "fullName": "BOCHEK Kseniia / KARNAFEL Diana",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "UKR",
+          "dives": [
+            "46.80",
+            "40.20",
+            "62.10",
+            "54.00",
+            "59.40"
+          ],
+          "total": "262.50"
+        },
+        {
+          "rank": 8,
+          "fullName": "VALLEE Mia / JASMIN Amelie-Laura",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "CAN",
+          "dives": [
+            "44.40",
+            "47.40",
+            "46.80",
+            "52.08",
+            "60.30"
+          ],
+          "total": "250.98"
+        }
+      ]
+    },
+    {
+      "key": "women 10m synchronised",
+      "disciplineId": "c3cca7c9-5ef7-4a69-a173-82fe75ffcc4b",
+      "name": "Women's 10m Synchronised",
+      "gender": "Female",
+      "results": [
+        {
+          "rank": 1,
+          "fullName": "CHEN Yuxi / LU Wei",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "CHN",
+          "dives": [
+            "54.60",
+            "55.80",
+            "81.00",
+            "84.48",
+            "90.24"
+          ],
+          "total": "366.12"
+        },
+        {
+          "rank": 2,
+          "fullName": "JO Jin Mi / KIM Mi Rae",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "PRK",
+          "dives": [
+            "54.00",
+            "50.40",
+            "72.90",
+            "74.88",
+            "69.12"
+          ],
+          "total": "321.30"
+        },
+        {
+          "rank": 3,
+          "fullName": "PUCKERIDGE Milly / COLE Ellie",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "AUS",
+          "dives": [
+            "45.00",
+            "46.20",
+            "64.80",
+            "66.24",
+            "74.88"
+          ],
+          "total": "297.12"
+        },
+        {
+          "rank": 4,
+          "fullName": "ESTUDILLO TORRES Alejandra / AGUNDEZ GARCIA Gabriela",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "MEX",
+          "dives": [
+            "46.80",
+            "42.60",
+            "68.40",
+            "65.28",
+            "72.96"
+          ],
+          "total": "296.04"
+        },
+        {
+          "rank": 5,
+          "fullName": "KAZANTSEVA Viktoria / KONANYKHINA Anna",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "RUS",
+          "dives": [
+            "46.20",
+            "45.60",
+            "64.80",
+            "60.48",
+            "67.20"
+          ],
+          "total": "284.28"
+        },
+        {
+          "rank": 6,
+          "fullName": "VYSTAVKINA Sofiia / BAILO Kseniia",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "UKR",
+          "dives": [
+            "45.60",
+            "46.20",
+            "65.70",
+            "62.40",
+            "58.56"
+          ],
+          "total": "278.46"
+        },
+        {
+          "rank": 7,
+          "fullName": "MILLER Kate / FUNG Katelyn",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "CAN",
+          "dives": [
+            "47.40",
+            "43.80",
+            "67.50",
+            "42.24",
+            "74.88"
+          ],
+          "total": "275.82"
+        },
+        {
+          "rank": 8,
+          "fullName": "WASSEN Elena / PFEIF Pauline Alexandra",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "GER",
+          "dives": [
+            "43.80",
+            "42.60",
+            "45.12",
+            "61.20",
+            "50.88"
+          ],
+          "total": "243.60"
+        }
+      ]
+    },
+    {
+      "key": "men 3m springboard",
+      "disciplineId": "4c18d241-ad14-436a-bd38-25dfb47f1cb7",
+      "name": "Men's 3m Springboard",
+      "gender": "Male",
+      "results": [
+        {
+          "rank": 1,
+          "fullName": "WANG Zongyuan",
+          "lastName": "WANG",
+          "firstName": "Zongyuan",
+          "countryCode": "CHN",
+          "dives": [
+            "86.70",
+            "89.25",
+            "95.55",
+            "89.25",
+            "81.00",
+            "102.60"
+          ],
+          "total": "544.35"
+        },
+        {
+          "rank": 2,
+          "fullName": "ZHENG Jiuyuan",
+          "lastName": "ZHENG",
+          "firstName": "Jiuyuan",
+          "countryCode": "CHN",
+          "dives": [
+            "78.20",
+            "89.25",
+            "87.50",
+            "70.50",
+            "91.20",
+            "83.85"
+          ],
+          "total": "500.50"
+        },
+        {
+          "rank": 3,
+          "fullName": "OLVERA IBARRA Osmar",
+          "lastName": "OLVERA IBARRA",
+          "firstName": "Osmar",
+          "countryCode": "MEX",
+          "dives": [
+            "86.70",
+            "71.75",
+            "46.80",
+            "86.70",
+            "96.90",
+            "91.65"
+          ],
+          "total": "480.50"
+        },
+        {
+          "rank": 4,
+          "fullName": "BOUYER Jules",
+          "lastName": "BOUYER",
+          "firstName": "Jules",
+          "countryCode": "FRA",
+          "dives": [
+            "66.30",
+            "81.60",
+            "72.00",
+            "70.00",
+            "73.50",
+            "79.80"
+          ],
+          "total": "443.20"
+        }
+      ]
+    },
+    {
+      "key": "men 10m platform",
+      "disciplineId": "450a9e84-5db0-40c4-a45c-4c3bb2392f48",
+      "name": "Men's 10m Platform",
+      "gender": "Male",
+      "results": [
+        {
+          "rank": 1,
+          "fullName": "BAI Yuming",
+          "lastName": "BAI",
+          "firstName": "Yuming",
+          "countryCode": "CHN",
+          "dives": [
+            "81.60",
+            "86.40",
+            "77.00",
+            "91.80",
+            "104.40",
+            "101.75"
+          ],
+          "total": "542.95"
+        },
+        {
+          "rank": 2,
+          "fullName": "WILLARS VALDEZ Randal",
+          "lastName": "WILLARS VALDEZ",
+          "firstName": "Randal",
+          "countryCode": "MEX",
+          "dives": [
+            "85.75",
+            "76.50",
+            "87.50",
+            "93.60",
+            "88.20",
+            "106.60"
+          ],
+          "total": "538.15"
+        },
+        {
+          "rank": 3,
+          "fullName": "LIAN Junjie",
+          "lastName": "LIAN",
+          "firstName": "Junjie",
+          "countryCode": "CHN",
+          "dives": [
+            "91.20",
+            "96.00",
+            "94.50",
+            "49.30",
+            "64.80",
+            "111.00"
+          ],
+          "total": "506.80"
+        },
+        {
+          "rank": 4,
+          "fullName": "ROUSSEAU Cassiel",
+          "lastName": "ROUSSEAU",
+          "firstName": "Cassiel",
+          "countryCode": "AUS",
+          "dives": [
+            "81.60",
+            "81.60",
+            "48.60",
+            "90.00",
+            "86.40",
+            "92.50"
+          ],
+          "total": "480.70"
+        }
+      ]
+    },
+    {
+      "key": "men 3m synchronised",
+      "disciplineId": "08d17e1c-94c2-4c56-bf2b-603eeba24f8c",
+      "name": "Men's 3m Synchronised",
+      "gender": "Male",
+      "results": [
+        {
+          "rank": 1,
+          "fullName": "WANG Zongyuan / ZHENG Jiuyuan",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "CHN",
+          "dives": [
+            "51.60",
+            "54.60",
+            "85.05",
+            "85.68",
+            "86.64",
+            "97.11"
+          ],
+          "total": "460.68"
+        },
+        {
+          "rank": 2,
+          "fullName": "CELAYA HERNANDEZ Juan Manuel / OLVERA IBARRA Osmar",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "MEX",
+          "dives": [
+            "49.80",
+            "49.20",
+            "81.60",
+            "82.62",
+            "67.26",
+            "90.09"
+          ],
+          "total": "420.57"
+        },
+        {
+          "rank": 3,
+          "fullName": "HARDING Anthony / LAUGHER Jack",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "GBR",
+          "dives": [
+            "50.40",
+            "51.60",
+            "74.40",
+            "79.56",
+            "79.56",
+            "70.68"
+          ],
+          "total": "406.20"
+        },
+        {
+          "rank": 4,
+          "fullName": "BOLIUKH Kirill / OLIFERCHYK Stanislav",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "UKR",
+          "dives": [
+            "49.80",
+            "46.80",
+            "75.48",
+            "68.82",
+            "83.22",
+            "72.42"
+          ],
+          "total": "396.54"
+        },
+        {
+          "rank": 5,
+          "fullName": "ZSOMBOR-MURRAY Nathan / PAUL Carson",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "CAN",
+          "dives": [
+            "49.80",
+            "48.00",
+            "70.38",
+            "73.50",
+            "70.68",
+            "77.52"
+          ],
+          "total": "389.88"
+        },
+        {
+          "rank": 6,
+          "fullName": "SCHAUER Jonathan Gisbert / MASSENBERG Lou Noel Guy",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "GER",
+          "dives": [
+            "48.60",
+            "48.00",
+            "77.52",
+            "66.30",
+            "72.45",
+            "70.68"
+          ],
+          "total": "383.55"
+        },
+        {
+          "rank": 7,
+          "fullName": "IKUMA Senri / SUYAMA Haruki",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "JPN",
+          "dives": [
+            "46.80",
+            "47.40",
+            "65.10",
+            "74.46",
+            "70.20",
+            "74.55"
+          ],
+          "total": "378.51"
+        },
+        {
+          "rank": 8,
+          "fullName": "MARSAGLIA Lorenzo / TOCCI Giovanni",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "ITA",
+          "dives": [
+            "48.00",
+            "48.00",
+            "70.68",
+            "79.56",
+            "67.32",
+            "62.70"
+          ],
+          "total": "376.26"
+        }
+      ]
+    },
+    {
+      "key": "men 10m synchronised",
+      "disciplineId": "f86bd80d-a342-40f7-a521-90a50ad9d5c5",
+      "name": "Men's 10m Synchronised",
+      "gender": "Male",
+      "results": [
+        {
+          "rank": 1,
+          "fullName": "ZHAO Renjie / YANG Zhihao",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "CHN",
+          "dives": [
+            "57.00",
+            "49.80",
+            "87.36",
+            "91.80",
+            "66.60",
+            "96.12"
+          ],
+          "total": "448.68"
+        },
+        {
+          "rank": 2,
+          "fullName": "HRYTSENKO Mark / SEREDA Oleksii",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "UKR",
+          "dives": [
+            "49.20",
+            "48.00",
+            "75.84",
+            "79.92",
+            "71.40",
+            "79.92"
+          ],
+          "total": "404.28"
+        },
+        {
+          "rank": 3,
+          "fullName": "BERLIN REYES Kevin / WILLARS VALDEZ Randal",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "MEX",
+          "dives": [
+            "50.40",
+            "47.40",
+            "76.50",
+            "81.00",
+            "71.04",
+            "76.68"
+          ],
+          "total": "403.02"
+        },
+        {
+          "rank": 4,
+          "fullName": "MCCABE Euan / CUTMORE Ben",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "GBR",
+          "dives": [
+            "45.60",
+            "48.00",
+            "73.44",
+            "74.52",
+            "68.82",
+            "66.96"
+          ],
+          "total": "377.34"
+        },
+        {
+          "rank": 5,
+          "fullName": "CULLEN Matt / TESSIER Benjamin",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "CAN",
+          "dives": [
+            "51.00",
+            "48.60",
+            "71.40",
+            "84.24",
+            "51.06",
+            "69.12"
+          ],
+          "total": "375.42"
+        },
+        {
+          "rank": 6,
+          "fullName": "GIOVANNINI Riccardo / CONTE Simone",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "ITA",
+          "dives": [
+            "49.20",
+            "47.40",
+            "72.00",
+            "73.26",
+            "68.40",
+            "60.48"
+          ],
+          "total": "370.74"
+        },
+        {
+          "rank": 7,
+          "fullName": "MERCIECA Jonah / ROUSSEAU Cassiel",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "AUS",
+          "dives": [
+            "47.40",
+            "47.40",
+            "71.04",
+            "75.84",
+            "65.28",
+            "61.05"
+          ],
+          "total": "368.01"
+        },
+        {
+          "rank": 8,
+          "fullName": "SHLEIKHER Nikita / TERNOVOI Ruslan",
+          "lastName": null,
+          "firstName": null,
+          "countryCode": "RUS",
+          "dives": [
+            "48.60",
+            "50.40",
+            "57.12",
+            "51.84",
+            "69.93",
+            "76.68"
+          ],
+          "total": "354.57"
+        }
+      ]
+    }
+  ]
+}
