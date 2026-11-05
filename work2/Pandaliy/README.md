@@ -31,7 +31,6 @@ DWAsearch/
 ├─ tools/
 │  └─ DataFetcher.java      # 抓取脚本，不参与 Maven 构建
 ├─ tests/                   # JUnit 5 测试
-├─ .github/workflows/ci.yml
 ├─ pom.xml
 └─ README.md
 ```
@@ -247,10 +246,6 @@ mvn test
 
 `mvn verify` 除了跑测试，还会打包出 `target/DWASearch.jar`。
 
-`.github/workflows/ci.yml` 里的流水线是：检查数据快照是否存在 → `mvn -B verify` → 冒烟测试（真跑一次 `java -jar`，检查输出里有 `COLE Ellie`、`BAI Yuming`、`Error`，且没有 `\r`）→ 上传测试报告和 jar。
-
-这个 workflow 只对仓库根目录的 `.github/workflows/` 生效。项目如果放在 `work2/<学号>/` 下提交到上游仓库，GitHub 扫不到这个文件，流水线不会跑，这种情况下以本机 `mvn -B verify` 的结果为准。
-
 覆盖范围：
 
 - `CommandProcessorTest`（14 个）：两种命令、多行与重复命令、空行和纯空白行、未知命令、未知赛事、大小写、内部多空格与首尾空白、出错后继续处理、`Error` / `N/A` 输出；
@@ -265,5 +260,4 @@ mvn test
 - 只保存决赛成绩（`PhaseName == "Finals"`），所以不支持 `result <event> detail`。要做三级成绩得同时改快照结构和抓取逻辑；
 - 数据来自官方站点的公开 JSON 接口，不是对外文档化的 API。接口字段一变抓取就会失败，校验会拦住并说明原因，那时要按新结构调整 `tools/DataFetcher.java`；
 - 两种运行模式都要求从项目根目录启动，数据路径是相对路径；
-- 抓取脚本要联网，不在 CI 里跑，仓库里只放生成好的快照，测试全程不联网；
-- `.github/workflows/ci.yml` 只对仓库根目录生效，作为 `work2/<学号>/` 子目录提交时不会执行，本轮的自动化验证以本机 `mvn -B verify` 为准。
+- 抓取脚本要联网，仓库里只放生成好的快照，测试全程不联网。
