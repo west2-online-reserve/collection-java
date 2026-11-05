@@ -1,0 +1,47 @@
+{
+  "players": [
+    {
+      "firstName": "Ellie",
+      "lastName": "COLE",
+      "gender": "Female",
+      "country": "Australia"
+    },
+    {
+      "firstName": "Maddison",
+      "lastName": "KEENEY",
+      "gender": "Female",
+      "country": "Australia"
+    }
+  ],
+  "events": [
+    {
+      "eventName": "women 3m springboard",
+      "results": [
+        {
+          "fullName": "CHEN Jia",
+          "rank": 1,
+          "diveScores": [
+            "73.50",
+            "74.40",
+            "76.50",
+            "72.00",
+            "78.00"
+          ],
+          "totalScore": "374.40"
+        },
+        {
+          "fullName": "CHEN Yiwen",
+          "rank": 2,
+          "diveScores": [
+            "69.00",
+            "72.00",
+            "76.50",
+            "79.05",
+            "76.50"
+          ],
+          "totalScore": "373.05"
+        }
+      ]
+    }
+  ]
+}
