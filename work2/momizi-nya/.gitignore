@@ -1,0 +1,9 @@
+out/
+build/
+target/
+*.class
+DWASearch.jar
+data_scraped.json
+.idea/
+*.iml
+.vscode/
