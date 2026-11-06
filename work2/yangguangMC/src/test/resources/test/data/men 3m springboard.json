@@ -1,0 +1,30 @@
+{
+  "Heats": [
+    {
+      "Name": "Finals",
+      "Results": [
+        {
+          "FullName": "LAST NAME First Name1",
+          "Rank": 1,
+          "Dives": [
+            {
+              "DivePoints": "100.00"
+            },
+            {
+              "DivePoints": "99.00"
+            }
+          ]
+        },
+        {
+          "FullName": "LAST NAME First Name2",
+          "Rank": 2,
+          "Dives": [
+            {
+              "DivePoints": "98.00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
