@@ -1,0 +1,1091 @@
+{
+  "players": [
+    {
+      "fullName": "COLE Ellie",
+      "gender": 1,
+      "country": "Australia"
+    },
+    {
+      "fullName": "KEENEY Maddison",
+      "gender": 1,
+      "country": "Australia"
+    },
+    {
+      "fullName": "KOLOI Alysha",
+      "gender": 1,
+      "country": "Australia"
+    },
+    {
+      "fullName": "MERCIECA Jonah",
+      "gender": 0,
+      "country": "Australia"
+    },
+    {
+      "fullName": "PUCKERIDGE Milly",
+      "gender": 1,
+      "country": "Australia"
+    },
+    {
+      "fullName": "ROUSSEAU Cassiel",
+      "gender": 0,
+      "country": "Australia"
+    },
+    {
+      "fullName": "CULLEN Matt",
+      "gender": 0,
+      "country": "Canada"
+    },
+    {
+      "fullName": "ERLAM Margo",
+      "gender": 1,
+      "country": "Canada"
+    },
+    {
+      "fullName": "FUNG Katelyn",
+      "gender": 1,
+      "country": "Canada"
+    },
+    {
+      "fullName": "JASMIN Amelie-Laura",
+      "gender": 1,
+      "country": "Canada"
+    },
+    {
+      "fullName": "MILLER Kate",
+      "gender": 1,
+      "country": "Canada"
+    },
+    {
+      "fullName": "PALKHIVALA Sonya",
+      "gender": 1,
+      "country": "Canada"
+    },
+    {
+      "fullName": "PAUL Carson",
+      "gender": 0,
+      "country": "Canada"
+    },
+    {
+      "fullName": "TESSIER Benjamin",
+      "gender": 0,
+      "country": "Canada"
+    },
+    {
+      "fullName": "VALLEE Mia",
+      "gender": 1,
+      "country": "Canada"
+    },
+    {
+      "fullName": "ZSOMBOR-MURRAY Nathan",
+      "gender": 0,
+      "country": "Canada"
+    },
+    {
+      "fullName": "BAI Yuming",
+      "gender": 0,
+      "country": "People's Republic of China"
+    },
+    {
+      "fullName": "CHEN Jia",
+      "gender": 1,
+      "country": "People's Republic of China"
+    },
+    {
+      "fullName": "CHEN Yuxi",
+      "gender": 1,
+      "country": "People's Republic of China"
+    },
+    {
+      "fullName": "CHEN Yiwen",
+      "gender": 1,
+      "country": "People's Republic of China"
+    },
+    {
+      "fullName": "JIANG Linjing",
+      "gender": 1,
+      "country": "People's Republic of China"
+    },
+    {
+      "fullName": "LIAN Junjie",
+      "gender": 0,
+      "country": "People's Republic of China"
+    },
+    {
+      "fullName": "LIN Shan",
+      "gender": 1,
+      "country": "People's Republic of China"
+    },
+    {
+      "fullName": "LIU Chengzan",
+      "gender": 0,
+      "country": "People's Republic of China"
+    },
+    {
+      "fullName": "LU Wei",
+      "gender": 1,
+      "country": "People's Republic of China"
+    },
+    {
+      "fullName": "WANG Zongyuan",
+      "gender": 0,
+      "country": "People's Republic of China"
+    },
+    {
+      "fullName": "YANG Zhihao",
+      "gender": 0,
+      "country": "People's Republic of China"
+    },
+    {
+      "fullName": "ZHAO Renjie",
+      "gender": 0,
+      "country": "People's Republic of China"
+    },
+    {
+      "fullName": "ZHENG Jiuyuan",
+      "gender": 0,
+      "country": "People's Republic of China"
+    },
+    {
+      "fullName": "URIBE BERMUDEZ Luis Felipe",
+      "gender": 0,
+      "country": "Colombia"
+    },
+    {
+      "fullName": "ZAPATA CORREA Daniela",
+      "gender": 1,
+      "country": "Colombia"
+    },
+    {
+      "fullName": "CARVAJAL Ana",
+      "gender": 1,
+      "country": "Spain"
+    },
+    {
+      "fullName": "BOUYER Jules",
+      "gender": 0,
+      "country": "France"
+    },
+    {
+      "fullName": "CUTMORE Ben",
+      "gender": 0,
+      "country": "Great Britain"
+    },
+    {
+      "fullName": "HARDING Anthony",
+      "gender": 0,
+      "country": "Great Britain"
+    },
+    {
+      "fullName": "HARPER Yasmin",
+      "gender": 1,
+      "country": "Great Britain"
+    },
+    {
+      "fullName": "HASLAM Ross",
+      "gender": 0,
+      "country": "Great Britain"
+    },
+    {
+      "fullName": "LAUGHER Jack",
+      "gender": 0,
+      "country": "Great Britain"
+    },
+    {
+      "fullName": "MCCABE Euan",
+      "gender": 0,
+      "country": "Great Britain"
+    },
+    {
+      "fullName": "MEW JENSEN Scarlett",
+      "gender": 1,
+      "country": "Great Britain"
+    },
+    {
+      "fullName": "MASSENBERG Lou Noel Guy",
+      "gender": 0,
+      "country": "Germany"
+    },
+    {
+      "fullName": "PFEIF Pauline Alexandra",
+      "gender": 1,
+      "country": "Germany"
+    },
+    {
+      "fullName": "SCHAUER Jonathan Gisbert",
+      "gender": 0,
+      "country": "Germany"
+    },
+    {
+      "fullName": "WASSEN Elena",
+      "gender": 1,
+      "country": "Germany"
+    },
+    {
+      "fullName": "CONTE Simone",
+      "gender": 0,
+      "country": "Italy"
+    },
+    {
+      "fullName": "GIOVANNINI Riccardo",
+      "gender": 0,
+      "country": "Italy"
+    },
+    {
+      "fullName": "JODOIN DI MARIA Sarah",
+      "gender": 1,
+      "country": "Italy"
+    },
+    {
+      "fullName": "MARSAGLIA Lorenzo",
+      "gender": 0,
+      "country": "Italy"
+    },
+    {
+      "fullName": "PIZZINI Elisa",
+      "gender": 1,
+      "country": "Italy"
+    },
+    {
+      "fullName": "TOCCI Giovanni",
+      "gender": 0,
+      "country": "Italy"
+    },
+    {
+      "fullName": "IKUMA Senri",
+      "gender": 0,
+      "country": "Japan"
+    },
+    {
+      "fullName": "KANETO Rin",
+      "gender": 1,
+      "country": "Japan"
+    },
+    {
+      "fullName": "SUYAMA Haruki",
+      "gender": 0,
+      "country": "Japan"
+    },
+    {
+      "fullName": "AGUNDEZ GARCIA Gabriela",
+      "gender": 1,
+      "country": "Mexico"
+    },
+    {
+      "fullName": "BERLIN REYES Kevin",
+      "gender": 0,
+      "country": "Mexico"
+    },
+    {
+      "fullName": "CELAYA HERNANDEZ Juan Manuel",
+      "gender": 0,
+      "country": "Mexico"
+    },
+    {
+      "fullName": "CUEVA LOBATO Mia Zazil",
+      "gender": 1,
+      "country": "Mexico"
+    },
+    {
+      "fullName": "CUEVA LOBATO Lia Yatzil",
+      "gender": 1,
+      "country": "Mexico"
+    },
+    {
+      "fullName": "CUEVA LOBATO Suri Zoe",
+      "gender": 1,
+      "country": "Mexico"
+    },
+    {
+      "fullName": "ESTUDILLO TORRES Alejandra",
+      "gender": 1,
+      "country": "Mexico"
+    },
+    {
+      "fullName": "GARCIA SIXTOS Maria Fernanda",
+      "gender": 1,
+      "country": "Mexico"
+    },
+    {
+      "fullName": "OLVERA IBARRA Osmar",
+      "gender": 0,
+      "country": "Mexico"
+    },
+    {
+      "fullName": "VAZQUEZ MONTANO Aranza",
+      "gender": 1,
+      "country": "Mexico"
+    },
+    {
+      "fullName": "WILLARS VALDEZ Randal",
+      "gender": 0,
+      "country": "Mexico"
+    },
+    {
+      "fullName": "JO Jin Mi",
+      "gender": 1,
+      "country": "Democratic People's Republic of Korea"
+    },
+    {
+      "fullName": "KIM Mi Rae",
+      "gender": 1,
+      "country": "Democratic People's Republic of Korea"
+    },
+    {
+      "fullName": "KAZANTSEVA Viktoria",
+      "gender": 1,
+      "country": "Russia"
+    },
+    {
+      "fullName": "KLIUEVA Uliana",
+      "gender": 1,
+      "country": "Russia"
+    },
+    {
+      "fullName": "KONANYKHINA Anna",
+      "gender": 1,
+      "country": "Russia"
+    },
+    {
+      "fullName": "KUZINA Elizaveta",
+      "gender": 1,
+      "country": "Russia"
+    },
+    {
+      "fullName": "SHLEIKHER Nikita",
+      "gender": 0,
+      "country": "Russia"
+    },
+    {
+      "fullName": "TERNOVOI Ruslan",
+      "gender": 0,
+      "country": "Russia"
+    },
+    {
+      "fullName": "TRIFONOVA Nadezhda",
+      "gender": 1,
+      "country": "Russia"
+    },
+    {
+      "fullName": "HEIMBERG Michelle",
+      "gender": 1,
+      "country": "Switzerland"
+    },
+    {
+      "fullName": "BAILO Kseniia",
+      "gender": 1,
+      "country": "Ukraine"
+    },
+    {
+      "fullName": "BOCHEK Kseniia",
+      "gender": 1,
+      "country": "Ukraine"
+    },
+    {
+      "fullName": "BOLIUKH Kirill",
+      "gender": 0,
+      "country": "Ukraine"
+    },
+    {
+      "fullName": "HRYTSENKO Mark",
+      "gender": 0,
+      "country": "Ukraine"
+    },
+    {
+      "fullName": "KARNAFEL Diana",
+      "gender": 1,
+      "country": "Ukraine"
+    },
+    {
+      "fullName": "OLIFERCHYK Stanislav",
+      "gender": 0,
+      "country": "Ukraine"
+    },
+    {
+      "fullName": "SEREDA Oleksii",
+      "gender": 0,
+      "country": "Ukraine"
+    },
+    {
+      "fullName": "VYSTAVKINA Sofiia",
+      "gender": 1,
+      "country": "Ukraine"
+    },
+    {
+      "fullName": "KNIGHT Kyndal",
+      "gender": 1,
+      "country": "United States of America"
+    },
+    {
+      "fullName": "KWONG Anna",
+      "gender": 1,
+      "country": "United States of America"
+    },
+    {
+      "fullName": "MCAFEE Sophia",
+      "gender": 1,
+      "country": "United States of America"
+    },
+    {
+      "fullName": "NIDAY Ellireese",
+      "gender": 1,
+      "country": "United States of America"
+    },
+    {
+      "fullName": "RYAN Jack",
+      "gender": 0,
+      "country": "United States of America"
+    },
+    {
+      "fullName": "TYLER Carson",
+      "gender": 0,
+      "country": "United States of America"
+    },
+    {
+      "fullName": "VERZYL Sophia",
+      "gender": 1,
+      "country": "United States of America"
+    }
+  ],
+  "finals": [
+    {
+      "disciplineName": "Women's 3m Springboard",
+      "results": [
+        {
+          "fullName": "CHEN Jia",
+          "totalPoints": "374.40",
+          "rank": 1,
+          "scores": [
+            "73.50",
+            "74.40",
+            "76.50",
+            "72.00",
+            "78.00"
+          ]
+        },
+        {
+          "fullName": "CHEN Yiwen",
+          "totalPoints": "373.05",
+          "rank": 2,
+          "scores": [
+            "69.00",
+            "72.00",
+            "76.50",
+            "79.05",
+            "76.50"
+          ]
+        },
+        {
+          "fullName": "KEENEY Maddison",
+          "totalPoints": "339.00",
+          "rank": 3,
+          "scores": [
+            "66.00",
+            "49.50",
+            "67.50",
+            "74.40",
+            "81.60"
+          ]
+        },
+        {
+          "fullName": "KOLOI Alysha",
+          "totalPoints": "294.60",
+          "rank": 4,
+          "scores": [
+            "67.50",
+            "65.10",
+            "40.50",
+            "58.50",
+            "63.00"
+          ]
+        }
+      ]
+    },
+    {
+      "disciplineName": "Women's 10m Platform",
+      "results": [
+        {
+          "fullName": "JIANG Linjing",
+          "totalPoints": "397.95",
+          "rank": 1,
+          "scores": [
+            "81.60",
+            "73.50",
+            "94.05",
+            "86.40",
+            "62.40"
+          ]
+        },
+        {
+          "fullName": "KONANYKHINA Anna",
+          "totalPoints": "319.20",
+          "rank": 2,
+          "scores": [
+            "61.50",
+            "76.80",
+            "54.60",
+            "49.50",
+            "76.80"
+          ]
+        },
+        {
+          "fullName": "PFEIF Pauline Alexandra",
+          "totalPoints": "317.00",
+          "rank": 3,
+          "scores": [
+            "46.50",
+            "67.20",
+            "72.00",
+            "60.90",
+            "70.40"
+          ]
+        },
+        {
+          "fullName": "NIDAY Ellireese",
+          "totalPoints": "292.65",
+          "rank": 4,
+          "scores": [
+            "76.80",
+            "40.60",
+            "30.45",
+            "72.80",
+            "72.00"
+          ]
+        }
+      ]
+    },
+    {
+      "disciplineName": "Women's 3m Synchronised",
+      "results": [
+        {
+          "fullName": "CHEN Jia / CHEN Yiwen",
+          "totalPoints": "331.05",
+          "rank": 1,
+          "scores": [
+            "51.60",
+            "51.00",
+            "73.80",
+            "79.05",
+            "75.60"
+          ]
+        },
+        {
+          "fullName": "KEENEY Maddison / KOLOI Alysha",
+          "totalPoints": "299.94",
+          "rank": 2,
+          "scores": [
+            "49.20",
+            "45.00",
+            "69.30",
+            "72.54",
+            "63.90"
+          ]
+        },
+        {
+          "fullName": "MEW JENSEN Scarlett / HARPER Yasmin",
+          "totalPoints": "294.60",
+          "rank": 3,
+          "scores": [
+            "49.20",
+            "46.20",
+            "69.30",
+            "64.80",
+            "65.10"
+          ]
+        },
+        {
+          "fullName": "KWONG Anna / VERZYL Sophia",
+          "totalPoints": "276.15",
+          "rank": 4,
+          "scores": [
+            "46.80",
+            "42.60",
+            "58.50",
+            "66.03",
+            "62.22"
+          ]
+        },
+        {
+          "fullName": "CUEVA LOBATO Mia Zazil / CUEVA LOBATO Lia Yatzil",
+          "totalPoints": "273.63",
+          "rank": 5,
+          "scores": [
+            "47.40",
+            "46.20",
+            "57.60",
+            "56.73",
+            "65.70"
+          ]
+        },
+        {
+          "fullName": "TRIFONOVA Nadezhda / KLIUEVA Uliana",
+          "totalPoints": "273.00",
+          "rank": 6,
+          "scores": [
+            "47.40",
+            "42.00",
+            "65.70",
+            "54.90",
+            "63.00"
+          ]
+        },
+        {
+          "fullName": "BOCHEK Kseniia / KARNAFEL Diana",
+          "totalPoints": "262.50",
+          "rank": 7,
+          "scores": [
+            "46.80",
+            "40.20",
+            "62.10",
+            "54.00",
+            "59.40"
+          ]
+        },
+        {
+          "fullName": "VALLEE Mia / JASMIN Amelie-Laura",
+          "totalPoints": "250.98",
+          "rank": 8,
+          "scores": [
+            "44.40",
+            "47.40",
+            "46.80",
+            "52.08",
+            "60.30"
+          ]
+        }
+      ]
+    },
+    {
+      "disciplineName": "Women's 10m Synchronised",
+      "results": [
+        {
+          "fullName": "CHEN Yuxi / LU Wei",
+          "totalPoints": "366.12",
+          "rank": 1,
+          "scores": [
+            "54.60",
+            "55.80",
+            "81.00",
+            "84.48",
+            "90.24"
+          ]
+        },
+        {
+          "fullName": "JO Jin Mi / KIM Mi Rae",
+          "totalPoints": "321.30",
+          "rank": 2,
+          "scores": [
+            "54.00",
+            "50.40",
+            "72.90",
+            "74.88",
+            "69.12"
+          ]
+        },
+        {
+          "fullName": "PUCKERIDGE Milly / COLE Ellie",
+          "totalPoints": "297.12",
+          "rank": 3,
+          "scores": [
+            "45.00",
+            "46.20",
+            "64.80",
+            "66.24",
+            "74.88"
+          ]
+        },
+        {
+          "fullName": "ESTUDILLO TORRES Alejandra / AGUNDEZ GARCIA Gabriela",
+          "totalPoints": "296.04",
+          "rank": 4,
+          "scores": [
+            "46.80",
+            "42.60",
+            "68.40",
+            "65.28",
+            "72.96"
+          ]
+        },
+        {
+          "fullName": "KAZANTSEVA Viktoria / KONANYKHINA Anna",
+          "totalPoints": "284.28",
+          "rank": 5,
+          "scores": [
+            "46.20",
+            "45.60",
+            "64.80",
+            "60.48",
+            "67.20"
+          ]
+        },
+        {
+          "fullName": "VYSTAVKINA Sofiia / BAILO Kseniia",
+          "totalPoints": "278.46",
+          "rank": 6,
+          "scores": [
+            "45.60",
+            "46.20",
+            "65.70",
+            "62.40",
+            "58.56"
+          ]
+        },
+        {
+          "fullName": "MILLER Kate / FUNG Katelyn",
+          "totalPoints": "275.82",
+          "rank": 7,
+          "scores": [
+            "47.40",
+            "43.80",
+            "67.50",
+            "42.24",
+            "74.88"
+          ]
+        },
+        {
+          "fullName": "WASSEN Elena / PFEIF Pauline Alexandra",
+          "totalPoints": "243.60",
+          "rank": 8,
+          "scores": [
+            "43.80",
+            "42.60",
+            "45.12",
+            "61.20",
+            "50.88"
+          ]
+        }
+      ]
+    },
+    {
+      "disciplineName": "Men's 3m Springboard",
+      "results": [
+        {
+          "fullName": "WANG Zongyuan",
+          "totalPoints": "544.35",
+          "rank": 1,
+          "scores": [
+            "86.70",
+            "89.25",
+            "95.55",
+            "89.25",
+            "81.00",
+            "102.60"
+          ]
+        },
+        {
+          "fullName": "ZHENG Jiuyuan",
+          "totalPoints": "500.50",
+          "rank": 2,
+          "scores": [
+            "78.20",
+            "89.25",
+            "87.50",
+            "70.50",
+            "91.20",
+            "83.85"
+          ]
+        },
+        {
+          "fullName": "OLVERA IBARRA Osmar",
+          "totalPoints": "480.50",
+          "rank": 3,
+          "scores": [
+            "86.70",
+            "71.75",
+            "46.80",
+            "86.70",
+            "96.90",
+            "91.65"
+          ]
+        },
+        {
+          "fullName": "BOUYER Jules",
+          "totalPoints": "443.20",
+          "rank": 4,
+          "scores": [
+            "66.30",
+            "81.60",
+            "72.00",
+            "70.00",
+            "73.50",
+            "79.80"
+          ]
+        }
+      ]
+    },
+    {
+      "disciplineName": "Men's 10m Platform",
+      "results": [
+        {
+          "fullName": "BAI Yuming",
+          "totalPoints": "542.95",
+          "rank": 1,
+          "scores": [
+            "81.60",
+            "86.40",
+            "77.00",
+            "91.80",
+            "104.40",
+            "101.75"
+          ]
+        },
+        {
+          "fullName": "WILLARS VALDEZ Randal",
+          "totalPoints": "538.15",
+          "rank": 2,
+          "scores": [
+            "85.75",
+            "76.50",
+            "87.50",
+            "93.60",
+            "88.20",
+            "106.60"
+          ]
+        },
+        {
+          "fullName": "LIAN Junjie",
+          "totalPoints": "506.80",
+          "rank": 3,
+          "scores": [
+            "91.20",
+            "96.00",
+            "94.50",
+            "49.30",
+            "64.80",
+            "111.00"
+          ]
+        },
+        {
+          "fullName": "ROUSSEAU Cassiel",
+          "totalPoints": "480.70",
+          "rank": 4,
+          "scores": [
+            "81.60",
+            "81.60",
+            "48.60",
+            "90.00",
+            "86.40",
+            "92.50"
+          ]
+        }
+      ]
+    },
+    {
+      "disciplineName": "Men's 3m Synchronised",
+      "results": [
+        {
+          "fullName": "WANG Zongyuan / ZHENG Jiuyuan",
+          "totalPoints": "460.68",
+          "rank": 1,
+          "scores": [
+            "51.60",
+            "54.60",
+            "85.05",
+            "85.68",
+            "86.64",
+            "97.11"
+          ]
+        },
+        {
+          "fullName": "CELAYA HERNANDEZ Juan Manuel / OLVERA IBARRA Osmar",
+          "totalPoints": "420.57",
+          "rank": 2,
+          "scores": [
+            "49.80",
+            "49.20",
+            "81.60",
+            "82.62",
+            "67.26",
+            "90.09"
+          ]
+        },
+        {
+          "fullName": "HARDING Anthony / LAUGHER Jack",
+          "totalPoints": "406.20",
+          "rank": 3,
+          "scores": [
+            "50.40",
+            "51.60",
+            "74.40",
+            "79.56",
+            "79.56",
+            "70.68"
+          ]
+        },
+        {
+          "fullName": "BOLIUKH Kirill / OLIFERCHYK Stanislav",
+          "totalPoints": "396.54",
+          "rank": 4,
+          "scores": [
+            "49.80",
+            "46.80",
+            "75.48",
+            "68.82",
+            "83.22",
+            "72.42"
+          ]
+        },
+        {
+          "fullName": "ZSOMBOR-MURRAY Nathan / PAUL Carson",
+          "totalPoints": "389.88",
+          "rank": 5,
+          "scores": [
+            "49.80",
+            "48.00",
+            "70.38",
+            "73.50",
+            "70.68",
+            "77.52"
+          ]
+        },
+        {
+          "fullName": "SCHAUER Jonathan Gisbert / MASSENBERG Lou Noel Guy",
+          "totalPoints": "383.55",
+          "rank": 6,
+          "scores": [
+            "48.60",
+            "48.00",
+            "77.52",
+            "66.30",
+            "72.45",
+            "70.68"
+          ]
+        },
+        {
+          "fullName": "IKUMA Senri / SUYAMA Haruki",
+          "totalPoints": "378.51",
+          "rank": 7,
+          "scores": [
+            "46.80",
+            "47.40",
+            "65.10",
+            "74.46",
+            "70.20",
+            "74.55"
+          ]
+        },
+        {
+          "fullName": "MARSAGLIA Lorenzo / TOCCI Giovanni",
+          "totalPoints": "376.26",
+          "rank": 8,
+          "scores": [
+            "48.00",
+            "48.00",
+            "70.68",
+            "79.56",
+            "67.32",
+            "62.70"
+          ]
+        }
+      ]
+    },
+    {
+      "disciplineName": "Men's 10m Synchronised",
+      "results": [
+        {
+          "fullName": "ZHAO Renjie / YANG Zhihao",
+          "totalPoints": "448.68",
+          "rank": 1,
+          "scores": [
+            "57.00",
+            "49.80",
+            "87.36",
+            "91.80",
+            "66.60",
+            "96.12"
+          ]
+        },
+        {
+          "fullName": "HRYTSENKO Mark / SEREDA Oleksii",
+          "totalPoints": "404.28",
+          "rank": 2,
+          "scores": [
+            "49.20",
+            "48.00",
+            "75.84",
+            "79.92",
+            "71.40",
+            "79.92"
+          ]
+        },
+        {
+          "fullName": "BERLIN REYES Kevin / WILLARS VALDEZ Randal",
+          "totalPoints": "403.02",
+          "rank": 3,
+          "scores": [
+            "50.40",
+            "47.40",
+            "76.50",
+            "81.00",
+            "71.04",
+            "76.68"
+          ]
+        },
+        {
+          "fullName": "MCCABE Euan / CUTMORE Ben",
+          "totalPoints": "377.34",
+          "rank": 4,
+          "scores": [
+            "45.60",
+            "48.00",
+            "73.44",
+            "74.52",
+            "68.82",
+            "66.96"
+          ]
+        },
+        {
+          "fullName": "CULLEN Matt / TESSIER Benjamin",
+          "totalPoints": "375.42",
+          "rank": 5,
+          "scores": [
+            "51.00",
+            "48.60",
+            "71.40",
+            "84.24",
+            "51.06",
+            "69.12"
+          ]
+        },
+        {
+          "fullName": "GIOVANNINI Riccardo / CONTE Simone",
+          "totalPoints": "370.74",
+          "rank": 6,
+          "scores": [
+            "49.20",
+            "47.40",
+            "72.00",
+            "73.26",
+            "68.40",
+            "60.48"
+          ]
+        },
+        {
+          "fullName": "MERCIECA Jonah / ROUSSEAU Cassiel",
+          "totalPoints": "368.01",
+          "rank": 7,
+          "scores": [
+            "47.40",
+            "47.40",
+            "71.04",
+            "75.84",
+            "65.28",
+            "61.05"
+          ]
+        },
+        {
+          "fullName": "SHLEIKHER Nikita / TERNOVOI Ruslan",
+          "totalPoints": "354.57",
+          "rank": 8,
+          "scores": [
+            "48.60",
+            "50.40",
+            "57.12",
+            "51.84",
+            "69.93",
+            "76.68"
+          ]
+        }
+      ]
+    }
+  ]
+}
