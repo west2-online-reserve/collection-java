@@ -1,0 +1,675 @@
+{
+  "source" : "https://www.omegatiming.com/File/00011A0102FFFFFFFFFFFFFFFFFFFFC0.xml",
+  "capturedAt" : "2026-09-21T07:12:40.060881400Z",
+  "players" : [ {
+    "fullName" : "TERNOVOI Ruslan",
+    "lastName" : "TERNOVOI",
+    "gender" : "Male",
+    "country" : "Russia"
+  }, {
+    "fullName" : "BAI Yuming",
+    "lastName" : "BAI",
+    "gender" : "Male",
+    "country" : "China"
+  }, {
+    "fullName" : "WILLARS VALDEZ Randal",
+    "lastName" : "WILLARS VALDEZ",
+    "gender" : "Male",
+    "country" : "Mexico"
+  }, {
+    "fullName" : "HRYTSENKO Mark",
+    "lastName" : "HRYTSENKO",
+    "gender" : "Male",
+    "country" : "Ukraine"
+  }, {
+    "fullName" : "MCCABE Euan",
+    "lastName" : "MCCABE",
+    "gender" : "Male",
+    "country" : "Great Britain"
+  }, {
+    "fullName" : "CULLEN Matt",
+    "lastName" : "CULLEN",
+    "gender" : "Male",
+    "country" : "Canada"
+  }, {
+    "fullName" : "BERLIN REYES Kevin",
+    "lastName" : "BERLIN REYES",
+    "gender" : "Male",
+    "country" : "Mexico"
+  }, {
+    "fullName" : "LIAN Junjie",
+    "lastName" : "LIAN",
+    "gender" : "Male",
+    "country" : "China"
+  }, {
+    "fullName" : "MERCIECA Jonah",
+    "lastName" : "MERCIECA",
+    "gender" : "Male",
+    "country" : "Australia"
+  }, {
+    "fullName" : "ROUSSEAU Cassiel",
+    "lastName" : "ROUSSEAU",
+    "gender" : "Male",
+    "country" : "Australia"
+  }, {
+    "fullName" : "SEREDA Oleksii",
+    "lastName" : "SEREDA",
+    "gender" : "Male",
+    "country" : "Ukraine"
+  }, {
+    "fullName" : "TESSIER Benjamin",
+    "lastName" : "TESSIER",
+    "gender" : "Male",
+    "country" : "Canada"
+  }, {
+    "fullName" : "CONTE Simone",
+    "lastName" : "CONTE",
+    "gender" : "Male",
+    "country" : "Italy"
+  }, {
+    "fullName" : "GIOVANNINI Riccardo",
+    "lastName" : "GIOVANNINI",
+    "gender" : "Male",
+    "country" : "Italy"
+  }, {
+    "fullName" : "SHLEIKHER Nikita",
+    "lastName" : "SHLEIKHER",
+    "gender" : "Male",
+    "country" : "Russia"
+  }, {
+    "fullName" : "CUTMORE Ben",
+    "lastName" : "CUTMORE",
+    "gender" : "Male",
+    "country" : "Great Britain"
+  }, {
+    "fullName" : "YANG Zhihao",
+    "lastName" : "YANG",
+    "gender" : "Male",
+    "country" : "China"
+  }, {
+    "fullName" : "ZHAO Renjie",
+    "lastName" : "ZHAO",
+    "gender" : "Male",
+    "country" : "China"
+  }, {
+    "fullName" : "HASLAM Ross",
+    "lastName" : "HASLAM",
+    "gender" : "Male",
+    "country" : "Great Britain"
+  }, {
+    "fullName" : "WANG Zongyuan",
+    "lastName" : "WANG",
+    "gender" : "Male",
+    "country" : "China"
+  }, {
+    "fullName" : "CELAYA HERNANDEZ Juan Manuel",
+    "lastName" : "CELAYA HERNANDEZ",
+    "gender" : "Male",
+    "country" : "Mexico"
+  }, {
+    "fullName" : "OLVERA IBARRA Osmar",
+    "lastName" : "OLVERA IBARRA",
+    "gender" : "Male",
+    "country" : "Mexico"
+  }, {
+    "fullName" : "RYAN Jack",
+    "lastName" : "RYAN",
+    "gender" : "Male",
+    "country" : "United States"
+  }, {
+    "fullName" : "PAUL Carson",
+    "lastName" : "PAUL",
+    "gender" : "Male",
+    "country" : "Canada"
+  }, {
+    "fullName" : "ZHENG Jiuyuan",
+    "lastName" : "ZHENG",
+    "gender" : "Male",
+    "country" : "China"
+  }, {
+    "fullName" : "MASSENBERG Lou Noel Guy",
+    "lastName" : "MASSENBERG",
+    "gender" : "Male",
+    "country" : "Germany"
+  }, {
+    "fullName" : "URIBE BERMUDEZ Luis Felipe",
+    "lastName" : "URIBE BERMUDEZ",
+    "gender" : "Male",
+    "country" : "Colombia"
+  }, {
+    "fullName" : "BOUYER Jules",
+    "lastName" : "BOUYER",
+    "gender" : "Male",
+    "country" : "France"
+  }, {
+    "fullName" : "ZSOMBOR-MURRAY Nathan",
+    "lastName" : "ZSOMBOR-MURRAY",
+    "gender" : "Male",
+    "country" : "Canada"
+  }, {
+    "fullName" : "BOLIUKH Kirill",
+    "lastName" : "BOLIUKH",
+    "gender" : "Male",
+    "country" : "Ukraine"
+  }, {
+    "fullName" : "OLIFERCHYK Stanislav",
+    "lastName" : "OLIFERCHYK",
+    "gender" : "Male",
+    "country" : "Ukraine"
+  }, {
+    "fullName" : "IKUMA Senri",
+    "lastName" : "IKUMA",
+    "gender" : "Male",
+    "country" : "Japan"
+  }, {
+    "fullName" : "SUYAMA Haruki",
+    "lastName" : "SUYAMA",
+    "gender" : "Male",
+    "country" : "Japan"
+  }, {
+    "fullName" : "MARSAGLIA Lorenzo",
+    "lastName" : "MARSAGLIA",
+    "gender" : "Male",
+    "country" : "Italy"
+  }, {
+    "fullName" : "TOCCI Giovanni",
+    "lastName" : "TOCCI",
+    "gender" : "Male",
+    "country" : "Italy"
+  }, {
+    "fullName" : "SCHAUER Jonathan Gisbert",
+    "lastName" : "SCHAUER",
+    "gender" : "Male",
+    "country" : "Germany"
+  }, {
+    "fullName" : "HARDING Anthony",
+    "lastName" : "HARDING",
+    "gender" : "Male",
+    "country" : "Great Britain"
+  }, {
+    "fullName" : "LAUGHER Jack",
+    "lastName" : "LAUGHER",
+    "gender" : "Male",
+    "country" : "Great Britain"
+  }, {
+    "fullName" : "CUEVA LOBATO Suri Zoe",
+    "lastName" : "CUEVA LOBATO",
+    "gender" : "Female",
+    "country" : "Mexico"
+  }, {
+    "fullName" : "JIANG Linjing",
+    "lastName" : "JIANG",
+    "gender" : "Female",
+    "country" : "China"
+  }, {
+    "fullName" : "COLE Ellie",
+    "lastName" : "COLE",
+    "gender" : "Female",
+    "country" : "Australia"
+  }, {
+    "fullName" : "NIDAY Ellireese",
+    "lastName" : "NIDAY",
+    "gender" : "Female",
+    "country" : "United States"
+  }, {
+    "fullName" : "CARVAJAL Ana",
+    "lastName" : "CARVAJAL",
+    "gender" : "Female",
+    "country" : "Spain"
+  }, {
+    "fullName" : "KANETO Rin",
+    "lastName" : "KANETO",
+    "gender" : "Female",
+    "country" : "Japan"
+  }, {
+    "fullName" : "PFEIF Pauline Alexandra",
+    "lastName" : "PFEIF",
+    "gender" : "Female",
+    "country" : "Germany"
+  }, {
+    "fullName" : "FUNG Katelyn",
+    "lastName" : "FUNG",
+    "gender" : "Female",
+    "country" : "Canada"
+  }, {
+    "fullName" : "KONANYKHINA Anna",
+    "lastName" : "KONANYKHINA",
+    "gender" : "Female",
+    "country" : "Russia"
+  }, {
+    "fullName" : "JO Jin Mi",
+    "lastName" : "JO",
+    "gender" : "Female",
+    "country" : "North Korea"
+  }, {
+    "fullName" : "MILLER Kate",
+    "lastName" : "MILLER",
+    "gender" : "Female",
+    "country" : "Canada"
+  }, {
+    "fullName" : "JODOIN DI MARIA Sarah",
+    "lastName" : "JODOIN DI MARIA",
+    "gender" : "Female",
+    "country" : "Italy"
+  }, {
+    "fullName" : "BAILO Kseniia",
+    "lastName" : "BAILO",
+    "gender" : "Female",
+    "country" : "Ukraine"
+  }, {
+    "fullName" : "VYSTAVKINA Sofiia",
+    "lastName" : "VYSTAVKINA",
+    "gender" : "Female",
+    "country" : "Ukraine"
+  }, {
+    "fullName" : "KAZANTSEVA Viktoriia",
+    "lastName" : "KAZANTSEVA",
+    "gender" : "Female",
+    "country" : "Russia"
+  }, {
+    "fullName" : "WASSEN Elena",
+    "lastName" : "WASSEN",
+    "gender" : "Female",
+    "country" : "Germany"
+  }, {
+    "fullName" : "AGUNDEZ GARCIA Gabriela",
+    "lastName" : "AGUNDEZ GARCIA",
+    "gender" : "Female",
+    "country" : "Mexico"
+  }, {
+    "fullName" : "ESTUDILLO TORRES Alejandra",
+    "lastName" : "ESTUDILLO TORRES",
+    "gender" : "Female",
+    "country" : "Mexico"
+  }, {
+    "fullName" : "PUCKERIDGE Milly",
+    "lastName" : "PUCKERIDGE",
+    "gender" : "Female",
+    "country" : "Australia"
+  }, {
+    "fullName" : "KIM Mi Rae",
+    "lastName" : "KIM",
+    "gender" : "Female",
+    "country" : "North Korea"
+  }, {
+    "fullName" : "CHEN Yuxi",
+    "lastName" : "CHEN",
+    "gender" : "Female",
+    "country" : "China"
+  }, {
+    "fullName" : "LU Wei",
+    "lastName" : "LU",
+    "gender" : "Female",
+    "country" : "China"
+  }, {
+    "fullName" : "KNIGHT Kyndal",
+    "lastName" : "KNIGHT",
+    "gender" : "Female",
+    "country" : "United States"
+  }, {
+    "fullName" : "CHEN Yiwen",
+    "lastName" : "CHEN",
+    "gender" : "Female",
+    "country" : "China"
+  }, {
+    "fullName" : "HEIMBERG Michelle",
+    "lastName" : "HEIMBERG",
+    "gender" : "Female",
+    "country" : "Switzerland"
+  }, {
+    "fullName" : "KOLOI Alysha",
+    "lastName" : "KOLOI",
+    "gender" : "Female",
+    "country" : "Australia"
+  }, {
+    "fullName" : "ZAPATA CORREA Daniela",
+    "lastName" : "ZAPATA CORREA",
+    "gender" : "Female",
+    "country" : "Colombia"
+  }, {
+    "fullName" : "VAZQUEZ MONTAÑO Aranza",
+    "lastName" : "VAZQUEZ MONTAÑO",
+    "gender" : "Female",
+    "country" : "Mexico"
+  }, {
+    "fullName" : "GARCIA SIXTOS Maria Fernanda",
+    "lastName" : "GARCIA SIXTOS",
+    "gender" : "Female",
+    "country" : "Mexico"
+  }, {
+    "fullName" : "CHEN Jia",
+    "lastName" : "CHEN",
+    "gender" : "Female",
+    "country" : "China"
+  }, {
+    "fullName" : "KUZINA Elizaveta",
+    "lastName" : "KUZINA",
+    "gender" : "Female",
+    "country" : "Russia"
+  }, {
+    "fullName" : "KEENEY Maddison",
+    "lastName" : "KEENEY",
+    "gender" : "Female",
+    "country" : "Australia"
+  }, {
+    "fullName" : "PALKHIVALA Sonya",
+    "lastName" : "PALKHIVALA",
+    "gender" : "Female",
+    "country" : "Canada"
+  }, {
+    "fullName" : "ERLAM Margo",
+    "lastName" : "ERLAM",
+    "gender" : "Female",
+    "country" : "Canada"
+  }, {
+    "fullName" : "BOCHEK Kseniia",
+    "lastName" : "BOCHEK",
+    "gender" : "Female",
+    "country" : "Ukraine"
+  }, {
+    "fullName" : "KARNAFEL Diana",
+    "lastName" : "KARNAFEL",
+    "gender" : "Female",
+    "country" : "Ukraine"
+  }, {
+    "fullName" : "HARPER Yasmin",
+    "lastName" : "HARPER",
+    "gender" : "Female",
+    "country" : "Great Britain"
+  }, {
+    "fullName" : "MEW JENSEN Scarlett",
+    "lastName" : "MEW JENSEN",
+    "gender" : "Female",
+    "country" : "Great Britain"
+  }, {
+    "fullName" : "KLIUEVA Uliana",
+    "lastName" : "KLIUEVA",
+    "gender" : "Female",
+    "country" : "Russia"
+  }, {
+    "fullName" : "TRIFONOVA Nadezhda",
+    "lastName" : "TRIFONOVA",
+    "gender" : "Female",
+    "country" : "Russia"
+  }, {
+    "fullName" : "JASMIN Amélie-Laura",
+    "lastName" : "JASMIN",
+    "gender" : "Female",
+    "country" : "Canada"
+  }, {
+    "fullName" : "VALLÉE Mia",
+    "lastName" : "VALLÉE",
+    "gender" : "Female",
+    "country" : "Canada"
+  }, {
+    "fullName" : "KWONG Anna",
+    "lastName" : "KWONG",
+    "gender" : "Female",
+    "country" : "United States"
+  }, {
+    "fullName" : "VERZYL Sophie",
+    "lastName" : "VERZYL",
+    "gender" : "Female",
+    "country" : "United States"
+  }, {
+    "fullName" : "CUEVA LOBATO Lia Yatzil",
+    "lastName" : "CUEVA LOBATO",
+    "gender" : "Female",
+    "country" : "Mexico"
+  }, {
+    "fullName" : "CUEVA LOBATO Mia Zazil",
+    "lastName" : "CUEVA LOBATO",
+    "gender" : "Female",
+    "country" : "Mexico"
+  } ],
+  "events" : {
+    "men 10m platform" : [ {
+      "fullName" : "ROUSSEAU Cassiel",
+      "rank" : 4,
+      "scores" : [ "81.60", "81.60", "48.60", "90.00", "86.40", "92.50" ],
+      "total" : "480.70"
+    }, {
+      "fullName" : "WILLARS VALDEZ Randal",
+      "rank" : 2,
+      "scores" : [ "85.75", "76.50", "87.50", "93.60", "88.20", "106.60" ],
+      "total" : "538.15"
+    }, {
+      "fullName" : "LIAN Junjie",
+      "rank" : 3,
+      "scores" : [ "91.20", "96.00", "94.50", "49.30", "64.80", "111.00" ],
+      "total" : "506.80"
+    }, {
+      "fullName" : "BAI Yuming",
+      "rank" : 1,
+      "scores" : [ "81.60", "86.40", "77.00", "91.80", "104.40", "101.75" ],
+      "total" : "542.95"
+    } ],
+    "men 10m synchronised" : [ {
+      "fullName" : "MERCIECA Jonah / ROUSSEAU Cassiel",
+      "rank" : 7,
+      "scores" : [ "47.40", "47.40", "71.04", "75.84", "65.28", "61.05" ],
+      "total" : "368.01"
+    }, {
+      "fullName" : "CONTE Simone / GIOVANNINI Riccardo",
+      "rank" : 6,
+      "scores" : [ "49.20", "47.40", "72.00", "73.26", "68.40", "60.48" ],
+      "total" : "370.74"
+    }, {
+      "fullName" : "HRYTSENKO Mark / SEREDA Oleksii",
+      "rank" : 2,
+      "scores" : [ "49.20", "48.00", "75.84", "79.92", "71.40", "79.92" ],
+      "total" : "404.28"
+    }, {
+      "fullName" : "CULLEN Matt / TESSIER Benjamin",
+      "rank" : 5,
+      "scores" : [ "51.00", "48.60", "71.40", "84.24", "51.06", "69.12" ],
+      "total" : "375.42"
+    }, {
+      "fullName" : "SHLEIKHER Nikita / TERNOVOI Ruslan",
+      "rank" : 8,
+      "scores" : [ "48.60", "50.40", "57.12", "51.84", "69.93", "76.68" ],
+      "total" : "354.57"
+    }, {
+      "fullName" : "CUTMORE Ben / MCCABE Euan",
+      "rank" : 4,
+      "scores" : [ "45.60", "48.00", "73.44", "74.52", "68.82", "66.96" ],
+      "total" : "377.34"
+    }, {
+      "fullName" : "BERLIN REYES Kevin / WILLARS VALDEZ Randal",
+      "rank" : 3,
+      "scores" : [ "50.40", "47.40", "76.50", "81.00", "71.04", "76.68" ],
+      "total" : "403.02"
+    }, {
+      "fullName" : "YANG Zhihao / ZHAO Renjie",
+      "rank" : 1,
+      "scores" : [ "57.00", "49.80", "87.36", "91.80", "66.60", "96.12" ],
+      "total" : "448.68"
+    } ],
+    "men 3m springboard" : [ {
+      "fullName" : "BOUYER Jules",
+      "rank" : 4,
+      "scores" : [ "66.30", "81.60", "72.00", "70.00", "73.50", "79.80" ],
+      "total" : "443.20"
+    }, {
+      "fullName" : "ZHENG Jiuyuan",
+      "rank" : 2,
+      "scores" : [ "78.20", "89.25", "87.50", "70.50", "91.20", "83.85" ],
+      "total" : "500.50"
+    }, {
+      "fullName" : "OLVERA IBARRA Osmar",
+      "rank" : 3,
+      "scores" : [ "86.70", "71.75", "46.80", "86.70", "96.90", "91.65" ],
+      "total" : "480.50"
+    }, {
+      "fullName" : "WANG Zongyuan",
+      "rank" : 1,
+      "scores" : [ "86.70", "89.25", "95.55", "89.25", "81.00", "102.60" ],
+      "total" : "544.35"
+    } ],
+    "men 3m synchronised" : [ {
+      "fullName" : "BOLIUKH Kirill / OLIFERCHYK Stanislav",
+      "rank" : 4,
+      "scores" : [ "49.80", "46.80", "75.48", "68.82", "83.22", "72.42" ],
+      "total" : "396.54"
+    }, {
+      "fullName" : "IKUMA Senri / SUYAMA Haruki",
+      "rank" : 7,
+      "scores" : [ "46.80", "47.40", "65.10", "74.46", "70.20", "74.55" ],
+      "total" : "378.51"
+    }, {
+      "fullName" : "MARSAGLIA Lorenzo / TOCCI Giovanni",
+      "rank" : 8,
+      "scores" : [ "48.00", "48.00", "70.68", "79.56", "67.32", "62.70" ],
+      "total" : "376.26"
+    }, {
+      "fullName" : "MASSENBERG Lou Noel Guy / SCHAUER Jonathan Gisbert",
+      "rank" : 6,
+      "scores" : [ "48.60", "48.00", "77.52", "66.30", "72.45", "70.68" ],
+      "total" : "383.55"
+    }, {
+      "fullName" : "PAUL Carson / ZSOMBOR-MURRAY Nathan",
+      "rank" : 5,
+      "scores" : [ "49.80", "48.00", "70.38", "73.50", "70.68", "77.52" ],
+      "total" : "389.88"
+    }, {
+      "fullName" : "HARDING Anthony / LAUGHER Jack",
+      "rank" : 3,
+      "scores" : [ "50.40", "51.60", "74.40", "79.56", "79.56", "70.68" ],
+      "total" : "406.20"
+    }, {
+      "fullName" : "CELAYA HERNANDEZ Juan Manuel / OLVERA IBARRA Osmar",
+      "rank" : 2,
+      "scores" : [ "49.80", "49.20", "81.60", "82.62", "67.26", "90.09" ],
+      "total" : "420.57"
+    }, {
+      "fullName" : "WANG Zongyuan / ZHENG Jiuyuan",
+      "rank" : 1,
+      "scores" : [ "51.60", "54.60", "85.05", "85.68", "86.64", "97.11" ],
+      "total" : "460.68"
+    } ],
+    "women 10m platform" : [ {
+      "fullName" : "KONANYKHINA Anna",
+      "rank" : 2,
+      "scores" : [ "61.50", "76.80", "54.60", "49.50", "76.80" ],
+      "total" : "319.20"
+    }, {
+      "fullName" : "NIDAY Ellireese",
+      "rank" : 4,
+      "scores" : [ "76.80", "40.60", "30.45", "72.80", "72.00" ],
+      "total" : "292.65"
+    }, {
+      "fullName" : "PFEIF Pauline Alexandra",
+      "rank" : 3,
+      "scores" : [ "46.50", "67.20", "72.00", "60.90", "70.40" ],
+      "total" : "317.00"
+    }, {
+      "fullName" : "JIANG Linjing",
+      "rank" : 1,
+      "scores" : [ "81.60", "73.50", "94.05", "86.40", "62.40" ],
+      "total" : "397.95"
+    } ],
+    "women 10m synchronised" : [ {
+      "fullName" : "BAILO Kseniia / VYSTAVKINA Sofiia",
+      "rank" : 6,
+      "scores" : [ "45.60", "46.20", "65.70", "62.40", "58.56" ],
+      "total" : "278.46"
+    }, {
+      "fullName" : "KAZANTSEVA Viktoriia / KONANYKHINA Anna",
+      "rank" : 5,
+      "scores" : [ "46.20", "45.60", "64.80", "60.48", "67.20" ],
+      "total" : "284.28"
+    }, {
+      "fullName" : "PFEIF Pauline Alexandra / WASSEN Elena",
+      "rank" : 8,
+      "scores" : [ "43.80", "42.60", "45.12", "61.20", "50.88" ],
+      "total" : "243.60"
+    }, {
+      "fullName" : "AGUNDEZ GARCIA Gabriela / ESTUDILLO TORRES Alejandra",
+      "rank" : 4,
+      "scores" : [ "46.80", "42.60", "68.40", "65.28", "72.96" ],
+      "total" : "296.04"
+    }, {
+      "fullName" : "COLE Ellie / PUCKERIDGE Milly",
+      "rank" : 3,
+      "scores" : [ "45.00", "46.20", "64.80", "66.24", "74.88" ],
+      "total" : "297.12"
+    }, {
+      "fullName" : "FUNG Katelyn / MILLER Kate",
+      "rank" : 7,
+      "scores" : [ "47.40", "43.80", "67.50", "42.24", "74.88" ],
+      "total" : "275.82"
+    }, {
+      "fullName" : "KIM Mi Rae / JO Jin Mi",
+      "rank" : 2,
+      "scores" : [ "54.00", "50.40", "72.90", "74.88", "69.12" ],
+      "total" : "321.30"
+    }, {
+      "fullName" : "CHEN Yuxi / LU Wei",
+      "rank" : 1,
+      "scores" : [ "54.60", "55.80", "81.00", "84.48", "90.24" ],
+      "total" : "366.12"
+    } ],
+    "women 3m springboard" : [ {
+      "fullName" : "KOLOI Alysha",
+      "rank" : 4,
+      "scores" : [ "67.50", "65.10", "40.50", "58.50", "63.00" ],
+      "total" : "294.60"
+    }, {
+      "fullName" : "CHEN Yiwen",
+      "rank" : 2,
+      "scores" : [ "69.00", "72.00", "76.50", "79.05", "76.50" ],
+      "total" : "373.05"
+    }, {
+      "fullName" : "CHEN Jia",
+      "rank" : 1,
+      "scores" : [ "73.50", "74.40", "76.50", "72.00", "78.00" ],
+      "total" : "374.40"
+    }, {
+      "fullName" : "KEENEY Maddison",
+      "rank" : 3,
+      "scores" : [ "66.00", "49.50", "67.50", "74.40", "81.60" ],
+      "total" : "339.00"
+    } ],
+    "women 3m synchronised" : [ {
+      "fullName" : "BOCHEK Kseniia / KARNAFEL Diana",
+      "rank" : 7,
+      "scores" : [ "46.80", "40.20", "62.10", "54.00", "59.40" ],
+      "total" : "262.50"
+    }, {
+      "fullName" : "HARPER Yasmin / MEW JENSEN Scarlett",
+      "rank" : 3,
+      "scores" : [ "49.20", "46.20", "69.30", "64.80", "65.10" ],
+      "total" : "294.60"
+    }, {
+      "fullName" : "KLIUEVA Uliana / TRIFONOVA Nadezhda",
+      "rank" : 6,
+      "scores" : [ "47.40", "42.00", "65.70", "54.90", "63.00" ],
+      "total" : "273.00"
+    }, {
+      "fullName" : "JASMIN Amélie-Laura / VALLÉE Mia",
+      "rank" : 8,
+      "scores" : [ "44.40", "47.40", "46.80", "52.08", "60.30" ],
+      "total" : "250.98"
+    }, {
+      "fullName" : "KWONG Anna / VERZYL Sophie",
+      "rank" : 4,
+      "scores" : [ "46.80", "42.60", "58.50", "66.03", "62.22" ],
+      "total" : "276.15"
+    }, {
+      "fullName" : "CUEVA LOBATO Lia Yatzil / CUEVA LOBATO Mia Zazil",
+      "rank" : 5,
+      "scores" : [ "47.40", "46.20", "57.60", "56.73", "65.70" ],
+      "total" : "273.63"
+    }, {
+      "fullName" : "KEENEY Maddison / KOLOI Alysha",
+      "rank" : 2,
+      "scores" : [ "49.20", "45.00", "69.30", "72.54", "63.90" ],
+      "total" : "299.94"
+    }, {
+      "fullName" : "CHEN Jia / CHEN Yiwen",
+      "rank" : 1,
+      "scores" : [ "51.60", "51.00", "73.80", "79.05", "75.60" ],
+      "total" : "331.05"
+    } ]
+  }
+}
