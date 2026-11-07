@@ -1,7 +1,8 @@
 package user.commands;
 
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.io.TempDir;
 import user.exceptions.ParamException;
 import user.lib.CommandList;
 import user.lib.CommandParam;
@@ -18,12 +19,21 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class InputFileTest {
 
-    @TempDir
-    Path temporaryDirectory;
+    private Path testDirectory;
+
+    @BeforeEach
+    void setUpFiles() {
+        testDirectory = TestFixtures.createTestDirectory(getClass());
+    }
+
+    @AfterEach
+    void cleanFiles() {
+        TestFixtures.deleteTestDirectory(testDirectory);
+    }
 
     @Test
     void readsNonBlankLinesIntoCommandQueue() throws Exception {
-        Path input = Files.writeString(temporaryDirectory.resolve("commands.txt"), """
+        Path input = Files.writeString(testDirectory.resolve("commands.txt"), """
 
                 players
 
@@ -42,11 +52,11 @@ class InputFileTest {
 
     @Test
     void appendsOutputFileToEveryCommand() throws Exception {
-        Path input = Files.writeString(temporaryDirectory.resolve("commands.txt"), """
+        Path input = Files.writeString(testDirectory.resolve("commands.txt"), """
                 players
                 result men 10m platform
                 """);
-        Path output = temporaryDirectory.resolve("output.txt");
+        Path output = testDirectory.resolve("output.txt");
         ArrayDeque<CommandParam> queue = new ArrayDeque<>();
 
         InputFile.execute(
@@ -90,7 +100,7 @@ class InputFileTest {
         assertThrows(
                 UncheckedIOException.class,
                 () -> InputFile.execute(
-                        TestFixtures.param(temporaryDirectory.resolve("missing.txt").toString()),
+                        TestFixtures.param(testDirectory.resolve("missing.txt").toString()),
                         queue,
                         commandList
                 )

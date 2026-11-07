@@ -5,12 +5,16 @@ import core.data.JsonData;
 import user.lib.CommandParam;
 
 import java.io.ByteArrayOutputStream;
+import java.io.IOException;
 import java.io.PrintStream;
+import java.io.UncheckedIOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Stream;
 
 public final class TestFixtures {
 
@@ -98,5 +102,29 @@ public final class TestFixtures {
 
     public static String readFile(Path path) throws Exception {
         return Files.readString(path, StandardCharsets.UTF_8).replace("\r\n", "\n");
+    }
+
+    public static Path createTestDirectory(Class<?> testClass) {
+        Path directory = Path.of("target", "test-files", testClass.getSimpleName());
+        deleteTestDirectory(directory);
+        try {
+            return Files.createDirectories(directory);
+        } catch (IOException exception) {
+            throw new UncheckedIOException("Unable to create test directory: " + directory, exception);
+        }
+    }
+
+    public static void deleteTestDirectory(Path directory) {
+        if (!Files.exists(directory)) {
+            return;
+        }
+
+        try (Stream<Path> paths = Files.walk(directory)) {
+            for (Path path : paths.sorted(Comparator.reverseOrder()).toList()) {
+                Files.deleteIfExists(path);
+            }
+        } catch (IOException exception) {
+            throw new UncheckedIOException("Unable to delete test directory: " + directory, exception);
+        }
     }
 }

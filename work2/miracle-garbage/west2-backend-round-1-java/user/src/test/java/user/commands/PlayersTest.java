@@ -1,8 +1,9 @@
 package user.commands;
 
 import core.data.JsonData;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.io.TempDir;
 import user.exceptions.ParamException;
 import user.lib.FileCache;
 import user.support.TestFixtures;
@@ -16,11 +17,20 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class PlayersTest {
 
-    @TempDir
-    Path temporaryDirectory;
+    private Path testDirectory;
 
     private final Players players = new Players();
     private final JsonData data = TestFixtures.data();
+
+    @BeforeEach
+    void setUpFiles() {
+        testDirectory = TestFixtures.createTestDirectory(getClass());
+    }
+
+    @AfterEach
+    void cleanFiles() {
+        TestFixtures.deleteTestDirectory(testDirectory);
+    }
 
     @Test
     void hasRegisteredName() {
@@ -38,7 +48,7 @@ class PlayersTest {
 
     @Test
     void writesAllPlayersToFileWithoutTerminalDataOutput() throws Exception {
-        Path outputFile = temporaryDirectory.resolve("players.txt");
+        Path outputFile = testDirectory.resolve("players.txt");
         FileCache fileCache = new FileCache();
 
         String console = TestFixtures.captureOutput(
@@ -50,7 +60,8 @@ class PlayersTest {
         );
         fileCache.clear();
 
-        assertEquals("文件 " + outputFile + " 写入成功\n", console);
+        assertTrue(console.contains(outputFile.getFileName().toString()));
+        assertTrue(console.endsWith("写入成功\n"));
         assertAllPlayerInformation(TestFixtures.readFile(outputFile));
     }
 

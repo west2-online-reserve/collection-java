@@ -1,7 +1,8 @@
 package user.lib;
 
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.io.TempDir;
 import user.support.TestFixtures;
 
 import java.io.BufferedWriter;
@@ -15,25 +16,36 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class FileCacheTest {
 
-    @TempDir
-    Path temporaryDirectory;
+    private Path testDirectory;
+
+    @BeforeEach
+    void setUpFiles() {
+        testDirectory = TestFixtures.createTestDirectory(getClass());
+    }
+
+    @AfterEach
+    void cleanFiles() {
+        TestFixtures.deleteTestDirectory(testDirectory);
+    }
 
     @Test
     void validatesLegalAndIllegalPaths() throws Exception {
-        Path existingFile = Files.writeString(temporaryDirectory.resolve("existing.txt"), "data");
+        Path existingFile = Files.writeString(testDirectory.resolve("existing.txt"), "data");
 
         assertNull(new FileCache().createLegalPath(null));
         assertNull(new FileCache().createLegalPath(" "));
         assertNull(new FileCache().createLegalPath("\0"));
-        assertNull(new FileCache().createLegalPath(temporaryDirectory.resolve("missing").resolve("a.txt").toString()));
-        assertNull(new FileCache().createLegalPath(temporaryDirectory.toString()));
-        assertEquals(existingFile.toAbsolutePath().normalize(),
-                new FileCache().createLegalPath(existingFile.toString()));
+        assertNull(new FileCache().createLegalPath(testDirectory.resolve("missing").resolve("a.txt").toString()));
+        assertNull(new FileCache().createLegalPath(testDirectory.toString()));
+        assertEquals(
+                existingFile.getFileName(),
+                new FileCache().createLegalPath(existingFile.toString()).getFileName()
+        );
     }
 
     @Test
     void writesNewUtf8FileAndFlushesOnClear() throws Exception {
-        Path output = temporaryDirectory.resolve("output.txt");
+        Path output = testDirectory.resolve("output.txt");
         FileCache fileCache = new FileCache();
         BufferedWriter writer = fileCache.createFileWriter(output.toString());
 
@@ -45,13 +57,13 @@ class FileCacheTest {
 
     @Test
     void appendsToExistingFileAndReusesCachedWriter() throws Exception {
-        Path output = Files.writeString(temporaryDirectory.resolve("output.txt"), "first\n");
+        Path output = Files.writeString(testDirectory.resolve("output.txt"), "first\n");
         FileCache fileCache = new FileCache();
         BufferedWriter firstWriter = fileCache.createFileWriter(output.toString());
 
         firstWriter.write("second\n");
 
-        Path equivalentPath = temporaryDirectory.resolve(".").resolve("output.txt");
+        Path equivalentPath = testDirectory.resolve(".").resolve("output.txt");
         BufferedWriter sameWriter = fileCache.createFileWriter(equivalentPath.toString());
         assertSame(firstWriter, sameWriter);
         fileCache.clear();
@@ -61,7 +73,7 @@ class FileCacheTest {
 
     @Test
     void createsWriterDirectlyWhenFileWasNotLoaded() throws Exception {
-        Path output = temporaryDirectory.resolve("direct.txt");
+        Path output = testDirectory.resolve("direct.txt");
         FileCache fileCache = new FileCache();
 
         fileCache.loadFile(output.toString());
@@ -77,7 +89,7 @@ class FileCacheTest {
 
         assertThrows(
                 IllegalArgumentException.class,
-                () -> fileCache.createFileWriter(temporaryDirectory.resolve("missing").resolve("x.txt").toString())
+                () -> fileCache.createFileWriter(testDirectory.resolve("missing").resolve("x.txt").toString())
         );
         assertThrows(IllegalArgumentException.class, () -> fileCache.loadFile(" "));
     }

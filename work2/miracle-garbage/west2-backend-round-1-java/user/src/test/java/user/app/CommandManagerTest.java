@@ -1,7 +1,8 @@
 package user.app;
 
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.io.TempDir;
 import user.exceptions.ParamException;
 import user.support.TestFixtures;
 
@@ -15,8 +16,17 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class CommandManagerTest {
 
-    @TempDir
-    Path temporaryDirectory;
+    private Path testDirectory;
+
+    @BeforeEach
+    void setUpFiles() {
+        testDirectory = TestFixtures.createTestDirectory(getClass());
+    }
+
+    @AfterEach
+    void cleanFiles() {
+        TestFixtures.deleteTestDirectory(testDirectory);
+    }
 
     @Test
     void rejectsMissingOrIllegalFirstArgument() {
@@ -43,7 +53,7 @@ class CommandManagerTest {
 
     @Test
     void executesCommandsReadFromInputFile() throws Exception {
-        Path input = Files.writeString(temporaryDirectory.resolve("commands.txt"), """
+        Path input = Files.writeString(testDirectory.resolve("commands.txt"), """
                 players
 
                 result men 10m platform
@@ -61,11 +71,11 @@ class CommandManagerTest {
 
     @Test
     void writesAllFileCommandsToSharedOutputFile() throws Exception {
-        Path input = Files.writeString(temporaryDirectory.resolve("commands.txt"), """
+        Path input = Files.writeString(testDirectory.resolve("commands.txt"), """
                 players
                 result men 10m platform
                 """);
-        Path outputFile = temporaryDirectory.resolve("output.txt");
+        Path outputFile = testDirectory.resolve("output.txt");
 
         String console = TestFixtures.captureOutput(
                 () -> new CommandManager(TestFixtures.args(input.toString(), outputFile.toString()))
@@ -80,7 +90,7 @@ class CommandManagerTest {
 
     @Test
     void printsErrorForIllegalCommandInsideInputFile() throws Exception {
-        Path input = Files.writeString(temporaryDirectory.resolve("invalid.txt"), "unknown\n");
+        Path input = Files.writeString(testDirectory.resolve("invalid.txt"), "unknown\n");
 
         String output = TestFixtures.captureOutput(
                 () -> new CommandManager(TestFixtures.args(input.toString()))
@@ -93,10 +103,10 @@ class CommandManagerTest {
     @Test
     void writesErrorToRequestedFileForIllegalFileCommand() throws Exception {
         Path input = Files.writeString(
-                temporaryDirectory.resolve("invalid.txt"),
-                "unknown -f " + temporaryDirectory.resolve("error.txt") + "\n"
+                testDirectory.resolve("invalid.txt"),
+                "unknown -f " + testDirectory.resolve("error.txt") + "\n"
         );
-        Path errorFile = temporaryDirectory.resolve("error.txt");
+        Path errorFile = testDirectory.resolve("error.txt");
 
         TestFixtures.captureOutput(
                 () -> new CommandManager(TestFixtures.args(input.toString()))

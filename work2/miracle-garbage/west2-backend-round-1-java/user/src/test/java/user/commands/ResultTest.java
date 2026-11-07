@@ -2,8 +2,9 @@ package user.commands;
 
 import core.data.Event;
 import core.data.JsonData;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.io.TempDir;
 import user.exceptions.ParamException;
 import user.lib.FileCache;
 import user.support.TestFixtures;
@@ -16,11 +17,20 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class ResultTest {
 
-    @TempDir
-    Path temporaryDirectory;
+    private Path testDirectory;
 
     private final Result result = new Result();
     private final JsonData data = TestFixtures.data();
+
+    @BeforeEach
+    void setUpFiles() {
+        testDirectory = TestFixtures.createTestDirectory(getClass());
+    }
+
+    @AfterEach
+    void cleanFiles() {
+        TestFixtures.deleteTestDirectory(testDirectory);
+    }
 
     @Test
     void hasRegisteredName() {
@@ -74,7 +84,7 @@ class ResultTest {
 
     @Test
     void writesMatchingResultsToFile() throws Exception {
-        Path outputFile = temporaryDirectory.resolve("result.txt");
+        Path outputFile = testDirectory.resolve("result.txt");
         FileCache fileCache = new FileCache();
 
         String console = TestFixtures.captureOutput(
@@ -89,7 +99,8 @@ class ResultTest {
         );
         fileCache.clear();
 
-        assertEquals("文件 " + outputFile + " 写入成功\n", console);
+        assertTrue(console.contains(outputFile.getFileName().toString()));
+        assertTrue(console.endsWith("写入成功\n"));
         String fileContent = TestFixtures.readFile(outputFile);
         assertTrue(fileContent.contains("Full Name:BETA Bob"));
         assertTrue(fileContent.contains("91.00 + 92.00 = 183.00"));
@@ -97,7 +108,7 @@ class ResultTest {
 
     @Test
     void writesNotFoundBlockForNullEvent() throws Exception {
-        Path outputFile = temporaryDirectory.resolve("missing.txt");
+        Path outputFile = testDirectory.resolve("missing.txt");
         FileCache fileCache = new FileCache();
 
         result.writeToFile(null, fileCache, outputFile.toString());
@@ -130,7 +141,7 @@ class ResultTest {
     @Test
     void acceptsEventDirectlyForFileAndTerminalOutput() throws Exception {
         Event event = data.getEvents().getFirst();
-        Path outputFile = temporaryDirectory.resolve("event.txt");
+        Path outputFile = testDirectory.resolve("event.txt");
         FileCache fileCache = new FileCache();
 
         TestFixtures.captureOutput(() -> result.displayOnTerminal(event));

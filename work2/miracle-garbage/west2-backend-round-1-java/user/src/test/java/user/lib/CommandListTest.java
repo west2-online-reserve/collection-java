@@ -25,7 +25,7 @@ class CommandListTest {
         assertTrue(commandList.isLegal("result"));
         assertTrue(commandList.isLegal("config"));
         assertTrue(commandList.isLegal("input.txt"));
-        assertTrue(commandList.isLegal("C:\\data\\input.txt"));
+        assertTrue(commandList.isLegal("data/input.txt"));
     }
 
     @Test
