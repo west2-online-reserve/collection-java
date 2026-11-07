@@ -40,7 +40,7 @@ public class DataOutput {
     }
 
     public static String outputResultPlayerRank(Result r) {
-        String t = r.getFullName();
+        String t = String.valueOf(r.getRank());
         return "Rank:"+t+"\n";
     }
 
