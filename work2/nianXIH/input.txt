@@ -1,0 +1,7 @@
+players
+result women 3m springboard
+result men 10m platform
+result women 10m synchronised
+result men 3m synchronised
+invalid command
+result unknown event
