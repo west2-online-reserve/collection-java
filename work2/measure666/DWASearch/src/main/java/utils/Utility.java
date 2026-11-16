@@ -20,11 +20,12 @@ public class Utility {
     }
 
     public static void close() throws IOException {
-        if (br != null) {
-            br.close();
-        }
-        if (bw != null) {
-            bw.close();
+        BufferedReader reader = br;
+        BufferedWriter writer = bw;
+        br = null;
+        bw = null;
+        try (reader; writer) {
+            // 分别管理两个资源，确保关闭失败时仍尝试关闭另一个，并保留异常。
         }
     }
 

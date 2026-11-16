@@ -74,7 +74,7 @@ public class DWASearchEntryTest {
 
     @Test
     void packagedJar_readsInputAndWritesOutput(@TempDir Path dir) throws Exception {
-        Path jar = Paths.get("target", "DWASearch-1.0-SNAPSHOT.jar");
+        Path jar = Paths.get("target", "DWASearch.jar");
         Assumptions.assumeTrue(Files.exists(jar),
                 "跳过：请先执行 mvn package 生成可执行 jar，再跑本测试");
 
@@ -87,13 +87,46 @@ public class DWASearchEntryTest {
                 in.toAbsolutePath().toString(), out.toAbsolutePath().toString())
                 .redirectErrorStream(true)
                 .start();
-        String log = new String(p.getInputStream().readAllBytes(), StandardCharsets.UTF_8);
-        assertTrue(p.waitFor(60, TimeUnit.SECONDS), "打包程序应在 60 秒内结束");
-        assertEquals(0, p.exitValue(), "退出码应为 0，日志: " + log);
+        try {
+            assertTrue(p.waitFor(60, TimeUnit.SECONDS), "打包程序应在 60 秒内结束");
+            String log = new String(p.getInputStream().readAllBytes(), StandardCharsets.UTF_8);
+            assertEquals(0, p.exitValue(), "退出码应为 0，日志: " + log);
+        } finally {
+            p.destroyForcibly();
+        }
 
         String result = Files.readString(out).replace("\r\n", "\n");
         assertTrue(result.startsWith("Full Name:ZHAO Renjie & YANG Zhihao\n"),
                 "打包程序应读取输入并生成正确成绩，实际: " + result);
         assertTrue(result.endsWith("-----\n"));
+    }
+
+    @Test
+    void packagedJar_fullDevice_reportsIncompleteOutput(@TempDir Path dir) throws Exception {
+        Path fullDevice = Paths.get("/dev/full");
+        Assumptions.assumeTrue(System.getProperty("os.name").equals("Linux") && Files.exists(fullDevice),
+                "仅在提供 /dev/full 的 Linux 上运行");
+        Path jar = Paths.get("target", "DWASearch.jar");
+        Assumptions.assumeTrue(Files.exists(jar), "请先执行 mvn package 生成可执行 jar");
+
+        Path in = dir.resolve("input.txt");
+        Path stderr = dir.resolve("stderr.txt");
+        Path stdout = dir.resolve("stdout.txt");
+        Files.writeString(in, "players\n", StandardCharsets.UTF_8);
+        Process p = new ProcessBuilder("java", "-jar", jar.toAbsolutePath().toString(),
+                in.toAbsolutePath().toString(), fullDevice.toString())
+                .redirectError(stderr.toFile())
+                .redirectOutput(stdout.toFile())
+                .start();
+        try {
+            assertTrue(p.waitFor(60, TimeUnit.SECONDS), "打包程序应在 60 秒内结束");
+            assertNotEquals(0, p.exitValue(), "输出到 /dev/full 时不能返回成功");
+            String errors = Files.readString(stderr, StandardCharsets.UTF_8);
+            assertTrue(errors.contains("处理失败"), errors);
+            assertTrue(errors.contains("输出可能不完整"), errors);
+            assertEquals("", Files.readString(stdout), "故障提示应写入 stderr");
+        } finally {
+            p.destroyForcibly();
+        }
     }
 }
