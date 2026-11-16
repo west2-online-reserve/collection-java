@@ -59,11 +59,25 @@ class DWASearchTest {
         assertEquals("", lastError);
 
         List<String> lines = Files.readAllLines(output, StandardCharsets.UTF_8);
-        assertEquals("Full Name:COLE Ellie / Gender:Female / Country:Australia", lines.get(0));
-        assertEquals("-----", lines.get(1));
-        assertTrue(lines.contains(
-                        "Full Name:CHEN Jia / Rank:1 / Score:73.50 + 74.40 + 76.50 + 72.00 + 78.00 = 374.40"),
-                "结果里应该有 CHEN Jia 这一条");
+        assertEquals("Full Name:COLE Ellie", lines.get(0));
+        assertEquals("Gender:Female", lines.get(1));
+        assertEquals("Country:Australia", lines.get(2));
+        assertEquals("-----", lines.get(3));
+        assertTrue(lines.contains("Full Name:CHEN Jia"), "结果里应该有 CHEN Jia");
+        int jia = -1;
+        for (int i = 0; i + 1 < lines.size(); i++) {
+            if (lines.get(i).equals("Full Name:CHEN Jia") && lines.get(i + 1).startsWith("Rank:")) {
+                jia = i;
+                break;
+            }
+        }
+        assertTrue(jia >= 0, "没找到 CHEN Jia 的成绩");
+        assertEquals("Rank:1", lines.get(jia + 1));
+        assertEquals("Score:73.50 + 74.40 + 76.50 + 72.00 + 78.00 = 374.40", lines.get(jia + 2));
+        assertEquals("-----", lines.get(jia + 3));
+        for (int i = 0; i < lines.size(); i++) {
+            assertFalse(lines.get(i).contains(" / "), "字段不能拼在一行：" + lines.get(i));
+        }
         assertEquals("-----", lines.get(lines.size() - 1));
     }
 

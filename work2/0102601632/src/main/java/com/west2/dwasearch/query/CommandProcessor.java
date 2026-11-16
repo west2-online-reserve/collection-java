@@ -85,9 +85,9 @@ public class CommandProcessor {
         List<String> output = new ArrayList<>();
         for (int i = 0; i < players.size(); i++) {
             Player player = players.get(i);
-            output.add("Full Name:" + player.getFullName()
-                    + " / Gender:" + player.getGender()
-                    + " / Country:" + player.getCountry());
+            output.add("Full Name:" + player.getFullName());
+            output.add("Gender:" + player.getGender());
+            output.add("Country:" + player.getCountry());
             output.add(SEPARATOR);
         }
         return output;
@@ -105,21 +105,20 @@ public class CommandProcessor {
         List<String> output = new ArrayList<>();
         for (int i = 0; i < results.size(); i++) {
             EventResult result = results.get(i);
-            StringBuilder line = new StringBuilder();
-            line.append("Full Name:").append(result.getFullName());
-            line.append(" / Rank:").append(result.getRank());
-            line.append(" / Score:");
+            StringBuilder score = new StringBuilder();
 
             List<DiveScore> dives = result.getDives();
             for (int j = 0; j < dives.size(); j++) {
                 if (j > 0) {
-                    line.append(" + ");
+                    score.append(" + ");
                 }
-                line.append(ScoreFormatter.format(dives.get(j).getPoints()));
+                score.append(ScoreFormatter.format(dives.get(j).getPoints()));
             }
-            line.append(" = ").append(ScoreFormatter.format(result.getTotalPoints()));
+            score.append(" = ").append(ScoreFormatter.format(result.getTotalPoints()));
 
-            output.add(line.toString());
+            output.add("Full Name:" + result.getFullName());
+            output.add("Rank:" + result.getRank());
+            output.add("Score:" + score);
             output.add(SEPARATOR);
         }
         return output;
