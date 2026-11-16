@@ -172,6 +172,7 @@ Score:73.50 + 74.40 + 76.50 + 72.00 + 78.00 = 374.40
 - 参数不是 2 个：提示用法，退出码 2
 - 输入或数据文件不存在、无法读取：提示具体文件，退出码 1
 - JSON 损坏或缺少必要字段：抛出 `DataException`，退出码 1
+- - 数据快照缺少 8 个必需项目、决赛为空或各跳成绩为空：抛出 `DataException`，退出码 1![img.png](img.png)
 - 输出文件无法写入：提示输出路径，退出码 1
 - 写入中途失败：提示输出可能不完整
 
@@ -196,7 +197,7 @@ src/main/java/com/dwasearch/
 实际执行结果：
 
 ```text
-Tests run: 25, Failures: 0, Errors: 0, Skipped: 0
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0
 BUILD SUCCESS
 ```
 

@@ -15,6 +15,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DataRepository {
+
+    private static final List<String> REQUIRED_EVENTS = List.of(
+            "women 3m springboard",
+            "women 10m platform",
+            "women 3m synchronised",
+            "women 10m synchronised",
+            "men 3m springboard",
+            "men 10m platform",
+            "men 3m synchronised",
+            "men 10m synchronised"
+    );
+
     private final ObjectMapper mapper = new ObjectMapper();
 
     public CompetitionData load(Path path) throws IOException, DataException {
@@ -62,7 +74,48 @@ public class DataRepository {
             events.add(new EventResult(text(eventNode, "eventName"), results));
         }
 
-        return new CompetitionData(players, events);
+        CompetitionData data = new CompetitionData(players, events);
+        validateSnapshot(data);
+        return data;
+    }
+
+    private void validateSnapshot(CompetitionData data) throws DataException {
+        if (data.getPlayers().isEmpty()) {
+            throw new DataException("数据快照缺少选手");
+        }
+
+        for (String requiredName : REQUIRED_EVENTS) {
+            EventResult event = null;
+            for (EventResult candidate : data.getEvents()) {
+                if (candidate.getEventName().equals(requiredName)) {
+                    event = candidate;
+                    break;
+                }
+            }
+
+            if (event == null) {
+                throw new DataException("数据快照缺少必需项目: " + requiredName);
+            }
+
+            if (event.getResults().isEmpty()) {
+                throw new DataException("项目没有决赛成绩: " + requiredName);
+            }
+
+            for (FinalResult result : event.getResults()) {
+                if (result.getDiveScores().isEmpty()) {
+                    throw new DataException(
+                            "选手缺少各跳成绩: " + requiredName + " / " + result.getFullName()
+                    );
+                }
+            }
+        }
+
+        if (data.getEvents().size() != REQUIRED_EVENTS.size()) {
+            throw new DataException(
+                    "数据快照项目数量不正确，期望 8 个，实际 "
+                            + data.getEvents().size() + " 个"
+            );
+        }
     }
 
     private JsonNode array(JsonNode parent, String field) throws DataException {

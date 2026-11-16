@@ -1,5 +1,6 @@
 package com.dwasearch;
 
+import com.dwasearch.data.DataException;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
 
@@ -10,6 +11,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -155,5 +157,30 @@ class DWASearchTest {
 
         assertTrue(actual.startsWith("Error\n-----\n"));
         assertTrue(actual.contains("Full Name:COLE Ellie"));
+    }
+
+    @Test
+    void shouldFailWhenSnapshotIsIncomplete() throws Exception {
+        Path badData = tempDir.resolve("empty-snapshot.json");
+        Path inputPath = tempDir.resolve("bad-input.txt");
+        Path outputPath = tempDir.resolve("bad-output.txt");
+
+        Files.writeString(
+                badData,
+                "{\"players\":[],\"events\":[]}",
+                StandardCharsets.UTF_8
+        );
+        Files.writeString(
+                inputPath,
+                "result women 3m springboard\n",
+                StandardCharsets.UTF_8
+        );
+
+        assertThrows(
+                DataException.class,
+                () -> DWASearch.run(badData, inputPath, outputPath)
+        );
+
+        assertFalse(Files.exists(outputPath));
     }
 }
