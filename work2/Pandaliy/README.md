@@ -29,7 +29,8 @@ DWAsearch/
 │     ├─ manifest.json      # 来源、时间、数量、SHA-256
 │     └─ raw/               # 原始响应缓存，不提交
 ├─ tools/
-│  └─ DataFetcher.java      # 抓取脚本，不参与 Maven 构建
+│  ├─ DataFetcher.java      # 抓取脚本，不参与 Maven 构建
+│  └─ smoke-test.sh         # 打包后跑一次 java -jar 的检查脚本
 ├─ tests/                   # JUnit 5 测试
 ├─ pom.xml
 └─ README.md
@@ -42,7 +43,19 @@ mvn -q package
 java -jar target/DWASearch.jar input.txt output.txt
 ```
 
-`mvn package` 会先跑测试，再用 `maven-assembly-plugin` 打成 `target/DWASearch.jar`。打包用的是 `jar-with-dependencies`，Gson 一起打进去，`Main-Class` 在 pom 里配成 `DWASearch`，所以可以直接 `java -jar`。`target/` 已经在 `.gitignore` 里，构建产物不提交。
+`mvn package` 会先跑测试，再用 `maven-assembly-plugin` 打成 `target/DWASearch.jar`：`jar-with-dependencies` 把 Gson 一起打进去，`Main-Class` 在 pom 的 assembly 配置里指定。
+
+```xml
+<plugin>
+    <artifactId>maven-assembly-plugin</artifactId>
+    <configuration>
+        <descriptorRefs><descriptorRef>jar-with-dependencies</descriptorRef></descriptorRefs>
+        <archive><manifest><mainClass>DWASearch</mainClass></manifest></archive>
+    </configuration>
+</plugin>
+```
+
+`target/` 已经在 `.gitignore` 里，构建产物不提交。
 
 第一个参数是命令文件，第二个是输出文件。程序按行读命令，结果按顺序写进输出文件，每次运行整个覆盖。
 
@@ -56,7 +69,13 @@ java -jar target/DWASearch.jar --interactive
 
 两种模式都必须在项目根目录启动，数据路径是相对的 `src/data/data.json`。
 
-打包后的程序实际跑过一次：输入 12 行（8 个项目 + `players` + 1 个非法命令 + 1 个内部多空格的命令），输出 552 行、139 条记录，退出码 0，输出里没有 `\r`。
+打包后的程序用 `tools/smoke-test.sh` 做真实命令行检查（构建 → `java -jar` → 断言输出内容、`Error`/`N/A` 和换行）：
+
+```bash
+bash tools/smoke-test.sh
+```
+
+输出示例：`通过：93 条选手/成绩记录，共 376 行，没有 CR`。
 
 ## 输入命令
 
@@ -199,6 +218,8 @@ java -cp target/DWASearch.jar tools/DataFetcher.java --dry-run
 - `CoreModule`：查询和输出。负责排序，把结果写到构造时传进来的 `PrintWriter`，自己不碰文件。
 - `DataStore`：读 `data.json`，解析成不可变缓存，建两份索引。第一次查询时加载，之后都走缓存。
 
+源码放在 `src/`、测试放在 `tests/`，pom 里用 `<sourceDirectory>src</sourceDirectory>` 和 `<testSourceDirectory>tests</testSourceDirectory>` 指过去，这样入口就是题面要求的 `src/DWASearch.java`。这跟 Maven 默认的 `src/main/java` 不同，但构建、打包、`mvn test` 的行为不受影响。
+
 `CoreModule` 主要方法：
 
 ```java
@@ -233,7 +254,7 @@ static Map<String, Player> getPlayersByFullName();
 
 - 认不出来的命令：输出 `Error` 后继续处理后面的行；
 - `result` 的项目不存在：输出 `N/A`；
-- 不在项目根目录启动、数据文件损坏或缺字段：加载时逐条校验，缺 `fullName` / `gender` / `country` / `countryCode`（选手）或 `fullName` / `rank` / `countryCode` / `scores` / `totalPoints`（成绩）就抛异常，向标准错误打一句原因，退出码 1，不会把 `null` 打印进结果；
+- 不在项目根目录启动、数据文件损坏或缺字段：加载时逐条校验，缺 `fullName` / `gender` / `country` / `countryCode`（选手）或 `fullName` / `rank` / `countryCode` / `scores` / `totalPoints`（成绩）就抛异常；`scores` 和 `totalPoints` 还必须是两位小数，否则也按数据问题处理。向标准错误打一句原因，退出码 1，不会把 `null` 打印进结果；
 - 数据有问题时不会动输出文件：`runWithFiles` 先确认数据读得出来，再打开输出文件，避免把上一次的结果清空；
 - 输入文件不存在或输出路径写不了：捕获 `IOException`，往标准错误打提示，退出码 1；
 - 写入过程中出错：`PrintWriter` 会把写失败吞掉，所以写完用 `checkError()` 检查一次，出错时提示“输出可能不完整”并返回 1；
@@ -253,10 +274,10 @@ mvn test
 
 - `CommandProcessorTest`（14 个）：两种命令、多行与重复命令、空行和纯空白行、未知命令、未知赛事、大小写、内部多空格与首尾空白、出错后继续处理、`Error` / `N/A` 输出；
 - `CoreModuleTest`（10 个）：选手和项目数量、命令集合、成绩条数、输出格式（冒号后不留空格、`-----` 分隔、没有 `\r`）、返回列表不可变、排序（乱序输入排完有序，真实数据也符合要求）；
-- `DataStoreTest`（11 个）：数据加载、索引完整性、缓存不可变、JSON 损坏时明确失败、选手缺 `gender`、成绩缺 `totalPoints` 或 `scores` 为空时明确失败（`DataStore.parse(Reader)` 直接收字符串，不用造数据文件）；
+- `DataStoreTest`（12 个）：数据加载、索引完整性、缓存不可变、JSON 损坏、选手缺 `gender`、成绩缺 `totalPoints`、`scores` 为空、成绩不是两位小数时明确失败（`DataStore.parse(Reader)` 直接收字符串，不用造数据文件）；
 - `DWASearchCliTest`（6 个）：真实文件读写、输入文件缺失、输出路径不可写、零参数与其他参数个数打印用法并返回 2、`--interactive` 从标准输入读取。
 
-验证结果（2026-11-16）：`Tests run: 41, Failures: 0, Errors: 0, Skipped: 0`。
+验证结果（2026-11-17）：`Tests run: 42, Failures: 0, Errors: 0, Skipped: 0`。
 
 ## 已知限制
 

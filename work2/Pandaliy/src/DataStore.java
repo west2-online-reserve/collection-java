@@ -127,9 +127,9 @@ public final class DataStore {
                     throw new IllegalStateException(owner + " 缺少 scores");
                 }
                 for (String score : result.scores()) {
-                    requireField(score, "scores", owner);
+                    requireTwoDecimals(score, "scores", owner);
                 }
-                requireField(result.totalPoints(), "totalPoints", owner);
+                requireTwoDecimals(result.totalPoints(), "totalPoints", owner);
             }
         }
     }
@@ -142,6 +142,14 @@ public final class DataStore {
     private static void requireField(String value, String field, String owner) {
         if (value == null || value.isBlank()) {
             throw new IllegalStateException(owner + " 缺少 " + field);
+        }
+    }
+
+    // 题面要求成绩和总分统一保留两位小数，快照不符合时按数据问题处理
+    private static void requireTwoDecimals(String value, String field, String owner) {
+        requireField(value, field, owner);
+        if (!value.matches("\\d+\\.\\d{2}")) {
+            throw new IllegalStateException(owner + " 的 " + field + " 不是两位小数: " + value);
         }
     }
 

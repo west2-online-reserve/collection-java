@@ -111,6 +111,18 @@ class DataStoreTest {
         assertTrue(e.getMessage().contains("scores"), e.getMessage());
     }
 
+    @Test
+    void scoreWithoutTwoDecimalsFailsClearly() {
+        String json = dataWith(
+                "[]",
+                "[{\"fullName\":\"CHEN Jia\",\"rank\":1,\"countryCode\":\"CHN\","
+                        + "\"scores\":[\"73.5\"],\"totalPoints\":\"374.40\"}]");
+
+        IllegalStateException e = assertThrows(IllegalStateException.class,
+                () -> DataStore.parse(new StringReader(json)));
+        assertTrue(e.getMessage().contains("两位小数"), e.getMessage());
+    }
+
     // 拼一份结构完整的最小 data.json，只让被测字段缺失
     private static String dataWith(String playersJson, String resultsJson) {
         return "{\"schemaVersion\":1,"

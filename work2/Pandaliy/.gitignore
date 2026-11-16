@@ -37,3 +37,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+# 本地试跑产生的输入/输出文件
+/in.txt
+/out.txt
