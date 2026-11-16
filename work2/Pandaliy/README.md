@@ -46,11 +46,13 @@ java -jar target/DWASearch.jar input.txt output.txt
 
 第一个参数是命令文件，第二个是输出文件。程序按行读命令，结果按顺序写进输出文件，每次运行整个覆盖。
 
-不传参数时是交互模式，从标准输入读、结果打到控制台，Windows 下按 Ctrl+Z 再回车结束：
+想手动一条条敲，用 `--interactive`，从标准输入读、结果打到控制台，Windows 下按 Ctrl+Z 再回车结束：
 
 ```bash
-java -jar target/DWASearch.jar
+java -jar target/DWASearch.jar --interactive
 ```
+
+入口只接受两种形式：**正好两个参数**，或**单个 `--interactive`**。不传参数、只传一个文件、传三个参数，都会向标准错误打印用法并以退出码 2 结束——这是题面对参数错误的规定，所以不带参数启动不会默默进入交互。
 
 两种模式都必须在项目根目录启动，数据路径是相对的 `src/data/data.json`。
 
@@ -231,10 +233,11 @@ static Map<String, Player> getPlayersByFullName();
 
 - 认不出来的命令：输出 `Error` 后继续处理后面的行；
 - `result` 的项目不存在：输出 `N/A`；
-- 不在项目根目录启动、数据文件损坏或缺字段：抛异常停止加载，向标准错误打一句原因（含当前工作目录或字段问题），退出码 1，不会输出“看起来成功”的结果；
+- 不在项目根目录启动、数据文件损坏或缺字段：加载时逐条校验，缺 `fullName` / `gender` / `country` / `countryCode`（选手）或 `fullName` / `rank` / `countryCode` / `scores` / `totalPoints`（成绩）就抛异常，向标准错误打一句原因，退出码 1，不会把 `null` 打印进结果；
+- 数据有问题时不会动输出文件：`runWithFiles` 先确认数据读得出来，再打开输出文件，避免把上一次的结果清空；
 - 输入文件不存在或输出路径写不了：捕获 `IOException`，往标准错误打提示，退出码 1；
 - 写入过程中出错：`PrintWriter` 会把写失败吞掉，所以写完用 `checkError()` 检查一次，出错时提示“输出可能不完整”并返回 1；
-- 参数个数不对：打印用法，退出码 2。
+- 参数个数不对（包括不传参数）：向标准错误打印用法，退出码 2。
 
 ## 自动化测试
 
@@ -250,10 +253,10 @@ mvn test
 
 - `CommandProcessorTest`（14 个）：两种命令、多行与重复命令、空行和纯空白行、未知命令、未知赛事、大小写、内部多空格与首尾空白、出错后继续处理、`Error` / `N/A` 输出；
 - `CoreModuleTest`（10 个）：选手和项目数量、命令集合、成绩条数、输出格式（冒号后不留空格、`-----` 分隔、没有 `\r`）、返回列表不可变、排序（乱序输入排完有序，真实数据也符合要求）；
-- `DataStoreTest`（8 个）：数据加载、索引完整性、缓存不可变、JSON 损坏和缺字段时明确失败（`DataStore.parse(Reader)` 直接收字符串，不用造数据文件）；
-- `DWASearchCliTest`（3 个）：真实文件读写、输入文件缺失、输出路径不可写。
+- `DataStoreTest`（11 个）：数据加载、索引完整性、缓存不可变、JSON 损坏时明确失败、选手缺 `gender`、成绩缺 `totalPoints` 或 `scores` 为空时明确失败（`DataStore.parse(Reader)` 直接收字符串，不用造数据文件）；
+- `DWASearchCliTest`（6 个）：真实文件读写、输入文件缺失、输出路径不可写、零参数与其他参数个数打印用法并返回 2、`--interactive` 从标准输入读取。
 
-验证结果（2026-11-05）：`Tests run: 35, Failures: 0, Errors: 0, Skipped: 0`。
+验证结果（2026-11-16）：`Tests run: 41, Failures: 0, Errors: 0, Skipped: 0`。
 
 ## 已知限制
 

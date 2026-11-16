@@ -1,8 +1,10 @@
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
 
+import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.PrintStream;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -56,6 +58,32 @@ class DWASearchCliTest {
         assertEquals(1, runExpectingIoError(input, outputDirectory));
     }
 
+    @Test
+    void noArgumentsPrintsUsageAndReturnsTwo() {
+        try (Stdio stdio = new Stdio()) {
+            assertEquals(2, DWASearch.run(new String[0]));
+            assertTrue(stdio.err().contains("用法"), stdio.err());
+        }
+    }
+
+    @Test
+    void otherArgumentCountsPrintUsageAndReturnTwo() {
+        try (Stdio stdio = new Stdio()) {
+            assertEquals(2, DWASearch.run(new String[] {"only-one.txt"}));
+            assertEquals(2, DWASearch.run(new String[] {"a.txt", "b.txt", "c.txt"}));
+            assertTrue(stdio.err().contains("用法"), stdio.err());
+        }
+    }
+
+    @Test
+    void interactiveFlagReadsStandardInput() {
+        try (Stdio stdio = new Stdio()) {
+            stdio.stdin("players\n");
+            assertEquals(0, DWASearch.run(new String[] {"--interactive"}));
+            assertTrue(stdio.out().startsWith("Full Name:COLE Ellie"), stdio.out());
+        }
+    }
+
 // 执行预期失败的 IO 调用，并抑制其写入 stderr 的错误信息。
     private int runExpectingIoError(Path inputPath, Path outputPath) {
         PrintStream originalError = System.err;
@@ -65,6 +93,40 @@ class DWASearchCliTest {
             return DWASearch.runWithFiles(inputPath, outputPath);
         } finally {
             System.setErr(originalError);
+        }
+    }
+
+    // 临时接管标准输入输出，测试结束后还原
+    private static final class Stdio implements AutoCloseable {
+
+        private final InputStream originalIn = System.in;
+        private final PrintStream originalOut = System.out;
+        private final PrintStream originalErr = System.err;
+        private final ByteArrayOutputStream outBuffer = new ByteArrayOutputStream();
+        private final ByteArrayOutputStream errBuffer = new ByteArrayOutputStream();
+
+        Stdio() {
+            System.setOut(new PrintStream(outBuffer, true, StandardCharsets.UTF_8));
+            System.setErr(new PrintStream(errBuffer, true, StandardCharsets.UTF_8));
+        }
+
+        void stdin(String text) {
+            System.setIn(new ByteArrayInputStream(text.getBytes(StandardCharsets.UTF_8)));
+        }
+
+        String out() {
+            return outBuffer.toString(StandardCharsets.UTF_8);
+        }
+
+        String err() {
+            return errBuffer.toString(StandardCharsets.UTF_8);
+        }
+
+        @Override
+        public void close() {
+            System.setIn(originalIn);
+            System.setOut(originalOut);
+            System.setErr(originalErr);
         }
     }
 

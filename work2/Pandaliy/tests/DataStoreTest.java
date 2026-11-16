@@ -75,4 +75,50 @@ class DataStoreTest {
                 () -> DataStore.parse(new StringReader("{\"schemaVersion\": 1}")));
         assertTrue(e.getMessage().contains("结构"), e.getMessage());
     }
+
+    @Test
+    void playerMissingGenderFailsClearly() {
+        String json = dataWith(
+                "[{\"fullName\":\"COLE Ellie\",\"gender\":\"\",\"country\":\"Australia\",\"countryCode\":\"AUS\"}]",
+                "[]");
+
+        IllegalStateException e = assertThrows(IllegalStateException.class,
+                () -> DataStore.parse(new StringReader(json)));
+        assertTrue(e.getMessage().contains("gender"), e.getMessage());
+    }
+
+    @Test
+    void resultMissingTotalPointsFailsClearly() {
+        String json = dataWith(
+                "[]",
+                "[{\"fullName\":\"CHEN Jia\",\"rank\":1,\"countryCode\":\"CHN\","
+                        + "\"scores\":[\"73.50\"],\"totalPoints\":null}]");
+
+        IllegalStateException e = assertThrows(IllegalStateException.class,
+                () -> DataStore.parse(new StringReader(json)));
+        assertTrue(e.getMessage().contains("totalPoints"), e.getMessage());
+    }
+
+    @Test
+    void resultWithEmptyScoresFailsClearly() {
+        String json = dataWith(
+                "[]",
+                "[{\"fullName\":\"CHEN Jia\",\"rank\":1,\"countryCode\":\"CHN\","
+                        + "\"scores\":[],\"totalPoints\":\"374.40\"}]");
+
+        IllegalStateException e = assertThrows(IllegalStateException.class,
+                () -> DataStore.parse(new StringReader(json)));
+        assertTrue(e.getMessage().contains("scores"), e.getMessage());
+    }
+
+    // 拼一份结构完整的最小 data.json，只让被测字段缺失
+    private static String dataWith(String playersJson, String resultsJson) {
+        return "{\"schemaVersion\":1,"
+                + "\"competition\":{\"id\":\"5019\",\"name\":\"World Cup 2026\","
+                + "\"from\":\"2026-05-01\",\"to\":\"2026-05-03\"},"
+                + "\"players\":" + playersJson + ","
+                + "\"events\":[{\"command\":\"result women 3m springboard\",\"eventId\":\"e1\","
+                + "\"gender\":\"Women\",\"discipline\":\"3m\",\"eventType\":\"springboard\","
+                + "\"results\":" + resultsJson + "}]}";
+    }
 }

@@ -25,7 +25,7 @@ public final class DataStore {
     private DataStore() {
     }
 
-    // 读文件、建两份索引，全部成功后再替换缓存
+    // 读文件、校验、建两份索引，全部成功后再替换缓存
     public static synchronized void loadDataToCache() {
         CompetitionData parsed = parseDataFile();
         Map<String, Event> commandIndex = indexEventsByCommand(parsed.events());
@@ -78,14 +78,71 @@ public final class DataStore {
         }
     }
 
-    // 只做解析和结构校验，不碰文件，测试可以直接喂字符串
+    // 解析、校验、冻结。不碰文件，测试可以直接喂字符串
     static CompetitionData parse(Reader reader) {
         CompetitionData data = GSON.fromJson(reader, CompetitionData.class);
         if (data == null || data.competition() == null
                 || data.players() == null || data.events() == null) {
             throw new IllegalStateException("data.json 内容不符合比赛数据结构");
         }
+        validate(data);
         return freeze(data);
+    }
+
+    // 查询要用到的字段逐个检查，缺了就报错，不让 null 混进输出
+    private static void validate(CompetitionData data) {
+        for (Player player : data.players()) {
+            if (player == null) {
+                throw new IllegalStateException("players 中存在空条目");
+            }
+            String owner = "选手 " + describe(player.fullName());
+            requireField(player.fullName(), "fullName", owner);
+            requireField(player.gender(), "gender", owner);
+            requireField(player.country(), "country", owner);
+            requireField(player.countryCode(), "countryCode", owner);
+        }
+
+        for (Event event : data.events()) {
+            if (event == null) {
+                throw new IllegalStateException("events 中存在空条目");
+            }
+            String command = event.command();
+            if (command == null || command.isBlank()) {
+                throw new IllegalStateException("存在缺少 command 的比赛项目");
+            }
+            if (event.results() == null) {
+                throw new IllegalStateException("项目 " + command + " 缺少 results");
+            }
+            for (Result result : event.results()) {
+                if (result == null) {
+                    throw new IllegalStateException("项目 " + command + " 的 results 中存在空条目");
+                }
+                String owner = "项目 " + command + " 中 " + describe(result.fullName());
+                requireField(result.fullName(), "fullName", owner);
+                if (result.rank() < 1) {
+                    throw new IllegalStateException(owner + " 的 rank 不合法: " + result.rank());
+                }
+                requireField(result.countryCode(), "countryCode", owner);
+                if (result.scores() == null || result.scores().isEmpty()) {
+                    throw new IllegalStateException(owner + " 缺少 scores");
+                }
+                for (String score : result.scores()) {
+                    requireField(score, "scores", owner);
+                }
+                requireField(result.totalPoints(), "totalPoints", owner);
+            }
+        }
+    }
+
+    // 字段名缺失时也要能定位到是哪条数据，所以把名字拼进提示
+    private static String describe(String name) {
+        return (name == null || name.isBlank()) ? "(缺少姓名)" : name;
+    }
+
+    private static void requireField(String value, String field, String owner) {
+        if (value == null || value.isBlank()) {
+            throw new IllegalStateException(owner + " 缺少 " + field);
+        }
     }
 
     // 把 Gson 解析出来的可变 List 换成不可变副本，免得缓存被调用方改掉
@@ -97,18 +154,14 @@ public final class DataStore {
                         event.gender(),
                         event.discipline(),
                         event.eventType(),
-                        event.results() == null
-                                ? List.of()
-                                : event.results().stream()
-                                        .map(result -> new Result(
-                                                result.fullName(),
-                                                result.rank(),
-                                                result.countryCode(),
-                                                result.scores() == null
-                                                        ? List.of()
-                                                        : List.copyOf(result.scores()),
-                                                result.totalPoints()))
-                                        .toList()))
+                        event.results().stream()
+                                .map(result -> new Result(
+                                        result.fullName(),
+                                        result.rank(),
+                                        result.countryCode(),
+                                        List.copyOf(result.scores()),
+                                        result.totalPoints()))
+                                .toList()))
                 .toList();
         return new CompetitionData(
                 data.schemaVersion(),
