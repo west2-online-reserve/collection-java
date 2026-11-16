@@ -12,6 +12,10 @@ import java.util.List;
 
 public class TaskRunner {
     public static void run(String[] args)throws InvalidInputException {
+        if(args[0].equals("fetch")){
+            DataFetchSpider.getData();
+            return;
+        }
         if (args.length != 2) {
             throw new InvalidInputException("Usage: java -jar DWASearch.jar <input_file> <output_file>");
         }
@@ -40,37 +44,76 @@ public class TaskRunner {
                 // 预先装入数据
                 GroupSearch.SearchFor(Discipline);
                 SingleSearch.SearchFor(Discipline);
-// 用于提示用户有哪些项目可查询，如果不需要可以直接删掉或者已经注释掉了
-//                System.out.println("players\nDiscipline:");
-//                System.out.println("""
-//                        Men's 10m Platform
-//                        Men's 3m Springboard
-//                        Women's 10m Platform
-//                        Women's 3m Springboard""");
-//                System.out.println("""
-//                        Men's 10m Synchronised
-//                        Mixed 3m & 10m Team
-//                        Men's 3m Synchronised
-//                        Women's 10m Synchronised
-//                        Women's 3m Synchronised""");
-//
-//                System.out.print("Please enter the task you want to search: ");
 
                 // 通过读取每一行信息来调用指令
                 for (String SearchName : lines) {
-                    SearchName = ProjectMatcher.matchDiscipline(SearchName);
-
-                    if (SearchName != null) {
-                        if (SearchName.equals(ProjectMatcher.getProjectName(0))) {
+                    if (SearchName == null || SearchName.trim().isEmpty()) continue;
+                    if(SearchName.startsWith("players")){
+                        if(SearchName.equals("players")){
                             AthleteSearch.SearchFor();
-                        } else {
-                            for (Disciplines discipline : Discipline) {
-                                if (discipline.getDisciplineName().equals(SearchName)) {
-                                    OutputClass.OutputDisciplines(discipline);
+                        }
+                        else {
+                            System.out.println("Error");
+                            System.out.println("-----");
+                        }
+                    }
+                    else if(SearchName.startsWith("result")){
+                        String[] parts = SearchName.trim().split("\\s+");
+                        String firstWord = parts[0];
+                        if(firstWord.startsWith("result"))
+                        {
+                            if(!firstWord.equals("result"))
+                            {
+                                System.out.println("Error");
+                                System.out.println("-----");
+                                continue;
+                            }
+
+                            if(parts.length < 2)
+                            {
+                                System.out.println("N/A");
+                                System.out.println("-----");
+                                continue;
+                            }
+
+                            boolean isMatch = false;
+                            for(int i = 0;i < ProjectMatcher.VALID_PROJECTS.size();i++){
+                                if(SearchName.equals("result " + ProjectMatcher.VALID_PROJECTS.get(i).toLowerCase().replace("'s", ""))){
+                                    String result =  ProjectMatcher.VALID_PROJECTS.get(i);
+                                    isMatch = true;
+                                    for(Disciplines discipline : Discipline){
+                                        if (discipline.getDisciplineName().equals(result)) {
+                                            OutputClass.OutputDisciplines(discipline);
+                                            break;
+                                        }
+                                    }
+                                    break;
                                 }
+                            }
+                            if(!isMatch){
+                                System.out.println("N/A");
+                                System.out.println("-----");
                             }
                         }
                     }
+                    else{
+                        System.out.println("Error");
+                        System.out.println("-----");
+                    }
+
+//                    SearchName = ProjectMatcher.matchDiscipline(SearchName);
+//
+//                    if (SearchName != null) {
+//                        if (SearchName.equals(ProjectMatcher.getProjectName(0))) {
+//                            AthleteSearch.SearchFor();
+//                        } else {
+//                            for (Disciplines discipline : Discipline) {
+//                                if (discipline.getDisciplineName().equals(SearchName)) {
+//                                    OutputClass.OutputDisciplines(discipline);
+//                                }
+//                            }
+//                        }
+//                    }
                 }
                 System.out.flush();
             }

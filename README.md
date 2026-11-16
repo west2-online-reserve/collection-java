@@ -12,7 +12,7 @@ Launcher JVM:  25.0.4.1 (Oracle Corporation 25.0.4.1+1-LTS-5)
 
 ### 构建:
 
-./gradlew clean build
+.\gradlew build -x test
 
 ### 运行: 
 
@@ -30,10 +30,17 @@ java -jar ./build/libs/DWASearch.jar input.txt(需改为实际路径) output.txt
 
 **数据来源**: [World Aquatics Diving World Cup 2026 - Super Final](https://www.worldaquatics.com/competitions/5019/world-aquatics-diving-world-cup-2026-super-final)
 
-抓取时间: 2026-10-21
+实际抓取时间: 2026-11-16 22:03:27
 
-抓取脚本: 无，参考仓库手动抓取
+抓取脚本: DataFetchSpider.java
 
+快照: snapshots 文件夹下
+
+获取快照方法:
+
+```azure
+java -jar .\build\libs\DWASearch.jar fetch
+```
 ## JSON 结构
 
 #### 运动员: 
@@ -125,17 +132,15 @@ MissArgumentTest: 实参个数测试
 
 **所有自动化测试均已通过**
 
-![](image/img.png)
+![](images/img.png)
 
 
 ### 注意事项
 
-为了利于分辨，每个运动员成绩后面用#######隔开，而没有按照题目要求的------
+为了利于分辨，每个运动员成绩后面用#######隔开，而没有按照题目要求的------，通过 OutputClass.java 的 OutputRankPoint() 把最后一行输出改掉即可
 
-运行时，input.txt 文件内容不论大小写，有无空格，或者一些输入小错误都可以正常输出，ProjectMatcher 已经对此进行过处理
+其余输出完全按照题目要求输出
 
 如果想要输出各个赛事全部阶段数据，将 OutputClass 类中方法 OutputPhase() 的判断条件去掉即可
-
-如果不想查询赛事数据时每一行都输入 result, 将 ProjectMatcher 中的 similarity 括号里的 "result" 去掉即可
 
 input.txt, output.txt 是测试样例，可以删除

@@ -4,7 +4,7 @@ import org.apache.commons.text.similarity.JaroWinklerSimilarity;
 import java.util.*;
 
 public class ProjectMatcher {
-    private static final List<String>VALID_PROJECTS = Arrays.asList(
+    public static final List<String>VALID_PROJECTS = Arrays.asList(
             "players",
             "Men's 10m Platform",
             "Men's 3m Springboard",
