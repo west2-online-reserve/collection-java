@@ -1,0 +1,512 @@
+Full Name:COLE Ellie
+Gender:Female
+Country:AUS
+-----
+Full Name:KEENEY Maddison
+Gender:Female
+Country:AUS
+-----
+Full Name:KEENEY Maddison
+Gender:Female
+Country:AUS
+-----
+Full Name:KOLOI Alysha
+Gender:Female
+Country:AUS
+-----
+Full Name:KOLOI Alysha
+Gender:Female
+Country:AUS
+-----
+Full Name:MERCIECA Jonah
+Gender:Male
+Country:AUS
+-----
+Full Name:PUCKERIDGE Milly
+Gender:Female
+Country:AUS
+-----
+Full Name:ROUSSEAU Cassiel
+Gender:Male
+Country:AUS
+-----
+Full Name:ROUSSEAU Cassiel
+Gender:Male
+Country:AUS
+-----
+Full Name:CULLEN Matt
+Gender:Male
+Country:CAN
+-----
+Full Name:FUNG Katelyn
+Gender:Female
+Country:CAN
+-----
+Full Name:JASMIN Amelie-Laura
+Gender:Female
+Country:CAN
+-----
+Full Name:MILLER Kate
+Gender:Female
+Country:CAN
+-----
+Full Name:PAUL Carson
+Gender:Male
+Country:CAN
+-----
+Full Name:TESSIER Benjamin
+Gender:Male
+Country:CAN
+-----
+Full Name:VALLEE Mia
+Gender:Female
+Country:CAN
+-----
+Full Name:ZSOMBOR-MURRAY Nathan
+Gender:Male
+Country:CAN
+-----
+Full Name:BAI Yuming
+Gender:Male
+Country:CHN
+-----
+Full Name:CHEN Jia
+Gender:Female
+Country:CHN
+-----
+Full Name:CHEN Yiwen
+Gender:Female
+Country:CHN
+-----
+Full Name:CHEN Jia
+Gender:Female
+Country:CHN
+-----
+Full Name:CHEN Yiwen
+Gender:Female
+Country:CHN
+-----
+Full Name:CHEN Yuxi
+Gender:Female
+Country:CHN
+-----
+Full Name:JIANG Linjing
+Gender:Female
+Country:CHN
+-----
+Full Name:LIAN Junjie
+Gender:Male
+Country:CHN
+-----
+Full Name:LU Wei
+Gender:Female
+Country:CHN
+-----
+Full Name:WANG Zongyuan
+Gender:Male
+Country:CHN
+-----
+Full Name:WANG Zongyuan
+Gender:Male
+Country:CHN
+-----
+Full Name:YANG Zhihao
+Gender:Male
+Country:CHN
+-----
+Full Name:ZHAO Renjie
+Gender:Male
+Country:CHN
+-----
+Full Name:ZHENG Jiuyuan
+Gender:Male
+Country:CHN
+-----
+Full Name:ZHENG Jiuyuan
+Gender:Male
+Country:CHN
+-----
+Full Name:BOUYER Jules
+Gender:Male
+Country:FRA
+-----
+Full Name:CUTMORE Ben
+Gender:Male
+Country:GBR
+-----
+Full Name:HARDING Anthony
+Gender:Male
+Country:GBR
+-----
+Full Name:HARPER Yasmin
+Gender:Female
+Country:GBR
+-----
+Full Name:LAUGHER Jack
+Gender:Male
+Country:GBR
+-----
+Full Name:MCCABE Euan
+Gender:Male
+Country:GBR
+-----
+Full Name:MEW JENSEN Scarlett
+Gender:Female
+Country:GBR
+-----
+Full Name:MASSENBERG Lou Noel Guy
+Gender:Male
+Country:GER
+-----
+Full Name:PFEIF Pauline Alexandra
+Gender:Female
+Country:GER
+-----
+Full Name:PFEIF Pauline Alexandra
+Gender:Female
+Country:GER
+-----
+Full Name:SCHAUER Jonathan Gisbert
+Gender:Male
+Country:GER
+-----
+Full Name:WASSEN Elena
+Gender:Female
+Country:GER
+-----
+Full Name:CONTE Simone
+Gender:Male
+Country:ITA
+-----
+Full Name:GIOVANNINI Riccardo
+Gender:Male
+Country:ITA
+-----
+Full Name:MARSAGLIA Lorenzo
+Gender:Male
+Country:ITA
+-----
+Full Name:TOCCI Giovanni
+Gender:Male
+Country:ITA
+-----
+Full Name:IKUMA Senri
+Gender:Male
+Country:JPN
+-----
+Full Name:SUYAMA Haruki
+Gender:Male
+Country:JPN
+-----
+Full Name:AGUNDEZ GARCIA Gabriela
+Gender:Female
+Country:MEX
+-----
+Full Name:BERLIN REYES Kevin
+Gender:Male
+Country:MEX
+-----
+Full Name:CELAYA HERNANDEZ Juan Manuel
+Gender:Male
+Country:MEX
+-----
+Full Name:CUEVA LOBATO Mia Zazil
+Gender:Female
+Country:MEX
+-----
+Full Name:CUEVA LOBATO Lia Yatzil
+Gender:Female
+Country:MEX
+-----
+Full Name:ESTUDILLO TORRES Alejandra
+Gender:Female
+Country:MEX
+-----
+Full Name:OLVERA IBARRA Osmar
+Gender:Male
+Country:MEX
+-----
+Full Name:OLVERA IBARRA Osmar
+Gender:Male
+Country:MEX
+-----
+Full Name:WILLARS VALDEZ Randal
+Gender:Male
+Country:MEX
+-----
+Full Name:WILLARS VALDEZ Randal
+Gender:Male
+Country:MEX
+-----
+Full Name:JO Jin Mi
+Gender:Female
+Country:PRK
+-----
+Full Name:KIM Mi Rae
+Gender:Female
+Country:PRK
+-----
+Full Name:KAZANTSEVA Viktoria
+Gender:Female
+Country:RUS
+-----
+Full Name:KLIUEVA Uliana
+Gender:Female
+Country:RUS
+-----
+Full Name:KONANYKHINA Anna
+Gender:Female
+Country:RUS
+-----
+Full Name:KONANYKHINA Anna
+Gender:Female
+Country:RUS
+-----
+Full Name:SHLEIKHER Nikita
+Gender:Male
+Country:RUS
+-----
+Full Name:TERNOVOI Ruslan
+Gender:Male
+Country:RUS
+-----
+Full Name:TRIFONOVA Nadezhda
+Gender:Female
+Country:RUS
+-----
+Full Name:BAILO Kseniia
+Gender:Female
+Country:UKR
+-----
+Full Name:BOCHEK Kseniia
+Gender:Female
+Country:UKR
+-----
+Full Name:BOLIUKH Kirill
+Gender:Male
+Country:UKR
+-----
+Full Name:HRYTSENKO Mark
+Gender:Male
+Country:UKR
+-----
+Full Name:KARNAFEL Diana
+Gender:Female
+Country:UKR
+-----
+Full Name:OLIFERCHYK Stanislav
+Gender:Male
+Country:UKR
+-----
+Full Name:SEREDA Oleksii
+Gender:Male
+Country:UKR
+-----
+Full Name:VYSTAVKINA Sofiia
+Gender:Female
+Country:UKR
+-----
+Full Name:KWONG Anna
+Gender:Female
+Country:USA
+-----
+Full Name:NIDAY Ellireese
+Gender:Female
+Country:USA
+-----
+Full Name:VERZYL Sophia
+Gender:Female
+Country:USA
+-----
+Full Name:CHEN Jia
+Rank:1
+Score:73.5 + 74.4 + 76.5 + 72.0 + 78.0 = 374.40
+-----
+Full Name:CHEN Yiwen
+Rank:2
+Score:69.0 + 72.0 + 76.5 + 79.05 + 76.5 = 373.05
+-----
+Full Name:KEENEY Maddison
+Rank:3
+Score:66.0 + 49.5 + 67.5 + 74.4 + 81.6 = 339.00
+-----
+Full Name:KOLOI Alysha
+Rank:4
+Score:67.5 + 65.1 + 40.5 + 58.5 + 63.0 = 294.60
+-----
+Full Name:JIANG Linjing
+Rank:1
+Score:81.6 + 73.5 + 94.05 + 86.4 + 62.4 = 397.95
+-----
+Full Name:KONANYKHINA Anna
+Rank:2
+Score:61.5 + 76.8 + 54.6 + 49.5 + 76.8 = 319.20
+-----
+Full Name:PFEIF Pauline Alexandra
+Rank:3
+Score:46.5 + 67.2 + 72.0 + 60.9 + 70.4 = 317.00
+-----
+Full Name:NIDAY Ellireese
+Rank:4
+Score:76.8 + 40.6 + 30.45 + 72.8 + 72.0 = 292.65
+-----
+Full Name:CHEN Jia / CHEN Yiwen
+Rank:1
+Score:51.6 + 51.0 + 73.8 + 79.05 + 75.6 = 331.05
+-----
+Full Name:KEENEY Maddison / KOLOI Alysha
+Rank:2
+Score:49.2 + 45.0 + 69.3 + 72.54 + 63.9 = 299.94
+-----
+Full Name:MEW JENSEN Scarlett / HARPER Yasmin
+Rank:3
+Score:49.2 + 46.2 + 69.3 + 64.8 + 65.1 = 294.60
+-----
+Full Name:KWONG Anna / VERZYL Sophia
+Rank:4
+Score:46.8 + 42.6 + 58.5 + 66.03 + 62.22 = 276.15
+-----
+Full Name:CUEVA LOBATO Mia Zazil / CUEVA LOBATO Lia Yatzil
+Rank:5
+Score:47.4 + 46.2 + 57.6 + 56.73 + 65.7 = 273.63
+-----
+Full Name:TRIFONOVA Nadezhda / KLIUEVA Uliana
+Rank:6
+Score:47.4 + 42.0 + 65.7 + 54.9 + 63.0 = 273.00
+-----
+Full Name:BOCHEK Kseniia / KARNAFEL Diana
+Rank:7
+Score:46.8 + 40.2 + 62.1 + 54.0 + 59.4 = 262.50
+-----
+Full Name:VALLEE Mia / JASMIN Amelie-Laura
+Rank:8
+Score:44.4 + 47.4 + 46.8 + 52.08 + 60.3 = 250.98
+-----
+Full Name:CHEN Yuxi / LU Wei
+Rank:1
+Score:54.6 + 55.8 + 81.0 + 84.48 + 90.24 = 366.12
+-----
+Full Name:JO Jin Mi / KIM Mi Rae
+Rank:2
+Score:54.0 + 50.4 + 72.9 + 74.88 + 69.12 = 321.30
+-----
+Full Name:PUCKERIDGE Milly / COLE Ellie
+Rank:3
+Score:45.0 + 46.2 + 64.8 + 66.24 + 74.88 = 297.12
+-----
+Full Name:ESTUDILLO TORRES Alejandra / AGUNDEZ GARCIA Gabriela
+Rank:4
+Score:46.8 + 42.6 + 68.4 + 65.28 + 72.96 = 296.04
+-----
+Full Name:KAZANTSEVA Viktoria / KONANYKHINA Anna
+Rank:5
+Score:46.2 + 45.6 + 64.8 + 60.48 + 67.2 = 284.28
+-----
+Full Name:VYSTAVKINA Sofiia / BAILO Kseniia
+Rank:6
+Score:45.6 + 46.2 + 65.7 + 62.4 + 58.56 = 278.46
+-----
+Full Name:MILLER Kate / FUNG Katelyn
+Rank:7
+Score:47.4 + 43.8 + 67.5 + 42.24 + 74.88 = 275.82
+-----
+Full Name:WASSEN Elena / PFEIF Pauline Alexandra
+Rank:8
+Score:43.8 + 42.6 + 45.12 + 61.2 + 50.88 = 243.60
+-----
+Full Name:WANG Zongyuan
+Rank:1
+Score:86.7 + 89.25 + 95.55 + 89.25 + 81.0 + 102.6 = 544.35
+-----
+Full Name:ZHENG Jiuyuan
+Rank:2
+Score:78.2 + 89.25 + 87.5 + 70.5 + 91.2 + 83.85 = 500.50
+-----
+Full Name:OLVERA IBARRA Osmar
+Rank:3
+Score:86.7 + 71.75 + 46.8 + 86.7 + 96.9 + 91.65 = 480.50
+-----
+Full Name:BOUYER Jules
+Rank:4
+Score:66.3 + 81.6 + 72.0 + 70.0 + 73.5 + 79.8 = 443.20
+-----
+Full Name:BAI Yuming
+Rank:1
+Score:81.6 + 86.4 + 77.0 + 91.8 + 104.4 + 101.75 = 542.95
+-----
+Full Name:WILLARS VALDEZ Randal
+Rank:2
+Score:85.75 + 76.5 + 87.5 + 93.6 + 88.2 + 106.6 = 538.15
+-----
+Full Name:LIAN Junjie
+Rank:3
+Score:91.2 + 96.0 + 94.5 + 49.3 + 64.8 + 111.0 = 506.80
+-----
+Full Name:ROUSSEAU Cassiel
+Rank:4
+Score:81.6 + 81.6 + 48.6 + 90.0 + 86.4 + 92.5 = 480.70
+-----
+Full Name:WANG Zongyuan / ZHENG Jiuyuan
+Rank:1
+Score:51.6 + 54.6 + 85.05 + 85.68 + 86.64 + 97.11 = 460.68
+-----
+Full Name:CELAYA HERNANDEZ Juan Manuel / OLVERA IBARRA Osmar
+Rank:2
+Score:49.8 + 49.2 + 81.6 + 82.62 + 67.26 + 90.09 = 420.57
+-----
+Full Name:HARDING Anthony / LAUGHER Jack
+Rank:3
+Score:50.4 + 51.6 + 74.4 + 79.56 + 79.56 + 70.68 = 406.20
+-----
+Full Name:BOLIUKH Kirill / OLIFERCHYK Stanislav
+Rank:4
+Score:49.8 + 46.8 + 75.48 + 68.82 + 83.22 + 72.42 = 396.54
+-----
+Full Name:ZSOMBOR-MURRAY Nathan / PAUL Carson
+Rank:5
+Score:49.8 + 48.0 + 70.38 + 73.5 + 70.68 + 77.52 = 389.88
+-----
+Full Name:SCHAUER Jonathan Gisbert / MASSENBERG Lou Noel Guy
+Rank:6
+Score:48.6 + 48.0 + 77.52 + 66.3 + 72.45 + 70.68 = 383.55
+-----
+Full Name:IKUMA Senri / SUYAMA Haruki
+Rank:7
+Score:46.8 + 47.4 + 65.1 + 74.46 + 70.2 + 74.55 = 378.51
+-----
+Full Name:MARSAGLIA Lorenzo / TOCCI Giovanni
+Rank:8
+Score:48.0 + 48.0 + 70.68 + 79.56 + 67.32 + 62.7 = 376.26
+-----
+Full Name:ZHAO Renjie / YANG Zhihao
+Rank:1
+Score:57.0 + 49.8 + 87.36 + 91.8 + 66.6 + 96.12 = 448.68
+-----
+Full Name:HRYTSENKO Mark / SEREDA Oleksii
+Rank:2
+Score:49.2 + 48.0 + 75.84 + 79.92 + 71.4 + 79.92 = 404.28
+-----
+Full Name:BERLIN REYES Kevin / WILLARS VALDEZ Randal
+Rank:3
+Score:50.4 + 47.4 + 76.5 + 81.0 + 71.04 + 76.68 = 403.02
+-----
+Full Name:MCCABE Euan / CUTMORE Ben
+Rank:4
+Score:45.6 + 48.0 + 73.44 + 74.52 + 68.82 + 66.96 = 377.34
+-----
+Full Name:CULLEN Matt / TESSIER Benjamin
+Rank:5
+Score:51.0 + 48.6 + 71.4 + 84.24 + 51.06 + 69.12 = 375.42
+-----
+Full Name:GIOVANNINI Riccardo / CONTE Simone
+Rank:6
+Score:49.2 + 47.4 + 72.0 + 73.26 + 68.4 + 60.48 = 370.74
+-----
+Full Name:MERCIECA Jonah / ROUSSEAU Cassiel
+Rank:7
+Score:47.4 + 47.4 + 71.04 + 75.84 + 65.28 + 61.05 = 368.01
+-----
+Full Name:SHLEIKHER Nikita / TERNOVOI Ruslan
+Rank:8
+Score:48.6 + 50.4 + 57.12 + 51.84 + 69.93 + 76.68 = 354.57
+-----
