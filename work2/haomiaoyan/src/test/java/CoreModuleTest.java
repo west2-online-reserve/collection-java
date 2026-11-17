@@ -37,6 +37,18 @@ class CoreModuleTest {
     }
 
     @Test
+    void 单独result缺项目名输出N和A(){
+        String out = core.handleLine("result");
+        assertEquals("N/A\n-----\n", out);
+    }
+
+    @Test
+    void result与项目名粘连仍输出Error(){
+        String out = core.handleLine("resultwomen 3m springboard");
+        assertEquals("Error\n-----\n", out);
+    }
+
+    @Test
     void Error(){
         String out = core.handleLine("player");
         assertEquals("Error\n-----\n", out);

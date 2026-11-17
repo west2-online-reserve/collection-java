@@ -19,7 +19,9 @@ public class CoreModule {
         // result 成功分支:循环把各 formatResult 块拼进一个 StringBuilder 再 return
         if (line.equals("players")) {
             return this.playerBlock;
-        } else if (line.startsWith("result ")) { // 匹配 “ results ”
+        } else if (line.equals("result") || line.startsWith("result ")) {
+            // 单独的 result 也是已识别的命令（缺项目名）：下面的查询会返回空列表 → N/A。
+            // 注意不能用 startsWith("result")，否则 resultwomen 3m springboard 会被误识别。
             List<String[]> rs = DataLoader.loadResults(dataContent, line);
             // 如果是空列表
             if (rs.isEmpty())
