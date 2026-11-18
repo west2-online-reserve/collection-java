@@ -322,7 +322,7 @@ Full Name:SEREDA Oleksii
 Gender:Male
 Country:Ukraine
 -----
-Full Name:VYSTAKINA Sofiia
+Full Name:VYSTAVKINA Sofiia
 Gender:Female
 Country:Ukraine
 -----

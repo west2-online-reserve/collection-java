@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "retrievedAt": "2026-08-29T06:47:21Z",
+  "retrievedAt": "2026-11-18T13:14:05Z",
   "source": {
     "provider": "World Aquatics",
     "competitionEndpoint": "https://api.worldaquatics.com/fina/competitions/5019/events",
@@ -9,7 +9,7 @@
   },
   "files": {
     "data.json": {
-      "sha256": "b648a02f56c71c458e29fcc30d5cf17dcc9c62f89b8cc9d012fd0fad70d1984c"
+      "sha256": "88ae6ac4751e565addddd79627d424d1a0cbbaa8ca6dd34e7a8b6113abfc5571"
     }
   }
 }

@@ -18,13 +18,19 @@ java -jar DWASearch.jar input.txt output.txt
 
 - 系统：Windows 11
 - JDK：Zulu OpenJDK 25（老师要求 17+，我写的时候是按 17 写的）
-- 构建工具：电脑上没装 Maven，所以自己写了个 `build.ps1` 来编译和打包；
-  同时也放了 `pom.xml`，装了 Maven 的话直接 `mvn package` 也行。
-- 依赖：Jackson 2.17.2 用来解析 JSON，JUnit 5.10.2 用来写测试，jar 都在 `lib/` 里。
+- 构建工具：Maven 3.9+（依赖全交给 Maven 管，仓库里不再放 jar）
+  装的话：`winget install Apache.Maven`
+- 依赖：Jackson 2.17.2 解析 JSON，JUnit 5.10.2 写测试，都在 `pom.xml` 里声明
 
 ## 怎么构建、怎么运行、怎么测试
 
-没有 Maven 的话用这个（会先编译、再跑测试、最后打成 jar）：
+构建（会先跑测试，再打出带依赖的 jar）：
+
+```bash
+mvn clean package
+```
+
+也可以走包装脚本，效果一样：
 
 ```bash
 powershell -ExecutionPolicy Bypass -File build.ps1
@@ -33,28 +39,34 @@ powershell -ExecutionPolicy Bypass -File build.ps1
 跑起来：
 
 ```bash
-java -jar DWASearch.jar sample_input.txt output.txt
+java -jar target/DWASearch-1.0.0.jar sample_input.txt output.txt
 ```
 
-单独跑测试：
-
-```bash
-java -jar lib/junit-platform-console-standalone-1.10.2.jar --class-path "out/classes;out/test-classes;lib/jackson-databind-2.17.2.jar;lib/jackson-core-2.17.2.jar;lib/jackson-annotations-2.17.2.jar" --select-package dwasearch
-```
-
-（`build.ps1` 里已经带这一步了，正常不用单独跑。）
-
-`Main-Class` 是 `dwasearch.DWASearch`：`pom.xml` 里用 maven-jar-plugin 写的，
-`build.ps1` 里是手动写 `MANIFEST.MF`，然后把 Jackson 的 class 一起解进 jar。
+`Main-Class` 是 `dwasearch.DWASearch`，写在 `pom.xml` 的 maven-jar-plugin 里；
+依赖用 maven-shade-plugin 打进同一个 jar，所以 `java -jar` 直接能跑，不用再配 `-cp`。
 
 ## 数据
 
-数据用的是课程给的第一轮固定数据包（`learn-backend/data/round-1-diving-2026`），
-抓取时间是 `2026-08-29T06:47:21Z`，一共 89 名选手、8 个项目。
+`data.json` 是用仓库里的抓取脚本现抓的快照，不是课程发的固定数据包。
 
-我另外写了 `scripts/fetch_data.py` 自己抓了一遍，跟数据包对了一下：八个项目的名次、
-每一跳的得分、总分都是一样的，选手也一样，只有一个人的名字拼写不太一样
-（接口里是 VYSTAVKINA，数据包里是 VYSTAKINA），所以最后交的还是数据包里的那份。
+抓取命令（在项目根目录下跑）：
+
+```bash
+python scripts/fetch_data.py data.json
+```
+
+脚本只用到 Python 标准库，不用装第三方包。它抓完会顺手更新 `manifest.json`，
+里面记着抓取时间 `2026-11-18T13:14:05Z`、三个接口地址，以及 `data.json` 的 sha256：
+
+```text
+sha256 88ae6ac4751e565addddd79627d424d1a0cbbaa8ca6dd34e7a8b6113abfc5571
+```
+
+快照内容：赛事 ID 5019（2026 World Aquatics Diving World Cup - Super Final，
+2026-04-30 到 2026-05-02），89 名选手、8 个项目。
+
+接口里有个选手名拼成 VYSTAVKINA，课程数据包里写成 VYSTAKINA；
+现在快照来自接口，所以 `sample_output.txt` 里也用 VYSTAVKINA。
 
 数据接口是这三个：
 
@@ -161,7 +173,6 @@ DWASearch/
 ├─ src/main/java/dwasearch/   源码
 ├─ src/test/java/dwasearch/   测试
 ├─ scripts/fetch_data.py      抓数据的脚本
-├─ lib/                       Jackson 和 JUnit 的 jar
 ├─ pom.xml
 ├─ build.ps1
 └─ README.md
