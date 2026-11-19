@@ -101,24 +101,16 @@ public class TaskRunner {
                         System.out.println("-----");
                     }
 
-//                    SearchName = ProjectMatcher.matchDiscipline(SearchName);
-//
-//                    if (SearchName != null) {
-//                        if (SearchName.equals(ProjectMatcher.getProjectName(0))) {
-//                            AthleteSearch.SearchFor();
-//                        } else {
-//                            for (Disciplines discipline : Discipline) {
-//                                if (discipline.getDisciplineName().equals(SearchName)) {
-//                                    OutputClass.OutputDisciplines(discipline);
-//                                }
-//                            }
-//                        }
-//                    }
                 }
+                if(fileOut.checkError()){     // PrintStream 会吞掉错误，导致出错但是正常运行，所以需要通过其自带方法 checkError() 检查错误
+                   throw new IOException("Failed to write to output file '" + outputFile + "'");
+                }
+
                 System.out.flush();
             }
             catch (IOException e) {
                 System.err.println("Error reading file: " + e.getMessage());  // 无法读取文件标识符
+                System.exit(1);
             }
             finally {
                 // 恢复至标准输出流
