@@ -152,4 +152,36 @@ class DataLoaderTest {
         assertThrows(IllegalArgumentException.class, () -> new CoreModule(""),
                 "空数据不得静默产出空选手块");
     }
+
+    // ================= 4. 快照完整性：缺选手 / 缺必需项目 / 缺决赛记录 =================
+
+    @Test
+    void 缺少必需项目必须失败而非返回N和A() throws IOException {
+        // 只改项目名、保持 JSON 结构合法：women 3m springboard 不在 8 个必需项目里了
+        String original = realData();
+        String missing = original.replace(
+                "\"command\": \"result women 3m springboard\"",
+                "\"command\": \"result women springboard\"");
+        assertNotEquals(original, missing, "测试构造失败：未改名项目");
+        assertThrows(IllegalArgumentException.class, () -> new CoreModule(missing),
+                "合法项目在快照中缺失时必须报快照错误，不能等查询时输出 N/A 并正常退出");
+    }
+
+    @Test
+    void 必需项目缺决赛记录必须失败而非返回N和A() throws IOException {
+        // 清空首个项目的 results 数组，但保留 command —— 模拟"有项目无决赛记录"
+        String noFinals = realData().replaceFirst(
+                "\"results\": \\[\\s*\\{[\\s\\S]*?\\}\\s*\\]", "\"results\": []");
+        assertNotEquals(realData(), noFinals, "测试构造失败：未清空决赛记录");
+        assertThrows(IllegalArgumentException.class, () -> new CoreModule(noFinals),
+                "项目存在但无决赛记录时必须报快照错误");
+    }
+
+    @Test
+    void 空选手数组必须失败() throws IOException {
+        String noPlayers = realData().replaceFirst("\"players\": \\[[\\s\\S]*?\\]", "\"players\": []");
+        assertNotEquals(realData(), noPlayers, "测试构造失败：未清空选手数组");
+        assertThrows(IllegalArgumentException.class, () -> new CoreModule(noPlayers),
+                "选手为空的快照必须明确失败");
+    }
 }

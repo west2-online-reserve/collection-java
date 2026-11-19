@@ -1,5 +1,7 @@
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 
 //  数据访问层：从 data.json 全文按命令取出选手列表 / 某个项目的决赛结果
@@ -11,6 +13,69 @@ import java.util.List;
 public class DataLoader {
 
     private static final String Q = "\"";
+
+    /** 考核规定的 8 条合法 result 命令；快照缺任何一条或缺其决赛记录都视为损坏。 */
+    static final List<String> REQUIRED_COMMANDS = List.of(
+            "result women 3m springboard",
+            "result women 10m platform",
+            "result women 3m synchronised",
+            "result women 10m synchronised",
+            "result men 3m springboard",
+            "result men 10m platform",
+            "result men 3m synchronised",
+            "result men 10m synchronised"
+    );
+
+    /**
+     * 加载时校验快照完整性：选手非空、8 个必需项目齐全且各有决赛记录。
+     * 失败抛 IllegalArgumentException，由命令行入口转成 stderr + 非零退出，
+     * 避免"合法查询因缺数据被当成未知项目输出 N/A 且正常退出 0"。
+     */
+    static void validateSnapshot(String content) {
+        List<Player> players = loadPlayers(content);
+        if (players.isEmpty())
+            throw new IllegalArgumentException("snapshot has no players");
+
+        int eventsKey = content.indexOf(Q + "events" + Q);
+        if (eventsKey == -1)
+            throw new IllegalArgumentException("events key not found in data");
+        int arrStart = content.indexOf('[', eventsKey);
+        if (arrStart == -1)
+            throw new IllegalArgumentException("events array not found");
+        int arrEnd = findArrayEnd(content, arrStart);
+        if (arrEnd == -1)
+            throw new IllegalArgumentException("events array not closed");
+
+        Set<String> projectsWithFinals = new HashSet<>();
+        int pos = content.indexOf('{', arrStart);
+        while (pos >= 0 && pos < arrEnd) {
+            int end = findObjectEnd(content, pos);
+            if (end < 0)
+                throw new IllegalArgumentException("event object not closed");
+            String ev = content.substring(pos, end);
+            String cmd = stringValueOf(ev, "command");
+            if (hasFinalResults(ev))
+                projectsWithFinals.add(cmd);
+            pos = content.indexOf('{', end);
+        }
+
+        for (String required : REQUIRED_COMMANDS) {
+            if (!projectsWithFinals.contains(required))
+                throw new IllegalArgumentException("snapshot missing project or finals: " + required);
+        }
+    }
+
+    /** event 对象中 results 数组是否至少有一条决赛记录。 */
+    private static boolean hasFinalResults(String ev) {
+        int rKey = ev.indexOf(Q + "results" + Q);
+        if (rKey == -1) return false;
+        int rStart = ev.indexOf('[', rKey);
+        if (rStart == -1) return false;
+        int rEnd = findArrayEnd(ev, rStart);
+        if (rEnd == -1) return false;
+        int first = ev.indexOf('{', rStart);
+        return first >= 0 && first < rEnd;
+    }
 
     // players
 

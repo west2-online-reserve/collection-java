@@ -21,7 +21,7 @@ west2-online「learn-backend」第一轮考核项目：[考核说明](https://gi
 ```bash
 mvn package                      # 会先自动执行全部测试；产物：target/DWASearch.jar
 java -jar target/DWASearch.jar input.txt output.txt
-mvn test                         # 27 个测试，预期全绿
+mvn test                         # 32 个测试，预期全绿
 ```
 
 **打成可执行 jar 的方式**：`pom.xml` 用 `maven-jar-plugin` 写入 `MANIFEST.MF` 的 `Main-Class`，因此 `java -jar` 可直接运行，无需 `-cp`：
@@ -172,7 +172,7 @@ DataMerger.java    数据合并（开发期使用，不参与考核运行）。
 
 | 场景 | 行为 |
 |---|---|
-| 命令行参数不足 2 个 | `System.err` 输出一行用法提示，退出码 1，不打印堆栈 |
+| 命令行参数个数不等于 2 | `System.err` 输出一行用法提示，退出码 1，不打印堆栈；用 `args.length != 2` 校验，多传（如 `input.txt output.txt extra`）同样拒绝 |
 | input/数据文件不存在或不可读 | `System.err` 输出一行错误说明，退出码 1；**错误信息绝不写入 output.txt**（错误走 stderr，结果走结果文件，双通道分离） |
 | **数据文件 JSON 损坏 / 缺必需字段** | `System.err` 输出 `Error: invalid data - <原因>`，退出码 1，**不产出结果文件**，不打印堆栈 |
 | 未知命令（含大小写不符、命令粘连） | 输出块 `Error\n-----\n` |
@@ -186,6 +186,7 @@ DataMerger.java    数据合并（开发期使用，不参与考核运行）。
 | 1 | **空输入文件** | 输出文件为 0 字节（`readAllLines` 返回空列表，循环不执行） |
 | 2 | **空行** | **按「非法命令」处理**，输出 `Error\n-----\n`；N 个空行产出 N 个 Error 块。纯空白行（空格/制表符）同样处理，因为命令匹配不做空格归一化 |
 | 3 | **JSON 损坏 / 缺字段** | **明确失败**：抛 `IllegalArgumentException`，入口转为 `Error: invalid data - <原因>` + 退出码 1。已覆盖 11 种缺字段场景（`events`/`gender`/`country`/`rank`/`scores`/`totalPoints`/`countryCode`/`fullName`/数组未闭合等） |
+| 4 | **快照缺数据** | 加载时校验：选手非空、8 个必需 `result` 项目齐全且各有决赛记录；缺任一项即抛 `IllegalArgumentException` → `Error: invalid data - ...` + 退出码 1，**不写结果文件**。合法查询遇缺数据不得降级成 `N/A` 且正常退出 0 |
 
 设计原则：先定义每种输入的可观察行为（契约），再实现；异常不被吞掉，也不原样抛给用户。
 
@@ -193,12 +194,12 @@ DataMerger.java    数据合并（开发期使用，不参与考核运行）。
 
 ## 单元测试展示
 
-`mvn test`：**27 个测试全绿**（JUnit 5）。
+`mvn test`：**32 个测试全绿**（JUnit 5）。
 
 | 测试类 | 数量 | 覆盖 |
 |---|---|---|
-| `CoreModuleTest` | 5 | 选手块开头逐字符、89 条分隔线计数、`result sss`→N/A 精确匹配、`player`→Error（大小写敏感）、官方样例成绩行 `Score:73.50 + 74.40 + 76.50 + 72.00 + 78.00 = 374.40` |
-| `DataLoaderTest` | 11 | **三条必测要求**：空文件→0 字节输出、空行→Error 块（含多空行、纯空白行）、JSON 缺字段必须明确失败（9 种损坏场景） |
+| `CoreModuleTest` | 7 | 选手块开头逐字符、89 条分隔线计数、`result sss`→N/A、单独 `result`→N/A、`resultwomen 3m springboard`→Error（粘连仍非法）、`player`→Error（大小写敏感）、官方样例成绩行 `Score:73.50 + 74.40 + 76.50 + 72.00 + 78.00 = 374.40` |
+| `DataLoaderTest` | 14 | **四条必测要求**：空文件→0 字节输出、空行→Error 块（含多空行、纯空白行）、JSON 缺字段明确失败（9 种损坏场景）、快照缺数据明确失败（缺选手/缺必需项目/缺决赛记录各 1 例） |
 | `PlayerTest` | 2 | 双关键字排序逐位断言、格式化输出精确匹配+分隔线计数 |
 | `BigDecimalTest` | 3 | 分数累加=374.40、单元素、空列表契约（返回 `0.00`） |
 | `WarmupTest` / `EnvCheckTest` | 6 | 学习阶段的语法与环境验证练习，作为学习轨迹保留 |

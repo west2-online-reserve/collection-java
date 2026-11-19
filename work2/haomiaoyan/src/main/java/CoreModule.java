@@ -7,6 +7,9 @@ public class CoreModule {
 
     public CoreModule(String dataContent) {
         this.dataContent = dataContent;
+        // 加载时校验快照完整性：选手、8 个必需项目及决赛记录缺一不可。
+        // 缺数据必须明确失败（非零退出），不能等查询时把合法项目误判成 N/A。
+        DataLoader.validateSnapshot(dataContent);
         // 把 main 里的东西搬这里 —— load、sort、formatterPlayer,结果存 playerBlock
         List<Player> players = DataLoader.loadPlayers(dataContent);
         players.sort(Comparator.comparing(Player::getCountry).thenComparing(Player::getLastName));

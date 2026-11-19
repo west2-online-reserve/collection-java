@@ -11,8 +11,8 @@ public class DWASearch {
     static final String DATA_FILE = "data_test.json";
 
     public static void main(String[] args){
-        // 判断 args 是否合法
-        if (args.length < 2){
+        // 参数必须恰好 2 个：多传、少传都拒绝（原来用 < 2 会放过多余的第三个参数）
+        if (args.length != 2){
             System.err.println("用法: java -jar DWASearch.jar <input.txt> <output.txt>");
             System.exit(1);
         }
