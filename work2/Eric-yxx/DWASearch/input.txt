@@ -1,0 +1,4 @@
+players
+result women 3m springboard
+INVALID
+result impossible
