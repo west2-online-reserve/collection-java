@@ -1,0 +1,9 @@
+"Men's 10m Platform",
+"Men's 3m Springboard",
+"Women's 10m Platform",
+"Women's 3m Springboard",
+"Men's 10m Synchronised",
+"Mixed 3m & 10m Team",
+"Men's 3m Synchronised",
+"Women's 10m Synchronised",
+"Women's 3m Synchronised"
