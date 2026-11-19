@@ -1,0 +1,6 @@
+# 统一策略:文本文件自动识别、仓库内一律存 LF
+* text=auto
+
+# 原始数据包:禁止任何换行符/文本转换,必须字节级与官方一致
+# (README 承诺 SHA-256 校验,data.json 的完整性依赖此规则,对所有人 clone 生效)
+data/round-1-diving-2026/** -text
