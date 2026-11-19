@@ -1,0 +1,16 @@
+# 构建产物
+target/
+out/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 手动跑出来的输出文件
+testdata/output.txt
