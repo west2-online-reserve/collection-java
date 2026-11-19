@@ -1,0 +1,14 @@
+players
+result men 10m platform
+result men 10m synchronised
+result men 3m springboard
+result men 3m synchronised
+result women 10m platform
+result women 10m synchronised
+result women 3m springboard
+result women 3m synchronised
+hello world
+
+result
+Players
+players    
