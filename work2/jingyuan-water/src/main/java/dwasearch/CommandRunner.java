@@ -16,8 +16,8 @@ import java.util.stream.Collectors;
  */
 public class CommandRunner {
 
-    /** 合法的项目名，必须与输入完全一致（区分大小写、空格数量一致）。 */
-    private static final Set<String> EVENT_KEYS = Set.of(
+    /** 合法的项目名，也是快照必须包含的 8 个项目清单（区分大小写、空格数量一致）。 */
+    public static final Set<String> EVENT_KEYS = Set.of(
             "women 3m springboard",
             "women 10m platform",
             "women 3m synchronised",
