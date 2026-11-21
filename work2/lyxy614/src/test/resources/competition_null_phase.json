@@ -1,0 +1,3489 @@
+{
+  "Source": {
+    "Event": "World Aquatics Diving World Cup 2026 - Super Final",
+    "EventsURL": "https://api.worldaquatics.com/fina/competitions/5019/events",
+    "PlayersURL": "https://api.worldaquatics.com/fina/competitions/5019/athletes",
+    "PlayersFetchedAt": "2026-10-13T06:06:07.962229900Z",
+    "ResultsFetchedAt": "2026-10-13T06:06:04.902091600Z"
+  },
+  "Countries": [
+    {
+      "Participations": [
+        {
+          "PreferredLastName": "COLE",
+          "PreferredFirstName": "Ellie",
+          "Gender": 1,
+          "NAT": "Australia"
+        },
+        {
+          "PreferredLastName": "KEENEY",
+          "PreferredFirstName": "Maddison",
+          "Gender": 1,
+          "NAT": "Australia"
+        },
+        {
+          "PreferredLastName": "KOLOI",
+          "PreferredFirstName": "Alysha",
+          "Gender": 1,
+          "NAT": "Australia"
+        },
+        {
+          "PreferredLastName": "MERCIECA",
+          "PreferredFirstName": "Jonah",
+          "Gender": 0,
+          "NAT": "Australia"
+        },
+        {
+          "PreferredLastName": "PUCKERIDGE",
+          "PreferredFirstName": "Milly",
+          "Gender": 1,
+          "NAT": "Australia"
+        },
+        {
+          "PreferredLastName": "ROUSSEAU",
+          "PreferredFirstName": "Cassiel",
+          "Gender": 0,
+          "NAT": "Australia"
+        }
+      ]
+    },
+    {
+      "Participations": [
+        {
+          "PreferredLastName": "CULLEN",
+          "PreferredFirstName": "Matt",
+          "Gender": 0,
+          "NAT": "Canada"
+        },
+        {
+          "PreferredLastName": "ERLAM",
+          "PreferredFirstName": "Margo",
+          "Gender": 1,
+          "NAT": "Canada"
+        },
+        {
+          "PreferredLastName": "FUNG",
+          "PreferredFirstName": "Katelyn",
+          "Gender": 1,
+          "NAT": "Canada"
+        },
+        {
+          "PreferredLastName": "JASMIN",
+          "PreferredFirstName": "Amelie-Laura",
+          "Gender": 1,
+          "NAT": "Canada"
+        },
+        {
+          "PreferredLastName": "MILLER",
+          "PreferredFirstName": "Kate",
+          "Gender": 1,
+          "NAT": "Canada"
+        },
+        {
+          "PreferredLastName": "PALKHIVALA",
+          "PreferredFirstName": "Sonya",
+          "Gender": 1,
+          "NAT": "Canada"
+        },
+        {
+          "PreferredLastName": "PAUL",
+          "PreferredFirstName": "Carson",
+          "Gender": 0,
+          "NAT": "Canada"
+        },
+        {
+          "PreferredLastName": "TESSIER",
+          "PreferredFirstName": "Benjamin",
+          "Gender": 0,
+          "NAT": "Canada"
+        },
+        {
+          "PreferredLastName": "VALLEE",
+          "PreferredFirstName": "Mia",
+          "Gender": 1,
+          "NAT": "Canada"
+        },
+        {
+          "PreferredLastName": "ZSOMBOR-MURRAY",
+          "PreferredFirstName": "Nathan",
+          "Gender": 0,
+          "NAT": "Canada"
+        }
+      ]
+    },
+    {
+      "Participations": [
+        {
+          "PreferredLastName": "BAI",
+          "PreferredFirstName": "Yuming",
+          "Gender": 0,
+          "NAT": "People's Republic of China"
+        },
+        {
+          "PreferredLastName": "CHEN",
+          "PreferredFirstName": "Jia",
+          "Gender": 1,
+          "NAT": "People's Republic of China"
+        },
+        {
+          "PreferredLastName": "CHEN",
+          "PreferredFirstName": "Yuxi",
+          "Gender": 1,
+          "NAT": "People's Republic of China"
+        },
+        {
+          "PreferredLastName": "CHEN",
+          "PreferredFirstName": "Yiwen",
+          "Gender": 1,
+          "NAT": "People's Republic of China"
+        },
+        {
+          "PreferredLastName": "JIANG",
+          "PreferredFirstName": "Linjing",
+          "Gender": 1,
+          "NAT": "People's Republic of China"
+        },
+        {
+          "PreferredLastName": "LIAN",
+          "PreferredFirstName": "Junjie",
+          "Gender": 0,
+          "NAT": "People's Republic of China"
+        },
+        {
+          "PreferredLastName": "LIN",
+          "PreferredFirstName": "Shan",
+          "Gender": 1,
+          "NAT": "People's Republic of China"
+        },
+        {
+          "PreferredLastName": "LIU",
+          "PreferredFirstName": "Chengzan",
+          "Gender": 0,
+          "NAT": "People's Republic of China"
+        },
+        {
+          "PreferredLastName": "LU",
+          "PreferredFirstName": "Wei",
+          "Gender": 1,
+          "NAT": "People's Republic of China"
+        },
+        {
+          "PreferredLastName": "WANG",
+          "PreferredFirstName": "Zongyuan",
+          "Gender": 0,
+          "NAT": "People's Republic of China"
+        },
+        {
+          "PreferredLastName": "YANG",
+          "PreferredFirstName": "Zhihao",
+          "Gender": 0,
+          "NAT": "People's Republic of China"
+        },
+        {
+          "PreferredLastName": "ZHAO",
+          "PreferredFirstName": "Renjie",
+          "Gender": 0,
+          "NAT": "People's Republic of China"
+        },
+        {
+          "PreferredLastName": "ZHENG",
+          "PreferredFirstName": "Jiuyuan",
+          "Gender": 0,
+          "NAT": "People's Republic of China"
+        }
+      ]
+    },
+    {
+      "Participations": [
+        {
+          "PreferredLastName": "URIBE BERMUDEZ",
+          "PreferredFirstName": "Luis Felipe",
+          "Gender": 0,
+          "NAT": "Colombia"
+        },
+        {
+          "PreferredLastName": "ZAPATA CORREA",
+          "PreferredFirstName": "Daniela",
+          "Gender": 1,
+          "NAT": "Colombia"
+        }
+      ]
+    },
+    {
+      "Participations": [
+        {
+          "PreferredLastName": "CARVAJAL",
+          "PreferredFirstName": "Ana",
+          "Gender": 1,
+          "NAT": "Spain"
+        }
+      ]
+    },
+    {
+      "Participations": [
+        {
+          "PreferredLastName": "BOUYER",
+          "PreferredFirstName": "Jules",
+          "Gender": 0,
+          "NAT": "France"
+        }
+      ]
+    },
+    {
+      "Participations": [
+        {
+          "PreferredLastName": "CUTMORE",
+          "PreferredFirstName": "Ben",
+          "Gender": 0,
+          "NAT": "Great Britain"
+        },
+        {
+          "PreferredLastName": "HARDING",
+          "PreferredFirstName": "Anthony",
+          "Gender": 0,
+          "NAT": "Great Britain"
+        },
+        {
+          "PreferredLastName": "HARPER",
+          "PreferredFirstName": "Yasmin",
+          "Gender": 1,
+          "NAT": "Great Britain"
+        },
+        {
+          "PreferredLastName": "HASLAM",
+          "PreferredFirstName": "Ross",
+          "Gender": 0,
+          "NAT": "Great Britain"
+        },
+        {
+          "PreferredLastName": "LAUGHER",
+          "PreferredFirstName": "Jack",
+          "Gender": 0,
+          "NAT": "Great Britain"
+        },
+        {
+          "PreferredLastName": "MCCABE",
+          "PreferredFirstName": "Euan",
+          "Gender": 0,
+          "NAT": "Great Britain"
+        },
+        {
+          "PreferredLastName": "MEW JENSEN",
+          "PreferredFirstName": "Scarlett",
+          "Gender": 1,
+          "NAT": "Great Britain"
+        }
+      ]
+    },
+    {
+      "Participations": [
+        {
+          "PreferredLastName": "MASSENBERG",
+          "PreferredFirstName": "Lou Noel Guy",
+          "Gender": 0,
+          "NAT": "Germany"
+        },
+        {
+          "PreferredLastName": "PFEIF",
+          "PreferredFirstName": "Pauline Alexandra",
+          "Gender": 1,
+          "NAT": "Germany"
+        },
+        {
+          "PreferredLastName": "SCHAUER",
+          "PreferredFirstName": "Jonathan Gisbert",
+          "Gender": 0,
+          "NAT": "Germany"
+        },
+        {
+          "PreferredLastName": "WASSEN",
+          "PreferredFirstName": "Elena",
+          "Gender": 1,
+          "NAT": "Germany"
+        }
+      ]
+    },
+    {
+      "Participations": [
+        {
+          "PreferredLastName": "CONTE",
+          "PreferredFirstName": "Simone",
+          "Gender": 0,
+          "NAT": "Italy"
+        },
+        {
+          "PreferredLastName": "GIOVANNINI",
+          "PreferredFirstName": "Riccardo",
+          "Gender": 0,
+          "NAT": "Italy"
+        },
+        {
+          "PreferredLastName": "JODOIN DI MARIA",
+          "PreferredFirstName": "Sarah",
+          "Gender": 1,
+          "NAT": "Italy"
+        },
+        {
+          "PreferredLastName": "MARSAGLIA",
+          "PreferredFirstName": "Lorenzo",
+          "Gender": 0,
+          "NAT": "Italy"
+        },
+        {
+          "PreferredLastName": "PIZZINI",
+          "PreferredFirstName": "Elisa",
+          "Gender": 1,
+          "NAT": "Italy"
+        },
+        {
+          "PreferredLastName": "TOCCI",
+          "PreferredFirstName": "Giovanni",
+          "Gender": 0,
+          "NAT": "Italy"
+        }
+      ]
+    },
+    {
+      "Participations": [
+        {
+          "PreferredLastName": "IKUMA",
+          "PreferredFirstName": "Senri",
+          "Gender": 0,
+          "NAT": "Japan"
+        },
+        {
+          "PreferredLastName": "KANETO",
+          "PreferredFirstName": "Rin",
+          "Gender": 1,
+          "NAT": "Japan"
+        },
+        {
+          "PreferredLastName": "SUYAMA",
+          "PreferredFirstName": "Haruki",
+          "Gender": 0,
+          "NAT": "Japan"
+        }
+      ]
+    },
+    {
+      "Participations": [
+        {
+          "PreferredLastName": "AGUNDEZ GARCIA",
+          "PreferredFirstName": "Gabriela",
+          "Gender": 1,
+          "NAT": "Mexico"
+        },
+        {
+          "PreferredLastName": "BERLIN REYES",
+          "PreferredFirstName": "Kevin",
+          "Gender": 0,
+          "NAT": "Mexico"
+        },
+        {
+          "PreferredLastName": "CELAYA HERNANDEZ",
+          "PreferredFirstName": "Juan Manuel",
+          "Gender": 0,
+          "NAT": "Mexico"
+        },
+        {
+          "PreferredLastName": "CUEVA LOBATO",
+          "PreferredFirstName": "Mia Zazil",
+          "Gender": 1,
+          "NAT": "Mexico"
+        },
+        {
+          "PreferredLastName": "CUEVA LOBATO",
+          "PreferredFirstName": "Lia Yatzil",
+          "Gender": 1,
+          "NAT": "Mexico"
+        },
+        {
+          "PreferredLastName": "CUEVA LOBATO",
+          "PreferredFirstName": "Suri Zoe",
+          "Gender": 1,
+          "NAT": "Mexico"
+        },
+        {
+          "PreferredLastName": "ESTUDILLO TORRES",
+          "PreferredFirstName": "Alejandra",
+          "Gender": 1,
+          "NAT": "Mexico"
+        },
+        {
+          "PreferredLastName": "GARCIA SIXTOS",
+          "PreferredFirstName": "Maria Fernanda",
+          "Gender": 1,
+          "NAT": "Mexico"
+        },
+        {
+          "PreferredLastName": "OLVERA IBARRA",
+          "PreferredFirstName": "Osmar",
+          "Gender": 0,
+          "NAT": "Mexico"
+        },
+        {
+          "PreferredLastName": "VAZQUEZ MONTANO",
+          "PreferredFirstName": "Aranza",
+          "Gender": 1,
+          "NAT": "Mexico"
+        },
+        {
+          "PreferredLastName": "WILLARS VALDEZ",
+          "PreferredFirstName": "Randal",
+          "Gender": 0,
+          "NAT": "Mexico"
+        }
+      ]
+    },
+    {
+      "Participations": [
+        {
+          "PreferredLastName": "JO",
+          "PreferredFirstName": "Jin Mi",
+          "Gender": 1,
+          "NAT": "Democratic People's Republic of Korea"
+        },
+        {
+          "PreferredLastName": "KIM",
+          "PreferredFirstName": "Mi Rae",
+          "Gender": 1,
+          "NAT": "Democratic People's Republic of Korea"
+        }
+      ]
+    },
+    {
+      "Participations": [
+        {
+          "PreferredLastName": "KAZANTSEVA",
+          "PreferredFirstName": "Viktoria",
+          "Gender": 1,
+          "NAT": "Russia"
+        },
+        {
+          "PreferredLastName": "KLIUEVA",
+          "PreferredFirstName": "Uliana",
+          "Gender": 1,
+          "NAT": "Russia"
+        },
+        {
+          "PreferredLastName": "KONANYKHINA",
+          "PreferredFirstName": "Anna",
+          "Gender": 1,
+          "NAT": "Russia"
+        },
+        {
+          "PreferredLastName": "KUZINA",
+          "PreferredFirstName": "Elizaveta",
+          "Gender": 1,
+          "NAT": "Russia"
+        },
+        {
+          "PreferredLastName": "SHLEIKHER",
+          "PreferredFirstName": "Nikita",
+          "Gender": 0,
+          "NAT": "Russia"
+        },
+        {
+          "PreferredLastName": "TERNOVOI",
+          "PreferredFirstName": "Ruslan",
+          "Gender": 0,
+          "NAT": "Russia"
+        },
+        {
+          "PreferredLastName": "TRIFONOVA",
+          "PreferredFirstName": "Nadezhda",
+          "Gender": 1,
+          "NAT": "Russia"
+        }
+      ]
+    },
+    {
+      "Participations": [
+        {
+          "PreferredLastName": "HEIMBERG",
+          "PreferredFirstName": "Michelle",
+          "Gender": 1,
+          "NAT": "Switzerland"
+        }
+      ]
+    },
+    {
+      "Participations": [
+        {
+          "PreferredLastName": "BAILO",
+          "PreferredFirstName": "Kseniia",
+          "Gender": 1,
+          "NAT": "Ukraine"
+        },
+        {
+          "PreferredLastName": "BOCHEK",
+          "PreferredFirstName": "Kseniia",
+          "Gender": 1,
+          "NAT": "Ukraine"
+        },
+        {
+          "PreferredLastName": "BOLIUKH",
+          "PreferredFirstName": "Kirill",
+          "Gender": 0,
+          "NAT": "Ukraine"
+        },
+        {
+          "PreferredLastName": "HRYTSENKO",
+          "PreferredFirstName": "Mark",
+          "Gender": 0,
+          "NAT": "Ukraine"
+        },
+        {
+          "PreferredLastName": "KARNAFEL",
+          "PreferredFirstName": "Diana",
+          "Gender": 1,
+          "NAT": "Ukraine"
+        },
+        {
+          "PreferredLastName": "OLIFERCHYK",
+          "PreferredFirstName": "Stanislav",
+          "Gender": 0,
+          "NAT": "Ukraine"
+        },
+        {
+          "PreferredLastName": "SEREDA",
+          "PreferredFirstName": "Oleksii",
+          "Gender": 0,
+          "NAT": "Ukraine"
+        },
+        {
+          "PreferredLastName": "VYSTAVKINA",
+          "PreferredFirstName": "Sofiia",
+          "Gender": 1,
+          "NAT": "Ukraine"
+        }
+      ]
+    },
+    {
+      "Participations": [
+        {
+          "PreferredLastName": "KNIGHT",
+          "PreferredFirstName": "Kyndal",
+          "Gender": 1,
+          "NAT": "United States of America"
+        },
+        {
+          "PreferredLastName": "KWONG",
+          "PreferredFirstName": "Anna",
+          "Gender": 1,
+          "NAT": "United States of America"
+        },
+        {
+          "PreferredLastName": "MCAFEE",
+          "PreferredFirstName": "Sophia",
+          "Gender": 1,
+          "NAT": "United States of America"
+        },
+        {
+          "PreferredLastName": "NIDAY",
+          "PreferredFirstName": "Ellireese",
+          "Gender": 1,
+          "NAT": "United States of America"
+        },
+        {
+          "PreferredLastName": "RYAN",
+          "PreferredFirstName": "Jack",
+          "Gender": 0,
+          "NAT": "United States of America"
+        },
+        {
+          "PreferredLastName": "TYLER",
+          "PreferredFirstName": "Carson",
+          "Gender": 0,
+          "NAT": "United States of America"
+        },
+        {
+          "PreferredLastName": "VERZYL",
+          "PreferredFirstName": "Sophia",
+          "Gender": 1,
+          "NAT": "United States of America"
+        }
+      ]
+    }
+  ],
+  "Competitions": [
+    {
+      "DisciplineName": "Women's 3m Springboard",
+      "Heats": [
+        {
+          "PhaseName": "Finals",
+          "Results": [
+            {
+              "TotalPoints": "374.40",
+              "Dives": [
+                {
+                  "DivePoints": "73.50"
+                },
+                {
+                  "DivePoints": "74.40"
+                },
+                {
+                  "DivePoints": "76.50"
+                },
+                {
+                  "DivePoints": "72.00"
+                },
+                {
+                  "DivePoints": "78.00"
+                }
+              ],
+              "Rank": 1,
+              "NAT": "CHN",
+              "FullName": "CHEN Jia",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "373.05",
+              "Dives": [
+                {
+                  "DivePoints": "69.00"
+                },
+                {
+                  "DivePoints": "72.00"
+                },
+                {
+                  "DivePoints": "76.50"
+                },
+                {
+                  "DivePoints": "79.05"
+                },
+                {
+                  "DivePoints": "76.50"
+                }
+              ],
+              "Rank": 2,
+              "NAT": "CHN",
+              "FullName": "CHEN Yiwen",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "339.00",
+              "Dives": [
+                {
+                  "DivePoints": "66.00"
+                },
+                {
+                  "DivePoints": "49.50"
+                },
+                {
+                  "DivePoints": "67.50"
+                },
+                {
+                  "DivePoints": "74.40"
+                },
+                {
+                  "DivePoints": "81.60"
+                }
+              ],
+              "Rank": 3,
+              "NAT": "AUS",
+              "FullName": "KEENEY Maddison",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "294.60",
+              "Dives": [
+                {
+                  "DivePoints": "67.50"
+                },
+                {
+                  "DivePoints": "65.10"
+                },
+                {
+                  "DivePoints": "40.50"
+                },
+                {
+                  "DivePoints": "58.50"
+                },
+                {
+                  "DivePoints": "63.00"
+                }
+              ],
+              "Rank": 4,
+              "NAT": "AUS",
+              "FullName": "KOLOI Alysha",
+              "Gender": 1
+            }
+          ]
+        },
+        {
+          "PhaseName": "Semifinals",
+          "Results": [
+            {
+              "TotalPoints": "341.15",
+              "Dives": [
+                {
+                  "DivePoints": "60.00"
+                },
+                {
+                  "DivePoints": "66.00"
+                }
+              ],
+              "Rank": 1,
+              "NAT": "AUS",
+              "FullName": "KEENEY Maddison",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "335.40",
+              "Dives": [
+                {
+                  "DivePoints": "74.40"
+                },
+                {
+                  "DivePoints": "72.00"
+                }
+              ],
+              "Rank": 1,
+              "NAT": "CHN",
+              "FullName": "CHEN Yiwen",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "312.70",
+              "Dives": [
+                {
+                  "DivePoints": "60.00"
+                },
+                {
+                  "DivePoints": "63.00"
+                }
+              ],
+              "Rank": 2,
+              "NAT": "AUS",
+              "FullName": "KOLOI Alysha",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "338.40",
+              "Dives": [
+                {
+                  "DivePoints": "63.00"
+                },
+                {
+                  "DivePoints": "57.00"
+                }
+              ],
+              "Rank": 2,
+              "NAT": "CHN",
+              "FullName": "CHEN Jia",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "276.30",
+              "Dives": [
+                {
+                  "DivePoints": "42.00"
+                },
+                {
+                  "DivePoints": "55.80"
+                }
+              ],
+              "Rank": 3,
+              "NAT": "CAN",
+              "FullName": "ERLAM Margo",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "308.10",
+              "Dives": [
+                {
+                  "DivePoints": "54.00"
+                },
+                {
+                  "DivePoints": "63.00"
+                }
+              ],
+              "Rank": 3,
+              "NAT": "MEX",
+              "FullName": "VAZQUEZ MONTANO Aranza",
+              "Gender": 1
+            }
+          ]
+        },
+        {
+          "PhaseName": "Head-To-Head",
+          "Results": [
+            {
+              "TotalPoints": "218.40",
+              "Dives": [
+                {
+                  "DivePoints": "72.00"
+                },
+                {
+                  "DivePoints": "74.40"
+                },
+                {
+                  "DivePoints": "72.00"
+                }
+              ],
+              "Rank": 1,
+              "NAT": "CHN",
+              "FullName": "CHEN Jia",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "215.15",
+              "Dives": [
+                {
+                  "DivePoints": "72.00"
+                },
+                {
+                  "DivePoints": "66.65"
+                },
+                {
+                  "DivePoints": "76.50"
+                }
+              ],
+              "Rank": 2,
+              "NAT": "AUS",
+              "FullName": "KEENEY Maddison",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "191.10",
+              "Dives": [
+                {
+                  "DivePoints": "63.00"
+                },
+                {
+                  "DivePoints": "65.10"
+                },
+                {
+                  "DivePoints": "63.00"
+                }
+              ],
+              "Rank": 3,
+              "NAT": "MEX",
+              "FullName": "VAZQUEZ MONTANO Aranza",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "189.70",
+              "Dives": [
+                {
+                  "DivePoints": "60.00"
+                },
+                {
+                  "DivePoints": "68.20"
+                },
+                {
+                  "DivePoints": "61.50"
+                }
+              ],
+              "Rank": 4,
+              "NAT": "AUS",
+              "FullName": "KOLOI Alysha",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "189.00",
+              "Dives": [
+                {
+                  "DivePoints": "67.50"
+                },
+                {
+                  "DivePoints": "72.00"
+                },
+                {
+                  "DivePoints": "49.50"
+                }
+              ],
+              "Rank": 5,
+              "NAT": "CHN",
+              "FullName": "CHEN Yiwen",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "179.10",
+              "Dives": [
+                {
+                  "DivePoints": "60.00"
+                },
+                {
+                  "DivePoints": "65.10"
+                },
+                {
+                  "DivePoints": "54.00"
+                }
+              ],
+              "Rank": 6,
+              "NAT": "MEX",
+              "FullName": "GARCIA SIXTOS Maria Fernanda",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "178.50",
+              "Dives": [
+                {
+                  "DivePoints": "61.50"
+                },
+                {
+                  "DivePoints": "54.00"
+                },
+                {
+                  "DivePoints": "63.00"
+                }
+              ],
+              "Rank": 7,
+              "NAT": "CAN",
+              "FullName": "ERLAM Margo",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "172.50",
+              "Dives": [
+                {
+                  "DivePoints": "58.50"
+                },
+                {
+                  "DivePoints": "58.50"
+                },
+                {
+                  "DivePoints": "55.50"
+                }
+              ],
+              "Rank": 8,
+              "NAT": "RUS",
+              "FullName": "KUZINA Elizaveta",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "168.00",
+              "Dives": [
+                {
+                  "DivePoints": "54.00"
+                },
+                {
+                  "DivePoints": "57.00"
+                },
+                {
+                  "DivePoints": "57.00"
+                }
+              ],
+              "Rank": 9,
+              "NAT": "SUI",
+              "FullName": "HEIMBERG Michelle",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "165.45",
+              "Dives": [
+                {
+                  "DivePoints": "55.50"
+                },
+                {
+                  "DivePoints": "49.50"
+                },
+                {
+                  "DivePoints": "60.45"
+                }
+              ],
+              "Rank": 10,
+              "NAT": "CAN",
+              "FullName": "PALKHIVALA Sonya",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "160.50",
+              "Dives": [
+                {
+                  "DivePoints": "60.00"
+                },
+                {
+                  "DivePoints": "61.50"
+                },
+                {
+                  "DivePoints": "39.00"
+                }
+              ],
+              "Rank": 11,
+              "NAT": "COL",
+              "FullName": "ZAPATA CORREA Daniela",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "157.40",
+              "Dives": [
+                {
+                  "DivePoints": "49.50"
+                },
+                {
+                  "DivePoints": "43.40"
+                },
+                {
+                  "DivePoints": "64.50"
+                }
+              ],
+              "Rank": 12,
+              "NAT": "USA",
+              "FullName": "KNIGHT Kyndal",
+              "Gender": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "DisciplineName": "Women's 10m Platform",
+      "Heats": [
+        {
+          "PhaseName": "Finals",
+          "Results": [
+            {
+              "TotalPoints": "397.95",
+              "Dives": [
+                {
+                  "DivePoints": "81.60"
+                },
+                {
+                  "DivePoints": "73.50"
+                },
+                {
+                  "DivePoints": "94.05"
+                },
+                {
+                  "DivePoints": "86.40"
+                },
+                {
+                  "DivePoints": "62.40"
+                }
+              ],
+              "Rank": 1,
+              "NAT": "CHN",
+              "FullName": "JIANG Linjing",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "319.20",
+              "Dives": [
+                {
+                  "DivePoints": "61.50"
+                },
+                {
+                  "DivePoints": "76.80"
+                },
+                {
+                  "DivePoints": "54.60"
+                },
+                {
+                  "DivePoints": "49.50"
+                },
+                {
+                  "DivePoints": "76.80"
+                }
+              ],
+              "Rank": 2,
+              "NAT": "RUS",
+              "FullName": "KONANYKHINA Anna",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "317.00",
+              "Dives": [
+                {
+                  "DivePoints": "46.50"
+                },
+                {
+                  "DivePoints": "67.20"
+                },
+                {
+                  "DivePoints": "72.00"
+                },
+                {
+                  "DivePoints": "60.90"
+                },
+                {
+                  "DivePoints": "70.40"
+                }
+              ],
+              "Rank": 3,
+              "NAT": "GER",
+              "FullName": "PFEIF Pauline Alexandra",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "292.65",
+              "Dives": [
+                {
+                  "DivePoints": "76.80"
+                },
+                {
+                  "DivePoints": "40.60"
+                },
+                {
+                  "DivePoints": "30.45"
+                },
+                {
+                  "DivePoints": "72.80"
+                },
+                {
+                  "DivePoints": "72.00"
+                }
+              ],
+              "Rank": 4,
+              "NAT": "USA",
+              "FullName": "NIDAY Ellireese",
+              "Gender": 1
+            }
+          ]
+        },
+        {
+          "PhaseName": "Semifinals",
+          "Results": [
+            {
+              "TotalPoints": "371.55",
+              "Dives": [
+                {
+                  "DivePoints": "52.80"
+                },
+                {
+                  "DivePoints": "75.20"
+                }
+              ],
+              "Rank": 1,
+              "NAT": "CHN",
+              "FullName": "JIANG Linjing",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "350.60",
+              "Dives": [
+                {
+                  "DivePoints": "73.60"
+                },
+                {
+                  "DivePoints": "60.90"
+                }
+              ],
+              "Rank": 1,
+              "NAT": "GER",
+              "FullName": "PFEIF Pauline Alexandra",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "342.10",
+              "Dives": [
+                {
+                  "DivePoints": "75.60"
+                },
+                {
+                  "DivePoints": "39.60"
+                }
+              ],
+              "Rank": 2,
+              "NAT": "RUS",
+              "FullName": "KONANYKHINA Anna",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "347.55",
+              "Dives": [
+                {
+                  "DivePoints": "53.20"
+                },
+                {
+                  "DivePoints": "73.95"
+                }
+              ],
+              "Rank": 2,
+              "NAT": "USA",
+              "FullName": "NIDAY Ellireese",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "301.35",
+              "Dives": [
+                {
+                  "DivePoints": "37.95"
+                },
+                {
+                  "DivePoints": "63.00"
+                }
+              ],
+              "Rank": 3,
+              "NAT": "CAN",
+              "FullName": "MILLER Kate",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "326.55",
+              "Dives": [
+                {
+                  "DivePoints": "58.80"
+                },
+                {
+                  "DivePoints": "74.25"
+                }
+              ],
+              "Rank": 3,
+              "NAT": "JPN",
+              "FullName": "KANETO Rin",
+              "Gender": 1
+            }
+          ]
+        },
+        {
+          "PhaseName": "Head-To-Head",
+          "Results": [
+            {
+              "TotalPoints": "243.55",
+              "Dives": [
+                {
+                  "DivePoints": "78.40"
+                },
+                {
+                  "DivePoints": "81.00"
+                },
+                {
+                  "DivePoints": "84.15"
+                }
+              ],
+              "Rank": 1,
+              "NAT": "CHN",
+              "FullName": "JIANG Linjing",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "226.90",
+              "Dives": [
+                {
+                  "DivePoints": "76.50"
+                },
+                {
+                  "DivePoints": "81.60"
+                },
+                {
+                  "DivePoints": "68.80"
+                }
+              ],
+              "Rank": 2,
+              "NAT": "RUS",
+              "FullName": "KONANYKHINA Anna",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "220.80",
+              "Dives": [
+                {
+                  "DivePoints": "78.40"
+                },
+                {
+                  "DivePoints": "67.20"
+                },
+                {
+                  "DivePoints": "75.20"
+                }
+              ],
+              "Rank": 3,
+              "NAT": "PRK",
+              "FullName": "JO Jin Mi",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "220.40",
+              "Dives": [
+                {
+                  "DivePoints": "73.60"
+                },
+                {
+                  "DivePoints": "70.00"
+                },
+                {
+                  "DivePoints": "76.80"
+                }
+              ],
+              "Rank": 4,
+              "NAT": "USA",
+              "FullName": "NIDAY Ellireese",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "216.10",
+              "Dives": [
+                {
+                  "DivePoints": "70.50"
+                },
+                {
+                  "DivePoints": "76.80"
+                },
+                {
+                  "DivePoints": "68.80"
+                }
+              ],
+              "Rank": 5,
+              "NAT": "GER",
+              "FullName": "PFEIF Pauline Alexandra",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "210.90",
+              "Dives": [
+                {
+                  "DivePoints": "76.50"
+                },
+                {
+                  "DivePoints": "54.40"
+                },
+                {
+                  "DivePoints": "80.00"
+                }
+              ],
+              "Rank": 6,
+              "NAT": "CAN",
+              "FullName": "FUNG Katelyn",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "209.60",
+              "Dives": [
+                {
+                  "DivePoints": "76.80"
+                },
+                {
+                  "DivePoints": "72.00"
+                },
+                {
+                  "DivePoints": "60.80"
+                }
+              ],
+              "Rank": 7,
+              "NAT": "AUS",
+              "FullName": "COLE Ellie",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "200.40",
+              "Dives": [
+                {
+                  "DivePoints": "67.20"
+                },
+                {
+                  "DivePoints": "66.00"
+                },
+                {
+                  "DivePoints": "67.20"
+                }
+              ],
+              "Rank": 8,
+              "NAT": "CAN",
+              "FullName": "MILLER Kate",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "193.50",
+              "Dives": [
+                {
+                  "DivePoints": "76.50"
+                },
+                {
+                  "DivePoints": "57.60"
+                },
+                {
+                  "DivePoints": "59.40"
+                }
+              ],
+              "Rank": 9,
+              "NAT": "JPN",
+              "FullName": "KANETO Rin",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "179.90",
+              "Dives": [
+                {
+                  "DivePoints": "61.50"
+                },
+                {
+                  "DivePoints": "52.80"
+                },
+                {
+                  "DivePoints": "65.60"
+                }
+              ],
+              "Rank": 10,
+              "NAT": "MEX",
+              "FullName": "CUEVA LOBATO Suri Zoe",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "174.40",
+              "Dives": [
+                {
+                  "DivePoints": "49.60"
+                },
+                {
+                  "DivePoints": "57.60"
+                },
+                {
+                  "DivePoints": "67.20"
+                }
+              ],
+              "Rank": 11,
+              "NAT": "ITA",
+              "FullName": "JODOIN DI MARIA Sarah",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "167.70",
+              "Dives": [
+                {
+                  "DivePoints": "64.00"
+                },
+                {
+                  "DivePoints": "60.80"
+                },
+                {
+                  "DivePoints": "42.90"
+                }
+              ],
+              "Rank": 12,
+              "NAT": "ESP",
+              "FullName": "CARVAJAL Ana",
+              "Gender": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "DisciplineName": "Women's 3m Synchronised",
+      "Heats": [
+        {
+          "PhaseName": "Finals",
+          "Results": [
+            {
+              "TotalPoints": "331.05",
+              "Dives": [
+                {
+                  "DivePoints": "51.60"
+                },
+                {
+                  "DivePoints": "51.00"
+                },
+                {
+                  "DivePoints": "73.80"
+                },
+                {
+                  "DivePoints": "79.05"
+                },
+                {
+                  "DivePoints": "75.60"
+                }
+              ],
+              "Rank": 1,
+              "NAT": "CHN",
+              "FullName": "CHEN Jia / CHEN Yiwen",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "299.94",
+              "Dives": [
+                {
+                  "DivePoints": "49.20"
+                },
+                {
+                  "DivePoints": "45.00"
+                },
+                {
+                  "DivePoints": "69.30"
+                },
+                {
+                  "DivePoints": "72.54"
+                },
+                {
+                  "DivePoints": "63.90"
+                }
+              ],
+              "Rank": 2,
+              "NAT": "AUS",
+              "FullName": "KEENEY Maddison / KOLOI Alysha",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "294.60",
+              "Dives": [
+                {
+                  "DivePoints": "49.20"
+                },
+                {
+                  "DivePoints": "46.20"
+                },
+                {
+                  "DivePoints": "69.30"
+                },
+                {
+                  "DivePoints": "64.80"
+                },
+                {
+                  "DivePoints": "65.10"
+                }
+              ],
+              "Rank": 3,
+              "NAT": "GBR",
+              "FullName": "MEW JENSEN Scarlett / HARPER Yasmin",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "276.15",
+              "Dives": [
+                {
+                  "DivePoints": "46.80"
+                },
+                {
+                  "DivePoints": "42.60"
+                },
+                {
+                  "DivePoints": "58.50"
+                },
+                {
+                  "DivePoints": "66.03"
+                },
+                {
+                  "DivePoints": "62.22"
+                }
+              ],
+              "Rank": 4,
+              "NAT": "USA",
+              "FullName": "KWONG Anna / VERZYL Sophia",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "273.63",
+              "Dives": [
+                {
+                  "DivePoints": "47.40"
+                },
+                {
+                  "DivePoints": "46.20"
+                },
+                {
+                  "DivePoints": "57.60"
+                },
+                {
+                  "DivePoints": "56.73"
+                },
+                {
+                  "DivePoints": "65.70"
+                }
+              ],
+              "Rank": 5,
+              "NAT": "MEX",
+              "FullName": "CUEVA LOBATO Mia Zazil / CUEVA LOBATO Lia Yatzil",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "273.00",
+              "Dives": [
+                {
+                  "DivePoints": "47.40"
+                },
+                {
+                  "DivePoints": "42.00"
+                },
+                {
+                  "DivePoints": "65.70"
+                },
+                {
+                  "DivePoints": "54.90"
+                },
+                {
+                  "DivePoints": "63.00"
+                }
+              ],
+              "Rank": 6,
+              "NAT": "RUS",
+              "FullName": "TRIFONOVA Nadezhda / KLIUEVA Uliana",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "262.50",
+              "Dives": [
+                {
+                  "DivePoints": "46.80"
+                },
+                {
+                  "DivePoints": "40.20"
+                },
+                {
+                  "DivePoints": "62.10"
+                },
+                {
+                  "DivePoints": "54.00"
+                },
+                {
+                  "DivePoints": "59.40"
+                }
+              ],
+              "Rank": 7,
+              "NAT": "UKR",
+              "FullName": "BOCHEK Kseniia / KARNAFEL Diana",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "250.98",
+              "Dives": [
+                {
+                  "DivePoints": "44.40"
+                },
+                {
+                  "DivePoints": "47.40"
+                },
+                {
+                  "DivePoints": "46.80"
+                },
+                {
+                  "DivePoints": "52.08"
+                },
+                {
+                  "DivePoints": "60.30"
+                }
+              ],
+              "Rank": 8,
+              "NAT": "CAN",
+              "FullName": "VALLEE Mia / JASMIN Amelie-Laura",
+              "Gender": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "DisciplineName": "Women's 10m Synchronised",
+      "Heats": [
+        {
+          "PhaseName": "Finals",
+          "Results": [
+            {
+              "TotalPoints": "366.12",
+              "Dives": [
+                {
+                  "DivePoints": "54.60"
+                },
+                {
+                  "DivePoints": "55.80"
+                },
+                {
+                  "DivePoints": "81.00"
+                },
+                {
+                  "DivePoints": "84.48"
+                },
+                {
+                  "DivePoints": "90.24"
+                }
+              ],
+              "Rank": 1,
+              "NAT": "CHN",
+              "FullName": "CHEN Yuxi / LU Wei",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "321.30",
+              "Dives": [
+                {
+                  "DivePoints": "54.00"
+                },
+                {
+                  "DivePoints": "50.40"
+                },
+                {
+                  "DivePoints": "72.90"
+                },
+                {
+                  "DivePoints": "74.88"
+                },
+                {
+                  "DivePoints": "69.12"
+                }
+              ],
+              "Rank": 2,
+              "NAT": "PRK",
+              "FullName": "JO Jin Mi / KIM Mi Rae",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "297.12",
+              "Dives": [
+                {
+                  "DivePoints": "45.00"
+                },
+                {
+                  "DivePoints": "46.20"
+                },
+                {
+                  "DivePoints": "64.80"
+                },
+                {
+                  "DivePoints": "66.24"
+                },
+                {
+                  "DivePoints": "74.88"
+                }
+              ],
+              "Rank": 3,
+              "NAT": "AUS",
+              "FullName": "PUCKERIDGE Milly / COLE Ellie",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "296.04",
+              "Dives": [
+                {
+                  "DivePoints": "46.80"
+                },
+                {
+                  "DivePoints": "42.60"
+                },
+                {
+                  "DivePoints": "68.40"
+                },
+                {
+                  "DivePoints": "65.28"
+                },
+                {
+                  "DivePoints": "72.96"
+                }
+              ],
+              "Rank": 4,
+              "NAT": "MEX",
+              "FullName": "ESTUDILLO TORRES Alejandra / AGUNDEZ GARCIA Gabriela",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "284.28",
+              "Dives": [
+                {
+                  "DivePoints": "46.20"
+                },
+                {
+                  "DivePoints": "45.60"
+                },
+                {
+                  "DivePoints": "64.80"
+                },
+                {
+                  "DivePoints": "60.48"
+                },
+                {
+                  "DivePoints": "67.20"
+                }
+              ],
+              "Rank": 5,
+              "NAT": "RUS",
+              "FullName": "KAZANTSEVA Viktoria / KONANYKHINA Anna",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "278.46",
+              "Dives": [
+                {
+                  "DivePoints": "45.60"
+                },
+                {
+                  "DivePoints": "46.20"
+                },
+                {
+                  "DivePoints": "65.70"
+                },
+                {
+                  "DivePoints": "62.40"
+                },
+                {
+                  "DivePoints": "58.56"
+                }
+              ],
+              "Rank": 6,
+              "NAT": "UKR",
+              "FullName": "VYSTAVKINA Sofiia / BAILO Kseniia",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "275.82",
+              "Dives": [
+                {
+                  "DivePoints": "47.40"
+                },
+                {
+                  "DivePoints": "43.80"
+                },
+                {
+                  "DivePoints": "67.50"
+                },
+                {
+                  "DivePoints": "42.24"
+                },
+                {
+                  "DivePoints": "74.88"
+                }
+              ],
+              "Rank": 7,
+              "NAT": "CAN",
+              "FullName": "MILLER Kate / FUNG Katelyn",
+              "Gender": 1
+            },
+            {
+              "TotalPoints": "243.60",
+              "Dives": [
+                {
+                  "DivePoints": "43.80"
+                },
+                {
+                  "DivePoints": "42.60"
+                },
+                {
+                  "DivePoints": "45.12"
+                },
+                {
+                  "DivePoints": "61.20"
+                },
+                {
+                  "DivePoints": "50.88"
+                }
+              ],
+              "Rank": 8,
+              "NAT": "GER",
+              "FullName": "WASSEN Elena / PFEIF Pauline Alexandra",
+              "Gender": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "DisciplineName": "Men's 3m Springboard",
+      "Heats": [
+        {
+          "PhaseName": "Finals",
+          "Results": [
+            {
+              "TotalPoints": "544.35",
+              "Dives": [
+                {
+                  "DivePoints": "86.70"
+                },
+                {
+                  "DivePoints": "89.25"
+                },
+                {
+                  "DivePoints": "95.55"
+                },
+                {
+                  "DivePoints": "89.25"
+                },
+                {
+                  "DivePoints": "81.00"
+                },
+                {
+                  "DivePoints": "102.60"
+                }
+              ],
+              "Rank": 1,
+              "NAT": "CHN",
+              "FullName": "WANG Zongyuan",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "500.50",
+              "Dives": [
+                {
+                  "DivePoints": "78.20"
+                },
+                {
+                  "DivePoints": "89.25"
+                },
+                {
+                  "DivePoints": "87.50"
+                },
+                {
+                  "DivePoints": "70.50"
+                },
+                {
+                  "DivePoints": "91.20"
+                },
+                {
+                  "DivePoints": "83.85"
+                }
+              ],
+              "Rank": 2,
+              "NAT": "CHN",
+              "FullName": "ZHENG Jiuyuan",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "480.50",
+              "Dives": [
+                {
+                  "DivePoints": "86.70"
+                },
+                {
+                  "DivePoints": "71.75"
+                },
+                {
+                  "DivePoints": "46.80"
+                },
+                {
+                  "DivePoints": "86.70"
+                },
+                {
+                  "DivePoints": "96.90"
+                },
+                {
+                  "DivePoints": "91.65"
+                }
+              ],
+              "Rank": 3,
+              "NAT": "MEX",
+              "FullName": "OLVERA IBARRA Osmar",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "443.20",
+              "Dives": [
+                {
+                  "DivePoints": "66.30"
+                },
+                {
+                  "DivePoints": "81.60"
+                },
+                {
+                  "DivePoints": "72.00"
+                },
+                {
+                  "DivePoints": "70.00"
+                },
+                {
+                  "DivePoints": "73.50"
+                },
+                {
+                  "DivePoints": "79.80"
+                }
+              ],
+              "Rank": 4,
+              "NAT": "FRA",
+              "FullName": "BOUYER Jules",
+              "Gender": 0
+            }
+          ]
+        },
+        {
+          "PhaseName": "Semifinals",
+          "Results": [
+            {
+              "TotalPoints": "447.45",
+              "Dives": [
+                {
+                  "DivePoints": "58.50"
+                },
+                {
+                  "DivePoints": "57.75"
+                },
+                {
+                  "DivePoints": "79.80"
+                }
+              ],
+              "Rank": 1,
+              "NAT": "CHN",
+              "FullName": "ZHENG Jiuyuan",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "530.10",
+              "Dives": [
+                {
+                  "DivePoints": "89.25"
+                },
+                {
+                  "DivePoints": "86.40"
+                },
+                {
+                  "DivePoints": "96.90"
+                }
+              ],
+              "Rank": 1,
+              "NAT": "CHN",
+              "FullName": "WANG Zongyuan",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "444.60",
+              "Dives": [
+                {
+                  "DivePoints": "70.50"
+                },
+                {
+                  "DivePoints": "68.25"
+                },
+                {
+                  "DivePoints": "72.20"
+                }
+              ],
+              "Rank": 2,
+              "NAT": "FRA",
+              "FullName": "BOUYER Jules",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "513.95",
+              "Dives": [
+                {
+                  "DivePoints": "81.60"
+                },
+                {
+                  "DivePoints": "86.40"
+                },
+                {
+                  "DivePoints": "85.80"
+                }
+              ],
+              "Rank": 2,
+              "NAT": "MEX",
+              "FullName": "OLVERA IBARRA Osmar",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "386.45",
+              "Dives": [
+                {
+                  "DivePoints": "58.50"
+                },
+                {
+                  "DivePoints": "51.15"
+                },
+                {
+                  "DivePoints": "79.80"
+                }
+              ],
+              "Rank": 3,
+              "NAT": "CAN",
+              "FullName": "PAUL Carson",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "399.30",
+              "Dives": [
+                {
+                  "DivePoints": "83.60"
+                },
+                {
+                  "DivePoints": "63.00"
+                },
+                {
+                  "DivePoints": "71.40"
+                }
+              ],
+              "Rank": 3,
+              "NAT": "COL",
+              "FullName": "URIBE BERMUDEZ Luis Felipe",
+              "Gender": 0
+            }
+          ]
+        },
+        {
+          "PhaseName": "Head-To-Head",
+          "Results": [
+            {
+              "TotalPoints": "260.15",
+              "Dives": [
+                {
+                  "DivePoints": "86.70"
+                },
+                {
+                  "DivePoints": "82.25"
+                },
+                {
+                  "DivePoints": "91.20"
+                }
+              ],
+              "Rank": 1,
+              "NAT": "MEX",
+              "FullName": "OLVERA IBARRA Osmar",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "257.55",
+              "Dives": [
+                {
+                  "DivePoints": "78.20"
+                },
+                {
+                  "DivePoints": "85.75"
+                },
+                {
+                  "DivePoints": "93.60"
+                }
+              ],
+              "Rank": 2,
+              "NAT": "CHN",
+              "FullName": "WANG Zongyuan",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "251.40",
+              "Dives": [
+                {
+                  "DivePoints": "81.60"
+                },
+                {
+                  "DivePoints": "84.00"
+                },
+                {
+                  "DivePoints": "85.80"
+                }
+              ],
+              "Rank": 3,
+              "NAT": "CHN",
+              "FullName": "ZHENG Jiuyuan",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "245.35",
+              "Dives": [
+                {
+                  "DivePoints": "81.60"
+                },
+                {
+                  "DivePoints": "76.00"
+                },
+                {
+                  "DivePoints": "87.75"
+                }
+              ],
+              "Rank": 4,
+              "NAT": "MEX",
+              "FullName": "CELAYA HERNANDEZ Juan Manuel",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "233.65",
+              "Dives": [
+                {
+                  "DivePoints": "66.30"
+                },
+                {
+                  "DivePoints": "81.60"
+                },
+                {
+                  "DivePoints": "85.75"
+                }
+              ],
+              "Rank": 5,
+              "NAT": "FRA",
+              "FullName": "BOUYER Jules",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "233.40",
+              "Dives": [
+                {
+                  "DivePoints": "66.30"
+                },
+                {
+                  "DivePoints": "81.60"
+                },
+                {
+                  "DivePoints": "85.50"
+                }
+              ],
+              "Rank": 6,
+              "NAT": "GBR",
+              "FullName": "HASLAM Ross",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "204.30",
+              "Dives": [
+                {
+                  "DivePoints": "89.25"
+                },
+                {
+                  "DivePoints": "68.25"
+                },
+                {
+                  "DivePoints": "46.80"
+                }
+              ],
+              "Rank": 7,
+              "NAT": "RUS",
+              "FullName": "SHLEIKHER Nikita",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "197.00",
+              "Dives": [
+                {
+                  "DivePoints": "78.20"
+                },
+                {
+                  "DivePoints": "52.50"
+                },
+                {
+                  "DivePoints": "66.30"
+                }
+              ],
+              "Rank": 8,
+              "NAT": "CAN",
+              "FullName": "PAUL Carson",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "195.55",
+              "Dives": [
+                {
+                  "DivePoints": "84.00"
+                },
+                {
+                  "DivePoints": "52.65"
+                },
+                {
+                  "DivePoints": "58.90"
+                }
+              ],
+              "Rank": 9,
+              "NAT": "USA",
+              "FullName": "RYAN Jack",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "190.15",
+              "Dives": [
+                {
+                  "DivePoints": "56.10"
+                },
+                {
+                  "DivePoints": "54.25"
+                },
+                {
+                  "DivePoints": "79.80"
+                }
+              ],
+              "Rank": 10,
+              "NAT": "CAN",
+              "FullName": "ZSOMBOR-MURRAY Nathan",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "181.30",
+              "Dives": [
+                {
+                  "DivePoints": "54.40"
+                },
+                {
+                  "DivePoints": "81.90"
+                },
+                {
+                  "DivePoints": "45.00"
+                }
+              ],
+              "Rank": 11,
+              "NAT": "COL",
+              "FullName": "URIBE BERMUDEZ Luis Felipe",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "168.80",
+              "Dives": [
+                {
+                  "DivePoints": "47.60"
+                },
+                {
+                  "DivePoints": "68.00"
+                },
+                {
+                  "DivePoints": "53.20"
+                }
+              ],
+              "Rank": 12,
+              "NAT": "GER",
+              "FullName": "MASSENBERG Lou Noel Guy",
+              "Gender": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "DisciplineName": "Men's 10m Platform",
+      "Heats": [
+        {
+          "PhaseName": "Finals",
+          "Results": [
+            {
+              "TotalPoints": "542.95",
+              "Dives": [
+                {
+                  "DivePoints": "81.60"
+                },
+                {
+                  "DivePoints": "86.40"
+                },
+                {
+                  "DivePoints": "77.00"
+                },
+                {
+                  "DivePoints": "91.80"
+                },
+                {
+                  "DivePoints": "104.40"
+                },
+                {
+                  "DivePoints": "101.75"
+                }
+              ],
+              "Rank": 1,
+              "NAT": "CHN",
+              "FullName": "BAI Yuming",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "538.15",
+              "Dives": [
+                {
+                  "DivePoints": "85.75"
+                },
+                {
+                  "DivePoints": "76.50"
+                },
+                {
+                  "DivePoints": "87.50"
+                },
+                {
+                  "DivePoints": "93.60"
+                },
+                {
+                  "DivePoints": "88.20"
+                },
+                {
+                  "DivePoints": "106.60"
+                }
+              ],
+              "Rank": 2,
+              "NAT": "MEX",
+              "FullName": "WILLARS VALDEZ Randal",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "506.80",
+              "Dives": [
+                {
+                  "DivePoints": "91.20"
+                },
+                {
+                  "DivePoints": "96.00"
+                },
+                {
+                  "DivePoints": "94.50"
+                },
+                {
+                  "DivePoints": "49.30"
+                },
+                {
+                  "DivePoints": "64.80"
+                },
+                {
+                  "DivePoints": "111.00"
+                }
+              ],
+              "Rank": 3,
+              "NAT": "CHN",
+              "FullName": "LIAN Junjie",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "480.70",
+              "Dives": [
+                {
+                  "DivePoints": "81.60"
+                },
+                {
+                  "DivePoints": "81.60"
+                },
+                {
+                  "DivePoints": "48.60"
+                },
+                {
+                  "DivePoints": "90.00"
+                },
+                {
+                  "DivePoints": "86.40"
+                },
+                {
+                  "DivePoints": "92.50"
+                }
+              ],
+              "Rank": 4,
+              "NAT": "AUS",
+              "FullName": "ROUSSEAU Cassiel",
+              "Gender": 0
+            }
+          ]
+        },
+        {
+          "PhaseName": "Semifinals",
+          "Results": [
+            {
+              "TotalPoints": "534.50",
+              "Dives": [
+                {
+                  "DivePoints": "88.00"
+                },
+                {
+                  "DivePoints": "92.75"
+                },
+                {
+                  "DivePoints": "90.65"
+                }
+              ],
+              "Rank": 1,
+              "NAT": "CHN",
+              "FullName": "BAI Yuming",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "530.05",
+              "Dives": [
+                {
+                  "DivePoints": "88.00"
+                },
+                {
+                  "DivePoints": "82.25"
+                },
+                {
+                  "DivePoints": "73.80"
+                }
+              ],
+              "Rank": 1,
+              "NAT": "CHN",
+              "FullName": "LIAN Junjie",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "480.60",
+              "Dives": [
+                {
+                  "DivePoints": "76.80"
+                },
+                {
+                  "DivePoints": "77.40"
+                },
+                {
+                  "DivePoints": "93.60"
+                }
+              ],
+              "Rank": 2,
+              "NAT": "AUS",
+              "FullName": "ROUSSEAU Cassiel",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "494.30",
+              "Dives": [
+                {
+                  "DivePoints": "87.50"
+                },
+                {
+                  "DivePoints": "62.90"
+                },
+                {
+                  "DivePoints": "85.75"
+                }
+              ],
+              "Rank": 2,
+              "NAT": "MEX",
+              "FullName": "WILLARS VALDEZ Randal",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "438.00",
+              "Dives": [
+                {
+                  "DivePoints": "78.20"
+                },
+                {
+                  "DivePoints": "50.40"
+                },
+                {
+                  "DivePoints": "75.60"
+                }
+              ],
+              "Rank": 3,
+              "NAT": "GBR",
+              "FullName": "MCCABE Euan",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "443.90",
+              "Dives": [
+                {
+                  "DivePoints": "77.70"
+                },
+                {
+                  "DivePoints": "57.80"
+                },
+                {
+                  "DivePoints": "66.60"
+                }
+              ],
+              "Rank": 3,
+              "NAT": "UKR",
+              "FullName": "SEREDA Oleksii",
+              "Gender": 0
+            }
+          ]
+        },
+        {
+          "PhaseName": "Head-To-Head",
+          "Results": [
+            {
+              "TotalPoints": "286.00",
+              "Dives": [
+                {
+                  "DivePoints": "78.40"
+                },
+                {
+                  "DivePoints": "100.30"
+                },
+                {
+                  "DivePoints": "107.30"
+                }
+              ],
+              "Rank": 1,
+              "NAT": "CHN",
+              "FullName": "LIAN Junjie",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "263.10",
+              "Dives": [
+                {
+                  "DivePoints": "91.20"
+                },
+                {
+                  "DivePoints": "76.50"
+                },
+                {
+                  "DivePoints": "95.40"
+                }
+              ],
+              "Rank": 2,
+              "NAT": "CHN",
+              "FullName": "BAI Yuming",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "260.10",
+              "Dives": [
+                {
+                  "DivePoints": "81.60"
+                },
+                {
+                  "DivePoints": "86.70"
+                },
+                {
+                  "DivePoints": "91.80"
+                }
+              ],
+              "Rank": 3,
+              "NAT": "RUS",
+              "FullName": "TERNOVOI Ruslan",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "258.15",
+              "Dives": [
+                {
+                  "DivePoints": "86.40"
+                },
+                {
+                  "DivePoints": "91.80"
+                },
+                {
+                  "DivePoints": "79.95"
+                }
+              ],
+              "Rank": 4,
+              "NAT": "MEX",
+              "FullName": "WILLARS VALDEZ Randal",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "255.10",
+              "Dives": [
+                {
+                  "DivePoints": "80.00"
+                },
+                {
+                  "DivePoints": "85.10"
+                },
+                {
+                  "DivePoints": "90.00"
+                }
+              ],
+              "Rank": 5,
+              "NAT": "UKR",
+              "FullName": "HRYTSENKO Mark",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "241.80",
+              "Dives": [
+                {
+                  "DivePoints": "81.60"
+                },
+                {
+                  "DivePoints": "86.40"
+                },
+                {
+                  "DivePoints": "73.80"
+                }
+              ],
+              "Rank": 6,
+              "NAT": "UKR",
+              "FullName": "SEREDA Oleksii",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "233.80",
+              "Dives": [
+                {
+                  "DivePoints": "80.50"
+                },
+                {
+                  "DivePoints": "77.70"
+                },
+                {
+                  "DivePoints": "75.60"
+                }
+              ],
+              "Rank": 7,
+              "NAT": "GBR",
+              "FullName": "MCCABE Euan",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "232.80",
+              "Dives": [
+                {
+                  "DivePoints": "81.60"
+                },
+                {
+                  "DivePoints": "84.60"
+                },
+                {
+                  "DivePoints": "66.60"
+                }
+              ],
+              "Rank": 8,
+              "NAT": "AUS",
+              "FullName": "ROUSSEAU Cassiel",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "217.30",
+              "Dives": [
+                {
+                  "DivePoints": "69.70"
+                },
+                {
+                  "DivePoints": "66.60"
+                },
+                {
+                  "DivePoints": "81.00"
+                }
+              ],
+              "Rank": 9,
+              "NAT": "MEX",
+              "FullName": "BERLIN REYES Kevin",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "200.20",
+              "Dives": [
+                {
+                  "DivePoints": "64.00"
+                },
+                {
+                  "DivePoints": "71.40"
+                },
+                {
+                  "DivePoints": "64.80"
+                }
+              ],
+              "Rank": 10,
+              "NAT": "CAN",
+              "FullName": "CULLEN Matt",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "199.10",
+              "Dives": [
+                {
+                  "DivePoints": "67.65"
+                },
+                {
+                  "DivePoints": "40.80"
+                },
+                {
+                  "DivePoints": "90.65"
+                }
+              ],
+              "Rank": 11,
+              "NAT": "AUS",
+              "FullName": "MERCIECA Jonah",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "189.05",
+              "Dives": [
+                {
+                  "DivePoints": "81.60"
+                },
+                {
+                  "DivePoints": "61.20"
+                },
+                {
+                  "DivePoints": "46.25"
+                }
+              ],
+              "Rank": 12,
+              "NAT": "CAN",
+              "FullName": "TESSIER Benjamin",
+              "Gender": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "DisciplineName": "Men's 3m Synchronised",
+      "Heats": [
+        {
+          "PhaseName": "Finals",
+          "Results": [
+            {
+              "TotalPoints": "460.68",
+              "Dives": [
+                {
+                  "DivePoints": "51.60"
+                },
+                {
+                  "DivePoints": "54.60"
+                },
+                {
+                  "DivePoints": "85.05"
+                },
+                {
+                  "DivePoints": "85.68"
+                },
+                {
+                  "DivePoints": "86.64"
+                },
+                {
+                  "DivePoints": "97.11"
+                }
+              ],
+              "Rank": 1,
+              "NAT": "CHN",
+              "FullName": "WANG Zongyuan / ZHENG Jiuyuan",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "420.57",
+              "Dives": [
+                {
+                  "DivePoints": "49.80"
+                },
+                {
+                  "DivePoints": "49.20"
+                },
+                {
+                  "DivePoints": "81.60"
+                },
+                {
+                  "DivePoints": "82.62"
+                },
+                {
+                  "DivePoints": "67.26"
+                },
+                {
+                  "DivePoints": "90.09"
+                }
+              ],
+              "Rank": 2,
+              "NAT": "MEX",
+              "FullName": "CELAYA HERNANDEZ Juan Manuel / OLVERA IBARRA Osmar",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "406.20",
+              "Dives": [
+                {
+                  "DivePoints": "50.40"
+                },
+                {
+                  "DivePoints": "51.60"
+                },
+                {
+                  "DivePoints": "74.40"
+                },
+                {
+                  "DivePoints": "79.56"
+                },
+                {
+                  "DivePoints": "79.56"
+                },
+                {
+                  "DivePoints": "70.68"
+                }
+              ],
+              "Rank": 3,
+              "NAT": "GBR",
+              "FullName": "HARDING Anthony / LAUGHER Jack",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "396.54",
+              "Dives": [
+                {
+                  "DivePoints": "49.80"
+                },
+                {
+                  "DivePoints": "46.80"
+                },
+                {
+                  "DivePoints": "75.48"
+                },
+                {
+                  "DivePoints": "68.82"
+                },
+                {
+                  "DivePoints": "83.22"
+                },
+                {
+                  "DivePoints": "72.42"
+                }
+              ],
+              "Rank": 4,
+              "NAT": "UKR",
+              "FullName": "BOLIUKH Kirill / OLIFERCHYK Stanislav",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "389.88",
+              "Dives": [
+                {
+                  "DivePoints": "49.80"
+                },
+                {
+                  "DivePoints": "48.00"
+                },
+                {
+                  "DivePoints": "70.38"
+                },
+                {
+                  "DivePoints": "73.50"
+                },
+                {
+                  "DivePoints": "70.68"
+                },
+                {
+                  "DivePoints": "77.52"
+                }
+              ],
+              "Rank": 5,
+              "NAT": "CAN",
+              "FullName": "ZSOMBOR-MURRAY Nathan / PAUL Carson",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "383.55",
+              "Dives": [
+                {
+                  "DivePoints": "48.60"
+                },
+                {
+                  "DivePoints": "48.00"
+                },
+                {
+                  "DivePoints": "77.52"
+                },
+                {
+                  "DivePoints": "66.30"
+                },
+                {
+                  "DivePoints": "72.45"
+                },
+                {
+                  "DivePoints": "70.68"
+                }
+              ],
+              "Rank": 6,
+              "NAT": "GER",
+              "FullName": "SCHAUER Jonathan Gisbert / MASSENBERG Lou Noel Guy",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "378.51",
+              "Dives": [
+                {
+                  "DivePoints": "46.80"
+                },
+                {
+                  "DivePoints": "47.40"
+                },
+                {
+                  "DivePoints": "65.10"
+                },
+                {
+                  "DivePoints": "74.46"
+                },
+                {
+                  "DivePoints": "70.20"
+                },
+                {
+                  "DivePoints": "74.55"
+                }
+              ],
+              "Rank": 7,
+              "NAT": "JPN",
+              "FullName": "IKUMA Senri / SUYAMA Haruki",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "376.26",
+              "Dives": [
+                {
+                  "DivePoints": "48.00"
+                },
+                {
+                  "DivePoints": "48.00"
+                },
+                {
+                  "DivePoints": "70.68"
+                },
+                {
+                  "DivePoints": "79.56"
+                },
+                {
+                  "DivePoints": "67.32"
+                },
+                {
+                  "DivePoints": "62.70"
+                }
+              ],
+              "Rank": 8,
+              "NAT": "ITA",
+              "FullName": "MARSAGLIA Lorenzo / TOCCI Giovanni",
+              "Gender": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "DisciplineName": "Men's 10m Synchronised",
+      "Heats": [
+        {
+          "PhaseName": "Finals",
+          "Results": [
+            {
+              "TotalPoints": "448.68",
+              "Dives": [
+                {
+                  "DivePoints": "57.00"
+                },
+                {
+                  "DivePoints": "49.80"
+                },
+                {
+                  "DivePoints": "87.36"
+                },
+                {
+                  "DivePoints": "91.80"
+                },
+                {
+                  "DivePoints": "66.60"
+                },
+                {
+                  "DivePoints": "96.12"
+                }
+              ],
+              "Rank": 1,
+              "NAT": "CHN",
+              "FullName": "ZHAO Renjie / YANG Zhihao",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "404.28",
+              "Dives": [
+                {
+                  "DivePoints": "49.20"
+                },
+                {
+                  "DivePoints": "48.00"
+                },
+                {
+                  "DivePoints": "75.84"
+                },
+                {
+                  "DivePoints": "79.92"
+                },
+                {
+                  "DivePoints": "71.40"
+                },
+                {
+                  "DivePoints": "79.92"
+                }
+              ],
+              "Rank": 2,
+              "NAT": "UKR",
+              "FullName": "HRYTSENKO Mark / SEREDA Oleksii",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "403.02",
+              "Dives": [
+                {
+                  "DivePoints": "50.40"
+                },
+                {
+                  "DivePoints": "47.40"
+                },
+                {
+                  "DivePoints": "76.50"
+                },
+                {
+                  "DivePoints": "81.00"
+                },
+                {
+                  "DivePoints": "71.04"
+                },
+                {
+                  "DivePoints": "76.68"
+                }
+              ],
+              "Rank": 3,
+              "NAT": "MEX",
+              "FullName": "BERLIN REYES Kevin / WILLARS VALDEZ Randal",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "377.34",
+              "Dives": [
+                {
+                  "DivePoints": "45.60"
+                },
+                {
+                  "DivePoints": "48.00"
+                },
+                {
+                  "DivePoints": "73.44"
+                },
+                {
+                  "DivePoints": "74.52"
+                },
+                {
+                  "DivePoints": "68.82"
+                },
+                {
+                  "DivePoints": "66.96"
+                }
+              ],
+              "Rank": 4,
+              "NAT": "GBR",
+              "FullName": "MCCABE Euan / CUTMORE Ben",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "375.42",
+              "Dives": [
+                {
+                  "DivePoints": "51.00"
+                },
+                {
+                  "DivePoints": "48.60"
+                },
+                {
+                  "DivePoints": "71.40"
+                },
+                {
+                  "DivePoints": "84.24"
+                },
+                {
+                  "DivePoints": "51.06"
+                },
+                {
+                  "DivePoints": "69.12"
+                }
+              ],
+              "Rank": 5,
+              "NAT": "CAN",
+              "FullName": "CULLEN Matt / TESSIER Benjamin",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "370.74",
+              "Dives": [
+                {
+                  "DivePoints": "49.20"
+                },
+                {
+                  "DivePoints": "47.40"
+                },
+                {
+                  "DivePoints": "72.00"
+                },
+                {
+                  "DivePoints": "73.26"
+                },
+                {
+                  "DivePoints": "68.40"
+                },
+                {
+                  "DivePoints": "60.48"
+                }
+              ],
+              "Rank": 6,
+              "NAT": "ITA",
+              "FullName": "GIOVANNINI Riccardo / CONTE Simone",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "368.01",
+              "Dives": [
+                {
+                  "DivePoints": "47.40"
+                },
+                {
+                  "DivePoints": "47.40"
+                },
+                {
+                  "DivePoints": "71.04"
+                },
+                {
+                  "DivePoints": "75.84"
+                },
+                {
+                  "DivePoints": "65.28"
+                },
+                {
+                  "DivePoints": "61.05"
+                }
+              ],
+              "Rank": 7,
+              "NAT": "AUS",
+              "FullName": "MERCIECA Jonah / ROUSSEAU Cassiel",
+              "Gender": 0
+            },
+            {
+              "TotalPoints": "354.57",
+              "Dives": [
+                {
+                  "DivePoints": "48.60"
+                },
+                {
+                  "DivePoints": "50.40"
+                },
+                {
+                  "DivePoints": "57.12"
+                },
+                {
+                  "DivePoints": "51.84"
+                },
+                {
+                  "DivePoints": "69.93"
+                },
+                {
+                  "DivePoints": "76.68"
+                }
+              ],
+              "Rank": 8,
+              "NAT": "RUS",
+              "FullName": "SHLEIKHER Nikita / TERNOVOI Ruslan",
+              "Gender": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "DisciplineName": "Mixed 3m & 10m Team",
+      "Heats": [
+        {
+
+          "Results": [
+            {
+              "TotalPoints": "463.70",
+              "Dives": [
+                {
+                  "DivePoints": "72.00"
+                },
+                {
+                  "DivePoints": "85.00"
+                },
+                {
+                  "DivePoints": "52.50"
+                },
+                {
+                  "DivePoints": "52.50"
+                },
+                {
+                  "DivePoints": "89.10"
+                },
+                {
+                  "DivePoints": "85.10"
+                },
+                {
+                  "DivePoints": "80.00"
+                },
+                {
+                  "DivePoints": "80.00"
+                }
+              ],
+              "Rank": 1,
+              "NAT": "CHN",
+              "FullName": "LIU Chengzan / LIN Shan / LU Wei / BAI Yuming",
+              "Gender": 2
+            },
+            {
+              "TotalPoints": "422.50",
+              "Dives": [
+                {
+                  "DivePoints": "61.50"
+                },
+                {
+                  "DivePoints": "77.90"
+                },
+                {
+                  "DivePoints": "67.50"
+                },
+                {
+                  "DivePoints": "67.50"
+                },
+                {
+                  "DivePoints": "62.90"
+                },
+                {
+                  "DivePoints": "73.50"
+                },
+                {
+                  "DivePoints": "79.20"
+                },
+                {
+                  "DivePoints": "79.20"
+                }
+              ],
+              "Rank": 2,
+              "NAT": "MEX",
+              "FullName": "VAZQUEZ MONTANO Aranza / ESTUDILLO TORRES Alejandra / OLVERA IBARRA Osmar / WILLARS VALDEZ Randal",
+              "Gender": 2
+            },
+            {
+              "TotalPoints": "410.45",
+              "Dives": [
+                {
+                  "DivePoints": "54.40"
+                },
+                {
+                  "DivePoints": "57.35"
+                },
+                {
+                  "DivePoints": "60.00"
+                },
+                {
+                  "DivePoints": "60.00"
+                },
+                {
+                  "DivePoints": "81.60"
+                },
+                {
+                  "DivePoints": "86.70"
+                },
+                {
+                  "DivePoints": "70.40"
+                },
+                {
+                  "DivePoints": "70.40"
+                }
+              ],
+              "Rank": 3,
+              "NAT": "AUS",
+              "FullName": "KEENEY Maddison / COLE Ellie / ROUSSEAU Cassiel",
+              "Gender": 2
+            },
+            {
+              "TotalPoints": "408.50",
+              "Dives": [
+                {
+                  "DivePoints": "58.50"
+                },
+                {
+                  "DivePoints": "76.00"
+                },
+                {
+                  "DivePoints": "63.00"
+                },
+                {
+                  "DivePoints": "63.00"
+                },
+                {
+                  "DivePoints": "59.20"
+                },
+                {
+                  "DivePoints": "84.60"
+                },
+                {
+                  "DivePoints": "67.20"
+                },
+                {
+                  "DivePoints": "67.20"
+                }
+              ],
+              "Rank": 4,
+              "NAT": "CAN",
+              "FullName": "CULLEN Matt / VALLEE Mia / ZSOMBOR-MURRAY Nathan / FUNG Katelyn",
+              "Gender": 2
+            },
+            {
+              "TotalPoints": "405.20",
+              "Dives": [
+                {
+                  "DivePoints": "63.55"
+                },
+                {
+                  "DivePoints": "78.75"
+                },
+                {
+                  "DivePoints": "58.50"
+                },
+                {
+                  "DivePoints": "58.50"
+                },
+                {
+                  "DivePoints": "67.20"
+                },
+                {
+                  "DivePoints": "68.40"
+                },
+                {
+                  "DivePoints": "68.80"
+                },
+                {
+                  "DivePoints": "68.80"
+                }
+              ],
+              "Rank": 5,
+              "NAT": "RUS",
+              "FullName": "SHLEIKHER Nikita / TERNOVOI Ruslan / KLIUEVA Uliana / KAZANTSEVA Viktoria",
+              "Gender": 2
+            },
+            {
+              "TotalPoints": "401.60",
+              "Dives": [
+                {
+                  "DivePoints": "43.50"
+                },
+                {
+                  "DivePoints": "68.40"
+                },
+                {
+                  "DivePoints": "67.50"
+                },
+                {
+                  "DivePoints": "67.50"
+                },
+                {
+                  "DivePoints": "65.60"
+                },
+                {
+                  "DivePoints": "84.60"
+                },
+                {
+                  "DivePoints": "72.00"
+                },
+                {
+                  "DivePoints": "72.00"
+                }
+              ],
+              "Rank": 6,
+              "NAT": "UKR",
+              "FullName": "BOCHEK Kseniia / BOLIUKH Kirill / SEREDA Oleksii / BAILO Kseniia",
+              "Gender": 2
+            },
+            {
+              "TotalPoints": "366.60",
+              "Dives": [
+                {
+                  "DivePoints": "51.00"
+                },
+                {
+                  "DivePoints": "57.00"
+                },
+                {
+                  "DivePoints": "61.50"
+                },
+                {
+                  "DivePoints": "61.50"
+                },
+                {
+                  "DivePoints": "67.20"
+                },
+                {
+                  "DivePoints": "62.70"
+                },
+                {
+                  "DivePoints": "67.20"
+                },
+                {
+                  "DivePoints": "67.20"
+                }
+              ],
+              "Rank": 7,
+              "NAT": "ITA",
+              "FullName": "GIOVANNINI Riccardo / JODOIN DI MARIA Sarah / CONTE Simone / PIZZINI Elisa",
+              "Gender": 2
+            },
+            {
+              "TotalPoints": "360.70",
+              "Dives": [
+                {
+                  "DivePoints": "55.80"
+                },
+                {
+                  "DivePoints": "63.00"
+                },
+                {
+                  "DivePoints": "59.50"
+                },
+                {
+                  "DivePoints": "59.50"
+                },
+                {
+                  "DivePoints": "52.20"
+                },
+                {
+                  "DivePoints": "63.00"
+                },
+                {
+                  "DivePoints": "67.20"
+                },
+                {
+                  "DivePoints": "67.20"
+                }
+              ],
+              "Rank": 8,
+              "NAT": "USA",
+              "FullName": "MCAFEE Sophia / RYAN Jack / VERZYL Sophia / TYLER Carson",
+              "Gender": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

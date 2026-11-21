@@ -1,0 +1,16 @@
+Full Name:BAI Yuming
+Rank:1
+Score:81.60 + 86.40 + 77.00 + 91.80 + 104.40 + 101.75 = 542.95
+-----
+Full Name:WILLARS VALDEZ Randal
+Rank:2
+Score:85.75 + 76.50 + 87.50 + 93.60 + 88.20 + 106.60 = 538.15
+-----
+Full Name:LIAN Junjie
+Rank:3
+Score:91.20 + 96.00 + 94.50 + 49.30 + 64.80 + 111.00 = 506.80
+-----
+Full Name:ROUSSEAU Cassiel
+Rank:4
+Score:81.60 + 81.60 + 48.60 + 90.00 + 86.40 + 92.50 = 480.70
+-----
