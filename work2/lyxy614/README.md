@@ -89,6 +89,7 @@ java -cp target/DWASearch.jar com.dwasearch.crawler.DataCrawler
 |---------------|-----------------------------|
 | players       | 输出全部选手信息，按国籍升序、姓氏升序         |
 | result <项目名称> | 按排名输出决赛结果，各跳成绩保留两位小数并用 + 连接 |
+
 合法的项目名称：
 ```
 women 3m springboard
