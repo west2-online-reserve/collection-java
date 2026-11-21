@@ -1,0 +1,9 @@
+players
+result women 3m springboard
+result men 10m     synchronised
+player
+Players
+players extra
+resultwomen 3m springboard
+result
+result sss
