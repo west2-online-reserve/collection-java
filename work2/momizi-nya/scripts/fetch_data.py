@@ -133,7 +133,8 @@ def main():
             "players": players,
             "events": events,
         }
-        out_path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        with out_path.open("w", encoding="utf-8", newline="\n") as f:
+            f.write(json.dumps(data, ensure_ascii=False, indent=2) + "\n")
 
         manifest = {
             "schemaVersion": 1,
@@ -152,7 +153,8 @@ def main():
             mpath = out_path.with_name("manifest.json")
         else:
             mpath = out_path.with_name(out_path.stem + ".manifest.json")
-        mpath.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        with mpath.open("w", encoding="utf-8", newline="\n") as f:
+            f.write(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
 
         print("写出 %s（%d 名选手，%d 个项目）" % (out_path, len(players), len(events)))
         return 0

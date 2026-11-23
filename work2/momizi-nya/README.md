@@ -56,10 +56,10 @@ python scripts/fetch_data.py data.json
 ```
 
 脚本只用到 Python 标准库，不用装第三方包。它抓完会顺手更新 `manifest.json`，
-里面记着抓取时间 `2026-11-18T13:14:05Z`、三个接口地址，以及 `data.json` 的 sha256：
+里面记着抓取时间 `2026-11-23T04:56:01Z`、三个接口地址，以及 `data.json` 的 sha256：
 
 ```text
-sha256 88ae6ac4751e565addddd79627d424d1a0cbbaa8ca6dd34e7a8b6113abfc5571
+sha256 02fbcadf04095d7d91171b7696f9229bf9a017f84a5437eef34fdaf22d1d8776
 ```
 
 快照内容：赛事 ID 5019（2026 World Aquatics Diving World Cup - Super Final，

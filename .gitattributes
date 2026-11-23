@@ -5,3 +5,5 @@
 *.thrift text eol=lf
 *.proto text eol=lf
 Makefile text eol=lf
+work2/momizi-nya/data.json text eol=lf
+work2/momizi-nya/manifest.json text eol=lf
