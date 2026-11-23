@@ -1,0 +1,472 @@
+Full Name: CHEN Jia
+Gender: Female
+Country: CHN
+-----
+Full Name: CHEN Yiwen
+Gender: Female
+Country: CHN
+-----
+Full Name: KEENEY Maddison
+Gender: Female
+Country: AUS
+-----
+Full Name: KOLOI Alysha
+Gender: Female
+Country: AUS
+-----
+Full Name: JIANG Linjing
+Gender: Female
+Country: CHN
+-----
+Full Name: KONANYKHINA Anna
+Gender: Female
+Country: RUS
+-----
+Full Name: PFEIF Pauline Alexandra
+Gender: Female
+Country: GER
+-----
+Full Name: NIDAY Ellireese
+Gender: Female
+Country: USA
+-----
+Full Name: CHEN Jia
+Gender: Female
+Country: CHN
+-----
+Full Name: CHEN Yiwen
+Gender: Female
+Country: CHN
+-----
+Full Name: KEENEY Maddison
+Gender: Female
+Country: AUS
+-----
+Full Name: KOLOI Alysha
+Gender: Female
+Country: AUS
+-----
+Full Name: MEW JENSEN Scarlett
+Gender: Female
+Country: GBR
+-----
+Full Name: HARPER Yasmin
+Gender: Female
+Country: GBR
+-----
+Full Name: KWONG Anna
+Gender: Female
+Country: USA
+-----
+Full Name: VERZYL Sophia
+Gender: Female
+Country: USA
+-----
+Full Name: CUEVA LOBATO Mia Zazil
+Gender: Female
+Country: MEX
+-----
+Full Name: CUEVA LOBATO Lia Yatzil
+Gender: Female
+Country: MEX
+-----
+Full Name: TRIFONOVA Nadezhda
+Gender: Female
+Country: RUS
+-----
+Full Name: KLIUEVA Uliana
+Gender: Female
+Country: RUS
+-----
+Full Name: BOCHEK Kseniia
+Gender: Female
+Country: UKR
+-----
+Full Name: KARNAFEL Diana
+Gender: Female
+Country: UKR
+-----
+Full Name: VALLEE Mia
+Gender: Female
+Country: CAN
+-----
+Full Name: JASMIN Amelie-Laura
+Gender: Female
+Country: CAN
+-----
+Full Name: CHEN Yuxi
+Gender: Female
+Country: CHN
+-----
+Full Name: LU Wei
+Gender: Female
+Country: CHN
+-----
+Full Name: JO Jin Mi
+Gender: Female
+Country: PRK
+-----
+Full Name: KIM Mi Rae
+Gender: Female
+Country: PRK
+-----
+Full Name: PUCKERIDGE Milly
+Gender: Female
+Country: AUS
+-----
+Full Name: COLE Ellie
+Gender: Female
+Country: AUS
+-----
+Full Name: ESTUDILLO TORRES Alejandra
+Gender: Female
+Country: MEX
+-----
+Full Name: AGUNDEZ GARCIA Gabriela
+Gender: Female
+Country: MEX
+-----
+Full Name: KAZANTSEVA Viktoria
+Gender: Female
+Country: RUS
+-----
+Full Name: KONANYKHINA Anna
+Gender: Female
+Country: RUS
+-----
+Full Name: VYSTAVKINA Sofiia
+Gender: Female
+Country: UKR
+-----
+Full Name: BAILO Kseniia
+Gender: Female
+Country: UKR
+-----
+Full Name: MILLER Kate
+Gender: Female
+Country: CAN
+-----
+Full Name: FUNG Katelyn
+Gender: Female
+Country: CAN
+-----
+Full Name: WASSEN Elena
+Gender: Female
+Country: GER
+-----
+Full Name: PFEIF Pauline Alexandra
+Gender: Female
+Country: GER
+-----
+Full Name: WANG Zongyuan
+Gender: Male
+Country: CHN
+-----
+Full Name: ZHENG Jiuyuan
+Gender: Male
+Country: CHN
+-----
+Full Name: OLVERA IBARRA Osmar
+Gender: Male
+Country: MEX
+-----
+Full Name: BOUYER Jules
+Gender: Male
+Country: FRA
+-----
+Full Name: BAI Yuming
+Gender: Male
+Country: CHN
+-----
+Full Name: WILLARS VALDEZ Randal
+Gender: Male
+Country: MEX
+-----
+Full Name: LIAN Junjie
+Gender: Male
+Country: CHN
+-----
+Full Name: ROUSSEAU Cassiel
+Gender: Male
+Country: AUS
+-----
+Full Name: WANG Zongyuan
+Gender: Male
+Country: CHN
+-----
+Full Name: ZHENG Jiuyuan
+Gender: Male
+Country: CHN
+-----
+Full Name: CELAYA HERNANDEZ Juan Manuel
+Gender: Male
+Country: MEX
+-----
+Full Name: OLVERA IBARRA Osmar
+Gender: Male
+Country: MEX
+-----
+Full Name: HARDING Anthony
+Gender: Male
+Country: GBR
+-----
+Full Name: LAUGHER Jack
+Gender: Male
+Country: GBR
+-----
+Full Name: BOLIUKH Kirill
+Gender: Male
+Country: UKR
+-----
+Full Name: OLIFERCHYK Stanislav
+Gender: Male
+Country: UKR
+-----
+Full Name: ZSOMBOR-MURRAY Nathan
+Gender: Male
+Country: CAN
+-----
+Full Name: PAUL Carson
+Gender: Male
+Country: CAN
+-----
+Full Name: SCHAUER Jonathan Gisbert
+Gender: Male
+Country: GER
+-----
+Full Name: MASSENBERG Lou Noel Guy
+Gender: Male
+Country: GER
+-----
+Full Name: IKUMA Senri
+Gender: Male
+Country: JPN
+-----
+Full Name: SUYAMA Haruki
+Gender: Male
+Country: JPN
+-----
+Full Name: MARSAGLIA Lorenzo
+Gender: Male
+Country: ITA
+-----
+Full Name: TOCCI Giovanni
+Gender: Male
+Country: ITA
+-----
+Full Name: ZHAO Renjie
+Gender: Male
+Country: CHN
+-----
+Full Name: YANG Zhihao
+Gender: Male
+Country: CHN
+-----
+Full Name: HRYTSENKO Mark
+Gender: Male
+Country: UKR
+-----
+Full Name: SEREDA Oleksii
+Gender: Male
+Country: UKR
+-----
+Full Name: BERLIN REYES Kevin
+Gender: Male
+Country: MEX
+-----
+Full Name: WILLARS VALDEZ Randal
+Gender: Male
+Country: MEX
+-----
+Full Name: MCCABE Euan
+Gender: Male
+Country: GBR
+-----
+Full Name: CUTMORE Ben
+Gender: Male
+Country: GBR
+-----
+Full Name: CULLEN Matt
+Gender: Male
+Country: CAN
+-----
+Full Name: TESSIER Benjamin
+Gender: Male
+Country: CAN
+-----
+Full Name: GIOVANNINI Riccardo
+Gender: Male
+Country: ITA
+-----
+Full Name: CONTE Simone
+Gender: Male
+Country: ITA
+-----
+Full Name: MERCIECA Jonah
+Gender: Male
+Country: AUS
+-----
+Full Name: ROUSSEAU Cassiel
+Gender: Male
+Country: AUS
+-----
+Full Name: SHLEIKHER Nikita
+Gender: Male
+Country: RUS
+-----
+Full Name: TERNOVOI Ruslan
+Gender: Male
+Country: RUS
+-----
+women 3m springboard
+1st Full Name: CHEN Jia
+Score: 73.50 + 74.40 + 76.50 + 72.00 + 78.00 = 374.40
+-----
+2nd Full Name: CHEN Yiwen
+Score: 69.00 + 72.00 + 76.50 + 79.05 + 76.50 = 373.05
+-----
+3rd Full Name: KEENEY Maddison
+Score: 66.00 + 49.50 + 67.50 + 74.40 + 81.60 = 339.00
+-----
+4th Full Name: KOLOI Alysha
+Score: 67.50 + 65.10 + 40.50 + 58.50 + 63.00 = 294.60
+-----
+women 10m platform
+1st Full Name: JIANG Linjing
+Score: 81.60 + 73.50 + 94.05 + 86.40 + 62.40 = 397.95
+-----
+2nd Full Name: KONANYKHINA Anna
+Score: 61.50 + 76.80 + 54.60 + 49.50 + 76.80 = 319.20
+-----
+3rd Full Name: PFEIF Pauline Alexandra
+Score: 46.50 + 67.20 + 72.00 + 60.90 + 70.40 = 317.00
+-----
+4th Full Name: NIDAY Ellireese
+Score: 76.80 + 40.60 + 30.45 + 72.80 + 72.00 = 292.65
+-----
+women 3m synchronised
+1st Full Name: CHEN Jia / CHEN Yiwen
+Score: 51.60 + 51.00 + 73.80 + 79.05 + 75.60 = 331.05
+-----
+2nd Full Name: KEENEY Maddison / KOLOI Alysha
+Score: 49.20 + 45.00 + 69.30 + 72.54 + 63.90 = 299.94
+-----
+3rd Full Name: MEW JENSEN Scarlett / HARPER Yasmin
+Score: 49.20 + 46.20 + 69.30 + 64.80 + 65.10 = 294.60
+-----
+4th Full Name: KWONG Anna / VERZYL Sophia
+Score: 46.80 + 42.60 + 58.50 + 66.03 + 62.22 = 276.15
+-----
+5th Full Name: CUEVA LOBATO Mia Zazil / CUEVA LOBATO Lia Yatzil
+Score: 47.40 + 46.20 + 57.60 + 56.73 + 65.70 = 273.63
+-----
+6th Full Name: TRIFONOVA Nadezhda / KLIUEVA Uliana
+Score: 47.40 + 42.00 + 65.70 + 54.90 + 63.00 = 273.00
+-----
+7th Full Name: BOCHEK Kseniia / KARNAFEL Diana
+Score: 46.80 + 40.20 + 62.10 + 54.00 + 59.40 = 262.50
+-----
+8th Full Name: VALLEE Mia / JASMIN Amelie-Laura
+Score: 44.40 + 47.40 + 46.80 + 52.08 + 60.30 = 250.98
+-----
+women 10m synchronised
+1st Full Name: CHEN Yuxi / LU Wei
+Score: 54.60 + 55.80 + 81.00 + 84.48 + 90.24 = 366.12
+-----
+2nd Full Name: JO Jin Mi / KIM Mi Rae
+Score: 54.00 + 50.40 + 72.90 + 74.88 + 69.12 = 321.30
+-----
+3rd Full Name: PUCKERIDGE Milly / COLE Ellie
+Score: 45.00 + 46.20 + 64.80 + 66.24 + 74.88 = 297.12
+-----
+4th Full Name: ESTUDILLO TORRES Alejandra / AGUNDEZ GARCIA Gabriela
+Score: 46.80 + 42.60 + 68.40 + 65.28 + 72.96 = 296.04
+-----
+5th Full Name: KAZANTSEVA Viktoria / KONANYKHINA Anna
+Score: 46.20 + 45.60 + 64.80 + 60.48 + 67.20 = 284.28
+-----
+6th Full Name: VYSTAVKINA Sofiia / BAILO Kseniia
+Score: 45.60 + 46.20 + 65.70 + 62.40 + 58.56 = 278.46
+-----
+7th Full Name: MILLER Kate / FUNG Katelyn
+Score: 47.40 + 43.80 + 67.50 + 42.24 + 74.88 = 275.82
+-----
+8th Full Name: WASSEN Elena / PFEIF Pauline Alexandra
+Score: 43.80 + 42.60 + 45.12 + 61.20 + 50.88 = 243.60
+-----
+men 3m springboard
+1st Full Name: WANG Zongyuan
+Score: 86.70 + 89.25 + 95.55 + 89.25 + 81.00 + 102.60 = 544.35
+-----
+2nd Full Name: ZHENG Jiuyuan
+Score: 78.20 + 89.25 + 87.50 + 70.50 + 91.20 + 83.85 = 500.50
+-----
+3rd Full Name: OLVERA IBARRA Osmar
+Score: 86.70 + 71.75 + 46.80 + 86.70 + 96.90 + 91.65 = 480.50
+-----
+4th Full Name: BOUYER Jules
+Score: 66.30 + 81.60 + 72.00 + 70.00 + 73.50 + 79.80 = 443.20
+-----
+men 10m platform
+1st Full Name: BAI Yuming
+Score: 81.60 + 86.40 + 77.00 + 91.80 + 104.40 + 101.75 = 542.95
+-----
+2nd Full Name: WILLARS VALDEZ Randal
+Score: 85.75 + 76.50 + 87.50 + 93.60 + 88.20 + 106.60 = 538.15
+-----
+3rd Full Name: LIAN Junjie
+Score: 91.20 + 96.00 + 94.50 + 49.30 + 64.80 + 111.00 = 506.80
+-----
+4th Full Name: ROUSSEAU Cassiel
+Score: 81.60 + 81.60 + 48.60 + 90.00 + 86.40 + 92.50 = 480.70
+-----
+men 3m synchronised
+1st Full Name: WANG Zongyuan / ZHENG Jiuyuan
+Score: 51.60 + 54.60 + 85.05 + 85.68 + 86.64 + 97.11 = 460.68
+-----
+2nd Full Name: CELAYA HERNANDEZ Juan Manuel / OLVERA IBARRA Osmar
+Score: 49.80 + 49.20 + 81.60 + 82.62 + 67.26 + 90.09 = 420.57
+-----
+3rd Full Name: HARDING Anthony / LAUGHER Jack
+Score: 50.40 + 51.60 + 74.40 + 79.56 + 79.56 + 70.68 = 406.20
+-----
+4th Full Name: BOLIUKH Kirill / OLIFERCHYK Stanislav
+Score: 49.80 + 46.80 + 75.48 + 68.82 + 83.22 + 72.42 = 396.54
+-----
+5th Full Name: ZSOMBOR-MURRAY Nathan / PAUL Carson
+Score: 49.80 + 48.00 + 70.38 + 73.50 + 70.68 + 77.52 = 389.88
+-----
+6th Full Name: SCHAUER Jonathan Gisbert / MASSENBERG Lou Noel Guy
+Score: 48.60 + 48.00 + 77.52 + 66.30 + 72.45 + 70.68 = 383.55
+-----
+7th Full Name: IKUMA Senri / SUYAMA Haruki
+Score: 46.80 + 47.40 + 65.10 + 74.46 + 70.20 + 74.55 = 378.51
+-----
+8th Full Name: MARSAGLIA Lorenzo / TOCCI Giovanni
+Score: 48.00 + 48.00 + 70.68 + 79.56 + 67.32 + 62.70 = 376.26
+-----
+men 10m synchronised
+1st Full Name: ZHAO Renjie / YANG Zhihao
+Score: 57.00 + 49.80 + 87.36 + 91.80 + 66.60 + 96.12 = 448.68
+-----
+2nd Full Name: HRYTSENKO Mark / SEREDA Oleksii
+Score: 49.20 + 48.00 + 75.84 + 79.92 + 71.40 + 79.92 = 404.28
+-----
+3rd Full Name: BERLIN REYES Kevin / WILLARS VALDEZ Randal
+Score: 50.40 + 47.40 + 76.50 + 81.00 + 71.04 + 76.68 = 403.02
+-----
+4th Full Name: MCCABE Euan / CUTMORE Ben
+Score: 45.60 + 48.00 + 73.44 + 74.52 + 68.82 + 66.96 = 377.34
+-----
+5th Full Name: CULLEN Matt / TESSIER Benjamin
+Score: 51.00 + 48.60 + 71.40 + 84.24 + 51.06 + 69.12 = 375.42
+-----
+6th Full Name: GIOVANNINI Riccardo / CONTE Simone
+Score: 49.20 + 47.40 + 72.00 + 73.26 + 68.40 + 60.48 = 370.74
+-----
+7th Full Name: MERCIECA Jonah / ROUSSEAU Cassiel
+Score: 47.40 + 47.40 + 71.04 + 75.84 + 65.28 + 61.05 = 368.01
+-----
+8th Full Name: SHLEIKHER Nikita / TERNOVOI Ruslan
+Score: 48.60 + 50.40 + 57.12 + 51.84 + 69.93 + 76.68 = 354.57
+-----
