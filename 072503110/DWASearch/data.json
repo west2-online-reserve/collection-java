@@ -1,0 +1,692 @@
+{
+  "players" : [ {
+    "fullName" : "CHEN Jia",
+    "gender" : "Female",
+    "country" : "CHN",
+    "lastName" : "CHEN"
+  }, {
+    "fullName" : "CHEN Yiwen",
+    "gender" : "Female",
+    "country" : "CHN",
+    "lastName" : "CHEN"
+  }, {
+    "fullName" : "KEENEY Maddison",
+    "gender" : "Female",
+    "country" : "AUS",
+    "lastName" : "KEENEY"
+  }, {
+    "fullName" : "KOLOI Alysha",
+    "gender" : "Female",
+    "country" : "AUS",
+    "lastName" : "KOLOI"
+  }, {
+    "fullName" : "JIANG Linjing",
+    "gender" : "Female",
+    "country" : "CHN",
+    "lastName" : "JIANG"
+  }, {
+    "fullName" : "KONANYKHINA Anna",
+    "gender" : "Female",
+    "country" : "RUS",
+    "lastName" : "KONANYKHINA"
+  }, {
+    "fullName" : "PFEIF Pauline Alexandra",
+    "gender" : "Female",
+    "country" : "GER",
+    "lastName" : "PFEIF"
+  }, {
+    "fullName" : "NIDAY Ellireese",
+    "gender" : "Female",
+    "country" : "USA",
+    "lastName" : "NIDAY"
+  }, {
+    "fullName" : "CHEN Jia",
+    "gender" : "Female",
+    "country" : "CHN",
+    "lastName" : "CHEN"
+  }, {
+    "fullName" : "CHEN Yiwen",
+    "gender" : "Female",
+    "country" : "CHN",
+    "lastName" : "CHEN"
+  }, {
+    "fullName" : "KEENEY Maddison",
+    "gender" : "Female",
+    "country" : "AUS",
+    "lastName" : "KEENEY"
+  }, {
+    "fullName" : "KOLOI Alysha",
+    "gender" : "Female",
+    "country" : "AUS",
+    "lastName" : "KOLOI"
+  }, {
+    "fullName" : "MEW JENSEN Scarlett",
+    "gender" : "Female",
+    "country" : "GBR",
+    "lastName" : "MEW JENSEN"
+  }, {
+    "fullName" : "HARPER Yasmin",
+    "gender" : "Female",
+    "country" : "GBR",
+    "lastName" : "HARPER"
+  }, {
+    "fullName" : "KWONG Anna",
+    "gender" : "Female",
+    "country" : "USA",
+    "lastName" : "KWONG"
+  }, {
+    "fullName" : "VERZYL Sophia",
+    "gender" : "Female",
+    "country" : "USA",
+    "lastName" : "VERZYL"
+  }, {
+    "fullName" : "CUEVA LOBATO Mia Zazil",
+    "gender" : "Female",
+    "country" : "MEX",
+    "lastName" : "CUEVA LOBATO"
+  }, {
+    "fullName" : "CUEVA LOBATO Lia Yatzil",
+    "gender" : "Female",
+    "country" : "MEX",
+    "lastName" : "CUEVA LOBATO"
+  }, {
+    "fullName" : "TRIFONOVA Nadezhda",
+    "gender" : "Female",
+    "country" : "RUS",
+    "lastName" : "TRIFONOVA"
+  }, {
+    "fullName" : "KLIUEVA Uliana",
+    "gender" : "Female",
+    "country" : "RUS",
+    "lastName" : "KLIUEVA"
+  }, {
+    "fullName" : "BOCHEK Kseniia",
+    "gender" : "Female",
+    "country" : "UKR",
+    "lastName" : "BOCHEK"
+  }, {
+    "fullName" : "KARNAFEL Diana",
+    "gender" : "Female",
+    "country" : "UKR",
+    "lastName" : "KARNAFEL"
+  }, {
+    "fullName" : "VALLEE Mia",
+    "gender" : "Female",
+    "country" : "CAN",
+    "lastName" : "VALLEE"
+  }, {
+    "fullName" : "JASMIN Amelie-Laura",
+    "gender" : "Female",
+    "country" : "CAN",
+    "lastName" : "JASMIN"
+  }, {
+    "fullName" : "CHEN Yuxi",
+    "gender" : "Female",
+    "country" : "CHN",
+    "lastName" : "CHEN"
+  }, {
+    "fullName" : "LU Wei",
+    "gender" : "Female",
+    "country" : "CHN",
+    "lastName" : "LU"
+  }, {
+    "fullName" : "JO Jin Mi",
+    "gender" : "Female",
+    "country" : "PRK",
+    "lastName" : "JO"
+  }, {
+    "fullName" : "KIM Mi Rae",
+    "gender" : "Female",
+    "country" : "PRK",
+    "lastName" : "KIM"
+  }, {
+    "fullName" : "PUCKERIDGE Milly",
+    "gender" : "Female",
+    "country" : "AUS",
+    "lastName" : "PUCKERIDGE"
+  }, {
+    "fullName" : "COLE Ellie",
+    "gender" : "Female",
+    "country" : "AUS",
+    "lastName" : "COLE"
+  }, {
+    "fullName" : "ESTUDILLO TORRES Alejandra",
+    "gender" : "Female",
+    "country" : "MEX",
+    "lastName" : "ESTUDILLO TORRES"
+  }, {
+    "fullName" : "AGUNDEZ GARCIA Gabriela",
+    "gender" : "Female",
+    "country" : "MEX",
+    "lastName" : "AGUNDEZ GARCIA"
+  }, {
+    "fullName" : "KAZANTSEVA Viktoria",
+    "gender" : "Female",
+    "country" : "RUS",
+    "lastName" : "KAZANTSEVA"
+  }, {
+    "fullName" : "KONANYKHINA Anna",
+    "gender" : "Female",
+    "country" : "RUS",
+    "lastName" : "KONANYKHINA"
+  }, {
+    "fullName" : "VYSTAVKINA Sofiia",
+    "gender" : "Female",
+    "country" : "UKR",
+    "lastName" : "VYSTAVKINA"
+  }, {
+    "fullName" : "BAILO Kseniia",
+    "gender" : "Female",
+    "country" : "UKR",
+    "lastName" : "BAILO"
+  }, {
+    "fullName" : "MILLER Kate",
+    "gender" : "Female",
+    "country" : "CAN",
+    "lastName" : "MILLER"
+  }, {
+    "fullName" : "FUNG Katelyn",
+    "gender" : "Female",
+    "country" : "CAN",
+    "lastName" : "FUNG"
+  }, {
+    "fullName" : "WASSEN Elena",
+    "gender" : "Female",
+    "country" : "GER",
+    "lastName" : "WASSEN"
+  }, {
+    "fullName" : "PFEIF Pauline Alexandra",
+    "gender" : "Female",
+    "country" : "GER",
+    "lastName" : "PFEIF"
+  }, {
+    "fullName" : "WANG Zongyuan",
+    "gender" : "Male",
+    "country" : "CHN",
+    "lastName" : "WANG"
+  }, {
+    "fullName" : "ZHENG Jiuyuan",
+    "gender" : "Male",
+    "country" : "CHN",
+    "lastName" : "ZHENG"
+  }, {
+    "fullName" : "OLVERA IBARRA Osmar",
+    "gender" : "Male",
+    "country" : "MEX",
+    "lastName" : "OLVERA IBARRA"
+  }, {
+    "fullName" : "BOUYER Jules",
+    "gender" : "Male",
+    "country" : "FRA",
+    "lastName" : "BOUYER"
+  }, {
+    "fullName" : "BAI Yuming",
+    "gender" : "Male",
+    "country" : "CHN",
+    "lastName" : "BAI"
+  }, {
+    "fullName" : "WILLARS VALDEZ Randal",
+    "gender" : "Male",
+    "country" : "MEX",
+    "lastName" : "WILLARS VALDEZ"
+  }, {
+    "fullName" : "LIAN Junjie",
+    "gender" : "Male",
+    "country" : "CHN",
+    "lastName" : "LIAN"
+  }, {
+    "fullName" : "ROUSSEAU Cassiel",
+    "gender" : "Male",
+    "country" : "AUS",
+    "lastName" : "ROUSSEAU"
+  }, {
+    "fullName" : "WANG Zongyuan",
+    "gender" : "Male",
+    "country" : "CHN",
+    "lastName" : "WANG"
+  }, {
+    "fullName" : "ZHENG Jiuyuan",
+    "gender" : "Male",
+    "country" : "CHN",
+    "lastName" : "ZHENG"
+  }, {
+    "fullName" : "CELAYA HERNANDEZ Juan Manuel",
+    "gender" : "Male",
+    "country" : "MEX",
+    "lastName" : "CELAYA HERNANDEZ"
+  }, {
+    "fullName" : "OLVERA IBARRA Osmar",
+    "gender" : "Male",
+    "country" : "MEX",
+    "lastName" : "OLVERA IBARRA"
+  }, {
+    "fullName" : "HARDING Anthony",
+    "gender" : "Male",
+    "country" : "GBR",
+    "lastName" : "HARDING"
+  }, {
+    "fullName" : "LAUGHER Jack",
+    "gender" : "Male",
+    "country" : "GBR",
+    "lastName" : "LAUGHER"
+  }, {
+    "fullName" : "BOLIUKH Kirill",
+    "gender" : "Male",
+    "country" : "UKR",
+    "lastName" : "BOLIUKH"
+  }, {
+    "fullName" : "OLIFERCHYK Stanislav",
+    "gender" : "Male",
+    "country" : "UKR",
+    "lastName" : "OLIFERCHYK"
+  }, {
+    "fullName" : "ZSOMBOR-MURRAY Nathan",
+    "gender" : "Male",
+    "country" : "CAN",
+    "lastName" : "ZSOMBOR-MURRAY"
+  }, {
+    "fullName" : "PAUL Carson",
+    "gender" : "Male",
+    "country" : "CAN",
+    "lastName" : "PAUL"
+  }, {
+    "fullName" : "SCHAUER Jonathan Gisbert",
+    "gender" : "Male",
+    "country" : "GER",
+    "lastName" : "SCHAUER"
+  }, {
+    "fullName" : "MASSENBERG Lou Noel Guy",
+    "gender" : "Male",
+    "country" : "GER",
+    "lastName" : "MASSENBERG"
+  }, {
+    "fullName" : "IKUMA Senri",
+    "gender" : "Male",
+    "country" : "JPN",
+    "lastName" : "IKUMA"
+  }, {
+    "fullName" : "SUYAMA Haruki",
+    "gender" : "Male",
+    "country" : "JPN",
+    "lastName" : "SUYAMA"
+  }, {
+    "fullName" : "MARSAGLIA Lorenzo",
+    "gender" : "Male",
+    "country" : "ITA",
+    "lastName" : "MARSAGLIA"
+  }, {
+    "fullName" : "TOCCI Giovanni",
+    "gender" : "Male",
+    "country" : "ITA",
+    "lastName" : "TOCCI"
+  }, {
+    "fullName" : "ZHAO Renjie",
+    "gender" : "Male",
+    "country" : "CHN",
+    "lastName" : "ZHAO"
+  }, {
+    "fullName" : "YANG Zhihao",
+    "gender" : "Male",
+    "country" : "CHN",
+    "lastName" : "YANG"
+  }, {
+    "fullName" : "HRYTSENKO Mark",
+    "gender" : "Male",
+    "country" : "UKR",
+    "lastName" : "HRYTSENKO"
+  }, {
+    "fullName" : "SEREDA Oleksii",
+    "gender" : "Male",
+    "country" : "UKR",
+    "lastName" : "SEREDA"
+  }, {
+    "fullName" : "BERLIN REYES Kevin",
+    "gender" : "Male",
+    "country" : "MEX",
+    "lastName" : "BERLIN REYES"
+  }, {
+    "fullName" : "WILLARS VALDEZ Randal",
+    "gender" : "Male",
+    "country" : "MEX",
+    "lastName" : "WILLARS VALDEZ"
+  }, {
+    "fullName" : "MCCABE Euan",
+    "gender" : "Male",
+    "country" : "GBR",
+    "lastName" : "MCCABE"
+  }, {
+    "fullName" : "CUTMORE Ben",
+    "gender" : "Male",
+    "country" : "GBR",
+    "lastName" : "CUTMORE"
+  }, {
+    "fullName" : "CULLEN Matt",
+    "gender" : "Male",
+    "country" : "CAN",
+    "lastName" : "CULLEN"
+  }, {
+    "fullName" : "TESSIER Benjamin",
+    "gender" : "Male",
+    "country" : "CAN",
+    "lastName" : "TESSIER"
+  }, {
+    "fullName" : "GIOVANNINI Riccardo",
+    "gender" : "Male",
+    "country" : "ITA",
+    "lastName" : "GIOVANNINI"
+  }, {
+    "fullName" : "CONTE Simone",
+    "gender" : "Male",
+    "country" : "ITA",
+    "lastName" : "CONTE"
+  }, {
+    "fullName" : "MERCIECA Jonah",
+    "gender" : "Male",
+    "country" : "AUS",
+    "lastName" : "MERCIECA"
+  }, {
+    "fullName" : "ROUSSEAU Cassiel",
+    "gender" : "Male",
+    "country" : "AUS",
+    "lastName" : "ROUSSEAU"
+  }, {
+    "fullName" : "SHLEIKHER Nikita",
+    "gender" : "Male",
+    "country" : "RUS",
+    "lastName" : "SHLEIKHER"
+  }, {
+    "fullName" : "TERNOVOI Ruslan",
+    "gender" : "Male",
+    "country" : "RUS",
+    "lastName" : "TERNOVOI"
+  } ],
+  "results" : [ {
+    "event" : "women 3m springboard",
+    "rank" : 1,
+    "diverName" : "CHEN Jia",
+    "scores" : [ 73.5, 74.4, 76.5, 72.0, 78.0 ],
+    "totalScore" : 374.4
+  }, {
+    "event" : "women 3m springboard",
+    "rank" : 2,
+    "diverName" : "CHEN Yiwen",
+    "scores" : [ 69.0, 72.0, 76.5, 79.05, 76.5 ],
+    "totalScore" : 373.05
+  }, {
+    "event" : "women 3m springboard",
+    "rank" : 3,
+    "diverName" : "KEENEY Maddison",
+    "scores" : [ 66.0, 49.5, 67.5, 74.4, 81.6 ],
+    "totalScore" : 339.0
+  }, {
+    "event" : "women 3m springboard",
+    "rank" : 4,
+    "diverName" : "KOLOI Alysha",
+    "scores" : [ 67.5, 65.1, 40.5, 58.5, 63.0 ],
+    "totalScore" : 294.6
+  }, {
+    "event" : "women 10m platform",
+    "rank" : 1,
+    "diverName" : "JIANG Linjing",
+    "scores" : [ 81.6, 73.5, 94.05, 86.4, 62.4 ],
+    "totalScore" : 397.95
+  }, {
+    "event" : "women 10m platform",
+    "rank" : 2,
+    "diverName" : "KONANYKHINA Anna",
+    "scores" : [ 61.5, 76.8, 54.6, 49.5, 76.8 ],
+    "totalScore" : 319.2
+  }, {
+    "event" : "women 10m platform",
+    "rank" : 3,
+    "diverName" : "PFEIF Pauline Alexandra",
+    "scores" : [ 46.5, 67.2, 72.0, 60.9, 70.4 ],
+    "totalScore" : 317.0
+  }, {
+    "event" : "women 10m platform",
+    "rank" : 4,
+    "diverName" : "NIDAY Ellireese",
+    "scores" : [ 76.8, 40.6, 30.45, 72.8, 72.0 ],
+    "totalScore" : 292.65
+  }, {
+    "event" : "women 3m synchronised",
+    "rank" : 1,
+    "diverName" : "CHEN Jia / CHEN Yiwen",
+    "scores" : [ 51.6, 51.0, 73.8, 79.05, 75.6 ],
+    "totalScore" : 331.05
+  }, {
+    "event" : "women 3m synchronised",
+    "rank" : 2,
+    "diverName" : "KEENEY Maddison / KOLOI Alysha",
+    "scores" : [ 49.2, 45.0, 69.3, 72.54, 63.9 ],
+    "totalScore" : 299.94
+  }, {
+    "event" : "women 3m synchronised",
+    "rank" : 3,
+    "diverName" : "MEW JENSEN Scarlett / HARPER Yasmin",
+    "scores" : [ 49.2, 46.2, 69.3, 64.8, 65.1 ],
+    "totalScore" : 294.6
+  }, {
+    "event" : "women 3m synchronised",
+    "rank" : 4,
+    "diverName" : "KWONG Anna / VERZYL Sophia",
+    "scores" : [ 46.8, 42.6, 58.5, 66.03, 62.22 ],
+    "totalScore" : 276.15
+  }, {
+    "event" : "women 3m synchronised",
+    "rank" : 5,
+    "diverName" : "CUEVA LOBATO Mia Zazil / CUEVA LOBATO Lia Yatzil",
+    "scores" : [ 47.4, 46.2, 57.6, 56.73, 65.7 ],
+    "totalScore" : 273.63
+  }, {
+    "event" : "women 3m synchronised",
+    "rank" : 6,
+    "diverName" : "TRIFONOVA Nadezhda / KLIUEVA Uliana",
+    "scores" : [ 47.4, 42.0, 65.7, 54.9, 63.0 ],
+    "totalScore" : 273.0
+  }, {
+    "event" : "women 3m synchronised",
+    "rank" : 7,
+    "diverName" : "BOCHEK Kseniia / KARNAFEL Diana",
+    "scores" : [ 46.8, 40.2, 62.1, 54.0, 59.4 ],
+    "totalScore" : 262.5
+  }, {
+    "event" : "women 3m synchronised",
+    "rank" : 8,
+    "diverName" : "VALLEE Mia / JASMIN Amelie-Laura",
+    "scores" : [ 44.4, 47.4, 46.8, 52.08, 60.3 ],
+    "totalScore" : 250.98
+  }, {
+    "event" : "women 10m synchronised",
+    "rank" : 1,
+    "diverName" : "CHEN Yuxi / LU Wei",
+    "scores" : [ 54.6, 55.8, 81.0, 84.48, 90.24 ],
+    "totalScore" : 366.12
+  }, {
+    "event" : "women 10m synchronised",
+    "rank" : 2,
+    "diverName" : "JO Jin Mi / KIM Mi Rae",
+    "scores" : [ 54.0, 50.4, 72.9, 74.88, 69.12 ],
+    "totalScore" : 321.3
+  }, {
+    "event" : "women 10m synchronised",
+    "rank" : 3,
+    "diverName" : "PUCKERIDGE Milly / COLE Ellie",
+    "scores" : [ 45.0, 46.2, 64.8, 66.24, 74.88 ],
+    "totalScore" : 297.12
+  }, {
+    "event" : "women 10m synchronised",
+    "rank" : 4,
+    "diverName" : "ESTUDILLO TORRES Alejandra / AGUNDEZ GARCIA Gabriela",
+    "scores" : [ 46.8, 42.6, 68.4, 65.28, 72.96 ],
+    "totalScore" : 296.04
+  }, {
+    "event" : "women 10m synchronised",
+    "rank" : 5,
+    "diverName" : "KAZANTSEVA Viktoria / KONANYKHINA Anna",
+    "scores" : [ 46.2, 45.6, 64.8, 60.48, 67.2 ],
+    "totalScore" : 284.28
+  }, {
+    "event" : "women 10m synchronised",
+    "rank" : 6,
+    "diverName" : "VYSTAVKINA Sofiia / BAILO Kseniia",
+    "scores" : [ 45.6, 46.2, 65.7, 62.4, 58.56 ],
+    "totalScore" : 278.46
+  }, {
+    "event" : "women 10m synchronised",
+    "rank" : 7,
+    "diverName" : "MILLER Kate / FUNG Katelyn",
+    "scores" : [ 47.4, 43.8, 67.5, 42.24, 74.88 ],
+    "totalScore" : 275.82
+  }, {
+    "event" : "women 10m synchronised",
+    "rank" : 8,
+    "diverName" : "WASSEN Elena / PFEIF Pauline Alexandra",
+    "scores" : [ 43.8, 42.6, 45.12, 61.2, 50.88 ],
+    "totalScore" : 243.6
+  }, {
+    "event" : "men 3m springboard",
+    "rank" : 1,
+    "diverName" : "WANG Zongyuan",
+    "scores" : [ 86.7, 89.25, 95.55, 89.25, 81.0, 102.6 ],
+    "totalScore" : 544.35
+  }, {
+    "event" : "men 3m springboard",
+    "rank" : 2,
+    "diverName" : "ZHENG Jiuyuan",
+    "scores" : [ 78.2, 89.25, 87.5, 70.5, 91.2, 83.85 ],
+    "totalScore" : 500.5
+  }, {
+    "event" : "men 3m springboard",
+    "rank" : 3,
+    "diverName" : "OLVERA IBARRA Osmar",
+    "scores" : [ 86.7, 71.75, 46.8, 86.7, 96.9, 91.65 ],
+    "totalScore" : 480.5
+  }, {
+    "event" : "men 3m springboard",
+    "rank" : 4,
+    "diverName" : "BOUYER Jules",
+    "scores" : [ 66.3, 81.6, 72.0, 70.0, 73.5, 79.8 ],
+    "totalScore" : 443.2
+  }, {
+    "event" : "men 10m platform",
+    "rank" : 1,
+    "diverName" : "BAI Yuming",
+    "scores" : [ 81.6, 86.4, 77.0, 91.8, 104.4, 101.75 ],
+    "totalScore" : 542.95
+  }, {
+    "event" : "men 10m platform",
+    "rank" : 2,
+    "diverName" : "WILLARS VALDEZ Randal",
+    "scores" : [ 85.75, 76.5, 87.5, 93.6, 88.2, 106.6 ],
+    "totalScore" : 538.15
+  }, {
+    "event" : "men 10m platform",
+    "rank" : 3,
+    "diverName" : "LIAN Junjie",
+    "scores" : [ 91.2, 96.0, 94.5, 49.3, 64.8, 111.0 ],
+    "totalScore" : 506.8
+  }, {
+    "event" : "men 10m platform",
+    "rank" : 4,
+    "diverName" : "ROUSSEAU Cassiel",
+    "scores" : [ 81.6, 81.6, 48.6, 90.0, 86.4, 92.5 ],
+    "totalScore" : 480.7
+  }, {
+    "event" : "men 3m synchronised",
+    "rank" : 1,
+    "diverName" : "WANG Zongyuan / ZHENG Jiuyuan",
+    "scores" : [ 51.6, 54.6, 85.05, 85.68, 86.64, 97.11 ],
+    "totalScore" : 460.68
+  }, {
+    "event" : "men 3m synchronised",
+    "rank" : 2,
+    "diverName" : "CELAYA HERNANDEZ Juan Manuel / OLVERA IBARRA Osmar",
+    "scores" : [ 49.8, 49.2, 81.6, 82.62, 67.26, 90.09 ],
+    "totalScore" : 420.57
+  }, {
+    "event" : "men 3m synchronised",
+    "rank" : 3,
+    "diverName" : "HARDING Anthony / LAUGHER Jack",
+    "scores" : [ 50.4, 51.6, 74.4, 79.56, 79.56, 70.68 ],
+    "totalScore" : 406.2
+  }, {
+    "event" : "men 3m synchronised",
+    "rank" : 4,
+    "diverName" : "BOLIUKH Kirill / OLIFERCHYK Stanislav",
+    "scores" : [ 49.8, 46.8, 75.48, 68.82, 83.22, 72.42 ],
+    "totalScore" : 396.54
+  }, {
+    "event" : "men 3m synchronised",
+    "rank" : 5,
+    "diverName" : "ZSOMBOR-MURRAY Nathan / PAUL Carson",
+    "scores" : [ 49.8, 48.0, 70.38, 73.5, 70.68, 77.52 ],
+    "totalScore" : 389.88
+  }, {
+    "event" : "men 3m synchronised",
+    "rank" : 6,
+    "diverName" : "SCHAUER Jonathan Gisbert / MASSENBERG Lou Noel Guy",
+    "scores" : [ 48.6, 48.0, 77.52, 66.3, 72.45, 70.68 ],
+    "totalScore" : 383.55
+  }, {
+    "event" : "men 3m synchronised",
+    "rank" : 7,
+    "diverName" : "IKUMA Senri / SUYAMA Haruki",
+    "scores" : [ 46.8, 47.4, 65.1, 74.46, 70.2, 74.55 ],
+    "totalScore" : 378.51
+  }, {
+    "event" : "men 3m synchronised",
+    "rank" : 8,
+    "diverName" : "MARSAGLIA Lorenzo / TOCCI Giovanni",
+    "scores" : [ 48.0, 48.0, 70.68, 79.56, 67.32, 62.7 ],
+    "totalScore" : 376.26
+  }, {
+    "event" : "men 10m synchronised",
+    "rank" : 1,
+    "diverName" : "ZHAO Renjie / YANG Zhihao",
+    "scores" : [ 57.0, 49.8, 87.36, 91.8, 66.6, 96.12 ],
+    "totalScore" : 448.68
+  }, {
+    "event" : "men 10m synchronised",
+    "rank" : 2,
+    "diverName" : "HRYTSENKO Mark / SEREDA Oleksii",
+    "scores" : [ 49.2, 48.0, 75.84, 79.92, 71.4, 79.92 ],
+    "totalScore" : 404.28
+  }, {
+    "event" : "men 10m synchronised",
+    "rank" : 3,
+    "diverName" : "BERLIN REYES Kevin / WILLARS VALDEZ Randal",
+    "scores" : [ 50.4, 47.4, 76.5, 81.0, 71.04, 76.68 ],
+    "totalScore" : 403.02
+  }, {
+    "event" : "men 10m synchronised",
+    "rank" : 4,
+    "diverName" : "MCCABE Euan / CUTMORE Ben",
+    "scores" : [ 45.6, 48.0, 73.44, 74.52, 68.82, 66.96 ],
+    "totalScore" : 377.34
+  }, {
+    "event" : "men 10m synchronised",
+    "rank" : 5,
+    "diverName" : "CULLEN Matt / TESSIER Benjamin",
+    "scores" : [ 51.0, 48.6, 71.4, 84.24, 51.06, 69.12 ],
+    "totalScore" : 375.42
+  }, {
+    "event" : "men 10m synchronised",
+    "rank" : 6,
+    "diverName" : "GIOVANNINI Riccardo / CONTE Simone",
+    "scores" : [ 49.2, 47.4, 72.0, 73.26, 68.4, 60.48 ],
+    "totalScore" : 370.74
+  }, {
+    "event" : "men 10m synchronised",
+    "rank" : 7,
+    "diverName" : "MERCIECA Jonah / ROUSSEAU Cassiel",
+    "scores" : [ 47.4, 47.4, 71.04, 75.84, 65.28, 61.05 ],
+    "totalScore" : 368.01
+  }, {
+    "event" : "men 10m synchronised",
+    "rank" : 8,
+    "diverName" : "SHLEIKHER Nikita / TERNOVOI Ruslan",
+    "scores" : [ 48.6, 50.4, 57.12, 51.84, 69.93, 76.68 ],
+    "totalScore" : 354.57
+  } ]
+}
