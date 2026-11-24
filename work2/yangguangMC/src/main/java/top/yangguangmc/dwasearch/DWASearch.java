@@ -25,8 +25,8 @@ public final class DWASearch {
         if (Files.exists(output) && (!Files.isWritable(output) || !Files.isRegularFile(output))) {
             throw new FileNotWritableException("Output file %s is not writable.%n".formatted(output));
         }
-        this.input = input;
-        this.output = output;
+        this.input = input.toAbsolutePath();
+        this.output = output.toAbsolutePath();
     }
 
     public static void main(String[] args) {

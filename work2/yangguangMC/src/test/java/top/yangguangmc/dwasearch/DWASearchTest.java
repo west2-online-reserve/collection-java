@@ -94,4 +94,30 @@ class DWASearchTest {
         Files.delete(input);
         Files.delete(output);
     }
+
+    @Test
+    void directOutputFileNameWithoutParentDir() throws IOException {
+        Path input = Path.of("input.txt");
+        boolean inputExists = Files.exists(input);
+        Path output = Path.of("output.txt");
+        boolean outputExists = Files.exists(output);
+        try {
+            if (!inputExists) {
+                Files.createFile(input);    // 文件的内容不重要，重要的是别在路径解析时空指针
+            }
+            if (!outputExists) {
+                Files.createFile(output);
+            }
+            // 上面的测试都没发现这个问题，是因为 toAbsolutePath()
+            DWASearch instance = new DWASearch(input, output);
+            assertDoesNotThrow(instance::processInstructions);
+        } finally {
+            if (!inputExists) {
+                Files.delete(input);
+            }
+            if (!outputExists) {
+                Files.delete(output);
+            }
+        }
+    }
 }
