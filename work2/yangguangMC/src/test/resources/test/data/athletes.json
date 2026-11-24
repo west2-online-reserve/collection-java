@@ -1,0 +1,27 @@
+[
+  {
+    "CountryName": "Country Name1",
+    "Participations": [
+      {
+        "PreferredFirstName": "First Name1",
+        "PreferredLastName": "LAST NAME1",
+        "Gender": 0
+      },
+      {
+        "PreferredFirstName": "First Name2",
+        "PreferredLastName": "LAST NAME2",
+        "Gender": 1
+      }
+    ]
+  },
+  {
+    "CountryName": "Country Name2",
+    "Participations": [
+      {
+        "PreferredFirstName": "First Name3",
+        "PreferredLastName": "LAST NAME3",
+        "Gender": 0
+      }
+    ]
+  }
+]
