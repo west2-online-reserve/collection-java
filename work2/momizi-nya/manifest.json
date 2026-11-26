@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-11-23T04:56:01Z",
+  "source": {
+    "provider": "World Aquatics",
+    "competitionEndpoint": "https://api.worldaquatics.com/fina/competitions/5019/events",
+    "athletesEndpoint": "https://api.worldaquatics.com/fina/competitions/5019/athletes",
+    "eventEndpointTemplate": "https://api.worldaquatics.com/fina/events/{eventId}"
+  },
+  "files": {
+    "data.json": {
+      "sha256": "02fbcadf04095d7d91171b7696f9229bf9a017f84a5437eef34fdaf22d1d8776"
+    }
+  }
+}
